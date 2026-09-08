@@ -1,0 +1,443 @@
+[
+  {
+    "pr": "https://github.com/liuzhao1225/YouDub-webui/pull/130",
+    "comment": "https://github.com/liuzhao1225/YouDub-webui/pull/130#issuecomment-5590699738",
+    "comment_api": "https://api.github.com/repos/liuzhao1225/YouDub-webui/issues/comments/5590699738",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:32:28Z",
+    "body_sha256": "30d7e46e990e5fd1ecc5231888464f5fbf34982d9dc1a98c91b2c732f2a3ffc8",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/yilewang/llm-for-zotero/pull/316",
+    "comment": "https://github.com/yilewang/llm-for-zotero/pull/316#issuecomment-5590700439",
+    "comment_api": "https://api.github.com/repos/yilewang/llm-for-zotero/issues/comments/5590700439",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:32:32Z",
+    "body_sha256": "1c17fd8b4671c9b64cdfb8fb8101a40c528ff15c3381fdf49899e3d201ae5f96",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/microsoft/TinyTroupe/pull/160",
+    "comment": "https://github.com/microsoft/TinyTroupe/pull/160#issuecomment-5590701303",
+    "comment_api": "https://api.github.com/repos/microsoft/TinyTroupe/issues/comments/5590701303",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:32:36Z",
+    "body_sha256": "a8f5cd0bf1202187959be142bfabc039b09ba9e10d4cf1b399c2e68f06a7619c",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/xunbu/docutranslate/pull/53",
+    "comment": "https://github.com/xunbu/docutranslate/pull/53#issuecomment-5590701997",
+    "comment_api": "https://api.github.com/repos/xunbu/docutranslate/issues/comments/5590701997",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:32:40Z",
+    "body_sha256": "a1841c6033b6e35df29d75037fd4a17f3588477aee4b2811652a9b534e75e76d",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/polyrabbit/hacker-news-digest/pull/47",
+    "comment": "https://github.com/polyrabbit/hacker-news-digest/pull/47#issuecomment-5590702610",
+    "comment_api": "https://api.github.com/repos/polyrabbit/hacker-news-digest/issues/comments/5590702610",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:32:43Z",
+    "body_sha256": "b8f8f9f5fe6b6e3fa3d9d7e2487cb1781698f4e73cd85ef384bf847db157c28e",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/modelscope/FunClip/pull/178",
+    "comment": "https://github.com/modelscope/FunClip/pull/178#issuecomment-5590703315",
+    "comment_api": "https://api.github.com/repos/modelscope/FunClip/issues/comments/5590703315",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:32:46Z",
+    "body_sha256": "ba6e8a097a7c06a782f1d2bd9e87de8ac3ab10e81787a4515b7b2b551247969c",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/chartbrew/chartbrew/pull/365",
+    "comment": "https://github.com/chartbrew/chartbrew/pull/365#issuecomment-5590704021",
+    "comment_api": "https://api.github.com/repos/chartbrew/chartbrew/issues/comments/5590704021",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:32:50Z",
+    "body_sha256": "059a2488c16facfd2a788c7f42f504f64998de812a9747838c2ef8739601a1e5",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/itsOwen/CyberScraper-2077/pull/50",
+    "comment": "https://github.com/itsOwen/CyberScraper-2077/pull/50#issuecomment-5590704773",
+    "comment_api": "https://api.github.com/repos/itsOwen/CyberScraper-2077/issues/comments/5590704773",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:32:54Z",
+    "body_sha256": "43e467d0f66d2ef672ff051808abd77d7703f1b3e9852e4dac3aa5b5d34bd08d",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/e2b-dev/surf/pull/40",
+    "comment": "https://github.com/e2b-dev/surf/pull/40#issuecomment-5590706606",
+    "comment_api": "https://api.github.com/repos/e2b-dev/surf/issues/comments/5590706606",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:33:03Z",
+    "body_sha256": "098a164d0bb56871921e84b2f3f067bf874d05ab5f791f3e30e2f9631956c073",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/cltk/cltk/pull/1332",
+    "comment": "https://github.com/cltk/cltk/pull/1332#issuecomment-5590707382",
+    "comment_api": "https://api.github.com/repos/cltk/cltk/issues/comments/5590707382",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:33:07Z",
+    "body_sha256": "2ef2d6426b8878421c0d83e904e910a6c4237a5f64dd15aedc84ad1d3fe059be",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/Atmosphere/atmosphere/pull/2735",
+    "comment": "https://github.com/Atmosphere/atmosphere/pull/2735#issuecomment-5590708211",
+    "comment_api": "https://api.github.com/repos/Atmosphere/atmosphere/issues/comments/5590708211",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:33:11Z",
+    "body_sha256": "38d069458aefed3a93f76143f7d68fc0c8b4fe8d3139b452beb348bac38725c4",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/inkeep/agents/pull/3492",
+    "comment": "https://github.com/inkeep/agents/pull/3492#issuecomment-5590708958",
+    "comment_api": "https://api.github.com/repos/inkeep/agents/issues/comments/5590708958",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:33:14Z",
+    "body_sha256": "67693e2abe84f5bb8fad9d38f2bef135fe3d51c6c21e0e46e6d8fa4034c7549a",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/ShenSeanChen/waku-agent/pull/73",
+    "comment": "https://github.com/ShenSeanChen/waku-agent/pull/73#issuecomment-5590709740",
+    "comment_api": "https://api.github.com/repos/ShenSeanChen/waku-agent/issues/comments/5590709740",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:33:18Z",
+    "body_sha256": "17e911d70835b1b65e22500fb3dcbd783ad32d9483930ad816449767cb19580b",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/Nutlope/notesGPT/pull/44",
+    "comment": "https://github.com/Nutlope/notesGPT/pull/44#issuecomment-5590710478",
+    "comment_api": "https://api.github.com/repos/Nutlope/notesGPT/issues/comments/5590710478",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:33:22Z",
+    "body_sha256": "fd3fd8beac4842d7b7f9448286d763c9dd66eb3b8f18459218cabc4f1318c1bb",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/k8sgpt-ai/k8sgpt/pull/1719",
+    "comment": "https://github.com/k8sgpt-ai/k8sgpt/pull/1719#issuecomment-5590711145",
+    "comment_api": "https://api.github.com/repos/k8sgpt-ai/k8sgpt/issues/comments/5590711145",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:33:25Z",
+    "body_sha256": "30489cc3b6f6588f028c50f90056ff847b27de3c4040d435ab2c8a05d78307d2",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/SciSharp/BotSharp/pull/1395",
+    "comment": "https://github.com/SciSharp/BotSharp/pull/1395#issuecomment-5590711907",
+    "comment_api": "https://api.github.com/repos/SciSharp/BotSharp/issues/comments/5590711907",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:33:29Z",
+    "body_sha256": "40a50fca070a49470890dc977dce41bf8028087e63791753403ea9acbb96ca07",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/mnemox-ai/tradememory-protocol/pull/10",
+    "comment": "https://github.com/mnemox-ai/tradememory-protocol/pull/10#issuecomment-5590712634",
+    "comment_api": "https://api.github.com/repos/mnemox-ai/tradememory-protocol/issues/comments/5590712634",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:33:33Z",
+    "body_sha256": "802d7c2224a3797a2adb4b441c7b09f709fdb2f4af35a7724094e201b57f3e51",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/orneryd/NornicDB/pull/292",
+    "comment": "https://github.com/orneryd/NornicDB/pull/292#issuecomment-5590713278",
+    "comment_api": "https://api.github.com/repos/orneryd/NornicDB/issues/comments/5590713278",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:33:37Z",
+    "body_sha256": "bf0c9055e0f69edeea80a05b29653e71d5a728a12d464bcd5678256fe4031e7e",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/VersusControl/versus-incident/pull/333",
+    "comment": "https://github.com/VersusControl/versus-incident/pull/333#issuecomment-5590716777",
+    "comment_api": "https://api.github.com/repos/VersusControl/versus-incident/issues/comments/5590716777",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:33:54Z",
+    "body_sha256": "6a2ecabcc6e4abbbe9c57754f07c4fc359ed9ca397f28e9c9bc70db8694ddce0",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/krishn404/Git-Friend/pull/15",
+    "comment": "https://github.com/krishn404/Git-Friend/pull/15#issuecomment-5590717522",
+    "comment_api": "https://api.github.com/repos/krishn404/Git-Friend/issues/comments/5590717522",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:33:58Z",
+    "body_sha256": "16681a9505652462c2ce8e627902a671b66bbc7b41b6fcf221623aaa11240825",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/MindWorkAI/AI-Studio/pull/909",
+    "comment": "https://github.com/MindWorkAI/AI-Studio/pull/909#issuecomment-5590718382",
+    "comment_api": "https://api.github.com/repos/MindWorkAI/AI-Studio/issues/comments/5590718382",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:34:02Z",
+    "body_sha256": "518556b4c4f7f32cb41915e7f94d375ce6c18631047c1835060effb71f85eff5",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/nextai-translator/nextai-translator/pull/1905",
+    "comment": "https://github.com/nextai-translator/nextai-translator/pull/1905#issuecomment-5590719410",
+    "comment_api": "https://api.github.com/repos/nextai-translator/nextai-translator/issues/comments/5590719410",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:34:06Z",
+    "body_sha256": "25a32acc064a0484f5fe426f59ed6161b2e371eab9f2d37f4234d991051ee404",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/StarTrail-org/LEANN/pull/395",
+    "comment": "https://github.com/StarTrail-org/LEANN/pull/395#issuecomment-5590720279",
+    "comment_api": "https://api.github.com/repos/StarTrail-org/LEANN/issues/comments/5590720279",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:34:10Z",
+    "body_sha256": "d454c7003e7066da9ce90a1d3d96fc824be63451b2e32169bc8dbd06d6b6ec49",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/SWE-bench/SWE-bench/pull/639",
+    "comment": "https://github.com/SWE-bench/SWE-bench/pull/639#issuecomment-5590721184",
+    "comment_api": "https://api.github.com/repos/SWE-bench/SWE-bench/issues/comments/5590721184",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:34:14Z",
+    "body_sha256": "aeec1a3b89264edd20ddfa2728fdb1e228d0f4690029cd242b749f0f1e6a8725",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/buxuku/SmartSub/pull/448",
+    "comment": "https://github.com/buxuku/SmartSub/pull/448#issuecomment-5590721954",
+    "comment_api": "https://api.github.com/repos/buxuku/SmartSub/issues/comments/5590721954",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:34:18Z",
+    "body_sha256": "ac4e57c452aa77cac06f0a19f5d7fc4415b6968d24457ef1e5961826d6186b21",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/TIGER-AI-Lab/ClawBench/pull/288",
+    "comment": "https://github.com/TIGER-AI-Lab/ClawBench/pull/288#issuecomment-5590722797",
+    "comment_api": "https://api.github.com/repos/TIGER-AI-Lab/ClawBench/issues/comments/5590722797",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:34:22Z",
+    "body_sha256": "c3e92623cd6468c8945f60a00ad8a76af9c17f2df5248fd545fc7b70fa63ee1c",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/trpc-group/trpc-agent-go/pull/2484",
+    "comment": "https://github.com/trpc-group/trpc-agent-go/pull/2484#issuecomment-5590723625",
+    "comment_api": "https://api.github.com/repos/trpc-group/trpc-agent-go/issues/comments/5590723625",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:34:26Z",
+    "body_sha256": "3ea95129af17fedfb5596cd18b2cf08475acc16767ca2223e0fdbc31581e21eb",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/jianchang512/pyvideotrans/pull/1181",
+    "comment": "https://github.com/jianchang512/pyvideotrans/pull/1181#issuecomment-5590724455",
+    "comment_api": "https://api.github.com/repos/jianchang512/pyvideotrans/issues/comments/5590724455",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:34:30Z",
+    "body_sha256": "aaab89b32ca3c13a25d425ab0b7f5e46ac17ff3fe7e127bc174ae44428135319",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/lofcz/LLMTornado/pull/186",
+    "comment": "https://github.com/lofcz/LLMTornado/pull/186#issuecomment-5590728327",
+    "comment_api": "https://api.github.com/repos/lofcz/LLMTornado/issues/comments/5590728327",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:34:45Z",
+    "body_sha256": "ed1a97f59a33c25c25b3d226120c54cf92307b8affd8825813e7f3a2d1f115a0",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/continuedev/continue/pull/13151",
+    "comment": "https://github.com/continuedev/continue/pull/13151#issuecomment-5590729173",
+    "comment_api": "https://api.github.com/repos/continuedev/continue/issues/comments/5590729173",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:34:49Z",
+    "body_sha256": "15d863aa04ef834f9701275bc74dfcc8b27bb7588e63c7ae1095ed59d08b5544",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/OpenBMB/UltraRAG/pull/496",
+    "comment": "https://github.com/OpenBMB/UltraRAG/pull/496#issuecomment-5590729969",
+    "comment_api": "https://api.github.com/repos/OpenBMB/UltraRAG/issues/comments/5590729969",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:34:53Z",
+    "body_sha256": "b4a7ecf3ebf79b6892c473c49e09876265e96463179cfab25185cb3930e59b88",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/OtterMind/Chat2DB/pull/2757",
+    "comment": "https://github.com/OtterMind/Chat2DB/pull/2757#issuecomment-5590730909",
+    "comment_api": "https://api.github.com/repos/OtterMind/Chat2DB/issues/comments/5590730909",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:34:57Z",
+    "body_sha256": "c5c900df483b0a32cc903b3293d4248ec13cdd20fc112766f05e3db94e5b7156",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/zhayujie/CowAgent/pull/3075",
+    "comment": "https://github.com/zhayujie/CowAgent/pull/3075#issuecomment-5590731654",
+    "comment_api": "https://api.github.com/repos/zhayujie/CowAgent/issues/comments/5590731654",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:35:00Z",
+    "body_sha256": "06d4bad7d6dd46525d5b9dc6db470c60437500294415fd517cdec09b84b7b780",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/StarTrail-org/PixelRAG/pull/145",
+    "comment": "https://github.com/StarTrail-org/PixelRAG/pull/145#issuecomment-5590732384",
+    "comment_api": "https://api.github.com/repos/StarTrail-org/PixelRAG/issues/comments/5590732384",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:35:04Z",
+    "body_sha256": "cdd337f9c490a13de7b71a00edd82ddf0acc11a0edfd44823fd283cf3291fb67",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/trailhq/Graft/pull/220",
+    "comment": "https://github.com/trailhq/Graft/pull/220#issuecomment-5590733182",
+    "comment_api": "https://api.github.com/repos/trailhq/Graft/issues/comments/5590733182",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:35:07Z",
+    "body_sha256": "21953a4a2228cb8de164b4a5fe9ac44e6c8b69c905645fc3fdf59a577aa9073d",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/Tencent/AI-Infra-Guard/pull/598",
+    "comment": "https://github.com/Tencent/AI-Infra-Guard/pull/598#issuecomment-5590734091",
+    "comment_api": "https://api.github.com/repos/Tencent/AI-Infra-Guard/issues/comments/5590734091",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:35:11Z",
+    "body_sha256": "2f2f5fd7fe96272f05229f395bca1eaf821967e650b9cb71289c318c65db813f",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/trace-cortex/cortex-app/pull/9",
+    "comment": "https://github.com/trace-cortex/cortex-app/pull/9#issuecomment-5590735011",
+    "comment_api": "https://api.github.com/repos/trace-cortex/cortex-app/issues/comments/5590735011",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:35:16Z",
+    "body_sha256": "5c004261390b8bb0249ac32919db032582a1475f1cf82e7269400aa58b08f9cd",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/datalab-to/marker/pull/1097",
+    "comment": "https://github.com/datalab-to/marker/pull/1097#issuecomment-5590735900",
+    "comment_api": "https://api.github.com/repos/datalab-to/marker/issues/comments/5590735900",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:35:20Z",
+    "body_sha256": "f05fc96c082bb2a99922bec6d582951fd2c781973188607a0b734067c7d31931",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/datajuicer/data-juicer/pull/1062",
+    "comment": "https://github.com/datajuicer/data-juicer/pull/1062#issuecomment-5590737832",
+    "comment_api": "https://api.github.com/repos/datajuicer/data-juicer/issues/comments/5590737832",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:35:27Z",
+    "body_sha256": "d48972e0ecdfa536a075ec8240aaa33c684f4faf3e71e0b2b37ec997ac5771d6",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/TideDra/zotero-arxiv-daily/pull/294",
+    "comment": "https://github.com/TideDra/zotero-arxiv-daily/pull/294#issuecomment-5590738780",
+    "comment_api": "https://api.github.com/repos/TideDra/zotero-arxiv-daily/issues/comments/5590738780",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:35:31Z",
+    "body_sha256": "925e916f8eca680395dfa99deb1555ee8fddb1a313504cf112411b396515d182",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/Tencent/WeKnora/pull/2923",
+    "comment": "https://github.com/Tencent/WeKnora/pull/2923#issuecomment-5590739619",
+    "comment_api": "https://api.github.com/repos/Tencent/WeKnora/issues/comments/5590739619",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:35:35Z",
+    "body_sha256": "ccf1da4281fd94d88fbe033aebd1c105685cd414e97398f2328159c016e55a54",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/0xMassi/webclaw/pull/123",
+    "comment": "https://github.com/0xMassi/webclaw/pull/123#issuecomment-5590740681",
+    "comment_api": "https://api.github.com/repos/0xMassi/webclaw/issues/comments/5590740681",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:35:39Z",
+    "body_sha256": "4c69c07bd554a4849d741a49e8e1f8c87d2c62ea5504ad40c9729b8a4194bad5",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/nageoffer/ragent/pull/126",
+    "comment": "https://github.com/nageoffer/ragent/pull/126#issuecomment-5590741404",
+    "comment_api": "https://api.github.com/repos/nageoffer/ragent/issues/comments/5590741404",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:35:42Z",
+    "body_sha256": "d57e92274d70ccee2686e19c54b089327687cbf0087e9bfc117c6278bb747411",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/sdcb/chats/pull/142",
+    "comment": "https://github.com/sdcb/chats/pull/142#issuecomment-5590742281",
+    "comment_api": "https://api.github.com/repos/sdcb/chats/issues/comments/5590742281",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:35:46Z",
+    "body_sha256": "106a4204cc0a9213526139ed25a3beaf6add1ae6a909707bfdd99a1a40c40799",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/Awarexone/Agentic-Bug-Hunter/pull/129",
+    "comment": "https://github.com/Awarexone/Agentic-Bug-Hunter/pull/129#issuecomment-5590743068",
+    "comment_api": "https://api.github.com/repos/Awarexone/Agentic-Bug-Hunter/issues/comments/5590743068",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:35:49Z",
+    "body_sha256": "64ec0f0aca9bfed1614dd6f5f580c67b6a52446cda1f72c82a051e77f6301a2e",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/agentscope-ai/OpenJudge/pull/196",
+    "comment": "https://github.com/agentscope-ai/OpenJudge/pull/196#issuecomment-5590744124",
+    "comment_api": "https://api.github.com/repos/agentscope-ai/OpenJudge/issues/comments/5590744124",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:35:53Z",
+    "body_sha256": "1aed5f911f6646a8f80c661ebd0d11f9514ec0235b287af7a4f5893ebad2fd5c",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/jjyaoao/HelloAgents/pull/113",
+    "comment": "https://github.com/jjyaoao/HelloAgents/pull/113#issuecomment-5590745009",
+    "comment_api": "https://api.github.com/repos/jjyaoao/HelloAgents/issues/comments/5590745009",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:35:56Z",
+    "body_sha256": "a8c6ca8d37510bd72b64ed32cca52436ebcea7031acf3b6bcecfc3e9f2b56868",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/SenteLabsAI/OpenExecutive/pull/98",
+    "comment": "https://github.com/SenteLabsAI/OpenExecutive/pull/98#issuecomment-5590770823",
+    "comment_api": "https://api.github.com/repos/SenteLabsAI/OpenExecutive/issues/comments/5590770823",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:37:50Z",
+    "body_sha256": "1afc046d7f5f9641f846edc777c7e86f46627e60b1400b6445e71e4bca06cf7c",
+    "readback_verified": true
+  },
+  {
+    "pr": "https://github.com/ageerle/ruoyi-ai/pull/333",
+    "comment": "https://github.com/ageerle/ruoyi-ai/pull/333#issuecomment-5590771584",
+    "comment_api": "https://api.github.com/repos/ageerle/ruoyi-ai/issues/comments/5590771584",
+    "author": "liuzhao1225",
+    "created_at": "2026-09-08T19:37:54Z",
+    "body_sha256": "0ef8364b5363126354c5d6fce493dfe2390619649520fa7c70c55c4870b1ebd0",
+    "readback_verified": true
+  }
+]

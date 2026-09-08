@@ -1,0 +1,69 @@
+{
+  "url": "https://github.com/SenteLabsAI/OpenExecutive/pull/98",
+  "head_sha": "def6748dd5e3615c077ba16ad0ce76ee1e7bdb78",
+  "base_sha": "69c0ae33eaeab05575a11eda7829bf7cc9ae3d08",
+  "prior_head": "cf6903bb342c32a0772eee4009472ee2339dbdbd",
+  "state": "open",
+  "observed_update": "Upstream main synchronization; optional LiteLLM extra retained; current lock fixes LiteLLM 1.100.0.",
+  "lock": {
+    "pr": "https://github.com/SenteLabsAI/OpenExecutive/pull/98",
+    "head": "def6748dd5e3615c077ba16ad0ce76ee1e7bdb78",
+    "lock_path": "packages/core/uv.lock",
+    "version": "1.100.0",
+    "artifacts": 8,
+    "mismatches": [],
+    "source": {
+      "registry": "https://pypi.org/simple"
+    }
+  },
+  "files": [
+    {
+      "path": ".env.example",
+      "blob_sha": "cf419ceddbc62c8038c84b9847e67ca993e47b18",
+      "patch_sha256": "97f1e55ff657f74474c631d2105a7373043b2358e0e7872a089b3d3e244ca211",
+      "patch_available": true
+    },
+    {
+      "path": "packages/core/openexecutive/config.py",
+      "blob_sha": "6cd01eaf7677961adc501451fc0f31da5ade81f8",
+      "patch_sha256": "61277697df9126c494807d07adf1fe0cdc5202593202823a1609521ba545909d",
+      "patch_available": true
+    },
+    {
+      "path": "packages/core/openexecutive/providers/litellm_provider.py",
+      "blob_sha": "610432ddc1a3c991fb7823638c7880a48fd0a6a3",
+      "patch_sha256": "503671b804666cc447f5e022fef99641061934f3cd55a63c6d8d77ff6682a6cb",
+      "patch_available": true
+    },
+    {
+      "path": "packages/core/openexecutive/providers/registry.py",
+      "blob_sha": "bc8d2ae23b4565c8748cafdc15daa1c50f17c927",
+      "patch_sha256": "8d2e59735943655c055517411396e1f4338a822cbfee36386010bc5ef2a38a50",
+      "patch_available": true
+    },
+    {
+      "path": "packages/core/pyproject.toml",
+      "blob_sha": "ff9347c4197394a8ab4ff57a03cbc125648fb14f",
+      "patch_sha256": "57f49fc1c4bb9784ef7c2794488f23a1bd7b1c021ef86e82b554a2b17e18acc2",
+      "patch_available": true
+    },
+    {
+      "path": "packages/core/tests/unit/test_config_litellm.py",
+      "blob_sha": "2ed4c4dc012e95457fa645cd5bed3c62eced54fd",
+      "patch_sha256": "58a5bbdaa4add9226f3a0365aa9c1921806539dc2e5e6d19e286801dfdc291db",
+      "patch_available": true
+    },
+    {
+      "path": "packages/core/tests/unit/test_litellm_provider.py",
+      "blob_sha": "d62ea4fd02bce0520599a9575ab4e2eb86355dc8",
+      "patch_sha256": "9f806150bdd7c999fb3a942549c47352ce545d523dc961ca876c2dcf794120a9",
+      "patch_available": true
+    },
+    {
+      "path": "packages/core/uv.lock",
+      "blob_sha": "c51337d4d314b4a9a6fd6d729df9741194440bc3",
+      "patch_sha256": "86ef0037d936d3beb89a18fd0bf136f498832c82b5b8605ca157c78875dbff63",
+      "patch_available": true
+    }
+  ]
+}

@@ -15,6 +15,14 @@
 - PR 最早创建于 2026-07-17，最新一批为 2026-09-08；122 个记录的 author date 范围为 2026-07-17 至 2026-09-08。Git author date 可由提交者设置，应优先使用 GitHub PR 创建时间判断提交批次。
 - 公开 issue 作者搜索为 0；其在 BerriAI/litellm 的公开参与搜索为 0，公开组织列表为空，profile 未声明公司。在本次读取的资料中未找到雇佣、赞助或委托关系声明。上述空结果无法排除未公开关系。
 
+## 批量提交开始时间与测试覆盖
+
+最早可见 PR 是 [llm-for-zotero #316](https://github.com/yilewang/llm-for-zotero/pull/316)，GitHub 创建时间为 2026-07-17 18:49:48 UTC，即北京时间 7 月 18 日 02:49:48。随后约 28 分钟内，同一账号在 TinyTroupe、docutranslate、hacker-news-digest、FunClip 创建了另外 4 个 LiteLLM PR。逐条时间和固定版本见 [PR 索引](PR-INDEX.md)。这表示本次可见记录的起点，无法排除此前未公开或已删除的活动。
+
+[YouDub #130 新增的测试辅助函数](https://github.com/liuzhao1225/YouDub-webui/blob/1add1b6d90795ddc222c3f5021305a2e8d953a17/backend/tests/test_litellm_translate.py#L17)创建假 LiteLLM 模块，写入 Python 的模块缓存，返回预设响应。包括名称含 end_to_end 的翻译测试也使用了该替身；它能验证应用内部参数传递和解析，无法验证真实 LiteLLM 包的兼容性或供应链安全。使用替身是常见单测手段，不能单凭此认定故意规避检查。
+
+作者在 [PR 描述](https://github.com/liuzhao1225/YouDub-webui/pull/130)另外声明做过真实端点测试。本次未独立重现其结果，应请作者提供复现命令、准确版本和制品信息；这些声明无法覆盖范围内所有后续版本。
+
 ## 最有解释力的证据
 
 1. **作者确认批量提交。** Chartbrew 维护者[询问动机与实际使用场景](https://github.com/chartbrew/chartbrew/pull/365#issuecomment-5162631959)。作者[回复](https://github.com/chartbrew/chartbrew/pull/365#issuecomment-5207856315)：“Yes, I have been submitting LiteLLM integrations to open-source projects.” 并表示自己不是 Chartbrew 的日常用户，理由是方便已有网关的团队接入。此回复可以支持“批量集成”的结论，未声明商业关系。
@@ -346,3 +354,7 @@
 私有仓库、已删除分支、不可达提交、其他账号和未索引记录不在覆盖范围。Git author date 可自行设置；时间线优先依据 GitHub PR 创建时间。SDK/代理分类依据新增调用静态识别，需要结合部署方式解释。
 
 本记录没有发现该贡献者与历史投毒的证据联系。静态筛查没有命中不代表整个依赖树安全。邮件与私人联系方式不纳入公开资料。欢迎作者和维护者提交带来源的澄清、更正；请在相关技术讨论中交流，避免人身攻击或重复刷屏。
+
+## Follow-up observed during notification
+
+[OpenExecutive #98](https://github.com/SenteLabsAI/OpenExecutive/pull/98) advanced to an upstream synchronization commit while notices were being prepared. Its optional extra remains in place, and the current lock fixes LiteLLM 1.100.0. All 8 LiteLLM artifact URLs/hashes match PyPI metadata. The [updated snapshot](updates/OpenExecutive-98.json) supplements the original six-lockfile baseline; the new lock is an additional reproducibility control.

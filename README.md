@@ -2,7 +2,7 @@
 
 Public technical review, snapshot **2026-09-09**. This record begins with [YouDub-webui PR #130](https://github.com/liuzhao1225/YouDub-webui/pull/130) and documents related integration proposals so maintainers can assess dependency and credential boundaries. It does **not establish malicious intent, participation in a compromise, or an undisclosed affiliation** by any contributor.
 
-[中文调查记录](REPORT.zh-CN.md) · [All 49 PRs and fixed revisions](PR-INDEX.md) · [Dependency constraints](data/version-constraint-audit.json) · [Lockfile checks](data/lock-audit.json)
+[Published notices](NOTICES.md) / [中文调查记录](REPORT.zh-CN.md) · [All 49 PRs and fixed revisions](PR-INDEX.md) · [Dependency constraints](data/version-constraint-audit.json) · [Lockfile checks](data/lock-audit.json)
 
 ## Confirmed upstream incident and recent release
 
@@ -14,7 +14,7 @@ The latest stable release at collection is **1.100.0**, uploaded September 6, 20
 
 The [public PR search](https://github.com/search?q=is%3Apr+author%3Aprodmanpd&type=pullrequests) returned 49 PRs across 49 projects, all concerning LiteLLM integration. The [per-PR snapshots](data/prs.json) preserve GitHub creation times and head revisions. Search visibility is a limitation: this is not a lifetime history and excludes private, deleted, unreachable and unindexed activity.
 
-The first observed PR was [llm-for-zotero #316](https://github.com/yilewang/llm-for-zotero/pull/316), created **2026-07-17 18:49:48 UTC / July 18 02:49:48 Beijing time**. Five PRs appeared within the following 28 minutes, including [TinyTroupe #160](https://github.com/microsoft/TinyTroupe/pull/160), [docutranslate #53](https://github.com/xunbu/docutranslate/pull/53), [hacker-news-digest #47](https://github.com/polyrabbit/hacker-news-digest/pull/47), and [FunClip #178](https://github.com/modelscope/FunClip/pull/178).
+The first observed PR was [llm-for-zotero #316](https://github.com/yilewang/llm-for-zotero/pull/316), created **2026-07-17 18:49:48 UTC / July 18 02:49:48 Beijing time**. Five PRs appeared within roughly 28 minutes, including [TinyTroupe #160](https://github.com/microsoft/TinyTroupe/pull/160), [docutranslate #53](https://github.com/xunbu/docutranslate/pull/53), [hacker-news-digest #47](https://github.com/polyrabbit/hacker-news-digest/pull/47), and [FunClip #178](https://github.com/modelscope/FunClip/pull/178).
 
 The [author's Chartbrew reply](https://github.com/chartbrew/chartbrew/pull/365#issuecomment-5207856315) explicitly acknowledges submitting LiteLLM integrations across open-source projects and explains the intended benefit as supporting teams with existing model gateways. That reply does not establish compensation or affiliation. These are appropriate clarification questions, not findings.
 
@@ -44,3 +44,7 @@ These questions apply to technical review. Neither a broad version range, a mock
 This repository preserves selected public technical facts, PR and commit references, exact revisions, file blob identifiers and hashes of collected diff text. It includes 85 repository metadata records and 122 unique commit SHA records; merge/squash duplication means this is not 122 independent features. Diff hashes do not reconstruct deleted content or provide independent trusted timestamps. Full raw collection is retained locally; this public repository is a curated record, not a full mirror of source code and discussions.
 
 No private email contents, private contact details or nationality speculation belong in this record. Please provide corrections and author responses through an issue with a source. Keep discussion specific and respectful; do not harass contributors or repeat-post allegations.
+
+## Follow-up observed during notification
+
+[OpenExecutive #98](https://github.com/SenteLabsAI/OpenExecutive/pull/98) advanced to an upstream synchronization commit while notices were being prepared. Its optional extra remains in place, and the current lock fixes LiteLLM 1.100.0. All 8 LiteLLM artifact URLs/hashes match PyPI metadata. The [updated snapshot](updates/OpenExecutive-98.json) supplements the original six-lockfile baseline; the new lock is an additional reproducibility control.
