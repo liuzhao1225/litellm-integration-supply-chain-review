@@ -1,0 +1,15 @@
+{
+  "filename": "litellm-1.100.0.tar.gz",
+  "artifact_sha256": "ece94e817a453a5b3a9517c03547c428d501cea719edb728c1b260e53f78ea35",
+  "upload_time_utc": "2026-09-06T00:22:46.023754Z",
+  "source_url": "https://pypi.org/integrity/litellm/1.100.0/litellm-1.100.0.tar.gz/provenance",
+  "checked_at_utc": "2026-09-08T20:10:49.895540+00:00",
+  "http_status": 404,
+  "headers": {
+    "content-type": "application/json",
+    "Date": "Tue, 08 Sep 2026 20:10:50 GMT"
+  },
+  "response": {
+    "message": "No provenance available for litellm-1.100.0.tar.gz"
+  }
+}

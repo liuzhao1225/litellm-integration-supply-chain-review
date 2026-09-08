@@ -1,0 +1,98 @@
+[
+  {
+    "wheel_path": "litellm/proxy/_experimental/out/_next/static/nSJ6X7eisoDkwyGRS1wMN/_ssgManifest.js",
+    "git_path": "litellm/proxy/_experimental/out/_next/static/YAsRgSxdV-OcBfib_67Dt/_ssgManifest.js",
+    "normalized_chunk_names_equal": true,
+    "block_similarity": 1.0,
+    "wheel_bytes": 80,
+    "git_bytes": 80
+  },
+  {
+    "wheel_path": "litellm/proxy/_experimental/out/_next/static/nSJ6X7eisoDkwyGRS1wMN/_clientMiddlewareManifest.js",
+    "git_path": "litellm/proxy/_experimental/out/_next/static/YAsRgSxdV-OcBfib_67Dt/_clientMiddlewareManifest.js",
+    "normalized_chunk_names_equal": true,
+    "block_similarity": 1.0,
+    "wheel_bytes": 96,
+    "git_bytes": 96
+  },
+  {
+    "wheel_path": "litellm/proxy/_experimental/out/_next/static/nSJ6X7eisoDkwyGRS1wMN/_buildManifest.js",
+    "git_path": "litellm/proxy/_experimental/out/_next/static/YAsRgSxdV-OcBfib_67Dt/_buildManifest.js",
+    "normalized_chunk_names_equal": true,
+    "block_similarity": 1.0,
+    "wheel_bytes": 335,
+    "git_bytes": 335
+  },
+  {
+    "wheel_path": "litellm/proxy/_experimental/out/_next/static/chunks/0xqvbk9cdsv09.js",
+    "git_path": "litellm/proxy/_experimental/out/_next/static/chunks/3ptzupbbzlu4r.js",
+    "normalized_chunk_names_equal": false,
+    "block_similarity": 0.7913669064748201,
+    "wheel_bytes": 41682,
+    "git_bytes": 41682
+  },
+  {
+    "wheel_path": "litellm/proxy/_experimental/out/_next/static/chunks/0hae7zjw2q5dw.js",
+    "git_path": "litellm/proxy/_experimental/out/_next/static/chunks/2n9vhssm1ke4u.js",
+    "normalized_chunk_names_equal": false,
+    "block_similarity": 0.07142857142857142,
+    "wheel_bytes": 54405,
+    "git_bytes": 46204
+  },
+  {
+    "wheel_path": "litellm/proxy/_experimental/out/_next/static/chunks/3i7impmzjcclq.js",
+    "git_path": "litellm/proxy/_experimental/out/_next/static/chunks/2lpmjdx2jlx34.js",
+    "normalized_chunk_names_equal": false,
+    "block_similarity": 0.9381443298969072,
+    "wheel_bytes": 9617,
+    "git_bytes": 9617
+  },
+  {
+    "wheel_path": "litellm/proxy/_experimental/out/_next/static/chunks/1hia4-_bnmqsp.js",
+    "git_path": "litellm/proxy/_experimental/out/_next/static/chunks/1ffshjz5d4_3s.js",
+    "normalized_chunk_names_equal": false,
+    "block_similarity": 0.3528050896471949,
+    "wheel_bytes": 263908,
+    "git_bytes": 254729
+  },
+  {
+    "wheel_path": "litellm/proxy/_experimental/out/_next/static/chunks/0n9t243h7shbe.js",
+    "git_path": "litellm/proxy/_experimental/out/_next/static/chunks/2_e0pm0jc-yil.js",
+    "normalized_chunk_names_equal": false,
+    "block_similarity": 0.9256993006993007,
+    "wheel_bytes": 114368,
+    "git_bytes": 114368
+  },
+  {
+    "wheel_path": "litellm/proxy/_experimental/out/_next/static/chunks/3u40q3skzkjt8.js",
+    "git_path": "litellm/proxy/_experimental/out/_next/static/chunks/3kest3gurc9op.js",
+    "normalized_chunk_names_equal": false,
+    "block_similarity": 0.7823113745156143,
+    "wheel_bytes": 438773,
+    "git_bytes": 438591
+  },
+  {
+    "wheel_path": "litellm/proxy/_experimental/out/_next/static/chunks/1vm_kslvjrdd7.js",
+    "git_path": "litellm/proxy/_experimental/out/_next/static/chunks/1_2vrjj-7-crg.js",
+    "normalized_chunk_names_equal": false,
+    "block_similarity": 0.47386109036594476,
+    "wheel_bytes": 269610,
+    "git_bytes": 265885
+  },
+  {
+    "wheel_path": "litellm/proxy/_experimental/out/_next/static/chunks/3j_zmpqkg9zgi.js",
+    "git_path": "litellm/proxy/_experimental/out/_next/static/chunks/1l61r88q65pjd.js",
+    "normalized_chunk_names_equal": false,
+    "block_similarity": 0.943502824858757,
+    "wheel_bytes": 53011,
+    "git_bytes": 53011
+  },
+  {
+    "wheel_path": "litellm/proxy/_experimental/out/_next/static/chunks/2aqbcjnndt2_p.js",
+    "git_path": "litellm/proxy/_experimental/out/_next/static/chunks/0xrc-9_hkt1-y.js",
+    "normalized_chunk_names_equal": false,
+    "block_similarity": 0.4098798397863818,
+    "wheel_bytes": 74856,
+    "git_bytes": 74856
+  }
+]

@@ -1,0 +1,774 @@
+{
+  "method": "Compare AST Call nodes by structure and multiplicity in changed Python files; filter potentially sensitive operations. No package execution. Results are leads, not malicious detections. Nested call records can overlap.",
+  "changed_or_added_python_files": 589,
+  "syntax_errors": [
+    {
+      "file": "litellm/integrations/otel/mappers/genai.py",
+      "error": "invalid syntax (<unknown>, line 150)"
+    },
+    {
+      "file": "litellm/litellm_core_utils/exception_mapping_utils.py",
+      "error": "invalid syntax (<unknown>, line 2229)"
+    },
+    {
+      "file": "litellm/llms/anthropic/chat/guardrail_translation/handler.py",
+      "error": "invalid syntax (<unknown>, line 814)"
+    },
+    {
+      "file": "litellm/llms/anthropic/experimental_pass_through/adapters/streaming_iterator.py",
+      "error": "invalid syntax (<unknown>, line 60)"
+    },
+    {
+      "file": "litellm/llms/anthropic/experimental_pass_through/adapters/transformation.py",
+      "error": "invalid syntax (<unknown>, line 1225)"
+    },
+    {
+      "file": "litellm/llms/anthropic/experimental_pass_through/messages/streaming_iterator.py",
+      "error": "invalid syntax (<unknown>, line 159)"
+    },
+    {
+      "file": "litellm/llms/bedrock/files/transformation.py",
+      "error": "invalid syntax (<unknown>, line 465)"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/auth/user_api_key_auth_mcp.py",
+      "error": "invalid syntax (<unknown>, line 790)"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/bridge_token_flow.py",
+      "error": "invalid syntax (<unknown>, line 277)"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/gateway_dcr_flow.py",
+      "error": "invalid syntax (<unknown>, line 653)"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/mcp_server_manager.py",
+      "error": "invalid syntax (<unknown>, line 1815)"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/outbound_credentials/adapter.py",
+      "error": "invalid syntax (<unknown>, line 84)"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/outbound_credentials/client_credentials.py",
+      "error": "invalid syntax (<unknown>, line 194)"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/outbound_credentials/resolver.py",
+      "error": "invalid syntax (<unknown>, line 135)"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/outbound_credentials/types.py",
+      "error": "invalid syntax (<unknown>, line 148)"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/tool_search.py",
+      "error": "invalid syntax (<unknown>, line 147)"
+    },
+    {
+      "file": "litellm/proxy/agent_endpoints/auth/agent_permission_handler.py",
+      "error": "invalid syntax (<unknown>, line 71)"
+    },
+    {
+      "file": "litellm/proxy/agent_endpoints/endpoints.py",
+      "error": "invalid syntax (<unknown>, line 269)"
+    },
+    {
+      "file": "litellm/proxy/client/cli/commands/auth.py",
+      "error": "invalid syntax (<unknown>, line 137)"
+    },
+    {
+      "file": "litellm/proxy/common_utils/reset_budget_job.py",
+      "error": "invalid syntax (<unknown>, line 630)"
+    },
+    {
+      "file": "litellm/proxy/db/token_auth.py",
+      "error": "invalid syntax (<unknown>, line 178)"
+    },
+    {
+      "file": "litellm/proxy/list_api/in_memory.py",
+      "error": "invalid syntax (<unknown>, line 52)"
+    },
+    {
+      "file": "litellm/proxy/list_api/list_framework.py",
+      "error": "invalid syntax (<unknown>, line 202)"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/scim/scim_v2.py",
+      "error": "invalid syntax (<unknown>, line 669)"
+    },
+    {
+      "file": "litellm/proxy/proxy_server.py",
+      "error": "invalid syntax (<unknown>, line 16288)"
+    },
+    {
+      "file": "litellm/proxy/rag_endpoints/upload_security.py",
+      "error": "invalid syntax (<unknown>, line 210)"
+    },
+    {
+      "file": "litellm/router.py",
+      "error": "invalid syntax (<unknown>, line 964)"
+    }
+  ],
+  "records": [
+    {
+      "file": "litellm/_logging.py",
+      "line": 291,
+      "end_line": 291,
+      "call": "_parse_json_logs_env",
+      "code": "_parse_json_logs_env(os.getenv(\"JSON_LOGS\"))"
+    },
+    {
+      "file": "litellm/_logging.py",
+      "line": 261,
+      "end_line": 261,
+      "call": "os.environ.get",
+      "code": "os.environ.get(\"NO_COLOR\")"
+    },
+    {
+      "file": "litellm/_logging.py",
+      "line": 291,
+      "end_line": 291,
+      "call": "os.getenv",
+      "code": "os.getenv(\"JSON_LOGS\")"
+    },
+    {
+      "file": "litellm/constants.py",
+      "line": 1571,
+      "end_line": 1571,
+      "call": "max",
+      "code": "max(1, int(os.getenv(\"RESPONSES_SESSION_LOOKUP_MAX_ATTEMPTS\", \"3\")))"
+    },
+    {
+      "file": "litellm/constants.py",
+      "line": 1572,
+      "end_line": 1572,
+      "call": "float",
+      "code": "float(os.getenv(\"RESPONSES_SESSION_LOOKUP_RETRY_INTERVAL\", \"0.2\"))"
+    },
+    {
+      "file": "litellm/constants.py",
+      "line": 1592,
+      "end_line": 1594,
+      "call": "float",
+      "code": "float(\n    os.getenv(\"BACKGROUND_INTERACTION_COST_POLL_INITIAL_INTERVAL_SECONDS\", \"5\")\n)"
+    },
+    {
+      "file": "litellm/constants.py",
+      "line": 1595,
+      "end_line": 1597,
+      "call": "float",
+      "code": "float(\n    os.getenv(\"BACKGROUND_INTERACTION_COST_POLL_MAX_INTERVAL_SECONDS\", \"60\")\n)"
+    },
+    {
+      "file": "litellm/constants.py",
+      "line": 1598,
+      "end_line": 1600,
+      "call": "float",
+      "code": "float(\n    os.getenv(\"BACKGROUND_INTERACTION_COST_POLL_TIMEOUT_SECONDS\", \"3600\")\n)"
+    },
+    {
+      "file": "litellm/constants.py",
+      "line": 1601,
+      "end_line": 1603,
+      "call": "os.getenv('BACKGROUND_INTERACTION_COST_POLLING_ENABLED', 'true').lower",
+      "code": "os.getenv(\n    \"BACKGROUND_INTERACTION_COST_POLLING_ENABLED\", \"true\"\n).lower()"
+    },
+    {
+      "file": "litellm/constants.py",
+      "line": 1571,
+      "end_line": 1571,
+      "call": "int",
+      "code": "int(os.getenv(\"RESPONSES_SESSION_LOOKUP_MAX_ATTEMPTS\", \"3\"))"
+    },
+    {
+      "file": "litellm/constants.py",
+      "line": 1572,
+      "end_line": 1572,
+      "call": "os.getenv",
+      "code": "os.getenv(\"RESPONSES_SESSION_LOOKUP_RETRY_INTERVAL\", \"0.2\")"
+    },
+    {
+      "file": "litellm/constants.py",
+      "line": 1593,
+      "end_line": 1593,
+      "call": "os.getenv",
+      "code": "os.getenv(\"BACKGROUND_INTERACTION_COST_POLL_INITIAL_INTERVAL_SECONDS\", \"5\")"
+    },
+    {
+      "file": "litellm/constants.py",
+      "line": 1596,
+      "end_line": 1596,
+      "call": "os.getenv",
+      "code": "os.getenv(\"BACKGROUND_INTERACTION_COST_POLL_MAX_INTERVAL_SECONDS\", \"60\")"
+    },
+    {
+      "file": "litellm/constants.py",
+      "line": 1599,
+      "end_line": 1599,
+      "call": "os.getenv",
+      "code": "os.getenv(\"BACKGROUND_INTERACTION_COST_POLL_TIMEOUT_SECONDS\", \"3600\")"
+    },
+    {
+      "file": "litellm/constants.py",
+      "line": 1571,
+      "end_line": 1571,
+      "call": "os.getenv",
+      "code": "os.getenv(\"RESPONSES_SESSION_LOOKUP_MAX_ATTEMPTS\", \"3\")"
+    },
+    {
+      "file": "litellm/constants.py",
+      "line": 1601,
+      "end_line": 1603,
+      "call": "os.getenv",
+      "code": "os.getenv(\n    \"BACKGROUND_INTERACTION_COST_POLLING_ENABLED\", \"true\"\n)"
+    },
+    {
+      "file": "litellm/experimental_mcp_client/client.py",
+      "line": 30,
+      "end_line": 34,
+      "call": "ImportError",
+      "code": "ImportError(\n        f\"MCP streamable HTTP transport requires {MCP_STREAMABLE_HTTP_REQUIREMENT}, but the installed \"\n        f\"mcp {metadata.version('mcp')} does not provide streamable_http_client. \"\n        \"Fix with: pip install 'litellm[mcp]' (or upgrade mcp directly: pip install -U mcp)\"\n    )"
+    },
+    {
+      "file": "litellm/experimental_mcp_client/client.py",
+      "line": 583,
+      "end_line": 590,
+      "call": "httpx.AsyncClient",
+      "code": "httpx.AsyncClient(\n                headers=headers,\n                timeout=timeout,\n                auth=effective_auth,\n                verify=ssl_config,\n                follow_redirects=True,\n                event_hooks={\"request\": [guard]} if guard else {},\n            )"
+    },
+    {
+      "file": "litellm/integrations/SlackAlerting/batching_handler.py",
+      "line": 70,
+      "end_line": 74,
+      "call": "slackAlertingInstance.async_http_handler.post",
+      "code": "slackAlertingInstance.async_http_handler.post(\n            url=item[\"url\"],\n            headers=item[\"headers\"],\n            data=json.dumps(request_body),\n        )"
+    },
+    {
+      "file": "litellm/integrations/SlackAlerting/ms_teams.py",
+      "line": 59,
+      "end_line": 59,
+      "call": "os.getenv",
+      "code": "os.getenv(MS_TEAMS_WEBHOOK_URL_ENV)"
+    },
+    {
+      "file": "litellm/integrations/langfuse/langfuse.py",
+      "line": 972,
+      "end_line": 972,
+      "call": "os.getenv",
+      "code": "os.getenv(\"LANGFUSE_TRACING_ENVIRONMENT\")"
+    },
+    {
+      "file": "litellm/integrations/langfuse/langfuse_handler.py",
+      "line": 161,
+      "end_line": 161,
+      "call": "os.getenv",
+      "code": "os.getenv(\"LANGFUSE_TRACING_ENVIRONMENT\")"
+    },
+    {
+      "file": "litellm/integrations/newrelic/newrelic_metrics.py",
+      "line": 391,
+      "end_line": 395,
+      "call": "self.async_client.post",
+      "code": "self.async_client.post(\n            url=self.metric_api_url,\n            data=compressed_data,\n            headers=headers,\n        )"
+    },
+    {
+      "file": "litellm/litellm_core_utils/aws_partition.py",
+      "line": 24,
+      "end_line": 24,
+      "call": "re.compile",
+      "code": "re.compile(r\"arn:aws(?:-[a-z0-9-]+)?:bedrock\")"
+    },
+    {
+      "file": "litellm/litellm_core_utils/aws_partition.py",
+      "line": 25,
+      "end_line": 25,
+      "call": "re.compile",
+      "code": "re.compile(r\"\\Aarn:aws(?:-[a-z0-9-]+)?:bedrock:\")"
+    },
+    {
+      "file": "litellm/litellm_core_utils/aws_partition.py",
+      "line": 26,
+      "end_line": 26,
+      "call": "re.compile",
+      "code": "re.compile(r\"arn:aws(?:-[a-z0-9-]+)?:\")"
+    },
+    {
+      "file": "litellm/litellm_core_utils/health_check_helpers.py",
+      "line": 29,
+      "end_line": 29,
+      "call": "base64.b64decode",
+      "code": "base64.b64decode(TEST_IMAGE_BASE64)"
+    },
+    {
+      "file": "litellm/litellm_core_utils/llm_cost_calc/utils.py",
+      "line": 76,
+      "end_line": 76,
+      "call": "re.compile",
+      "code": "re.compile(r\"\\d+(?:x|-x-)\\d+\")"
+    },
+    {
+      "file": "litellm/llms/azure/common_utils.py",
+      "line": 805,
+      "end_line": 805,
+      "call": "httpx.URL",
+      "code": "httpx.URL(api_base)"
+    },
+    {
+      "file": "litellm/llms/azure/common_utils.py",
+      "line": 807,
+      "end_line": 812,
+      "call": "str",
+      "code": "str(\n            base_url.copy_with(\n                path=base_url.path if openai_path_start == -1 else base_url.path[:openai_path_start],\n                params=httpx.QueryParams(tuple((k, v) for k, v in base_url.params.multi_items() if k != \"api-version\")),\n            )\n        )"
+    },
+    {
+      "file": "litellm/llms/azure/common_utils.py",
+      "line": 808,
+      "end_line": 811,
+      "call": "base_url.copy_with",
+      "code": "base_url.copy_with(\n                path=base_url.path if openai_path_start == -1 else base_url.path[:openai_path_start],\n                params=httpx.QueryParams(tuple((k, v) for k, v in base_url.params.multi_items() if k != \"api-version\")),\n            )"
+    },
+    {
+      "file": "litellm/llms/azure/common_utils.py",
+      "line": 810,
+      "end_line": 810,
+      "call": "httpx.QueryParams",
+      "code": "httpx.QueryParams(tuple((k, v) for k, v in base_url.params.multi_items() if k != \"api-version\"))"
+    },
+    {
+      "file": "litellm/llms/bedrock/rerank/handler.py",
+      "line": 39,
+      "end_line": 45,
+      "call": "client.post",
+      "code": "client.post(\n                url=prepared_request[\"endpoint_url\"],\n                headers=dict(prepared_request[\"prepped\"].headers),\n                data=prepared_request[\"body\"],\n                timeout=timeout,\n                logging_obj=logging_obj,\n            )"
+    },
+    {
+      "file": "litellm/llms/custom_httpx/llm_http_handler.py",
+      "line": 5952,
+      "end_line": 5952,
+      "call": "isinstance",
+      "code": "isinstance(e, httpx.HTTPStatusError)"
+    },
+    {
+      "file": "litellm/llms/custom_httpx/llm_http_handler.py",
+      "line": 1206,
+      "end_line": 1212,
+      "call": "async_httpx_client.post",
+      "code": "async_httpx_client.post(\n                url=api_base,\n                headers=headers,\n                data=json.dumps(request_data),\n                timeout=timeout,\n                logging_obj=logging_obj,\n            )"
+    },
+    {
+      "file": "litellm/llms/custom_httpx/llm_http_handler.py",
+      "line": 11921,
+      "end_line": 11921,
+      "call": "sync_httpx_client.post",
+      "code": "sync_httpx_client.post(url=url, headers=headers, data=data, files=files, timeout=timeout)"
+    },
+    {
+      "file": "litellm/llms/custom_httpx/llm_http_handler.py",
+      "line": 7111,
+      "end_line": 7116,
+      "call": "sync_httpx_client.post",
+      "code": "sync_httpx_client.post(  # rebind-ok: one of three mutually-exclusive branches\n                    url=api_base,\n                    headers=headers,\n                    files=serialize_multipart_form_fields(data),\n                    timeout=timeout,\n                )"
+    },
+    {
+      "file": "litellm/llms/custom_httpx/llm_http_handler.py",
+      "line": 11975,
+      "end_line": 11977,
+      "call": "async_httpx_client.post",
+      "code": "async_httpx_client.post(\n                    url=url, headers=headers, data=data, files=files, timeout=timeout\n                )"
+    },
+    {
+      "file": "litellm/llms/custom_httpx/llm_http_handler.py",
+      "line": 7218,
+      "end_line": 7223,
+      "call": "async_httpx_client.post",
+      "code": "async_httpx_client.post(  # rebind-ok: one of three mutually-exclusive branches\n                    url=api_base,\n                    headers=headers,\n                    files=serialize_multipart_form_fields(data),\n                    timeout=timeout,\n                )"
+    },
+    {
+      "file": "litellm/llms/together_ai/rerank/handler.py",
+      "line": 56,
+      "end_line": 64,
+      "call": "client.post",
+      "code": "client.post(\n            _rerank_url(api_base),\n            headers={\n                \"accept\": \"application/json\",\n                \"content-type\": \"application/json\",\n                \"authorization\": f\"Bearer {api_key}\",\n            },\n            json=request_data_dict,\n        )"
+    },
+    {
+      "file": "litellm/llms/together_ai/rerank/handler.py",
+      "line": 81,
+      "end_line": 89,
+      "call": "client.post",
+      "code": "client.post(\n            _rerank_url(api_base),\n            headers={\n                \"accept\": \"application/json\",\n                \"content-type\": \"application/json\",\n                \"authorization\": f\"Bearer {api_key}\",\n            },\n            json=request_data_dict,\n        )"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/discoverable_endpoints.py",
+      "line": 1956,
+      "end_line": 1956,
+      "call": "router.post",
+      "code": "router.post(\"/introspect\", dependencies=[Depends(user_api_key_auth)])"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/discoverable_endpoints.py",
+      "line": 1094,
+      "end_line": 1098,
+      "call": "async_client.post",
+      "code": "async_client.post(\n            token_url,\n            headers={\"Accept\": \"application/json\", **token_request.headers},\n            data=token_data,\n        )"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/oauth2_token_cache.py",
+      "line": 151,
+      "end_line": 151,
+      "call": "client.post",
+      "code": "client.post(token_url, data=data, headers=token_request.headers or None)"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/outbound_credentials/session_credentials.py",
+      "line": 107,
+      "end_line": 107,
+      "call": "value.startswith",
+      "code": "value.startswith(\"os.environ/\")"
+    },
+    {
+      "file": "litellm/proxy/_lazy_openapi_snapshot.py",
+      "line": 110,
+      "end_line": 110,
+      "call": "feat.register_fn",
+      "code": "feat.register_fn(app, importlib.import_module(feat.module_path))"
+    },
+    {
+      "file": "litellm/proxy/client/chat.py",
+      "line": 102,
+      "end_line": 102,
+      "call": "session.send",
+      "code": "session.send(request.prepare(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/chat.py",
+      "line": 167,
+      "end_line": 169,
+      "call": "session.post",
+      "code": "session.post(\n                url, headers=self._get_headers(), json=data, stream=True, timeout=self._timeout\n            )"
+    },
+    {
+      "file": "litellm/proxy/client/credentials.py",
+      "line": 61,
+      "end_line": 61,
+      "call": "session.send",
+      "code": "session.send(request.prepare(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/credentials.py",
+      "line": 108,
+      "end_line": 108,
+      "call": "session.send",
+      "code": "session.send(request.prepare(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/credentials.py",
+      "line": 145,
+      "end_line": 145,
+      "call": "session.send",
+      "code": "session.send(request.prepare(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/credentials.py",
+      "line": 182,
+      "end_line": 182,
+      "call": "session.send",
+      "code": "session.send(request.prepare(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/keys.py",
+      "line": 104,
+      "end_line": 104,
+      "call": "session.send",
+      "code": "session.send(request.prepare(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/keys.py",
+      "line": 179,
+      "end_line": 179,
+      "call": "session.send",
+      "code": "session.send(request.prepare(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/keys.py",
+      "line": 223,
+      "end_line": 223,
+      "call": "session.send",
+      "code": "session.send(request.prepare(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/keys.py",
+      "line": 284,
+      "end_line": 284,
+      "call": "session.send",
+      "code": "session.send(request.prepare(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/keys.py",
+      "line": 314,
+      "end_line": 314,
+      "call": "session.send",
+      "code": "session.send(request.prepare(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/model_groups.py",
+      "line": 58,
+      "end_line": 58,
+      "call": "session.send",
+      "code": "session.send(request.prepare(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/models.py",
+      "line": 60,
+      "end_line": 60,
+      "call": "session.send",
+      "code": "session.send(request.prepare(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/models.py",
+      "line": 109,
+      "end_line": 109,
+      "call": "session.send",
+      "code": "session.send(request.prepare(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/models.py",
+      "line": 145,
+      "end_line": 145,
+      "call": "session.send",
+      "code": "session.send(request.prepare(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/models.py",
+      "line": 237,
+      "end_line": 237,
+      "call": "session.send",
+      "code": "session.send(request.prepare(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/models.py",
+      "line": 287,
+      "end_line": 287,
+      "call": "session.send",
+      "code": "session.send(request.prepare(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/teams.py",
+      "line": 65,
+      "end_line": 65,
+      "call": "requests.get",
+      "code": "requests.get(url, headers=self._get_headers(), params=params, timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/teams.py",
+      "line": 122,
+      "end_line": 122,
+      "call": "requests.get",
+      "code": "requests.get(url, headers=self._get_headers(), params=params, timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/teams.py",
+      "line": 143,
+      "end_line": 143,
+      "call": "requests.get",
+      "code": "requests.get(url, headers=self._get_headers(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/users.py",
+      "line": 23,
+      "end_line": 23,
+      "call": "requests.get",
+      "code": "requests.get(url, headers=self._get_headers(), params=params, timeout=self.timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/users.py",
+      "line": 33,
+      "end_line": 33,
+      "call": "requests.get",
+      "code": "requests.get(url, headers=self._get_headers(), params=params, timeout=self.timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/users.py",
+      "line": 45,
+      "end_line": 45,
+      "call": "requests.get",
+      "code": "requests.get(url, headers=self._get_headers(), params=params, timeout=self.timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/users.py",
+      "line": 56,
+      "end_line": 56,
+      "call": "requests.post",
+      "code": "requests.post(url, headers=self._get_headers(), json=user_data, timeout=self.timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/users.py",
+      "line": 65,
+      "end_line": 67,
+      "call": "requests.post",
+      "code": "requests.post(\n            url, headers=self._get_headers(), json={\"user_ids\": user_ids}, timeout=self.timeout\n        )"
+    },
+    {
+      "file": "litellm/proxy/db/db_spend_update_writer.py",
+      "line": 2076,
+      "end_line": 2102,
+      "call": "BaseDailySpendTransaction",
+      "code": "BaseDailySpendTransaction(\n                date=date,\n                api_key=payload[\"api_key\"],\n                model=payload.get(\"model\", None),\n                model_group=payload.get(\"model_group\", None),\n                mcp_namespaced_tool_name=payload.get(\"mcp_namespaced_tool_name\", None),\n                custom_llm_provider=payload.get(\"custom_llm_provider\", None),\n                endpoint=endpoint,\n                prompt_tokens=payload[\"prompt_tokens\"],\n                completion_tokens=payload[\"completion_tokens\"],\n                spend=payload[\"spend\"],\n                # Internal sub-calls (auto-router classifier, shadow eval's shadow and\n                # judge) bill real spend and tokens to the key, but they are not\n                # requests the caller made: counting them inflates request-volume\n                # readers, and an auto-router savings figure computed on a shadow\n                # duplicate credits savings for traffic no user sent.\n                api_requests=0 if is_internal_call else 1,\n                successful_requests=1 if not is_internal_call and request_status == \"success\" else 0,\n                failed_requests=1 if not is_internal_call and request_status != \"success\" else 0,\n                cache_read_input_tokens=cache_read_input_tokens,\n                cache_creation_input_tokens=extract_cache_creation_tokens(usage_obj),\n                compression_saved_tokens=compression_saved_tokens,\n                compression_savings_spend=savings_spend.compression,\n                prompt_caching_savings_spend=savings_spend.prompt_caching,\n                gateway_injected_caching_savings_spend=savings_spend.gateway_injected_caching,\n                autorouter_savings_spend=0.0 if is_internal_call else savings_spend.autorouter,\n            )"
+    },
+    {
+      "file": "litellm/proxy/db/db_url_settings.py",
+      "line": 391,
+      "end_line": 391,
+      "call": "os.environ.get",
+      "code": "os.environ.get(env_var)"
+    },
+    {
+      "file": "litellm/proxy/db/shadow_eval_funnel.py",
+      "line": 60,
+      "end_line": 65,
+      "call": "verbose_proxy_logger.error",
+      "code": "verbose_proxy_logger.error(\n                \"Spend tracking - shadow eval funnel flush failed for job %s, %s dropped: %s\",\n                job_id,\n                counters,\n                flush_err,\n            )"
+    },
+    {
+      "file": "litellm/proxy/guardrails/guardrail_hooks/azure/prompt_shield.py",
+      "line": 56,
+      "end_line": 56,
+      "call": "value.startswith",
+      "code": "value.startswith(\"os.environ/\")"
+    },
+    {
+      "file": "litellm/proxy/guardrails/guardrail_hooks/azure/prompt_shield.py",
+      "line": 287,
+      "end_line": 287,
+      "call": "cred_value.startswith",
+      "code": "cred_value.startswith(\"os.environ/\")"
+    },
+    {
+      "file": "litellm/proxy/guardrails/guardrail_hooks/hiddenlayer/hiddenlayer.py",
+      "line": 166,
+      "end_line": 166,
+      "call": "requests.post",
+      "code": "requests.post(token_url, auth=HTTPBasicAuth(api_id, api_key), timeout=timeout)"
+    },
+    {
+      "file": "litellm/proxy/health_endpoints/_health_endpoints.py",
+      "line": 486,
+      "end_line": 490,
+      "call": "proxy_logging_obj.slack_alerting_instance.async_http_handler.post",
+      "code": "proxy_logging_obj.slack_alerting_instance.async_http_handler.post(\n                url=ms_teams_webhook_url,\n                headers=dict(MS_TEAMS_ALERT_HEADERS),  # mutable-ok: async_http_handler.post only accepts dict headers\n                data=json.dumps(build_ms_teams_payload(ms_teams_test_message)),\n            )"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/config_override_endpoints.py",
+      "line": 649,
+      "end_line": 653,
+      "call": "router.post",
+      "code": "router.post(\n    \"/config_overrides/cyberark\",\n    tags=[\"Config Overrides\"],  # mutable-ok: FastAPI route decorator metadata\n    dependencies=[Depends(user_api_key_auth)],  # mutable-ok: FastAPI route decorator metadata\n)"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/config_override_endpoints.py",
+      "line": 886,
+      "end_line": 890,
+      "call": "router.post",
+      "code": "router.post(\n    \"/config_overrides/cyberark/test_connection\",\n    tags=[\"Config Overrides\"],  # mutable-ok: FastAPI route decorator metadata\n    dependencies=[Depends(user_api_key_auth)],  # mutable-ok: FastAPI route decorator metadata\n)"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/config_override_endpoints.py",
+      "line": 283,
+      "end_line": 283,
+      "call": "os.environ.get",
+      "code": "os.environ.get(\"HCP_VAULT_ADDR\")"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/mcp_connector_import.py",
+      "line": 78,
+      "end_line": 78,
+      "call": "re.compile",
+      "code": "re.compile(r\"[^A-Za-z0-9_]\")"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/mcp_management_endpoints.py",
+      "line": 1640,
+      "end_line": 1646,
+      "call": "router.post",
+      "code": "router.post(\n        \"/server/import\",\n        description=\"Bulk-import MCP connectors from Anthropic mcpServers or mcp_servers JSON\",\n        dependencies=(Depends(user_api_key_auth),),\n        response_model=MCPConnectorImportResponse,\n        status_code=status.HTTP_200_OK,\n    )"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/model_access_group_management_endpoints.py",
+      "line": 574,
+      "end_line": 578,
+      "call": "router.post",
+      "code": "router.post(\n    \"/access_group/new\",\n    dependencies=_AUTH_DEPENDENCIES,\n    response_model=NewModelGroupResponse,\n)"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/model_management_endpoints.py",
+      "line": 2247,
+      "end_line": 2252,
+      "call": "router.post",
+      "code": "router.post(\n    \"/auto_router/classifier/default_prompt\",\n    description=\"Get the system prompt an auto-router's LLM classifier sends for an edited tier set\",\n    tags=[\"model management\"],  # mutable-ok: fastapi's decorator signature types tags as a list\n    dependencies=[Depends(user_api_key_auth)],  # mutable-ok: fastapi's decorator signature types dependencies as a list\n)"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/team_endpoints.py",
+      "line": 3604,
+      "end_line": 3608,
+      "call": "router.post",
+      "code": "router.post(\n    \"/team/{team_id}/member/{user_id}/reset_spend\",\n    tags=[\"team management\"],  # mutable-ok: FastAPI's `tags` param is typed as list[str], not Sequence\n    dependencies=(Depends(user_api_key_auth),),\n)"
+    },
+    {
+      "file": "litellm/proxy/pass_through_endpoints/llm_passthrough_endpoints.py",
+      "line": 370,
+      "end_line": 388,
+      "call": "cast",
+      "code": "cast(\n            httpx.Response,\n            await llm_router.allm_passthrough_route(\n                model=request_body.get(\"model\"),\n                method=request.method,\n                endpoint=endpoint,\n                request_query_params=request.query_params,\n                request_headers=_safe_get_request_headers(request),\n                stream=request_body.get(\"stream\", False),\n                content=None,\n                data=None,\n                files=None,\n                json=(request_body if request.headers.get(\"content-type\") == \"application/json\" else None),\n                params=None,\n                headers=None,\n                cookies=None,\n                litellm_metadata=get_passthrough_router_request_metadata(user_api_key_dict),\n            ),\n        )"
+    },
+    {
+      "file": "litellm/proxy/utils.py",
+      "line": 6115,
+      "end_line": 6115,
+      "call": "float",
+      "code": "float(os.getenv(\"SMTP_TIMEOUT\", \"30\"))"
+    },
+    {
+      "file": "litellm/proxy/utils.py",
+      "line": 6115,
+      "end_line": 6115,
+      "call": "os.getenv",
+      "code": "os.getenv(\"SMTP_TIMEOUT\", \"30\")"
+    },
+    {
+      "file": "litellm/proxy/utils.py",
+      "line": 6621,
+      "end_line": 6621,
+      "call": "verbose_proxy_logger.error",
+      "code": "verbose_proxy_logger.error(\"Spend tracking - shadow eval funnel drain failed: %s\", funnel_err)"
+    },
+    {
+      "file": "litellm/realtime_api/main.py",
+      "line": 413,
+      "end_line": 413,
+      "call": "os.environ.get",
+      "code": "os.environ.get(\"LITELLM_AZURE_REALTIME_PROTOCOL\")"
+    },
+    {
+      "file": "litellm/types/management_endpoints/auto_router_endpoints.py",
+      "line": 414,
+      "end_line": 420,
+      "call": "Field",
+      "code": "Field(\n        default=None,\n        description=(\n            \"Eligible requests the sampling dice skipped, summed over legs: the judged rows stand for \"\n            \"judged + this many requests. None for jobs from before the funnel existed\"\n        ),\n    )"
+    },
+    {
+      "file": "litellm/types/management_endpoints/auto_router_endpoints.py",
+      "line": 429,
+      "end_line": 436,
+      "call": "Field",
+      "code": "Field(\n        default=None,\n        description=(\n            \"Sampled requests the pipeline declined to spend on: no database to record into, an over-budget \"\n            \"key or team, or the eval budget unverifiable or already reached (the in-flight burst as a job \"\n            \"crosses max_budget lands here rather than vanishing from coverage)\"\n        ),\n    )"
+    },
+    {
+      "file": "litellm/types/mcp.py",
+      "line": 242,
+      "end_line": 242,
+      "call": "re.compile",
+      "code": "re.compile(r\"^[!#$%&'*+\\-.^_`|~0-9A-Za-z]+$\")"
+    }
+  ]
+}

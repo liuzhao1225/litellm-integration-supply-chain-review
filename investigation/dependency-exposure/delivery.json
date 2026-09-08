@@ -1,0 +1,357 @@
+{
+  "completed_at_utc": "2026-09-08T20:38:15.223404+00:00",
+  "report": "README.md",
+  "report_sha256": "700be1f628c2bb52de23c9182c5b3ec8ac756f804cf8eacc78747f6dc2098c4f",
+  "validation": "All relative links resolve; 104 source identities, 76 unique reviewed leads, 14 exact-floor metadata records; saved YouDub snapshots match recorded hashes. No package execution or runtime tests.",
+  "facts": [
+    "Default requirements install boundary differs from lazy-import switch.",
+    "YouDub preserves shared API key on model/provider switch unless separately cleared or replaced; SDK explicit key precedence reviewed.",
+    "LiteLLM 1.99/1.100 base 14 requirements identical; selected extras differ."
+  ],
+  "inferences": [
+    "Retained OpenAI key plus enabled LiteLLM, native Anthropic model prefix and default OpenAI base can transmit wrong-provider key if send path is reached.",
+    "Pinning only LiteLLM leaves direct/transitive resolution drift possible."
+  ],
+  "unknowns": [
+    "Full downstream environment-specific dependency solution; wheel-only roots missing on observed indices.",
+    "Dependency drift across time rather than this same-time version comparison.",
+    "Runtime/native/transitive package behavior and actual deployed exposure.",
+    "Author historical install/test artifacts and commands."
+  ],
+  "files": [
+    {
+      "file": "README.md",
+      "sha256": "700be1f628c2bb52de23c9182c5b3ec8ac756f804cf8eacc78747f6dc2098c4f",
+      "bytes": 36465
+    },
+    {
+      "file": "candidate-contexts.json",
+      "sha256": "7c6e2f96807fe3336d530593af96a3c62c6fc1e0b7c61c22f999c3f06fcfc213",
+      "bytes": 798256
+    },
+    {
+      "file": "check_wheel_resolution.py",
+      "sha256": "7dee01c5f5a8f80cf03caa89994af589dede8b016508db54d7f17bf3e80e097c",
+      "bytes": 4052
+    },
+    {
+      "file": "classify_candidates.py",
+      "sha256": "231c9608c722562926b74240404e644b0081caeac2570c42a19902163ec3fc5a",
+      "bytes": 7037
+    },
+    {
+      "file": "collect_static.py",
+      "sha256": "9ad3214a89faa18abb388e37ee04ec540ad49b6b9607c40496eb256ee541faf5",
+      "bytes": 7162
+    },
+    {
+      "file": "dependency-floor-metadata.json",
+      "sha256": "3f10f0fbad9f3b88d507ce71052b470b5d3235bd52826baff1dd7d1a804bafb0",
+      "bytes": 134961
+    },
+    {
+      "file": "resolution/mirror-wheel-feasibility.json",
+      "sha256": "170dd476fce078464816b272280196f17ecb8be88daba3cc43c85bfb5c427307",
+      "bytes": 8298
+    },
+    {
+      "file": "resolution/requirements-litellm-1.100.0.txt",
+      "sha256": "137d5e79bb4fe344d7b04c2c4b202b976e9cd07b8d4bb1cc4d5a1f8c73e692bc",
+      "bytes": 291
+    },
+    {
+      "file": "resolution/requirements-wide.txt",
+      "sha256": "53709fa1ef4f39f499106ee42b8cafbd1c44df7a47149fa286e03ab1c3d40768",
+      "bytes": 297
+    },
+    {
+      "file": "resolution/sdk-subgraph/.gitignore",
+      "sha256": "c1e9b4dd4e101cd469e907ca8477f8da75a78469c7947f84e135d5d51c323b88",
+      "bytes": 33
+    },
+    {
+      "file": "resolution/sdk-subgraph/aarch64-apple-darwin-1.100.0/pylock.toml",
+      "sha256": "65db5bbf9a9ef6db9e83404f216d96b9409fb92f3c57908996b01557c6c69783",
+      "bytes": 21728
+    },
+    {
+      "file": "resolution/sdk-subgraph/aarch64-apple-darwin-1.100.0/requirements.in",
+      "sha256": "0200a64f56a0aaa7e88876285a84a9c34c717b26f281f37f470b99dc60175900",
+      "bytes": 17
+    },
+    {
+      "file": "resolution/sdk-subgraph/aarch64-apple-darwin-1.100.0/stderr.txt",
+      "sha256": "298dd8ee0d537e62dc6993674d84e8a85bf7c33cf1408805409a55d28e43705f",
+      "bytes": 29
+    },
+    {
+      "file": "resolution/sdk-subgraph/aarch64-apple-darwin-1.100.0/stdout.txt",
+      "sha256": "65db5bbf9a9ef6db9e83404f216d96b9409fb92f3c57908996b01557c6c69783",
+      "bytes": 21728
+    },
+    {
+      "file": "resolution/sdk-subgraph/aarch64-apple-darwin-1.99.0/pylock.toml",
+      "sha256": "1ddb4debf0d262db17a6b11a9d47c5a4750aa88503ab5221b87f33109bc535f2",
+      "bytes": 21724
+    },
+    {
+      "file": "resolution/sdk-subgraph/aarch64-apple-darwin-1.99.0/requirements.in",
+      "sha256": "ba30654a4bc0e5b058bd475937927f394625b58dd8927b2993e7831f97a8cf2f",
+      "bytes": 16
+    },
+    {
+      "file": "resolution/sdk-subgraph/aarch64-apple-darwin-1.99.0/stderr.txt",
+      "sha256": "b3009df49ce24246d0f15659d6d5e408a2cf0cc854083e360823b321ae378dcb",
+      "bytes": 30
+    },
+    {
+      "file": "resolution/sdk-subgraph/aarch64-apple-darwin-1.99.0/stdout.txt",
+      "sha256": "1ddb4debf0d262db17a6b11a9d47c5a4750aa88503ab5221b87f33109bc535f2",
+      "bytes": 21724
+    },
+    {
+      "file": "resolution/sdk-subgraph/aarch64-apple-darwin-wide/pylock.toml",
+      "sha256": "64179779503193c9f3a8af671690d5b5bbd9733487767c8abd800581ea296a39",
+      "bytes": 21722
+    },
+    {
+      "file": "resolution/sdk-subgraph/aarch64-apple-darwin-wide/requirements.in",
+      "sha256": "18ce8ff006b02ab6bd3f32dce9f5fe326cc4114d2fb9286c930881c3311e20ee",
+      "bytes": 23
+    },
+    {
+      "file": "resolution/sdk-subgraph/aarch64-apple-darwin-wide/stderr.txt",
+      "sha256": "adc412729a151cffaacf4c12bda837426fff58aebd9e810dec2054e8210d0540",
+      "bytes": 30
+    },
+    {
+      "file": "resolution/sdk-subgraph/aarch64-apple-darwin-wide/stdout.txt",
+      "sha256": "64179779503193c9f3a8af671690d5b5bbd9733487767c8abd800581ea296a39",
+      "bytes": 21722
+    },
+    {
+      "file": "resolution/sdk-subgraph/argument-validation-error.json",
+      "sha256": "33554642e71ae91edc8590854e2c1fedd7936803408bbb84cd47b193999167be",
+      "bytes": 3584
+    },
+    {
+      "file": "resolution/sdk-subgraph/argument-validation-error.txt",
+      "sha256": "8c8419adc10f53f7f5d89dc4c17e0d3dbd0a2dc8b2fe06fdef159918db13c3ce",
+      "bytes": 553
+    },
+    {
+      "file": "resolution/sdk-subgraph/artifact-index-check.json",
+      "sha256": "294d04c52cf85ce51f8e5fb589bd7b3cd5ad444068846ca5b067ffc1fd7ebd6a",
+      "bytes": 1293557
+    },
+    {
+      "file": "resolution/sdk-subgraph/comparison.json",
+      "sha256": "b5a043720cd3d877c8942f4b25dec57ed73fced9318b04f0a62ed156945f98a5",
+      "bytes": 174981
+    },
+    {
+      "file": "resolution/sdk-subgraph/get_interpreter_info.py",
+      "sha256": "4ae78db54527a3bf53c98d2c4097c65a445f8e7cd54e65c4f798c04d689e8385",
+      "bytes": 26566
+    },
+    {
+      "file": "resolution/sdk-subgraph/interpreter.rs",
+      "sha256": "921a434baa31eada4052166f8c7a29bbd0e2f24c4e5d8e99fc2a131240cb80fd",
+      "bytes": 52591
+    },
+    {
+      "file": "resolution/sdk-subgraph/python-no-site",
+      "sha256": "bdcf67df70264a3d3010a85746f909efd10bacf06dbcfb324fef3a2eb75e26a4",
+      "bytes": 123
+    },
+    {
+      "file": "resolution/sdk-subgraph/runs.json",
+      "sha256": "b97aa2fd0bb995bd6c2a62bf9e32079b93a0229f5c1837fd246798e90574436b",
+      "bytes": 13316
+    },
+    {
+      "file": "resolution/sdk-subgraph/x86_64-manylinux_2_28-1.100.0/pylock.toml",
+      "sha256": "804c471e10313733bbcab961ec669483ba7f4a5a4b88b190563a41a2689c93c9",
+      "bytes": 20389
+    },
+    {
+      "file": "resolution/sdk-subgraph/x86_64-manylinux_2_28-1.100.0/requirements.in",
+      "sha256": "0200a64f56a0aaa7e88876285a84a9c34c717b26f281f37f470b99dc60175900",
+      "bytes": 17
+    },
+    {
+      "file": "resolution/sdk-subgraph/x86_64-manylinux_2_28-1.100.0/stderr.txt",
+      "sha256": "0082e87dd1cbad7111b3f9669d2c13395347292f9752a85957f769563a2d4c1f",
+      "bytes": 29
+    },
+    {
+      "file": "resolution/sdk-subgraph/x86_64-manylinux_2_28-1.100.0/stdout.txt",
+      "sha256": "804c471e10313733bbcab961ec669483ba7f4a5a4b88b190563a41a2689c93c9",
+      "bytes": 20389
+    },
+    {
+      "file": "resolution/sdk-subgraph/x86_64-manylinux_2_28-1.99.0/pylock.toml",
+      "sha256": "025c719a282465c98d7adca25c5342c9894d6be5bbeec769fb52486a6ca36c64",
+      "bytes": 20385
+    },
+    {
+      "file": "resolution/sdk-subgraph/x86_64-manylinux_2_28-1.99.0/requirements.in",
+      "sha256": "ba30654a4bc0e5b058bd475937927f394625b58dd8927b2993e7831f97a8cf2f",
+      "bytes": 16
+    },
+    {
+      "file": "resolution/sdk-subgraph/x86_64-manylinux_2_28-1.99.0/stderr.txt",
+      "sha256": "e28d2204a5c181514c2e0d8e9424fc014f90319c2c8078dbaac565ad8fdc0671",
+      "bytes": 30
+    },
+    {
+      "file": "resolution/sdk-subgraph/x86_64-manylinux_2_28-1.99.0/stdout.txt",
+      "sha256": "025c719a282465c98d7adca25c5342c9894d6be5bbeec769fb52486a6ca36c64",
+      "bytes": 20385
+    },
+    {
+      "file": "resolution/sdk-subgraph/x86_64-manylinux_2_28-wide/pylock.toml",
+      "sha256": "2ad93d7241a0c0e94fd6b26e5af94e91c72b64ca20a40330e7bbd3700576d323",
+      "bytes": 20383
+    },
+    {
+      "file": "resolution/sdk-subgraph/x86_64-manylinux_2_28-wide/requirements.in",
+      "sha256": "18ce8ff006b02ab6bd3f32dce9f5fe326cc4114d2fb9286c930881c3311e20ee",
+      "bytes": 23
+    },
+    {
+      "file": "resolution/sdk-subgraph/x86_64-manylinux_2_28-wide/stderr.txt",
+      "sha256": "779de3b856111fb089ebcf0cc6fe61412399a4e67bf0b05e5b82aa103f14727e",
+      "bytes": 30
+    },
+    {
+      "file": "resolution/sdk-subgraph/x86_64-manylinux_2_28-wide/stdout.txt",
+      "sha256": "2ad93d7241a0c0e94fd6b26e5af94e91c72b64ca20a40330e7bbd3700576d323",
+      "bytes": 20383
+    },
+    {
+      "file": "resolution/uv-pip-compile-help.txt",
+      "sha256": "cb61f49321af9c2e4bac4976962223ba3bc5a8ffec80979fc1703c165a58f6aa",
+      "bytes": 11605
+    },
+    {
+      "file": "resolution/wheel-feasibility.json",
+      "sha256": "bb64857d2e2d803fe5385adac026c5b6c12061638979b7e3d13bb89c463d9801",
+      "bytes": 106293
+    },
+    {
+      "file": "resolution/youdub-fixed-readme.md",
+      "sha256": "13d01b9627dbf3fd3db7fe7fd8fd0c51c9d61dfed262cbbf6504cd049f9da62d",
+      "bytes": 25402
+    },
+    {
+      "file": "resolve_sdk_subgraph.py",
+      "sha256": "ac18566f63741405c584dcfaff4892ebf2018d09a350f3fab7c855cea7833ea4",
+      "bytes": 4819
+    },
+    {
+      "file": "reviewed-candidates.json",
+      "sha256": "db47807c6523fd6cc627068d4d5226af7c8fbf5f7159afe3ff50b10b2edd336d",
+      "bytes": 102278
+    },
+    {
+      "file": "source-manifest.json",
+      "sha256": "a57d0bbd5bf2e147d9652ef1d08e9953bd30099f46559e9b7d64bd6f8e75e2bf",
+      "bytes": 47484
+    },
+    {
+      "file": "summarize_sdk_resolution.py",
+      "sha256": "19d748ecd03d3e38f113363e0289b04c08b81bab84147d12cdb6b580ec0b31cc",
+      "bytes": 5034
+    },
+    {
+      "file": "youdub/.github/workflows/ci.yml",
+      "sha256": "b54f838bb8df45a7fa57c59bc6a65112389f252fe98a61122ac3156f61706ecd",
+      "bytes": 2923
+    },
+    {
+      "file": "youdub/backend/app/adapters/litellm_translate.py",
+      "sha256": "a2139c47a4ee4c03ce02ddaa345dc5cbcc03726225fd7631b009a155d332caa2",
+      "bytes": 3127
+    },
+    {
+      "file": "youdub/backend/app/adapters/openai_client.py",
+      "sha256": "9dfee7cf12b6dbfbb5141dfd8cb6706ebf275aa7c22de692c3a27319d66ec641",
+      "bytes": 1029
+    },
+    {
+      "file": "youdub/backend/app/adapters/openai_translate.py",
+      "sha256": "3a83a75fb3654c1a40f7dbc274a71019eb0b4f8b60f77860d6226b385e2454b7",
+      "bytes": 10754
+    },
+    {
+      "file": "youdub/backend/app/config.py",
+      "sha256": "4a0a195874cb61b6ff3c851dd3ee9270a5510a797e065e19fb32c5fc8f794dd6",
+      "bytes": 4465
+    },
+    {
+      "file": "youdub/backend/app/database.py",
+      "sha256": "feeea9deef2d8c7a1d6625beb44b061b6757df788caf5f3181d2e4e04336261a",
+      "bytes": 25810
+    },
+    {
+      "file": "youdub/backend/app/main.py",
+      "sha256": "e0c1ad739a6672e7bf350a905622e88443d9800c10e48b1f7bd430fa54d5612e",
+      "bytes": 25677
+    },
+    {
+      "file": "youdub/backend/app/pipeline.py",
+      "sha256": "090d043d47b2a68afa67766825ba7f98d420e3685082a92edf2b6291f44bbdfe",
+      "bytes": 26536
+    },
+    {
+      "file": "youdub/backend/requirements-test.txt",
+      "sha256": "66bd2fd58f51bbee09b4c3a74155333bd0f4b69b541f378f314f3ed55ea32f25",
+      "bytes": 450
+    },
+    {
+      "file": "youdub/backend/requirements.txt",
+      "sha256": "69c65f7998ef21ec2b7edc38a7362e1d41478293410311c4617ab2b4d61d8bf4",
+      "bytes": 23
+    },
+    {
+      "file": "youdub/backend/tests/test_litellm_translate.py",
+      "sha256": "3e12ca15d88b79387c6239901314378feee81434de838713af80fa7a5ba90b1b",
+      "bytes": 6392
+    },
+    {
+      "file": "youdub/requirements.txt",
+      "sha256": "53709fa1ef4f39f499106ee42b8cafbd1c44df7a47149fa286e03ab1c3d40768",
+      "bytes": 297
+    }
+  ],
+  "resolution_feasibility": {
+    "status": "blocked_by_empty_wheel_candidate_sets",
+    "indices": [
+      "PyPI",
+      "Aliyun"
+    ],
+    "roots": [
+      "dora-search",
+      "openai-whisper"
+    ],
+    "wide_and_pinned": "neither has a complete wheel-only solution under observed index candidates",
+    "actual_transitive_drift": "not evaluated; no complete solutions",
+    "resolver_invoked": false
+  },
+  "sdk_subgraph": {
+    "runs": 6,
+    "packages_per_run": 55,
+    "wide_selected": "1.100.0",
+    "non_litellm_same_time_version_changes": 0,
+    "verified_unique_wheel_index_records": 88,
+    "platform_wheelset_changes": 17,
+    "index": "Aliyun",
+    "python_version": "3.12",
+    "assumed_platforms": [
+      "x86_64-manylinux_2_28",
+      "aarch64-apple-darwin"
+    ]
+  },
+  "publication_manifest_sha256": "28f0aeb225f86f3ec00ddb9e150f90097d9834a13f2db4d620c4bd6fed74ca7d"
+}

@@ -1,0 +1,88 @@
+{
+  "started_at_utc": "2026-09-08T20:31:35.419534+00:00",
+  "scope": "LiteLLM base SDK only; all other YouDub root requirements omitted. This is not a complete YouDub solution.",
+  "tool": {
+    "uv_path": "/opt/homebrew/Cellar/uv/0.9.26/bin/uv",
+    "uv_sha256": "1ad5ff5c932d9d2de88268ef705c549ad54fc4c3371ee546ccf18dc4883ecebe",
+    "version": "uv 0.9.26 (Homebrew 2026-01-15)",
+    "python_path": "/opt/homebrew/Cellar/python@3.14/3.14.2/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+    "python_sha256": "2f474ddf576be46e1ecc940407cbb80728e7ebf7d27a47e05572c970524c0487",
+    "interpreter_wrapper_sha256": "bdcf67df70264a3d3010a85746f909efd10bacf06dbcfb324fef3a2eb75e26a4",
+    "probe_source_review": [
+      {
+        "url": "https://raw.githubusercontent.com/astral-sh/uv/0.9.26/crates/uv-python/src/interpreter.rs",
+        "file": "interpreter.rs",
+        "sha256": "921a434baa31eada4052166f8c7a29bbd0e2f24c4e5d8e99fc2a131240cb80fd"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/astral-sh/uv/0.9.26/crates/uv-python/python/get_interpreter_info.py",
+        "file": "get_interpreter_info.py",
+        "sha256": "4ae78db54527a3bf53c98d2c4097c65a445f8e7cd54e65c4f798c04d689e8385"
+      }
+    ]
+  },
+  "conditions": {
+    "python_version": "3.12",
+    "assumed_platforms": [
+      "x86_64-manylinux_2_28",
+      "aarch64-apple-darwin"
+    ],
+    "index": "https://mirrors.aliyun.com/pypi/simple/",
+    "resolution": "highest",
+    "prerelease": "disallow",
+    "fresh_cache": true,
+    "installed_environment_consumed": false,
+    "builds_allowed": false,
+    "source_distributions_allowed": false,
+    "package_execution_allowed": false
+  },
+  "runs": [
+    {
+      "label": "wide",
+      "platform": "x86_64-manylinux_2_28",
+      "input": "x86_64-manylinux_2_28-wide/requirements.in",
+      "input_sha256": "18ce8ff006b02ab6bd3f32dce9f5fe326cc4114d2fb9286c930881c3311e20ee",
+      "command": [
+        "/opt/homebrew/Cellar/uv/0.9.26/bin/uv",
+        "--no-config",
+        "pip",
+        "compile",
+        "/Users/liuzhao/code/litellm-integration-supply-chain-review/investigation/dependency-exposure/resolution/sdk-subgraph/x86_64-manylinux_2_28-wide/requirements.in",
+        "--python",
+        "/Users/liuzhao/code/litellm-integration-supply-chain-review/investigation/dependency-exposure/resolution/sdk-subgraph/python-no-site",
+        "--python-version",
+        "3.12",
+        "--python-platform",
+        "x86_64-manylinux_2_28",
+        "--no-managed-python",
+        "--no-python-downloads",
+        "--no-build",
+        "--only-binary",
+        ":all:",
+        "--no-sources",
+        "--keyring-provider",
+        "disabled",
+        "--default-index",
+        "https://mirrors.aliyun.com/pypi/simple/",
+        "--resolution",
+        "highest",
+        "--prerelease",
+        "disallow",
+        "--format",
+        "pylock.toml",
+        "--output-file",
+        "/Users/liuzhao/code/litellm-integration-supply-chain-review/investigation/dependency-exposure/resolution/sdk-subgraph/x86_64-manylinux_2_28-wide/pylock.toml",
+        "--color",
+        "never",
+        "--no-progress"
+      ],
+      "started_at_utc": "2026-09-08T20:31:35.457451+00:00",
+      "completed_at_utc": "2026-09-08T20:31:35.469550+00:00",
+      "exit_code": 2,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "8c8419adc10f53f7f5d89dc4c17e0d3dbd0a2dc8b2fe06fdef159918db13c3ce"
+    }
+  ],
+  "status": "stopped_at_error",
+  "completed_at_utc": "2026-09-08T20:31:35.470454+00:00"
+}

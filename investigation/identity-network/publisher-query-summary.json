@@ -1,0 +1,77 @@
+{
+  "source": "BerriAI/litellm public GitHub API results; original endpoints/times retained locally in publisher-evidence",
+  "queries": [
+    {
+      "query_name": "author-prs",
+      "count": 0,
+      "incomplete_results": false,
+      "response_sha256": "145a6ef46a0f11fd1b04234b3ddcc7c274e51e026d4456b3b4400a3bb98d27d1"
+    },
+    {
+      "query_name": "author-issues",
+      "count": 0,
+      "incomplete_results": false,
+      "response_sha256": "145a6ef46a0f11fd1b04234b3ddcc7c274e51e026d4456b3b4400a3bb98d27d1"
+    },
+    {
+      "query_name": "involvement",
+      "count": 0,
+      "incomplete_results": false,
+      "response_sha256": "145a6ef46a0f11fd1b04234b3ddcc7c274e51e026d4456b3b4400a3bb98d27d1"
+    },
+    {
+      "query_name": "login-text",
+      "count": 0,
+      "incomplete_results": false,
+      "response_sha256": "145a6ef46a0f11fd1b04234b3ddcc7c274e51e026d4456b3b4400a3bb98d27d1"
+    },
+    {
+      "query_name": "author-commits",
+      "count": 0,
+      "incomplete_results": false,
+      "response_sha256": "f3229374c5019345c393185680ba5f79076e4eb1fe0181d5ba3406c9657b34fe"
+    },
+    {
+      "query_name": "committer-commits",
+      "count": 0,
+      "incomplete_results": false,
+      "response_sha256": "f3229374c5019345c393185680ba5f79076e4eb1fe0181d5ba3406c9657b34fe"
+    },
+    {
+      "query_name": "reviewer-prs",
+      "count": 0,
+      "incomplete_results": false,
+      "response_sha256": "145a6ef46a0f11fd1b04234b3ddcc7c274e51e026d4456b3b4400a3bb98d27d1"
+    },
+    {
+      "query_name": "commenter-threads",
+      "count": 0,
+      "incomplete_results": false,
+      "response_sha256": "145a6ef46a0f11fd1b04234b3ddcc7c274e51e026d4456b3b4400a3bb98d27d1"
+    },
+    {
+      "query_name": "actor-workflow-runs",
+      "count": 0,
+      "response_sha256": "763f11efb3fd0695809422708bf5765dfad5d8438bfb9a7bad31f23ff74d3285"
+    },
+    {
+      "query_name": "author-default-commits",
+      "count": 0,
+      "response_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "query_name": "author-release-ancestry",
+      "count": 0,
+      "response_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/BerriAI/litellm/releases/tag/v1.100.0",
+    "author": "yuneng-berri",
+    "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+    "commit_author": "yuneng-berri",
+    "committer": "web-flow",
+    "verified": true
+  },
+  "limits": "GitHub search and commit attribution do not establish PyPI roles or publishing authority."
+}

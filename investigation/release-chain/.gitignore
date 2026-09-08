@@ -1,0 +1,4 @@
+.native-inputs/
+.js-inputs/
+js-module-diffs/*.ast.json
+js-module-diffs/*.normalized.json

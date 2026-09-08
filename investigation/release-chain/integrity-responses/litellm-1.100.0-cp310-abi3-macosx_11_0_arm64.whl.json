@@ -1,0 +1,15 @@
+{
+  "filename": "litellm-1.100.0-cp310-abi3-macosx_11_0_arm64.whl",
+  "artifact_sha256": "0f87fae695edbca27e5cf970bea52fa405fa9910fdf7c29c963d6413db767299",
+  "upload_time_utc": "2026-09-06T00:22:25.456412Z",
+  "source_url": "https://pypi.org/integrity/litellm/1.100.0/litellm-1.100.0-cp310-abi3-macosx_11_0_arm64.whl/provenance",
+  "checked_at_utc": "2026-09-08T20:10:49.194552+00:00",
+  "http_status": 404,
+  "headers": {
+    "content-type": "application/json",
+    "Date": "Tue, 08 Sep 2026 20:10:50 GMT"
+  },
+  "response": {
+    "message": "No provenance available for litellm-1.100.0-cp310-abi3-macosx_11_0_arm64.whl"
+  }
+}

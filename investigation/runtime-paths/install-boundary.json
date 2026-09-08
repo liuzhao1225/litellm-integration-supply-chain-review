@@ -1,0 +1,49 @@
+{
+  "1.99.0": {
+    "filename": "litellm-1.99.0-cp310-abi3-manylinux_2_28_x86_64.whl",
+    "sha256": "1c45097e426fed2ae7fbd38b5404c3addeb203d0e1148c0a59848aabd5fe83c6",
+    "base_requirements": [
+      "fastuuid>=0.14.0,<1.0",
+      "httpx>=0.28.0,<1.0",
+      "openai>=2.20.0,<3.0.0",
+      "python-dotenv>=1.0.0,<2.0",
+      "tiktoken>=0.8.0,<1.0",
+      "importlib-metadata>=8.0.0,<9.0",
+      "tokenizers>=0.21.0,<1.0",
+      "click>=8.0.0,<9.0",
+      "jinja2>=3.1.6,<4.0",
+      "aiohttp>=3.14.2,<4.0",
+      "pydantic>=2.10.0,<3.0.0",
+      "pydantic-settings>=2.14.1,<3.0",
+      "jsonschema>=4.0.0,<5.0",
+      "boto3>=1.43.1,<2.0"
+    ],
+    "requires_python": ">=3.10, <3.15",
+    "startup_hooks": [],
+    "console_entry_points": "[console_scripts]\nlitellm=litellm:run_server\nlite=litellm.proxy.client.cli:cli\nlitellm-proxy=litellm.proxy.client.cli:cli\n"
+  },
+  "1.100.0": {
+    "filename": "litellm-1.100.0-cp310-abi3-manylinux_2_28_x86_64.whl",
+    "sha256": "8224c8eed9cab3319a88e6665d1275ad8faf21d353b1b22223a6d6115a302ea2",
+    "base_requirements": [
+      "fastuuid>=0.14.0,<1.0",
+      "httpx>=0.28.0,<1.0",
+      "openai>=2.20.0,<3.0.0",
+      "python-dotenv>=1.0.0,<2.0",
+      "tiktoken>=0.8.0,<1.0",
+      "importlib-metadata>=8.0.0,<9.0",
+      "tokenizers>=0.21.0,<1.0",
+      "click>=8.0.0,<9.0",
+      "jinja2>=3.1.6,<4.0",
+      "aiohttp>=3.14.2,<4.0",
+      "pydantic>=2.10.0,<3.0.0",
+      "pydantic-settings>=2.14.1,<3.0",
+      "jsonschema>=4.0.0,<5.0",
+      "boto3>=1.43.1,<2.0"
+    ],
+    "requires_python": ">=3.10, <3.15",
+    "startup_hooks": [],
+    "console_entry_points": "[console_scripts]\nlitellm=litellm:run_server\nlite=litellm.proxy.client.cli:cli\nlitellm-proxy=litellm.proxy.client.cli:cli\n"
+  },
+  "base_requirements_identical": true
+}

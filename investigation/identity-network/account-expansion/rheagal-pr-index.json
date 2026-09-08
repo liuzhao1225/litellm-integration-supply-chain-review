@@ -1,0 +1,272 @@
+[
+  {
+    "url": "https://github.com/Cinnamon/kotaemon/pull/830",
+    "date": "2026-04-20T17:09:33Z",
+    "repo": "Cinnamon/kotaemon",
+    "title": "feat: add litellm provider [ LiteLLM AI Gateway]"
+  },
+  {
+    "url": "https://github.com/EleutherAI/lm-evaluation-harness/pull/3721",
+    "date": "2026-04-20T20:24:25Z",
+    "repo": "EleutherAI/lm-evaluation-harness",
+    "title": "feat: Add  [ LiteLLM AI gateway ] as model backend"
+  },
+  {
+    "url": "https://github.com/open-compass/VLMEvalKit/pull/1521",
+    "date": "2026-04-22T15:10:03Z",
+    "repo": "open-compass/VLMEvalKit",
+    "title": "feat: add LiteLLM as unified AI gateway provider"
+  },
+  {
+    "url": "https://github.com/deepset-ai/haystack-core-integrations/pull/3257",
+    "title": "feat: add LiteLLM integration with LiteLLMChatGenerator component",
+    "date": "2026-04-29T14:54:54Z",
+    "repo": "deepset-ai/haystack-core-integrations"
+  },
+  {
+    "url": "https://github.com/PDFMathTranslate/PDFMathTranslate/pull/1135",
+    "date": "2026-05-12T19:19:35Z",
+    "repo": "PDFMathTranslate/PDFMathTranslate",
+    "title": "Feat/add litellm provider"
+  },
+  {
+    "url": "https://github.com/msoedov/agentic_security/pull/299",
+    "date": "2026-05-18T20:10:41Z",
+    "repo": "msoedov/agentic_security",
+    "title": "feat: add LiteLLM as provider for 100+ LLM backends"
+  },
+  {
+    "url": "https://github.com/Mirix-AI/MIRIX/pull/133",
+    "date": "2026-05-28T12:51:25Z",
+    "repo": "Mirix-AI/MIRIX",
+    "title": "feat: add LiteLLM as AI gateway provider"
+  },
+  {
+    "url": "https://github.com/anomalyco/opencode/pull/29937",
+    "title": "feat(opencode): add LiteLLM plugin integration",
+    "date": "2026-05-29T22:48:08Z",
+    "repo": "anomalyco/opencode"
+  },
+  {
+    "url": "https://github.com/apache/burr/pull/803",
+    "title": "feat: add LiteLLM AI gateway integration",
+    "date": "2026-06-09T16:59:44Z",
+    "repo": "apache/burr"
+  },
+  {
+    "url": "https://github.com/vllm-project/guidellm/pull/800",
+    "date": "2026-06-16T18:17:37Z",
+    "repo": "vllm-project/guidellm",
+    "title": "feat: add LiteLLM backend for multi-provider benchmarking"
+  },
+  {
+    "url": "https://github.com/datascale-ai/opentalking/pull/130",
+    "title": "feat: add LiteLLM as an LLM provider",
+    "date": "2026-06-30T19:58:05Z",
+    "repo": "datascale-ai/opentalking"
+  },
+  {
+    "url": "https://github.com/Rath-Team/OpenRath/pull/38",
+    "title": "Feat/add litellm provider",
+    "date": "2026-06-30T20:11:32Z",
+    "repo": "Rath-Team/OpenRath"
+  },
+  {
+    "url": "https://github.com/valentinfrlch/ha-llmvision/pull/685",
+    "title": "Feat/add litellm provider",
+    "date": "2026-06-30T20:38:52Z",
+    "repo": "valentinfrlch/ha-llmvision"
+  },
+  {
+    "url": "https://github.com/the-open-agent/openagent/pull/2413",
+    "title": "feat: add LiteLLM provider",
+    "date": "2026-06-30T20:56:28Z",
+    "repo": "the-open-agent/openagent"
+  },
+  {
+    "url": "https://github.com/FranciscoMoretti/chat-js/pull/200",
+    "title": "feat: add LiteLLM gateway provider",
+    "date": "2026-06-30T21:05:55Z",
+    "repo": "FranciscoMoretti/chat-js"
+  },
+  {
+    "url": "https://github.com/bytechefhq/bytechef/pull/5326",
+    "title": "Feat/add litellm provider",
+    "date": "2026-07-03T05:48:25Z",
+    "repo": "bytechefhq/bytechef"
+  },
+  {
+    "url": "https://github.com/swarmclawai/swarmclaw/pull/136",
+    "title": "feat: add LiteLLM as AI gateway provider",
+    "date": "2026-07-03T05:51:55Z",
+    "repo": "swarmclawai/swarmclaw"
+  },
+  {
+    "url": "https://github.com/conductor-oss/conductor/pull/1249",
+    "title": "feat: add LiteLLM as AI gateway provider",
+    "date": "2026-07-03T06:10:11Z",
+    "repo": "conductor-oss/conductor"
+  },
+  {
+    "url": "https://github.com/agents-flex/agents-flex/pull/55",
+    "title": "Feat/add litellm provider",
+    "date": "2026-07-03T06:16:07Z",
+    "repo": "agents-flex/agents-flex"
+  },
+  {
+    "url": "https://github.com/MLSysOps/MLE-agent/pull/329",
+    "title": "Feat/add litellm provider",
+    "date": "2026-07-03T06:26:43Z",
+    "repo": "MLSysOps/MLE-agent"
+  },
+  {
+    "url": "https://github.com/yashab-cyber/HackGpt/pull/15",
+    "title": "Feat/add litellm provider",
+    "date": "2026-07-06T14:15:06Z",
+    "repo": "yashab-cyber/HackGpt"
+  },
+  {
+    "url": "https://github.com/0xPlaygrounds/rig/pull/2022",
+    "title": "Feat/add litellm provider",
+    "date": "2026-07-06T14:22:22Z",
+    "repo": "0xPlaygrounds/rig"
+  },
+  {
+    "url": "https://github.com/dmMaze/BallonsTranslator/pull/1234",
+    "title": "Feat/add litellm provider",
+    "date": "2026-07-06T14:26:06Z",
+    "repo": "dmMaze/BallonsTranslator"
+  },
+  {
+    "url": "https://github.com/AnotiaWang/deep-research-web-ui/pull/88",
+    "title": "Feat/add litellm provider",
+    "date": "2026-07-06T14:29:31Z",
+    "repo": "AnotiaWang/deep-research-web-ui"
+  },
+  {
+    "url": "https://github.com/vybestack/llxprt-code/pull/2394",
+    "title": "Feat/add litellm provider",
+    "date": "2026-07-06T15:15:10Z",
+    "repo": "vybestack/llxprt-code"
+  },
+  {
+    "url": "https://github.com/elder-plinius/T3MP3ST/pull/45",
+    "title": "feat: add LiteLLM as AI gateway provider",
+    "date": "2026-07-06T16:29:51Z",
+    "repo": "elder-plinius/T3MP3ST"
+  },
+  {
+    "url": "https://github.com/Conway-Research/automaton/pull/334",
+    "title": "Feat/add litellm provider",
+    "date": "2026-07-08T16:51:10Z",
+    "repo": "Conway-Research/automaton"
+  },
+  {
+    "url": "https://github.com/BAI-LAB/MemoryOS/pull/74",
+    "title": "Feat/add litellm provider",
+    "date": "2026-07-08T16:55:44Z",
+    "repo": "BAI-LAB/MemoryOS"
+  },
+  {
+    "url": "https://github.com/zhayujie/bot-on-anything/pull/469",
+    "title": "Feat/add litellm provider",
+    "date": "2026-07-08T17:23:53Z",
+    "repo": "zhayujie/bot-on-anything"
+  },
+  {
+    "url": "https://github.com/cosmicstack-labs/mercury-agent/pull/93",
+    "title": "Feat/add litellm provider",
+    "date": "2026-07-08T17:31:54Z",
+    "repo": "cosmicstack-labs/mercury-agent"
+  },
+  {
+    "url": "https://github.com/cloudwego/eino-ext/pull/913",
+    "title": "Feat/add litellm provider",
+    "date": "2026-07-08T17:37:34Z",
+    "repo": "cloudwego/eino-ext"
+  },
+  {
+    "url": "https://github.com/mario-andreschak/FLUJO/pull/82",
+    "title": "feat: add LiteLLM as AI gateway provider",
+    "date": "2026-07-09T17:37:00Z",
+    "repo": "mario-andreschak/FLUJO"
+  },
+  {
+    "url": "https://github.com/u14app/neo-chat/pull/168",
+    "title": "Feat/add litellm provider",
+    "date": "2026-07-09T19:00:33Z",
+    "repo": "u14app/neo-chat"
+  },
+  {
+    "url": "https://github.com/apache/maka/pull/707",
+    "title": "Feat/add litellm provider",
+    "date": "2026-07-09T19:02:58Z",
+    "repo": "apache/maka"
+  },
+  {
+    "url": "https://github.com/smallmain/vscode-unify-chat-provider/pull/254",
+    "title": "Feat/add litellm provider",
+    "date": "2026-07-09T19:06:33Z",
+    "repo": "smallmain/vscode-unify-chat-provider"
+  },
+  {
+    "url": "https://github.com/microsoft/PyRIT/pull/2154",
+    "title": "FEAT: add LiteLLMChatTarget for multi-provider access via LiteLLM",
+    "date": "2026-07-09T19:23:47Z",
+    "repo": "microsoft/PyRIT"
+  },
+  {
+    "url": "https://github.com/antoinezambelli/forge/pull/129",
+    "title": "Feat/add litellm provider",
+    "date": "2026-07-13T15:07:05Z",
+    "repo": "antoinezambelli/forge"
+  },
+  {
+    "url": "https://github.com/andrewyng/aisuite/pull/349",
+    "title": "Feat/add litellm provider",
+    "date": "2026-07-13T15:11:15Z",
+    "repo": "andrewyng/aisuite"
+  },
+  {
+    "url": "https://github.com/aandrew-me/tgpt/pull/435",
+    "title": "Feat/add litellm provider",
+    "date": "2026-07-13T15:17:03Z",
+    "repo": "aandrew-me/tgpt"
+  },
+  {
+    "url": "https://github.com/scabench-org/hound/pull/56",
+    "title": "Feat/add litellm provider",
+    "date": "2026-07-13T15:27:42Z",
+    "repo": "scabench-org/hound"
+  },
+  {
+    "url": "https://github.com/droidrun/mobilerun/pull/384",
+    "title": "Feat/add litellm provider",
+    "date": "2026-07-15T19:31:35Z",
+    "repo": "droidrun/mobilerun"
+  },
+  {
+    "url": "https://github.com/vellum-ai/vellum-assistant/pull/38207",
+    "title": "Feat/add litellm provider",
+    "date": "2026-07-15T19:41:53Z",
+    "repo": "vellum-ai/vellum-assistant"
+  },
+  {
+    "url": "https://github.com/appleboy/CodeGPT/pull/268",
+    "title": "Feat/add litellm provider",
+    "date": "2026-07-16T16:40:05Z",
+    "repo": "appleboy/CodeGPT"
+  },
+  {
+    "url": "https://github.com/ChatGPTNextWeb/NextChat/pull/6856",
+    "title": "Feat/add litellm provider",
+    "date": "2026-07-16T16:44:26Z",
+    "repo": "ChatGPTNextWeb/NextChat"
+  },
+  {
+    "url": "https://github.com/alibaba/open-code-review/pull/385",
+    "title": "feat: add LiteLLM AI gateway provider preset",
+    "date": "2026-07-16T16:52:20Z",
+    "repo": "alibaba/open-code-review"
+  }
+]

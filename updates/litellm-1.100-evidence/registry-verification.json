@@ -1,0 +1,132 @@
+[
+  {
+    "version": "1.99.0",
+    "digest": "sha256:570a872d2fde8f1bc4a147634810941103c14697270f0f2918c5aa7d8201cac5",
+    "key_source": "https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub",
+    "key_sha256": "ff8869bf14ba9d10af7b64b9d479543b44daec0165e715753c43ff8a998f6dd3",
+    "signatures": [
+      {
+        "verified": "Verified OK",
+        "signed_digest": "sha256:570a872d2fde8f1bc4a147634810941103c14697270f0f2918c5aa7d8201cac5",
+        "payload": {
+          "critical": {
+            "identity": {
+              "docker-reference": "ghcr.io/berriai/litellm"
+            },
+            "image": {
+              "docker-manifest-digest": "sha256:570a872d2fde8f1bc4a147634810941103c14697270f0f2918c5aa7d8201cac5"
+            },
+            "type": "cosign container image signature"
+          },
+          "optional": null
+        },
+        "has_bundle": true
+      }
+    ],
+    "platforms": [
+      {
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "digest": "sha256:1eb1e1401c871cea0ff6ecdb33fcb5bb4e0749452132058c92e1e2842e8843a1",
+        "created": "2026-09-01T01:55:05.96788729Z",
+        "labels": {
+          "dev.chainguard.image.title": "wolfi-base",
+          "dev.chainguard.package.main": "",
+          "org.opencontainers.image.authors": "Chainguard Team https://www.chainguard.dev/",
+          "org.opencontainers.image.created": "2026-08-30T12:58:50Z",
+          "org.opencontainers.image.revision": "fa647f742d7baefe8eb1181899d9c81b41559772",
+          "org.opencontainers.image.source": "https://github.com/BerriAI/litellm",
+          "org.opencontainers.image.title": "wolfi-base",
+          "org.opencontainers.image.url": "https://images.chainguard.dev/directory/image/wolfi-base/overview",
+          "org.opencontainers.image.vendor": "Chainguard"
+        }
+      },
+      {
+        "platform": {
+          "architecture": "arm64",
+          "os": "linux"
+        },
+        "digest": "sha256:d7056c140b785ccf79de81514bc177cfb591060acab38327228fb54cc8a38175",
+        "created": "2026-09-01T01:56:30.038300337Z",
+        "labels": {
+          "dev.chainguard.image.title": "wolfi-base",
+          "dev.chainguard.package.main": "",
+          "org.opencontainers.image.authors": "Chainguard Team https://www.chainguard.dev/",
+          "org.opencontainers.image.created": "2026-08-30T12:58:50Z",
+          "org.opencontainers.image.revision": "fa647f742d7baefe8eb1181899d9c81b41559772",
+          "org.opencontainers.image.source": "https://github.com/BerriAI/litellm",
+          "org.opencontainers.image.title": "wolfi-base",
+          "org.opencontainers.image.url": "https://images.chainguard.dev/directory/image/wolfi-base/overview",
+          "org.opencontainers.image.vendor": "Chainguard"
+        }
+      }
+    ]
+  },
+  {
+    "version": "1.100.0",
+    "digest": "sha256:c8756e7b9a61fe45df2ccb5b781d388c3b2f3a21ef9e4956630caef20f9f03aa",
+    "key_source": "https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub",
+    "key_sha256": "ff8869bf14ba9d10af7b64b9d479543b44daec0165e715753c43ff8a998f6dd3",
+    "signatures": [
+      {
+        "verified": "Verified OK",
+        "signed_digest": "sha256:c8756e7b9a61fe45df2ccb5b781d388c3b2f3a21ef9e4956630caef20f9f03aa",
+        "payload": {
+          "critical": {
+            "identity": {
+              "docker-reference": "ghcr.io/berriai/litellm"
+            },
+            "image": {
+              "docker-manifest-digest": "sha256:c8756e7b9a61fe45df2ccb5b781d388c3b2f3a21ef9e4956630caef20f9f03aa"
+            },
+            "type": "cosign container image signature"
+          },
+          "optional": null
+        },
+        "has_bundle": true
+      }
+    ],
+    "platforms": [
+      {
+        "platform": {
+          "architecture": "arm64",
+          "os": "linux"
+        },
+        "digest": "sha256:50968359340577e3f462edae29f887a66932633738d6609066b619e2fa4cca66",
+        "created": "2026-09-06T02:45:02.627591414Z",
+        "labels": {
+          "dev.chainguard.image.title": "wolfi-base",
+          "dev.chainguard.package.main": "",
+          "org.opencontainers.image.authors": "Chainguard Team https://www.chainguard.dev/",
+          "org.opencontainers.image.created": "2026-08-30T12:58:50Z",
+          "org.opencontainers.image.revision": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+          "org.opencontainers.image.source": "https://github.com/BerriAI/litellm",
+          "org.opencontainers.image.title": "wolfi-base",
+          "org.opencontainers.image.url": "https://images.chainguard.dev/directory/image/wolfi-base/overview",
+          "org.opencontainers.image.vendor": "Chainguard"
+        }
+      },
+      {
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "digest": "sha256:d524416722079cef3cba09d498daae97b79068d759fb13f560c31eccf3e545e9",
+        "created": "2026-09-06T02:42:18.26667092Z",
+        "labels": {
+          "dev.chainguard.image.title": "wolfi-base",
+          "dev.chainguard.package.main": "",
+          "org.opencontainers.image.authors": "Chainguard Team https://www.chainguard.dev/",
+          "org.opencontainers.image.created": "2026-08-30T12:58:50Z",
+          "org.opencontainers.image.revision": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+          "org.opencontainers.image.source": "https://github.com/BerriAI/litellm",
+          "org.opencontainers.image.title": "wolfi-base",
+          "org.opencontainers.image.url": "https://images.chainguard.dev/directory/image/wolfi-base/overview",
+          "org.opencontainers.image.vendor": "Chainguard"
+        }
+      }
+    ]
+  }
+]

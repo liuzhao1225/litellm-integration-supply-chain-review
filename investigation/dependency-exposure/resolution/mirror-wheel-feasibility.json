@@ -1,0 +1,138 @@
+{
+  "completed_at_utc": "2026-09-08T20:28:05.795857+00:00",
+  "method": "Read documented Aliyun simple HTML independently; no package content download or resolver invocation.",
+  "records": [
+    {
+      "project": "dora-search",
+      "source": "https://mirrors.aliyun.com/pypi/simple/dora-search/",
+      "captured_at_utc": "2026-09-08T20:28:05.379102+00:00",
+      "response_sha256": "7ad748747976bbfacb86e0f62ba5a6ea65982d315fb55dfa6b14d253776aba74",
+      "content_type": "text/html; charset=utf-8",
+      "file_count": 9,
+      "wheel_count": 0,
+      "files": [
+        {
+          "filename": "dora_search-0.1.10.tar.gz",
+          "url": "https://mirrors.aliyun.com/pypi/packages/6f/5e/01c7c02e606cc3639fc3375544aeebf1afe56197583316977e9203159b6b/dora_search-0.1.10.tar.gz",
+          "hash_fragment": "sha256=e4e80d9457132e350ac9d194c0574085cf3022eabef057142ce76f9d32479e49"
+        },
+        {
+          "filename": "dora_search-0.1.11.tar.gz",
+          "url": "https://mirrors.aliyun.com/pypi/packages/13/9e/bbfe815db2fccb41ea8484e762f089a49a023d4eec0598f330a115447d7e/dora_search-0.1.11.tar.gz",
+          "hash_fragment": "sha256=6314eccfc98b70cca67791bf276af3fa93123a37dd218871d0871f81310c3cf0"
+        },
+        {
+          "filename": "dora_search-0.1.12.tar.gz",
+          "url": "https://mirrors.aliyun.com/pypi/packages/d5/9d/9a13947db237375486c0690f4741dd2b7e1eee20e0ffcb55dbd1b21cc600/dora_search-0.1.12.tar.gz",
+          "hash_fragment": "sha256=2956fd2c4c7e4b9a4830e83f0d4cf961be45cfba1a2f0570281e91d15ac516fb"
+        },
+        {
+          "filename": "dora_search-0.1.4.tar.gz",
+          "url": "https://mirrors.aliyun.com/pypi/packages/fb/2b/c835162bf552fdbf220d413b2ba8fcefff9916644dd0dd41645954c12c45/dora_search-0.1.4.tar.gz",
+          "hash_fragment": "sha256=67230a6bfa17182387909ec3fa6fcdcffb2514f7c4a9fe44db77eaf07d5dacac"
+        },
+        {
+          "filename": "dora_search-0.1.5.tar.gz",
+          "url": "https://mirrors.aliyun.com/pypi/packages/b4/23/a032df818739bd4aad501f7cec5074a76842baa453902ebf3723a9915efd/dora_search-0.1.5.tar.gz",
+          "hash_fragment": "sha256=d9786a85ed1caac4f774a6b35e5b657498533b91e70a4762f31efa72e8b76478"
+        },
+        {
+          "filename": "dora_search-0.1.6.tar.gz",
+          "url": "https://mirrors.aliyun.com/pypi/packages/b6/5b/6c35c3761551a44aa9d37ad4f9458097e92d64081b01f85ba3fbafd20f53/dora_search-0.1.6.tar.gz",
+          "hash_fragment": "sha256=65ddd951b0c178937e043e30115542d92decf1273deaac19187b61462c6eacc8"
+        },
+        {
+          "filename": "dora_search-0.1.7.tar.gz",
+          "url": "https://mirrors.aliyun.com/pypi/packages/2c/ac/47d78e0596af795ee0533cef3def47a8711d2210a72ef1e95a7d4ae10750/dora_search-0.1.7.tar.gz",
+          "hash_fragment": "sha256=1f6c0663074f5a152e86f8babf03940d9b3f38e68c27dfb761d4777084e72c8f"
+        },
+        {
+          "filename": "dora_search-0.1.8.tar.gz",
+          "url": "https://mirrors.aliyun.com/pypi/packages/f7/ad/53327fcb979720695f44c0de78f8a7693a9471ee8c6aebe14cf49cfc8686/dora_search-0.1.8.tar.gz",
+          "hash_fragment": "sha256=97dc5b1c5158f914188ab2bad4f934a4bf2827151c616ad2d0035f276e530b9f"
+        },
+        {
+          "filename": "dora_search-0.1.9.tar.gz",
+          "url": "https://mirrors.aliyun.com/pypi/packages/69/c5/d7ae597003a9f04b89ba8cb0d7c6223974cf7a73e4f5326113acfaf3d5d7/dora_search-0.1.9.tar.gz",
+          "hash_fragment": "sha256=4558ef51add04a478264d8ccc704ec360bcc696407eba8f0ae9ce31e757f753b"
+        }
+      ]
+    },
+    {
+      "project": "openai-whisper",
+      "source": "https://mirrors.aliyun.com/pypi/simple/openai-whisper/",
+      "captured_at_utc": "2026-09-08T20:28:05.379752+00:00",
+      "response_sha256": "16f2125482bd073a82ba408f9b3ebef9f84f853365c48da73f58276fb26b0460",
+      "content_type": "text/html; charset=utf-8",
+      "file_count": 13,
+      "wheel_count": 0,
+      "files": [
+        {
+          "filename": "openai-whisper-20230117.tar.gz",
+          "url": "https://mirrors.aliyun.com/pypi/packages/ea/b5/321fed5de3e0bf435f60e69be7871cb6544613fab2f720f92673edff6be2/openai-whisper-20230117.tar.gz",
+          "hash_fragment": "sha256=54d835d80d253363bb942225a94233ef1ca4029c6cc878dc4ce86fa422ba32e7"
+        },
+        {
+          "filename": "openai-whisper-20230124.tar.gz",
+          "url": "https://mirrors.aliyun.com/pypi/packages/00/c6/fb251c4f7de1c78753a2d54d6aaf1a859ddc3797ed4d6003f15866f4c4a4/openai-whisper-20230124.tar.gz",
+          "hash_fragment": "sha256=31adf9353bf0e3f891b6618896f22c65cf78cd6f845a4d5b7125aa5102187f79"
+        },
+        {
+          "filename": "openai-whisper-20230306.tar.gz",
+          "url": "https://mirrors.aliyun.com/pypi/packages/de/cc/c4f545ee0b1c97a972e93ac45dc3abdb36b196e689426ee6cd28833dfa80/openai-whisper-20230306.tar.gz",
+          "hash_fragment": "sha256=3c7719d6a10c7842e870a9da5fa9df474d8260d0058dfb8cc81f2ef323880e64"
+        },
+        {
+          "filename": "openai-whisper-20230307.tar.gz",
+          "url": "https://mirrors.aliyun.com/pypi/packages/3a/25/ad2073687b305e663cd1bd1cfdc6070b5399a2eef27cdb3d4b93a3aad88d/openai-whisper-20230307.tar.gz",
+          "hash_fragment": "sha256=0eb705930f67e3b83a8bf57e421572e3fc3686f9197df5ae33efb45fd0ef8fd8"
+        },
+        {
+          "filename": "openai-whisper-20230308.tar.gz",
+          "url": "https://mirrors.aliyun.com/pypi/packages/77/23/e10f6a5ecd0b883eeaa4f9481ffa374502a0eef333b6d3c98cab15096f0e/openai-whisper-20230308.tar.gz",
+          "hash_fragment": "sha256=bb75d41b3b6b56de984b475833a7eb5e35374b5cae1362b0ed3a414c8ca7d596"
+        },
+        {
+          "filename": "openai-whisper-20230314.tar.gz",
+          "url": "https://mirrors.aliyun.com/pypi/packages/80/8b/13b7bf32b83fce396a814678661afdb8839b6b4713b3f2f2bc1499888654/openai-whisper-20230314.tar.gz",
+          "hash_fragment": "sha256=7a8e62334f97a8d143b439ae8ed6638d78f41ad921a0205382354004b7271725"
+        },
+        {
+          "filename": "openai-whisper-20230918.tar.gz",
+          "url": "https://mirrors.aliyun.com/pypi/packages/78/ef/74ad84ad319fb9be8798ecccdd6384d346b63b54dffb8478234c43f778a1/openai-whisper-20230918.tar.gz",
+          "hash_fragment": "sha256=32a1ee39c3faaf6c719e3a83f1aacc8e164aad87976350371e26845271287c30"
+        },
+        {
+          "filename": "openai-whisper-20231105.tar.gz",
+          "url": "https://mirrors.aliyun.com/pypi/packages/90/cb/cb99e1d5bccb9c85155c61e647050939780acabdf3f92275ac59737c2174/openai-whisper-20231105.tar.gz",
+          "hash_fragment": "sha256=b04b60526d372e3c537f7cfe3735765e0478c3cd8b7e0922ba98768b1ff4fca5"
+        },
+        {
+          "filename": "openai-whisper-20231106.tar.gz",
+          "url": "https://mirrors.aliyun.com/pypi/packages/63/46/b5f9d697b138ef9885dd3e8a08c6475c1cbd747f2dfc14a437fe3b02b58e/openai-whisper-20231106.tar.gz",
+          "hash_fragment": "sha256=9d1de7fa1e766b9adf8be4bfa7fb11e2bdf8d2b0bf77b90478cf4d75e0e58d19"
+        },
+        {
+          "filename": "openai-whisper-20231117.tar.gz",
+          "url": "https://mirrors.aliyun.com/pypi/packages/d2/6e/50ace2bf704e5ffc786d20d96403ab0d57c5d6ab8729de7fed8c436687df/openai-whisper-20231117.tar.gz",
+          "hash_fragment": "sha256=7af424181436f1800cc0b7d75cf40ede34e9ddf1ba4983a910832fcf4aade4a4"
+        },
+        {
+          "filename": "openai-whisper-20240927.tar.gz",
+          "url": "https://mirrors.aliyun.com/pypi/packages/ed/a9/81f65f3443778a1e1088e80089fc970f1f160abec2bfc3d71abfed8cbc34/openai-whisper-20240927.tar.gz",
+          "hash_fragment": "sha256=5b322442b03704e245e3d6d3a577d7a3845f884e50edbf15990cb26a134dffff"
+        },
+        {
+          "filename": "openai-whisper-20240930.tar.gz",
+          "url": "https://mirrors.aliyun.com/pypi/packages/f5/77/952ca71515f81919bd8a6a4a3f89a27b09e73880cebf90957eda8f2f8545/openai-whisper-20240930.tar.gz",
+          "hash_fragment": "sha256=b7178e9c1615576807a300024f4daa6353f7e1a815dac5e38c33f1ef055dd2d2"
+        },
+        {
+          "filename": "openai_whisper-20250625.tar.gz",
+          "url": "https://mirrors.aliyun.com/pypi/packages/35/8e/d36f8880bcf18ec026a55807d02fe4c7357da9f25aebd92f85178000c0dc/openai_whisper-20250625.tar.gz",
+          "hash_fragment": "sha256=37a91a3921809d9f44748ffc73c0a55c9f366c85a3ef5c2ae0cc09540432eb96"
+        }
+      ]
+    }
+  ]
+}

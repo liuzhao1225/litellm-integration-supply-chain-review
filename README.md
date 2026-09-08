@@ -1,50 +1,51 @@
-# LiteLLM integration supply-chain review
+# LiteLLM integration supply-chain investigation
 
-Public technical review, snapshot **2026-09-09**. This record begins with [YouDub-webui PR #130](https://github.com/liuzhao1225/YouDub-webui/pull/130) and documents related integration proposals so maintainers can assess dependency and credential boundaries. It does **not establish malicious intent, participation in a compromise, or an undisclosed affiliation** by any contributor.
+This investigation examines LiteLLM 1.100 artifacts, publishing, runtime behavior and supply-chain relationships. [YouDub-webui PR #130](https://github.com/liuzhao1225/YouDub-webui/pull/130) is the discovery point and one downstream case. The [complete report](REPORT.zh-CN.md) is maintained as one account, with findings revised and reordered as evidence changes. Collection date: **September 9, 2026**; individual records retain UTC timestamps.
 
-[Published notices](NOTICES.md) / [中文调查记录](REPORT.zh-CN.md) · [All 49 PRs and fixed revisions](PR-INDEX.md) · [Dependency constraints](data/version-constraint-audit.json) · [Lockfile checks](data/lock-audit.json)
+**The investigation has not established poisoning of LiteLLM 1.100.0 or contributor participation in an attack.** Confirmed installation and testing concerns, conditional credential-routing risks, source matches and unresolved build-provenance gaps are documented together.
 
-## Confirmed upstream incident and recent release
-
-LiteLLM's [official March 2026 incident update](https://docs.litellm.ai/blog/security-update-march-2026) documents compromised PyPI releases **1.82.7 and 1.82.8** on March 24. The malicious releases were removed. [Datadog's analysis](https://securitylabs.datadoghq.com/articles/litellm-compromised-pypi-teampcp-supply-chain-campaign/) describes a `.pth` execution path in 1.82.8: an application feature flag or delayed `import litellm` does not prevent this class of Python-startup payload once installed.
-
-The latest stable release at collection is **1.100.0**, uploaded September 6, 2026: [PyPI](https://pypi.org/project/litellm/1.100.0/) / [upstream release](https://github.com/BerriAI/litellm/releases/tag/v1.100.0). The historical incident does not establish that this later version is compromised. A [static sample check](data/litellm-1.100.0-static-audit.json) found matching Python files and no historical indicators in one wheel; native binaries and transitive dependencies were not fully audited.
-
-## Observable integration pattern and timeline
-
-The [public PR search](https://github.com/search?q=is%3Apr+author%3Aprodmanpd&type=pullrequests) returned 49 PRs across 49 projects, all concerning LiteLLM integration. The [per-PR snapshots](data/prs.json) preserve GitHub creation times and head revisions. Search visibility is a limitation: this is not a lifetime history and excludes private, deleted, unreachable and unindexed activity.
-
-The first observed PR was [llm-for-zotero #316](https://github.com/yilewang/llm-for-zotero/pull/316), created **2026-07-17 18:49:48 UTC / July 18 02:49:48 Beijing time**. Five PRs appeared within roughly 28 minutes, including [TinyTroupe #160](https://github.com/microsoft/TinyTroupe/pull/160), [docutranslate #53](https://github.com/xunbu/docutranslate/pull/53), [hacker-news-digest #47](https://github.com/polyrabbit/hacker-news-digest/pull/47), and [FunClip #178](https://github.com/modelscope/FunClip/pull/178).
-
-The [author's Chartbrew reply](https://github.com/chartbrew/chartbrew/pull/365#issuecomment-5207856315) explicitly acknowledges submitting LiteLLM integrations across open-source projects and explains the intended benefit as supporting teams with existing model gateways. That reply does not establish compensation or affiliation. These are appropriate clarification questions, not findings.
-
-The [49-PR index](PR-INDEX.md) distinguishes 22 PRs with new Python SDK calls from 27 with proxy-compatible integration. Proxy configuration alone does not install the PyPI SDK into the application. Of 20 PRs with explicit numeric dependency additions/changes, all use an upper limit equivalent to `<2`; 8 spell it `<2.0.0`. This is a common compatibility boundary and is insufficient evidence of malicious intent.
-
-There are material counterexamples to broader claims: six PRs carry [specific locked versions with matching PyPI artifact URLs/hashes](data/lock-audit.json), and an [AI-Youtube-Shorts-Generator fork commit](https://github.com/prodmanpd/AI-Youtube-Shorts-Generator/commit/6bdf862985ea9bfad5cc4ddd14c89047067e12ce) uses a narrower `>=1.85,<1.96` constraint. Therefore, neither “every contribution uses <2” nor “every install selects the newest release” is supported.
+[完整调查报告](REPORT.zh-CN.md) · [Evidence index](investigation/README.md) · [49-PR index](PR-INDEX.md) · [Investigation responsibilities](INVESTIGATION-PLAN.zh-CN.md) · [Published notices](NOTICES.md)
 
 ## Specific concerns in YouDub #130
 
-Review revision: [`1add1b6d90795ddc222c3f5021305a2e8d953a17`](https://github.com/liuzhao1225/YouDub-webui/commit/1add1b6d90795ddc222c3f5021305a2e8d953a17).
+At fixed head [1add1b6d90795ddc222c3f5021305a2e8d953a17](https://github.com/liuzhao1225/YouDub-webui/commit/1add1b6d90795ddc222c3f5021305a2e8d953a17):
 
-- The [dependency change](https://github.com/liuzhao1225/YouDub-webui/commit/1add1b6d90795ddc222c3f5021305a2e8d953a17) adds `litellm>=1.89.0,<2.0.0` to default requirements after the separate optional requirements file was removed. The [PR description](https://github.com/liuzhao1225/YouDub-webui/pull/130) still describes an optional dependency. Installation scope needs clarification.
-- The range excludes the known compromised 1.82.7/1.82.8 releases, but permits later compatible 1.x releases beyond the author's stated 1.99.0 test version. Fresh resolution or an upgrade can select a later release depending on index availability, Python/platform and other constraints. An already-satisfied environment does not necessarily upgrade on every install.
-- The [unit test helper](https://github.com/liuzhao1225/YouDub-webui/blob/1add1b6d90795ddc222c3f5021305a2e8d953a17/backend/tests/test_litellm_translate.py#L17) creates a fake LiteLLM module and inserts it into `sys.modules`. The test named `test_translate_batch_routes_through_litellm_end_to_end` also uses that helper. This validates application wiring and response parsing, without exercising the real package. Mocking is conventional; passing these tests does not establish package compatibility or supply-chain safety.
-- The author separately reports live tests against real endpoints in the PR description. This review has not independently reproduced those results. Request reproducible commands, exact package/artifact versions and an integration-test boundary alongside unit tests.
+- Default requirements add `litellm>=1.89.0,<2.0.0` after removing the optional requirements file; the [PR description](https://github.com/liuzhao1225/YouDub-webui/pull/130) still describes an optional dependency.
+- The range excludes the known malicious 1.82.7/1.82.8 versions but admits versions beyond the author's stated 1.99.0 tests, including 1.100.0. Resolution depends on the environment, index and other constraints.
+- The [unit tests](https://github.com/liuzhao1225/YouDub-webui/blob/1add1b6d90795ddc222c3f5021305a2e8d953a17/backend/tests/test_litellm_translate.py#L17), including the test named end-to-end, replace LiteLLM in `sys.modules`. They check adapter behavior. The author's separate claim of live endpoint tests has not been independently reproduced.
+- Keeping a saved OpenAI key while switching only the model/provider can cause the adapter to pass that key explicitly to another provider. This conditional path follows the [settings code](https://github.com/liuzhao1225/YouDub-webui/blob/1add1b6d90795ddc222c3f5021305a2e8d953a17/backend/app/database.py#L710) and LiteLLM's provider key precedence, which also exists in 1.99. Correctly replacing or clearing the key changes the result. No real credential leak has been demonstrated.
 
-[Existing version-drift discussion](https://github.com/liuzhao1225/YouDub-webui/pull/130#issuecomment-5590586641) records the concern. #130 remains open pending clarification, without code modifications or merging by this review.
+The [dependency and credential analysis](investigation/dependency-exposure/README.md) records activation conditions, counterexamples and test gaps. [Captured PR state](investigation/youdub-state.json): open and unmerged. This investigation has not changed #130's code or merged it.
 
-## Questions for authors and maintainers
+## Historical attack and current artifacts
 
-Explain the intended use case and any affiliation, sponsorship or commissioned integration work relevant to this batch. Document whether the application installs a Python package or talks to an independently operated proxy; specify tested versions, artifact provenance and update review. For proxy integrations, document the operator trust boundary and ensure credentials for a different provider are not implicitly forwarded.
+The [official March incident report](https://docs.litellm.ai/blog/security-update-march-2026) confirms malicious PyPI releases 1.82.7 and 1.82.8. Public accounts trace the incident through compromised Trivy scanning infrastructure and stolen publishing access. Version 1.82.8 included a Python-startup `.pth` payload; delaying the application import would not prevent that trigger after installation. The [historical account](REPORT.zh-CN.md) distinguishes confirmed payload behavior from qualified statements about the intrusion chain.
 
-These questions apply to technical review. Neither a broad version range, a mock-based test, a recent release, nor repeated integration work proves an attack.
+LiteLLM [1.100.0](https://pypi.org/project/litellm/1.100.0/) was uploaded September 6. Current checks cover:
 
-## Evidence scope and corrections
+| Evidence | Finding and limit |
+| --- | --- |
+| [Artifact inventories](investigation/artifact-records/README.md) | Ten archived files match PyPI hashes; eight wheels pass 27,165 file-hash checks. Internal consistency does not establish benign content. |
+| [Source comparison](investigation/artifact-records/source-comparison.json) | Seven-platform Python content matches the fixed source after Windows CRLF normalization. Machine code requires separate analysis. |
+| [Image signatures](updates/litellm-1.100-deep-audit-20260909.md) | Fixed-public-key verification succeeds for the 1.99/1.100 GHCR digests. This does not establish reproducible builds or PyPI publisher identity. |
+| [Release-chain analysis](investigation/release-chain/README.md) | All eight 1.100 PyPI Integrity requests return no provenance available. Native compiler fingerprints differ by platform; generated JS feature changes map to fixed source, and 13 other modules match after binding-name normalization without changing import order. Full compiled equivalence and native build provenance remain open. |
 
-This repository preserves selected public technical facts, PR and commit references, exact revisions, file blob identifiers and hashes of collected diff text. It includes 85 repository metadata records and 122 unique commit SHA records; merge/squash duplication means this is not 122 independent features. Diff hashes do not reconstruct deleted content or provide independent trusted timestamps. Full raw collection is retained locally; this public repository is a curated record, not a full mirror of source code and discussions.
+## Contributor activity and downstream responses
 
-No private email contents, private contact details or nationality speculation belong in this record. Please provide corrections and author responses through an issue with a source. Keep discussion specific and respectful; do not harass contributors or repeat-post allegations.
+The [located prodmanpd sample](PR-INDEX.md) contains 49 PRs across 49 projects: 22 with new Python SDK calls and 27 with proxy-compatible integration. The earliest located PR is [llm-for-zotero #316](https://github.com/yilewang/llm-for-zotero/pull/316), created July 17 at 18:49:48 UTC. The [Chartbrew reply](https://github.com/chartbrew/chartbrew/pull/365#issuecomment-5207856315) acknowledges cross-project integration work and describes support for existing gateways; it does not establish employment or sponsorship.
 
-## Follow-up observed during notification
+Of 20 explicit numeric dependency changes, all use an upper bound equivalent to `<2`, with eight spelling `<2.0.0`. [Narrower constraints](data/version-constraint-audit.json), [six specific lockfiles](data/lock-audit.json), and [OpenExecutive's 1.100 lock](updates/OpenExecutive-98.json) are material counterexamples to claims that every contribution always selects the newest package. Proxy-only clients do not automatically install the Python SDK.
 
-[OpenExecutive #98](https://github.com/SenteLabsAI/OpenExecutive/pull/98) advanced to an upstream synchronization commit while notices were being prepared. Its optional extra remains in place, and the current lock fixes LiteLLM 1.100.0. All 8 LiteLLM artifact URLs/hashes match PyPI metadata. The [updated snapshot](updates/OpenExecutive-98.json) supplements the original six-lockfile baseline; the new lock is an additional reproducibility control.
+An [additional account sample](OTHER-ACCOUNTS.zh-CN.md) documents RheagalFire's public integrations. Account-control relationships remain unproven. The [response timeline](investigation/contribution-followup/README.md) records 28 open, 17 merged and four closed PRs at its capture time. Webclaw's owner cited HTTP credential transport and missing CI when closing its PR; the relevant review predated our notices.
+
+## Evidence and unresolved questions
+
+The [evidence index](investigation/README.md) links exact revisions, source identities, hashes and collection limits. Full original collection and package archives are retained locally. Public records include 85 repository metadata records and 122 unique commit SHAs; inherited history and merge/squash duplication prevent treating that total as independent features.
+
+Outstanding questions concern artifact-specific build origins, remaining generated/native behavior, complete environment-specific dependency resolution, actual credential transmission and attributable author explanations. Broad constraints, conventional test doubles and repeated integration work do not settle these questions.
+
+Corrections and author explanations are welcome through issues with supporting sources. Private email content, secrets and nationality speculation are excluded from this record.
+
+## Phishing notifications observed during the investigation
+
+[Archived notification evidence](investigation/notification-analysis/README.md) documents 14 independently retrieved issues, 11 issue authors and four Pages entry points with identical decoded redirect code. Warnings to the two maintainers identified by the user were posted and read back. No control relationship with the LiteLLM contributors has been established. The original email and notification tokens are excluded from the public record.

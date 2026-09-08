@@ -1,0 +1,459 @@
+
+<native-member>:	file format coff-x86-64
+Characteristics 0x2022
+	executable
+	large address aware
+	DLL
+
+Time/Date               Sun Sep  6 08:16:35 2026
+Magic                   020b	(PE32+)
+MajorLinkerVersion      14
+MinorLinkerVersion      51
+SizeOfCode              000000000083e000
+SizeOfInitializedData   0000000000307600
+SizeOfUninitializedData 0000000000000000
+AddressOfEntryPoint     000000000081c450
+BaseOfCode              0000000000001000
+ImageBase               0000000180000000
+SectionAlignment        00001000
+FileAlignment           00000200
+MajorOSystemVersion     6
+MinorOSystemVersion     0
+MajorImageVersion       0
+MinorImageVersion       0
+MajorSubsystemVersion   6
+MinorSubsystemVersion   0
+Win32Version            00000000
+SizeOfImage             00b47000
+SizeOfHeaders           00000400
+CheckSum                00000000
+Subsystem               00000002	(Windows GUI)
+DllCharacteristics      00000160
+					HIGH_ENTROPY_VA
+					DYNAMIC_BASE
+					NX_COMPAT
+SizeOfStackReserve      0000000000100000
+SizeOfStackCommit       0000000000001000
+SizeOfHeapReserve       0000000000100000
+SizeOfHeapCommit        0000000000001000
+LoaderFlags             00000000
+NumberOfRvaAndSizes     00000010
+
+The Data Directory
+Entry 0 0000000000ae3b30 00000220 Export Directory [.edata (or where ever we found it)]
+Entry 1 0000000000ae3d50 0000017c Import Directory [parts of .idata]
+Entry 2 0000000000000000 00000000 Resource Directory [.rsrc]
+Entry 3 0000000000aea000 000549cc Exception Directory [.pdata]
+Entry 4 0000000000000000 00000000 Security Directory
+Entry 5 0000000000b3f000 00007b50 Base Relocation Directory [.reloc]
+Entry 6 00000000009ae2a0 00000054 Debug Directory
+Entry 7 0000000000000000 00000000 Description Directory
+Entry 8 0000000000000000 00000000 Special Directory
+Entry 9 00000000009ae300 00000028 Thread Storage Directory [.tls]
+Entry a 00000000009ae160 00000140 Load Configuration Directory
+Entry b 0000000000000000 00000000 Bound Import Directory
+Entry c 000000000083f000 00000938 Import Address Table Directory
+Entry d 0000000000000000 00000000 Delay Import Directory
+Entry e 0000000000000000 00000000 CLR Runtime Header
+Entry f 0000000000000000 00000000 Reserved
+TLS directory:
+  StartAddressOfRawData: 0x000001809ae768
+  EndAddressOfRawData: 0x000001809ae8c0
+  AddressOfIndex: 0x00000180ae9ef4
+  AddressOfCallBacks: 0x0000018083f9b0
+  SizeOfZeroFill: 0
+  Characteristics: 4194304
+  Alignment: 8
+
+
+The Import Tables:
+  lookup 00ae4490 time 00000000 fwd 00000000 name 00ae5146 addr 0083f510
+
+    DLL Name: python3.dll
+    Hint/Ord  Name
+           0  PyTuple_Size
+           0  PyTuple_GetItem
+           0  PyUnicode_AsUTF8AndSize
+           0  PyType_GetFlags
+           0  _Py_IncRef
+           0  PyObject_IsInstance
+           0  PyErr_WriteUnraisable
+           0  PyEval_SaveThread
+           0  PyBaseObject_Type
+           0  PyList_Size
+           0  PyDict_Keys
+           0  PyEval_RestoreThread
+           0  PyObject_GC_UnTrack
+           0  PyGILState_Release
+           0  PyDict_Type
+           0  _Py_DecRef
+           0  PyUnicode_FromStringAndSize
+           0  _Py_NoneStruct
+           0  PyBool_Type
+           0  PyLong_Type
+           0  PyByteArray_Type
+           0  PyObject_CallMethodObjArgs
+           0  PyDict_Next
+           0  PyDict_Size
+           0  PyCMethod_New
+           0  PyModule_GetNameObject
+           0  PyLong_AsLongLong
+           0  PyObject_SetAttr
+           0  PyErr_GivenExceptionMatches
+           0  PyList_Type
+           0  PyObject_DelItem
+           0  PyObject_SetItem
+           0  PyObject_Str
+           0  PyObject_GetItem
+           0  PyLong_FromSsize_t
+           0  PyType_IsSubtype
+           0  PyType_FromSpec
+           0  PyObject_GenericSetDict
+           0  PyTuple_New
+           0  PyObject_GenericGetDict
+           0  PyType_GetSlot
+           0  PyObject_SetAttrString
+           0  PyException_SetTraceback
+           0  PyException_SetCause
+           0  Py_GetVersion
+           0  PyObject_Repr
+           0  PyGILState_Ensure
+           0  PyTuple_Type
+           0  PyErr_PrintEx
+           0  PyExc_SystemError
+           0  PyErr_SetObject
+           0  PyErr_SetString
+           0  PyExc_TypeError
+           0  PyErr_Restore
+           0  PyUnicode_AsEncodedString
+           0  PyErr_NormalizeException
+           0  PyErr_Fetch
+           0  Py_IsInitialized
+           0  PyTraceBack_Print
+           0  PyObject_CallNoArgs
+           0  PyList_Append
+           0  PyList_SetItem
+           0  PyList_New
+           0  PyModule_Type
+           0  PyDict_SetItem
+           0  PyExc_BaseException
+           0  PyExc_RuntimeError
+           0  PyExc_ValueError
+           0  PyExc_KeyError
+           0  PyLong_FromLong
+           0  PyUnicode_InternInPlace
+           0  PyType_Type
+           0  PyImport_Import
+           0  PyErr_NewExceptionWithDoc
+           0  PyExc_Exception
+           0  PySequence_GetItem
+           0  PyObject_Call
+           0  PyTuple_SetItem
+           0  PyBytes_Size
+           0  PyBytes_AsString
+           0  PyBytes_Type
+           0  PyIter_Next
+           0  PyObject_GetIter
+           0  PyMapping_Size
+           0  PyMapping_Values
+           0  PyMapping_Keys
+           0  PyErr_Clear
+           0  PyErr_ExceptionMatches
+           0  PyExc_AttributeError
+           0  PyObject_GetAttr
+           0  PyFloat_AsDouble
+           0  PyErr_Occurred
+           0  Py_NewRef
+           0  PyDict_GetItemWithError
+           0  PyUnicode_Type
+           0  PyList_GetItem
+           0  PyFloat_FromDouble
+           0  _Py_FalseStruct
+           0  PyDict_New
+           0  _Py_TrueStruct
+           0  PyLong_FromLongLong
+           0  PySet_Type
+           0  PyFrozenSet_Type
+           0  PyFloat_Type
+           0  PyLong_AsUnsignedLongLong
+           0  PyObject_Size
+           0  PyNumber_Index
+           0  PyNumber_Rshift
+           0  PyLong_FromUnsignedLongLong
+           0  PyLong_AsUnsignedLongLongMask
+           0  PyObject_IsTrue
+           0  PyModuleDef_Init
+
+  lookup 00ae41f0 time 00000000 fwd 00000000 name 00ae5850 addr 0083f270
+
+    DLL Name: kernel32.dll
+    Hint/Ord  Name
+        1036  RtlLookupFunctionEntry
+        1030  RtlCaptureContext
+         430  GetCurrentDirectoryW
+        1340  lstrlenW
+        1042  RtlVirtualUnwind
+        1287  WideCharToMultiByte
+         344  FormatMessageW
+         621  GetStdHandle
+         411  GetConsoleMode
+           0  LoadLibraryW
+           0  TlsSetValue
+           0  TlsGetValue
+           0  TlsAlloc
+           0  InitOnceExecuteOnce
+           0  AcquireSRWLockShared
+           0  AcquireSRWLockExclusive
+           0  ReleaseSRWLockShared
+           0  ReleaseSRWLockExclusive
+           0  InitializeSRWLock
+           0  CreateThread
+           0  GetFileInformationByHandleEx
+           0  GetFileInformationByHandle
+           0  SetFileInformationByHandle
+           0  GetProcessHeap
+           0  HeapFree
+         414  GetConsoleOutputCP
+         892  MultiByteToWideChar
+           0  GetSystemTimePreciseAsFileTime
+           0  SetFileTime
+           0  GetFullPathNameW
+           0  GetLastError
+           0  GetModuleHandleA
+           0  SetThreadStackGuarantee
+           0  GetCurrentThread
+           0  SetHandleInformation
+        1304  WriteConsoleW
+           0  HeapReAlloc
+           0  SwitchToThread
+         469  GetEnvironmentVariableW
+           0  CloseHandle
+         965  QueryPerformanceFrequency
+           0  IsThreadAFiber
+           0  HeapAlloc
+           0  GetQueuedCompletionStatusEx
+           0  FlsSetValue
+           0  FlsFree
+           0  SetLastError
+           0  GetFinalPathNameByHandleW
+           0  GetModuleHandleExW
+           0  PostQueuedCompletionStatus
+           0  ReadFile
+           0  GetOverlappedResult
+           0  FlsAlloc
+           0  CreateIoCompletionPort
+           0  SetFileCompletionNotificationModes
+           0  WriteFile
+           0  CancelIoEx
+           0  GetSystemInfo
+           0  CreateFileW
+           0  GetSystemTimeAsFileTime
+           0  DisableThreadLibraryCalls
+         767  InitializeSListHead
+         964  QueryPerformanceCounter
+           0  FindFirstFileExW
+           0  FindNextFileW
+           0  FindClose
+           0  GetCurrentThreadId
+           0  GetCurrentProcess
+           0  WaitForSingleObjectEx
+           0  LoadLibraryA
+           0  GetProcAddress
+           0  GetCurrentProcessId
+           0  CreateMutexA
+           0  ReleaseMutex
+           0  GetModuleHandleW
+           0  WaitForSingleObject
+
+  lookup 00ae41a0 time 00000000 fwd 00000000 name 00ae585e addr 0083f220
+
+    DLL Name: bcryptprimitives.dll
+    Hint/Ord  Name
+           0  ProcessPrng
+
+  lookup 00ae3fe8 time 00000000 fwd 00000000 name 00ae5874 addr 0083f068
+
+    DLL Name: api-ms-win-core-synch-l1-2-0.dll
+    Hint/Ord  Name
+           0  WakeByAddressSingle
+           0  WaitOnAddress
+           0  WakeByAddressAll
+
+  lookup 00ae4818 time 00000000 fwd 00000000 name 00ae5896 addr 0083f898
+
+    DLL Name: ws2_32.dll
+    Hint/Ord  Name
+           0  send
+           0  recv
+           0  WSASend
+           0  getsockname
+           0  freeaddrinfo
+           0  getaddrinfo
+           0  getpeername
+           0  shutdown
+           0  WSASocketW
+           0  ioctlsocket
+           0  closesocket
+           0  connect
+           0  getsockopt
+           0  WSAGetLastError
+           0  WSACleanup
+           0  WSAStartup
+           0  setsockopt
+           0  WSAIoctl
+           0  bind
+
+  lookup 00ae4190 time 00000000 fwd 00000000 name 00ae58a2 addr 0083f210
+
+    DLL Name: bcrypt.dll
+    Hint/Ord  Name
+           0  BCryptGenRandom
+
+  lookup 00ae3fd8 time 00000000 fwd 00000000 name 00ae58ae addr 0083f058
+
+    DLL Name: advapi32.dll
+    Hint/Ord  Name
+           0  SystemFunction036
+
+  lookup 00ae4458 time 00000000 fwd 00000000 name 00ae58bc addr 0083f4d8
+
+    DLL Name: ntdll.dll
+    Hint/Ord  Name
+           0  NtDeviceIoControlFile
+           0  RtlNtStatusToDosError
+           0  NtCancelIoFileEx
+           0  NtCreateFile
+           0  NtReadFile
+           0  NtWriteFile
+
+  lookup 00ae41b0 time 00000000 fwd 00000000 name 00ae58c6 addr 0083f230
+
+    DLL Name: crypt32.dll
+    Hint/Ord  Name
+           0  CertDuplicateCertificateContext
+           0  CertFreeCertificateContext
+           0  CertEnumCertificatesInStore
+           0  CertCloseStore
+           0  CertGetEnhancedKeyUsage
+           0  CertOpenStore
+           0  CertVerifyTimeValidity
+
+  lookup 00ae3f80 time 00000000 fwd 00000000 name 00ae5aae addr 0083f000
+
+    DLL Name: VCRUNTIME140.dll
+    Hint/Ord  Name
+          59  memcmp
+           1  _CxxThrowException
+          37  __std_type_info_destroy_list
+          62  memset
+          60  memcpy
+          14  __CxxFrameHandler3
+           8  __C_specific_handler
+          58  memchr
+          61  memmove
+          64  strchr
+
+  lookup 00ae4048 time 00000000 fwd 00000000 name 00ae5cea addr 0083f0c8
+
+    DLL Name: api-ms-win-crt-math-l1-1-0.dll
+    Hint/Ord  Name
+         265  round
+         190  floor
+         254  pow
+         191  floorf
+
+  lookup 00ae4168 time 00000000 fwd 00000000 name 00ae5d0a addr 0083f1e8
+
+    DLL Name: api-ms-win-crt-string-l1-1-0.dll
+    Hint/Ord  Name
+         134  strcmp
+         139  strlen
+
+  lookup 00ae4070 time 00000000 fwd 00000000 name 00ae5d2c addr 0083f0f0
+
+    DLL Name: api-ms-win-crt-runtime-l1-1-0.dll
+    Hint/Ord  Name
+          60  _register_onexit_function
+          34  _execute_onexit_table
+          30  _crt_atexit
+          54  _initterm
+          52  _initialize_onexit_table
+          51  _initialize_narrow_environment
+          79  _wassert
+          84  abort
+          55  _initterm_e
+          63  _seh_filter_dll
+          24  _configure_narrow_argv
+          33  _errno
+          22  _cexit
+
+  lookup 00ae4008 time 00000000 fwd 00000000 name 00ae5d4e addr 0083f088
+
+    DLL Name: api-ms-win-crt-convert-l1-1-0.dll
+    Hint/Ord  Name
+          97  strtol
+
+  lookup 00ae4018 time 00000000 fwd 00000000 name 00ae5d70 addr 0083f098
+
+    DLL Name: api-ms-win-crt-environment-l1-1-0.dll
+    Hint/Ord  Name
+          16  getenv
+
+  lookup 00ae40e0 time 00000000 fwd 00000000 name 00ae5d96 addr 0083f160
+
+    DLL Name: api-ms-win-crt-stdio-l1-1-0.dll
+    Hint/Ord  Name
+          13  __stdio_common_vsprintf
+           3  __stdio_common_vfprintf
+         119  fflush
+           0  __acrt_iob_func
+          16  __stdio_common_vsscanf
+         138  fwrite
+         116  fclose
+         117  feof
+         118  ferror
+         122  fgets
+         125  fopen
+          38  _fileno
+         131  fread
+         135  fseek
+         137  ftell
+          87  _setmode
+
+  lookup 00ae4028 time 00000000 fwd 00000000 name 00ae5db6 addr 0083f0a8
+
+    DLL Name: api-ms-win-crt-heap-l1-1-0.dll
+    Hint/Ord  Name
+          24  free
+          25  malloc
+          26  realloc
+
+  lookup 00ae4180 time 00000000 fwd 00000000 name 00ae5dd6 addr 0083f200
+
+    DLL Name: api-ms-win-crt-utility-l1-1-0.dll
+    Hint/Ord  Name
+          16  bsearch
+
+Export Table:
+ DLL name: _native.dll
+ Ordinal base: 1
+ Ordinal      RVA  Name
+       1   0x1000  PyInit__native
+       2 0x535b90  PyInit_pyo3_async_runtimes
+       3 0x805500  aws_lc_0_43_0_jent_entropy_collector_alloc
+       4 0x805580  aws_lc_0_43_0_jent_entropy_collector_free
+       5 0x805600  aws_lc_0_43_0_jent_entropy_init
+       6 0x805640  aws_lc_0_43_0_jent_entropy_init_ex
+       7 0x8056d0  aws_lc_0_43_0_jent_entropy_switch_notime_impl
+       8 0x805040  aws_lc_0_43_0_jent_read_entropy
+       9 0x8051f0  aws_lc_0_43_0_jent_read_entropy_safe
+      10 0x8056a0  aws_lc_0_43_0_jent_set_fips_failure_callback
+      11 0x8056c0  aws_lc_0_43_0_jent_version
+
+Sections:
+Idx Name          Size     VMA              Type
+  0 .text         0083dee6 0000000180001000 TEXT
+  1 .rdata        002a6e44 000000018083f000 DATA
+  2 .data         00000e00 0000000180ae6000 DATA
+  3 .pdata        000549cc 0000000180aea000 DATA
+  4 .reloc        00007b50 0000000180b3f000 DATA

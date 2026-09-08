@@ -1,0 +1,17 @@
+{
+  "module_id": 664307,
+  "removed_literal": ", ]",
+  "git_generated_context": ".join(\", \"):\"string\"==typeof v?v:void 0,onClose:()=>{C(!1),T(!1)},onTestComplete:()=>T(!1)},M),(0,l.jsxs)(e$.DialogFooter,{children:[\" \",(0,l.jsx)(f.Button,{variant:\"outline\",onClick:()=>{C(!1),T(!1)},children:\"Close\"}),\", ]\"]})]})})]})},aS=(0,l5.createQueryKeys)(\"credentials\"),ak=()=>{let{accessTok",
+  "fixed_source": {
+    "module_id": "664307",
+    "source_path": "ui/litellm-dashboard/src/components/add_model/AddModelForm.tsx",
+    "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+    "git_blob_sha1": "ad0f749b1894e29fea2d840629068a027f540bc6",
+    "source_sha256": "588c15bd6d0b4c98f68a0d9937a1cdbcb6a502cfa5183b10e66a1df549e68e4c",
+    "start_line": 478,
+    "end_line": 488,
+    "source_url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/components/add_model/AddModelForm.tsx#L478",
+    "observed_mapping": "clean connection-test dialog footer; old generated output had stray comma/bracket text",
+    "source_excerpt": "          <DialogFooter>\n            <Button\n              variant=\"outline\"\n              onClick={() => {\n                setIsResultModalVisible(false);\n                setIsTestingConnection(false);\n              }}\n            >\n              Close\n            </Button>\n          </DialogFooter>"
+  }
+}

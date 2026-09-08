@@ -1,0 +1,1550 @@
+{
+  "checked_at_utc": "2026-09-08T20:33:00.047Z",
+  "scope": "Decoded JavaScript string literal substring matches in fixed Git TS/TSX, with explicitly labeled whitespace/HTML-entity normalization when needed; not behavioral equivalence.",
+  "modules": [
+    {
+      "module_id": "602869",
+      "added_literal_values": [
+        {
+          "value": "importMCPServers",
+          "wheel_offsets": [
+            4321
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/ImportMCPServers.tsx",
+              "line": 6,
+              "git_blob_sha1": "d04160bca3e76ad8a7dc6306152bed77b68ffb59",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/components/networking.tsx",
+              "line": 4994,
+              "git_blob_sha1": "b53a67f9bccf069addb3d580f94efea77859597b",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "/v1/mcp/server/import",
+          "wheel_offsets": [
+            61334
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/components/networking.tsx",
+              "line": 4996,
+              "git_blob_sha1": "b53a67f9bccf069addb3d580f94efea77859597b",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Failed to import MCP servers:",
+          "wheel_offsets": [
+            61411
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/ImportMCPServers.tsx",
+              "line": 55,
+              "git_blob_sha1": "d04160bca3e76ad8a7dc6306152bed77b68ffb59",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/components/networking.tsx",
+              "line": 4998,
+              "git_blob_sha1": "b53a67f9bccf069addb3d580f94efea77859597b",
+              "method": "exact_substring"
+            }
+          ]
+        }
+      ],
+      "removed_literal_values": [],
+      "mapped_values": 3,
+      "total_added_values": 3
+    },
+    {
+      "module_id": "664307",
+      "added_literal_values": [
+        {
+          "value": "modelAccessGroups",
+          "wheel_offsets": [
+            237814
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/hooks/modelAccessGroups/useModelAccessGroups.ts",
+              "line": 11,
+              "git_blob_sha1": "703c51b75b12a7285573dc53a53357cc93d10d50",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetColumns.tsx",
+              "line": 17,
+              "git_blob_sha1": "4401941c2f400c013370c799b7cb3b7071fc1609",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetModal.tsx",
+              "line": 14,
+              "git_blob_sha1": "8df2a6620f938b27dfc93be6bb76c38d5a803c55",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/accessGroupBudgetPayload.ts",
+              "line": 1,
+              "git_blob_sha1": "0d7cc20114491d63612b589b0b5434eceb3b8a8a",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/page.tsx",
+              "line": 186,
+              "git_blob_sha1": "9ae7dc12f8150c2b69907b2d1d88f987cd84fa28",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/panels/AccessGroupBudgetsPanel.tsx",
+              "line": 12,
+              "git_blob_sha1": "ee8baab81abccf5dd3d4576c07c890b96382046e",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "/access_group/list",
+          "wheel_offsets": [
+            237885
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/hooks/modelAccessGroups/useModelAccessGroups.ts",
+              "line": 14,
+              "git_blob_sha1": "703c51b75b12a7285573dc53a53357cc93d10d50",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "/access_group/{access_group}/budget",
+          "wheel_offsets": [
+            237989,
+            238145
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/hooks/modelAccessGroups/useDeleteModelAccessGroupBudget.ts",
+              "line": 11,
+              "git_blob_sha1": "3ed8af15cde27b7c0ec972f0ebdfc64386277e4a",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/hooks/modelAccessGroups/useSetModelAccessGroupBudget.ts",
+              "line": 18,
+              "git_blob_sha1": "cdea15bedb4dfe7324751e1037af33e4bb5e3ee8",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Set at least one of max budget, soft budget or reset window",
+          "wheel_offsets": [
+            238867
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetModal.tsx",
+              "line": 35,
+              "git_blob_sha1": "8df2a6620f938b27dfc93be6bb76c38d5a803c55",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "max_budget",
+          "wheel_offsets": [
+            238935,
+            240031
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetColumns.tsx",
+              "line": 132,
+              "git_blob_sha1": "4401941c2f400c013370c799b7cb3b7071fc1609",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetModal.tsx",
+              "line": 30,
+              "git_blob_sha1": "8df2a6620f938b27dfc93be6bb76c38d5a803c55",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/accessGroupBudgetPayload.ts",
+              "line": 5,
+              "git_blob_sha1": "0d7cc20114491d63612b589b0b5434eceb3b8a8a",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/panels/AccessGroupBudgetsPanel.tsx",
+              "line": 112,
+              "git_blob_sha1": "ee8baab81abccf5dd3d4576c07c890b96382046e",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/components/networking.tsx",
+              "line": 994,
+              "git_blob_sha1": "b53a67f9bccf069addb3d580f94efea77859597b",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "max-h-[calc(100dvh-2rem)] overflow-y-auto sm:max-w-[560px]",
+          "wheel_offsets": [
+            239329
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetModal.tsx",
+              "line": 57,
+              "git_blob_sha1": "8df2a6620f938b27dfc93be6bb76c38d5a803c55",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Set",
+          "wheel_offsets": [
+            239482
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/hooks/modelAccessGroups/useSetModelAccessGroupBudget.ts",
+              "line": 6,
+              "git_blob_sha1": "cdea15bedb4dfe7324751e1037af33e4bb5e3ee8",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/mcp_servers.tsx",
+              "line": 38,
+              "git_blob_sha1": "6e70b1ac59ac0c1ae7c00b7241deb91f873ed63f",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetColumns.tsx",
+              "line": 39,
+              "git_blob_sha1": "4401941c2f400c013370c799b7cb3b7071fc1609",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetModal.tsx",
+              "line": 15,
+              "git_blob_sha1": "8df2a6620f938b27dfc93be6bb76c38d5a803c55",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/accessGroupBudgetPayload.ts",
+              "line": 2,
+              "git_blob_sha1": "0d7cc20114491d63612b589b0b5434eceb3b8a8a",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/page.tsx",
+              "line": 8,
+              "git_blob_sha1": "9ae7dc12f8150c2b69907b2d1d88f987cd84fa28",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/panels/AccessGroupBudgetsPanel.tsx",
+              "line": 15,
+              "git_blob_sha1": "ee8baab81abccf5dd3d4576c07c890b96382046e",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/components/networking.tsx",
+              "line": 80,
+              "git_blob_sha1": "b53a67f9bccf069addb3d580f94efea77859597b",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": " budget for \"",
+          "wheel_offsets": [
+            239488
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetModal.tsx",
+              "line": 60,
+              "git_blob_sha1": "8df2a6620f938b27dfc93be6bb76c38d5a803c55",
+              "method": "whitespace_and_HTML_entities"
+            }
+          ]
+        },
+        {
+          "value": "Every key granted this access group by name draws from this one budget. A key that reaches the group's models through a wildcard or ",
+          "wheel_offsets": [
+            239597
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetModal.tsx",
+              "line": 64,
+              "git_blob_sha1": "8df2a6620f938b27dfc93be6bb76c38d5a803c55",
+              "method": "whitespace_and_HTML_entities"
+            }
+          ]
+        },
+        {
+          "value": "all-proxy-models",
+          "wheel_offsets": [
+            239759
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetModal.tsx",
+              "line": 65,
+              "git_blob_sha1": "8df2a6620f938b27dfc93be6bb76c38d5a803c55",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/panels/AccessGroupBudgetsPanel.tsx",
+              "line": 82,
+              "git_blob_sha1": "ee8baab81abccf5dd3d4576c07c890b96382046e",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": " is not charged against it.",
+          "wheel_offsets": [
+            239780
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetModal.tsx",
+              "line": 65,
+              "git_blob_sha1": "8df2a6620f938b27dfc93be6bb76c38d5a803c55",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Max Budget (USD)",
+          "wheel_offsets": [
+            240053
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetModal.tsx",
+              "line": 74,
+              "git_blob_sha1": "8df2a6620f938b27dfc93be6bb76c38d5a803c55",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Total the whole group may spend. Once its shared spend reaches this, every key that draws from the group is refused",
+          "wheel_offsets": [
+            240072
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetModal.tsx",
+              "line": 75,
+              "git_blob_sha1": "8df2a6620f938b27dfc93be6bb76c38d5a803c55",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "soft_budget",
+          "wheel_offsets": [
+            240323
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetModal.tsx",
+              "line": 31,
+              "git_blob_sha1": "8df2a6620f938b27dfc93be6bb76c38d5a803c55",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/accessGroupBudgetPayload.ts",
+              "line": 6,
+              "git_blob_sha1": "0d7cc20114491d63612b589b0b5434eceb3b8a8a",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Soft Budget (USD)",
+          "wheel_offsets": [
+            240346
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetModal.tsx",
+              "line": 85,
+              "git_blob_sha1": "8df2a6620f938b27dfc93be6bb76c38d5a803c55",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Fires an alert when the group's spend reaches this. Requests keep succeeding",
+          "wheel_offsets": [
+            240366
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetModal.tsx",
+              "line": 86,
+              "git_blob_sha1": "8df2a6620f938b27dfc93be6bb76c38d5a803c55",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "budget_duration",
+          "wheel_offsets": [
+            240578,
+            244787
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetColumns.tsx",
+              "line": 6,
+              "git_blob_sha1": "4401941c2f400c013370c799b7cb3b7071fc1609",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetModal.tsx",
+              "line": 6,
+              "git_blob_sha1": "8df2a6620f938b27dfc93be6bb76c38d5a803c55",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/accessGroupBudgetPayload.ts",
+              "line": 7,
+              "git_blob_sha1": "0d7cc20114491d63612b589b0b5434eceb3b8a8a",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/components/networking.tsx",
+              "line": 1000,
+              "git_blob_sha1": "b53a67f9bccf069addb3d580f94efea77859597b",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Reset Budget",
+          "wheel_offsets": [
+            240605
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetModal.tsx",
+              "line": 96,
+              "git_blob_sha1": "8df2a6620f938b27dfc93be6bb76c38d5a803c55",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "How often the group's spend resets. Leave empty for a budget that never resets",
+          "wheel_offsets": [
+            240620
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetModal.tsx",
+              "line": 97,
+              "git_blob_sha1": "8df2a6620f938b27dfc93be6bb76c38d5a803c55",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "mt-3 text-xs text-muted-foreground",
+          "wheel_offsets": [
+            240824
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetModal.tsx",
+              "line": 106,
+              "git_blob_sha1": "8df2a6620f938b27dfc93be6bb76c38d5a803c55",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "A field left blank keeps whatever the budget already has. Use Clear budget to remove the budget itself.",
+          "wheel_offsets": [
+            240870
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetModal.tsx",
+              "line": 107,
+              "git_blob_sha1": "8df2a6620f938b27dfc93be6bb76c38d5a803c55",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Save Budget",
+          "wheel_offsets": [
+            241196
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetModal.tsx",
+              "line": 115,
+              "git_blob_sha1": "8df2a6620f938b27dfc93be6bb76c38d5a803c55",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "A budget cannot be set on a group whose name contains a slash",
+          "wheel_offsets": [
+            241410
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetColumns.tsx",
+              "line": 31,
+              "git_blob_sha1": "4401941c2f400c013370c799b7cb3b7071fc1609",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Only a proxy admin can change an access group budget",
+          "wheel_offsets": [
+            241481
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetColumns.tsx",
+              "line": 29,
+              "git_blob_sha1": "4401941c2f400c013370c799b7cb3b7071fc1609",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "access-group-action-set-budget",
+          "wheel_offsets": [
+            242036
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetColumns.tsx",
+              "line": 60,
+              "git_blob_sha1": "4401941c2f400c013370c799b7cb3b7071fc1609",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Edit budget",
+          "wheel_offsets": [
+            242122
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetColumns.tsx",
+              "line": 64,
+              "git_blob_sha1": "4401941c2f400c013370c799b7cb3b7071fc1609",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Set budget",
+          "wheel_offsets": [
+            242136
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetColumns.tsx",
+              "line": 64,
+              "git_blob_sha1": "4401941c2f400c013370c799b7cb3b7071fc1609",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "access-group-action-clear-budget",
+          "wheel_offsets": [
+            242244
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetColumns.tsx",
+              "line": 69,
+              "git_blob_sha1": "4401941c2f400c013370c799b7cb3b7071fc1609",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "This access group has no budget to clear",
+          "wheel_offsets": [
+            242298
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetColumns.tsx",
+              "line": 70,
+              "git_blob_sha1": "4401941c2f400c013370c799b7cb3b7071fc1609",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Clear budget",
+          "wheel_offsets": [
+            242393
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetColumns.tsx",
+              "line": 74,
+              "git_blob_sha1": "4401941c2f400c013370c799b7cb3b7071fc1609",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetModal.tsx",
+              "line": 107,
+              "git_blob_sha1": "8df2a6620f938b27dfc93be6bb76c38d5a803c55",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "access_group",
+          "wheel_offsets": [
+            242429,
+            243659,
+            243686
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/hooks/modelAccessGroups/useDeleteModelAccessGroupBudget.ts",
+              "line": 11,
+              "git_blob_sha1": "3ed8af15cde27b7c0ec972f0ebdfc64386277e4a",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/hooks/modelAccessGroups/useModelAccessGroups.ts",
+              "line": 14,
+              "git_blob_sha1": "703c51b75b12a7285573dc53a53357cc93d10d50",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/hooks/modelAccessGroups/useSetModelAccessGroupBudget.ts",
+              "line": 18,
+              "git_blob_sha1": "cdea15bedb4dfe7324751e1037af33e4bb5e3ee8",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/mcp_servers.tsx",
+              "line": 268,
+              "git_blob_sha1": "6e70b1ac59ac0c1ae7c00b7241deb91f873ed63f",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetColumns.tsx",
+              "line": 30,
+              "git_blob_sha1": "4401941c2f400c013370c799b7cb3b7071fc1609",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetModal.tsx",
+              "line": 60,
+              "git_blob_sha1": "8df2a6620f938b27dfc93be6bb76c38d5a803c55",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/panels/AccessGroupBudgetsPanel.tsx",
+              "line": 21,
+              "git_blob_sha1": "ee8baab81abccf5dd3d4576c07c890b96382046e",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/components/networking.tsx",
+              "line": 1909,
+              "git_blob_sha1": "b53a67f9bccf069addb3d580f94efea77859597b",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "No model access groups yet",
+          "wheel_offsets": [
+            242795
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/panels/AccessGroupBudgetsPanel.tsx",
+              "line": 29,
+              "git_blob_sha1": "ee8baab81abccf5dd3d4576c07c890b96382046e",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Put a deployment in an access group from its model settings, then give the group a shared budget here.",
+          "wheel_offsets": [
+            242894
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/panels/AccessGroupBudgetsPanel.tsx",
+              "line": 31,
+              "git_blob_sha1": "ee8baab81abccf5dd3d4576c07c890b96382046e",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Access Group",
+          "wheel_offsets": [
+            243713,
+            243799,
+            246444,
+            246487
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/hooks/modelAccessGroups/useModelAccessGroups.ts",
+              "line": 21,
+              "git_blob_sha1": "703c51b75b12a7285573dc53a53357cc93d10d50",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/mcp_servers.tsx",
+              "line": 276,
+              "git_blob_sha1": "6e70b1ac59ac0c1ae7c00b7241deb91f873ed63f",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetColumns.tsx",
+              "line": 95,
+              "git_blob_sha1": "4401941c2f400c013370c799b7cb3b7071fc1609",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/page.tsx",
+              "line": 51,
+              "git_blob_sha1": "9ae7dc12f8150c2b69907b2d1d88f987cd84fa28",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/panels/AccessGroupBudgetsPanel.tsx",
+              "line": 109,
+              "git_blob_sha1": "ee8baab81abccf5dd3d4576c07c890b96382046e",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "block max-w-56 truncate font-mono text-xs",
+          "wheel_offsets": [
+            243886
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetColumns.tsx",
+              "line": 100,
+              "git_blob_sha1": "4401941c2f400c013370c799b7cb3b7071fc1609",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Models",
+          "wheel_offsets": [
+            244021,
+            244055
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetColumns.tsx",
+              "line": 8,
+              "git_blob_sha1": "4401941c2f400c013370c799b7cb3b7071fc1609",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/page.tsx",
+              "line": 10,
+              "git_blob_sha1": "9ae7dc12f8150c2b69907b2d1d88f987cd84fa28",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/components/networking.tsx",
+              "line": 1729,
+              "git_blob_sha1": "b53a67f9bccf069addb3d580f94efea77859597b",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "deployment_count",
+          "wheel_offsets": [
+            244168,
+            244199
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetColumns.tsx",
+              "line": 114,
+              "git_blob_sha1": "4401941c2f400c013370c799b7cb3b7071fc1609",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Deployments",
+          "wheel_offsets": [
+            244230,
+            244326
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetColumns.tsx",
+              "line": 116,
+              "git_blob_sha1": "4401941c2f400c013370c799b7cb3b7071fc1609",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "spend",
+          "wheel_offsets": [
+            244417,
+            244437
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/hooks/modelAccessGroups/useDeleteModelAccessGroupBudget.ts",
+              "line": 19,
+              "git_blob_sha1": "3ed8af15cde27b7c0ec972f0ebdfc64386277e4a",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetColumns.tsx",
+              "line": 123,
+              "git_blob_sha1": "4401941c2f400c013370c799b7cb3b7071fc1609",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetModal.tsx",
+              "line": 75,
+              "git_blob_sha1": "8df2a6620f938b27dfc93be6bb76c38d5a803c55",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/panels/AccessGroupBudgetsPanel.tsx",
+              "line": 108,
+              "git_blob_sha1": "ee8baab81abccf5dd3d4576c07c890b96382046e",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/components/networking.tsx",
+              "line": 261,
+              "git_blob_sha1": "b53a67f9bccf069addb3d580f94efea77859597b",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Shared Spend",
+          "wheel_offsets": [
+            244457,
+            244543
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetColumns.tsx",
+              "line": 125,
+              "git_blob_sha1": "4401941c2f400c013370c799b7cb3b7071fc1609",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Resets",
+          "wheel_offsets": [
+            244817,
+            244834
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetColumns.tsx",
+              "line": 139,
+              "git_blob_sha1": "4401941c2f400c013370c799b7cb3b7071fc1609",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "flex flex-col gap-4",
+          "wheel_offsets": [
+            245446
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/panels/AccessGroupBudgetsPanel.tsx",
+              "line": 79,
+              "git_blob_sha1": "ee8baab81abccf5dd3d4576c07c890b96382046e",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "A model access group can carry one budget that every key granted the group by name draws from together. Keys that reach the group's models through a wildcard or all-proxy-models are not charged against it.",
+          "wheel_offsets": [
+            245544
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/panels/AccessGroupBudgetsPanel.tsx",
+              "line": 81,
+              "git_blob_sha1": "ee8baab81abccf5dd3d4576c07c890b96382046e",
+              "method": "whitespace_and_HTML_entities"
+            }
+          ]
+        },
+        {
+          "value": "Loading model access groups…",
+          "wheel_offsets": [
+            245902
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/panels/AccessGroupBudgetsPanel.tsx",
+              "line": 93,
+              "git_blob_sha1": "ee8baab81abccf5dd3d4576c07c890b96382046e",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Clear Budget",
+          "wheel_offsets": [
+            246250
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/panels/AccessGroupBudgetsPanel.tsx",
+              "line": 107,
+              "git_blob_sha1": "ee8baab81abccf5dd3d4576c07c890b96382046e",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Are you sure you want to clear this access group's budget? The recorded shared spend is cleared with it, and the group's models stay available.",
+          "wheel_offsets": [
+            246273
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/panels/AccessGroupBudgetsPanel.tsx",
+              "line": 108,
+              "git_blob_sha1": "ee8baab81abccf5dd3d4576c07c890b96382046e",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Max Budget",
+          "wheel_offsets": [
+            246546
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetModal.tsx",
+              "line": 74,
+              "git_blob_sha1": "8df2a6620f938b27dfc93be6bb76c38d5a803c55",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/panels/AccessGroupBudgetsPanel.tsx",
+              "line": 112,
+              "git_blob_sha1": "ee8baab81abccf5dd3d4576c07c890b96382046e",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "access-group-budgets",
+          "wheel_offsets": [
+            256011,
+            256780,
+            258247,
+            259255
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/page.tsx",
+              "line": 38,
+              "git_blob_sha1": "9ae7dc12f8150c2b69907b2d1d88f987cd84fa28",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Model Access Group Budgets",
+          "wheel_offsets": [
+            256034
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/page.tsx",
+              "line": 51,
+              "git_blob_sha1": "9ae7dc12f8150c2b69907b2d1d88f987cd84fa28",
+              "method": "exact_substring"
+            }
+          ]
+        }
+      ],
+      "removed_literal_values": [
+        ", ]"
+      ],
+      "mapped_values": 49,
+      "total_added_values": 49
+    },
+    {
+      "module_id": "366321",
+      "added_literal_values": [
+        {
+          "value": "Paste your connector JSON before importing.",
+          "wheel_offsets": [
+            133639
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/importConnectorConfig.ts",
+              "line": 30,
+              "git_blob_sha1": "16dfc0542fdcb856b20e3bff3c5d9025d5fa4a32",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Invalid JSON. Check for missing quotes, commas, or brackets.",
+          "wheel_offsets": [
+            133731
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/importConnectorConfig.ts",
+              "line": 36,
+              "git_blob_sha1": "16dfc0542fdcb856b20e3bff3c5d9025d5fa4a32",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Expected a JSON object with an mcpServers or mcp_servers key.",
+          "wheel_offsets": [
+            133864,
+            134508
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/importConnectorConfig.ts",
+              "line": 39,
+              "git_blob_sha1": "16dfc0542fdcb856b20e3bff3c5d9025d5fa4a32",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "mcpServers must be an object mapping connector names to definitions.",
+          "wheel_offsets": [
+            134036
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/importConnectorConfig.ts",
+              "line": 45,
+              "git_blob_sha1": "16dfc0542fdcb856b20e3bff3c5d9025d5fa4a32",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "mcpServers contains no connectors.",
+          "wheel_offsets": [
+            134162
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/importConnectorConfig.ts",
+              "line": 49,
+              "git_blob_sha1": "16dfc0542fdcb856b20e3bff3c5d9025d5fa4a32",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "mcp_servers contains no connectors.",
+          "wheel_offsets": [
+            134329
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/importConnectorConfig.ts",
+              "line": 59,
+              "git_blob_sha1": "16dfc0542fdcb856b20e3bff3c5d9025d5fa4a32",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "mcp_servers must be an array of connector definitions.",
+          "wheel_offsets": [
+            134437
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/importConnectorConfig.ts",
+              "line": 56,
+              "git_blob_sha1": "16dfc0542fdcb856b20e3bff3c5d9025d5fa4a32",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Failed to import MCP servers:",
+          "wheel_offsets": [
+            134822
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/ImportMCPServers.tsx",
+              "line": 55,
+              "git_blob_sha1": "d04160bca3e76ad8a7dc6306152bed77b68ffb59",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/components/networking.tsx",
+              "line": 4998,
+              "git_blob_sha1": "b53a67f9bccf069addb3d580f94efea77859597b",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Import request failed. Check the proxy logs for details.",
+          "wheel_offsets": [
+            134859
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/ImportMCPServers.tsx",
+              "line": 56,
+              "git_blob_sha1": "d04160bca3e76ad8a7dc6306152bed77b68ffb59",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "max-w-2xl",
+          "wheel_offsets": [
+            135041
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/ImportMCPServers.tsx",
+              "line": 64,
+              "git_blob_sha1": "d04160bca3e76ad8a7dc6306152bed77b68ffb59",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Import MCP Connectors",
+          "wheel_offsets": [
+            135134
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/ImportMCPServers.tsx",
+              "line": 66,
+              "git_blob_sha1": "d04160bca3e76ad8a7dc6306152bed77b68ffb59",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Paste an Anthropic connector configuration: the ",
+          "wheel_offsets": [
+            135280
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/ImportMCPServers.tsx",
+              "line": 70,
+              "git_blob_sha1": "d04160bca3e76ad8a7dc6306152bed77b68ffb59",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "mcpServers",
+          "wheel_offsets": [
+            135358
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/ImportMCPServers.tsx",
+              "line": 18,
+              "git_blob_sha1": "d04160bca3e76ad8a7dc6306152bed77b68ffb59",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/importConnectorConfig.ts",
+              "line": 39,
+              "git_blob_sha1": "16dfc0542fdcb856b20e3bff3c5d9025d5fa4a32",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/mcp_servers.tsx",
+              "line": 20,
+              "git_blob_sha1": "6e70b1ac59ac0c1ae7c00b7241deb91f873ed63f",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": " mapping from a Claude Desktop / Claude Code config file, or the ",
+          "wheel_offsets": [
+            135373
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/ImportMCPServers.tsx",
+              "line": 70,
+              "git_blob_sha1": "d04160bca3e76ad8a7dc6306152bed77b68ffb59",
+              "method": "whitespace_and_HTML_entities"
+            }
+          ]
+        },
+        {
+          "value": "mcp_servers",
+          "wheel_offsets": [
+            135468
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/ImportMCPServers.tsx",
+              "line": 71,
+              "git_blob_sha1": "d04160bca3e76ad8a7dc6306152bed77b68ffb59",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/importConnectorConfig.ts",
+              "line": 39,
+              "git_blob_sha1": "16dfc0542fdcb856b20e3bff3c5d9025d5fa4a32",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/index.tsx",
+              "line": 1,
+              "git_blob_sha1": "00a03b64c23fcf6ace9d031cf0f8ae4efe5365b4",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": " array from the Anthropic Messages API.",
+          "wheel_offsets": [
+            135484
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/ImportMCPServers.tsx",
+              "line": 71,
+              "git_blob_sha1": "d04160bca3e76ad8a7dc6306152bed77b68ffb59",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Connector JSON",
+          "wheel_offsets": [
+            135565
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/ImportMCPServers.tsx",
+              "line": 74,
+              "git_blob_sha1": "d04160bca3e76ad8a7dc6306152bed77b68ffb59",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "space-y-2 text-sm",
+          "wheel_offsets": [
+            135800
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/ImportMCPServers.tsx",
+              "line": 87,
+              "git_blob_sha1": "d04160bca3e76ad8a7dc6306152bed77b68ffb59",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "font-semibold",
+          "wheel_offsets": [
+            135907,
+            136075,
+            136321
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/ImportMCPServers.tsx",
+              "line": 90,
+              "git_blob_sha1": "d04160bca3e76ad8a7dc6306152bed77b68ffb59",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/mcp_servers.tsx",
+              "line": 438,
+              "git_blob_sha1": "6e70b1ac59ac0c1ae7c00b7241deb91f873ed63f",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/page.tsx",
+              "line": 167,
+              "git_blob_sha1": "9ae7dc12f8150c2b69907b2d1d88f987cd84fa28",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Imported:",
+          "wheel_offsets": [
+            135932
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/ImportMCPServers.tsx",
+              "line": 14,
+              "git_blob_sha1": "d04160bca3e76ad8a7dc6306152bed77b68ffb59",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Skipped:",
+          "wheel_offsets": [
+            136100
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/ImportMCPServers.tsx",
+              "line": 96,
+              "git_blob_sha1": "d04160bca3e76ad8a7dc6306152bed77b68ffb59",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "ml-4 list-disc",
+          "wheel_offsets": [
+            136139,
+            136384
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/ImportMCPServers.tsx",
+              "line": 97,
+              "git_blob_sha1": "d04160bca3e76ad8a7dc6306152bed77b68ffb59",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": ": ",
+          "wheel_offsets": [
+            136216,
+            136460
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/hooks/modelAccessGroups/useDeleteModelAccessGroupBudget.ts",
+              "line": 9,
+              "git_blob_sha1": "3ed8af15cde27b7c0ec972f0ebdfc64386277e4a",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/hooks/modelAccessGroups/useModelAccessGroups.ts",
+              "line": 13,
+              "git_blob_sha1": "703c51b75b12a7285573dc53a53357cc93d10d50",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/hooks/modelAccessGroups/useSetModelAccessGroupBudget.ts",
+              "line": 10,
+              "git_blob_sha1": "cdea15bedb4dfe7324751e1037af33e4bb5e3ee8",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/ImportMCPServers.tsx",
+              "line": 11,
+              "git_blob_sha1": "d04160bca3e76ad8a7dc6306152bed77b68ffb59",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/importConnectorConfig.ts",
+              "line": 2,
+              "git_blob_sha1": "16dfc0542fdcb856b20e3bff3c5d9025d5fa4a32",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/mcp_servers.tsx",
+              "line": 49,
+              "git_blob_sha1": "6e70b1ac59ac0c1ae7c00b7241deb91f873ed63f",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetColumns.tsx",
+              "line": 19,
+              "git_blob_sha1": "4401941c2f400c013370c799b7cb3b7071fc1609",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetModal.tsx",
+              "line": 18,
+              "git_blob_sha1": "8df2a6620f938b27dfc93be6bb76c38d5a803c55",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/accessGroupBudgetPayload.ts",
+              "line": 5,
+              "git_blob_sha1": "0d7cc20114491d63612b589b0b5434eceb3b8a8a",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/page.tsx",
+              "line": 43,
+              "git_blob_sha1": "9ae7dc12f8150c2b69907b2d1d88f987cd84fa28",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/panels/AccessGroupBudgetsPanel.tsx",
+              "line": 21,
+              "git_blob_sha1": "ee8baab81abccf5dd3d4576c07c890b96382046e",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/components/networking.tsx",
+              "line": 2,
+              "git_blob_sha1": "b53a67f9bccf069addb3d580f94efea77859597b",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/lib/http/api.ts",
+              "line": 8,
+              "git_blob_sha1": "508a27db78d52f8020cde38c6079fdd1b29cc78c",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/lib/http/client.ts",
+              "line": 20,
+              "git_blob_sha1": "b8cfb81211add4a68dd64318739a80275fc137ec",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Failed:",
+          "wheel_offsets": [
+            136346
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/ImportMCPServers.tsx",
+              "line": 108,
+              "git_blob_sha1": "d04160bca3e76ad8a7dc6306152bed77b68ffb59",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Importing...",
+          "wheel_offsets": [
+            136685
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/ImportMCPServers.tsx",
+              "line": 125,
+              "git_blob_sha1": "d04160bca3e76ad8a7dc6306152bed77b68ffb59",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Import",
+          "wheel_offsets": [
+            136700
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/ImportMCPServers.tsx",
+              "line": 8,
+              "git_blob_sha1": "d04160bca3e76ad8a7dc6306152bed77b68ffb59",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/importConnectorConfig.ts",
+              "line": 1,
+              "git_blob_sha1": "16dfc0542fdcb856b20e3bff3c5d9025d5fa4a32",
+              "method": "exact_substring"
+            },
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/mcp_servers.tsx",
+              "line": 27,
+              "git_blob_sha1": "6e70b1ac59ac0c1ae7c00b7241deb91f873ed63f",
+              "method": "exact_substring"
+            }
+          ]
+        },
+        {
+          "value": "Import from JSON",
+          "wheel_offsets": [
+            262718
+          ],
+          "matches": [
+            {
+              "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/mcp_servers.tsx",
+              "line": 489,
+              "git_blob_sha1": "6e70b1ac59ac0c1ae7c00b7241deb91f873ed63f",
+              "method": "exact_substring"
+            }
+          ]
+        }
+      ],
+      "removed_literal_values": [],
+      "mapped_values": 27,
+      "total_added_values": 27
+    }
+  ]
+}

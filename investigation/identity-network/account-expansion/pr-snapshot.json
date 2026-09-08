@@ -1,0 +1,1166 @@
+[
+  {
+    "url": "https://github.com/ChatGPTNextWeb/NextChat/pull/6856",
+    "login": "RheagalFire",
+    "created_at": "2026-07-16T16:44:26Z",
+    "merged_at": null,
+    "state": "open",
+    "head": "b8af19a4acabdd9b2256a0929bf8b71905f2b10e",
+    "base": "706a18b95b714ab29b2a4842d3b9ff4f887935d5",
+    "changed_files": 9,
+    "compare_files": 9,
+    "association": "NONE",
+    "files": [
+      {
+        "path": "app/api/[provider]/[...path]/route.ts",
+        "blob": "8ffc7bbb51e7597482db2907dfe8df6466f58b0d",
+        "status": "modified"
+      },
+      {
+        "path": "app/api/auth.ts",
+        "blob": "1ba22548a0ba299353470cafcd90c1498453ab12",
+        "status": "modified"
+      },
+      {
+        "path": "app/api/litellm.ts",
+        "blob": "c0ebbb584004897648da798398ef30ac83e9c01e",
+        "status": "added"
+      },
+      {
+        "path": "app/client/api.ts",
+        "blob": "941919ae73a805d33deb0781f77409579c2f8f67",
+        "status": "modified"
+      },
+      {
+        "path": "app/client/platforms/litellm.ts",
+        "blob": "94384b7290f0f05d9ad21aed8c00943ca7439d8d",
+        "status": "added"
+      },
+      {
+        "path": "app/config/server.ts",
+        "blob": "35a518dd32aaec02680e747247778c12a8e21515",
+        "status": "modified"
+      },
+      {
+        "path": "app/constant.ts",
+        "blob": "249e00d6b1cbe66fe6f84e995fbc7b3ee8acc819",
+        "status": "modified"
+      },
+      {
+        "path": "app/store/access.ts",
+        "blob": "3293b2868d901641f48b67a0bdbf097486ed41e3",
+        "status": "modified"
+      },
+      {
+        "path": "test/litellm.test.ts",
+        "blob": "e5672279332a3eb261061cc78dfdd94a8b4af2a7",
+        "status": "added"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/LycheeMem/LycheeMem/pull/14",
+    "login": "binyangzhu000-sudo",
+    "created_at": "2026-07-22T10:43:20Z",
+    "merged_at": null,
+    "state": "closed",
+    "head": "e84c9f1c38f5f20a0f494a08696ca3b9adbaad5e",
+    "base": "9c4ba5e5c046d06063cb5159297a73a3ec1eb112",
+    "changed_files": 6,
+    "compare_files": 6,
+    "association": "NONE",
+    "files": [
+      {
+        "path": ".env.example",
+        "blob": "3a38e4e0e64ca48696ae7816fa0732493edc53e5",
+        "status": "modified"
+      },
+      {
+        "path": "main.py",
+        "blob": "8e18e977702b5a8786674771df53ee2f228328d6",
+        "status": "modified"
+      },
+      {
+        "path": "src/core/config.py",
+        "blob": "67b57ffda3a3780d07f196eb0475c4f7caa9b402",
+        "status": "modified"
+      },
+      {
+        "path": "src/core/factory.py",
+        "blob": "8c75c7091e84ff74b1146b49d39f82af98848521",
+        "status": "modified"
+      },
+      {
+        "path": "src/core/provider_resolver.py",
+        "blob": "f0bea28d2c12d08709514987c4ad5d92171a9ccc",
+        "status": "added"
+      },
+      {
+        "path": "tests/test_atlascloud_provider_resolver.py",
+        "blob": "4d814b8d2f821d3dfb91d856168ef4a8dde8e64d",
+        "status": "added"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/VectifyAI/PageIndex/pull/356",
+    "login": "binyangzhu000-sudo",
+    "created_at": "2026-07-16T05:21:34Z",
+    "merged_at": null,
+    "state": "open",
+    "head": "7d2f920cd12a9766b7a6e87686153e4d9afb3799",
+    "base": "348231c5e397a830b687a88a67fb0e31c1cb0c35",
+    "changed_files": 3,
+    "compare_files": 3,
+    "association": "NONE",
+    "files": [
+      {
+        "path": "pageindex/config.yaml",
+        "blob": "557ec894897b6413db0b6cdbec2ca77c5a6b7ce3",
+        "status": "modified"
+      },
+      {
+        "path": "pageindex/utils.py",
+        "blob": "8f5ff44052665f85b1bb958b9a2466de61aad2f6",
+        "status": "modified"
+      },
+      {
+        "path": "tests/test_atlascloud_litellm.py",
+        "blob": "398571a2893e8512c96e768bb5ecb9d8463340f5",
+        "status": "added"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/aandrew-me/tgpt/pull/435",
+    "login": "RheagalFire",
+    "created_at": "2026-07-13T15:17:03Z",
+    "merged_at": "2026-07-15T19:53:51Z",
+    "state": "closed",
+    "head": "9904c425eac1d073b6efd37599109336c87d5024",
+    "base": "f6d0e90251a2d07f7fe6b2c33bb338cc80352b3f",
+    "changed_files": 4,
+    "compare_files": 4,
+    "association": "CONTRIBUTOR",
+    "files": [
+      {
+        "path": "md/providers.md",
+        "blob": "04121df27457e442ea9d469cd97510060552fafd",
+        "status": "modified"
+      },
+      {
+        "path": "src/providers/litellm/litellm.go",
+        "blob": "83a11e37d48e92942135e500b0b2fb79dae9cbab",
+        "status": "added"
+      },
+      {
+        "path": "src/providers/litellm/litellm_test.go",
+        "blob": "057e0513961bac33ad257c6895dd58c63556ce7d",
+        "status": "added"
+      },
+      {
+        "path": "src/providers/providers.go",
+        "blob": "8eb23e2bce4c3f2130e92c07ccff7adb7a2aa933",
+        "status": "modified"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/alibaba/open-code-review/pull/385",
+    "login": "RheagalFire",
+    "created_at": "2026-07-16T16:52:20Z",
+    "merged_at": "2026-07-17T03:10:40Z",
+    "state": "closed",
+    "head": "87725ea4fed52dbb3a6f79a7e2908c33915a04d3",
+    "base": "4ee453fd795955fe9467d28860b02ca550730c0a",
+    "changed_files": 2,
+    "compare_files": 2,
+    "association": "CONTRIBUTOR",
+    "files": [
+      {
+        "path": "internal/llm/providers.go",
+        "blob": "d3436793bde88a3d28c9080f08966676f11f0efc",
+        "status": "modified"
+      },
+      {
+        "path": "internal/llm/providers_test.go",
+        "blob": "219de25cbbc5eea6ef591ada9ce063504a976d39",
+        "status": "modified"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/andrewyng/aisuite/pull/349",
+    "login": "RheagalFire",
+    "created_at": "2026-07-13T15:11:15Z",
+    "merged_at": null,
+    "state": "open",
+    "head": "8b183e395c987db88269fdd57fcdf07065902fc7",
+    "base": "85cd8780e7b9144f0e1ca156619963cfbe47e4e1",
+    "changed_files": 3,
+    "compare_files": 3,
+    "association": "NONE",
+    "files": [
+      {
+        "path": "aisuite/providers/litellm_provider.py",
+        "blob": "4df56390e8aa0308739317ea554c53f91cc19714",
+        "status": "added"
+      },
+      {
+        "path": "pyproject.toml",
+        "blob": "2f1bc8482b606405eddcf983d0bf023c859a08ae",
+        "status": "modified"
+      },
+      {
+        "path": "tests/providers/test_litellm_provider.py",
+        "blob": "e9ecf1160eae374349fa6cff95a77f630430530c",
+        "status": "added"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/anomalyco/opencode/pull/29937",
+    "login": "RheagalFire",
+    "created_at": "2026-05-29T22:48:08Z",
+    "merged_at": null,
+    "state": "open",
+    "head": "0f16bb141285702d129573f28c2113f3b95fd89a",
+    "base": "3a31c4ea801915c0b050df4b3842997ea62b6e93",
+    "changed_files": 11,
+    "compare_files": 11,
+    "association": "NONE",
+    "files": [
+      {
+        "path": "packages/app/src/components/dialog-select-provider.tsx",
+        "blob": "2b0fa888e4e0fc951651ebe91cce3de85d1db3c5",
+        "status": "modified"
+      },
+      {
+        "path": "packages/app/src/components/settings-providers.tsx",
+        "blob": "e8e62e31679d9ee78f5c85769cd2156cb292086f",
+        "status": "modified"
+      },
+      {
+        "path": "packages/app/src/i18n/en.ts",
+        "blob": "d509866f485da24cc0b5dc7d9480703174461933",
+        "status": "modified"
+      },
+      {
+        "path": "packages/core/src/provider.ts",
+        "blob": "f12cfddd18a24043c11bc55f2fcc6b4e2ce8f55c",
+        "status": "modified"
+      },
+      {
+        "path": "packages/opencode/src/plugin/index.ts",
+        "blob": "ec1b732592355b8d5fe571f71e07ae94c69e3572",
+        "status": "modified"
+      },
+      {
+        "path": "packages/opencode/src/plugin/litellm/litellm.ts",
+        "blob": "56af13023ea985b60358503999dcba6c3edb889a",
+        "status": "added"
+      },
+      {
+        "path": "packages/opencode/src/plugin/litellm/models.ts",
+        "blob": "24606c37bc7dd2886bb470470157cdd729a022bf",
+        "status": "added"
+      },
+      {
+        "path": "packages/opencode/src/provider/provider.ts",
+        "blob": "e56c3de889db8baf7050b64c6762cc9f63a37248",
+        "status": "modified"
+      },
+      {
+        "path": "packages/opencode/test/plugin/litellm.test.ts",
+        "blob": "6c40c338fff8e88d5f78644bceac29399a9d56d9",
+        "status": "added"
+      },
+      {
+        "path": "packages/ui/src/components/provider-icons/sprite.svg",
+        "blob": "cc948dc66b40fcf16dff6b9b2eb66a0f8639ce7d",
+        "status": "modified"
+      },
+      {
+        "path": "packages/ui/src/components/provider-icons/types.ts",
+        "blob": "181da3b1a6225d94792b71aceafd7181d18bee92",
+        "status": "modified"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/appleboy/CodeGPT/pull/268",
+    "login": "RheagalFire",
+    "created_at": "2026-07-16T16:40:05Z",
+    "merged_at": null,
+    "state": "open",
+    "head": "6c10e4db50c49b6f76f7c2375b63c5340a1f3116",
+    "base": "910e61d8d4a0fe1ca1f1aa9e6e2e025ae6e34ed4",
+    "changed_files": 12,
+    "compare_files": 12,
+    "association": "NONE",
+    "files": [
+      {
+        "path": "cmd/cmd.go",
+        "blob": "9ff74923a68bb6cbf5637e2d0f55274fd75774d6",
+        "status": "modified"
+      },
+      {
+        "path": "cmd/config_list.go",
+        "blob": "e65f2350bac583b975dcef7d223b3671d5f897d3",
+        "status": "modified"
+      },
+      {
+        "path": "cmd/config_set.go",
+        "blob": "fda18c4a8c2336fd08ff73222954655670d01fd6",
+        "status": "modified"
+      },
+      {
+        "path": "cmd/provider.go",
+        "blob": "d415b8283f51e112bd2e106b9aaa073ddaa8c817",
+        "status": "modified"
+      },
+      {
+        "path": "core/platform.go",
+        "blob": "9b80b6ca21aa0f72241565bf4e3a64076a435517",
+        "status": "modified"
+      },
+      {
+        "path": "provider/litellm/edge_test.go",
+        "blob": "6dcb556a0c8a95309ce2bf2d63f8b50f4596f1c7",
+        "status": "added"
+      },
+      {
+        "path": "provider/litellm/func.go",
+        "blob": "ae51141f0edf01792320f7cc12f2898d5929d8f8",
+        "status": "added"
+      },
+      {
+        "path": "provider/litellm/func_test.go",
+        "blob": "ec1e555d3bec3a661695258f4ca8f4abedfc0380",
+        "status": "added"
+      },
+      {
+        "path": "provider/litellm/litellm.go",
+        "blob": "5b2e7c3c70c61ef6b3d259574e8934188c1d362a",
+        "status": "added"
+      },
+      {
+        "path": "provider/litellm/options.go",
+        "blob": "4d705d28fc6b28dc955b8ed0c1300268aa08bedc",
+        "status": "added"
+      },
+      {
+        "path": "provider/litellm/options_test.go",
+        "blob": "74ef302f89ba0cd6914dd5a400cc48be0cfbddee",
+        "status": "added"
+      },
+      {
+        "path": "provider/litellm/stream_test.go",
+        "blob": "987277033ccfcad9986ba5d9668e42fbee2c31c6",
+        "status": "added"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/balcsida/pi-provider-litellm/pull/162",
+    "login": "aasmall",
+    "created_at": "2026-09-02T04:07:30Z",
+    "merged_at": null,
+    "state": "open",
+    "head": "450c9720f379d15d8b2f980c7226cbb4f3d8eca9",
+    "base": "710747c7af2146da800ad2d7f4b7149973448a6d",
+    "changed_files": 22,
+    "compare_files": 22,
+    "association": "CONTRIBUTOR",
+    "files": [
+      {
+        "path": "AGENTS.md",
+        "blob": "a1f15ed77f51e79c280aaaf431a3fe69307f997a",
+        "status": "modified"
+      },
+      {
+        "path": "README.md",
+        "blob": "dc734a79dc18c69ad7d12f431c9c55b3b1bcbd51",
+        "status": "modified"
+      },
+      {
+        "path": "scripts/smoke-auth.ts",
+        "blob": "127cdba43c86473e85c13857e80170007764fdaa",
+        "status": "modified"
+      },
+      {
+        "path": "scripts/supply-chain-guard.ts",
+        "blob": "89ad4b84819db14bf089617c5f78e416a5e68b83",
+        "status": "modified"
+      },
+      {
+        "path": "src/backend-identity.ts",
+        "blob": "dd8631f1fdb739e5df113cb2222e13b60c2505f3",
+        "status": "added"
+      },
+      {
+        "path": "src/discover.ts",
+        "blob": "57c076f90d264e27830eefc2a449de7a6babceab",
+        "status": "modified"
+      },
+      {
+        "path": "src/index.ts",
+        "blob": "cd97a11cfb96ce5cc26a4f743d9b0b799a58e3b4",
+        "status": "modified"
+      },
+      {
+        "path": "src/protocols.ts",
+        "blob": "f187cee112ada0f2b287dd8b8a657a0af7aa9e70",
+        "status": "added"
+      },
+      {
+        "path": "src/provider.ts",
+        "blob": "49209085794f5b4bcd1049231ddd58224f76c51c",
+        "status": "modified"
+      },
+      {
+        "path": "src/types.ts",
+        "blob": "2e423f84812f851426a38efdb0f425c8b5ce18b0",
+        "status": "modified"
+      },
+      {
+        "path": "tests/backend-identity.test.ts",
+        "blob": "d041b3b0a62cf033d2ffd9e8cbb05001e4e334cd",
+        "status": "added"
+      },
+      {
+        "path": "tests/cold-start-discovery.test.ts",
+        "blob": "f4c689a427ded5586a6b789786b36f9e2d55a4d6",
+        "status": "modified"
+      },
+      {
+        "path": "tests/discover.test.ts",
+        "blob": "442832650aa707ee2ce1899e0d2638ff56aaf270",
+        "status": "modified"
+      },
+      {
+        "path": "tests/dispatch-routing.test.ts",
+        "blob": "df5aad4d5186d558ed43df863f4f2616749d062b",
+        "status": "added"
+      },
+      {
+        "path": "tests/features.test.ts",
+        "blob": "78447c14c9458df817a95904fc7718ddf41114c7",
+        "status": "modified"
+      },
+      {
+        "path": "tests/index.test.ts",
+        "blob": "cce2a03fa89e00935846118d393226b4cff1e41d",
+        "status": "modified"
+      },
+      {
+        "path": "tests/package.test.ts",
+        "blob": "c2fc5a566103da4796687ef8c544e4526433dafd",
+        "status": "modified"
+      },
+      {
+        "path": "tests/pi-core-model-overrides.test.ts",
+        "blob": "c176e5622e87927c2ee9a88354b9769f4bf64465",
+        "status": "modified"
+      },
+      {
+        "path": "tests/provider-compat/helpers.ts",
+        "blob": "3776a14f0cfc2a40b8e1cb0007a50f0e5e3f16c4",
+        "status": "modified"
+      },
+      {
+        "path": "tests/provider.test.ts",
+        "blob": "16d3ce3711aa1f62e49745656696c6ebc6b17ec7",
+        "status": "modified"
+      },
+      {
+        "path": "tests/skills-hook-errors.test.ts",
+        "blob": "1e6332aa058d0df948fdeabd99988f2806f03dc8",
+        "status": "modified"
+      },
+      {
+        "path": "tests/supply-chain-guard.test.ts",
+        "blob": "09ff0ef9bb4cce848f2e3d7521907b91942aadaf",
+        "status": "modified"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/deepset-ai/haystack-core-integrations/pull/3257",
+    "login": "RheagalFire",
+    "created_at": "2026-04-29T14:54:54Z",
+    "merged_at": "2026-05-29T15:53:06Z",
+    "state": "closed",
+    "head": "1af2c6606191a137ca924a8e72beeb8afb760131",
+    "base": "0c57491079917ed533c8c07c8711816a48c8a4f0",
+    "changed_files": 13,
+    "compare_files": 13,
+    "association": "CONTRIBUTOR",
+    "files": [
+      {
+        "path": ".github/labeler.yml",
+        "blob": "cc0a20866a9a641b672fcbc401634c1c3cc51806",
+        "status": "modified"
+      },
+      {
+        "path": ".github/workflows/litellm.yml",
+        "blob": "345c801aea6c577d19a2b5096a12d715115511e8",
+        "status": "added"
+      },
+      {
+        "path": "README.md",
+        "blob": "c001d21e2bb872e40606639318460be306369587",
+        "status": "modified"
+      },
+      {
+        "path": "integrations/litellm/LICENSE.txt",
+        "blob": "137069b823873b8bcf42979bcf8e9371052d26a2",
+        "status": "added"
+      },
+      {
+        "path": "integrations/litellm/README.md",
+        "blob": "ee19932bd884117bf5084fd0754d07855810fc59",
+        "status": "added"
+      },
+      {
+        "path": "integrations/litellm/pydoc/config_docusaurus.yml",
+        "blob": "f489e3f76d3563f8764ce1100cc5415be8cead23",
+        "status": "added"
+      },
+      {
+        "path": "integrations/litellm/pyproject.toml",
+        "blob": "a9f299111dfa1f0813f0ebee96fa04d59e6c1fe5",
+        "status": "added"
+      },
+      {
+        "path": "integrations/litellm/src/haystack_integrations/components/generators/litellm/__init__.py",
+        "blob": "1261d1b6d69e7479a8e826c13045c1e20e02c70e",
+        "status": "added"
+      },
+      {
+        "path": "integrations/litellm/src/haystack_integrations/components/generators/litellm/chat/__init__.py",
+        "blob": "d391382c6b671468b31089999f4c68cde098a231",
+        "status": "added"
+      },
+      {
+        "path": "integrations/litellm/src/haystack_integrations/components/generators/litellm/chat/chat_generator.py",
+        "blob": "44881f2fa31c420713bfc3feac0b28bf461a0416",
+        "status": "added"
+      },
+      {
+        "path": "integrations/litellm/src/haystack_integrations/components/generators/py.typed",
+        "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "status": "added"
+      },
+      {
+        "path": "integrations/litellm/tests/__init__.py",
+        "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "status": "added"
+      },
+      {
+        "path": "integrations/litellm/tests/test_litellm_chat_generator.py",
+        "blob": "b8c45e9b07fb4a73daccdbf5a6cf38ca0342c918",
+        "status": "added"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/droidrun/mobilerun/pull/384",
+    "login": "RheagalFire",
+    "created_at": "2026-07-15T19:31:35Z",
+    "merged_at": null,
+    "state": "open",
+    "head": "d023a8e7e86eeed7aed2cf05375e3a607c23faa2",
+    "base": "814f866bc1970aa0f133ba3abb50a8948046c774",
+    "changed_files": 10,
+    "compare_files": 10,
+    "association": "NONE",
+    "files": [
+      {
+        "path": "README.md",
+        "blob": "dd44dbb2855e214ca65fbf08f91c73be9e0bbdf1",
+        "status": "modified"
+      },
+      {
+        "path": "mobilerun/agent/providers/registry.py",
+        "blob": "9b3acfd1aec2ca765b5ab6cb4b0b81074317e098",
+        "status": "modified"
+      },
+      {
+        "path": "mobilerun/agent/usage.py",
+        "blob": "4c1f2a519804aa0d190aae9953195e169f91c4fd",
+        "status": "modified"
+      },
+      {
+        "path": "mobilerun/agent/utils/llm_picker.py",
+        "blob": "683e5ecad1bc2f418063301c0bf29efc103143f7",
+        "status": "modified"
+      },
+      {
+        "path": "mobilerun/cli/main.py",
+        "blob": "eb7638af26cd405df8dc6b9d242781e023c86fea",
+        "status": "modified"
+      },
+      {
+        "path": "pyproject.toml",
+        "blob": "e27fd814f47a63abff40d5db94e9b974e56bfe21",
+        "status": "modified"
+      },
+      {
+        "path": "tests/test_litellm_provider.py",
+        "blob": "cb926544b9be90ac520bd24161c02b1d26c72616",
+        "status": "added"
+      },
+      {
+        "path": "tests/test_llm_picker.py",
+        "blob": "2450682610b911c398ccc73380e3764f5db712cb",
+        "status": "modified"
+      },
+      {
+        "path": "tests/test_provider_registry.py",
+        "blob": "83517db683b2124a18234f0948b20553ba8f4442",
+        "status": "modified"
+      },
+      {
+        "path": "tests/test_usage.py",
+        "blob": "06b7b7c0a11c7ae8cfb75178dd4a74a535644eee",
+        "status": "modified"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/dto-btn/ssc-assistant/pull/948",
+    "login": "Cody-SSC",
+    "created_at": "2026-09-01T19:17:32Z",
+    "merged_at": null,
+    "state": "open",
+    "head": "44e42093959e1d0f1eb4189ec7cc89bd666b15ec",
+    "base": "a0ded6bd690a6dcc5cb990bcabba6ba2bf00e230",
+    "changed_files": 6,
+    "compare_files": 6,
+    "association": "COLLABORATOR",
+    "files": [
+      {
+        "path": ".github/workflows/frontend.yml",
+        "blob": "7fc6f180e84c32dac561e2151c9a6a4a81839c96",
+        "status": "modified"
+      },
+      {
+        "path": "SSC-Assistant-Cutover-Plan.md",
+        "blob": "36d57b232caba0482c424d114402169057af00e6",
+        "status": "added"
+      },
+      {
+        "path": "app/api/.env.example",
+        "blob": "015deb5a526d95b87d94e1ff4553d6ffda3742f0",
+        "status": "modified"
+      },
+      {
+        "path": "app/frontend/.env.example",
+        "blob": "3eb143a3457d5d97d2729306ceeeea5599b17e48",
+        "status": "modified"
+      },
+      {
+        "path": "app/frontend/README.md",
+        "blob": "bd6a7d3e7a8e8f0b5d19a6c31dddeeb3dbf19592",
+        "status": "modified"
+      },
+      {
+        "path": "app/frontend/src/playground/services/providers/azureOpenAIProvider.ts",
+        "blob": "9e24715e3da42034453653cbfbbade78a386fee7",
+        "status": "modified"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/dto-btn/ssca-mcp-server/pull/13",
+    "login": "Cody-SSC",
+    "created_at": "2026-09-02T19:25:19Z",
+    "merged_at": null,
+    "state": "open",
+    "head": "592c3cd79b6fb2f1feaccc05c4e94431d15e24cb",
+    "base": "5790b83a1e0b2ba6ee9caa0a13d89338da20fed3",
+    "changed_files": 6,
+    "compare_files": 6,
+    "association": "CONTRIBUTOR",
+    "files": [
+      {
+        "path": ".env.example",
+        "blob": "9b1e510e8fd6ef7b158bf03682a12e56b2d1c8c9",
+        "status": "modified"
+      },
+      {
+        "path": "README.md",
+        "blob": "061ca227d2338377e62727070a867862a885eb4d",
+        "status": "modified"
+      },
+      {
+        "path": "pyproject.toml",
+        "blob": "4182d42879b4186bc2a3d920b2205cbcd95ed2d6",
+        "status": "modified"
+      },
+      {
+        "path": "src/server/classifier.py",
+        "blob": "62d48c2e29448eba06285997543cfbc9cab87648",
+        "status": "modified"
+      },
+      {
+        "path": "src/server/config.py",
+        "blob": "6d4311989e509722c9c080db27f8fff9b0f9cd19",
+        "status": "modified"
+      },
+      {
+        "path": "tests/test_orchestrator.py",
+        "blob": "553778b07e93dc282baf00fa87fe1291d82cd1b0",
+        "status": "modified"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/home-assistant/brands/pull/10439",
+    "login": "luismalves",
+    "created_at": "2026-06-03T22:24:29Z",
+    "merged_at": "2026-07-17T10:03:04Z",
+    "state": "closed",
+    "head": "98ecc74731301711c0975e9c3f487a8593c8414d",
+    "base": "bd8306ffe90160b567ecee3d2723061ac250ff66",
+    "changed_files": 4,
+    "compare_files": 4,
+    "association": "CONTRIBUTOR",
+    "files": [
+      {
+        "path": "core_integrations/litellm/icon.png",
+        "blob": "85ded02fce5485a3cd738fda8ce3748295d9ebc2",
+        "status": "added"
+      },
+      {
+        "path": "core_integrations/litellm/icon@2x.png",
+        "blob": "eb5b9c849cb67956ab3c1d650ae71932160275b8",
+        "status": "added"
+      },
+      {
+        "path": "core_integrations/litellm/logo.png",
+        "blob": "41cf3efd456a251b8204c2f690a27c4a7ac0ffc3",
+        "status": "added"
+      },
+      {
+        "path": "core_integrations/litellm/logo@2x.png",
+        "blob": "6edf525ebb3d30d4f7eabcc5bd7e29c8dc25eeac",
+        "status": "added"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/home-assistant/core/pull/172960",
+    "login": "luismalves",
+    "created_at": "2026-06-03T21:57:14Z",
+    "merged_at": "2026-07-17T10:01:53Z",
+    "state": "closed",
+    "head": "70067f8f3fb51474ee3ad9e14b69eaa309d92493",
+    "base": "e63f227dd3a14e8f2fa1105c8be4d5f11ccc3f5c",
+    "changed_files": 21,
+    "compare_files": 21,
+    "association": "CONTRIBUTOR",
+    "files": [
+      {
+        "path": ".strict-typing",
+        "blob": "81c968f5a099175dcf363775119ef723f1c513d6",
+        "status": "modified"
+      },
+      {
+        "path": "CODEOWNERS",
+        "blob": "8cd45f184f2c50835b75602723862ec4c17c3d16",
+        "status": "modified"
+      },
+      {
+        "path": "homeassistant/components/litellm/__init__.py",
+        "blob": "5447eeb0145485c2d9f6498e4586dd7b6a1716f2",
+        "status": "added"
+      },
+      {
+        "path": "homeassistant/components/litellm/config_flow.py",
+        "blob": "0b8df8be1d44af74d26411af9bd243a87ef1be1b",
+        "status": "added"
+      },
+      {
+        "path": "homeassistant/components/litellm/const.py",
+        "blob": "8f645e234519c5e9990819199a78d0fba912c72f",
+        "status": "added"
+      },
+      {
+        "path": "homeassistant/components/litellm/conversation.py",
+        "blob": "c6d979aba8dd792901c823efce547909b62db02c",
+        "status": "added"
+      },
+      {
+        "path": "homeassistant/components/litellm/coordinator.py",
+        "blob": "ecd856bf6fd8829900bcea34d9d0111f8dc7f5b9",
+        "status": "added"
+      },
+      {
+        "path": "homeassistant/components/litellm/entity.py",
+        "blob": "dfd37a0e0f76a10d315e10174489f1f113e9ce1c",
+        "status": "added"
+      },
+      {
+        "path": "homeassistant/components/litellm/manifest.json",
+        "blob": "595ec0710b38bf279b37f589b80c2b1924ac8235",
+        "status": "added"
+      },
+      {
+        "path": "homeassistant/components/litellm/quality_scale.yaml",
+        "blob": "4486643696780015505e33b2c61a86ba98c584ac",
+        "status": "added"
+      },
+      {
+        "path": "homeassistant/components/litellm/strings.json",
+        "blob": "c13cf51220806724f25a546af3696988a3707359",
+        "status": "added"
+      },
+      {
+        "path": "homeassistant/generated/config_flows.py",
+        "blob": "b0ea72e4c9f4668a5bb264e145547ed5556926e8",
+        "status": "modified"
+      },
+      {
+        "path": "homeassistant/generated/integrations.json",
+        "blob": "5086994e5aef0754ad0fcba5b4a36fbd7aab8b3e",
+        "status": "modified"
+      },
+      {
+        "path": "mypy.ini",
+        "blob": "29f7daaf4e1cb0ccd6a2a5595fabf4f9a5ca1872",
+        "status": "modified"
+      },
+      {
+        "path": "requirements_all.txt",
+        "blob": "cc06c3521d31096adde96aa922e6f1e045441c00",
+        "status": "modified"
+      },
+      {
+        "path": "tests/components/litellm/__init__.py",
+        "blob": "27b3e0e89ba2e40305e35e0b66e57c845ef10072",
+        "status": "added"
+      },
+      {
+        "path": "tests/components/litellm/conftest.py",
+        "blob": "84ebbac639edbeb294ea0d373e18a58fb88a9510",
+        "status": "added"
+      },
+      {
+        "path": "tests/components/litellm/snapshots/test_conversation.ambr",
+        "blob": "a905dbed6dcea5bae1396c0c20d914a35c2de5ca",
+        "status": "added"
+      },
+      {
+        "path": "tests/components/litellm/test_config_flow.py",
+        "blob": "ac3a1675ab116d735aa85c32aefb0db781c74fae",
+        "status": "added"
+      },
+      {
+        "path": "tests/components/litellm/test_conversation.py",
+        "blob": "1f3660a3b98d8928e89cc8c6111e82c90f493b52",
+        "status": "added"
+      },
+      {
+        "path": "tests/components/litellm/test_init.py",
+        "blob": "151f783633dc0db201ee599374e45014802dfee0",
+        "status": "added"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/home-assistant/home-assistant.io/pull/45740",
+    "login": "luismalves",
+    "created_at": "2026-06-03T22:17:23Z",
+    "merged_at": "2026-07-18T07:53:06Z",
+    "state": "closed",
+    "head": "0278ef1c690757b43a26f24162cb4189d5bd56c1",
+    "base": "9f3a7f55c6ac4f30af3763653b4f5fe46b88468a",
+    "changed_files": 1,
+    "compare_files": 1,
+    "association": "CONTRIBUTOR",
+    "files": [
+      {
+        "path": "source/_integrations/litellm.markdown",
+        "blob": "fb2ae3ed393f1577791f7f34a478377471a429ac",
+        "status": "added"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/nousergon/krepis/pull/46",
+    "login": "cipher813",
+    "created_at": "2026-07-24T17:47:03Z",
+    "merged_at": "2026-07-24T18:01:23Z",
+    "state": "closed",
+    "head": "92563b5ec34036e89b694b76a1bef09534a0d4e4",
+    "base": "b65f13fc4a536105c59fdd61c7ff48fa533e54ad",
+    "changed_files": 3,
+    "compare_files": 3,
+    "association": "CONTRIBUTOR",
+    "files": [
+      {
+        "path": "pyproject.toml",
+        "blob": "0af870d0adfa16414513cd9fe08f54c4b84aa36d",
+        "status": "modified"
+      },
+      {
+        "path": "src/krepis/__init__.py",
+        "blob": "33836e047de06c89efcbd3bb08e40ee9f70579f7",
+        "status": "modified"
+      },
+      {
+        "path": "src/krepis/llm_config.py",
+        "blob": "2c661488215f8ab5cb0431dd4b62988f939b32df",
+        "status": "modified"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/nousergon/symposion/pull/80",
+    "login": "cipher813",
+    "created_at": "2026-07-27T15:04:42Z",
+    "merged_at": "2026-07-27T15:34:34Z",
+    "state": "closed",
+    "head": "7dedec6f34bfe636339d0661ba8ee3df260d83a3",
+    "base": "fa5ec41014247fc47da2a92435f3a23392ad97ec",
+    "changed_files": 5,
+    "compare_files": 5,
+    "association": "CONTRIBUTOR",
+    "files": [
+      {
+        "path": "README.md",
+        "blob": "bf9195702f04963148827608edb0a89903839cd9",
+        "status": "modified"
+      },
+      {
+        "path": "server/index.mjs",
+        "blob": "d6ddef258c87597a082e5b6bfdfaa8b9798ee35d",
+        "status": "modified"
+      },
+      {
+        "path": "server/llm-egress-proxy.mjs",
+        "blob": "433c02695e03d6f992ce550289b85de3063f828f",
+        "status": "removed"
+      },
+      {
+        "path": "server/persona-migration.mjs",
+        "blob": "6c0fd529d6ef54a3a5e18ece36d29de39af40285",
+        "status": "added"
+      },
+      {
+        "path": "server/persona-migration.test.mjs",
+        "blob": "34ad26066388b69446329c68a3707095c92f8454",
+        "status": "added"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/penumbral-labs/pi-provider-litellm/pull/22",
+    "login": "aasmall",
+    "created_at": "2026-08-21T14:38:53Z",
+    "merged_at": null,
+    "state": "open",
+    "head": "63c7b229e870bae7e60477aed8bc453a3c7b6ef2",
+    "base": "133965934b506f6a816ae25eded0c13916262355",
+    "changed_files": 19,
+    "compare_files": 19,
+    "association": "NONE",
+    "files": [
+      {
+        "path": "AGENTS.md",
+        "blob": "ee3922e65e53e82170e5a81740543da882774b5f",
+        "status": "modified"
+      },
+      {
+        "path": "README.md",
+        "blob": "6a8540c38516b373b6b63fb2d7381801d27adb9f",
+        "status": "modified"
+      },
+      {
+        "path": "scripts/supply-chain-guard.ts",
+        "blob": "42f6a1d6dff7aa49671ee89a10b03e81befb6c4a",
+        "status": "modified"
+      },
+      {
+        "path": "src/discover.ts",
+        "blob": "b4b049aaa502623981b2086cd91c54e9d89e6a3d",
+        "status": "modified"
+      },
+      {
+        "path": "src/index.ts",
+        "blob": "17fa2829bafe3b9f32ca8dc5894ac79e2335d715",
+        "status": "modified"
+      },
+      {
+        "path": "src/protocols.ts",
+        "blob": "b7acbb5bac10d7c6b9893bd73808a9a127651638",
+        "status": "added"
+      },
+      {
+        "path": "src/provider.ts",
+        "blob": "76b031033391f04c0f75e9cf2a598d3856da9d99",
+        "status": "modified"
+      },
+      {
+        "path": "src/types.ts",
+        "blob": "457338a4d58af39f1e78b6aa4c2a950870ec3520",
+        "status": "modified"
+      },
+      {
+        "path": "tests/cold-start-discovery.test.ts",
+        "blob": "6d9937c283614a08d7e3f731aad1ea7cec2a6dc9",
+        "status": "modified"
+      },
+      {
+        "path": "tests/discover.test.ts",
+        "blob": "f0431e2f12347b78dbd0fd023220e4ed2c96f42a",
+        "status": "modified"
+      },
+      {
+        "path": "tests/dispatch-routing.test.ts",
+        "blob": "df5aad4d5186d558ed43df863f4f2616749d062b",
+        "status": "added"
+      },
+      {
+        "path": "tests/features.test.ts",
+        "blob": "25f515a0724beb6598f653da37b7426f5116a1b6",
+        "status": "modified"
+      },
+      {
+        "path": "tests/index.test.ts",
+        "blob": "87b91b9ef7dd4aaeb99a5e28f48dfc05974e23c0",
+        "status": "modified"
+      },
+      {
+        "path": "tests/package.test.ts",
+        "blob": "a06e0e840e8694547d187110add3d7f66380273d",
+        "status": "modified"
+      },
+      {
+        "path": "tests/pi-core-model-overrides.test.ts",
+        "blob": "8a7046a15ed1245a16149aa4d29f554c597d285a",
+        "status": "modified"
+      },
+      {
+        "path": "tests/provider-compat/helpers.ts",
+        "blob": "d66f4b2f57fa1143c7ee85c27eda61340cf66067",
+        "status": "modified"
+      },
+      {
+        "path": "tests/provider.test.ts",
+        "blob": "a6247216a8bef416c5bce61df527ec4e5130fdd3",
+        "status": "modified"
+      },
+      {
+        "path": "tests/skills-hook-errors.test.ts",
+        "blob": "1e6332aa058d0df948fdeabd99988f2806f03dc8",
+        "status": "modified"
+      },
+      {
+        "path": "tests/supply-chain-guard.test.ts",
+        "blob": "97c2e5c23cbd53f049a3f8bc2a4e6adfe0f55846",
+        "status": "modified"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/scabench-org/hound/pull/56",
+    "login": "RheagalFire",
+    "created_at": "2026-07-13T15:27:42Z",
+    "merged_at": "2026-07-14T02:16:38Z",
+    "state": "closed",
+    "head": "9b7397a39e4a963d5ecb4509619d615ee539a067",
+    "base": "48368e1167106f23b448b69e1bc62421f94053b2",
+    "changed_files": 4,
+    "compare_files": 4,
+    "association": "CONTRIBUTOR",
+    "files": [
+      {
+        "path": "llm/litellm_provider.py",
+        "blob": "4302761c2cbc7c918edeb86564582974d23e5a55",
+        "status": "added"
+      },
+      {
+        "path": "llm/unified_client.py",
+        "blob": "8c345bc906bdee00cf68b6948805efb7b4b05762",
+        "status": "modified"
+      },
+      {
+        "path": "requirements.txt",
+        "blob": "77dca03e28a2dfd84150d25f21f7d3cb7ef77bf6",
+        "status": "modified"
+      },
+      {
+        "path": "tests/test_litellm_provider.py",
+        "blob": "e42a8b23f1f3fcf316775e185c7e21c38cba8d5e",
+        "status": "added"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/vellum-ai/vellum-assistant/pull/38207",
+    "login": "RheagalFire",
+    "created_at": "2026-07-15T19:41:53Z",
+    "merged_at": null,
+    "state": "closed",
+    "head": "9d4eb02947b75c31ebf67eb8e9c530af518dc148",
+    "base": "372686aa6ed1d6227e5cac8ff67775a15269b9f5",
+    "changed_files": 10,
+    "compare_files": 10,
+    "association": "NONE",
+    "files": [
+      {
+        "path": "assistant/openapi.yaml",
+        "blob": "de7c47eea9fe5d690e3d13061358f17edcfbd7ff",
+        "status": "modified"
+      },
+      {
+        "path": "assistant/src/config/schemas/llm.ts",
+        "blob": "e07d8edffb0fb8fc9b0d0434a8e159b023911ec4",
+        "status": "modified"
+      },
+      {
+        "path": "assistant/src/providers/inference/__tests__/adapter-factory-litellm.test.ts",
+        "blob": "c99cd290e772e7e99547ab7f4dfa7b705d33da04",
+        "status": "added"
+      },
+      {
+        "path": "assistant/src/providers/inference/adapter-factory.ts",
+        "blob": "13666804678c7b5dcfe982d005c6c461d414620c",
+        "status": "modified"
+      },
+      {
+        "path": "assistant/src/providers/model-catalog.ts",
+        "blob": "6a08015e364e07c37033291538600fbbf86f11d7",
+        "status": "modified"
+      },
+      {
+        "path": "cli/src/shared/provider-env-vars.ts",
+        "blob": "6d7deb5e12a00887d50ca4846f19f3feb0dbf03b",
+        "status": "modified"
+      },
+      {
+        "path": "clients/web/src/assistant/llm-model-catalog.ts",
+        "blob": "beae1361715faa14f2771b68f463e40416d23082",
+        "status": "modified"
+      },
+      {
+        "path": "clients/web/src/domains/settings/ai/constants.ts",
+        "blob": "0c7cc2ce33d8ce73c3470920595b46ba15b6c548",
+        "status": "modified"
+      },
+      {
+        "path": "clients/web/src/domains/settings/ai/provider-editor-constants.ts",
+        "blob": "147557c30cbefed4f105d448bcf6d1e7d615ef80",
+        "status": "modified"
+      },
+      {
+        "path": "meta/llm-provider-catalog.json",
+        "blob": "c0f7e431ed489385f38576bb9b4d94d229d5721e",
+        "status": "modified"
+      }
+    ]
+  }
+]

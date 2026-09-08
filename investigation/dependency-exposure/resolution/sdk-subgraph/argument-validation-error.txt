@@ -1,0 +1,5 @@
+error: the argument '--no-build' cannot be used with '--only-binary <ONLY_BINARY>'
+
+Usage: uv pip compile --python <PYTHON> --python-version <PYTHON_VERSION> --python-platform <PYTHON_PLATFORM> --no-managed-python --no-python-downloads --no-build --no-sources --keyring-provider <KEYRING_PROVIDER> --default-index <DEFAULT_INDEX> --resolution <RESOLUTION> --prerelease <PRERELEASE> --format <FORMAT> --output-file <OUTPUT_FILE> --color <COLOR_CHOICE> --no-progress --cache-dir <CACHE_DIR> <SRC_FILE|--group <GROUP>>
+
+For more information, try '--help'.

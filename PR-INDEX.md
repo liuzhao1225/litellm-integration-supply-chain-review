@@ -1,6 +1,6 @@
 # PR evidence index
 
-Snapshot: 2026-09-09. Dates below are UTC. State reflects collection time.
+State snapshot: September 8, 2026, 19:47–19:50 UTC ([captured responses](investigation/contribution-followup/snapshot.json)). Totals: 28 open, 17 merged, 4 closed without merging. Created dates below are UTC. Original revisions remain preserved; the OpenExecutive synchronization is linked separately.
 
 | PR | Created at (UTC) | State | Integration | Snapshot |
 | --- | --- | --- | --- | --- |
@@ -44,12 +44,12 @@ Snapshot: 2026-09-09. Dates below are UTC. State reflects collection time.
 | [datajuicer/data-juicer #1062](https://github.com/datajuicer/data-juicer/pull/1062) | 2026-08-31T15:27:02Z | merged | python-sdk | [head d72e6263cf](prs/datajuicer__data-juicer__1062.json) |
 | [TideDra/zotero-arxiv-daily #294](https://github.com/TideDra/zotero-arxiv-daily/pull/294) | 2026-08-31T15:30:33Z | open | python-sdk | [head 41c9552c1e](prs/TideDra__zotero-arxiv-daily__294.json) |
 | [Tencent/WeKnora #2923](https://github.com/Tencent/WeKnora/pull/2923) | 2026-08-31T16:03:29Z | merged | proxy-compatible | [head 329267dd6f](prs/Tencent__WeKnora__2923.json) |
-| [0xMassi/webclaw #123](https://github.com/0xMassi/webclaw/pull/123) | 2026-08-31T16:07:26Z | open | proxy-compatible | [head 345422db95](prs/0xMassi__webclaw__123.json) |
+| [0xMassi/webclaw #123](https://github.com/0xMassi/webclaw/pull/123) | 2026-08-31T16:07:26Z | closed | proxy-compatible | [head 345422db95](prs/0xMassi__webclaw__123.json) |
 | [nageoffer/ragent #126](https://github.com/nageoffer/ragent/pull/126) | 2026-08-31T16:11:39Z | open | proxy-compatible | [head 41c082ed3f](prs/nageoffer__ragent__126.json) |
 | [sdcb/chats #142](https://github.com/sdcb/chats/pull/142) | 2026-08-31T16:14:05Z | open | proxy-compatible | [head 64431246e8](prs/sdcb__chats__142.json) |
 | [Awarexone/Agentic-Bug-Hunter #129](https://github.com/Awarexone/Agentic-Bug-Hunter/pull/129) | 2026-09-08T18:03:34Z | open | python-sdk | [head bf3866fc64](prs/Awarexone__Agentic-Bug-Hunter__129.json) |
 | [agentscope-ai/OpenJudge #196](https://github.com/agentscope-ai/OpenJudge/pull/196) | 2026-09-08T18:15:08Z | open | python-sdk | [head 7ecfc3bee7](prs/agentscope-ai__OpenJudge__196.json) |
 | [jjyaoao/HelloAgents #113](https://github.com/jjyaoao/HelloAgents/pull/113) | 2026-09-08T18:23:49Z | open | python-sdk | [head 92d62462b1](prs/jjyaoao__HelloAgents__113.json) |
-| [SenteLabsAI/OpenExecutive #98](https://github.com/SenteLabsAI/OpenExecutive/pull/98) | 2026-09-08T18:35:01Z | open | python-sdk | [head cf6903bb34](prs/SenteLabsAI__OpenExecutive__98.json) |
+| [SenteLabsAI/OpenExecutive #98](https://github.com/SenteLabsAI/OpenExecutive/pull/98) | 2026-09-08T18:35:01Z | open | python-sdk | [head def6748dd5](updates/OpenExecutive-98.json); [original cf6903bb34](prs/SenteLabsAI__OpenExecutive__98.json) |
 | [liuzhao1225/YouDub-webui #130](https://github.com/liuzhao1225/YouDub-webui/pull/130) | 2026-09-08T18:46:05Z | open | python-sdk | [head 1add1b6d90](prs/liuzhao1225__YouDub-webui__130.json) |
 | [ageerle/ruoyi-ai #333](https://github.com/ageerle/ruoyi-ai/pull/333) | 2026-09-08T19:01:44Z | open | proxy-compatible | [head b1104c8ac6](prs/ageerle__ruoyi-ai__333.json) |

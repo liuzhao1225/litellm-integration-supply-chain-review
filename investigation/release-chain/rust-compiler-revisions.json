@@ -1,0 +1,20 @@
+[
+  {
+    "sha": "88d9e12ae178fab0fb5cc050a94da85685d449ea",
+    "version_file": "1.98.0",
+    "version_source": "https://raw.githubusercontent.com/rust-lang/rust/88d9e12ae178fab0fb5cc050a94da85685d449ea/src/version",
+    "commit_source": "https://api.github.com/repos/rust-lang/rust/commits/88d9e12ae178fab0fb5cc050a94da85685d449ea",
+    "commit_time_utc": "2026-08-18T19:58:58Z",
+    "commit_message": "Auto merge of #161313 - cuviper:stable-next, r=cuviper\n\n[stable] prepare Rust 1.98.0\n\nhttps://forge.rust-lang.org/release/process.html#stable-pr\r\n\r\nThis also includes:\r\n\r\n- Revert \"riscv: promote d, e, and f target_features to CfgStableToggleUnstable\" rust-lang/rust#161064\r\n- add relnotes 1.98.0 rust-lang/rust#161293 (and previous relnotes as well)\r\n\r\nr? me",
+    "collected_at_utc": "2026-09-08T20:14:17.949308+00:00"
+  },
+  {
+    "sha": "48a229ceaefd4985c50990b14116b6d856af0985",
+    "version_file": "1.98.1",
+    "version_source": "https://raw.githubusercontent.com/rust-lang/rust/48a229ceaefd4985c50990b14116b6d856af0985/src/version",
+    "commit_source": "https://api.github.com/repos/rust-lang/rust/commits/48a229ceaefd4985c50990b14116b6d856af0985",
+    "commit_time_utc": "2026-09-01T06:56:03Z",
+    "commit_message": "Auto merge of #161555 - lcnr:backport-erased-handling, r=Mark-Simulacrum\n\n[stable] 1.98.1 release\n\n\n\nBackport of \"rerun in original typing mode if we meet any opaques in post analysis\" rust-lang/rust#158993 to stable, fixes rust-lang/rust#161441\r\n\r\nWe didn't notice that a beta cutoff happened between rust-lang/rust#156742 and rust-lang/rust#158993 and it's easy to forget that we need to be careful with next-solver bugs as they can affect stable via coherence and `impossible_predicates`.",
+    "collected_at_utc": "2026-09-08T20:14:19.507078+00:00"
+  }
+]

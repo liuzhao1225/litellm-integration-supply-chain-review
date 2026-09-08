@@ -1,0 +1,7 @@
+{
+  "checked_at_utc": "2026-09-08T20:28:10.408Z",
+  "orders": [],
+  "affected_target_ids": [],
+  "targets": [],
+  "limitations": "Lexical eager-expression scan; ordinary called functions may have further side effects. Function declarations/callback bodies skipped; direct IIFE bodies inspected. No input evaluation."
+}

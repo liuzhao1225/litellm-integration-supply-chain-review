@@ -1,0 +1,1003 @@
+{
+  "checked_at_utc": "2026-09-08T20:15:24.481200+00:00",
+  "completed_at_utc": "2026-09-08T20:15:26.963985+00:00",
+  "method": "Read fixed Git blobs and compare inspected extracted source to preserved wheel members; no package execution.",
+  "commits": {
+    "1.99.0": "fa647f742d7baefe8eb1181899d9c81b41559772",
+    "1.100.0": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4"
+  },
+  "youdub_head": "1add1b6d90795ddc222c3f5021305a2e8d953a17",
+  "files": [
+    {
+      "version": "1.99.0",
+      "file": "litellm/__init__.py",
+      "sha256": "e07c21ade48d5a323137e7be089d42c5c3c99fc714990424c6f2cc92249d7190",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/__init__.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/_logging.py",
+      "sha256": "fab7eb729282df9e6568e667bc636c4c8722ba569d982d00c57d40cc52eb0d67",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/_logging.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/constants.py",
+      "sha256": "30919b461508e6f2a281c1bc1430aed603624b6662bb34c0024c44e77e886cf0",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/constants.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/experimental_mcp_client/client.py",
+      "sha256": "a19f1284fef56e0065c80b4d67590b5933f6cdce0be144ab4cb5ad6a5f01e56e",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/experimental_mcp_client/client.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/integrations/SlackAlerting/batching_handler.py",
+      "sha256": "459f844cc5ac058b6cd2003b32b7aa6104559d45e4fd219f43ca83eb54dbad9a",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/integrations/SlackAlerting/batching_handler.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/integrations/langfuse/langfuse.py",
+      "sha256": "031fb3fcc4ef8348d60b2ec3df64a508c11ad3b8367867e54f55b79de63238b8",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/integrations/langfuse/langfuse.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/integrations/langfuse/langfuse_handler.py",
+      "sha256": "7d161fd978d8147964b449266a37ef30da517781d6ecdadf5e88a8f83d611100",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/integrations/langfuse/langfuse_handler.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/litellm_core_utils/exception_mapping_utils.py",
+      "sha256": "973ac0f0c23bc34f96af8fbb4b1aa7e2cc61482a2f8c4186db3eb031452977b7",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/litellm_core_utils/exception_mapping_utils.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/litellm_core_utils/get_llm_provider_logic.py",
+      "sha256": "eff295eb9bba0f6065078f213431fe1660d12ca8ffa016462b64cc6fb113e7ab",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/litellm_core_utils/get_llm_provider_logic.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/litellm_core_utils/get_model_cost_map.py",
+      "sha256": "f37b5f4754280f4a31e2a31e54bba943bd9351fa23485fb7511253b864047728",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/litellm_core_utils/get_model_cost_map.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/litellm_core_utils/health_check_helpers.py",
+      "sha256": "0d74e126d4d782dbd46b423c41deccee6de6ba030d556c01f1c7b9ccb7c38ed5",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/litellm_core_utils/health_check_helpers.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/litellm_core_utils/llm_cost_calc/utils.py",
+      "sha256": "f7b475faf7be71ca7d2e84cd91b7069db5e04a108be4c2231a878d38085076ae",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/litellm_core_utils/llm_cost_calc/utils.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/llms/anthropic/chat/handler.py",
+      "sha256": "1b881946e3df0619901247a154954bbf8f4804fdd492ab1b33a86e67779fcbd7",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/llms/anthropic/chat/handler.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/llms/anthropic/common_utils.py",
+      "sha256": "3eef51591c944e25f8e3f7cc4a599863da6fea80ad91bae3f0597c351d36c561",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/llms/anthropic/common_utils.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/llms/azure/common_utils.py",
+      "sha256": "9289b0ba5f1d44ffbf158369668958bf84a30e101d80c42a33e2c4b05d9ad2ef",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/llms/azure/common_utils.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/llms/bedrock/rerank/handler.py",
+      "sha256": "725e79fabe7546c829cd0cd0a05107e32a8de64d869744ecebe0b06f34766cd9",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/llms/bedrock/rerank/handler.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/llms/custom_httpx/llm_http_handler.py",
+      "sha256": "c077f9c7aa20108e6e0efd3b9bcc6c03c329ab3541423a2b89622419aa84da7b",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/llms/custom_httpx/llm_http_handler.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/llms/together_ai/rerank/handler.py",
+      "sha256": "82071a03776a059a7da177179cbc6430f83e43b76af8fba8d91b1276acf57286",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/llms/together_ai/rerank/handler.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/main.py",
+      "sha256": "a264e4239d2bb5164fe868f5fb6f645b826c59a85c869dff7cb4ebb9312a1930",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/main.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/proxy/_experimental/mcp_server/discoverable_endpoints.py",
+      "sha256": "403bab28bf36c4298c8dea2ec08b4ec3de8c3aeb43dfaf5d4c8353d2ded50f86",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/proxy/_experimental/mcp_server/discoverable_endpoints.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/proxy/_experimental/mcp_server/oauth2_token_cache.py",
+      "sha256": "47a3c20c2a1a7b85c64788e8bdc724cad23c206bee5b7acc7218c7e7f2bd6839",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/proxy/_experimental/mcp_server/oauth2_token_cache.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/proxy/client/chat.py",
+      "sha256": "6b0af047e9d30b1308a0301d8e9304ea3e6449e5feb4d20688cc45d2a0998c06",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/proxy/client/chat.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/proxy/client/cli/commands/auth.py",
+      "sha256": "75fd0e450f59b4d062c5224413abf70967625910e50a53fe5efeb842ea74bdf9",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/proxy/client/cli/commands/auth.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/proxy/client/credentials.py",
+      "sha256": "97d270461b6040cbdcd86fed8cf3da01d6f86591921f837a57f765226c7ef96e",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/proxy/client/credentials.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/proxy/client/keys.py",
+      "sha256": "046c2c94467df4284d80707f64afa87c377f617e2a3057ea270a513b21716c97",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/proxy/client/keys.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/proxy/client/model_groups.py",
+      "sha256": "e1405aec116f0e0abd2f2490c0e39b99fc072da925c6cc2970e172f2628c5cf1",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/proxy/client/model_groups.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/proxy/client/models.py",
+      "sha256": "d0acd4c58e3e7b63e4b54a2f8cc4beced8c44cfff74c90a0b4648148ab5490f4",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/proxy/client/models.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/proxy/client/teams.py",
+      "sha256": "fd090c71bcce36a16c3098dabc11c42f9e8ee850971f73fa16569ae8ad96e95e",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/proxy/client/teams.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/proxy/client/users.py",
+      "sha256": "3040049773ea30183e7df779381df0253f76ee95fabd13a3dda9d0be7d81d2ed",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/proxy/client/users.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/proxy/db/db_url_settings.py",
+      "sha256": "74412904fff557c0f74e0b72052a5c5735953946311be6d6a3b52f8bd9f44245",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/proxy/db/db_url_settings.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/proxy/guardrails/guardrail_hooks/hiddenlayer/hiddenlayer.py",
+      "sha256": "8ac8a6cc57b5e86d2603589de651063fdd61bf00bff9f258072ceaf4562e164a",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/proxy/guardrails/guardrail_hooks/hiddenlayer/hiddenlayer.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/proxy/health_endpoints/_health_endpoints.py",
+      "sha256": "7441e72be9b10d1802a5dfdb1b3bc1d445c96d11b1332c759048c74b4f23100e",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/proxy/health_endpoints/_health_endpoints.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/proxy/management_endpoints/config_override_endpoints.py",
+      "sha256": "7154b380353dde090d2d51f1f7fb31f40ffd638e16396942cfe6ff5f998ec721",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/proxy/management_endpoints/config_override_endpoints.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/proxy/management_endpoints/mcp_management_endpoints.py",
+      "sha256": "c64af660e4d2405f49e3716bb500196f9a35ffed012a275fcc6ae7706afc7e84",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/proxy/management_endpoints/mcp_management_endpoints.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/proxy/management_endpoints/model_access_group_management_endpoints.py",
+      "sha256": "990ef9796b0ea1a02a496fa712f4c455df224ff3981be502f364bfa185c37bb3",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/proxy/management_endpoints/model_access_group_management_endpoints.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/proxy/management_endpoints/model_management_endpoints.py",
+      "sha256": "fec0310c553dea64aafb6df10eeafd1a1cafb3ebe412a29331dcfeaa63dabc5f",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/proxy/management_endpoints/model_management_endpoints.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/proxy/management_endpoints/team_endpoints.py",
+      "sha256": "df724f09ff68ee1f070f19fc9daa0a073fc07f58f2fad494ea18e8ff9cec4d40",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/proxy/management_endpoints/team_endpoints.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/proxy/proxy_server.py",
+      "sha256": "f63cd83c5c4459d84dbfbd350a460caf9e2907389f19d2c3090fe24ad937f47b",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/proxy/proxy_server.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/proxy/types_utils/utils.py",
+      "sha256": "bea706f6348b9453f92f702f3155009994f78fcc62a101070ab9cf1195ab13b8",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/proxy/types_utils/utils.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/proxy/utils.py",
+      "sha256": "4724707e26a55013ec55dd6c7462af8bf6828de8af0ee60a427114a92f37cbac",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/proxy/utils.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/realtime_api/main.py",
+      "sha256": "c10e3a4655b91ecdef3bd1186a0291df78e4f7b76e201a635a797f7ad76665eb",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/realtime_api/main.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/rerank_api/main.py",
+      "sha256": "c2c1d7104ae5fbe7a4db38b62ba2246e266a61ae106d5e1b2aae3345b6768a5b",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/rerank_api/main.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/secret_managers/main.py",
+      "sha256": "41a28b6766783ce562a161d6f0811d6b614aeb3452fe0a799e4fa04059da2a5f",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/secret_managers/main.py"
+    },
+    {
+      "version": "1.99.0",
+      "file": "litellm/types/mcp.py",
+      "sha256": "cc4ddaf4c6677a6715c2dd2e7ced60b0d92bbd3dbea510f75add2efd85014ff8",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm/types/mcp.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/__init__.py",
+      "sha256": "5c71a49e87ab96a5967ea4c718765c1064ff3a0cb2dc2853920a2868bd4b8466",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/__init__.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/_logging.py",
+      "sha256": "89aa34b9c6dc35c517ca58af04744699dc500c304a510bfe679f6ec9b8acbeba",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/_logging.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/constants.py",
+      "sha256": "e6239a2f89fe46a319cf05b434111341b97bbeb426f7d028f518314fda7740ce",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/constants.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/experimental_mcp_client/client.py",
+      "sha256": "e4ec7dac19169102b7d6fa380496dfb9e99c9261eed5a6d499267194d1ddf863",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/experimental_mcp_client/client.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/integrations/SlackAlerting/batching_handler.py",
+      "sha256": "2f344411025d211469c5a02e63b002436d70fd1d4395cc3a12812188a0d4be78",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/integrations/SlackAlerting/batching_handler.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/integrations/SlackAlerting/ms_teams.py",
+      "sha256": "0db37e9469efa0af657515e245b3e14c02ac5924b6ae1e1d7ac2a33ef608990e",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/integrations/SlackAlerting/ms_teams.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/integrations/langfuse/langfuse.py",
+      "sha256": "9a104f133fa94ba7341fdcd42849364e161f2b5e18f6ed4e6fd3801fafde0d0f",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/integrations/langfuse/langfuse.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/integrations/langfuse/langfuse_handler.py",
+      "sha256": "0e301fd4837c35100beb5497c5a585b8624159b3e9be5843791ef65c3f826bbd",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/integrations/langfuse/langfuse_handler.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/integrations/newrelic/newrelic_metrics.py",
+      "sha256": "80ae1e7c490cb5db0c608d86a7cd09f82e23739755498383ba6a79b1241462f7",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/integrations/newrelic/newrelic_metrics.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/litellm_core_utils/aws_partition.py",
+      "sha256": "7b3456c9e90f7582386a0776566595e4342c10d8a71c1bf82fc8d57d81e32454",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/litellm_core_utils/aws_partition.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/litellm_core_utils/exception_mapping_utils.py",
+      "sha256": "5198e730ff3e1d40e8e253795280009755b315b061a449b56d02f6ed09fd53b7",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/litellm_core_utils/exception_mapping_utils.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/litellm_core_utils/get_llm_provider_logic.py",
+      "sha256": "bd71e1ee8af6d6173d6b5667a2ddca7d1a155521aa8c7e5c3bce6ae79945e303",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/litellm_core_utils/get_llm_provider_logic.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/litellm_core_utils/get_model_cost_map.py",
+      "sha256": "f37b5f4754280f4a31e2a31e54bba943bd9351fa23485fb7511253b864047728",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/litellm_core_utils/get_model_cost_map.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/litellm_core_utils/health_check_helpers.py",
+      "sha256": "91b2dcaece97f7348e7178878c21756d5e986fa775719e883b42201fc8a82d60",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/litellm_core_utils/health_check_helpers.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/litellm_core_utils/llm_cost_calc/utils.py",
+      "sha256": "c567a0b4a635f991104664479f721e9ffe4ee54aae4acabd6735c458d7a2941d",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/litellm_core_utils/llm_cost_calc/utils.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/llms/anthropic/chat/handler.py",
+      "sha256": "bc9fa84a5bef436b4bef7374c584884232b6456e339bf06a6494c9a2b2f49d1a",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/llms/anthropic/chat/handler.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/llms/anthropic/common_utils.py",
+      "sha256": "79039bc762daf1a98828b42f9655c892a1865913f66f481ce2bcfdb21ed98a62",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/llms/anthropic/common_utils.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/llms/azure/common_utils.py",
+      "sha256": "6147bf66beee8cb5fbc4514fc893b5a66188db0d1c465fed1a7e13da2d488620",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/llms/azure/common_utils.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/llms/bedrock/rerank/handler.py",
+      "sha256": "f9875c1311c47eea13cee1a2eb2e217245dcc491f5c49ba93f0f0e4fa8630093",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/llms/bedrock/rerank/handler.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/llms/custom_httpx/llm_http_handler.py",
+      "sha256": "185351682d6838f295f24a574f31a5d84a12f655d7e5f354aaf4d30adbbc7411",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/llms/custom_httpx/llm_http_handler.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/llms/together_ai/rerank/handler.py",
+      "sha256": "f215b0a1cb2d5217b42a017fbcbb4768c8aeed084808d24b4141db036cb4cfa4",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/llms/together_ai/rerank/handler.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/main.py",
+      "sha256": "fbbcf303a9008b5f76a38d3a9c797bef6168bd76820b82ac1927910cfb5e7528",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/main.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/proxy/_experimental/mcp_server/discoverable_endpoints.py",
+      "sha256": "3b6ea02616e1c3b31de944085e0ab6a6eb5d1d5d35d0ad0713d10ee6c5a96b1f",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/proxy/_experimental/mcp_server/discoverable_endpoints.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/proxy/_experimental/mcp_server/oauth2_token_cache.py",
+      "sha256": "dfea7222759383ca222dfd9a84e19a86c9286e82944586d0b15518b0d90cd4d6",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/proxy/_experimental/mcp_server/oauth2_token_cache.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/proxy/client/chat.py",
+      "sha256": "28aa0fe11f91a816e496539a7ef009db89b2bed51734d244b6f418d71e6729ac",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/proxy/client/chat.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/proxy/client/cli/commands/auth.py",
+      "sha256": "7bd65fe7d3b7218315a7d509f6c3e28e6a261d865b62d96c3391810f2fe03a77",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/proxy/client/cli/commands/auth.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/proxy/client/credentials.py",
+      "sha256": "527e4e7fdb46f85d8e1663551f6d452c239b486a3f0461baf9ed909132892a43",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/proxy/client/credentials.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/proxy/client/keys.py",
+      "sha256": "b4464cded97cd06d894298bbe6a1e9c0c23c00182e7f80cf57cadd06dd7ab1ba",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/proxy/client/keys.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/proxy/client/model_groups.py",
+      "sha256": "15060e571b9dee61ed726508ca4640926835d0a55e6dd6e4d86369f5864c1296",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/proxy/client/model_groups.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/proxy/client/models.py",
+      "sha256": "aa15f555702e0f2668840c3dd2343f5227a008ee61617ca98173006b485cab1d",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/proxy/client/models.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/proxy/client/teams.py",
+      "sha256": "26059c83cd8f20a830e492588708d5a6c5c15acb73667104c0a96adbe360d57b",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/proxy/client/teams.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/proxy/client/users.py",
+      "sha256": "31dc7a56eb51841f767e29e528b3b2161c4dc7e6a3b09f9deac08cd3163b9bb5",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/proxy/client/users.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/proxy/db/db_url_settings.py",
+      "sha256": "4cf0a71ad1ce076eb941af9fbd8ed183a4d921bdbb482158d9b40a908748096b",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/proxy/db/db_url_settings.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/proxy/guardrails/guardrail_hooks/hiddenlayer/hiddenlayer.py",
+      "sha256": "7c1c5124bf84cb5a9baee8e90fb5a292d83914b2fdacea41a28a00f9eb58cd1f",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/proxy/guardrails/guardrail_hooks/hiddenlayer/hiddenlayer.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/proxy/health_endpoints/_health_endpoints.py",
+      "sha256": "738662aef0a5cd240b92895c2cc52ca065c6176f3253b4e8f0315fb42935e70f",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/proxy/health_endpoints/_health_endpoints.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/proxy/management_endpoints/config_override_endpoints.py",
+      "sha256": "4fe1a997ca9e5c3da3cded222db8a6950827c43e0c9c496a9bb447c13e872aff",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/proxy/management_endpoints/config_override_endpoints.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/proxy/management_endpoints/mcp_connector_import.py",
+      "sha256": "2164a2e027438d46bee1853c353e266f2d0c5768128ec5ca471b52f61bac7c66",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/proxy/management_endpoints/mcp_connector_import.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/proxy/management_endpoints/mcp_management_endpoints.py",
+      "sha256": "0a93dc8561b55b3c2e4a88ae020aed3cf1216105a2615b9ce1a42d81212c1645",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/proxy/management_endpoints/mcp_management_endpoints.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/proxy/management_endpoints/model_access_group_management_endpoints.py",
+      "sha256": "09fc7c0070da01519469538f48edfaa3c439e80e0711aafd57b3beb8e0641528",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/proxy/management_endpoints/model_access_group_management_endpoints.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/proxy/management_endpoints/model_management_endpoints.py",
+      "sha256": "fd0c9c27be85d99570dc32b3876897829809c1a1e18b9de8f0327d35588f754c",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/proxy/management_endpoints/model_management_endpoints.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/proxy/management_endpoints/team_endpoints.py",
+      "sha256": "ca30ca13816d2ac43fc27e3f48df6feb9dfdd580242ba9f838afcbbcf1ec1cc4",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/proxy/management_endpoints/team_endpoints.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/proxy/proxy_server.py",
+      "sha256": "bbf5cc6e23778e5f3e1d6684d4e1e655ca5a77021cac7fc8c55ff4f1e716986a",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/proxy/proxy_server.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/proxy/types_utils/utils.py",
+      "sha256": "bea706f6348b9453f92f702f3155009994f78fcc62a101070ab9cf1195ab13b8",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/proxy/types_utils/utils.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/proxy/utils.py",
+      "sha256": "a1ae04e2408852569de8a392dd06d0ba9958d0eb47f9745e2ff21aedf5ec6be1",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/proxy/utils.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/realtime_api/main.py",
+      "sha256": "93dd1f7560f7256a7d5f969d9191cdbbb43ce42c70be64ff36a3eff1e67288b2",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/realtime_api/main.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/rerank_api/main.py",
+      "sha256": "6c3c6b82715ad2d743cd43b10c1772e7b9f332a5e7515b9685da35227cd6887d",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/rerank_api/main.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/secret_managers/main.py",
+      "sha256": "41a28b6766783ce562a161d6f0811d6b614aeb3452fe0a799e4fa04059da2a5f",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/secret_managers/main.py"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/types/mcp.py",
+      "sha256": "3fd04eba4b1cb08732003ccc1a53e17d1d4005ef0d30e7b4aaad4b44bfcfe8c2",
+      "matched_preserved_wheel_member": true,
+      "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm/types/mcp.py"
+    },
+    {
+      "repository": "liuzhao1225/YouDub-webui",
+      "commit": "1add1b6d90795ddc222c3f5021305a2e8d953a17",
+      "file": "requirements.txt",
+      "sha256": "53709fa1ef4f39f499106ee42b8cafbd1c44df7a47149fa286e03ab1c3d40768",
+      "url": "https://github.com/liuzhao1225/YouDub-webui/blob/1add1b6d90795ddc222c3f5021305a2e8d953a17/requirements.txt"
+    },
+    {
+      "repository": "liuzhao1225/YouDub-webui",
+      "commit": "1add1b6d90795ddc222c3f5021305a2e8d953a17",
+      "file": "backend/requirements.txt",
+      "sha256": "69c65f7998ef21ec2b7edc38a7362e1d41478293410311c4617ab2b4d61d8bf4",
+      "url": "https://github.com/liuzhao1225/YouDub-webui/blob/1add1b6d90795ddc222c3f5021305a2e8d953a17/backend/requirements.txt"
+    },
+    {
+      "repository": "liuzhao1225/YouDub-webui",
+      "commit": "1add1b6d90795ddc222c3f5021305a2e8d953a17",
+      "file": "backend/requirements-test.txt",
+      "sha256": "66bd2fd58f51bbee09b4c3a74155333bd0f4b69b541f378f314f3ed55ea32f25",
+      "url": "https://github.com/liuzhao1225/YouDub-webui/blob/1add1b6d90795ddc222c3f5021305a2e8d953a17/backend/requirements-test.txt"
+    },
+    {
+      "repository": "liuzhao1225/YouDub-webui",
+      "commit": "1add1b6d90795ddc222c3f5021305a2e8d953a17",
+      "file": ".github/workflows/ci.yml",
+      "sha256": "b54f838bb8df45a7fa57c59bc6a65112389f252fe98a61122ac3156f61706ecd",
+      "url": "https://github.com/liuzhao1225/YouDub-webui/blob/1add1b6d90795ddc222c3f5021305a2e8d953a17/.github/workflows/ci.yml"
+    },
+    {
+      "repository": "liuzhao1225/YouDub-webui",
+      "commit": "1add1b6d90795ddc222c3f5021305a2e8d953a17",
+      "file": "backend/app/adapters/litellm_translate.py",
+      "sha256": "a2139c47a4ee4c03ce02ddaa345dc5cbcc03726225fd7631b009a155d332caa2",
+      "url": "https://github.com/liuzhao1225/YouDub-webui/blob/1add1b6d90795ddc222c3f5021305a2e8d953a17/backend/app/adapters/litellm_translate.py"
+    },
+    {
+      "repository": "liuzhao1225/YouDub-webui",
+      "commit": "1add1b6d90795ddc222c3f5021305a2e8d953a17",
+      "file": "backend/app/adapters/openai_translate.py",
+      "sha256": "3a83a75fb3654c1a40f7dbc274a71019eb0b4f8b60f77860d6226b385e2454b7",
+      "url": "https://github.com/liuzhao1225/YouDub-webui/blob/1add1b6d90795ddc222c3f5021305a2e8d953a17/backend/app/adapters/openai_translate.py"
+    },
+    {
+      "repository": "liuzhao1225/YouDub-webui",
+      "commit": "1add1b6d90795ddc222c3f5021305a2e8d953a17",
+      "file": "backend/app/adapters/openai_client.py",
+      "sha256": "9dfee7cf12b6dbfbb5141dfd8cb6706ebf275aa7c22de692c3a27319d66ec641",
+      "url": "https://github.com/liuzhao1225/YouDub-webui/blob/1add1b6d90795ddc222c3f5021305a2e8d953a17/backend/app/adapters/openai_client.py"
+    },
+    {
+      "repository": "liuzhao1225/YouDub-webui",
+      "commit": "1add1b6d90795ddc222c3f5021305a2e8d953a17",
+      "file": "backend/app/database.py",
+      "sha256": "feeea9deef2d8c7a1d6625beb44b061b6757df788caf5f3181d2e4e04336261a",
+      "url": "https://github.com/liuzhao1225/YouDub-webui/blob/1add1b6d90795ddc222c3f5021305a2e8d953a17/backend/app/database.py"
+    },
+    {
+      "repository": "liuzhao1225/YouDub-webui",
+      "commit": "1add1b6d90795ddc222c3f5021305a2e8d953a17",
+      "file": "backend/app/config.py",
+      "sha256": "4a0a195874cb61b6ff3c851dd3ee9270a5510a797e065e19fb32c5fc8f794dd6",
+      "url": "https://github.com/liuzhao1225/YouDub-webui/blob/1add1b6d90795ddc222c3f5021305a2e8d953a17/backend/app/config.py"
+    },
+    {
+      "repository": "liuzhao1225/YouDub-webui",
+      "commit": "1add1b6d90795ddc222c3f5021305a2e8d953a17",
+      "file": "backend/app/pipeline.py",
+      "sha256": "090d043d47b2a68afa67766825ba7f98d420e3685082a92edf2b6291f44bbdfe",
+      "url": "https://github.com/liuzhao1225/YouDub-webui/blob/1add1b6d90795ddc222c3f5021305a2e8d953a17/backend/app/pipeline.py"
+    },
+    {
+      "repository": "liuzhao1225/YouDub-webui",
+      "commit": "1add1b6d90795ddc222c3f5021305a2e8d953a17",
+      "file": "backend/app/main.py",
+      "sha256": "e0c1ad739a6672e7bf350a905622e88443d9800c10e48b1f7bd430fa54d5612e",
+      "url": "https://github.com/liuzhao1225/YouDub-webui/blob/1add1b6d90795ddc222c3f5021305a2e8d953a17/backend/app/main.py"
+    },
+    {
+      "repository": "liuzhao1225/YouDub-webui",
+      "commit": "1add1b6d90795ddc222c3f5021305a2e8d953a17",
+      "file": "backend/tests/test_litellm_translate.py",
+      "sha256": "3e12ca15d88b79387c6239901314378feee81434de838713af80fa7a5ba90b1b",
+      "url": "https://github.com/liuzhao1225/YouDub-webui/blob/1add1b6d90795ddc222c3f5021305a2e8d953a17/backend/tests/test_litellm_translate.py"
+    }
+  ],
+  "projects": {
+    "1.99.0": {
+      "sha256": "efcf6b73f8b11116fa4a9e53e0aad26c5580ff904ec5c2c1bd6cb11193a471d3",
+      "project_dependencies": [
+        "fastuuid>=0.14.0,<1.0",
+        "httpx>=0.28.0,<1.0",
+        "openai>=2.20.0,<3.0.0",
+        "python-dotenv>=1.0.0,<2.0",
+        "tiktoken>=0.8.0,<1.0",
+        "importlib-metadata>=8.0.0,<9.0",
+        "tokenizers>=0.21.0,<1.0",
+        "click>=8.0.0,<9.0",
+        "jinja2>=3.1.6,<4.0",
+        "aiohttp>=3.14.2,<4.0",
+        "pydantic>=2.10.0,<3.0.0",
+        "pydantic-settings>=2.14.1,<3.0",
+        "jsonschema>=4.0.0,<5.0",
+        "boto3>=1.43.1,<2.0"
+      ],
+      "optional_dependencies": {
+        "proxy": [
+          "gunicorn>=23.0.0,<24.0",
+          "uvicorn>=0.33.0,<1.0",
+          "granian>=2.7.4,<3.0",
+          "uvloop>=0.21.0,<1.0; sys_platform != 'win32'",
+          "fastapi>=0.136.3,<1.0",
+          "starlette>=1.0.1,<2.0",
+          "backoff>=2.2.1,<3.0",
+          "pyyaml>=6.0.3,<7.0",
+          "rq>=2.7.0,<3.0",
+          "orjson>=3.11.6,<4.0",
+          "hiredis>=3.0.0,<4.0",
+          "apscheduler>=3.11.2,<4.0",
+          "fastapi-sso>=0.19.0,<1.0",
+          "PyJWT>=2.13.0,<3.0",
+          "python-multipart>=0.0.27,<1.0",
+          "cryptography>=49.0.0,<51.0",
+          "pynacl>=1.6.2,<2.0",
+          "websockets>=15.0.1,<16.0",
+          "boto3>=1.43.1,<2.0",
+          "azure-identity>=1.25.2,<2.0",
+          "azure-storage-blob>=12.28.0,<13.0",
+          "mcp>=1.28.1,<2.0",
+          "litellm-proxy-extras==0.4.89",
+          "litellm-enterprise==0.1.59",
+          "RestrictedPython>=8.1,<9.0",
+          "rich>=13.9.4,<14.0",
+          "InquirerPy>=0.3.4,<1.0",
+          "polars>=1.38.1,<2.0",
+          "soundfile>=0.12.1,<1.0",
+          "pyroscope-io>=0.8.16,<1.0; sys_platform != 'win32'",
+          "expression>=5.6.0,<6.0"
+        ],
+        "cli": [
+          "rich>=13.9.4,<14.0",
+          "pyyaml>=6.0.3,<7.0",
+          "requests>=2.32.0,<3.0",
+          "InquirerPy>=0.3.4,<1.0",
+          "keyring>=25.6.0,<26.0"
+        ],
+        "extra_proxy": [
+          "prisma>=0.11.0,<1.0",
+          "azure-identity>=1.25.2,<2.0",
+          "azure-keyvault-secrets>=4.10.0,<5.0",
+          "google-cloud-kms>=2.24.2,<3.0",
+          "google-cloud-iam>=2.19.1,<3.0",
+          "resend>=2.23.0,<3.0",
+          "redisvl>=0.4.1,<1.0",
+          "a2a-sdk>=1.1.0,<2.0"
+        ],
+        "utils": [
+          "numpydoc>=1.8.0,<2.0"
+        ],
+        "caching": [
+          "diskcache>=5.6.3,<6.0"
+        ],
+        "saml": [
+          "python3-saml>=1.16.0,<2.0"
+        ],
+        "semantic-router": [
+          "semantic-router>=0.1.15,<1.0; python_version < '3.14'",
+          "aurelio-sdk>=0.0.19,<1.0; python_version < '3.14'"
+        ],
+        "mlflow": [
+          "mlflow>=3.11.1,<4.0"
+        ],
+        "grpc": [
+          "grpcio==1.78.0"
+        ],
+        "stt-nvidia-riva": [
+          "nvidia-riva-client>=2.15.0",
+          "soundfile>=0.12.1",
+          "audioread>=3.0.1",
+          "numpy>=1.26.0"
+        ],
+        "google": [
+          "google-cloud-aiplatform>=1.133.0,<2.0"
+        ],
+        "bedrock-realtime": [
+          "aws-sdk-bedrock-runtime>=0.7.0,<0.8.0; python_version >= '3.12'"
+        ],
+        "proxy-runtime": [
+          "google-cloud-aiplatform>=1.133.0,<2.0",
+          "google-genai>=1.37.0,<2.0",
+          "anthropic[vertex]>=0.84.0,<1.0",
+          "grpcio==1.78.0",
+          "prometheus-client>=0.20.0,<1.0",
+          "langfuse>=2.59.7,<3.0",
+          "opentelemetry-api==1.28.0",
+          "opentelemetry-sdk==1.28.0",
+          "opentelemetry-exporter-otlp==1.28.0",
+          "opentelemetry-instrumentation-fastapi==0.49b0",
+          "ddtrace>=4.8.2,<5.0",
+          "sentry-sdk>=2.21.0,<3.0",
+          "mangum>=0.17.0,<1.0",
+          "azure-ai-contentsafety>=1.0.0,<2.0",
+          "azure-storage-file-datalake>=12.20.0,<13.0",
+          "pypdf>=6.12.0,<7.0",
+          "llm-sandbox>=0.3.39,<1.0",
+          "detect-secrets>=1.5.0,<2.0"
+        ]
+      },
+      "build_system": {
+        "requires": [
+          "maturin==1.9.4"
+        ],
+        "build-backend": "maturin"
+      },
+      "source": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/pyproject.toml"
+    },
+    "1.100.0": {
+      "sha256": "a65b83b54f2ae160ac7ffa06119588ac79ff5b08f7eda89e901f60063ff63bbb",
+      "project_dependencies": [
+        "fastuuid>=0.14.0,<1.0",
+        "httpx>=0.28.0,<1.0",
+        "openai>=2.20.0,<3.0.0",
+        "python-dotenv>=1.0.0,<2.0",
+        "tiktoken>=0.8.0,<1.0",
+        "importlib-metadata>=8.0.0,<9.0",
+        "tokenizers>=0.21.0,<1.0",
+        "click>=8.0.0,<9.0",
+        "jinja2>=3.1.6,<4.0",
+        "aiohttp>=3.14.2,<4.0",
+        "pydantic>=2.10.0,<3.0.0",
+        "pydantic-settings>=2.14.1,<3.0",
+        "jsonschema>=4.0.0,<5.0",
+        "boto3>=1.43.1,<2.0"
+      ],
+      "optional_dependencies": {
+        "proxy": [
+          "gunicorn>=23.0.0,<24.0",
+          "uvicorn>=0.33.0,<1.0",
+          "granian>=2.7.4,<3.0",
+          "uvloop>=0.21.0,<1.0; sys_platform != 'win32'",
+          "fastapi>=0.136.3,<1.0",
+          "starlette>=1.0.1,<2.0",
+          "backoff>=2.2.1,<3.0",
+          "pyyaml>=6.0.3,<7.0",
+          "rq>=2.7.0,<3.0",
+          "orjson>=3.11.6,<4.0",
+          "hiredis>=3.0.0,<4.0",
+          "apscheduler>=3.11.2,<4.0",
+          "fastapi-sso>=0.19.0,<1.0",
+          "PyJWT>=2.13.0,<3.0",
+          "python-multipart>=0.0.27,<1.0",
+          "cryptography>=49.0.0,<51.0",
+          "pynacl>=1.6.2,<2.0",
+          "websockets>=15.0.1,<16.0",
+          "boto3>=1.43.1,<2.0",
+          "azure-identity>=1.25.2,<2.0",
+          "azure-storage-blob>=12.28.0,<13.0",
+          "mcp>=1.28.1,<2.0",
+          "litellm-proxy-extras==0.4.91",
+          "litellm-enterprise==0.1.62",
+          "RestrictedPython>=8.5,<9.0",
+          "rich>=13.9.4,<14.0",
+          "InquirerPy>=0.3.4,<1.0",
+          "polars>=1.38.1,<2.0",
+          "soundfile>=0.12.1,<1.0",
+          "pyroscope-io>=0.8.16,<1.0; sys_platform != 'win32'",
+          "expression>=5.6.0,<6.0"
+        ],
+        "cli": [
+          "rich>=13.9.4,<14.0",
+          "pyyaml>=6.0.3,<7.0",
+          "requests>=2.32.0,<3.0",
+          "InquirerPy>=0.3.4,<1.0",
+          "keyring>=25.6.0,<26.0"
+        ],
+        "extra_proxy": [
+          "prisma>=0.11.0,<1.0",
+          "azure-identity>=1.25.2,<2.0",
+          "azure-keyvault-secrets>=4.10.0,<5.0",
+          "google-cloud-kms>=2.24.2,<3.0",
+          "google-cloud-iam>=2.19.1,<3.0",
+          "resend>=2.23.0,<3.0",
+          "redisvl>=0.4.1,<1.0",
+          "a2a-sdk>=1.1.0,<2.0"
+        ],
+        "utils": [
+          "numpydoc>=1.8.0,<2.0"
+        ],
+        "caching": [
+          "diskcache>=5.6.3,<6.0"
+        ],
+        "mcp": [
+          "mcp>=1.28.1,<2.0"
+        ],
+        "saml": [
+          "python3-saml>=1.16.0,<2.0"
+        ],
+        "semantic-router": [
+          "semantic-router>=0.1.15,<1.0; python_version < '3.14'",
+          "aurelio-sdk>=0.0.19,<1.0; python_version < '3.14'"
+        ],
+        "mlflow": [
+          "mlflow>=3.11.1,<4.0"
+        ],
+        "grpc": [
+          "grpcio==1.78.0"
+        ],
+        "stt-nvidia-riva": [
+          "nvidia-riva-client>=2.15.0",
+          "soundfile>=0.12.1",
+          "audioread>=3.0.1",
+          "numpy>=1.26.0"
+        ],
+        "google": [
+          "google-cloud-aiplatform>=1.133.0,<2.0"
+        ],
+        "bedrock-realtime": [
+          "aws-sdk-bedrock-runtime>=0.7.0,<0.8.0; python_version >= '3.12'"
+        ],
+        "proxy-runtime": [
+          "google-cloud-aiplatform>=1.133.0,<2.0",
+          "google-genai>=1.37.0,<2.0",
+          "anthropic[vertex]>=0.84.0,<1.0",
+          "grpcio==1.78.0",
+          "prometheus-client>=0.20.0,<1.0",
+          "langfuse>=2.59.7,<3.0",
+          "opentelemetry-api==1.28.0",
+          "opentelemetry-sdk==1.28.0",
+          "opentelemetry-exporter-otlp==1.28.0",
+          "opentelemetry-instrumentation-fastapi==0.49b0",
+          "ddtrace>=4.8.2,<5.0",
+          "sentry-sdk>=2.21.0,<3.0",
+          "mangum>=0.17.0,<1.0",
+          "azure-ai-contentsafety>=1.0.0,<2.0",
+          "azure-storage-file-datalake>=12.20.0,<13.0",
+          "pypdf>=6.12.0,<7.0",
+          "llm-sandbox>=0.3.39,<1.0",
+          "detect-secrets>=1.5.0,<2.0"
+        ]
+      },
+      "build_system": {
+        "requires": [
+          "maturin==1.9.4"
+        ],
+        "build-backend": "maturin"
+      },
+      "source": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/pyproject.toml"
+    }
+  }
+}

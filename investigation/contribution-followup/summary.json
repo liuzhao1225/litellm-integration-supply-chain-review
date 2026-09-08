@@ -1,0 +1,56 @@
+{
+  "scope": "One bounded read-only refresh of the 49 previously catalogued PRs; no expansion to new PRs or private activity.",
+  "metadata_discussion_capture_started_at": "2026-09-08T19:47:36.597665+00:00",
+  "metadata_discussion_capture_finished_at": "2026-09-08T19:48:08.772017+00:00",
+  "report_generated_at": "2026-09-08T19:52:23.779976+00:00",
+  "prs_checked": 49,
+  "paginated_endpoint_collections": 196,
+  "current_states": {
+    "open": 28,
+    "merged": 17,
+    "closed": 4
+  },
+  "head_changes_relative_to_catalogue_and_OpenExecutive_supplement": 0,
+  "head_branches_present_and_matching": 49,
+  "new_non_reporter_discussion_items": 2,
+  "new_author_discussion_items": 0,
+  "new_affiliation_disclosure_observed": false,
+  "baseline_discussion_items_removed": 0,
+  "baseline_discussion_bodies_or_review_states_edited": 0,
+  "new_status_changes": [
+    {
+      "pr": "https://github.com/0xMassi/webclaw/pull/123",
+      "before": "open",
+      "after": "closed",
+      "merged": false,
+      "closed_at": "2026-09-08T19:42:52Z"
+    }
+  ],
+  "new_discussions": [
+    {
+      "url": "https://github.com/TIGER-AI-Lab/ClawBench/pull/288#issuecomment-5590794523",
+      "pr": "https://github.com/TIGER-AI-Lab/ClawBench/pull/288",
+      "author": "Perry2004",
+      "author_association": "COLLABORATOR",
+      "created_at": "2026-09-08T19:39:51Z",
+      "body_sha256": "d504f73faf2a9dd968a33a8ade67aebe3ca742faadb82ebf7dd28f5a49155f47",
+      "summary": "Collaborator acknowledges the notice, says the PR was already closed because it was not needed, and says they will watch the pattern."
+    },
+    {
+      "url": "https://github.com/0xMassi/webclaw/pull/123#issuecomment-5590829715",
+      "pr": "https://github.com/0xMassi/webclaw/pull/123",
+      "author": "0xMassi",
+      "author_association": "OWNER",
+      "created_at": "2026-09-08T19:42:45Z",
+      "body_sha256": "ee2a331ff18e9b9e2c8eccf05e4670ababada161dfe6731846bce218fe1c59ec",
+      "summary": "Repository owner declines merge after reviewing implementation and security discussion, citing unresolved remote HTTP credential exposure and required CI checks not run."
+    }
+  ],
+  "interpretation_limits": [
+    "Silence is not evidence of motive or compromise.",
+    "A PR closure is a maintainer decision, not proof of package poisoning.",
+    "The remote HTTP concern concerns a configurable Rust proxy integration; this PR does not add the PyPI LiteLLM package.",
+    "No dependency installation, author code execution, credential transmission, or public write was performed in this refresh."
+  ],
+  "branch_response_saved_at": "2026-09-08T19:50:04.183040+00:00"
+}

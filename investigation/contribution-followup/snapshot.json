@@ -1,0 +1,2420 @@
+{
+  "capture_started_at": "2026-09-08T19:47:36.597665+00:00",
+  "capture_finished_at": "2026-09-08T19:48:08.772017+00:00",
+  "prs": [
+    {
+      "url": "https://github.com/yilewang/llm-for-zotero/pull/316",
+      "repository": "yilewang/llm-for-zotero",
+      "number": 316,
+      "author": "prodmanpd",
+      "created_at": "2026-07-17T18:49:48Z",
+      "updated_at": "2026-09-08T19:32:32Z",
+      "closed_at": null,
+      "merged_at": null,
+      "state": "open",
+      "baseline_state": "open",
+      "head_sha": "49abae562ffd1d40d0ad436d5b43b7d6e6370d0f",
+      "baseline_head_sha": "49abae562ffd1d40d0ad436d5b43b7d6e6370d0f",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/llm-for-zotero",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:32:32Z",
+      "notice_url": "https://github.com/yilewang/llm-for-zotero/pull/316#issuecomment-5590700439",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 0,
+          "current": 1
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "49abae562ffd1d40d0ad436d5b43b7d6e6370d0f",
+      "raw_snapshot_sha256": {
+        "meta": "279ddd5f93ba3fcb732f59b8b88c1fba473febf60d1000dbd90d7f6d0fa25668",
+        "comments": "8e45d756dc048f0677e5c0281094fe5375c237eec7329255b16ebc9db0cc7dca",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/yilewang/llm-for-zotero/pulls/316",
+        "issue_comments": "https://api.github.com/repos/yilewang/llm-for-zotero/issues/316/comments",
+        "reviews": "https://api.github.com/repos/yilewang/llm-for-zotero/pulls/316/reviews",
+        "inline_review_comments": "https://api.github.com/repos/yilewang/llm-for-zotero/pulls/316/comments"
+      }
+    },
+    {
+      "url": "https://github.com/microsoft/TinyTroupe/pull/160",
+      "repository": "microsoft/TinyTroupe",
+      "number": 160,
+      "author": "prodmanpd",
+      "created_at": "2026-07-17T18:53:12Z",
+      "updated_at": "2026-09-08T19:32:36Z",
+      "closed_at": null,
+      "merged_at": null,
+      "state": "open",
+      "baseline_state": "open",
+      "head_sha": "e6cc3e0507fc48baf138cf4073de934ca12bf633",
+      "baseline_head_sha": "e6cc3e0507fc48baf138cf4073de934ca12bf633",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/TinyTroupe",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:32:36Z",
+      "notice_url": "https://github.com/microsoft/TinyTroupe/pull/160#issuecomment-5590701303",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 2,
+          "current": 3
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "e6cc3e0507fc48baf138cf4073de934ca12bf633",
+      "raw_snapshot_sha256": {
+        "meta": "d55d1aaba80cfc829675d1ceec869324167a6b6b5e1de25ca19490315fbcf044",
+        "comments": "65c609c5c19dd111ef710924b7fe6a16792e1f14cc99c81f58816a3d7f342d6f",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/microsoft/TinyTroupe/pulls/160",
+        "issue_comments": "https://api.github.com/repos/microsoft/TinyTroupe/issues/160/comments",
+        "reviews": "https://api.github.com/repos/microsoft/TinyTroupe/pulls/160/reviews",
+        "inline_review_comments": "https://api.github.com/repos/microsoft/TinyTroupe/pulls/160/comments"
+      }
+    },
+    {
+      "url": "https://github.com/xunbu/docutranslate/pull/53",
+      "repository": "xunbu/docutranslate",
+      "number": 53,
+      "author": "prodmanpd",
+      "created_at": "2026-07-17T19:03:00Z",
+      "updated_at": "2026-09-08T19:32:40Z",
+      "closed_at": null,
+      "merged_at": null,
+      "state": "open",
+      "baseline_state": "open",
+      "head_sha": "3a7e7e2e3126654948eb37f2df9dbffb239e5cb0",
+      "baseline_head_sha": "3a7e7e2e3126654948eb37f2df9dbffb239e5cb0",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/docutranslate",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:32:40Z",
+      "notice_url": "https://github.com/xunbu/docutranslate/pull/53#issuecomment-5590701997",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 0,
+          "current": 1
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "3a7e7e2e3126654948eb37f2df9dbffb239e5cb0",
+      "raw_snapshot_sha256": {
+        "meta": "736415108cd8812771fff5fdb9ab2e80799e2a2ad6d325d64c1dd4eab7212968",
+        "comments": "4a7b0647e9b6a90b882a425c516769e3017ecb43bfcc51a57a353558f42aba23",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/xunbu/docutranslate/pulls/53",
+        "issue_comments": "https://api.github.com/repos/xunbu/docutranslate/issues/53/comments",
+        "reviews": "https://api.github.com/repos/xunbu/docutranslate/pulls/53/reviews",
+        "inline_review_comments": "https://api.github.com/repos/xunbu/docutranslate/pulls/53/comments"
+      }
+    },
+    {
+      "url": "https://github.com/polyrabbit/hacker-news-digest/pull/47",
+      "repository": "polyrabbit/hacker-news-digest",
+      "number": 47,
+      "author": "prodmanpd",
+      "created_at": "2026-07-17T19:10:01Z",
+      "updated_at": "2026-09-08T19:32:43Z",
+      "closed_at": null,
+      "merged_at": null,
+      "state": "open",
+      "baseline_state": "open",
+      "head_sha": "904e3be46a8df1dac5c75e1f614afa13bf619342",
+      "baseline_head_sha": "904e3be46a8df1dac5c75e1f614afa13bf619342",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/hacker-news-digest",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:32:43Z",
+      "notice_url": "https://github.com/polyrabbit/hacker-news-digest/pull/47#issuecomment-5590702610",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 0,
+          "current": 1
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "904e3be46a8df1dac5c75e1f614afa13bf619342",
+      "raw_snapshot_sha256": {
+        "meta": "743e17e8c1626f50dfd68d838b523c52425fc2250048f54bffb5065b1fe9d975",
+        "comments": "7dd129684d95570a7859316c2cd40e47871421efc3442ce55cc14b2c4743cd71",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/polyrabbit/hacker-news-digest/pulls/47",
+        "issue_comments": "https://api.github.com/repos/polyrabbit/hacker-news-digest/issues/47/comments",
+        "reviews": "https://api.github.com/repos/polyrabbit/hacker-news-digest/pulls/47/reviews",
+        "inline_review_comments": "https://api.github.com/repos/polyrabbit/hacker-news-digest/pulls/47/comments"
+      }
+    },
+    {
+      "url": "https://github.com/modelscope/FunClip/pull/178",
+      "repository": "modelscope/FunClip",
+      "number": 178,
+      "author": "prodmanpd",
+      "created_at": "2026-07-17T19:17:54Z",
+      "updated_at": "2026-09-08T19:32:46Z",
+      "closed_at": "2026-07-18T02:08:05Z",
+      "merged_at": "2026-07-18T02:08:05Z",
+      "state": "merged",
+      "baseline_state": "merged",
+      "head_sha": "849ef93277c8221ab4cbe37dadfd03119562da83",
+      "baseline_head_sha": "849ef93277c8221ab4cbe37dadfd03119562da83",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/FunClip",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:32:46Z",
+      "notice_url": "https://github.com/modelscope/FunClip/pull/178#issuecomment-5590703315",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 1,
+          "current": 2
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "849ef93277c8221ab4cbe37dadfd03119562da83",
+      "raw_snapshot_sha256": {
+        "meta": "a898ffbd050f9cc7d01dd1b3f637d5b1cee94ace9b2d4b72bdb6ef3c7a6676f3",
+        "comments": "26a3ff302c08a3fcdd37d160cc0b1f16d5f2ad3f60913440f74bde4ec11bdf84",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/modelscope/FunClip/pulls/178",
+        "issue_comments": "https://api.github.com/repos/modelscope/FunClip/issues/178/comments",
+        "reviews": "https://api.github.com/repos/modelscope/FunClip/pulls/178/reviews",
+        "inline_review_comments": "https://api.github.com/repos/modelscope/FunClip/pulls/178/comments"
+      }
+    },
+    {
+      "url": "https://github.com/chartbrew/chartbrew/pull/365",
+      "repository": "chartbrew/chartbrew",
+      "number": 365,
+      "author": "prodmanpd",
+      "created_at": "2026-08-02T18:48:47Z",
+      "updated_at": "2026-09-08T19:32:50Z",
+      "closed_at": null,
+      "merged_at": null,
+      "state": "open",
+      "baseline_state": "open",
+      "head_sha": "0fefa20573e9b0c732deea7e93541a686aa83853",
+      "baseline_head_sha": "0fefa20573e9b0c732deea7e93541a686aa83853",
+      "head_ref": "feat/litellm-openai-base-url",
+      "head_repository": "prodmanpd/chartbrew",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:32:50Z",
+      "notice_url": "https://github.com/chartbrew/chartbrew/pull/365#issuecomment-5590704021",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 4,
+          "current": 5
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "0fefa20573e9b0c732deea7e93541a686aa83853",
+      "raw_snapshot_sha256": {
+        "meta": "998adbf172c30e2d439b9a61ea5a8b30f70e4f3fc142bf3a852f97936b6dd187",
+        "comments": "2f537fc5c7d1d046521223f353f770c51739a83a8dfb284cd5941c99b248e9a6",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/chartbrew/chartbrew/pulls/365",
+        "issue_comments": "https://api.github.com/repos/chartbrew/chartbrew/issues/365/comments",
+        "reviews": "https://api.github.com/repos/chartbrew/chartbrew/pulls/365/reviews",
+        "inline_review_comments": "https://api.github.com/repos/chartbrew/chartbrew/pulls/365/comments"
+      }
+    },
+    {
+      "url": "https://github.com/itsOwen/CyberScraper-2077/pull/50",
+      "repository": "itsOwen/CyberScraper-2077",
+      "number": 50,
+      "author": "prodmanpd",
+      "created_at": "2026-08-02T19:34:13Z",
+      "updated_at": "2026-09-08T19:32:54Z",
+      "closed_at": "2026-08-02T22:22:00Z",
+      "merged_at": "2026-08-02T22:22:00Z",
+      "state": "merged",
+      "baseline_state": "merged",
+      "head_sha": "9253c0142dc14afd27975e92b680d336b3b2a452",
+      "baseline_head_sha": "9253c0142dc14afd27975e92b680d336b3b2a452",
+      "head_ref": "feat/litellm-provider",
+      "head_repository": "prodmanpd/CyberScraper-2077",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:32:54Z",
+      "notice_url": "https://github.com/itsOwen/CyberScraper-2077/pull/50#issuecomment-5590704773",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 1,
+          "current": 2
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "9253c0142dc14afd27975e92b680d336b3b2a452",
+      "raw_snapshot_sha256": {
+        "meta": "bab68b64c0c5495aaac5dc35590ff9d053017424c5cea4e061c95728e197d6eb",
+        "comments": "c1f34070029b0514b60c82da21af8ceeaec6ddede65de097ef9c10d21206699b",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/itsOwen/CyberScraper-2077/pulls/50",
+        "issue_comments": "https://api.github.com/repos/itsOwen/CyberScraper-2077/issues/50/comments",
+        "reviews": "https://api.github.com/repos/itsOwen/CyberScraper-2077/pulls/50/reviews",
+        "inline_review_comments": "https://api.github.com/repos/itsOwen/CyberScraper-2077/pulls/50/comments"
+      }
+    },
+    {
+      "url": "https://github.com/e2b-dev/surf/pull/40",
+      "repository": "e2b-dev/surf",
+      "number": 40,
+      "author": "prodmanpd",
+      "created_at": "2026-08-02T19:44:11Z",
+      "updated_at": "2026-09-08T19:33:03Z",
+      "closed_at": null,
+      "merged_at": null,
+      "state": "open",
+      "baseline_state": "open",
+      "head_sha": "c36d1842dd5f1873873e1b75907c8740e12e9ffd",
+      "baseline_head_sha": "c36d1842dd5f1873873e1b75907c8740e12e9ffd",
+      "head_ref": "feat/litellm-provider",
+      "head_repository": "prodmanpd/surf",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:33:03Z",
+      "notice_url": "https://github.com/e2b-dev/surf/pull/40#issuecomment-5590706606",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 5,
+          "current": 6
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "c36d1842dd5f1873873e1b75907c8740e12e9ffd",
+      "raw_snapshot_sha256": {
+        "meta": "ade1b39d679171500621f1c5a3cfd6042905a89dc93337763ac4f653f06e771f",
+        "comments": "bbd272da047b3106c5a0f1af63bfde06271af705088539794cea4d6e4501f1c7",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/e2b-dev/surf/pulls/40",
+        "issue_comments": "https://api.github.com/repos/e2b-dev/surf/issues/40/comments",
+        "reviews": "https://api.github.com/repos/e2b-dev/surf/pulls/40/reviews",
+        "inline_review_comments": "https://api.github.com/repos/e2b-dev/surf/pulls/40/comments"
+      }
+    },
+    {
+      "url": "https://github.com/cltk/cltk/pull/1332",
+      "repository": "cltk/cltk",
+      "number": 1332,
+      "author": "prodmanpd",
+      "created_at": "2026-08-02T20:08:30Z",
+      "updated_at": "2026-09-08T19:33:07Z",
+      "closed_at": null,
+      "merged_at": null,
+      "state": "open",
+      "baseline_state": "open",
+      "head_sha": "32ddf3b68a2b9111f6ea59949cba423bd7276c2b",
+      "baseline_head_sha": "32ddf3b68a2b9111f6ea59949cba423bd7276c2b",
+      "head_ref": "feat/litellm-provider",
+      "head_repository": "prodmanpd/cltk",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:33:07Z",
+      "notice_url": "https://github.com/cltk/cltk/pull/1332#issuecomment-5590707382",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 3,
+          "current": 4
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "32ddf3b68a2b9111f6ea59949cba423bd7276c2b",
+      "raw_snapshot_sha256": {
+        "meta": "6b37fdc929ea5af1dccbba0762131ada8b377088900bf0f7fb01978bce1d30f8",
+        "comments": "80c33e4203f52fdc468245d144868f4790e0e77c1d7cc6295e51aec36a88b5dc",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/cltk/cltk/pulls/1332",
+        "issue_comments": "https://api.github.com/repos/cltk/cltk/issues/1332/comments",
+        "reviews": "https://api.github.com/repos/cltk/cltk/pulls/1332/reviews",
+        "inline_review_comments": "https://api.github.com/repos/cltk/cltk/pulls/1332/comments"
+      }
+    },
+    {
+      "url": "https://github.com/Atmosphere/atmosphere/pull/2735",
+      "repository": "Atmosphere/atmosphere",
+      "number": 2735,
+      "author": "prodmanpd",
+      "created_at": "2026-08-03T11:36:38Z",
+      "updated_at": "2026-09-08T19:33:11Z",
+      "closed_at": "2026-08-04T20:56:56Z",
+      "merged_at": "2026-08-04T20:56:56Z",
+      "state": "merged",
+      "baseline_state": "merged",
+      "head_sha": "6c8d08c6c378c3a964af2177f1af9336954b6c5f",
+      "baseline_head_sha": "6c8d08c6c378c3a964af2177f1af9336954b6c5f",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/atmosphere",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:33:11Z",
+      "notice_url": "https://github.com/Atmosphere/atmosphere/pull/2735#issuecomment-5590708211",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 1,
+          "current": 2
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "6c8d08c6c378c3a964af2177f1af9336954b6c5f",
+      "raw_snapshot_sha256": {
+        "meta": "64395595f8429756b6c8bef60f58c63f744f4cb91b71600113e67d3269ca10a1",
+        "comments": "1e15a708a6c95178b63bffdd7369959ad630a7bcd3ccc40747d3c21140517a5e",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/Atmosphere/atmosphere/pulls/2735",
+        "issue_comments": "https://api.github.com/repos/Atmosphere/atmosphere/issues/2735/comments",
+        "reviews": "https://api.github.com/repos/Atmosphere/atmosphere/pulls/2735/reviews",
+        "inline_review_comments": "https://api.github.com/repos/Atmosphere/atmosphere/pulls/2735/comments"
+      }
+    },
+    {
+      "url": "https://github.com/inkeep/agents/pull/3492",
+      "repository": "inkeep/agents",
+      "number": 3492,
+      "author": "prodmanpd",
+      "created_at": "2026-08-03T11:42:18Z",
+      "updated_at": "2026-09-08T19:33:14Z",
+      "closed_at": null,
+      "merged_at": null,
+      "state": "open",
+      "baseline_state": "open",
+      "head_sha": "62759e2b805d297fa77957893fca84c51669f94e",
+      "baseline_head_sha": "62759e2b805d297fa77957893fca84c51669f94e",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/agents",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:33:14Z",
+      "notice_url": "https://github.com/inkeep/agents/pull/3492#issuecomment-5590708958",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 2,
+          "current": 3
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "62759e2b805d297fa77957893fca84c51669f94e",
+      "raw_snapshot_sha256": {
+        "meta": "7b5eff3ece2ada816af157d465ff1d4ff27bee766ebae7d3ed8cebaa142685f0",
+        "comments": "c9b28152554ceb16665a7fb4aa856f3e2c369b88c392727f55ab0147a2f219d2",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/inkeep/agents/pulls/3492",
+        "issue_comments": "https://api.github.com/repos/inkeep/agents/issues/3492/comments",
+        "reviews": "https://api.github.com/repos/inkeep/agents/pulls/3492/reviews",
+        "inline_review_comments": "https://api.github.com/repos/inkeep/agents/pulls/3492/comments"
+      }
+    },
+    {
+      "url": "https://github.com/ShenSeanChen/waku-agent/pull/73",
+      "repository": "ShenSeanChen/waku-agent",
+      "number": 73,
+      "author": "prodmanpd",
+      "created_at": "2026-08-03T13:53:08Z",
+      "updated_at": "2026-09-08T19:33:18Z",
+      "closed_at": "2026-08-03T13:54:35Z",
+      "merged_at": null,
+      "state": "closed",
+      "baseline_state": "closed",
+      "head_sha": "327ff5628969ea07bb21fe74f186e2b24bb2bd1f",
+      "baseline_head_sha": "327ff5628969ea07bb21fe74f186e2b24bb2bd1f",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/waku-agent",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:33:18Z",
+      "notice_url": "https://github.com/ShenSeanChen/waku-agent/pull/73#issuecomment-5590709740",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 0,
+          "current": 1
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "327ff5628969ea07bb21fe74f186e2b24bb2bd1f",
+      "raw_snapshot_sha256": {
+        "meta": "5e45b2cc16b00d001ae61b6bb17d1aab27ad17f9c718eb3e422dbeffd923dbdf",
+        "comments": "3c748618305ef9d04af8d860555d3456dfd2e5d1a6e0a2e5cf6c8dc94c72f3d8",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/ShenSeanChen/waku-agent/pulls/73",
+        "issue_comments": "https://api.github.com/repos/ShenSeanChen/waku-agent/issues/73/comments",
+        "reviews": "https://api.github.com/repos/ShenSeanChen/waku-agent/pulls/73/reviews",
+        "inline_review_comments": "https://api.github.com/repos/ShenSeanChen/waku-agent/pulls/73/comments"
+      }
+    },
+    {
+      "url": "https://github.com/Nutlope/notesGPT/pull/44",
+      "repository": "Nutlope/notesGPT",
+      "number": 44,
+      "author": "prodmanpd",
+      "created_at": "2026-08-03T15:31:31Z",
+      "updated_at": "2026-09-08T19:33:22Z",
+      "closed_at": null,
+      "merged_at": null,
+      "state": "open",
+      "baseline_state": "open",
+      "head_sha": "7ac28219671c0e2ac269b6baafb7e6df14f994ab",
+      "baseline_head_sha": "7ac28219671c0e2ac269b6baafb7e6df14f994ab",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/notesGPT",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:33:22Z",
+      "notice_url": "https://github.com/Nutlope/notesGPT/pull/44#issuecomment-5590710478",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 1,
+          "current": 2
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "7ac28219671c0e2ac269b6baafb7e6df14f994ab",
+      "raw_snapshot_sha256": {
+        "meta": "508feb882828813a4bd9eeb47dcc90c11c0b592c222fb9282e2b450d7c990761",
+        "comments": "588b490706a615fab01a54d18c7d9443a508bc4e9db7f430ede656b52d238395",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/Nutlope/notesGPT/pulls/44",
+        "issue_comments": "https://api.github.com/repos/Nutlope/notesGPT/issues/44/comments",
+        "reviews": "https://api.github.com/repos/Nutlope/notesGPT/pulls/44/reviews",
+        "inline_review_comments": "https://api.github.com/repos/Nutlope/notesGPT/pulls/44/comments"
+      }
+    },
+    {
+      "url": "https://github.com/k8sgpt-ai/k8sgpt/pull/1719",
+      "repository": "k8sgpt-ai/k8sgpt",
+      "number": 1719,
+      "author": "prodmanpd",
+      "created_at": "2026-08-03T16:34:14Z",
+      "updated_at": "2026-09-08T19:33:26Z",
+      "closed_at": "2026-08-11T16:01:42Z",
+      "merged_at": "2026-08-11T16:01:42Z",
+      "state": "merged",
+      "baseline_state": "merged",
+      "head_sha": "5d195e02818d5fa24af964cebaa3dbd029457cc4",
+      "baseline_head_sha": "5d195e02818d5fa24af964cebaa3dbd029457cc4",
+      "head_ref": "feat/add-litellm-backend",
+      "head_repository": "prodmanpd/k8sgpt",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:33:25Z",
+      "notice_url": "https://github.com/k8sgpt-ai/k8sgpt/pull/1719#issuecomment-5590711145",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 2,
+          "current": 3
+        },
+        "reviews": {
+          "baseline": 1,
+          "current": 1
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "5d195e02818d5fa24af964cebaa3dbd029457cc4",
+      "raw_snapshot_sha256": {
+        "meta": "baa209cff3f283e3dcb94d76ec7a89ff1a8d804ca71050f48f7e295f7d5ba42d",
+        "comments": "523819a7537d7a6ab710502308ca5758d8b95fe90fa2ff56aeaf4f79799d38df",
+        "reviews": "f128b53ea38f1c4b91bc5c69c16c22966f9ed8f1701e785455cff1829f363dbf",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/k8sgpt-ai/k8sgpt/pulls/1719",
+        "issue_comments": "https://api.github.com/repos/k8sgpt-ai/k8sgpt/issues/1719/comments",
+        "reviews": "https://api.github.com/repos/k8sgpt-ai/k8sgpt/pulls/1719/reviews",
+        "inline_review_comments": "https://api.github.com/repos/k8sgpt-ai/k8sgpt/pulls/1719/comments"
+      }
+    },
+    {
+      "url": "https://github.com/SciSharp/BotSharp/pull/1395",
+      "repository": "SciSharp/BotSharp",
+      "number": 1395,
+      "author": "prodmanpd",
+      "created_at": "2026-08-10T17:41:57Z",
+      "updated_at": "2026-09-08T19:33:29Z",
+      "closed_at": "2026-08-18T15:47:20Z",
+      "merged_at": "2026-08-18T15:47:20Z",
+      "state": "merged",
+      "baseline_state": "merged",
+      "head_sha": "2e7dbe7cf8c8daef07a277d4a5566bf349b2a6c2",
+      "baseline_head_sha": "2e7dbe7cf8c8daef07a277d4a5566bf349b2a6c2",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/BotSharp",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:33:29Z",
+      "notice_url": "https://github.com/SciSharp/BotSharp/pull/1395#issuecomment-5590711907",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 2,
+          "current": 3
+        },
+        "reviews": {
+          "baseline": 1,
+          "current": 1
+        },
+        "review-comments": {
+          "baseline": 3,
+          "current": 3
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "2e7dbe7cf8c8daef07a277d4a5566bf349b2a6c2",
+      "raw_snapshot_sha256": {
+        "meta": "0c48048f32f6ddf06eb23ced4173b0083b0353f0428774263aa5ee026a40b45e",
+        "comments": "d3964592a0096739d08eb039787ed02988b903405a55c34fcfc70b0a89a4c11d",
+        "reviews": "0ebc790bc343ba784d24ab107d76d686799b555e3a121c2e78c739daf9b17454",
+        "review-comments": "dadaeeb99ac653c1214afc694bfeeb1f563c44e6de72b7dab02778ec2877f04d"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/SciSharp/BotSharp/pulls/1395",
+        "issue_comments": "https://api.github.com/repos/SciSharp/BotSharp/issues/1395/comments",
+        "reviews": "https://api.github.com/repos/SciSharp/BotSharp/pulls/1395/reviews",
+        "inline_review_comments": "https://api.github.com/repos/SciSharp/BotSharp/pulls/1395/comments"
+      }
+    },
+    {
+      "url": "https://github.com/mnemox-ai/tradememory-protocol/pull/10",
+      "repository": "mnemox-ai/tradememory-protocol",
+      "number": 10,
+      "author": "prodmanpd",
+      "created_at": "2026-08-10T18:23:20Z",
+      "updated_at": "2026-09-08T19:33:33Z",
+      "closed_at": null,
+      "merged_at": null,
+      "state": "open",
+      "baseline_state": "open",
+      "head_sha": "caacbaca9bc78c88e8120562da82aaaf546c6340",
+      "baseline_head_sha": "caacbaca9bc78c88e8120562da82aaaf546c6340",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/tradememory-protocol",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:33:33Z",
+      "notice_url": "https://github.com/mnemox-ai/tradememory-protocol/pull/10#issuecomment-5590712634",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 0,
+          "current": 1
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "caacbaca9bc78c88e8120562da82aaaf546c6340",
+      "raw_snapshot_sha256": {
+        "meta": "b777ea33acd5c2d8daf442a151b425763357595cb4c005a0ed82a2673ca5a273",
+        "comments": "237cec937235c1eb4b7d7a28b22be1bd9c8b4e2630d07b1f96239cdb3a8a6168",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/mnemox-ai/tradememory-protocol/pulls/10",
+        "issue_comments": "https://api.github.com/repos/mnemox-ai/tradememory-protocol/issues/10/comments",
+        "reviews": "https://api.github.com/repos/mnemox-ai/tradememory-protocol/pulls/10/reviews",
+        "inline_review_comments": "https://api.github.com/repos/mnemox-ai/tradememory-protocol/pulls/10/comments"
+      }
+    },
+    {
+      "url": "https://github.com/orneryd/NornicDB/pull/292",
+      "repository": "orneryd/NornicDB",
+      "number": 292,
+      "author": "prodmanpd",
+      "created_at": "2026-08-10T19:08:10Z",
+      "updated_at": "2026-09-08T19:33:37Z",
+      "closed_at": "2026-08-19T18:48:00Z",
+      "merged_at": "2026-08-19T18:48:00Z",
+      "state": "merged",
+      "baseline_state": "merged",
+      "head_sha": "d6eaab77ce0c62d5aac29441f134e570c5e051b0",
+      "baseline_head_sha": "d6eaab77ce0c62d5aac29441f134e570c5e051b0",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/NornicDB",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:33:37Z",
+      "notice_url": "https://github.com/orneryd/NornicDB/pull/292#issuecomment-5590713278",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 2,
+          "current": 3
+        },
+        "reviews": {
+          "baseline": 8,
+          "current": 8
+        },
+        "review-comments": {
+          "baseline": 10,
+          "current": 10
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "d6eaab77ce0c62d5aac29441f134e570c5e051b0",
+      "raw_snapshot_sha256": {
+        "meta": "ba600952d81d281b2a80af8888a14933db9f689917aa7f1b424596a41be1e965",
+        "comments": "4d3b54b8f5af0f1a4ad9a0064101b1e19a2de61faf2f1d0a6a4acd1dcadaddca",
+        "reviews": "c9a2bd6401cd2c6aa1032c747717f878bcc709cdcc4939daccf7846adf2d934e",
+        "review-comments": "18a584f172fc7995f0510d09ea051ce11b89c88c4965f3df812fe028cf1bd31b"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/orneryd/NornicDB/pulls/292",
+        "issue_comments": "https://api.github.com/repos/orneryd/NornicDB/issues/292/comments",
+        "reviews": "https://api.github.com/repos/orneryd/NornicDB/pulls/292/reviews",
+        "inline_review_comments": "https://api.github.com/repos/orneryd/NornicDB/pulls/292/comments"
+      }
+    },
+    {
+      "url": "https://github.com/VersusControl/versus-incident/pull/333",
+      "repository": "VersusControl/versus-incident",
+      "number": 333,
+      "author": "prodmanpd",
+      "created_at": "2026-08-10T19:39:56Z",
+      "updated_at": "2026-09-08T19:33:54Z",
+      "closed_at": null,
+      "merged_at": null,
+      "state": "open",
+      "baseline_state": "open",
+      "head_sha": "2c33b7d7e0bcc2b50f02522931dc6c7b1aa0de14",
+      "baseline_head_sha": "2c33b7d7e0bcc2b50f02522931dc6c7b1aa0de14",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/versus-incident",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:33:54Z",
+      "notice_url": "https://github.com/VersusControl/versus-incident/pull/333#issuecomment-5590716777",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 2,
+          "current": 3
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "2c33b7d7e0bcc2b50f02522931dc6c7b1aa0de14",
+      "raw_snapshot_sha256": {
+        "meta": "373d37cdb5679b774036d223143434246925904b512fa40ffcc24fb222911fee",
+        "comments": "ed01d3e90204d5ea5a1630739bb3309d3bf489aa95b17caa0787d91d41e35328",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/VersusControl/versus-incident/pulls/333",
+        "issue_comments": "https://api.github.com/repos/VersusControl/versus-incident/issues/333/comments",
+        "reviews": "https://api.github.com/repos/VersusControl/versus-incident/pulls/333/reviews",
+        "inline_review_comments": "https://api.github.com/repos/VersusControl/versus-incident/pulls/333/comments"
+      }
+    },
+    {
+      "url": "https://github.com/krishn404/Git-Friend/pull/15",
+      "repository": "krishn404/Git-Friend",
+      "number": 15,
+      "author": "prodmanpd",
+      "created_at": "2026-08-10T19:53:42Z",
+      "updated_at": "2026-09-08T19:33:58Z",
+      "closed_at": null,
+      "merged_at": null,
+      "state": "open",
+      "baseline_state": "open",
+      "head_sha": "781c5117ee5971ea7954ff97b0e4f6c03ca2ebe4",
+      "baseline_head_sha": "781c5117ee5971ea7954ff97b0e4f6c03ca2ebe4",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/Git-Friend",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:33:58Z",
+      "notice_url": "https://github.com/krishn404/Git-Friend/pull/15#issuecomment-5590717522",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 1,
+          "current": 2
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "781c5117ee5971ea7954ff97b0e4f6c03ca2ebe4",
+      "raw_snapshot_sha256": {
+        "meta": "64320efe90abb5bfd4e60fc1263379c1a4f32f6e97ae973269e878fea6abcf00",
+        "comments": "13067f2956642f2d2ca3128290319032183a7d187a29fd759480fe21063e853d",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/krishn404/Git-Friend/pulls/15",
+        "issue_comments": "https://api.github.com/repos/krishn404/Git-Friend/issues/15/comments",
+        "reviews": "https://api.github.com/repos/krishn404/Git-Friend/pulls/15/reviews",
+        "inline_review_comments": "https://api.github.com/repos/krishn404/Git-Friend/pulls/15/comments"
+      }
+    },
+    {
+      "url": "https://github.com/MindWorkAI/AI-Studio/pull/909",
+      "repository": "MindWorkAI/AI-Studio",
+      "number": 909,
+      "author": "prodmanpd",
+      "created_at": "2026-08-11T03:50:23Z",
+      "updated_at": "2026-09-08T19:34:02Z",
+      "closed_at": "2026-08-30T10:55:19Z",
+      "merged_at": "2026-08-30T10:55:19Z",
+      "state": "merged",
+      "baseline_state": "merged",
+      "head_sha": "c7f90debbe2e927cb801fc861c1558597f68fcd1",
+      "baseline_head_sha": "c7f90debbe2e927cb801fc861c1558597f68fcd1",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/AI-Studio",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:34:02Z",
+      "notice_url": "https://github.com/MindWorkAI/AI-Studio/pull/909#issuecomment-5590718382",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 0,
+          "current": 1
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "c7f90debbe2e927cb801fc861c1558597f68fcd1",
+      "raw_snapshot_sha256": {
+        "meta": "753a9bc62ff5180427fd7c5500ff9d30cf1c5af65a458056d4927ec16e65e7d3",
+        "comments": "52509579489c9646aca78cbeee0b35c8a71cd9bcd978452e9618dffe53bd8ee9",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/MindWorkAI/AI-Studio/pulls/909",
+        "issue_comments": "https://api.github.com/repos/MindWorkAI/AI-Studio/issues/909/comments",
+        "reviews": "https://api.github.com/repos/MindWorkAI/AI-Studio/pulls/909/reviews",
+        "inline_review_comments": "https://api.github.com/repos/MindWorkAI/AI-Studio/pulls/909/comments"
+      }
+    },
+    {
+      "url": "https://github.com/nextai-translator/nextai-translator/pull/1905",
+      "repository": "nextai-translator/nextai-translator",
+      "number": 1905,
+      "author": "prodmanpd",
+      "created_at": "2026-08-11T05:45:55Z",
+      "updated_at": "2026-09-08T19:34:06Z",
+      "closed_at": "2026-08-19T07:23:26Z",
+      "merged_at": "2026-08-19T07:23:26Z",
+      "state": "merged",
+      "baseline_state": "merged",
+      "head_sha": "e31b8202fed2c7eae90abc831d51c04ceaa8c5f9",
+      "baseline_head_sha": "e31b8202fed2c7eae90abc831d51c04ceaa8c5f9",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/nextai-translator",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:34:06Z",
+      "notice_url": "https://github.com/nextai-translator/nextai-translator/pull/1905#issuecomment-5590719410",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 0,
+          "current": 1
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "e31b8202fed2c7eae90abc831d51c04ceaa8c5f9",
+      "raw_snapshot_sha256": {
+        "meta": "bd5113d070879c74dcd8ab966724b3fd94f4de87426a8ce86373e915ba971ab3",
+        "comments": "28194066f8efc2f359107370dc95af3877dc8574e33b3d8c0da3fc61ec629eff",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/nextai-translator/nextai-translator/pulls/1905",
+        "issue_comments": "https://api.github.com/repos/nextai-translator/nextai-translator/issues/1905/comments",
+        "reviews": "https://api.github.com/repos/nextai-translator/nextai-translator/pulls/1905/reviews",
+        "inline_review_comments": "https://api.github.com/repos/nextai-translator/nextai-translator/pulls/1905/comments"
+      }
+    },
+    {
+      "url": "https://github.com/StarTrail-org/LEANN/pull/395",
+      "repository": "StarTrail-org/LEANN",
+      "number": 395,
+      "author": "prodmanpd",
+      "created_at": "2026-08-17T14:22:17Z",
+      "updated_at": "2026-09-08T19:34:10Z",
+      "closed_at": "2026-08-21T05:07:59Z",
+      "merged_at": "2026-08-21T05:07:59Z",
+      "state": "merged",
+      "baseline_state": "merged",
+      "head_sha": "194482ef54dc86bdecbe9728040a26c801244358",
+      "baseline_head_sha": "194482ef54dc86bdecbe9728040a26c801244358",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/LEANN",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:34:10Z",
+      "notice_url": "https://github.com/StarTrail-org/LEANN/pull/395#issuecomment-5590720279",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 0,
+          "current": 1
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "194482ef54dc86bdecbe9728040a26c801244358",
+      "raw_snapshot_sha256": {
+        "meta": "a3c3690354c345d212b900dfc68e00f6f5a0865c67a0fb4153aa4aa1e9d5dd63",
+        "comments": "184869309e9001404453d8b4d7fcd41e1f925a2f147b4d9bb33d6340b436a677",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/StarTrail-org/LEANN/pulls/395",
+        "issue_comments": "https://api.github.com/repos/StarTrail-org/LEANN/issues/395/comments",
+        "reviews": "https://api.github.com/repos/StarTrail-org/LEANN/pulls/395/reviews",
+        "inline_review_comments": "https://api.github.com/repos/StarTrail-org/LEANN/pulls/395/comments"
+      }
+    },
+    {
+      "url": "https://github.com/SWE-bench/SWE-bench/pull/639",
+      "repository": "SWE-bench/SWE-bench",
+      "number": 639,
+      "author": "prodmanpd",
+      "created_at": "2026-08-17T14:32:55Z",
+      "updated_at": "2026-09-08T19:34:14Z",
+      "closed_at": "2026-08-31T18:31:28Z",
+      "merged_at": "2026-08-31T18:31:28Z",
+      "state": "merged",
+      "baseline_state": "merged",
+      "head_sha": "89d3f912cd0762f9b9792f845db26f4144a10ede",
+      "baseline_head_sha": "89d3f912cd0762f9b9792f845db26f4144a10ede",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/SWE-bench",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:34:14Z",
+      "notice_url": "https://github.com/SWE-bench/SWE-bench/pull/639#issuecomment-5590721184",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 1,
+          "current": 2
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "89d3f912cd0762f9b9792f845db26f4144a10ede",
+      "raw_snapshot_sha256": {
+        "meta": "52e6d0f9ac427374d02bf2cf0ceeab27073759afe8cfa4c66b949cb62627181f",
+        "comments": "128b76b5f8629c75f063cb319cfe3ea5914b443cdc32c90f4587d575dfa066a4",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/SWE-bench/SWE-bench/pulls/639",
+        "issue_comments": "https://api.github.com/repos/SWE-bench/SWE-bench/issues/639/comments",
+        "reviews": "https://api.github.com/repos/SWE-bench/SWE-bench/pulls/639/reviews",
+        "inline_review_comments": "https://api.github.com/repos/SWE-bench/SWE-bench/pulls/639/comments"
+      }
+    },
+    {
+      "url": "https://github.com/buxuku/SmartSub/pull/448",
+      "repository": "buxuku/SmartSub",
+      "number": 448,
+      "author": "prodmanpd",
+      "created_at": "2026-08-17T14:40:59Z",
+      "updated_at": "2026-09-08T19:34:18Z",
+      "closed_at": null,
+      "merged_at": null,
+      "state": "open",
+      "baseline_state": "open",
+      "head_sha": "e18426a0d8f790adc47dbbdc60b811c43343d98d",
+      "baseline_head_sha": "e18426a0d8f790adc47dbbdc60b811c43343d98d",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/SmartSub",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:34:18Z",
+      "notice_url": "https://github.com/buxuku/SmartSub/pull/448#issuecomment-5590721954",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 0,
+          "current": 1
+        },
+        "reviews": {
+          "baseline": 1,
+          "current": 1
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "e18426a0d8f790adc47dbbdc60b811c43343d98d",
+      "raw_snapshot_sha256": {
+        "meta": "1e384c38c0e9fb773e96e1f28778d79e83651bc6ac074955472eb0b766a3f349",
+        "comments": "8a26ea6aa1374a7fe7de8cc6e8cbbffc7ce1fd9b327dfaad90f3d1cbc3d65e32",
+        "reviews": "18067e67801241827d840b9bc0c5986b48a628b8bbb2c71b9a91901786c7a4f5",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/buxuku/SmartSub/pulls/448",
+        "issue_comments": "https://api.github.com/repos/buxuku/SmartSub/issues/448/comments",
+        "reviews": "https://api.github.com/repos/buxuku/SmartSub/pulls/448/reviews",
+        "inline_review_comments": "https://api.github.com/repos/buxuku/SmartSub/pulls/448/comments"
+      }
+    },
+    {
+      "url": "https://github.com/TIGER-AI-Lab/ClawBench/pull/288",
+      "repository": "TIGER-AI-Lab/ClawBench",
+      "number": 288,
+      "author": "prodmanpd",
+      "created_at": "2026-08-17T15:30:34Z",
+      "updated_at": "2026-09-08T19:39:51Z",
+      "closed_at": "2026-08-30T20:21:39Z",
+      "merged_at": null,
+      "state": "closed",
+      "baseline_state": "closed",
+      "head_sha": "a5d00b9d2b0165aae3dee9cd74f60b008f0c9609",
+      "baseline_head_sha": "a5d00b9d2b0165aae3dee9cd74f60b008f0c9609",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/ClawBench",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:34:22Z",
+      "notice_url": "https://github.com/TIGER-AI-Lab/ClawBench/pull/288#issuecomment-5590722797",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 2,
+          "current": 4
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [
+        {
+          "url": "https://github.com/TIGER-AI-Lab/ClawBench/pull/288#issuecomment-5590794523",
+          "author": "Perry2004",
+          "created_at": "2026-09-08T19:39:51Z"
+        }
+      ],
+      "branch_ref_observed": true,
+      "branch_target_sha": "a5d00b9d2b0165aae3dee9cd74f60b008f0c9609",
+      "raw_snapshot_sha256": {
+        "meta": "9e8a7eb2652f76e950381a9cd1abad0d18a04c15ad339bbf92e48069033d4450",
+        "comments": "621ea773245eacff5b2ff3709ccb2969490c1f3681c553c3e871e7ba2f9455f2",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/TIGER-AI-Lab/ClawBench/pulls/288",
+        "issue_comments": "https://api.github.com/repos/TIGER-AI-Lab/ClawBench/issues/288/comments",
+        "reviews": "https://api.github.com/repos/TIGER-AI-Lab/ClawBench/pulls/288/reviews",
+        "inline_review_comments": "https://api.github.com/repos/TIGER-AI-Lab/ClawBench/pulls/288/comments"
+      }
+    },
+    {
+      "url": "https://github.com/trpc-group/trpc-agent-go/pull/2484",
+      "repository": "trpc-group/trpc-agent-go",
+      "number": 2484,
+      "author": "prodmanpd",
+      "created_at": "2026-08-17T15:39:58Z",
+      "updated_at": "2026-09-08T19:34:26Z",
+      "closed_at": null,
+      "merged_at": null,
+      "state": "open",
+      "baseline_state": "open",
+      "head_sha": "ccae1e0832bf52bb1412a668135cf6f23b284629",
+      "baseline_head_sha": "ccae1e0832bf52bb1412a668135cf6f23b284629",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/trpc-agent-go",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:34:26Z",
+      "notice_url": "https://github.com/trpc-group/trpc-agent-go/pull/2484#issuecomment-5590723625",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 3,
+          "current": 4
+        },
+        "reviews": {
+          "baseline": 3,
+          "current": 3
+        },
+        "review-comments": {
+          "baseline": 4,
+          "current": 4
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "ccae1e0832bf52bb1412a668135cf6f23b284629",
+      "raw_snapshot_sha256": {
+        "meta": "8503b4e6df63d3cd768c3bac39df3ba91d9cb0e7fbcc97f995e8e4fa3f366225",
+        "comments": "22f1881ce3f542b720b0c591a9fc22fab13ed65d627c2ca7ea0581325942eca6",
+        "reviews": "27892ddab7ad9a4eb7ad4a4db319de5908b8d0f42dada5480c6ffa7be7d119c0",
+        "review-comments": "01ddd3875dc984006367c7550e4806e0ed148e83d9fd016cf9808dca5afd224e"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/trpc-group/trpc-agent-go/pulls/2484",
+        "issue_comments": "https://api.github.com/repos/trpc-group/trpc-agent-go/issues/2484/comments",
+        "reviews": "https://api.github.com/repos/trpc-group/trpc-agent-go/pulls/2484/reviews",
+        "inline_review_comments": "https://api.github.com/repos/trpc-group/trpc-agent-go/pulls/2484/comments"
+      }
+    },
+    {
+      "url": "https://github.com/jianchang512/pyvideotrans/pull/1181",
+      "repository": "jianchang512/pyvideotrans",
+      "number": 1181,
+      "author": "prodmanpd",
+      "created_at": "2026-08-17T15:49:53Z",
+      "updated_at": "2026-09-08T19:34:30Z",
+      "closed_at": "2026-08-18T04:25:07Z",
+      "merged_at": "2026-08-18T04:25:06Z",
+      "state": "merged",
+      "baseline_state": "merged",
+      "head_sha": "2531e6bd5e950ca9c9a113c9e93c77776e76810a",
+      "baseline_head_sha": "2531e6bd5e950ca9c9a113c9e93c77776e76810a",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/pyvideotrans",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:34:30Z",
+      "notice_url": "https://github.com/jianchang512/pyvideotrans/pull/1181#issuecomment-5590724455",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 0,
+          "current": 1
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "2531e6bd5e950ca9c9a113c9e93c77776e76810a",
+      "raw_snapshot_sha256": {
+        "meta": "6e9a5d1cd6bee82ab2e95844070ac9cce2844010d05ecba0b80d2cb400982a48",
+        "comments": "a07ac2f7d160b38e06fc805026fc68942bd5e2386a91abeca5d1de753cbb8724",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/jianchang512/pyvideotrans/pulls/1181",
+        "issue_comments": "https://api.github.com/repos/jianchang512/pyvideotrans/issues/1181/comments",
+        "reviews": "https://api.github.com/repos/jianchang512/pyvideotrans/pulls/1181/reviews",
+        "inline_review_comments": "https://api.github.com/repos/jianchang512/pyvideotrans/pulls/1181/comments"
+      }
+    },
+    {
+      "url": "https://github.com/lofcz/LLMTornado/pull/186",
+      "repository": "lofcz/LLMTornado",
+      "number": 186,
+      "author": "prodmanpd",
+      "created_at": "2026-08-17T15:57:55Z",
+      "updated_at": "2026-09-08T19:34:45Z",
+      "closed_at": "2026-08-17T17:17:57Z",
+      "merged_at": "2026-08-17T17:17:57Z",
+      "state": "merged",
+      "baseline_state": "merged",
+      "head_sha": "7479d068d8b8fc717a7a0cfa3108a701369b7f56",
+      "baseline_head_sha": "7479d068d8b8fc717a7a0cfa3108a701369b7f56",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/LLMTornado",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:34:45Z",
+      "notice_url": "https://github.com/lofcz/LLMTornado/pull/186#issuecomment-5590728327",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 0,
+          "current": 1
+        },
+        "reviews": {
+          "baseline": 1,
+          "current": 1
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "7479d068d8b8fc717a7a0cfa3108a701369b7f56",
+      "raw_snapshot_sha256": {
+        "meta": "5d2b6fe63dce1fd05e83c3b7fda827e4eb1cfffac4befa0f97b23066d93e7bc0",
+        "comments": "b436ba0e8231b6cddce233ea006872f07563e4996cbe86517604b01b15f48665",
+        "reviews": "d7d05ee53d5e56fcf3dac69ceaa0676b35543409125dcc6ac9d184e946c9fc0f",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/lofcz/LLMTornado/pulls/186",
+        "issue_comments": "https://api.github.com/repos/lofcz/LLMTornado/issues/186/comments",
+        "reviews": "https://api.github.com/repos/lofcz/LLMTornado/pulls/186/reviews",
+        "inline_review_comments": "https://api.github.com/repos/lofcz/LLMTornado/pulls/186/comments"
+      }
+    },
+    {
+      "url": "https://github.com/continuedev/continue/pull/13151",
+      "repository": "continuedev/continue",
+      "number": 13151,
+      "author": "prodmanpd",
+      "created_at": "2026-08-17T16:03:09Z",
+      "updated_at": "2026-09-08T19:34:49Z",
+      "closed_at": null,
+      "merged_at": null,
+      "state": "open",
+      "baseline_state": "open",
+      "head_sha": "07c4843453463599f118f6bcd40ecbbf5b6aaa91",
+      "baseline_head_sha": "07c4843453463599f118f6bcd40ecbbf5b6aaa91",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/continue",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:34:49Z",
+      "notice_url": "https://github.com/continuedev/continue/pull/13151#issuecomment-5590729173",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 2,
+          "current": 3
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "07c4843453463599f118f6bcd40ecbbf5b6aaa91",
+      "raw_snapshot_sha256": {
+        "meta": "83f2bd31d7c03f41d59f5e5c24205f9fc76e2dc38f8babb81567dcad0419c093",
+        "comments": "9e9cebd590a0697ab1a2797ceecd7b8591eae78f1f394d8e5b0991287b2083ed",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/continuedev/continue/pulls/13151",
+        "issue_comments": "https://api.github.com/repos/continuedev/continue/issues/13151/comments",
+        "reviews": "https://api.github.com/repos/continuedev/continue/pulls/13151/reviews",
+        "inline_review_comments": "https://api.github.com/repos/continuedev/continue/pulls/13151/comments"
+      }
+    },
+    {
+      "url": "https://github.com/OpenBMB/UltraRAG/pull/496",
+      "repository": "OpenBMB/UltraRAG",
+      "number": 496,
+      "author": "prodmanpd",
+      "created_at": "2026-08-24T17:03:47Z",
+      "updated_at": "2026-09-08T19:34:53Z",
+      "closed_at": "2026-09-02T11:43:18Z",
+      "merged_at": "2026-09-02T11:43:18Z",
+      "state": "merged",
+      "baseline_state": "merged",
+      "head_sha": "85bc0f597097ddea8f32b41dbd4fe73e899662b9",
+      "baseline_head_sha": "85bc0f597097ddea8f32b41dbd4fe73e899662b9",
+      "head_ref": "feat/add-litellm-backend",
+      "head_repository": "prodmanpd/UltraRAG",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:34:53Z",
+      "notice_url": "https://github.com/OpenBMB/UltraRAG/pull/496#issuecomment-5590729969",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 1,
+          "current": 2
+        },
+        "reviews": {
+          "baseline": 1,
+          "current": 1
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "85bc0f597097ddea8f32b41dbd4fe73e899662b9",
+      "raw_snapshot_sha256": {
+        "meta": "b159d8b25b555d264f863cc8eb8a3555b340e171a7c577a51d7025e1f3092cb5",
+        "comments": "1ed5ee3db3cce5a05b122198c2eee6fd8f35284672afdcfe3502e2c26f42a073",
+        "reviews": "2b4d68dec16442c6ce6886bfd1d5b6b9245e63311a803d6aa0935346eda116bb",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/OpenBMB/UltraRAG/pulls/496",
+        "issue_comments": "https://api.github.com/repos/OpenBMB/UltraRAG/issues/496/comments",
+        "reviews": "https://api.github.com/repos/OpenBMB/UltraRAG/pulls/496/reviews",
+        "inline_review_comments": "https://api.github.com/repos/OpenBMB/UltraRAG/pulls/496/comments"
+      }
+    },
+    {
+      "url": "https://github.com/OtterMind/Chat2DB/pull/2757",
+      "repository": "OtterMind/Chat2DB",
+      "number": 2757,
+      "author": "prodmanpd",
+      "created_at": "2026-08-24T17:26:10Z",
+      "updated_at": "2026-09-08T19:34:57Z",
+      "closed_at": null,
+      "merged_at": null,
+      "state": "open",
+      "baseline_state": "open",
+      "head_sha": "cab7ecd153654edbbcb8fba633ec2deeacbb409f",
+      "baseline_head_sha": "cab7ecd153654edbbcb8fba633ec2deeacbb409f",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/Chat2DB",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:34:57Z",
+      "notice_url": "https://github.com/OtterMind/Chat2DB/pull/2757#issuecomment-5590730909",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 1,
+          "current": 2
+        },
+        "reviews": {
+          "baseline": 1,
+          "current": 1
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "cab7ecd153654edbbcb8fba633ec2deeacbb409f",
+      "raw_snapshot_sha256": {
+        "meta": "9dfea271d62447809f46652276473eb244547a0b32f031d5dbd74cbf5c2cfab1",
+        "comments": "bfba123029b33218b3a9d87f41dace9bacd214269b981f0e1c8961baf8a328aa",
+        "reviews": "386ee53b1cef7976407b16eaad451f6bc1d5236a9392f689887b9b7c570a46d5",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/OtterMind/Chat2DB/pulls/2757",
+        "issue_comments": "https://api.github.com/repos/OtterMind/Chat2DB/issues/2757/comments",
+        "reviews": "https://api.github.com/repos/OtterMind/Chat2DB/pulls/2757/reviews",
+        "inline_review_comments": "https://api.github.com/repos/OtterMind/Chat2DB/pulls/2757/comments"
+      }
+    },
+    {
+      "url": "https://github.com/zhayujie/CowAgent/pull/3075",
+      "repository": "zhayujie/CowAgent",
+      "number": 3075,
+      "author": "prodmanpd",
+      "created_at": "2026-08-24T17:32:23Z",
+      "updated_at": "2026-09-08T19:35:00Z",
+      "closed_at": "2026-09-04T09:07:00Z",
+      "merged_at": null,
+      "state": "closed",
+      "baseline_state": "closed",
+      "head_sha": "8cfb66a4cf3b99dbb9f320b4bdd75621603a19ed",
+      "baseline_head_sha": "8cfb66a4cf3b99dbb9f320b4bdd75621603a19ed",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/CowAgent",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:35:00Z",
+      "notice_url": "https://github.com/zhayujie/CowAgent/pull/3075#issuecomment-5590731654",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 1,
+          "current": 2
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "8cfb66a4cf3b99dbb9f320b4bdd75621603a19ed",
+      "raw_snapshot_sha256": {
+        "meta": "9faf639d383c2e648c29e199370e0ec39b63efc9b657682180d707107647c604",
+        "comments": "2f6fa193d903b94852509acc6998ea5b592d65cce21e48e781fdd5c3357280b8",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/zhayujie/CowAgent/pulls/3075",
+        "issue_comments": "https://api.github.com/repos/zhayujie/CowAgent/issues/3075/comments",
+        "reviews": "https://api.github.com/repos/zhayujie/CowAgent/pulls/3075/reviews",
+        "inline_review_comments": "https://api.github.com/repos/zhayujie/CowAgent/pulls/3075/comments"
+      }
+    },
+    {
+      "url": "https://github.com/StarTrail-org/PixelRAG/pull/145",
+      "repository": "StarTrail-org/PixelRAG",
+      "number": 145,
+      "author": "prodmanpd",
+      "created_at": "2026-08-24T17:38:34Z",
+      "updated_at": "2026-09-08T19:35:04Z",
+      "closed_at": "2026-08-30T02:04:43Z",
+      "merged_at": "2026-08-30T02:04:42Z",
+      "state": "merged",
+      "baseline_state": "merged",
+      "head_sha": "474161feec53e5a5c5b586aa820ab3f84bcce87e",
+      "baseline_head_sha": "474161feec53e5a5c5b586aa820ab3f84bcce87e",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/PixelRAG",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:35:04Z",
+      "notice_url": "https://github.com/StarTrail-org/PixelRAG/pull/145#issuecomment-5590732384",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 2,
+          "current": 3
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "474161feec53e5a5c5b586aa820ab3f84bcce87e",
+      "raw_snapshot_sha256": {
+        "meta": "b4cca0d8c4a9e35e61f3ee821e930165671cfa7bbec1944144267d44fa738c52",
+        "comments": "32453cabc22bd525b13f9aad195b7fe0873347a8391abf3a3fcdcc5ebc0a0051",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/StarTrail-org/PixelRAG/pulls/145",
+        "issue_comments": "https://api.github.com/repos/StarTrail-org/PixelRAG/issues/145/comments",
+        "reviews": "https://api.github.com/repos/StarTrail-org/PixelRAG/pulls/145/reviews",
+        "inline_review_comments": "https://api.github.com/repos/StarTrail-org/PixelRAG/pulls/145/comments"
+      }
+    },
+    {
+      "url": "https://github.com/trailhq/Graft/pull/220",
+      "repository": "trailhq/Graft",
+      "number": 220,
+      "author": "prodmanpd",
+      "created_at": "2026-08-24T17:43:44Z",
+      "updated_at": "2026-09-08T19:35:07Z",
+      "closed_at": "2026-08-27T13:01:24Z",
+      "merged_at": "2026-08-27T13:01:24Z",
+      "state": "merged",
+      "baseline_state": "merged",
+      "head_sha": "1788e9175b99560ce3798e7272a28061215d0a76",
+      "baseline_head_sha": "1788e9175b99560ce3798e7272a28061215d0a76",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/Graft",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:35:07Z",
+      "notice_url": "https://github.com/trailhq/Graft/pull/220#issuecomment-5590733182",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 2,
+          "current": 3
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "1788e9175b99560ce3798e7272a28061215d0a76",
+      "raw_snapshot_sha256": {
+        "meta": "2885365a6bdbb31e89bbd256dedae7adecffe856464b061f36c7199295b45f02",
+        "comments": "97421835ee64feb81758fad34db48b4665711c0e53a8d60ced519a4467a27111",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/trailhq/Graft/pulls/220",
+        "issue_comments": "https://api.github.com/repos/trailhq/Graft/issues/220/comments",
+        "reviews": "https://api.github.com/repos/trailhq/Graft/pulls/220/reviews",
+        "inline_review_comments": "https://api.github.com/repos/trailhq/Graft/pulls/220/comments"
+      }
+    },
+    {
+      "url": "https://github.com/Tencent/AI-Infra-Guard/pull/598",
+      "repository": "Tencent/AI-Infra-Guard",
+      "number": 598,
+      "author": "prodmanpd",
+      "created_at": "2026-08-24T17:48:30Z",
+      "updated_at": "2026-09-08T19:35:11Z",
+      "closed_at": null,
+      "merged_at": null,
+      "state": "open",
+      "baseline_state": "open",
+      "head_sha": "9466706f106d472a76b84d0888df204f9d3741ab",
+      "baseline_head_sha": "9466706f106d472a76b84d0888df204f9d3741ab",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/AI-Infra-Guard",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:35:11Z",
+      "notice_url": "https://github.com/Tencent/AI-Infra-Guard/pull/598#issuecomment-5590734091",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 1,
+          "current": 2
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "9466706f106d472a76b84d0888df204f9d3741ab",
+      "raw_snapshot_sha256": {
+        "meta": "cab9a2fa4c8ea8d48cb62e4fb4f5ac543c223a5ed7bb9b86a8e884b38d71c85b",
+        "comments": "4dcf6ba95adcf41d3d6ced86e11d7389c60cb6bbe55723cf068dafcca8b7de06",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/Tencent/AI-Infra-Guard/pulls/598",
+        "issue_comments": "https://api.github.com/repos/Tencent/AI-Infra-Guard/issues/598/comments",
+        "reviews": "https://api.github.com/repos/Tencent/AI-Infra-Guard/pulls/598/reviews",
+        "inline_review_comments": "https://api.github.com/repos/Tencent/AI-Infra-Guard/pulls/598/comments"
+      }
+    },
+    {
+      "url": "https://github.com/trace-cortex/cortex-app/pull/9",
+      "repository": "trace-cortex/cortex-app",
+      "number": 9,
+      "author": "prodmanpd",
+      "created_at": "2026-08-24T17:56:07Z",
+      "updated_at": "2026-09-08T19:35:16Z",
+      "closed_at": null,
+      "merged_at": null,
+      "state": "open",
+      "baseline_state": "open",
+      "head_sha": "c3bc8c4e7a0f78957934c4599e862737a94d543f",
+      "baseline_head_sha": "c3bc8c4e7a0f78957934c4599e862737a94d543f",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/cortex-app",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:35:16Z",
+      "notice_url": "https://github.com/trace-cortex/cortex-app/pull/9#issuecomment-5590735011",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 0,
+          "current": 1
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "c3bc8c4e7a0f78957934c4599e862737a94d543f",
+      "raw_snapshot_sha256": {
+        "meta": "fb37cbc47f6ed989f6358a531de919e4b27395b92ca1077b2b5d3436cf2965ba",
+        "comments": "320e4a70685472935bc4285e626dd4fb16c4db0ae3be24a573a9d39401455dfe",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/trace-cortex/cortex-app/pulls/9",
+        "issue_comments": "https://api.github.com/repos/trace-cortex/cortex-app/issues/9/comments",
+        "reviews": "https://api.github.com/repos/trace-cortex/cortex-app/pulls/9/reviews",
+        "inline_review_comments": "https://api.github.com/repos/trace-cortex/cortex-app/pulls/9/comments"
+      }
+    },
+    {
+      "url": "https://github.com/datalab-to/marker/pull/1097",
+      "repository": "datalab-to/marker",
+      "number": 1097,
+      "author": "prodmanpd",
+      "created_at": "2026-08-31T15:23:04Z",
+      "updated_at": "2026-09-08T19:35:20Z",
+      "closed_at": null,
+      "merged_at": null,
+      "state": "open",
+      "baseline_state": "open",
+      "head_sha": "29a3d4298d1cc8acb5637a8a859ed4ad20ab08e3",
+      "baseline_head_sha": "29a3d4298d1cc8acb5637a8a859ed4ad20ab08e3",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/marker",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:35:20Z",
+      "notice_url": "https://github.com/datalab-to/marker/pull/1097#issuecomment-5590735900",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 3,
+          "current": 4
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "29a3d4298d1cc8acb5637a8a859ed4ad20ab08e3",
+      "raw_snapshot_sha256": {
+        "meta": "285b827c2b185c106dbc30d64d40246b386c66ba486a6afb5eb08f9225f78b61",
+        "comments": "3d43b17dfeed46bdd547bcdddad676f3bd5d773529fe9de42468c2d7a426e7e6",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/datalab-to/marker/pulls/1097",
+        "issue_comments": "https://api.github.com/repos/datalab-to/marker/issues/1097/comments",
+        "reviews": "https://api.github.com/repos/datalab-to/marker/pulls/1097/reviews",
+        "inline_review_comments": "https://api.github.com/repos/datalab-to/marker/pulls/1097/comments"
+      }
+    },
+    {
+      "url": "https://github.com/datajuicer/data-juicer/pull/1062",
+      "repository": "datajuicer/data-juicer",
+      "number": 1062,
+      "author": "prodmanpd",
+      "created_at": "2026-08-31T15:27:02Z",
+      "updated_at": "2026-09-08T19:35:27Z",
+      "closed_at": "2026-09-07T03:23:09Z",
+      "merged_at": "2026-09-07T03:23:09Z",
+      "state": "merged",
+      "baseline_state": "merged",
+      "head_sha": "d72e6263cfc64fdf2bf7d457eff18d9dbec5b3f6",
+      "baseline_head_sha": "d72e6263cfc64fdf2bf7d457eff18d9dbec5b3f6",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/data-juicer",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:35:27Z",
+      "notice_url": "https://github.com/datajuicer/data-juicer/pull/1062#issuecomment-5590737832",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 1,
+          "current": 2
+        },
+        "reviews": {
+          "baseline": 1,
+          "current": 1
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "d72e6263cfc64fdf2bf7d457eff18d9dbec5b3f6",
+      "raw_snapshot_sha256": {
+        "meta": "df4a97d18de650cdee531fedfe07d148bb91bfc6899e32c830f6fb6bb2464f84",
+        "comments": "7ecc8adf15b0b055f0c1ac48647c00bef2fe29216fc528476c724b46db48e178",
+        "reviews": "b144f430204001814e14f215f4881d10002aab4cb01d208e0286addacd76ae67",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/datajuicer/data-juicer/pulls/1062",
+        "issue_comments": "https://api.github.com/repos/datajuicer/data-juicer/issues/1062/comments",
+        "reviews": "https://api.github.com/repos/datajuicer/data-juicer/pulls/1062/reviews",
+        "inline_review_comments": "https://api.github.com/repos/datajuicer/data-juicer/pulls/1062/comments"
+      }
+    },
+    {
+      "url": "https://github.com/TideDra/zotero-arxiv-daily/pull/294",
+      "repository": "TideDra/zotero-arxiv-daily",
+      "number": 294,
+      "author": "prodmanpd",
+      "created_at": "2026-08-31T15:30:33Z",
+      "updated_at": "2026-09-08T19:35:31Z",
+      "closed_at": null,
+      "merged_at": null,
+      "state": "open",
+      "baseline_state": "open",
+      "head_sha": "41c9552c1e50630bbfeb1252ef0439d054889e4e",
+      "baseline_head_sha": "41c9552c1e50630bbfeb1252ef0439d054889e4e",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/zotero-arxiv-daily",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:35:31Z",
+      "notice_url": "https://github.com/TideDra/zotero-arxiv-daily/pull/294#issuecomment-5590738780",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 0,
+          "current": 1
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "41c9552c1e50630bbfeb1252ef0439d054889e4e",
+      "raw_snapshot_sha256": {
+        "meta": "d36001929af8c8ed7bf265537e0485914d8f459af6a1219cdf4979f59a085d15",
+        "comments": "83fa5aff2c403f8a0ffb1e4d279d850dd94c89af77ec96aa4b50c6d450aa2176",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/TideDra/zotero-arxiv-daily/pulls/294",
+        "issue_comments": "https://api.github.com/repos/TideDra/zotero-arxiv-daily/issues/294/comments",
+        "reviews": "https://api.github.com/repos/TideDra/zotero-arxiv-daily/pulls/294/reviews",
+        "inline_review_comments": "https://api.github.com/repos/TideDra/zotero-arxiv-daily/pulls/294/comments"
+      }
+    },
+    {
+      "url": "https://github.com/Tencent/WeKnora/pull/2923",
+      "repository": "Tencent/WeKnora",
+      "number": 2923,
+      "author": "prodmanpd",
+      "created_at": "2026-08-31T16:03:29Z",
+      "updated_at": "2026-09-08T19:35:35Z",
+      "closed_at": "2026-09-01T04:21:04Z",
+      "merged_at": "2026-09-01T04:21:04Z",
+      "state": "merged",
+      "baseline_state": "merged",
+      "head_sha": "329267dd6f3b3cb46780fa58dea8b8211913e3a3",
+      "baseline_head_sha": "329267dd6f3b3cb46780fa58dea8b8211913e3a3",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/WeKnora",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:35:35Z",
+      "notice_url": "https://github.com/Tencent/WeKnora/pull/2923#issuecomment-5590739619",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 0,
+          "current": 1
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "329267dd6f3b3cb46780fa58dea8b8211913e3a3",
+      "raw_snapshot_sha256": {
+        "meta": "e5ddc8c3bfd73bf9b3b0708384690de0b61c2801a987b21ebae7a72e6f7001a2",
+        "comments": "fd7cbf4ceeb05630daccec8d369e27cd2f00d0d3a67dc9777eaba9f60ba1eda7",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/Tencent/WeKnora/pulls/2923",
+        "issue_comments": "https://api.github.com/repos/Tencent/WeKnora/issues/2923/comments",
+        "reviews": "https://api.github.com/repos/Tencent/WeKnora/pulls/2923/reviews",
+        "inline_review_comments": "https://api.github.com/repos/Tencent/WeKnora/pulls/2923/comments"
+      }
+    },
+    {
+      "url": "https://github.com/0xMassi/webclaw/pull/123",
+      "repository": "0xMassi/webclaw",
+      "number": 123,
+      "author": "prodmanpd",
+      "created_at": "2026-08-31T16:07:26Z",
+      "updated_at": "2026-09-08T19:42:52Z",
+      "closed_at": "2026-09-08T19:42:52Z",
+      "merged_at": null,
+      "state": "closed",
+      "baseline_state": "open",
+      "head_sha": "345422db95377c8ee2a3ad46392419fd3c7e4d73",
+      "baseline_head_sha": "345422db95377c8ee2a3ad46392419fd3c7e4d73",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/webclaw",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:35:39Z",
+      "notice_url": "https://github.com/0xMassi/webclaw/pull/123#issuecomment-5590740681",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 1,
+          "current": 3
+        },
+        "reviews": {
+          "baseline": 1,
+          "current": 1
+        },
+        "review-comments": {
+          "baseline": 4,
+          "current": 4
+        }
+      },
+      "post_notice_non_reporter_items": [
+        {
+          "url": "https://github.com/0xMassi/webclaw/pull/123#issuecomment-5590829715",
+          "author": "0xMassi",
+          "created_at": "2026-09-08T19:42:45Z"
+        }
+      ],
+      "branch_ref_observed": true,
+      "branch_target_sha": "345422db95377c8ee2a3ad46392419fd3c7e4d73",
+      "raw_snapshot_sha256": {
+        "meta": "57cb531ba06e0c9299184f5a59e89f885bd067bd404b0a15212615990b44706b",
+        "comments": "9f92688387733e7073cffb330456919ecf0b1eeb797c1c582ac28ed4ee28c004",
+        "reviews": "f4244bc6a8b40f71b871e6b7f6b311a9f559c04112207930aa3a3fb5466c747e",
+        "review-comments": "aedae01c9804ca3e8c73325755c471fa784d9ec9a8f2f3f93d0b1866c74900aa"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/0xMassi/webclaw/pulls/123",
+        "issue_comments": "https://api.github.com/repos/0xMassi/webclaw/issues/123/comments",
+        "reviews": "https://api.github.com/repos/0xMassi/webclaw/pulls/123/reviews",
+        "inline_review_comments": "https://api.github.com/repos/0xMassi/webclaw/pulls/123/comments"
+      }
+    },
+    {
+      "url": "https://github.com/nageoffer/ragent/pull/126",
+      "repository": "nageoffer/ragent",
+      "number": 126,
+      "author": "prodmanpd",
+      "created_at": "2026-08-31T16:11:39Z",
+      "updated_at": "2026-09-08T19:35:42Z",
+      "closed_at": null,
+      "merged_at": null,
+      "state": "open",
+      "baseline_state": "open",
+      "head_sha": "41c082ed3f62462ebf88f6416f7f36b5057de5f3",
+      "baseline_head_sha": "41c082ed3f62462ebf88f6416f7f36b5057de5f3",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/ragent",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:35:42Z",
+      "notice_url": "https://github.com/nageoffer/ragent/pull/126#issuecomment-5590741404",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 0,
+          "current": 1
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "41c082ed3f62462ebf88f6416f7f36b5057de5f3",
+      "raw_snapshot_sha256": {
+        "meta": "cdf2b013f00ef28ee9fa8414ff2d82ee177d5a612c377552b5b403dba95217e6",
+        "comments": "58d92ac445eb0fdd162ea21052b57d5d445e4caccb3c0d5f014e097c9ef0446d",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/nageoffer/ragent/pulls/126",
+        "issue_comments": "https://api.github.com/repos/nageoffer/ragent/issues/126/comments",
+        "reviews": "https://api.github.com/repos/nageoffer/ragent/pulls/126/reviews",
+        "inline_review_comments": "https://api.github.com/repos/nageoffer/ragent/pulls/126/comments"
+      }
+    },
+    {
+      "url": "https://github.com/sdcb/chats/pull/142",
+      "repository": "sdcb/chats",
+      "number": 142,
+      "author": "prodmanpd",
+      "created_at": "2026-08-31T16:14:05Z",
+      "updated_at": "2026-09-08T19:35:46Z",
+      "closed_at": null,
+      "merged_at": null,
+      "state": "open",
+      "baseline_state": "open",
+      "head_sha": "64431246e8703af87832117af79dc427ec182fa4",
+      "baseline_head_sha": "64431246e8703af87832117af79dc427ec182fa4",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/chats",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:35:46Z",
+      "notice_url": "https://github.com/sdcb/chats/pull/142#issuecomment-5590742281",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 0,
+          "current": 1
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "64431246e8703af87832117af79dc427ec182fa4",
+      "raw_snapshot_sha256": {
+        "meta": "cc39bd05651f7d0ab2c29e5cec8cb11463e672e1a9e34226d228c7efc404f23c",
+        "comments": "680c119c48f6b09bef6c08725a8f5b9ded88069bab5df02dd07401187a8fa631",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/sdcb/chats/pulls/142",
+        "issue_comments": "https://api.github.com/repos/sdcb/chats/issues/142/comments",
+        "reviews": "https://api.github.com/repos/sdcb/chats/pulls/142/reviews",
+        "inline_review_comments": "https://api.github.com/repos/sdcb/chats/pulls/142/comments"
+      }
+    },
+    {
+      "url": "https://github.com/Awarexone/Agentic-Bug-Hunter/pull/129",
+      "repository": "Awarexone/Agentic-Bug-Hunter",
+      "number": 129,
+      "author": "prodmanpd",
+      "created_at": "2026-09-08T18:03:34Z",
+      "updated_at": "2026-09-08T19:35:49Z",
+      "closed_at": null,
+      "merged_at": null,
+      "state": "open",
+      "baseline_state": "open",
+      "head_sha": "bf3866fc646474035e01a962c510f5034455640a",
+      "baseline_head_sha": "bf3866fc646474035e01a962c510f5034455640a",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/Agentic-Bug-Hunter",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:35:49Z",
+      "notice_url": "https://github.com/Awarexone/Agentic-Bug-Hunter/pull/129#issuecomment-5590743068",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 0,
+          "current": 1
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "bf3866fc646474035e01a962c510f5034455640a",
+      "raw_snapshot_sha256": {
+        "meta": "fb924ace337c8cec8651fd261408bd5461be706d9583051981dd663c923a66b7",
+        "comments": "bf0841aa148ef7c50e811adceb5a9dbd87a7fdc03c989465208f15a1174d2535",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/Awarexone/Agentic-Bug-Hunter/pulls/129",
+        "issue_comments": "https://api.github.com/repos/Awarexone/Agentic-Bug-Hunter/issues/129/comments",
+        "reviews": "https://api.github.com/repos/Awarexone/Agentic-Bug-Hunter/pulls/129/reviews",
+        "inline_review_comments": "https://api.github.com/repos/Awarexone/Agentic-Bug-Hunter/pulls/129/comments"
+      }
+    },
+    {
+      "url": "https://github.com/agentscope-ai/OpenJudge/pull/196",
+      "repository": "agentscope-ai/OpenJudge",
+      "number": 196,
+      "author": "prodmanpd",
+      "created_at": "2026-09-08T18:15:08Z",
+      "updated_at": "2026-09-08T19:35:53Z",
+      "closed_at": null,
+      "merged_at": null,
+      "state": "open",
+      "baseline_state": "open",
+      "head_sha": "7ecfc3bee7849d04a3a0c891e9f49ed0b3025de2",
+      "baseline_head_sha": "7ecfc3bee7849d04a3a0c891e9f49ed0b3025de2",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/OpenJudge",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:35:53Z",
+      "notice_url": "https://github.com/agentscope-ai/OpenJudge/pull/196#issuecomment-5590744124",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 0,
+          "current": 1
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "7ecfc3bee7849d04a3a0c891e9f49ed0b3025de2",
+      "raw_snapshot_sha256": {
+        "meta": "ff713882ec1ffde0a2d3f2832d966992308cf7662fb73dea7e3b6c13dbe628dd",
+        "comments": "281bcc52c720d2c1d20f1b2004a5b15b58cf020ae6c7d72291bf889b0fd8c471",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/agentscope-ai/OpenJudge/pulls/196",
+        "issue_comments": "https://api.github.com/repos/agentscope-ai/OpenJudge/issues/196/comments",
+        "reviews": "https://api.github.com/repos/agentscope-ai/OpenJudge/pulls/196/reviews",
+        "inline_review_comments": "https://api.github.com/repos/agentscope-ai/OpenJudge/pulls/196/comments"
+      }
+    },
+    {
+      "url": "https://github.com/jjyaoao/HelloAgents/pull/113",
+      "repository": "jjyaoao/HelloAgents",
+      "number": 113,
+      "author": "prodmanpd",
+      "created_at": "2026-09-08T18:23:49Z",
+      "updated_at": "2026-09-08T19:35:57Z",
+      "closed_at": null,
+      "merged_at": null,
+      "state": "open",
+      "baseline_state": "open",
+      "head_sha": "92d62462b1e68febca781d134005d92b84d239a8",
+      "baseline_head_sha": "92d62462b1e68febca781d134005d92b84d239a8",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/HelloAgents",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:35:56Z",
+      "notice_url": "https://github.com/jjyaoao/HelloAgents/pull/113#issuecomment-5590745009",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 0,
+          "current": 1
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "92d62462b1e68febca781d134005d92b84d239a8",
+      "raw_snapshot_sha256": {
+        "meta": "0cc99b293d797ff754c819fe5a87924beeea25b7a206205696211ef8445c337c",
+        "comments": "1a4dc8999da366728673e9c14d6626f1cf678548a5d2bd4ecc0f069afa2ad61a",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/jjyaoao/HelloAgents/pulls/113",
+        "issue_comments": "https://api.github.com/repos/jjyaoao/HelloAgents/issues/113/comments",
+        "reviews": "https://api.github.com/repos/jjyaoao/HelloAgents/pulls/113/reviews",
+        "inline_review_comments": "https://api.github.com/repos/jjyaoao/HelloAgents/pulls/113/comments"
+      }
+    },
+    {
+      "url": "https://github.com/SenteLabsAI/OpenExecutive/pull/98",
+      "repository": "SenteLabsAI/OpenExecutive",
+      "number": 98,
+      "author": "prodmanpd",
+      "created_at": "2026-09-08T18:35:01Z",
+      "updated_at": "2026-09-08T19:37:50Z",
+      "closed_at": null,
+      "merged_at": null,
+      "state": "open",
+      "baseline_state": "open",
+      "head_sha": "def6748dd5e3615c077ba16ad0ce76ee1e7bdb78",
+      "baseline_head_sha": "def6748dd5e3615c077ba16ad0ce76ee1e7bdb78",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/OpenExecutive",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:37:50Z",
+      "notice_url": "https://github.com/SenteLabsAI/OpenExecutive/pull/98#issuecomment-5590770823",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 0,
+          "current": 1
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "def6748dd5e3615c077ba16ad0ce76ee1e7bdb78",
+      "raw_snapshot_sha256": {
+        "meta": "4a4a2a7ae05c3f452929042ea94bb53e719f2362ba06d2c8d09f87c3e7c1037e",
+        "comments": "5502d67eef71c53b6e8687a1da5232de091a0794f7e9696dfa5af7f360755a5a",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/SenteLabsAI/OpenExecutive/pulls/98",
+        "issue_comments": "https://api.github.com/repos/SenteLabsAI/OpenExecutive/issues/98/comments",
+        "reviews": "https://api.github.com/repos/SenteLabsAI/OpenExecutive/pulls/98/reviews",
+        "inline_review_comments": "https://api.github.com/repos/SenteLabsAI/OpenExecutive/pulls/98/comments"
+      }
+    },
+    {
+      "url": "https://github.com/liuzhao1225/YouDub-webui/pull/130",
+      "repository": "liuzhao1225/YouDub-webui",
+      "number": 130,
+      "author": "prodmanpd",
+      "created_at": "2026-09-08T18:46:05Z",
+      "updated_at": "2026-09-08T19:32:28Z",
+      "closed_at": null,
+      "merged_at": null,
+      "state": "open",
+      "baseline_state": "open",
+      "head_sha": "1add1b6d90795ddc222c3f5021305a2e8d953a17",
+      "baseline_head_sha": "1add1b6d90795ddc222c3f5021305a2e8d953a17",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/YouDub-webui",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:32:28Z",
+      "notice_url": "https://github.com/liuzhao1225/YouDub-webui/pull/130#issuecomment-5590699738",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 1,
+          "current": 3
+        },
+        "reviews": {
+          "baseline": 1,
+          "current": 1
+        },
+        "review-comments": {
+          "baseline": 1,
+          "current": 1
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "1add1b6d90795ddc222c3f5021305a2e8d953a17",
+      "raw_snapshot_sha256": {
+        "meta": "ef6024cd42a321fac4090784a2ac359e14b8afb8788d1bdc4a0366bc0fbccd7b",
+        "comments": "214fb5fd5d8571f3743b0b6f8fe4ff939e1dc5386707f6ada3186619d1d2fcec",
+        "reviews": "3cef523fa83864df710dd853bfef6ae072baba1c9f29384f2d1189c5d4631ecf",
+        "review-comments": "9616fdaa7e6ff9fb35acf2407f1077ad5d5eb46d83cdd2c0eb7707c3b759d420"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/liuzhao1225/YouDub-webui/pulls/130",
+        "issue_comments": "https://api.github.com/repos/liuzhao1225/YouDub-webui/issues/130/comments",
+        "reviews": "https://api.github.com/repos/liuzhao1225/YouDub-webui/pulls/130/reviews",
+        "inline_review_comments": "https://api.github.com/repos/liuzhao1225/YouDub-webui/pulls/130/comments"
+      }
+    },
+    {
+      "url": "https://github.com/ageerle/ruoyi-ai/pull/333",
+      "repository": "ageerle/ruoyi-ai",
+      "number": 333,
+      "author": "prodmanpd",
+      "created_at": "2026-09-08T19:01:44Z",
+      "updated_at": "2026-09-08T19:37:54Z",
+      "closed_at": null,
+      "merged_at": null,
+      "state": "open",
+      "baseline_state": "open",
+      "head_sha": "b1104c8ac609b5ca22a14f8c78312fd137c1e191",
+      "baseline_head_sha": "b1104c8ac609b5ca22a14f8c78312fd137c1e191",
+      "head_ref": "feat/add-litellm-provider",
+      "head_repository": "prodmanpd/ruoyi-ai",
+      "head_repository_available": true,
+      "locked": false,
+      "notice_created_at": "2026-09-08T19:37:54Z",
+      "notice_url": "https://github.com/ageerle/ruoyi-ai/pull/333#issuecomment-5590771584",
+      "discussion_counts": {
+        "comments": {
+          "baseline": 0,
+          "current": 1
+        },
+        "reviews": {
+          "baseline": 0,
+          "current": 0
+        },
+        "review-comments": {
+          "baseline": 0,
+          "current": 0
+        }
+      },
+      "post_notice_non_reporter_items": [],
+      "branch_ref_observed": true,
+      "branch_target_sha": "b1104c8ac609b5ca22a14f8c78312fd137c1e191",
+      "raw_snapshot_sha256": {
+        "meta": "5aea0b1658a5bfcf1a2730e726af7f13f41df1088b1a4242cfc542432f4ced3e",
+        "comments": "9d0183b46aabd7f071daf6ca30ca1bdc3cc17e7a23ae10a80b960f7473be09c2",
+        "reviews": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "review-comments": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "sources": {
+        "metadata": "https://api.github.com/repos/ageerle/ruoyi-ai/pulls/333",
+        "issue_comments": "https://api.github.com/repos/ageerle/ruoyi-ai/issues/333/comments",
+        "reviews": "https://api.github.com/repos/ageerle/ruoyi-ai/pulls/333/reviews",
+        "inline_review_comments": "https://api.github.com/repos/ageerle/ruoyi-ai/pulls/333/comments"
+      }
+    }
+  ],
+  "branch_response_saved_at": "2026-09-08T19:50:04.183040+00:00"
+}

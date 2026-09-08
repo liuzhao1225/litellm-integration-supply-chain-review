@@ -1,0 +1,95 @@
+{
+  "method": "Fixed-commit GitHub contents API; blob SHA checked; only integer, hex and base64 string literals decoded as inert data with Python. No JavaScript executed; no target endpoint or returned URL visited. info-notify source is reused from primary investigator static evidence.",
+  "items": [
+    {
+      "owner": "profilesecurity-io",
+      "commit": "55b4c7427341186d1f2d953bb062096e943f60ab",
+      "source": "https://api.github.com/repos/profilesecurity-io/profilesecurity-io.github.io/contents/index.html?ref=55b4c7427341186d1f2d953bb062096e943f60ab",
+      "blob_sha": "9aa2c297339d52cc43f6118815d90160cc846d24",
+      "sha256": "92329ca8bed0f33e4dbb285588e79a576987920e64a8874c34a96b4e1ffa99a9",
+      "size": 1596,
+      "observed_at": "2026-09-08T20:47:24.170791+00:00",
+      "integer_array_count": 0,
+      "hex_string_count": 1,
+      "base64_string_count": 0,
+      "decoded_text_sha256": [
+        "7ae96917990839cd00f52bb1a2268dc5e5a5ed42f88f450cc8b0a99124178f96"
+      ],
+      "uses_string_from_char_code": false,
+      "uses_document_write": true,
+      "contains_fetch": true,
+      "contains_window_location_href": true,
+      "urls_defanged": [
+        "hxxps://user-github[.]com/generate"
+      ]
+    },
+    {
+      "owner": "support-message",
+      "commit": "9259084900847f11d44dc5cfc029ebfe229daa29",
+      "source": "https://api.github.com/repos/support-message/support-message.github.io/contents/index.html?ref=9259084900847f11d44dc5cfc029ebfe229daa29",
+      "blob_sha": "0a342d64d8534b9bedf76b2a2626bf0883a165db",
+      "sha256": "67ecdd8d2b4b8ae8576dc5c779a868e7df6b78f84f8744ad1cc6b940ac2bc2c2",
+      "size": 566,
+      "observed_at": "2026-09-08T20:47:24.881191+00:00",
+      "integer_array_count": 0,
+      "hex_string_count": 0,
+      "base64_string_count": 1,
+      "decoded_text_sha256": [
+        "7ae96917990839cd00f52bb1a2268dc5e5a5ed42f88f450cc8b0a99124178f96"
+      ],
+      "uses_string_from_char_code": false,
+      "uses_document_write": true,
+      "contains_fetch": true,
+      "contains_window_location_href": true,
+      "urls_defanged": [
+        "hxxps://user-github[.]com/generate"
+      ]
+    },
+    {
+      "owner": "users-info",
+      "commit": "82ef4150ad8a3bbb646e57de303f3b6b42c9508a",
+      "source": "https://api.github.com/repos/users-info/users-info.github.io/contents/index.html?ref=82ef4150ad8a3bbb646e57de303f3b6b42c9508a",
+      "blob_sha": "0a342d64d8534b9bedf76b2a2626bf0883a165db",
+      "sha256": "67ecdd8d2b4b8ae8576dc5c779a868e7df6b78f84f8744ad1cc6b940ac2bc2c2",
+      "size": 566,
+      "observed_at": "2026-09-08T20:47:25.670375+00:00",
+      "integer_array_count": 0,
+      "hex_string_count": 0,
+      "base64_string_count": 1,
+      "decoded_text_sha256": [
+        "7ae96917990839cd00f52bb1a2268dc5e5a5ed42f88f450cc8b0a99124178f96"
+      ],
+      "uses_string_from_char_code": false,
+      "uses_document_write": true,
+      "contains_fetch": true,
+      "contains_window_location_href": true,
+      "urls_defanged": [
+        "hxxps://user-github[.]com/generate"
+      ]
+    },
+    {
+      "captured_at_utc": "2026-09-08T20:45:24.444302+00:00",
+      "source": "https://api.github.com/repos/info-notify/info-notify.github.io/git/blobs/6258cb06dd936c9220713a953048cf7e67db7aa7",
+      "blob_sha": "6258cb06dd936c9220713a953048cf7e67db7aa7",
+      "sha256": "145c146dfc25a864a1f28c8d1095975cbbf7d325177c198701b7990f8efa61c3",
+      "size": 1446,
+      "method": "Fixed Git blob decoded as text; no page JavaScript executed and no target URL followed.",
+      "owner": "info-notify",
+      "commit": "1c60464c0e2d1a82493b26969d043f1a2656c155",
+      "observed_at": "2026-09-08T20:45:24.444302+00:00",
+      "integer_array_count": 1,
+      "hex_string_count": 0,
+      "base64_string_count": 0,
+      "decoded_text_sha256": [
+        "7ae96917990839cd00f52bb1a2268dc5e5a5ed42f88f450cc8b0a99124178f96"
+      ],
+      "uses_string_from_char_code": true,
+      "uses_document_write": true,
+      "contains_fetch": true,
+      "contains_window_location_href": true,
+      "urls_defanged": [
+        "hxxps://user-github[.]com/generate"
+      ]
+    }
+  ]
+}

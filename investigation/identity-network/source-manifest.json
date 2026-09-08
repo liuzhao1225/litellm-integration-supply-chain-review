@@ -1,0 +1,308 @@
+[
+  {
+    "name": "mirix",
+    "repo": "Mirix-AI/MIRIX",
+    "head": "848e4bc615318a20ada484d09e22a09eac670d85",
+    "path": "Dockerfile",
+    "blob_sha": "a2b920488bcc494a032fe5c455297dc05959a410",
+    "sha256": "c6169cb7959c21a2fae6f5946c43512646110b2e452f048ae6b61fc7ed8898ff",
+    "source": "https://github.com/Mirix-AI/MIRIX/blob/848e4bc615318a20ada484d09e22a09eac670d85/Dockerfile"
+  },
+  {
+    "name": "mirix",
+    "repo": "Mirix-AI/MIRIX",
+    "head": "848e4bc615318a20ada484d09e22a09eac670d85",
+    "path": "poetry.lock",
+    "blob_sha": "287b9973edacd3d30f8abfabb8117180bf6d2bde",
+    "sha256": "ae66f290cfbe986b5e7414ebb0e13a7eb207aa54353b73603f2b726067f1894f",
+    "source": "https://github.com/Mirix-AI/MIRIX/blob/848e4bc615318a20ada484d09e22a09eac670d85/poetry.lock"
+  },
+  {
+    "name": "mirix",
+    "repo": "Mirix-AI/MIRIX",
+    "head": "848e4bc615318a20ada484d09e22a09eac670d85",
+    "path": "pyproject.toml",
+    "blob_sha": "024bb271633447bb3bfe3d7e54cf7fc5619d9b19",
+    "sha256": "e247c3f531c963a852318c7662346c8618771a90717065b11eb0f9d3ec8c5837",
+    "source": "https://github.com/Mirix-AI/MIRIX/blob/848e4bc615318a20ada484d09e22a09eac670d85/pyproject.toml"
+  },
+  {
+    "name": "mirix",
+    "repo": "Mirix-AI/MIRIX",
+    "head": "848e4bc615318a20ada484d09e22a09eac670d85",
+    "path": "requirements.txt",
+    "blob_sha": "90b1f70826e05c72d9312dd07e0d4c24aae023ec",
+    "sha256": "ba78551c38b2de3833b13a191a029fee06e67bec9efa24807c598241425d5a48",
+    "source": "https://github.com/Mirix-AI/MIRIX/blob/848e4bc615318a20ada484d09e22a09eac670d85/requirements.txt"
+  },
+  {
+    "name": "mirix",
+    "repo": "Mirix-AI/MIRIX",
+    "head": "848e4bc615318a20ada484d09e22a09eac670d85",
+    "path": "setup.py",
+    "blob_sha": "516351c5fed3bfa78fe23c68484f40ea821e68db",
+    "sha256": "5b8ce76164351a60e78ba9c36a5d12b802a1620b2ad65ea4cf64ee017b50a8e8",
+    "source": "https://github.com/Mirix-AI/MIRIX/blob/848e4bc615318a20ada484d09e22a09eac670d85/setup.py"
+  },
+  {
+    "name": "mirix",
+    "repo": "Mirix-AI/MIRIX",
+    "head": "848e4bc615318a20ada484d09e22a09eac670d85",
+    "path": "uv.lock",
+    "blob_sha": "46011c810c3bf0f2f79872eaeb16046ebd2f570f",
+    "sha256": "a04c32db92034fb0778a475c12ec8b20bd2a4a4c2b00e911ba9bdfc3cd3df9e0",
+    "source": "https://github.com/Mirix-AI/MIRIX/blob/848e4bc615318a20ada484d09e22a09eac670d85/uv.lock"
+  },
+  {
+    "name": "guidellm",
+    "repo": "vllm-project/guidellm",
+    "head": "f848ceb2a4abb68c61e1a5a36921514f4acf80eb",
+    "path": "package.json",
+    "blob_sha": "b51eb47d33204053aa1e6b9f4c0427ca48b55453",
+    "sha256": "013996f68a2d735723e43837b27e5f17eca3445a960857eabcc031a76a155bf7",
+    "source": "https://github.com/vllm-project/guidellm/blob/f848ceb2a4abb68c61e1a5a36921514f4acf80eb/package.json"
+  },
+  {
+    "name": "guidellm",
+    "repo": "vllm-project/guidellm",
+    "head": "f848ceb2a4abb68c61e1a5a36921514f4acf80eb",
+    "path": "pyproject.toml",
+    "blob_sha": "5f7a5efceab78d4b2dfd4c1cc612c13666f4d30f",
+    "sha256": "6168e212ccfaa56da4bda0450d952c2f01e2ecdb70aefb7846278cabb74a26dd",
+    "source": "https://github.com/vllm-project/guidellm/blob/f848ceb2a4abb68c61e1a5a36921514f4acf80eb/pyproject.toml"
+  },
+  {
+    "name": "guidellm",
+    "repo": "vllm-project/guidellm",
+    "head": "f848ceb2a4abb68c61e1a5a36921514f4acf80eb",
+    "path": "setup.py",
+    "blob_sha": "aa88957f0a84ce1dd59fe58be7a826b0f5118b95",
+    "sha256": "45d5070cce643ab1fbf46d3af13fd1cd2e1be06f5296c191f66ceac12d2e0063",
+    "source": "https://github.com/vllm-project/guidellm/blob/f848ceb2a4abb68c61e1a5a36921514f4acf80eb/setup.py"
+  },
+  {
+    "name": "guidellm",
+    "repo": "vllm-project/guidellm",
+    "head": "f848ceb2a4abb68c61e1a5a36921514f4acf80eb",
+    "path": "uv.lock",
+    "blob_sha": "489514297f3e4597d5686409c7998197f0ffc79b",
+    "sha256": "653a61f4dbae6e01dc727d185284305923f6b26d38a6a323dde997faf3c7c644",
+    "source": "https://github.com/vllm-project/guidellm/blob/f848ceb2a4abb68c61e1a5a36921514f4acf80eb/uv.lock"
+  },
+  {
+    "name": "vlmeval",
+    "repo": "open-compass/VLMEvalKit",
+    "head": "1d97488260beccbaeb6f39e2c02f3a4cbc95df79",
+    "path": "README.md",
+    "blob_sha": "88e670c13b14510181a83d44a050ed2bcba42d2c",
+    "sha256": "bac00d69d67e88d92e8f37dc7c9232ac422841b71292ef4cea18ed84b42d8bea",
+    "source": "https://github.com/open-compass/VLMEvalKit/blob/1d97488260beccbaeb6f39e2c02f3a4cbc95df79/README.md"
+  },
+  {
+    "name": "vlmeval",
+    "repo": "open-compass/VLMEvalKit",
+    "head": "1d97488260beccbaeb6f39e2c02f3a4cbc95df79",
+    "path": "requirements.txt",
+    "blob_sha": "ef9c78bbcb8242e9788dd0ea6bffac6ff6e26f17",
+    "sha256": "515ca97e7c8cdd577c1fa647fcdcd676094d5725e456fd07d4f0519b4a27b15b",
+    "source": "https://github.com/open-compass/VLMEvalKit/blob/1d97488260beccbaeb6f39e2c02f3a4cbc95df79/requirements.txt"
+  },
+  {
+    "name": "vlmeval",
+    "repo": "open-compass/VLMEvalKit",
+    "head": "1d97488260beccbaeb6f39e2c02f3a4cbc95df79",
+    "path": "setup.cfg",
+    "blob_sha": "8a683f3992c02a46ddd289b133ae71c54bb4a380",
+    "sha256": "8aac8f5a8edb97be43bca13f7682c5957438db870c901f957dad5703dfb2e010",
+    "source": "https://github.com/open-compass/VLMEvalKit/blob/1d97488260beccbaeb6f39e2c02f3a4cbc95df79/setup.cfg"
+  },
+  {
+    "name": "vlmeval",
+    "repo": "open-compass/VLMEvalKit",
+    "head": "1d97488260beccbaeb6f39e2c02f3a4cbc95df79",
+    "path": "setup.py",
+    "blob_sha": "253ef4cfdc6a82d47d369a213a067c8803dfbc59",
+    "sha256": "e6e6f869976810e2939df4d375d3ed45a2fc87962b3bf1c2d3d4b1d15306d767",
+    "source": "https://github.com/open-compass/VLMEvalKit/blob/1d97488260beccbaeb6f39e2c02f3a4cbc95df79/setup.py"
+  },
+  {
+    "name": "mle",
+    "repo": "MLSysOps/MLE-agent",
+    "head": "67911ee47b034b09c87a7e02cfc3b9ff746f0d2b",
+    "path": "pyproject.toml",
+    "blob_sha": "e08ebbf9715c62832a51a086df939b35084697e5",
+    "sha256": "3e65070c246dbf3ac92e292d0e7674bae4d3f54527f904d1dc12b0f0498d4004",
+    "source": "https://github.com/MLSysOps/MLE-agent/blob/67911ee47b034b09c87a7e02cfc3b9ff746f0d2b/pyproject.toml"
+  },
+  {
+    "name": "mle",
+    "repo": "MLSysOps/MLE-agent",
+    "head": "67911ee47b034b09c87a7e02cfc3b9ff746f0d2b",
+    "path": "setup.cfg",
+    "blob_sha": "81295cc44da57fdaaae730d07463867e786241a1",
+    "sha256": "f1b5c013fd98432e163c4ea39cd6e267b5db36e1eab7f70765ddef95de0daaee",
+    "source": "https://github.com/MLSysOps/MLE-agent/blob/67911ee47b034b09c87a7e02cfc3b9ff746f0d2b/setup.cfg"
+  },
+  {
+    "name": "mle",
+    "repo": "MLSysOps/MLE-agent",
+    "head": "67911ee47b034b09c87a7e02cfc3b9ff746f0d2b",
+    "path": "uv.lock",
+    "blob_sha": "7fdf900a4cbcec91034d6153ed7f73281abb7cb5",
+    "sha256": "d3b1cac1310f9e3c5e1a724e76a7c8c2b9c69ada917214e812e582ed218d5075",
+    "source": "https://github.com/MLSysOps/MLE-agent/blob/67911ee47b034b09c87a7e02cfc3b9ff746f0d2b/uv.lock"
+  },
+  {
+    "name": "kotaemon",
+    "repo": "Cinnamon/kotaemon",
+    "head": "d63a2f6aedd56413839fc654da2125df4879241d",
+    "path": "Dockerfile",
+    "blob_sha": "c408edadb9910f0a4178c5aa3e7b9b605db208fc",
+    "sha256": "25050903713167c7c789ab2016ef21286cc2b0c555f6bddcb27e1682a0e95c38",
+    "source": "https://github.com/Cinnamon/kotaemon/blob/d63a2f6aedd56413839fc654da2125df4879241d/Dockerfile"
+  },
+  {
+    "name": "kotaemon",
+    "repo": "Cinnamon/kotaemon",
+    "head": "d63a2f6aedd56413839fc654da2125df4879241d",
+    "path": "libs/kotaemon/pyproject.toml",
+    "blob_sha": "6179ee2310658c11acc55c33b03991c45b00007d",
+    "sha256": "f27da1369ffa3600b289b9241b32efd8267227f37244bec5d200b62491ee3d05",
+    "source": "https://github.com/Cinnamon/kotaemon/blob/d63a2f6aedd56413839fc654da2125df4879241d/libs/kotaemon/pyproject.toml"
+  },
+  {
+    "name": "kotaemon",
+    "repo": "Cinnamon/kotaemon",
+    "head": "d63a2f6aedd56413839fc654da2125df4879241d",
+    "path": "pyproject.toml",
+    "blob_sha": "88f5dd3266bb12947fc4fb6f5ef6ec0f3cafa6d5",
+    "sha256": "5e6871dacc75f0c2d0bb0552bc165ca46f7e4b8645bd304aeed8eeb748747ae8",
+    "source": "https://github.com/Cinnamon/kotaemon/blob/d63a2f6aedd56413839fc654da2125df4879241d/pyproject.toml"
+  },
+  {
+    "name": "kotaemon",
+    "repo": "Cinnamon/kotaemon",
+    "head": "d63a2f6aedd56413839fc654da2125df4879241d",
+    "path": "uv.lock",
+    "blob_sha": "ae4fd9bc3627eb65bab73564bd49c8b6fb7fce0c",
+    "sha256": "2011832c0c36c0864142e0a09bf3787d3519f95366b650be97808264cf4709c9",
+    "source": "https://github.com/Cinnamon/kotaemon/blob/d63a2f6aedd56413839fc654da2125df4879241d/uv.lock"
+  },
+  {
+    "name": "lm-eval",
+    "repo": "EleutherAI/lm-evaluation-harness",
+    "head": "c25d03166b243377b3fa02d5f2fdc727932659db",
+    "path": "pyproject.toml",
+    "blob_sha": "1c0b402895136e29778bf1775d5fa5e1ead8154a",
+    "sha256": "fde35116d028c97ab2126d37efc098118672959e36c3b12082e813c34d681062",
+    "source": "https://github.com/EleutherAI/lm-evaluation-harness/blob/c25d03166b243377b3fa02d5f2fdc727932659db/pyproject.toml"
+  },
+  {
+    "name": "pdfmath",
+    "repo": "PDFMathTranslate/PDFMathTranslate",
+    "head": "812dd8b1975add4bb0710dcf382e6d808dae0eed",
+    "path": "Dockerfile",
+    "blob_sha": "9dd51097daa1766d45c833909f7536e9530d372b",
+    "sha256": "86d59b2e26790d2c53ef7edd79082abeb188dc4350ea2ab80b926d0ef1ea4e80",
+    "source": "https://github.com/PDFMathTranslate/PDFMathTranslate/blob/812dd8b1975add4bb0710dcf382e6d808dae0eed/Dockerfile"
+  },
+  {
+    "name": "pdfmath",
+    "repo": "PDFMathTranslate/PDFMathTranslate",
+    "head": "812dd8b1975add4bb0710dcf382e6d808dae0eed",
+    "path": "pyproject.toml",
+    "blob_sha": "5ab4892f15e748273902b800420cdda5e34fe70a",
+    "sha256": "9573f79157dcbb0e2abadf8caf7009f2b4588e37b7d384029cf47ed4bf8f8f6d",
+    "source": "https://github.com/PDFMathTranslate/PDFMathTranslate/blob/812dd8b1975add4bb0710dcf382e6d808dae0eed/pyproject.toml"
+  },
+  {
+    "name": "pdfmath",
+    "repo": "PDFMathTranslate/PDFMathTranslate",
+    "head": "812dd8b1975add4bb0710dcf382e6d808dae0eed",
+    "path": "setup.cfg",
+    "blob_sha": "d4304f1746adff96e192d7057f1e3cdde92373ca",
+    "sha256": "3fb3227f8ad91fe84679fbd922bd9df6eae52988d2fe3327f10b2a38b4b56531",
+    "source": "https://github.com/PDFMathTranslate/PDFMathTranslate/blob/812dd8b1975add4bb0710dcf382e6d808dae0eed/setup.cfg"
+  },
+  {
+    "name": "agentic-security",
+    "repo": "msoedov/agentic_security",
+    "head": "a4833908ef7124b37f4c50115712a257e1dc3051",
+    "path": "Dockerfile",
+    "blob_sha": "feeebcc9cdf60c86d5d94c0ed0374fe9d9a990d0",
+    "sha256": "31e9db7a3e7a1bdac1dea1195c6ea98faba28ef2a3b91d11e734b7c36ef804a9",
+    "source": "https://github.com/msoedov/agentic_security/blob/a4833908ef7124b37f4c50115712a257e1dc3051/Dockerfile"
+  },
+  {
+    "name": "agentic-security",
+    "repo": "msoedov/agentic_security",
+    "head": "a4833908ef7124b37f4c50115712a257e1dc3051",
+    "path": "poetry.lock",
+    "blob_sha": "70b1a6445063e9dedc92e27ac067b92521660612",
+    "sha256": "25aa9d5b305e4638c5971483e8ab4092a62a921a6f25574629fb2c570f76b4f3",
+    "source": "https://github.com/msoedov/agentic_security/blob/a4833908ef7124b37f4c50115712a257e1dc3051/poetry.lock"
+  },
+  {
+    "name": "agentic-security",
+    "repo": "msoedov/agentic_security",
+    "head": "a4833908ef7124b37f4c50115712a257e1dc3051",
+    "path": "pyproject.toml",
+    "blob_sha": "f286af8bc729c13469eb4e1001df2b1c20534e41",
+    "sha256": "5830fea318d0528d988df4ca7cf21ce35b432f6f80a94f384b899eac48d384ce",
+    "source": "https://github.com/msoedov/agentic_security/blob/a4833908ef7124b37f4c50115712a257e1dc3051/pyproject.toml"
+  },
+  {
+    "name": "burr",
+    "repo": "apache/burr",
+    "head": "2202e52f7600741f26e840f411313c361ffcf6e9",
+    "path": "pyproject.toml",
+    "blob_sha": "296390ecc44ba8e7014620b8b9d707717d909650",
+    "sha256": "44dcaa5151856824b4e9b1420ea1c397e8fcf013e48b516c0dd8967a563f45a4",
+    "source": "https://github.com/apache/burr/blob/2202e52f7600741f26e840f411313c361ffcf6e9/pyproject.toml"
+  },
+  {
+    "name": "burr",
+    "repo": "apache/burr",
+    "head": "2202e52f7600741f26e840f411313c361ffcf6e9",
+    "path": "setup.cfg",
+    "blob_sha": "60ee3500dfea76b687f67f7cb07231ed48b2d733",
+    "sha256": "7172683b5222c5863766b7a12040d54140d314771d8c03417a687df1f17310f3",
+    "source": "https://github.com/apache/burr/blob/2202e52f7600741f26e840f411313c361ffcf6e9/setup.cfg"
+  },
+  {
+    "name": "swarmclaw",
+    "repo": "swarmclawai/swarmclaw",
+    "head": "c672acd65daed223ba30480fa3f14f181769cfd7",
+    "path": "Dockerfile",
+    "blob_sha": "03c35c7c2c42145720a4d884625374a83b497ea5",
+    "sha256": "b1cf26860ef382c3c32f52c081bd511345392b083539fb4a5f6b5462658ac8e1",
+    "source": "https://github.com/swarmclawai/swarmclaw/blob/c672acd65daed223ba30480fa3f14f181769cfd7/Dockerfile"
+  },
+  {
+    "name": "swarmclaw",
+    "repo": "swarmclawai/swarmclaw",
+    "head": "c672acd65daed223ba30480fa3f14f181769cfd7",
+    "path": "package.json",
+    "blob_sha": "165d512ed78c066137bf0f5250eb4adc8099ffe7",
+    "sha256": "8aba36a5c34cfa2a1417dcd4af72569ce74882c9da6dc4e8608714ffcf9172cd",
+    "source": "https://github.com/swarmclawai/swarmclaw/blob/c672acd65daed223ba30480fa3f14f181769cfd7/package.json"
+  },
+  {
+    "name": "mercury",
+    "repo": "cosmicstack-labs/mercury-agent",
+    "head": "797980a144ed16715d4d2075f20258d6029fda2b",
+    "path": "package.json",
+    "blob_sha": "6a02951b6eba784a03b1b76ad3f934a37097f88d",
+    "sha256": "51a94fe20b8ad96824c954e40fd6eab4000c1f0a937ea738811b5c6b0b50264e",
+    "source": "https://github.com/cosmicstack-labs/mercury-agent/blob/797980a144ed16715d4d2075f20258d6029fda2b/package.json"
+  },
+  {
+    "name": "automaton",
+    "repo": "Conway-Research/automaton",
+    "head": "378a7d0bc53b77a6490f0f384aa005038403a7c4",
+    "path": "package.json",
+    "blob_sha": "4beae2b0c31fd3cdc5b3039634716570bd8c2a91",
+    "sha256": "47183198b0d7d8255b246aad19b65aef93db50f4e5775685132b0771bbfe8a37",
+    "source": "https://github.com/Conway-Research/automaton/blob/378a7d0bc53b77a6490f0f384aa005038403a7c4/package.json"
+  }
+]

@@ -1,0 +1,370 @@
+{
+  "checked_at_utc": "2026-09-08T20:29:57.917Z",
+  "normalization": "Only lexical bindings and shorthand metadata. No import sorting or statement reordering.",
+  "results": [
+    {
+      "key": "450240",
+      "git_alpha_only_sha256": "2383f0cace08b8de99ba3ab348423592687a2263fd1876adbc5f75a1799a2601",
+      "wheel_alpha_only_sha256": "2383f0cace08b8de99ba3ab348423592687a2263fd1876adbc5f75a1799a2601",
+      "alpha_only_equal": true,
+      "git_import_sequence": [
+        843476,
+        286536,
+        77705,
+        271645,
+        950594
+      ],
+      "wheel_import_sequence": [
+        843476,
+        286536,
+        77705,
+        271645,
+        950594
+      ],
+      "import_sequence_equal": true
+    },
+    {
+      "key": "738014",
+      "git_alpha_only_sha256": "ca18e9072ebdf147d4ff923d7cf08769aee40d7b089dd5f85ae1fd29ae02b2f3",
+      "wheel_alpha_only_sha256": "ca18e9072ebdf147d4ff923d7cf08769aee40d7b089dd5f85ae1fd29ae02b2f3",
+      "alpha_only_equal": true,
+      "git_import_sequence": [
+        135214,
+        602869,
+        266027,
+        243652
+      ],
+      "wheel_import_sequence": [
+        135214,
+        602869,
+        266027,
+        243652
+      ],
+      "import_sequence_equal": true
+    },
+    {
+      "key": "868499",
+      "git_alpha_only_sha256": "7f160fda70f71c8e3eee48d907233e78f087c4153a46c9e89b7667c4347387fb",
+      "wheel_alpha_only_sha256": "7f160fda70f71c8e3eee48d907233e78f087c4153a46c9e89b7667c4347387fb",
+      "alpha_only_equal": true,
+      "git_import_sequence": [
+        843476,
+        558762,
+        366250,
+        402820,
+        156736,
+        209793,
+        784324,
+        264951,
+        77173,
+        313488,
+        974217,
+        325326,
+        301807,
+        734604,
+        196631,
+        519455
+      ],
+      "wheel_import_sequence": [
+        843476,
+        558762,
+        366250,
+        402820,
+        156736,
+        209793,
+        784324,
+        264951,
+        77173,
+        313488,
+        974217,
+        325326,
+        301807,
+        734604,
+        196631,
+        519455
+      ],
+      "import_sequence_equal": true
+    },
+    {
+      "key": "655063",
+      "git_alpha_only_sha256": "baa95eeb046fa6ecb9dd0ac909b0501309dd7fdd7996b3234a6256aa97d2cd6c",
+      "wheel_alpha_only_sha256": "baa95eeb046fa6ecb9dd0ac909b0501309dd7fdd7996b3234a6256aa97d2cd6c",
+      "alpha_only_equal": true,
+      "git_import_sequence": [
+        540626,
+        271645
+      ],
+      "wheel_import_sequence": [
+        540626,
+        271645
+      ],
+      "import_sequence_equal": true
+    },
+    {
+      "key": "438847",
+      "git_alpha_only_sha256": "de2a12117cda71420671fd0dbd811a9192b7f2815ba3b65a33856b4a736df2f8",
+      "wheel_alpha_only_sha256": "de2a12117cda71420671fd0dbd811a9192b7f2815ba3b65a33856b4a736df2f8",
+      "alpha_only_equal": true,
+      "git_import_sequence": [
+        916108,
+        487315,
+        280862,
+        271645
+      ],
+      "wheel_import_sequence": [
+        916108,
+        487315,
+        280862,
+        271645
+      ],
+      "import_sequence_equal": true
+    },
+    {
+      "key": "822315",
+      "git_alpha_only_sha256": "bba6bbb9c6e381844e79774187f4e6c5674f8a0c157e3a14bae7383cbefc938f",
+      "wheel_alpha_only_sha256": "bba6bbb9c6e381844e79774187f4e6c5674f8a0c157e3a14bae7383cbefc938f",
+      "alpha_only_equal": true,
+      "git_import_sequence": [],
+      "wheel_import_sequence": [],
+      "import_sequence_equal": true
+    },
+    {
+      "key": "133356",
+      "git_alpha_only_sha256": "90a48d826b94f8ed1dc89219d18f9a41800a73bea52bfcbc070aef884a0e7247",
+      "wheel_alpha_only_sha256": "90a48d826b94f8ed1dc89219d18f9a41800a73bea52bfcbc070aef884a0e7247",
+      "alpha_only_equal": true,
+      "git_import_sequence": [
+        843476,
+        199931,
+        487486,
+        196631
+      ],
+      "wheel_import_sequence": [
+        843476,
+        199931,
+        487486,
+        196631
+      ],
+      "import_sequence_equal": true
+    },
+    {
+      "key": "162386",
+      "git_alpha_only_sha256": "c8701a6edb45d406dcaffa3cda2c20777ad736d0bf8aba58186b369e35a2f0b7",
+      "wheel_alpha_only_sha256": "c8701a6edb45d406dcaffa3cda2c20777ad736d0bf8aba58186b369e35a2f0b7",
+      "alpha_only_equal": true,
+      "git_import_sequence": [
+        843476,
+        625901,
+        109799,
+        785242,
+        738014,
+        131792,
+        302747,
+        746798
+      ],
+      "wheel_import_sequence": [
+        843476,
+        625901,
+        109799,
+        785242,
+        738014,
+        131792,
+        302747,
+        746798
+      ],
+      "import_sequence_equal": true
+    },
+    {
+      "key": "902555",
+      "git_alpha_only_sha256": "ceb7f97778e5e764fe96d17d38172b0d36fc0390c3b278c3d50e58cc67634aa0",
+      "wheel_alpha_only_sha256": "ceb7f97778e5e764fe96d17d38172b0d36fc0390c3b278c3d50e58cc67634aa0",
+      "alpha_only_equal": true,
+      "git_import_sequence": [
+        843476,
+        746798,
+        271645,
+        278587,
+        68155,
+        360820,
+        871943,
+        434626,
+        196631
+      ],
+      "wheel_import_sequence": [
+        843476,
+        746798,
+        271645,
+        278587,
+        68155,
+        360820,
+        871943,
+        434626,
+        196631
+      ],
+      "import_sequence_equal": true
+    },
+    {
+      "key": "276173,907308",
+      "git_alpha_only_sha256": "eecf51dfc47b91a945a302512aec8a175bc5fa555ec75af901b1d46fdd661009",
+      "wheel_alpha_only_sha256": "eecf51dfc47b91a945a302512aec8a175bc5fa555ec75af901b1d46fdd661009",
+      "alpha_only_equal": true,
+      "git_import_sequence": [
+        843476,
+        271645,
+        952571,
+        879002,
+        204290,
+        929592,
+        653145,
+        602869,
+        542450,
+        182668,
+        744582,
+        519455,
+        776639,
+        967489,
+        746798,
+        571303,
+        681307,
+        435451,
+        860585,
+        845150,
+        793479,
+        991326
+      ],
+      "wheel_import_sequence": [
+        843476,
+        271645,
+        952571,
+        879002,
+        204290,
+        929592,
+        653145,
+        602869,
+        542450,
+        182668,
+        744582,
+        519455,
+        776639,
+        967489,
+        746798,
+        571303,
+        681307,
+        435451,
+        860585,
+        845150,
+        793479,
+        991326
+      ],
+      "import_sequence_equal": true
+    },
+    {
+      "key": "294612",
+      "git_alpha_only_sha256": "681078aa1574813198cd1b6afdc562bffba0604f37e4e01d89b0a6e67d083e7b",
+      "wheel_alpha_only_sha256": "681078aa1574813198cd1b6afdc562bffba0604f37e4e01d89b0a6e67d083e7b",
+      "alpha_only_equal": true,
+      "git_import_sequence": [
+        843476,
+        746798,
+        622826,
+        112179,
+        519455,
+        784774,
+        243553,
+        952571,
+        284614,
+        879002,
+        902555
+      ],
+      "wheel_import_sequence": [
+        843476,
+        746798,
+        622826,
+        112179,
+        519455,
+        784774,
+        243553,
+        952571,
+        284614,
+        879002,
+        902555
+      ],
+      "import_sequence_equal": true
+    },
+    {
+      "key": "153472",
+      "git_alpha_only_sha256": "1a31f6387e9966e912109c66e263c751d7f12be79e9b3d804c6ea9d0e663f53a",
+      "wheel_alpha_only_sha256": "1a31f6387e9966e912109c66e263c751d7f12be79e9b3d804c6ea9d0e663f53a",
+      "alpha_only_equal": true,
+      "git_import_sequence": [
+        266027,
+        954616,
+        912598,
+        243652,
+        135214,
+        602869,
+        431703
+      ],
+      "wheel_import_sequence": [
+        266027,
+        954616,
+        912598,
+        243652,
+        135214,
+        602869,
+        431703
+      ],
+      "import_sequence_equal": true
+    },
+    {
+      "key": "895751",
+      "git_alpha_only_sha256": "c6adcc4b7ec15bdf83deaf2e86286dfbe3bf00797ccede1eb1bce4ddc46af7de",
+      "wheel_alpha_only_sha256": "c6adcc4b7ec15bdf83deaf2e86286dfbe3bf00797ccede1eb1bce4ddc46af7de",
+      "alpha_only_equal": true,
+      "git_import_sequence": [],
+      "wheel_import_sequence": [],
+      "import_sequence_equal": true
+    },
+    {
+      "key": "768371",
+      "variants": [
+        {
+          "side": "git",
+          "original_sha256": "c50e3b68c50766538f8f330f06f3a398fc731435e2ddf1e701ee7d05e40ec43e",
+          "alpha_only_sha256": "6430324f0fe82830d05bfe4673854e496c9c1ed66e7f78b2ce3ccf59efa1e027"
+        },
+        {
+          "side": "git",
+          "original_sha256": "7b3834945de1b7aaf0bdfc34605b085722ceb957eb403ce1759b4085652ec394",
+          "alpha_only_sha256": "6430324f0fe82830d05bfe4673854e496c9c1ed66e7f78b2ce3ccf59efa1e027"
+        },
+        {
+          "side": "git",
+          "original_sha256": "81ce413be2d8274e0662931231bf34c550b330bb2f262f73ae2dcce8b6db339a",
+          "alpha_only_sha256": "6430324f0fe82830d05bfe4673854e496c9c1ed66e7f78b2ce3ccf59efa1e027"
+        },
+        {
+          "side": "wheel",
+          "original_sha256": "c50e3b68c50766538f8f330f06f3a398fc731435e2ddf1e701ee7d05e40ec43e",
+          "alpha_only_sha256": "6430324f0fe82830d05bfe4673854e496c9c1ed66e7f78b2ce3ccf59efa1e027"
+        },
+        {
+          "side": "wheel",
+          "original_sha256": "1995a43e178a812334d5abab940eb287a0f04a18d42e349d749dde3b48863aef",
+          "alpha_only_sha256": "6430324f0fe82830d05bfe4673854e496c9c1ed66e7f78b2ce3ccf59efa1e027"
+        },
+        {
+          "side": "wheel",
+          "original_sha256": "7b3834945de1b7aaf0bdfc34605b085722ceb957eb403ce1759b4085652ec394",
+          "alpha_only_sha256": "6430324f0fe82830d05bfe4673854e496c9c1ed66e7f78b2ce3ccf59efa1e027"
+        },
+        {
+          "side": "wheel",
+          "original_sha256": "81ce413be2d8274e0662931231bf34c550b330bb2f262f73ae2dcce8b6db339a",
+          "alpha_only_sha256": "6430324f0fe82830d05bfe4673854e496c9c1ed66e7f78b2ce3ccf59efa1e027"
+        }
+      ],
+      "alpha_only_equal": true
+    }
+  ]
+}

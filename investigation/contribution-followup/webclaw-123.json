@@ -1,0 +1,37 @@
+{
+  "pr": "https://github.com/0xMassi/webclaw/pull/123",
+  "head_sha": "345422db95377c8ee2a3ad46392419fd3c7e4d73",
+  "verification": "Static reading of current-head provider wrapper and reused transport; no runtime reproduction.",
+  "integration": "Rust OpenAI-compatible proxy client; no PyPI LiteLLM dependency added in the seven current PR files.",
+  "observations": [
+    {
+      "finding": "Wrapper reads its dedicated LITELLM_API_KEY and accepts the configured LITELLM_BASE_URL; default URL is local HTTP.",
+      "source": "https://github.com/0xMassi/webclaw/blob/345422db95377c8ee2a3ad46392419fd3c7e4d73/crates/webclaw-llm/src/providers/litellm.rs#L25"
+    },
+    {
+      "finding": "Wrapper passes the selected key and URL into the existing OpenAI transport without validating HTTPS or restricting HTTP to loopback.",
+      "source": "https://github.com/0xMassi/webclaw/blob/345422db95377c8ee2a3ad46392419fd3c7e4d73/crates/webclaw-llm/src/providers/litellm.rs#L26"
+    },
+    {
+      "finding": "Reused OpenAI transport stores a supplied base URL without scheme/host validation and attaches an Authorization Bearer header to completion requests.",
+      "source": "https://github.com/0xMassi/webclaw/blob/345422db95377c8ee2a3ad46392419fd3c7e4d73/crates/webclaw-llm/src/providers/openai.rs#L129"
+    },
+    {
+      "finding": "Current head exposes zero check runs; combined commit status is success with only CodeRabbit Review completed. Required check names and branch-protection rules were not queried.",
+      "source": "https://api.github.com/repos/0xMassi/webclaw/commits/345422db95377c8ee2a3ad46392419fd3c7e4d73/check-runs",
+      "additional_source": "https://api.github.com/repos/0xMassi/webclaw/commits/345422db95377c8ee2a3ad46392419fd3c7e4d73/status"
+    }
+  ],
+  "review_predates_notice": {
+    "review_at": "2026-08-31T16:16:41Z",
+    "review_url": "https://github.com/0xMassi/webclaw/pull/123#discussion_r3896273905",
+    "notice_at": "2026-09-08T19:35:39Z",
+    "owner_reply_at": "2026-09-08T19:42:45Z"
+  },
+  "not_established": [
+    "That any user configured a remote HTTP URL or leaked a credential.",
+    "Redirect behavior, which was not tested or traced in this refresh.",
+    "That this integration installs or runs LiteLLM 1.100.0.",
+    "An attacker-controlled destination, malicious intent, or a connection to the historical package compromise."
+  ]
+}

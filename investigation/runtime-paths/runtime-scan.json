@@ -1,0 +1,3051 @@
+{
+  "method": "AST Call multiset comparison. Candidate operations require manual review. Literal domains include docs/examples and do not prove network use.",
+  "python_file_counts": {
+    "1.99.0": 2241,
+    "1.100.0": 2280
+  },
+  "change_counts": {
+    "modified": 550,
+    "added": 41,
+    "deleted": 2
+  },
+  "syntax_errors": [],
+  "invalid_url_literals": [
+    {
+      "version": "1.99.0",
+      "file": "litellm/llms/bedrock/files/transformation.py",
+      "line": 1103,
+      "literal": "https://([^.]+)",
+      "error": "Invalid IPv6 URL"
+    },
+    {
+      "version": "1.100.0",
+      "file": "litellm/llms/bedrock/files/transformation.py",
+      "line": 1105,
+      "literal": "https://([^.]+)",
+      "error": "Invalid IPv6 URL"
+    }
+  ],
+  "sensitive_call_delta": [
+    {
+      "file": "litellm/_logging.py",
+      "line": 261,
+      "end_line": 261,
+      "call": "os.environ.get",
+      "code": "os.environ.get('NO_COLOR')"
+    },
+    {
+      "file": "litellm/_logging.py",
+      "line": 291,
+      "end_line": 291,
+      "call": "os.getenv",
+      "code": "os.getenv('JSON_LOGS')"
+    },
+    {
+      "file": "litellm/constants.py",
+      "line": 1601,
+      "end_line": 1603,
+      "call": "os.getenv('BACKGROUND_INTERACTION_COST_POLLING_ENABLED', 'true').lower",
+      "code": "os.getenv('BACKGROUND_INTERACTION_COST_POLLING_ENABLED', 'true').lower()"
+    },
+    {
+      "file": "litellm/constants.py",
+      "line": 1572,
+      "end_line": 1572,
+      "call": "os.getenv",
+      "code": "os.getenv('RESPONSES_SESSION_LOOKUP_RETRY_INTERVAL', '0.2')"
+    },
+    {
+      "file": "litellm/constants.py",
+      "line": 1593,
+      "end_line": 1593,
+      "call": "os.getenv",
+      "code": "os.getenv('BACKGROUND_INTERACTION_COST_POLL_INITIAL_INTERVAL_SECONDS', '5')"
+    },
+    {
+      "file": "litellm/constants.py",
+      "line": 1596,
+      "end_line": 1596,
+      "call": "os.getenv",
+      "code": "os.getenv('BACKGROUND_INTERACTION_COST_POLL_MAX_INTERVAL_SECONDS', '60')"
+    },
+    {
+      "file": "litellm/constants.py",
+      "line": 1599,
+      "end_line": 1599,
+      "call": "os.getenv",
+      "code": "os.getenv('BACKGROUND_INTERACTION_COST_POLL_TIMEOUT_SECONDS', '3600')"
+    },
+    {
+      "file": "litellm/constants.py",
+      "line": 1571,
+      "end_line": 1571,
+      "call": "os.getenv",
+      "code": "os.getenv('RESPONSES_SESSION_LOOKUP_MAX_ATTEMPTS', '3')"
+    },
+    {
+      "file": "litellm/constants.py",
+      "line": 1601,
+      "end_line": 1603,
+      "call": "os.getenv",
+      "code": "os.getenv('BACKGROUND_INTERACTION_COST_POLLING_ENABLED', 'true')"
+    },
+    {
+      "file": "litellm/experimental_mcp_client/client.py",
+      "line": 583,
+      "end_line": 590,
+      "call": "httpx.AsyncClient",
+      "code": "httpx.AsyncClient(headers=headers, timeout=timeout, auth=effective_auth, verify=ssl_config, follow_redirects=True, event_hooks={'request': [guard]} if guard else {})"
+    },
+    {
+      "file": "litellm/integrations/SlackAlerting/batching_handler.py",
+      "line": 70,
+      "end_line": 74,
+      "call": "slackAlertingInstance.async_http_handler.post",
+      "code": "slackAlertingInstance.async_http_handler.post(url=item['url'], headers=item['headers'], data=json.dumps(request_body))"
+    },
+    {
+      "file": "litellm/integrations/SlackAlerting/ms_teams.py",
+      "line": 59,
+      "end_line": 59,
+      "call": "os.getenv",
+      "code": "os.getenv(MS_TEAMS_WEBHOOK_URL_ENV)"
+    },
+    {
+      "file": "litellm/integrations/langfuse/langfuse.py",
+      "line": 972,
+      "end_line": 972,
+      "call": "os.getenv",
+      "code": "os.getenv('LANGFUSE_TRACING_ENVIRONMENT')"
+    },
+    {
+      "file": "litellm/integrations/langfuse/langfuse_handler.py",
+      "line": 161,
+      "end_line": 161,
+      "call": "os.getenv",
+      "code": "os.getenv('LANGFUSE_TRACING_ENVIRONMENT')"
+    },
+    {
+      "file": "litellm/integrations/newrelic/newrelic_metrics.py",
+      "line": 391,
+      "end_line": 395,
+      "call": "self.async_client.post",
+      "code": "self.async_client.post(url=self.metric_api_url, data=compressed_data, headers=headers)"
+    },
+    {
+      "file": "litellm/litellm_core_utils/aws_partition.py",
+      "line": 24,
+      "end_line": 24,
+      "call": "re.compile",
+      "code": "re.compile('arn:aws(?:-[a-z0-9-]+)?:bedrock')"
+    },
+    {
+      "file": "litellm/litellm_core_utils/aws_partition.py",
+      "line": 25,
+      "end_line": 25,
+      "call": "re.compile",
+      "code": "re.compile('\\\\Aarn:aws(?:-[a-z0-9-]+)?:bedrock:')"
+    },
+    {
+      "file": "litellm/litellm_core_utils/aws_partition.py",
+      "line": 26,
+      "end_line": 26,
+      "call": "re.compile",
+      "code": "re.compile('arn:aws(?:-[a-z0-9-]+)?:')"
+    },
+    {
+      "file": "litellm/litellm_core_utils/exception_mapping_utils.py",
+      "line": 2208,
+      "end_line": 2210,
+      "call": "httpx.Response",
+      "code": "httpx.Response(status_code=status_code, request=httpx.Request(method='POST', url='https://docs.litellm.ai/docs'))"
+    },
+    {
+      "file": "litellm/litellm_core_utils/exception_mapping_utils.py",
+      "line": 2209,
+      "end_line": 2209,
+      "call": "httpx.Request",
+      "code": "httpx.Request(method='POST', url='https://docs.litellm.ai/docs')"
+    },
+    {
+      "file": "litellm/litellm_core_utils/health_check_helpers.py",
+      "line": 29,
+      "end_line": 29,
+      "call": "base64.b64decode",
+      "code": "base64.b64decode(TEST_IMAGE_BASE64)"
+    },
+    {
+      "file": "litellm/litellm_core_utils/llm_cost_calc/utils.py",
+      "line": 76,
+      "end_line": 76,
+      "call": "re.compile",
+      "code": "re.compile('\\\\d+(?:x|-x-)\\\\d+')"
+    },
+    {
+      "file": "litellm/llms/azure/common_utils.py",
+      "line": 805,
+      "end_line": 805,
+      "call": "httpx.URL",
+      "code": "httpx.URL(api_base)"
+    },
+    {
+      "file": "litellm/llms/azure/common_utils.py",
+      "line": 810,
+      "end_line": 810,
+      "call": "httpx.QueryParams",
+      "code": "httpx.QueryParams(tuple(((k, v) for k, v in base_url.params.multi_items() if k != 'api-version')))"
+    },
+    {
+      "file": "litellm/llms/bedrock/rerank/handler.py",
+      "line": 39,
+      "end_line": 45,
+      "call": "client.post",
+      "code": "client.post(url=prepared_request['endpoint_url'], headers=dict(prepared_request['prepped'].headers), data=prepared_request['body'], timeout=timeout, logging_obj=logging_obj)"
+    },
+    {
+      "file": "litellm/llms/custom_httpx/llm_http_handler.py",
+      "line": 1206,
+      "end_line": 1212,
+      "call": "async_httpx_client.post",
+      "code": "async_httpx_client.post(url=api_base, headers=headers, data=json.dumps(request_data), timeout=timeout, logging_obj=logging_obj)"
+    },
+    {
+      "file": "litellm/llms/custom_httpx/llm_http_handler.py",
+      "line": 11921,
+      "end_line": 11921,
+      "call": "sync_httpx_client.post",
+      "code": "sync_httpx_client.post(url=url, headers=headers, data=data, files=files, timeout=timeout)"
+    },
+    {
+      "file": "litellm/llms/custom_httpx/llm_http_handler.py",
+      "line": 7111,
+      "end_line": 7116,
+      "call": "sync_httpx_client.post",
+      "code": "sync_httpx_client.post(url=api_base, headers=headers, files=serialize_multipart_form_fields(data), timeout=timeout)"
+    },
+    {
+      "file": "litellm/llms/custom_httpx/llm_http_handler.py",
+      "line": 11975,
+      "end_line": 11977,
+      "call": "async_httpx_client.post",
+      "code": "async_httpx_client.post(url=url, headers=headers, data=data, files=files, timeout=timeout)"
+    },
+    {
+      "file": "litellm/llms/custom_httpx/llm_http_handler.py",
+      "line": 7218,
+      "end_line": 7223,
+      "call": "async_httpx_client.post",
+      "code": "async_httpx_client.post(url=api_base, headers=headers, files=serialize_multipart_form_fields(data), timeout=timeout)"
+    },
+    {
+      "file": "litellm/llms/together_ai/rerank/handler.py",
+      "line": 56,
+      "end_line": 64,
+      "call": "client.post",
+      "code": "client.post(_rerank_url(api_base), headers={'accept': 'application/json', 'content-type': 'application/json', 'authorization': f'Bearer {api_key}'}, json=request_data_dict)"
+    },
+    {
+      "file": "litellm/llms/together_ai/rerank/handler.py",
+      "line": 81,
+      "end_line": 89,
+      "call": "client.post",
+      "code": "client.post(_rerank_url(api_base), headers={'accept': 'application/json', 'content-type': 'application/json', 'authorization': f'Bearer {api_key}'}, json=request_data_dict)"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/discoverable_endpoints.py",
+      "line": 1956,
+      "end_line": 1956,
+      "call": "router.post",
+      "code": "router.post('/introspect', dependencies=[Depends(user_api_key_auth)])"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/discoverable_endpoints.py",
+      "line": 1094,
+      "end_line": 1098,
+      "call": "async_client.post",
+      "code": "async_client.post(token_url, headers={'Accept': 'application/json', **token_request.headers}, data=token_data)"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/oauth2_token_cache.py",
+      "line": 151,
+      "end_line": 151,
+      "call": "client.post",
+      "code": "client.post(token_url, data=data, headers=token_request.headers or None)"
+    },
+    {
+      "file": "litellm/proxy/client/chat.py",
+      "line": 102,
+      "end_line": 102,
+      "call": "session.send",
+      "code": "session.send(request.prepare(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/chat.py",
+      "line": 167,
+      "end_line": 169,
+      "call": "session.post",
+      "code": "session.post(url, headers=self._get_headers(), json=data, stream=True, timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/cli/commands/auth.py",
+      "line": 516,
+      "end_line": 516,
+      "call": "requests.get",
+      "code": "requests.get(url, headers=headers, timeout=request_timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/credentials.py",
+      "line": 61,
+      "end_line": 61,
+      "call": "session.send",
+      "code": "session.send(request.prepare(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/credentials.py",
+      "line": 108,
+      "end_line": 108,
+      "call": "session.send",
+      "code": "session.send(request.prepare(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/credentials.py",
+      "line": 145,
+      "end_line": 145,
+      "call": "session.send",
+      "code": "session.send(request.prepare(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/credentials.py",
+      "line": 182,
+      "end_line": 182,
+      "call": "session.send",
+      "code": "session.send(request.prepare(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/keys.py",
+      "line": 104,
+      "end_line": 104,
+      "call": "session.send",
+      "code": "session.send(request.prepare(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/keys.py",
+      "line": 179,
+      "end_line": 179,
+      "call": "session.send",
+      "code": "session.send(request.prepare(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/keys.py",
+      "line": 223,
+      "end_line": 223,
+      "call": "session.send",
+      "code": "session.send(request.prepare(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/keys.py",
+      "line": 284,
+      "end_line": 284,
+      "call": "session.send",
+      "code": "session.send(request.prepare(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/keys.py",
+      "line": 314,
+      "end_line": 314,
+      "call": "session.send",
+      "code": "session.send(request.prepare(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/model_groups.py",
+      "line": 58,
+      "end_line": 58,
+      "call": "session.send",
+      "code": "session.send(request.prepare(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/models.py",
+      "line": 60,
+      "end_line": 60,
+      "call": "session.send",
+      "code": "session.send(request.prepare(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/models.py",
+      "line": 109,
+      "end_line": 109,
+      "call": "session.send",
+      "code": "session.send(request.prepare(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/models.py",
+      "line": 145,
+      "end_line": 145,
+      "call": "session.send",
+      "code": "session.send(request.prepare(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/models.py",
+      "line": 237,
+      "end_line": 237,
+      "call": "session.send",
+      "code": "session.send(request.prepare(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/models.py",
+      "line": 287,
+      "end_line": 287,
+      "call": "session.send",
+      "code": "session.send(request.prepare(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/teams.py",
+      "line": 65,
+      "end_line": 65,
+      "call": "requests.get",
+      "code": "requests.get(url, headers=self._get_headers(), params=params, timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/teams.py",
+      "line": 122,
+      "end_line": 122,
+      "call": "requests.get",
+      "code": "requests.get(url, headers=self._get_headers(), params=params, timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/teams.py",
+      "line": 143,
+      "end_line": 143,
+      "call": "requests.get",
+      "code": "requests.get(url, headers=self._get_headers(), timeout=self._timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/users.py",
+      "line": 23,
+      "end_line": 23,
+      "call": "requests.get",
+      "code": "requests.get(url, headers=self._get_headers(), params=params, timeout=self.timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/users.py",
+      "line": 33,
+      "end_line": 33,
+      "call": "requests.get",
+      "code": "requests.get(url, headers=self._get_headers(), params=params, timeout=self.timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/users.py",
+      "line": 45,
+      "end_line": 45,
+      "call": "requests.get",
+      "code": "requests.get(url, headers=self._get_headers(), params=params, timeout=self.timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/users.py",
+      "line": 56,
+      "end_line": 56,
+      "call": "requests.post",
+      "code": "requests.post(url, headers=self._get_headers(), json=user_data, timeout=self.timeout)"
+    },
+    {
+      "file": "litellm/proxy/client/users.py",
+      "line": 65,
+      "end_line": 67,
+      "call": "requests.post",
+      "code": "requests.post(url, headers=self._get_headers(), json={'user_ids': user_ids}, timeout=self.timeout)"
+    },
+    {
+      "file": "litellm/proxy/db/db_url_settings.py",
+      "line": 391,
+      "end_line": 391,
+      "call": "os.environ.get",
+      "code": "os.environ.get(env_var)"
+    },
+    {
+      "file": "litellm/proxy/guardrails/guardrail_hooks/hiddenlayer/hiddenlayer.py",
+      "line": 166,
+      "end_line": 166,
+      "call": "requests.post",
+      "code": "requests.post(token_url, auth=HTTPBasicAuth(api_id, api_key), timeout=timeout)"
+    },
+    {
+      "file": "litellm/proxy/health_endpoints/_health_endpoints.py",
+      "line": 486,
+      "end_line": 490,
+      "call": "proxy_logging_obj.slack_alerting_instance.async_http_handler.post",
+      "code": "proxy_logging_obj.slack_alerting_instance.async_http_handler.post(url=ms_teams_webhook_url, headers=dict(MS_TEAMS_ALERT_HEADERS), data=json.dumps(build_ms_teams_payload(ms_teams_test_message)))"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/config_override_endpoints.py",
+      "line": 649,
+      "end_line": 653,
+      "call": "router.post",
+      "code": "router.post('/config_overrides/cyberark', tags=['Config Overrides'], dependencies=[Depends(user_api_key_auth)])"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/config_override_endpoints.py",
+      "line": 886,
+      "end_line": 890,
+      "call": "router.post",
+      "code": "router.post('/config_overrides/cyberark/test_connection', tags=['Config Overrides'], dependencies=[Depends(user_api_key_auth)])"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/config_override_endpoints.py",
+      "line": 283,
+      "end_line": 283,
+      "call": "os.environ.get",
+      "code": "os.environ.get('HCP_VAULT_ADDR')"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/mcp_connector_import.py",
+      "line": 78,
+      "end_line": 78,
+      "call": "re.compile",
+      "code": "re.compile('[^A-Za-z0-9_]')"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/mcp_management_endpoints.py",
+      "line": 1640,
+      "end_line": 1646,
+      "call": "router.post",
+      "code": "router.post('/server/import', description='Bulk-import MCP connectors from Anthropic mcpServers or mcp_servers JSON', dependencies=(Depends(user_api_key_auth),), response_model=MCPConnectorImportResponse, status_code=status.HTTP_200_OK)"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/model_access_group_management_endpoints.py",
+      "line": 574,
+      "end_line": 578,
+      "call": "router.post",
+      "code": "router.post('/access_group/new', dependencies=_AUTH_DEPENDENCIES, response_model=NewModelGroupResponse)"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/model_management_endpoints.py",
+      "line": 2247,
+      "end_line": 2252,
+      "call": "router.post",
+      "code": "router.post('/auto_router/classifier/default_prompt', description=\"Get the system prompt an auto-router's LLM classifier sends for an edited tier set\", tags=['model management'], dependencies=[Depends(user_api_key_auth)])"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/team_endpoints.py",
+      "line": 3604,
+      "end_line": 3608,
+      "call": "router.post",
+      "code": "router.post('/team/{team_id}/member/{user_id}/reset_spend', tags=['team management'], dependencies=(Depends(user_api_key_auth),))"
+    },
+    {
+      "file": "litellm/proxy/proxy_server.py",
+      "line": 3542,
+      "end_line": 3542,
+      "call": "re.compile",
+      "code": "re.compile(\"unexpected keyword argument '(?P<name>[^']+)'\")"
+    },
+    {
+      "file": "litellm/proxy/utils.py",
+      "line": 6115,
+      "end_line": 6115,
+      "call": "os.getenv",
+      "code": "os.getenv('SMTP_TIMEOUT', '30')"
+    },
+    {
+      "file": "litellm/realtime_api/main.py",
+      "line": 413,
+      "end_line": 413,
+      "call": "os.environ.get",
+      "code": "os.environ.get('LITELLM_AZURE_REALTIME_PROTOCOL')"
+    },
+    {
+      "file": "litellm/types/mcp.py",
+      "line": 242,
+      "end_line": 242,
+      "call": "re.compile",
+      "code": "re.compile(\"^[!#$%&'*+\\\\-.^_`|~0-9A-Za-z]+$\")"
+    }
+  ],
+  "new_literal_domains": {
+    "api.together.ai": [
+      {
+        "file": "litellm/rerank_api/main.py",
+        "line": 280
+      },
+      {
+        "file": "litellm/litellm_core_utils/get_llm_provider_logic.py",
+        "line": 730
+      }
+    ],
+    "conjur.example.com)": [
+      {
+        "file": "litellm/types/proxy/management_endpoints/config_overrides.py",
+        "line": 60
+      }
+    ],
+    "docs.newrelic.com": [
+      {
+        "file": "litellm/integrations/newrelic/newrelic_metrics.py",
+        "line": 1
+      }
+    ],
+    "metric-api.eu.newrelic.com": [
+      {
+        "file": "litellm/types/integrations/newrelic.py",
+        "line": 23
+      }
+    ],
+    "metric-api.newrelic.com": [
+      {
+        "file": "litellm/types/integrations/newrelic.py",
+        "line": 22
+      }
+    ],
+    "otlp.eu01.nr-data.net": [
+      {
+        "file": "litellm/integrations/otel/presets/newrelic.py",
+        "line": 25
+      }
+    ],
+    "otlp.nr-data.net": [
+      {
+        "file": "litellm/integrations/otel/presets/newrelic.py",
+        "line": 24
+      }
+    ],
+    "secretsmanager.": [
+      {
+        "file": "litellm/secret_managers/aws_secret_manager_v2.py",
+        "line": 568
+      }
+    ],
+    "www.tencentcloud.com": [
+      {
+        "file": "litellm/llms/tencent/chat/transformation.py",
+        "line": 19
+      },
+      {
+        "file": "litellm/llms/tencent/chat/transformation.py",
+        "line": 88
+      }
+    ]
+  },
+  "selected_file_identity": [
+    {
+      "file": "litellm/secret_managers/main.py",
+      "identical": true,
+      "sha256": {
+        "1.99.0": "41a28b6766783ce562a161d6f0811d6b614aeb3452fe0a799e4fa04059da2a5f",
+        "1.100.0": "41a28b6766783ce562a161d6f0811d6b614aeb3452fe0a799e4fa04059da2a5f"
+      }
+    },
+    {
+      "file": "litellm/litellm_core_utils/get_model_cost_map.py",
+      "identical": true,
+      "sha256": {
+        "1.99.0": "f37b5f4754280f4a31e2a31e54bba943bd9351fa23485fb7511253b864047728",
+        "1.100.0": "f37b5f4754280f4a31e2a31e54bba943bd9351fa23485fb7511253b864047728"
+      }
+    },
+    {
+      "file": "litellm/anthropic_beta_headers_manager.py",
+      "identical": true,
+      "sha256": {
+        "1.99.0": "fac04d0fed3c4c399880fde1207cee2d9fdb8c617e7cb9ecadfb38b640f6500b",
+        "1.100.0": "fac04d0fed3c4c399880fde1207cee2d9fdb8c617e7cb9ecadfb38b640f6500b"
+      }
+    },
+    {
+      "file": "litellm/proxy/types_utils/utils.py",
+      "identical": true,
+      "sha256": {
+        "1.99.0": "bea706f6348b9453f92f702f3155009994f78fcc62a101070ab9cf1195ab13b8",
+        "1.100.0": "bea706f6348b9453f92f702f3155009994f78fcc62a101070ab9cf1195ab13b8"
+      }
+    },
+    {
+      "file": "litellm/secret_managers/custom_secret_manager_loader.py",
+      "identical": true,
+      "sha256": {
+        "1.99.0": "bebc11dce26a8a3cc17bc2d6be7bb73d55661d4c16c58bb452c5264bf144bfe0",
+        "1.100.0": "bebc11dce26a8a3cc17bc2d6be7bb73d55661d4c16c58bb452c5264bf144bfe0"
+      }
+    },
+    {
+      "file": "litellm/litellm_core_utils/secret_redaction.py",
+      "identical": true,
+      "sha256": {
+        "1.99.0": "c2c0c44765e3f9a4fa4574fa57924ed4fbaa79ac07468cd1ff733a11678f06b2",
+        "1.100.0": "c2c0c44765e3f9a4fa4574fa57924ed4fbaa79ac07468cd1ff733a11678f06b2"
+      }
+    }
+  ],
+  "changed_python_files": [
+    {
+      "file": "litellm/__init__.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/_lazy_imports.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/_lazy_imports_registry.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/_logging.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/_redis.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/a2a_protocol/card_resolver.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/a2a_protocol/litellm_completion_bridge/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/a2a_protocol/main.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/batches/batch_utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/batches/main.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/caching/caching_handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/caching/redis_cache.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/caching/redis_cluster_cache.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/caching/redis_cluster_node_isolation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/completion_extras/litellm_responses_transformation/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/constants.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/cost_calculator.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/endpoints/speech/speech_to_completion_bridge/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/experimental_mcp_client/client.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/google_genai/streaming_iterator.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/images/main.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/SlackAlerting/batching_handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/SlackAlerting/ms_teams.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/integrations/SlackAlerting/slack_alerting.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/anthropic_cache_control_hook.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/bitbucket/bitbucket_client.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/compression_interception/handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/custom_batch_logger.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/custom_guardrail.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/custom_logger.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/dotprompt/__init__.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/dotprompt/dotprompt_manager.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/dotprompt/prompt_manager.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/focus/destinations/mavvrik_destination.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/generic_prompt_management/generic_prompt_manager.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/langfuse/langfuse.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/langfuse/langfuse_handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/langfuse/langfuse_otel.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/langfuse/langfuse_prompt_management.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/langsmith.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/newrelic/newrelic_metrics.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/integrations/newrelic/newrelic_team_handler.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/integrations/opentelemetry.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/otel/emitter.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/otel/logger.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/otel/mappers/genai.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/otel/model/config.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/otel/model/metadata.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/otel/model/payloads.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/otel/model/semconv.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/otel/model/spans.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/otel/plumbing/context.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/otel/plumbing/metrics.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/otel/plumbing/providers.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/otel/plumbing/routing.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/otel/presets/__init__.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/otel/presets/newrelic.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/integrations/prometheus.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/prometheus_helpers/prometheus_api.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/prompt_management_base.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/s3_v2.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/integrations/shadow_eval_logger.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/interactions/background_cost_polling.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/interactions/main.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/interactions/utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/litellm_core_utils/audio_utils/subtitle_utils.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/litellm_core_utils/aws_partition.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/litellm_core_utils/chat_completion_agentic_loop.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/litellm_core_utils/core_helpers.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/litellm_core_utils/exception_mapping_utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/litellm_core_utils/get_llm_provider_logic.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/litellm_core_utils/get_supported_openai_params.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/litellm_core_utils/health_check_helpers.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/litellm_core_utils/initialize_dynamic_callback_params.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/litellm_core_utils/internal_call_metadata.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/litellm_core_utils/json_fragment_accumulator.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/litellm_core_utils/litellm_logging.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/litellm_core_utils/llm_cost_calc/guardrail_cost.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/litellm_core_utils/llm_cost_calc/tool_call_cost_tracking.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/litellm_core_utils/llm_cost_calc/usage_object_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/litellm_core_utils/llm_cost_calc/utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/litellm_core_utils/llm_judge.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/litellm_core_utils/llm_request_utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/litellm_core_utils/llm_response_utils/response_metadata.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/litellm_core_utils/logging_worker.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/litellm_core_utils/model_response_utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/litellm_core_utils/prompt_templates/common_utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/litellm_core_utils/prompt_templates/factory.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/litellm_core_utils/ptu_pricing.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/litellm_core_utils/realtime_streaming.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/litellm_core_utils/redact_messages.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/litellm_core_utils/specialty_caches/dynamic_logging_cache.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/litellm_core_utils/streaming_chunk_builder_utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/litellm_core_utils/streaming_handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/litellm_core_utils/token_counter.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/litellm_core_utils/url_utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/__init__.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/a2a/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/aiml/image_generation/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/aiohttp_openai/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/amazon_nova/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/anthropic/batches/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/anthropic/chat/guardrail_translation/handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/anthropic/chat/handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/anthropic/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/anthropic/common_utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/anthropic/completion/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/anthropic/cost_calculation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/anthropic/experimental_pass_through/adapters/streaming_iterator.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/anthropic/experimental_pass_through/adapters/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/anthropic/experimental_pass_through/context_management/dispatcher.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/anthropic/experimental_pass_through/context_management/editors/clear_tool_uses.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/anthropic/experimental_pass_through/context_management/editors/compact.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/anthropic/experimental_pass_through/messages/agentic_streaming_iterator.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/anthropic/experimental_pass_through/messages/handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/anthropic/experimental_pass_through/messages/response_cache.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/anthropic/experimental_pass_through/messages/streaming_iterator.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/anthropic/experimental_pass_through/messages/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/anthropic/experimental_pass_through/responses_adapters/handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/anthropic/experimental_pass_through/responses_adapters/streaming_iterator.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/anthropic/experimental_pass_through/responses_adapters/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/anthropic/experimental_pass_through/utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/anthropic/files/handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/anthropic/skills/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/aws_polly/text_to_speech/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/azure/audio_transcriptions.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/azure/azure.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/azure/chat/gpt_5_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/azure/chat/gpt_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/azure/common_utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/azure/completion/handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/azure/files/handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/azure/image_edit/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/azure/image_generation/http_utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/azure/realtime/handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/azure/search/__init__.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/llms/azure/search/transformation.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/llms/azure_ai/agents/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/azure_ai/azure_model_router/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/azure_ai/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/azure_ai/common_utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/azure_ai/image_edit/flux2_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/azure_ai/image_edit/mai_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/azure_ai/image_edit/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/azure_ai/image_generation/mai_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/azure_ai/ocr/document_intelligence/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/azure_ai/ocr/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/azure_ai/rerank/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/base.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/base_llm/anthropic_messages/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/base_llm/audio_transcription/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/base_llm/bridges/completion_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/base_llm/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/base_llm/completion/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/base_llm/embedding/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/base_llm/files/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/base_llm/guardrail_translation/utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/base_llm/image_generation/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/base_llm/image_variations/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/base_llm/managed_resources/base_managed_resource.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/base_llm/managed_resources/isolation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/base_llm/realtime/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/base_llm/rerank/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/base_llm/videos/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/bedrock/base_aws_llm.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/bedrock/batches/handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/bedrock/batches/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/bedrock/chat/agentcore/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/bedrock/chat/converse_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/bedrock/chat/invoke_agent/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/bedrock/chat/invoke_handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/bedrock/chat/invoke_transformations/amazon_deepseek_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/bedrock/chat/invoke_transformations/amazon_moonshot_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/bedrock/chat/invoke_transformations/amazon_nova_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/bedrock/chat/invoke_transformations/amazon_qwen2_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/bedrock/chat/invoke_transformations/amazon_qwen3_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/bedrock/chat/invoke_transformations/amazon_twelvelabs_pegasus_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/bedrock/chat/invoke_transformations/anthropic_claude3_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/bedrock/chat/invoke_transformations/base_invoke_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/bedrock/common_utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/bedrock/count_tokens/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/bedrock/embed/cohere_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/bedrock/embed/embedding.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/bedrock/files/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/bedrock/passthrough/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/bedrock/realtime/handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/bedrock/rerank/handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/bedrock_mantle/common_utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/bedrock_mantle/passthrough/transformation.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/llms/bedrock_mantle/responses/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/black_forest_labs/image_generation/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/bytez/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/cerebras/chat.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/chatgpt/authenticator.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/chatgpt/chat/streaming_utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/chatgpt/responses/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/clarifai/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/cohere/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/cohere/chat/v2_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/cohere/embed/handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/cohere/rerank/guardrail_translation/handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/cohere/rerank/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/cometapi/image_generation/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/compactifai/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/custom_httpx/aiohttp_handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/custom_httpx/aiohttp_transport.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/custom_httpx/http_handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/custom_httpx/llm_http_handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/custom_llm.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/dashscope/image_generation/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/dashscope/rerank/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/databricks/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/databricks/common_utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/databricks/cost_calculator.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/deepinfra/rerank/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/deepseek/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/fal_ai/image_generation/bria_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/fal_ai/image_generation/flux_pro_v11_ultra_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/fal_ai/image_generation/ideogram_v3_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/fal_ai/image_generation/imagen4_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/fal_ai/image_generation/recraft_v3_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/fal_ai/image_generation/stable_diffusion_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/fal_ai/image_generation/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/fireworks_ai/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/fireworks_ai/common_utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/fireworks_ai/rerank/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/gemini/audio_transcription/__init__.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/llms/gemini/audio_transcription/transformation.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/llms/gemini/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/gemini/cost_calculator.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/gemini/image_edit/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/gemini/image_generation/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/gemini/realtime/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/gemini/videos/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/gigachat/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/github_copilot/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/groq/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/hosted_vllm/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/hosted_vllm/rerank/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/hosted_vllm/videos/__init__.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/llms/hosted_vllm/videos/transformation.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/llms/huggingface/rerank/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/infinity/rerank/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/jina_ai/rerank/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/langflow/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/langgraph/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/lemonade/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/litellm_proxy/skills/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/minimax/messages/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/mistral/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/mistral/ocr/guardrail_translation/handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/mistral/ocr/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/moonshot/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/nlp_cloud/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/nvidia_nim/rerank/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/oci/chat/cohere.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/oci/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/ollama/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/ollama/completion/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/oobabooga/chat/oobabooga.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/oobabooga/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/openai/chat/gpt_5_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/openai/chat/gpt_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/openai/chat/guardrail_translation/handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/openai/completion/guardrail_translation/handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/openai/cost_calculation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/openai/embeddings/guardrail_translation/handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/openai/image_generation/dall_e_2_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/openai/image_generation/dall_e_3_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/openai/image_generation/gpt_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/openai/image_generation/guardrail_translation/handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/openai/image_variations/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/openai/openai.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/openai/responses/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/openai/speech/guardrail_translation/handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/openai/transcriptions/guardrail_translation/handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/openai/videos/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/openai_like/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/openrouter/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/openrouter/image_generation/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/perplexity/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/petals/completion/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/recraft/image_generation/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/reducto/ocr/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/replicate/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/runwayml/image_generation/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/runwayml/videos/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/sagemaker/chat/handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/sagemaker/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/sagemaker/completion/handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/sagemaker/completion/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/sagemaker/embedding/cohere_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/sagemaker/embedding/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/sap/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/soniox/common_utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/stability/image_generation/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/tencent/chat/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/together_ai/chat.py",
+      "status": "deleted"
+    },
+    {
+      "file": "litellm/llms/together_ai/chat/__init__.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/llms/together_ai/chat/transformation.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/llms/together_ai/cost_calculator.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/together_ai/rerank/handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/topaz/image_variations/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/triton/completion/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/vertex_ai/agent_engine/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/vertex_ai/audio_transcription/gemini_transcribe_transformation.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/llms/vertex_ai/audio_transcription/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/vertex_ai/batches/handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/vertex_ai/cost_calculator.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/vertex_ai/gemini/grounding_requests.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/llms/vertex_ai/gemini/vertex_and_google_ai_studio_gemini.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/vertex_ai/gemini_embeddings/batch_embed_content_handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/vertex_ai/image_edit/vertex_gemini_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/vertex_ai/image_edit/vertex_imagen_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/vertex_ai/image_generation/image_generation_handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/vertex_ai/image_generation/vertex_gemini_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/vertex_ai/image_generation/vertex_imagen_transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/vertex_ai/interactions/__init__.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/llms/vertex_ai/interactions/transformation.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/llms/vertex_ai/rerank/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/vertex_ai/vector_stores/rag_api/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/vertex_ai/vector_stores/search_api/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/vertex_ai/vertex_ai_partner_models/anthropic/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/vertex_ai/vertex_ai_partner_models/llama3/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/vertex_ai/vertex_gemma_models/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/vertex_ai/videos/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/voyage/rerank/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/watsonx/completion/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/watsonx/rerank/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/llms/xai/oauth.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/main.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/models/team.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/passthrough/main.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/passthrough/utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/auth/user_api_key_auth_mcp.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/bridge_token_flow.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/db.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/discoverable_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/gateway_dcr_flow.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/guardrail_translation/handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/mcp_server_manager.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/oauth2_token_cache.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/openapi_to_mcp_generator.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/outbound_credentials/__init__.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/outbound_credentials/adapter.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/outbound_credentials/authz_code_refresher.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/outbound_credentials/bridge_credentials.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/outbound_credentials/client_credentials.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/outbound_credentials/envelope.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/outbound_credentials/resolver.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/outbound_credentials/session_credentials.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/outbound_credentials/session_token.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/outbound_credentials/types.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/rest_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/server.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/_experimental/mcp_server/tool_search.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/_lazy_features.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/_lazy_openapi_snapshot.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/_types.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/agent_endpoints/agent_registry.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/agent_endpoints/agent_search.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/proxy/agent_endpoints/auth/agent_permission_handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/agent_endpoints/endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/analytics_endpoints/cache_activity.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/anthropic_endpoints/claude_code_endpoints/claude_code_marketplace.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/anthropic_endpoints/endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/auth/auth_checks.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/auth/auth_exception_handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/auth/auth_utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/auth/fallback_model_access.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/proxy/auth/route_checks.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/auth/user_api_key_auth.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/client/chat.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/client/cli/commands/_cli_context.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/proxy/client/cli/commands/auth.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/client/cli/commands/chat.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/client/cli/commands/credentials.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/client/cli/commands/teams.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/client/client.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/client/credentials.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/client/keys.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/client/model_groups.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/client/models.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/client/teams.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/client/users.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/common_request_processing.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/common_utils/auth_cache_invalidation_pubsub.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/common_utils/callback_config_validation.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/proxy/common_utils/config_sync_pubsub.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/common_utils/expired_ui_session_key_cleanup_manager.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/common_utils/get_routes.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/common_utils/healthy_model_filter.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/proxy/common_utils/http_parsing_utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/common_utils/key_rotation_manager.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/common_utils/reset_budget_job.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/common_utils/sse_keepalive.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/common_utils/user_api_key_cache.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/config_resolvers/alerting.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/container_endpoints/ownership.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/credential_endpoints/endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/db/autorouter_session_rollup.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/db/budget_window_spend_writer.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/proxy/db/create_views.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/db/daily_spend_bulk_upsert.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/db/db_spend_update_writer.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/db/db_transaction_queue/daily_spend_update_queue.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/db/db_transaction_queue/redis_update_buffer.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/db/db_transaction_queue/spend_update_queue.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/db/db_transaction_queue/window_spend_update_queue.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/proxy/db/db_url_settings.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/db/prisma_client.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/db/routing_prisma_wrapper.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/db/shadow_eval_funnel.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/proxy/db/spend_counter_reseed.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/db/token_auth.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/db/tool_registry_writer.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/guardrails/guardrail_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/guardrails/guardrail_hooks/azure/base.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/guardrails/guardrail_hooks/azure/prompt_shield.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/guardrails/guardrail_hooks/bedrock_guardrails.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/guardrails/guardrail_hooks/block_code_execution/block_code_execution.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/guardrails/guardrail_hooks/compresr/compresr.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/guardrails/guardrail_hooks/crowdstrike_aidr/__init__.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/guardrails/guardrail_hooks/crowdstrike_aidr/crowdstrike_aidr.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/guardrails/guardrail_hooks/custom_code/custom_code_guardrail.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/guardrails/guardrail_hooks/custom_code/sandbox.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/guardrails/guardrail_hooks/deepkeep/deepkeep.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/guardrails/guardrail_hooks/headroom/headroom.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/guardrails/guardrail_hooks/hiddenlayer/hiddenlayer.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/guardrails/guardrail_hooks/lakera_ai_v2.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/guardrails/guardrail_hooks/llm_as_a_judge/__init__.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/guardrails/guardrail_hooks/mcp_end_user_permission/mcp_end_user_permission.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/guardrails/guardrail_hooks/ovalix/ovalix.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/guardrails/guardrail_hooks/presidio.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/guardrails/guardrail_hooks/promptguard/promptguard.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/guardrails/guardrail_hooks/qualifire/qualifire.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/guardrails/guardrail_initializers.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/guardrails/guardrail_registry.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/guardrails/init_guardrails.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/guardrails/usage_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/guardrails/usage_tracking.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/health_check.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/health_check_utils/shared_health_check_manager.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/health_endpoints/_health_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/hooks/proxy_track_cost_callback.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/hooks/responses_id_security.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/image_endpoints/endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/list_api/__init__.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/proxy/list_api/common.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/proxy/list_api/in_memory.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/proxy/list_api/list_framework.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/proxy/litellm_pre_call_utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/access_group_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/auto_router_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/budget_management_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/cache_settings_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/common_daily_activity.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/config_override_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/internal_user_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/jwt_key_mapping_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/key_management_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/management_v1/budgets.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/management_v1/common.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/management_v1/list_framework.py",
+      "status": "deleted"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/management_v1/spend_logs.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/mcp_connector_import.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/mcp_management_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/model_access_group_management_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/model_management_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/organization_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/policy_endpoints/ai_policy_suggester.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/scim/scim_transformations.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/scim/scim_v2.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/tag_management_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/team_callback_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/team_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/management_endpoints/ui_sso.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/management_helpers/access_group_team_sync.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/management_helpers/object_permission_utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/management_helpers/utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/memory/memory_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/openai_files_endpoints/common_utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/openai_files_endpoints/files_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/pass_through_endpoints/llm_passthrough_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/pass_through_endpoints/llm_provider_handlers/anthropic_passthrough_logging_handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/pass_through_endpoints/llm_provider_handlers/vertex_passthrough_logging_handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/pass_through_endpoints/managed_id_rewriter.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/pass_through_endpoints/pass_through_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/pass_through_endpoints/streaming_handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/policy_engine/pipeline_executor.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/policy_engine/policy_matcher.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/policy_engine/policy_registry.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/policy_engine/policy_resolve_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/prompts/prompt_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/prompts/prompt_registry.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/proxy_cli.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/proxy_server.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/public_endpoints/public_v1/__init__.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/proxy/public_endpoints/public_v1/model_hub.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/proxy/rag_endpoints/endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/rag_endpoints/upload_security.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/proxy/rerank_endpoints/endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/search_endpoints/search_tool_management.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/spend_tracking/budget_reservation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/spend_tracking/cloudzero_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/spend_tracking/ptu_flat_cost_rollup.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/spend_tracking/savings.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/spend_tracking/spend_management_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/spend_tracking/spend_tracking_utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/spend_tracking/vantage_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/ui_crud_endpoints/proxy_setting_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/vector_store_endpoints/endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/vector_store_endpoints/management_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/vector_store_files_endpoints/endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/video_endpoints/endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/proxy/video_endpoints/utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/rag/ingestion/bedrock_ingestion.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/rag/ingestion/vertex_ai_ingestion.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/realtime_api/main.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/repositories/base_repository.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/repositories/budget_repository.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/repositories/config_repository.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/repositories/credentials_repository.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/repositories/model_repository.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/repositories/object_permission_repository.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/repositories/organization_repository.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/repositories/prisma_protocols.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/repositories/project_repository.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/repositories/table_repositories.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/repositories/team_repository.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/repositories/unit_of_work.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/repositories/user_banner_repository.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/repositories/user_repository.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/repositories/verification_token_repository.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/rerank_api/main.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/responses/file_search/emulated_handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/responses/litellm_completion_transformation/custom_tools.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/responses/litellm_completion_transformation/handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/responses/litellm_completion_transformation/session_handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/responses/litellm_completion_transformation/streaming_iterator.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/responses/litellm_completion_transformation/transformation.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/responses/main.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/responses/mcp/chat_completions_handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/responses/mcp/mcp_streaming_iterator.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/responses/mcp/request_context.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/responses/sse_output_recovery.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/responses/streaming_iterator.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/responses/utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/router.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/router_strategy/complexity_router/__init__.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/router_strategy/complexity_router/complexity_router.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/router_strategy/complexity_router/config.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/router_strategy/savings_baseline.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/router_utils/auto_router_model_naming.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/router_utils/fallback_event_handlers.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/router_utils/health_state_cache.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/router_utils/reasoning_effort_capability.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/rust_bridge/responses_websocket.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/secret_managers/aws_secret_manager_v2.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/secret_managers/secret_manager_handler.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/types/agents.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/types/guardrails.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/types/integrations/anthropic_cache_control_hook.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/types/integrations/custom_logger.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/types/integrations/langfuse.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/types/integrations/newrelic.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/types/integrations/prometheus.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/types/litellm_core_utils/streaming_chunk_builder_utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/types/llms/anthropic.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/types/llms/anthropic_messages/anthropic_response.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/types/llms/bedrock.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/types/llms/gemini_audio_transcription.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/types/llms/openai.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/types/llms/vertex_ai_gemini_transcription.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/types/management_endpoints/auto_router_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/types/mcp.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/types/mcp_server/mcp_server_manager.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/types/passthrough_endpoints/pass_through_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/types/proxy/guardrails/guardrail_hooks/azure/azure_prompt_shield.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/types/proxy/guardrails/guardrail_hooks/crowdstrike_aidr.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/types/proxy/management_endpoints/common_daily_activity.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/types/proxy/management_endpoints/config_overrides.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/types/proxy/management_endpoints/model_management_endpoints.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/types/proxy/model_access_group_budget.py",
+      "status": "added"
+    },
+    {
+      "file": "litellm/types/realtime.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/types/router.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/types/services.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/types/utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/types/videos/main.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/utils.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/vector_stores/vector_store_registry.py",
+      "status": "modified"
+    },
+    {
+      "file": "litellm/videos/main.py",
+      "status": "modified"
+    }
+  ]
+}

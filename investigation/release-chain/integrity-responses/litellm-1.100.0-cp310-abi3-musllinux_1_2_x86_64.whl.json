@@ -1,0 +1,15 @@
+{
+  "filename": "litellm-1.100.0-cp310-abi3-musllinux_1_2_x86_64.whl",
+  "artifact_sha256": "0b7ec93013e18535481cd811b776ee95c6b957b3a9fb44dc53f7c459e7e60e38",
+  "upload_time_utc": "2026-09-06T00:22:38.418433Z",
+  "source_url": "https://pypi.org/integrity/litellm/1.100.0/litellm-1.100.0-cp310-abi3-musllinux_1_2_x86_64.whl/provenance",
+  "checked_at_utc": "2026-09-08T20:10:49.865383+00:00",
+  "http_status": 404,
+  "headers": {
+    "content-type": "application/json",
+    "Date": "Tue, 08 Sep 2026 20:10:50 GMT"
+  },
+  "response": {
+    "message": "No provenance available for litellm-1.100.0-cp310-abi3-musllinux_1_2_x86_64.whl"
+  }
+}

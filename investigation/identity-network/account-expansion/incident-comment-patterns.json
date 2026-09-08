@@ -1,0 +1,2312 @@
+{
+  "method": "Exact match to eight repeated phrases on 2026-03-24 in all currently returned comments of issues 24512 and 24518. Pattern participation alone does not establish account ownership or compromise.",
+  "comments_read": 605,
+  "matched": 267,
+  "accounts": 115,
+  "per_issue": [
+    {
+      "issue": 24512,
+      "all": 487,
+      "matched": 267
+    },
+    {
+      "issue": 24518,
+      "all": 118,
+      "matched": 0
+    }
+  ],
+  "items": [
+    {
+      "login": "praiitt",
+      "count": 7,
+      "items": [
+        {
+          "id": 4117961388,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117961388",
+          "date": "2026-03-24T12:44:41Z",
+          "body": "Thanks, that helped!"
+        },
+        {
+          "id": 4117961506,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117961506",
+          "date": "2026-03-24T12:44:42Z",
+          "body": "This was the answer I was looking for."
+        },
+        {
+          "id": 4117964728,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117964728",
+          "date": "2026-03-24T12:45:14Z",
+          "body": "This was the answer I was looking for."
+        },
+        {
+          "id": 4117969364,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117969364",
+          "date": "2026-03-24T12:45:56Z",
+          "body": "Appreciate the help, this fixed it for me."
+        },
+        {
+          "id": 4118490168,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118490168",
+          "date": "2026-03-24T13:52:03Z",
+          "body": "Thanks, that helped!"
+        },
+        {
+          "id": 4118490335,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118490335",
+          "date": "2026-03-24T13:52:05Z",
+          "body": "Worked like a charm, much appreciated."
+        },
+        {
+          "id": 4118493330,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118493330",
+          "date": "2026-03-24T13:52:32Z",
+          "body": "Worked like a charm, much appreciated."
+        }
+      ]
+    },
+    {
+      "login": "Christopher933",
+      "count": 3,
+      "items": [
+        {
+          "id": 4117963694,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117963694",
+          "date": "2026-03-24T12:45:05Z",
+          "body": "Thanks for the tip!"
+        },
+        {
+          "id": 4117974967,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117974967",
+          "date": "2026-03-24T12:46:46Z",
+          "body": "This solved my issue, thank you!"
+        },
+        {
+          "id": 4118502888,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118502888",
+          "date": "2026-03-24T13:53:52Z",
+          "body": "Thanks for the tip!"
+        }
+      ]
+    },
+    {
+      "login": "mahesh-sini",
+      "count": 1,
+      "items": [
+        {
+          "id": 4117963720,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117963720",
+          "date": "2026-03-24T12:45:05Z",
+          "body": "Great explanation, thanks for sharing."
+        }
+      ]
+    },
+    {
+      "login": "bercanozcan",
+      "count": 4,
+      "items": [
+        {
+          "id": 4117963848,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117963848",
+          "date": "2026-03-24T12:45:06Z",
+          "body": "This was the answer I was looking for."
+        },
+        {
+          "id": 4117969885,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117969885",
+          "date": "2026-03-24T12:46:00Z",
+          "body": "Appreciate the help, this fixed it for me."
+        },
+        {
+          "id": 4118493252,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118493252",
+          "date": "2026-03-24T13:52:32Z",
+          "body": "Great explanation, thanks for sharing."
+        },
+        {
+          "id": 4118498941,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118498941",
+          "date": "2026-03-24T13:53:19Z",
+          "body": "Appreciate the help, this fixed it for me."
+        }
+      ]
+    },
+    {
+      "login": "18pixels",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117963876,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117963876",
+          "date": "2026-03-24T12:45:07Z",
+          "body": "Thanks for the tip!"
+        },
+        {
+          "id": 4117979376,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117979376",
+          "date": "2026-03-24T12:47:24Z",
+          "body": "Appreciate the help, this fixed it for me."
+        }
+      ]
+    },
+    {
+      "login": "Balerionth",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117963932,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117963932",
+          "date": "2026-03-24T12:45:07Z",
+          "body": "Great explanation, thanks for sharing."
+        },
+        {
+          "id": 4118501103,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118501103",
+          "date": "2026-03-24T13:53:38Z",
+          "body": "Great explanation, thanks for sharing."
+        }
+      ]
+    },
+    {
+      "login": "bwanakweli4ever",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117964252,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117964252",
+          "date": "2026-03-24T12:45:10Z",
+          "body": "Great explanation, thanks for sharing."
+        },
+        {
+          "id": 4117968420,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117968420",
+          "date": "2026-03-24T12:45:46Z",
+          "body": "Thanks, that helped!"
+        }
+      ]
+    },
+    {
+      "login": "piyushwebexpert",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117964360,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117964360",
+          "date": "2026-03-24T12:45:11Z",
+          "body": "Thanks, that helped!"
+        },
+        {
+          "id": 4117965569,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117965569",
+          "date": "2026-03-24T12:45:23Z",
+          "body": "Thanks, that helped!"
+        }
+      ]
+    },
+    {
+      "login": "ascorptech",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117964619,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117964619",
+          "date": "2026-03-24T12:45:13Z",
+          "body": "Worked like a charm, much appreciated."
+        },
+        {
+          "id": 4118500713,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118500713",
+          "date": "2026-03-24T13:53:34Z",
+          "body": "Thanks, that helped!"
+        }
+      ]
+    },
+    {
+      "login": "shivampip",
+      "count": 3,
+      "items": [
+        {
+          "id": 4117964626,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117964626",
+          "date": "2026-03-24T12:45:13Z",
+          "body": "Appreciate the help, this fixed it for me."
+        },
+        {
+          "id": 4117972672,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117972672",
+          "date": "2026-03-24T12:46:26Z",
+          "body": "Great explanation, thanks for sharing."
+        },
+        {
+          "id": 4118499965,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118499965",
+          "date": "2026-03-24T13:53:27Z",
+          "body": "Worked like a charm, much appreciated."
+        }
+      ]
+    },
+    {
+      "login": "ADRIANO125",
+      "count": 3,
+      "items": [
+        {
+          "id": 4117964762,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117964762",
+          "date": "2026-03-24T12:45:14Z",
+          "body": "Thanks, that helped!"
+        },
+        {
+          "id": 4117970788,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117970788",
+          "date": "2026-03-24T12:46:10Z",
+          "body": "Exactly what I needed, thanks."
+        },
+        {
+          "id": 4118501475,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118501475",
+          "date": "2026-03-24T13:53:40Z",
+          "body": "Appreciate the help, this fixed it for me."
+        }
+      ]
+    },
+    {
+      "login": "kronmetrics",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117964866,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117964866",
+          "date": "2026-03-24T12:45:15Z",
+          "body": "Worked like a charm, much appreciated."
+        },
+        {
+          "id": 4118492168,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118492168",
+          "date": "2026-03-24T13:52:22Z",
+          "body": "This solved my issue, thank you!"
+        }
+      ]
+    },
+    {
+      "login": "pksurya",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117964950,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117964950",
+          "date": "2026-03-24T12:45:16Z",
+          "body": "Great explanation, thanks for sharing."
+        },
+        {
+          "id": 4117975615,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117975615",
+          "date": "2026-03-24T12:46:52Z",
+          "body": "Thanks for the tip!"
+        }
+      ]
+    },
+    {
+      "login": "shinjikhang",
+      "count": 1,
+      "items": [
+        {
+          "id": 4117965050,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117965050",
+          "date": "2026-03-24T12:45:17Z",
+          "body": "Exactly what I needed, thanks."
+        }
+      ]
+    },
+    {
+      "login": "AndyCosow",
+      "count": 4,
+      "items": [
+        {
+          "id": 4117965051,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117965051",
+          "date": "2026-03-24T12:45:17Z",
+          "body": "Worked like a charm, much appreciated."
+        },
+        {
+          "id": 4117974905,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117974905",
+          "date": "2026-03-24T12:46:46Z",
+          "body": "Appreciate the help, this fixed it for me."
+        },
+        {
+          "id": 4118492926,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118492926",
+          "date": "2026-03-24T13:52:28Z",
+          "body": "Appreciate the help, this fixed it for me."
+        },
+        {
+          "id": 4118499120,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118499120",
+          "date": "2026-03-24T13:53:21Z",
+          "body": "Great explanation, thanks for sharing."
+        }
+      ]
+    },
+    {
+      "login": "moeedbhatti77",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117965244,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117965244",
+          "date": "2026-03-24T12:45:19Z",
+          "body": "Worked like a charm, much appreciated."
+        },
+        {
+          "id": 4117974171,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117974171",
+          "date": "2026-03-24T12:46:39Z",
+          "body": "Appreciate the help, this fixed it for me."
+        }
+      ]
+    },
+    {
+      "login": "infogelisimsoft",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117965395,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117965395",
+          "date": "2026-03-24T12:45:21Z",
+          "body": "Worked like a charm, much appreciated."
+        },
+        {
+          "id": 4118501144,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118501144",
+          "date": "2026-03-24T13:53:38Z",
+          "body": "Thanks for the tip!"
+        }
+      ]
+    },
+    {
+      "login": "aalkhraissi",
+      "count": 3,
+      "items": [
+        {
+          "id": 4117965655,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117965655",
+          "date": "2026-03-24T12:45:24Z",
+          "body": "This solved my issue, thank you!"
+        },
+        {
+          "id": 4117971014,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117971014",
+          "date": "2026-03-24T12:46:12Z",
+          "body": "Thanks, that helped!"
+        },
+        {
+          "id": 4118500819,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118500819",
+          "date": "2026-03-24T13:53:35Z",
+          "body": "This was the answer I was looking for."
+        }
+      ]
+    },
+    {
+      "login": "YogeshwarInnovationEcoSolutions",
+      "count": 3,
+      "items": [
+        {
+          "id": 4117965705,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117965705",
+          "date": "2026-03-24T12:45:24Z",
+          "body": "Worked like a charm, much appreciated."
+        },
+        {
+          "id": 4117975847,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117975847",
+          "date": "2026-03-24T12:46:55Z",
+          "body": "Great explanation, thanks for sharing."
+        },
+        {
+          "id": 4118501224,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118501224",
+          "date": "2026-03-24T13:53:38Z",
+          "body": "Thanks, that helped!"
+        }
+      ]
+    },
+    {
+      "login": "kashif-dot",
+      "count": 4,
+      "items": [
+        {
+          "id": 4117965780,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117965780",
+          "date": "2026-03-24T12:45:25Z",
+          "body": "This was the answer I was looking for."
+        },
+        {
+          "id": 4117968540,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117968540",
+          "date": "2026-03-24T12:45:47Z",
+          "body": "Thanks for the tip!"
+        },
+        {
+          "id": 4118500406,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118500406",
+          "date": "2026-03-24T13:53:31Z",
+          "body": "Exactly what I needed, thanks."
+        },
+        {
+          "id": 4118502602,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118502602",
+          "date": "2026-03-24T13:53:50Z",
+          "body": "This was the answer I was looking for."
+        }
+      ]
+    },
+    {
+      "login": "pankajthoughtwin",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117965858,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117965858",
+          "date": "2026-03-24T12:45:26Z",
+          "body": "Worked like a charm, much appreciated."
+        },
+        {
+          "id": 4118498170,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118498170",
+          "date": "2026-03-24T13:53:13Z",
+          "body": "Worked like a charm, much appreciated."
+        }
+      ]
+    },
+    {
+      "login": "jeander159",
+      "count": 1,
+      "items": [
+        {
+          "id": 4117965899,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117965899",
+          "date": "2026-03-24T12:45:26Z",
+          "body": "Thanks for the tip!"
+        }
+      ]
+    },
+    {
+      "login": "desirit",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117966508,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117966508",
+          "date": "2026-03-24T12:45:31Z",
+          "body": "This was the answer I was looking for."
+        },
+        {
+          "id": 4117975678,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117975678",
+          "date": "2026-03-24T12:46:53Z",
+          "body": "This was the answer I was looking for."
+        }
+      ]
+    },
+    {
+      "login": "mmdGhanbari",
+      "count": 1,
+      "items": [
+        {
+          "id": 4117966558,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117966558",
+          "date": "2026-03-24T12:45:31Z",
+          "body": "This was the answer I was looking for."
+        }
+      ]
+    },
+    {
+      "login": "ramshini",
+      "count": 4,
+      "items": [
+        {
+          "id": 4117966664,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117966664",
+          "date": "2026-03-24T12:45:32Z",
+          "body": "Worked like a charm, much appreciated."
+        },
+        {
+          "id": 4117968542,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117968542",
+          "date": "2026-03-24T12:45:48Z",
+          "body": "Thanks for the tip!"
+        },
+        {
+          "id": 4118499459,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118499459",
+          "date": "2026-03-24T13:53:23Z",
+          "body": "Great explanation, thanks for sharing."
+        },
+        {
+          "id": 4118503042,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118503042",
+          "date": "2026-03-24T13:53:54Z",
+          "body": "Worked like a charm, much appreciated."
+        }
+      ]
+    },
+    {
+      "login": "eriakbar3",
+      "count": 5,
+      "items": [
+        {
+          "id": 4117966683,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117966683",
+          "date": "2026-03-24T12:45:32Z",
+          "body": "Thanks for the tip!"
+        },
+        {
+          "id": 4117967123,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117967123",
+          "date": "2026-03-24T12:45:36Z",
+          "body": "Worked like a charm, much appreciated."
+        },
+        {
+          "id": 4117972558,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117972558",
+          "date": "2026-03-24T12:46:25Z",
+          "body": "Appreciate the help, this fixed it for me."
+        },
+        {
+          "id": 4117975375,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117975375",
+          "date": "2026-03-24T12:46:50Z",
+          "body": "This was the answer I was looking for."
+        },
+        {
+          "id": 4118492788,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118492788",
+          "date": "2026-03-24T13:52:27Z",
+          "body": "Worked like a charm, much appreciated."
+        }
+      ]
+    },
+    {
+      "login": "MuhammadAjeelKahlid",
+      "count": 6,
+      "items": [
+        {
+          "id": 4117966842,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117966842",
+          "date": "2026-03-24T12:45:33Z",
+          "body": "Thanks, that helped!"
+        },
+        {
+          "id": 4117968593,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117968593",
+          "date": "2026-03-24T12:45:48Z",
+          "body": "Exactly what I needed, thanks."
+        },
+        {
+          "id": 4117973836,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117973836",
+          "date": "2026-03-24T12:46:36Z",
+          "body": "Great explanation, thanks for sharing."
+        },
+        {
+          "id": 4117977978,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117977978",
+          "date": "2026-03-24T12:47:12Z",
+          "body": "Thanks for the tip!"
+        },
+        {
+          "id": 4118499347,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118499347",
+          "date": "2026-03-24T13:53:22Z",
+          "body": "Thanks for the tip!"
+        },
+        {
+          "id": 4118502094,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118502094",
+          "date": "2026-03-24T13:53:46Z",
+          "body": "This was the answer I was looking for."
+        }
+      ]
+    },
+    {
+      "login": "Hamidov6611",
+      "count": 1,
+      "items": [
+        {
+          "id": 4117967177,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117967177",
+          "date": "2026-03-24T12:45:36Z",
+          "body": "Thanks, that helped!"
+        }
+      ]
+    },
+    {
+      "login": "iacoshoria",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117967322,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117967322",
+          "date": "2026-03-24T12:45:37Z",
+          "body": "Great explanation, thanks for sharing."
+        },
+        {
+          "id": 4118492077,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118492077",
+          "date": "2026-03-24T13:52:21Z",
+          "body": "Appreciate the help, this fixed it for me."
+        }
+      ]
+    },
+    {
+      "login": "tier75digital",
+      "count": 1,
+      "items": [
+        {
+          "id": 4117967373,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117967373",
+          "date": "2026-03-24T12:45:38Z",
+          "body": "Thanks, that helped!"
+        }
+      ]
+    },
+    {
+      "login": "MojeshChundi",
+      "count": 3,
+      "items": [
+        {
+          "id": 4117967414,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117967414",
+          "date": "2026-03-24T12:45:38Z",
+          "body": "Thanks for the tip!"
+        },
+        {
+          "id": 4118493869,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118493869",
+          "date": "2026-03-24T13:52:37Z",
+          "body": "Great explanation, thanks for sharing."
+        },
+        {
+          "id": 4118502857,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118502857",
+          "date": "2026-03-24T13:53:52Z",
+          "body": "Great explanation, thanks for sharing."
+        }
+      ]
+    },
+    {
+      "login": "riverLethe",
+      "count": 3,
+      "items": [
+        {
+          "id": 4117967463,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117967463",
+          "date": "2026-03-24T12:45:39Z",
+          "body": "Thanks for the tip!"
+        },
+        {
+          "id": 4117977085,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117977085",
+          "date": "2026-03-24T12:47:05Z",
+          "body": "Exactly what I needed, thanks."
+        },
+        {
+          "id": 4118499336,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118499336",
+          "date": "2026-03-24T13:53:22Z",
+          "body": "This solved my issue, thank you!"
+        }
+      ]
+    },
+    {
+      "login": "devslocalsig",
+      "count": 4,
+      "items": [
+        {
+          "id": 4117967519,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117967519",
+          "date": "2026-03-24T12:45:39Z",
+          "body": "Worked like a charm, much appreciated."
+        },
+        {
+          "id": 4117974852,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117974852",
+          "date": "2026-03-24T12:46:45Z",
+          "body": "Worked like a charm, much appreciated."
+        },
+        {
+          "id": 4118496656,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118496656",
+          "date": "2026-03-24T13:53:01Z",
+          "body": "Appreciate the help, this fixed it for me."
+        },
+        {
+          "id": 4118499959,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118499959",
+          "date": "2026-03-24T13:53:27Z",
+          "body": "Great explanation, thanks for sharing."
+        }
+      ]
+    },
+    {
+      "login": "BMAAustralia",
+      "count": 3,
+      "items": [
+        {
+          "id": 4117967634,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117967634",
+          "date": "2026-03-24T12:45:40Z",
+          "body": "Great explanation, thanks for sharing."
+        },
+        {
+          "id": 4118493692,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118493692",
+          "date": "2026-03-24T13:52:36Z",
+          "body": "Thanks, that helped!"
+        },
+        {
+          "id": 4118495229,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118495229",
+          "date": "2026-03-24T13:52:50Z",
+          "body": "Thanks for the tip!"
+        }
+      ]
+    },
+    {
+      "login": "realmankwon",
+      "count": 3,
+      "items": [
+        {
+          "id": 4117967752,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117967752",
+          "date": "2026-03-24T12:45:41Z",
+          "body": "This was the answer I was looking for."
+        },
+        {
+          "id": 4117977318,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117977318",
+          "date": "2026-03-24T12:47:07Z",
+          "body": "Exactly what I needed, thanks."
+        },
+        {
+          "id": 4118491568,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118491568",
+          "date": "2026-03-24T13:52:16Z",
+          "body": "Appreciate the help, this fixed it for me."
+        }
+      ]
+    },
+    {
+      "login": "yantavares031",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117967796,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117967796",
+          "date": "2026-03-24T12:45:42Z",
+          "body": "Worked like a charm, much appreciated."
+        },
+        {
+          "id": 4117969439,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117969439",
+          "date": "2026-03-24T12:45:57Z",
+          "body": "This was the answer I was looking for."
+        }
+      ]
+    },
+    {
+      "login": "sahil-bibox",
+      "count": 3,
+      "items": [
+        {
+          "id": 4117967810,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117967810",
+          "date": "2026-03-24T12:45:42Z",
+          "body": "Great explanation, thanks for sharing."
+        },
+        {
+          "id": 4117975490,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117975490",
+          "date": "2026-03-24T12:46:51Z",
+          "body": "Thanks for the tip!"
+        },
+        {
+          "id": 4118493067,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118493067",
+          "date": "2026-03-24T13:52:30Z",
+          "body": "Appreciate the help, this fixed it for me."
+        }
+      ]
+    },
+    {
+      "login": "PeterNHub",
+      "count": 3,
+      "items": [
+        {
+          "id": 4117967823,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117967823",
+          "date": "2026-03-24T12:45:42Z",
+          "body": "Exactly what I needed, thanks."
+        },
+        {
+          "id": 4117972915,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117972915",
+          "date": "2026-03-24T12:46:29Z",
+          "body": "Great explanation, thanks for sharing."
+        },
+        {
+          "id": 4118502374,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118502374",
+          "date": "2026-03-24T13:53:48Z",
+          "body": "Appreciate the help, this fixed it for me."
+        }
+      ]
+    },
+    {
+      "login": "phucnhkimei",
+      "count": 3,
+      "items": [
+        {
+          "id": 4117968175,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117968175",
+          "date": "2026-03-24T12:45:44Z",
+          "body": "Exactly what I needed, thanks."
+        },
+        {
+          "id": 4117970244,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117970244",
+          "date": "2026-03-24T12:46:04Z",
+          "body": "Thanks for the tip!"
+        },
+        {
+          "id": 4118492380,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118492380",
+          "date": "2026-03-24T13:52:23Z",
+          "body": "Thanks for the tip!"
+        }
+      ]
+    },
+    {
+      "login": "epiktechnocravers",
+      "count": 3,
+      "items": [
+        {
+          "id": 4117968387,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117968387",
+          "date": "2026-03-24T12:45:46Z",
+          "body": "This solved my issue, thank you!"
+        },
+        {
+          "id": 4117978385,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117978385",
+          "date": "2026-03-24T12:47:16Z",
+          "body": "Worked like a charm, much appreciated."
+        },
+        {
+          "id": 4118500800,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118500800",
+          "date": "2026-03-24T13:53:35Z",
+          "body": "Appreciate the help, this fixed it for me."
+        }
+      ]
+    },
+    {
+      "login": "Stoii2002",
+      "count": 3,
+      "items": [
+        {
+          "id": 4117968392,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117968392",
+          "date": "2026-03-24T12:45:46Z",
+          "body": "Appreciate the help, this fixed it for me."
+        },
+        {
+          "id": 4117977733,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117977733",
+          "date": "2026-03-24T12:47:10Z",
+          "body": "Thanks for the tip!"
+        },
+        {
+          "id": 4118496939,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118496939",
+          "date": "2026-03-24T13:53:03Z",
+          "body": "Appreciate the help, this fixed it for me."
+        }
+      ]
+    },
+    {
+      "login": "WebDevArch",
+      "count": 4,
+      "items": [
+        {
+          "id": 4117968467,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117968467",
+          "date": "2026-03-24T12:45:47Z",
+          "body": "Great explanation, thanks for sharing."
+        },
+        {
+          "id": 4117968902,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117968902",
+          "date": "2026-03-24T12:45:51Z",
+          "body": "Exactly what I needed, thanks."
+        },
+        {
+          "id": 4118493896,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118493896",
+          "date": "2026-03-24T13:52:37Z",
+          "body": "Appreciate the help, this fixed it for me."
+        },
+        {
+          "id": 4118499742,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118499742",
+          "date": "2026-03-24T13:53:25Z",
+          "body": "Worked like a charm, much appreciated."
+        }
+      ]
+    },
+    {
+      "login": "YeaminRaat",
+      "count": 4,
+      "items": [
+        {
+          "id": 4117968981,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117968981",
+          "date": "2026-03-24T12:45:52Z",
+          "body": "This was the answer I was looking for."
+        },
+        {
+          "id": 4117979520,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117979520",
+          "date": "2026-03-24T12:47:26Z",
+          "body": "Exactly what I needed, thanks."
+        },
+        {
+          "id": 4118496937,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118496937",
+          "date": "2026-03-24T13:53:03Z",
+          "body": "Appreciate the help, this fixed it for me."
+        },
+        {
+          "id": 4118499430,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118499430",
+          "date": "2026-03-24T13:53:23Z",
+          "body": "Thanks, that helped!"
+        }
+      ]
+    },
+    {
+      "login": "wbqlove",
+      "count": 3,
+      "items": [
+        {
+          "id": 4117969296,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117969296",
+          "date": "2026-03-24T12:45:56Z",
+          "body": "Appreciate the help, this fixed it for me."
+        },
+        {
+          "id": 4117978467,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117978467",
+          "date": "2026-03-24T12:47:16Z",
+          "body": "This solved my issue, thank you!"
+        },
+        {
+          "id": 4118493406,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118493406",
+          "date": "2026-03-24T13:52:33Z",
+          "body": "This was the answer I was looking for."
+        }
+      ]
+    },
+    {
+      "login": "putra-0",
+      "count": 3,
+      "items": [
+        {
+          "id": 4117969331,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117969331",
+          "date": "2026-03-24T12:45:56Z",
+          "body": "Thanks, that helped!"
+        },
+        {
+          "id": 4117974377,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117974377",
+          "date": "2026-03-24T12:46:41Z",
+          "body": "Great explanation, thanks for sharing."
+        },
+        {
+          "id": 4118492595,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118492595",
+          "date": "2026-03-24T13:52:25Z",
+          "body": "Thanks, that helped!"
+        }
+      ]
+    },
+    {
+      "login": "Rishabhamogh",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117969416,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117969416",
+          "date": "2026-03-24T12:45:57Z",
+          "body": "Thanks, that helped!"
+        },
+        {
+          "id": 4118493924,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118493924",
+          "date": "2026-03-24T13:52:38Z",
+          "body": "Great explanation, thanks for sharing."
+        }
+      ]
+    },
+    {
+      "login": "E-jewelry",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117969653,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117969653",
+          "date": "2026-03-24T12:45:58Z",
+          "body": "Appreciate the help, this fixed it for me."
+        },
+        {
+          "id": 4117979323,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117979323",
+          "date": "2026-03-24T12:47:24Z",
+          "body": "Worked like a charm, much appreciated."
+        }
+      ]
+    },
+    {
+      "login": "ssynerg",
+      "count": 3,
+      "items": [
+        {
+          "id": 4117969767,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117969767",
+          "date": "2026-03-24T12:45:59Z",
+          "body": "Worked like a charm, much appreciated."
+        },
+        {
+          "id": 4117977903,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117977903",
+          "date": "2026-03-24T12:47:11Z",
+          "body": "Great explanation, thanks for sharing."
+        },
+        {
+          "id": 4118492244,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118492244",
+          "date": "2026-03-24T13:52:22Z",
+          "body": "This solved my issue, thank you!"
+        }
+      ]
+    },
+    {
+      "login": "sayush-nelka",
+      "count": 3,
+      "items": [
+        {
+          "id": 4117970145,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117970145",
+          "date": "2026-03-24T12:46:03Z",
+          "body": "Exactly what I needed, thanks."
+        },
+        {
+          "id": 4117977435,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117977435",
+          "date": "2026-03-24T12:47:08Z",
+          "body": "Worked like a charm, much appreciated."
+        },
+        {
+          "id": 4118493076,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118493076",
+          "date": "2026-03-24T13:52:30Z",
+          "body": "Worked like a charm, much appreciated."
+        }
+      ]
+    },
+    {
+      "login": "arshad-wbst",
+      "count": 3,
+      "items": [
+        {
+          "id": 4117970148,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117970148",
+          "date": "2026-03-24T12:46:03Z",
+          "body": "Exactly what I needed, thanks."
+        },
+        {
+          "id": 4117979311,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117979311",
+          "date": "2026-03-24T12:47:24Z",
+          "body": "Worked like a charm, much appreciated."
+        },
+        {
+          "id": 4118491545,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118491545",
+          "date": "2026-03-24T13:52:16Z",
+          "body": "Exactly what I needed, thanks."
+        }
+      ]
+    },
+    {
+      "login": "pavlevlajic",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117970279,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117970279",
+          "date": "2026-03-24T12:46:04Z",
+          "body": "Appreciate the help, this fixed it for me."
+        },
+        {
+          "id": 4118493773,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118493773",
+          "date": "2026-03-24T13:52:36Z",
+          "body": "Thanks, that helped!"
+        }
+      ]
+    },
+    {
+      "login": "vikashmedicheck",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117970501,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117970501",
+          "date": "2026-03-24T12:46:06Z",
+          "body": "Exactly what I needed, thanks."
+        },
+        {
+          "id": 4118502540,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118502540",
+          "date": "2026-03-24T13:53:50Z",
+          "body": "Exactly what I needed, thanks."
+        }
+      ]
+    },
+    {
+      "login": "Amanovth",
+      "count": 4,
+      "items": [
+        {
+          "id": 4117970598,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117970598",
+          "date": "2026-03-24T12:46:07Z",
+          "body": "Exactly what I needed, thanks."
+        },
+        {
+          "id": 4117976579,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117976579",
+          "date": "2026-03-24T12:47:01Z",
+          "body": "Thanks, that helped!"
+        },
+        {
+          "id": 4118497397,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118497397",
+          "date": "2026-03-24T13:53:07Z",
+          "body": "This solved my issue, thank you!"
+        },
+        {
+          "id": 4118497713,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118497713",
+          "date": "2026-03-24T13:53:09Z",
+          "body": "Worked like a charm, much appreciated."
+        }
+      ]
+    },
+    {
+      "login": "yarillo209120",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117970744,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117970744",
+          "date": "2026-03-24T12:46:09Z",
+          "body": "Appreciate the help, this fixed it for me."
+        },
+        {
+          "id": 4118493789,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118493789",
+          "date": "2026-03-24T13:52:36Z",
+          "body": "This solved my issue, thank you!"
+        }
+      ]
+    },
+    {
+      "login": "bo7",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117970746,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117970746",
+          "date": "2026-03-24T12:46:09Z",
+          "body": "Thanks, that helped!"
+        },
+        {
+          "id": 4117976071,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117976071",
+          "date": "2026-03-24T12:46:57Z",
+          "body": "Thanks, that helped!"
+        }
+      ]
+    },
+    {
+      "login": "jk-sumit-kumar",
+      "count": 1,
+      "items": [
+        {
+          "id": 4117970821,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117970821",
+          "date": "2026-03-24T12:46:10Z",
+          "body": "Great explanation, thanks for sharing."
+        }
+      ]
+    },
+    {
+      "login": "natenaelme",
+      "count": 3,
+      "items": [
+        {
+          "id": 4117971003,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117971003",
+          "date": "2026-03-24T12:46:12Z",
+          "body": "Great explanation, thanks for sharing."
+        },
+        {
+          "id": 4118498905,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118498905",
+          "date": "2026-03-24T13:53:19Z",
+          "body": "This solved my issue, thank you!"
+        },
+        {
+          "id": 4118500428,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118500428",
+          "date": "2026-03-24T13:53:31Z",
+          "body": "Exactly what I needed, thanks."
+        }
+      ]
+    },
+    {
+      "login": "invhariharan77",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117971111,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117971111",
+          "date": "2026-03-24T12:46:13Z",
+          "body": "Thanks, that helped!"
+        },
+        {
+          "id": 4117975885,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117975885",
+          "date": "2026-03-24T12:46:55Z",
+          "body": "Exactly what I needed, thanks."
+        }
+      ]
+    },
+    {
+      "login": "ThibaultEcta",
+      "count": 3,
+      "items": [
+        {
+          "id": 4117971318,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117971318",
+          "date": "2026-03-24T12:46:14Z",
+          "body": "Thanks for the tip!"
+        },
+        {
+          "id": 4117971938,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117971938",
+          "date": "2026-03-24T12:46:20Z",
+          "body": "This solved my issue, thank you!"
+        },
+        {
+          "id": 4118498169,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118498169",
+          "date": "2026-03-24T13:53:13Z",
+          "body": "Worked like a charm, much appreciated."
+        }
+      ]
+    },
+    {
+      "login": "farrukhan11",
+      "count": 3,
+      "items": [
+        {
+          "id": 4117971563,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117971563",
+          "date": "2026-03-24T12:46:16Z",
+          "body": "Appreciate the help, this fixed it for me."
+        },
+        {
+          "id": 4117979801,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117979801",
+          "date": "2026-03-24T12:47:28Z",
+          "body": "Thanks for the tip!"
+        },
+        {
+          "id": 4118498728,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118498728",
+          "date": "2026-03-24T13:53:17Z",
+          "body": "Worked like a charm, much appreciated."
+        }
+      ]
+    },
+    {
+      "login": "Vlasuz",
+      "count": 1,
+      "items": [
+        {
+          "id": 4117971634,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117971634",
+          "date": "2026-03-24T12:46:17Z",
+          "body": "This was the answer I was looking for."
+        }
+      ]
+    },
+    {
+      "login": "potatomask",
+      "count": 4,
+      "items": [
+        {
+          "id": 4117971669,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117971669",
+          "date": "2026-03-24T12:46:17Z",
+          "body": "Great explanation, thanks for sharing."
+        },
+        {
+          "id": 4117975719,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117975719",
+          "date": "2026-03-24T12:46:53Z",
+          "body": "Exactly what I needed, thanks."
+        },
+        {
+          "id": 4118492958,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118492958",
+          "date": "2026-03-24T13:52:29Z",
+          "body": "This solved my issue, thank you!"
+        },
+        {
+          "id": 4118495435,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118495435",
+          "date": "2026-03-24T13:52:52Z",
+          "body": "This was the answer I was looking for."
+        }
+      ]
+    },
+    {
+      "login": "PAWAN1SINGH",
+      "count": 1,
+      "items": [
+        {
+          "id": 4117971786,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117971786",
+          "date": "2026-03-24T12:46:18Z",
+          "body": "Exactly what I needed, thanks."
+        }
+      ]
+    },
+    {
+      "login": "thealphadev01",
+      "count": 3,
+      "items": [
+        {
+          "id": 4117971860,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117971860",
+          "date": "2026-03-24T12:46:19Z",
+          "body": "Great explanation, thanks for sharing."
+        },
+        {
+          "id": 4117979529,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117979529",
+          "date": "2026-03-24T12:47:26Z",
+          "body": "Thanks for the tip!"
+        },
+        {
+          "id": 4118499286,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118499286",
+          "date": "2026-03-24T13:53:22Z",
+          "body": "Great explanation, thanks for sharing."
+        }
+      ]
+    },
+    {
+      "login": "kerolosFawzy",
+      "count": 4,
+      "items": [
+        {
+          "id": 4117972002,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117972002",
+          "date": "2026-03-24T12:46:20Z",
+          "body": "Great explanation, thanks for sharing."
+        },
+        {
+          "id": 4117975929,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117975929",
+          "date": "2026-03-24T12:46:55Z",
+          "body": "Appreciate the help, this fixed it for me."
+        },
+        {
+          "id": 4118497392,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118497392",
+          "date": "2026-03-24T13:53:07Z",
+          "body": "Thanks, that helped!"
+        },
+        {
+          "id": 4118498047,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118498047",
+          "date": "2026-03-24T13:53:12Z",
+          "body": "Thanks, that helped!"
+        }
+      ]
+    },
+    {
+      "login": "jorgePanitaDev",
+      "count": 3,
+      "items": [
+        {
+          "id": 4117972196,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117972196",
+          "date": "2026-03-24T12:46:22Z",
+          "body": "Appreciate the help, this fixed it for me."
+        },
+        {
+          "id": 4117973964,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117973964",
+          "date": "2026-03-24T12:46:37Z",
+          "body": "This solved my issue, thank you!"
+        },
+        {
+          "id": 4118499324,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118499324",
+          "date": "2026-03-24T13:53:22Z",
+          "body": "Worked like a charm, much appreciated."
+        }
+      ]
+    },
+    {
+      "login": "harshjf",
+      "count": 3,
+      "items": [
+        {
+          "id": 4117972269,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117972269",
+          "date": "2026-03-24T12:46:23Z",
+          "body": "Great explanation, thanks for sharing."
+        },
+        {
+          "id": 4118496938,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118496938",
+          "date": "2026-03-24T13:53:03Z",
+          "body": "This was the answer I was looking for."
+        },
+        {
+          "id": 4118501498,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118501498",
+          "date": "2026-03-24T13:53:41Z",
+          "body": "Thanks for the tip!"
+        }
+      ]
+    },
+    {
+      "login": "DmitriyG228",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117972347,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117972347",
+          "date": "2026-03-24T12:46:23Z",
+          "body": "Exactly what I needed, thanks."
+        },
+        {
+          "id": 4118493467,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118493467",
+          "date": "2026-03-24T13:52:34Z",
+          "body": "Thanks for the tip!"
+        }
+      ]
+    },
+    {
+      "login": "nvdstore",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117972398,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117972398",
+          "date": "2026-03-24T12:46:24Z",
+          "body": "Great explanation, thanks for sharing."
+        },
+        {
+          "id": 4117978424,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117978424",
+          "date": "2026-03-24T12:47:16Z",
+          "body": "Great explanation, thanks for sharing."
+        }
+      ]
+    },
+    {
+      "login": "incentivebusiness",
+      "count": 1,
+      "items": [
+        {
+          "id": 4117972494,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117972494",
+          "date": "2026-03-24T12:46:25Z",
+          "body": "This was the answer I was looking for."
+        }
+      ]
+    },
+    {
+      "login": "Yesarib",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117972550,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117972550",
+          "date": "2026-03-24T12:46:25Z",
+          "body": "Thanks for the tip!"
+        },
+        {
+          "id": 4117976346,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117976346",
+          "date": "2026-03-24T12:46:59Z",
+          "body": "Thanks for the tip!"
+        }
+      ]
+    },
+    {
+      "login": "husitawi",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117972788,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117972788",
+          "date": "2026-03-24T12:46:27Z",
+          "body": "Worked like a charm, much appreciated."
+        },
+        {
+          "id": 4118492782,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118492782",
+          "date": "2026-03-24T13:52:27Z",
+          "body": "Worked like a charm, much appreciated."
+        }
+      ]
+    },
+    {
+      "login": "eduardop1p",
+      "count": 4,
+      "items": [
+        {
+          "id": 4117973035,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117973035",
+          "date": "2026-03-24T12:46:30Z",
+          "body": "Worked like a charm, much appreciated."
+        },
+        {
+          "id": 4117976628,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117976628",
+          "date": "2026-03-24T12:47:01Z",
+          "body": "Appreciate the help, this fixed it for me."
+        },
+        {
+          "id": 4118496853,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118496853",
+          "date": "2026-03-24T13:53:03Z",
+          "body": "Great explanation, thanks for sharing."
+        },
+        {
+          "id": 4118500502,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118500502",
+          "date": "2026-03-24T13:53:32Z",
+          "body": "Thanks for the tip!"
+        }
+      ]
+    },
+    {
+      "login": "farouttravel",
+      "count": 1,
+      "items": [
+        {
+          "id": 4117973059,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117973059",
+          "date": "2026-03-24T12:46:30Z",
+          "body": "Appreciate the help, this fixed it for me."
+        }
+      ]
+    },
+    {
+      "login": "gbnijnugyf",
+      "count": 3,
+      "items": [
+        {
+          "id": 4117973106,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117973106",
+          "date": "2026-03-24T12:46:30Z",
+          "body": "Great explanation, thanks for sharing."
+        },
+        {
+          "id": 4117977531,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117977531",
+          "date": "2026-03-24T12:47:08Z",
+          "body": "Thanks for the tip!"
+        },
+        {
+          "id": 4118497941,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118497941",
+          "date": "2026-03-24T13:53:11Z",
+          "body": "Great explanation, thanks for sharing."
+        }
+      ]
+    },
+    {
+      "login": "DouglasGuiduce",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117973132,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117973132",
+          "date": "2026-03-24T12:46:30Z",
+          "body": "Thanks, that helped!"
+        },
+        {
+          "id": 4118502078,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118502078",
+          "date": "2026-03-24T13:53:46Z",
+          "body": "Worked like a charm, much appreciated."
+        }
+      ]
+    },
+    {
+      "login": "jayzalavadiya-artoon",
+      "count": 1,
+      "items": [
+        {
+          "id": 4117973208,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117973208",
+          "date": "2026-03-24T12:46:31Z",
+          "body": "Worked like a charm, much appreciated."
+        }
+      ]
+    },
+    {
+      "login": "prajeshmadhavi",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117973421,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117973421",
+          "date": "2026-03-24T12:46:33Z",
+          "body": "Exactly what I needed, thanks."
+        },
+        {
+          "id": 4117979918,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117979918",
+          "date": "2026-03-24T12:47:29Z",
+          "body": "Thanks, that helped!"
+        }
+      ]
+    },
+    {
+      "login": "siscontri-dev",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117973592,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117973592",
+          "date": "2026-03-24T12:46:34Z",
+          "body": "This solved my issue, thank you!"
+        },
+        {
+          "id": 4118497728,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118497728",
+          "date": "2026-03-24T13:53:09Z",
+          "body": "Worked like a charm, much appreciated."
+        }
+      ]
+    },
+    {
+      "login": "teknomaintsistemi",
+      "count": 4,
+      "items": [
+        {
+          "id": 4117973713,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117973713",
+          "date": "2026-03-24T12:46:35Z",
+          "body": "Worked like a charm, much appreciated."
+        },
+        {
+          "id": 4117975969,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117975969",
+          "date": "2026-03-24T12:46:56Z",
+          "body": "This was the answer I was looking for."
+        },
+        {
+          "id": 4118492456,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118492456",
+          "date": "2026-03-24T13:52:24Z",
+          "body": "Great explanation, thanks for sharing."
+        },
+        {
+          "id": 4118501994,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118501994",
+          "date": "2026-03-24T13:53:45Z",
+          "body": "Appreciate the help, this fixed it for me."
+        }
+      ]
+    },
+    {
+      "login": "techlead-shootorder",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117973718,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117973718",
+          "date": "2026-03-24T12:46:35Z",
+          "body": "Appreciate the help, this fixed it for me."
+        },
+        {
+          "id": 4117977198,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117977198",
+          "date": "2026-03-24T12:47:06Z",
+          "body": "This was the answer I was looking for."
+        }
+      ]
+    },
+    {
+      "login": "minchulahn",
+      "count": 1,
+      "items": [
+        {
+          "id": 4117973757,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117973757",
+          "date": "2026-03-24T12:46:35Z",
+          "body": "Worked like a charm, much appreciated."
+        }
+      ]
+    },
+    {
+      "login": "JaewhangShin",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117973928,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117973928",
+          "date": "2026-03-24T12:46:37Z",
+          "body": "This solved my issue, thank you!"
+        },
+        {
+          "id": 4117974667,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117974667",
+          "date": "2026-03-24T12:46:44Z",
+          "body": "Great explanation, thanks for sharing."
+        }
+      ]
+    },
+    {
+      "login": "Aznair25",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117974030,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117974030",
+          "date": "2026-03-24T12:46:38Z",
+          "body": "Thanks, that helped!"
+        },
+        {
+          "id": 4118500893,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118500893",
+          "date": "2026-03-24T13:53:36Z",
+          "body": "Appreciate the help, this fixed it for me."
+        }
+      ]
+    },
+    {
+      "login": "abarriostoros",
+      "count": 1,
+      "items": [
+        {
+          "id": 4117975476,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117975476",
+          "date": "2026-03-24T12:46:51Z",
+          "body": "Great explanation, thanks for sharing."
+        }
+      ]
+    },
+    {
+      "login": "himelali",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117975560,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117975560",
+          "date": "2026-03-24T12:46:52Z",
+          "body": "Great explanation, thanks for sharing."
+        },
+        {
+          "id": 4118491800,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118491800",
+          "date": "2026-03-24T13:52:18Z",
+          "body": "Great explanation, thanks for sharing."
+        }
+      ]
+    },
+    {
+      "login": "rivadaviaPlataformas",
+      "count": 1,
+      "items": [
+        {
+          "id": 4117975600,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117975600",
+          "date": "2026-03-24T12:46:52Z",
+          "body": "Great explanation, thanks for sharing."
+        }
+      ]
+    },
+    {
+      "login": "Youssef6022",
+      "count": 3,
+      "items": [
+        {
+          "id": 4117975985,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117975985",
+          "date": "2026-03-24T12:46:56Z",
+          "body": "This was the answer I was looking for."
+        },
+        {
+          "id": 4117976887,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117976887",
+          "date": "2026-03-24T12:47:03Z",
+          "body": "Appreciate the help, this fixed it for me."
+        },
+        {
+          "id": 4118498595,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118498595",
+          "date": "2026-03-24T13:53:16Z",
+          "body": "Worked like a charm, much appreciated."
+        }
+      ]
+    },
+    {
+      "login": "Kyle-Structure",
+      "count": 1,
+      "items": [
+        {
+          "id": 4117976357,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117976357",
+          "date": "2026-03-24T12:46:59Z",
+          "body": "This was the answer I was looking for."
+        }
+      ]
+    },
+    {
+      "login": "aamitn",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117976385,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117976385",
+          "date": "2026-03-24T12:46:59Z",
+          "body": "This was the answer I was looking for."
+        },
+        {
+          "id": 4118497948,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118497948",
+          "date": "2026-03-24T13:53:11Z",
+          "body": "Great explanation, thanks for sharing."
+        }
+      ]
+    },
+    {
+      "login": "sanchir2011",
+      "count": 1,
+      "items": [
+        {
+          "id": 4117976581,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117976581",
+          "date": "2026-03-24T12:47:01Z",
+          "body": "Worked like a charm, much appreciated."
+        }
+      ]
+    },
+    {
+      "login": "pankaj-kaule",
+      "count": 1,
+      "items": [
+        {
+          "id": 4117976800,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117976800",
+          "date": "2026-03-24T12:47:02Z",
+          "body": "Great explanation, thanks for sharing."
+        }
+      ]
+    },
+    {
+      "login": "nillathiya",
+      "count": 3,
+      "items": [
+        {
+          "id": 4117977001,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117977001",
+          "date": "2026-03-24T12:47:04Z",
+          "body": "Thanks, that helped!"
+        },
+        {
+          "id": 4117980010,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117980010",
+          "date": "2026-03-24T12:47:30Z",
+          "body": "Exactly what I needed, thanks."
+        },
+        {
+          "id": 4118493614,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118493614",
+          "date": "2026-03-24T13:52:35Z",
+          "body": "Thanks for the tip!"
+        }
+      ]
+    },
+    {
+      "login": "NTAravind",
+      "count": 1,
+      "items": [
+        {
+          "id": 4117977151,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117977151",
+          "date": "2026-03-24T12:47:05Z",
+          "body": "Worked like a charm, much appreciated."
+        }
+      ]
+    },
+    {
+      "login": "anket-troi",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117977353,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117977353",
+          "date": "2026-03-24T12:47:07Z",
+          "body": "This was the answer I was looking for."
+        },
+        {
+          "id": 4117977860,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117977860",
+          "date": "2026-03-24T12:47:11Z",
+          "body": "Worked like a charm, much appreciated."
+        }
+      ]
+    },
+    {
+      "login": "bothap",
+      "count": 4,
+      "items": [
+        {
+          "id": 4117977514,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117977514",
+          "date": "2026-03-24T12:47:08Z",
+          "body": "Thanks for the tip!"
+        },
+        {
+          "id": 4117979672,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117979672",
+          "date": "2026-03-24T12:47:27Z",
+          "body": "Appreciate the help, this fixed it for me."
+        },
+        {
+          "id": 4118493075,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118493075",
+          "date": "2026-03-24T13:52:30Z",
+          "body": "Worked like a charm, much appreciated."
+        },
+        {
+          "id": 4118498319,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118498319",
+          "date": "2026-03-24T13:53:14Z",
+          "body": "Thanks for the tip!"
+        }
+      ]
+    },
+    {
+      "login": "lazyatra",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117977604,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117977604",
+          "date": "2026-03-24T12:47:09Z",
+          "body": "Thanks for the tip!"
+        },
+        {
+          "id": 4118492436,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118492436",
+          "date": "2026-03-24T13:52:24Z",
+          "body": "Worked like a charm, much appreciated."
+        }
+      ]
+    },
+    {
+      "login": "TheoCanonne",
+      "count": 1,
+      "items": [
+        {
+          "id": 4117978395,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117978395",
+          "date": "2026-03-24T12:47:16Z",
+          "body": "This was the answer I was looking for."
+        }
+      ]
+    },
+    {
+      "login": "Vanshh20",
+      "count": 1,
+      "items": [
+        {
+          "id": 4117978760,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117978760",
+          "date": "2026-03-24T12:47:19Z",
+          "body": "Worked like a charm, much appreciated."
+        }
+      ]
+    },
+    {
+      "login": "simar525",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117978860,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117978860",
+          "date": "2026-03-24T12:47:20Z",
+          "body": "Great explanation, thanks for sharing."
+        },
+        {
+          "id": 4118498192,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118498192",
+          "date": "2026-03-24T13:53:13Z",
+          "body": "Exactly what I needed, thanks."
+        }
+      ]
+    },
+    {
+      "login": "kkgkaundal",
+      "count": 1,
+      "items": [
+        {
+          "id": 4117978885,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117978885",
+          "date": "2026-03-24T12:47:20Z",
+          "body": "Great explanation, thanks for sharing."
+        }
+      ]
+    },
+    {
+      "login": "shanefleet",
+      "count": 1,
+      "items": [
+        {
+          "id": 4117978929,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117978929",
+          "date": "2026-03-24T12:47:20Z",
+          "body": "Exactly what I needed, thanks."
+        }
+      ]
+    },
+    {
+      "login": "immatobi",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117979208,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117979208",
+          "date": "2026-03-24T12:47:23Z",
+          "body": "This solved my issue, thank you!"
+        },
+        {
+          "id": 4118499300,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118499300",
+          "date": "2026-03-24T13:53:22Z",
+          "body": "This solved my issue, thank you!"
+        }
+      ]
+    },
+    {
+      "login": "davidgutierrezalkostomax",
+      "count": 2,
+      "items": [
+        {
+          "id": 4117979999,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4117979999",
+          "date": "2026-03-24T12:47:30Z",
+          "body": "Thanks for the tip!"
+        },
+        {
+          "id": 4118493427,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118493427",
+          "date": "2026-03-24T13:52:33Z",
+          "body": "Appreciate the help, this fixed it for me."
+        }
+      ]
+    },
+    {
+      "login": "OmkarKirpan",
+      "count": 1,
+      "items": [
+        {
+          "id": 4118444371,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118444371",
+          "date": "2026-03-24T13:45:43Z",
+          "body": "Thanks, that helped!"
+        }
+      ]
+    },
+    {
+      "login": "Hancie123",
+      "count": 2,
+      "items": [
+        {
+          "id": 4118490684,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118490684",
+          "date": "2026-03-24T13:52:08Z",
+          "body": "Worked like a charm, much appreciated."
+        },
+        {
+          "id": 4118497505,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118497505",
+          "date": "2026-03-24T13:53:08Z",
+          "body": "Exactly what I needed, thanks."
+        }
+      ]
+    },
+    {
+      "login": "cmlibra71",
+      "count": 2,
+      "items": [
+        {
+          "id": 4118491967,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118491967",
+          "date": "2026-03-24T13:52:20Z",
+          "body": "Appreciate the help, this fixed it for me."
+        },
+        {
+          "id": 4118497628,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118497628",
+          "date": "2026-03-24T13:53:09Z",
+          "body": "Thanks for the tip!"
+        }
+      ]
+    },
+    {
+      "login": "tinkatinka",
+      "count": 1,
+      "items": [
+        {
+          "id": 4118492197,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118492197",
+          "date": "2026-03-24T13:52:22Z",
+          "body": "Exactly what I needed, thanks."
+        }
+      ]
+    },
+    {
+      "login": "usmanialiq",
+      "count": 1,
+      "items": [
+        {
+          "id": 4118493575,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118493575",
+          "date": "2026-03-24T13:52:35Z",
+          "body": "This solved my issue, thank you!"
+        }
+      ]
+    },
+    {
+      "login": "mj6uc",
+      "count": 2,
+      "items": [
+        {
+          "id": 4118495207,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118495207",
+          "date": "2026-03-24T13:52:49Z",
+          "body": "Thanks for the tip!"
+        },
+        {
+          "id": 4118501902,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118501902",
+          "date": "2026-03-24T13:53:44Z",
+          "body": "Thanks for the tip!"
+        }
+      ]
+    },
+    {
+      "login": "mike2505",
+      "count": 1,
+      "items": [
+        {
+          "id": 4118497416,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118497416",
+          "date": "2026-03-24T13:53:07Z",
+          "body": "Thanks, that helped!"
+        }
+      ]
+    },
+    {
+      "login": "durmanko",
+      "count": 1,
+      "items": [
+        {
+          "id": 4118498525,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118498525",
+          "date": "2026-03-24T13:53:16Z",
+          "body": "This was the answer I was looking for."
+        }
+      ]
+    },
+    {
+      "login": "Justforthee",
+      "count": 2,
+      "items": [
+        {
+          "id": 4118499871,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118499871",
+          "date": "2026-03-24T13:53:27Z",
+          "body": "Thanks, that helped!"
+        },
+        {
+          "id": 4118500614,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118500614",
+          "date": "2026-03-24T13:53:33Z",
+          "body": "Appreciate the help, this fixed it for me."
+        }
+      ]
+    },
+    {
+      "login": "zaim-abbasi",
+      "count": 2,
+      "items": [
+        {
+          "id": 4118500527,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118500527",
+          "date": "2026-03-24T13:53:32Z",
+          "body": "Appreciate the help, this fixed it for me."
+        },
+        {
+          "id": 4118500846,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118500846",
+          "date": "2026-03-24T13:53:35Z",
+          "body": "Exactly what I needed, thanks."
+        }
+      ]
+    },
+    {
+      "login": "Ahmed-G-Rao",
+      "count": 1,
+      "items": [
+        {
+          "id": 4118501952,
+          "url": "https://github.com/BerriAI/litellm/issues/24512#issuecomment-4118501952",
+          "date": "2026-03-24T13:53:45Z",
+          "body": "Worked like a charm, much appreciated."
+        }
+      ]
+    }
+  ]
+}

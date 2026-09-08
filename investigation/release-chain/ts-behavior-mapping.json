@@ -1,0 +1,138 @@
+{
+  "checked_at_utc": "2026-09-08T20:37:10.058088+00:00",
+  "boundary": "Source-level static feature/trigger mapping; does not prove complete equivalence of both large compiled UI modules.",
+  "mappings": [
+    {
+      "module_id": "602869",
+      "source_path": "ui/litellm-dashboard/src/components/networking.tsx",
+      "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+      "git_blob_sha1": "b53a67f9bccf069addb3d580f94efea77859597b",
+      "source_sha256": "df6e3f89b0c8b1dbc3e42693cf73456ef671ad50b490feff3d236f21e85704db",
+      "start_line": 4994,
+      "end_line": 5001,
+      "source_url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/components/networking.tsx#L4994",
+      "observed_mapping": "exported importMCPServers wrapper; existing apiClient.post with relative route, accessToken and body; catches and rethrows",
+      "source_excerpt": "export const importMCPServers = async (accessToken: string, payload: Record<string, unknown>) => {\n  try {\n    return await apiClient.post(`/v1/mcp/server/import`, { accessToken, body: payload });\n  } catch (error) {\n    console.error(\"Failed to import MCP servers:\", error);\n    throw error;\n  }\n};"
+    },
+    {
+      "module_id": "366321",
+      "source_path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/importConnectorConfig.ts",
+      "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+      "git_blob_sha1": "16dfc0542fdcb856b20e3bff3c5d9025d5fa4a32",
+      "source_sha256": "ef25eb1291626f363fdd9b26186aadc8a5821fbdcba58c9464050b1269e27063",
+      "start_line": 27,
+      "end_line": 67,
+      "source_url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/app/%28dashboard%29/mcp-servers/_components/importConnectorConfig.ts#L27",
+      "observed_mapping": "JSON.parse plus object/array/empty validation, no eval or filesystem access in this parser",
+      "source_excerpt": "export const parseConnectorConfig = (text: string): ParsedConnectorConfig => {\n  const trimmed = text.trim();\n  if (!trimmed) {\n    return { ok: false, error: \"Paste your connector JSON before importing.\" };\n  }\n  let parsed: unknown;\n  try {\n    parsed = JSON.parse(trimmed);\n  } catch {\n    return { ok: false, error: \"Invalid JSON. Check for missing quotes, commas, or brackets.\" };\n  }\n  if (typeof parsed !== \"object\" || parsed === null || Array.isArray(parsed)) {\n    return { ok: false, error: \"Expected a JSON object with an mcpServers or mcp_servers key.\" };\n  }\n  const record = parsed as Record<string, unknown>;\n  const mapping = record.mcpServers;\n  if (mapping !== undefined) {\n    if (typeof mapping !== \"object\" || mapping === null || Array.isArray(mapping)) {\n      return { ok: false, error: \"mcpServers must be an object mapping connector names to definitions.\" };\n    }\n    const connectorCount = Object.keys(mapping).length;\n    if (connectorCount === 0) {\n      return { ok: false, error: \"mcpServers contains no connectors.\" };\n    }\n    return { ok: true, payload: { mcpServers: mapping }, connectorCount };\n  }\n  const list = record.mcp_servers;\n  if (list !== undefined) {\n    if (!Array.isArray(list)) {\n      return { ok: false, error: \"mcp_servers must be an array of connector definitions.\" };\n    }\n    if (list.length === 0) {\n      return { ok: false, error: \"mcp_servers contains no connectors.\" };\n    }\n    return { ok: true, payload: { mcp_servers: list }, connectorCount: list.length };\n  }\n  return { ok: false, error: \"Expected a JSON object with an mcpServers or mcp_servers key.\" };\n};"
+    },
+    {
+      "module_id": "366321",
+      "source_path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/ImportMCPServers.tsx",
+      "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+      "git_blob_sha1": "d04160bca3e76ad8a7dc6306152bed77b68ffb59",
+      "source_sha256": "671715f351a1eb2abe9ed42846a3c47ef495fbcc7c45891305b75cef89cf7dab",
+      "start_line": 39,
+      "end_line": 60,
+      "source_url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/app/%28dashboard%29/mcp-servers/_components/ImportMCPServers.tsx#L39",
+      "observed_mapping": "handleImport invokes wrapper only after successful parse; updates per-entry result UI",
+      "source_excerpt": "  const handleImport = async () => {\n    const parsed = parseConnectorConfig(configText);\n    if (!parsed.ok) {\n      setParseError(parsed.error);\n      return;\n    }\n    setParseError(null);\n    setIsImporting(true);\n    try {\n      const response = (await importMCPServers(accessToken, parsed.payload)) as MCPConnectorImportResponse;\n      setResult(response);\n      if (response.imported.length > 0) {\n        toast.success(`Imported ${response.imported.length} MCP server${response.imported.length === 1 ? \"\" : \"s\"}`);\n        onImported();\n      }\n    } catch (error) {\n      console.error(\"Failed to import MCP servers:\", error);\n      setParseError(\"Import request failed. Check the proxy logs for details.\");\n    } finally {\n      setIsImporting(false);\n    }\n  };"
+    },
+    {
+      "module_id": "366321",
+      "source_path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/mcp_servers.tsx",
+      "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+      "git_blob_sha1": "6e70b1ac59ac0c1ae7c00b7241deb91f873ed63f",
+      "source_sha256": "db2dd46f6554af77c3e4f35db19db8573fb9cef2d2b9116453cc6d270c16af68",
+      "start_line": 485,
+      "end_line": 515,
+      "source_url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/app/%28dashboard%29/mcp-servers/_components/mcp_servers.tsx#L485",
+      "observed_mapping": "admin-gated Import from JSON button toggles dialog; imported result refreshes existing server list",
+      "source_excerpt": "          <div className=\"flex items-center gap-2\">\n            {isAdminRole(userRole) && (\n              <>\n                <Button className=\"shrink-0\" variant=\"secondary\" onClick={() => setImportVisible(true)}>\n                  Import from JSON\n                </Button>\n                <Button className=\"shrink-0\" onClick={() => setDiscoveryVisible(true)}>\n                  + Add New MCP Server\n                </Button>\n              </>\n            )}\n            {!isAdminRole(userRole) && (\n              <Button\n                className=\"shrink-0\"\n                onClick={() => {\n                  setPrefillData(null);\n                  setModalVisible(true);\n                }}\n                variant=\"secondary\"\n              >\n                + Submit MCP Server\n              </Button>\n            )}\n          </div>\n        </div>\n        <ImportMCPServers\n          accessToken={accessToken}\n          open={isImportVisible}\n          onClose={() => setImportVisible(false)}\n          onImported={() => refetch()}\n        />"
+    },
+    {
+      "module_id": "664307",
+      "source_path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/page.tsx",
+      "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+      "git_blob_sha1": "9ae7dc12f8150c2b69907b2d1d88f987cd84fa28",
+      "source_sha256": "f1bf239c23f7d4bd31494cfbf78b68b74dba64e640cbf0a08a05d43e2785070e",
+      "start_line": 49,
+      "end_line": 75,
+      "source_url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/app/%28dashboard%29/models-and-endpoints/page.tsx#L49",
+      "observed_mapping": "new access-group-budgets tab title and rendering branch",
+      "source_excerpt": "  \"retry-settings\": \"Model Retry Settings\",\n  \"model-group-alias\": \"Model Group Alias\",\n  \"access-group-budgets\": \"Model Access Group Budgets\",\n  \"price-data\": \"Price Data Reload\",\n};\n\nconst renderPanel = (key: string) => {\n  switch (key) {\n    case BASE_TAB_KEY:\n      return <AllModelsPanel />;\n    case \"auto-routers\":\n      return <AutoRoutersTabPanel />;\n    case \"add\":\n      return <AddModelPanel />;\n    case \"llm-credentials\":\n      return <LlmCredentialsPanel />;\n    case \"pass-through\":\n      return <PassThroughPanel />;\n    case \"health\":\n      return <HealthStatusPanel />;\n    case \"retry-settings\":\n      return <ModelRetrySettingsPanel />;\n    case \"model-group-alias\":\n      return <ModelGroupAliasPanel />;\n    case \"access-group-budgets\":\n      return <AccessGroupBudgetsPanel />;\n    case \"price-data\":"
+    },
+    {
+      "module_id": "664307",
+      "source_path": "ui/litellm-dashboard/src/app/(dashboard)/hooks/modelAccessGroups/useModelAccessGroups.ts",
+      "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+      "git_blob_sha1": "703c51b75b12a7285573dc53a53357cc93d10d50",
+      "source_sha256": "d98bc291f61d6be8db9ae5fab941757fb72f211684af075289bd48cccb780aa5",
+      "start_line": 11,
+      "end_line": 32,
+      "source_url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/app/%28dashboard%29/hooks/modelAccessGroups/useModelAccessGroups.ts#L11",
+      "observed_mapping": "query-key construction at module scope; GET call is in query function enabled by token and admin role",
+      "source_excerpt": "export const modelAccessGroupKeys = createQueryKeys(\"modelAccessGroups\");\n\nconst fetchModelAccessGroups = async (): Promise<ModelAccessGroup[]> => {\n  const { data } = await fetchClient.GET(\"/access_group/list\");\n  return data?.access_groups ?? [];\n};\n\n/**\n * Model access groups: the free-text labels on a deployment's `model_info.access_groups`,\n * with the shared budget each one carries. Unrelated to the `/v1/access_group` table that\n * the Access Groups page drives.\n */\nexport const useModelAccessGroups = () => {\n  const { accessToken, userRole } = useAuthorized();\n\n  return useQuery<ModelAccessGroup[]>({\n    queryKey: modelAccessGroupKeys.list({}),\n    queryFn: fetchModelAccessGroups,\n    enabled: Boolean(accessToken) && all_admin_roles.includes(userRole || \"\"),\n  });\n};"
+    },
+    {
+      "module_id": "664307",
+      "source_path": "ui/litellm-dashboard/src/app/(dashboard)/hooks/modelAccessGroups/useSetModelAccessGroupBudget.ts",
+      "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+      "git_blob_sha1": "cdea15bedb4dfe7324751e1037af33e4bb5e3ee8",
+      "source_sha256": "5be39f3f33dcda0458cca755ee8c910507c3d2683e10541dc7e5a8393fc82601",
+      "start_line": 14,
+      "end_line": 35,
+      "source_url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/app/%28dashboard%29/hooks/modelAccessGroups/useSetModelAccessGroupBudget.ts#L14",
+      "observed_mapping": "PUT mutation with path access_group and budget body",
+      "source_excerpt": "const setModelAccessGroupBudget = async ({\n  accessGroup,\n  params,\n}: SetModelAccessGroupBudgetVariables): Promise<SetModelAccessGroupBudgetResponse | undefined> => {\n  const { data } = await fetchClient.PUT(\"/access_group/{access_group}/budget\", {\n    params: { path: { access_group: accessGroup } },\n    body: params,\n  });\n  return data;\n};\n\n/** Set or replace a model access group's shared budget. The write is idempotent. */\nexport const useSetModelAccessGroupBudget = () => {\n  const queryClient = useQueryClient();\n\n  return useMutation({\n    mutationFn: setModelAccessGroupBudget,\n    onSuccess: () => {\n      queryClient.invalidateQueries({ queryKey: modelAccessGroupKeys.all });\n    },\n  });\n};"
+    },
+    {
+      "module_id": "664307",
+      "source_path": "ui/litellm-dashboard/src/app/(dashboard)/hooks/modelAccessGroups/useDeleteModelAccessGroupBudget.ts",
+      "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+      "git_blob_sha1": "3ed8af15cde27b7c0ec972f0ebdfc64386277e4a",
+      "source_sha256": "92b944d4674ccbb19cf8373ffa9e6f50fd707709093aee9fc445163550002a40",
+      "start_line": 8,
+      "end_line": 29,
+      "source_url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/app/%28dashboard%29/hooks/modelAccessGroups/useDeleteModelAccessGroupBudget.ts#L8",
+      "observed_mapping": "DELETE mutation for selected access group budget",
+      "source_excerpt": "const deleteModelAccessGroupBudget = async (\n  accessGroup: string,\n): Promise<DeleteModelAccessGroupBudgetResponse | undefined> => {\n  const { data } = await fetchClient.DELETE(\"/access_group/{access_group}/budget\", {\n    params: { path: { access_group: accessGroup } },\n  });\n  return data;\n};\n\n/**\n * Clear a model access group's shared budget. The group and its deployments are untouched,\n * and the recorded spend goes with the budget row.\n */\nexport const useDeleteModelAccessGroupBudget = () => {\n  const queryClient = useQueryClient();\n\n  return useMutation({\n    mutationFn: deleteModelAccessGroupBudget,\n    onSuccess: () => {\n      queryClient.invalidateQueries({ queryKey: modelAccessGroupKeys.all });\n    },\n  });"
+    },
+    {
+      "module_id": "664307",
+      "source_path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetModal.tsx",
+      "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+      "git_blob_sha1": "8df2a6620f938b27dfc93be6bb76c38d5a803c55",
+      "source_sha256": "7ca021d1c2dce515eefcf872fd521c489e8ae3509706d5af45e4a53f7ff22549",
+      "start_line": 28,
+      "end_line": 37,
+      "source_url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/app/%28dashboard%29/models-and-endpoints/components/AccessGroupBudgetModal.tsx#L28",
+      "observed_mapping": "module-scope Zod schema allocation; submission callback performs mutation",
+      "source_excerpt": "const budgetSchema = z\n  .object({\n    max_budget: z.string().optional(),\n    soft_budget: z.string().optional(),\n    budget_duration: z.string().optional(),\n  })\n  .refine(hasAnyBudgetValue, {\n    message: \"Set at least one of max budget, soft budget or reset window\",\n    path: [\"max_budget\"],\n  });"
+    },
+    {
+      "module_id": "664307",
+      "source_path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/panels/AccessGroupBudgetsPanel.tsx",
+      "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+      "git_blob_sha1": "ee8baab81abccf5dd3d4576c07c890b96382046e",
+      "source_sha256": "3d22e1e309ede0c6371c87d97d483c22238e80163d130277ae2906fc4241b76f",
+      "start_line": 37,
+      "end_line": 77,
+      "source_url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/app/%28dashboard%29/models-and-endpoints/panels/AccessGroupBudgetsPanel.tsx#L37",
+      "observed_mapping": "admin UI capability check, submit/clear mutation handlers",
+      "source_excerpt": "export default function AccessGroupBudgetsPanel() {\n  const { userRole } = useAuthorized();\n  const { data: accessGroups, isLoading } = useModelAccessGroups();\n  const setBudget = useSetModelAccessGroupBudget();\n  const clearBudget = useDeleteModelAccessGroupBudget();\n\n  const [sorting, setSorting] = useState<SortingState>(DEFAULT_SORTING);\n  const [editing, setEditing] = useState<ModelAccessGroup | null>(null);\n  const [clearing, setClearing] = useState<ModelAccessGroup | null>(null);\n\n  const canWrite = isProxyAdminRole(userRole ?? \"\");\n  const columns = useMemo(\n    () => getAccessGroupBudgetColumns({ canWrite, onSetBudget: setEditing, onClearBudget: setClearing }),\n    [canWrite],\n  );\n\n  const handleSubmit = (params: SetModelAccessGroupBudgetParams) => {\n    if (!editing) return;\n    const accessGroup = editing.access_group;\n    setBudget.mutate(\n      { accessGroup, params },\n      {\n        onSuccess: () => {\n          toast.success(`Budget saved for \"${accessGroup}\"`);\n          setEditing(null);\n        },\n      },\n    );\n  };\n\n  const handleConfirmClear = () => {\n    if (!clearing) return;\n    const accessGroup = clearing.access_group;\n    clearBudget.mutate(accessGroup, {\n      onSuccess: () => {\n        toast.success(`Budget cleared for \"${accessGroup}\"`);\n        setClearing(null);\n      },\n    });\n  };\n"
+    },
+    {
+      "module_id": "664307",
+      "source_path": "ui/litellm-dashboard/src/components/add_model/AddModelForm.tsx",
+      "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+      "git_blob_sha1": "ad0f749b1894e29fea2d840629068a027f540bc6",
+      "source_sha256": "588c15bd6d0b4c98f68a0d9937a1cdbcb6a502cfa5183b10e66a1df549e68e4c",
+      "start_line": 478,
+      "end_line": 488,
+      "source_url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/components/add_model/AddModelForm.tsx#L478",
+      "observed_mapping": "clean connection-test dialog footer; old generated output had stray comma/bracket text",
+      "source_excerpt": "          <DialogFooter>\n            <Button\n              variant=\"outline\"\n              onClick={() => {\n                setIsResultModalVisible(false);\n                setIsTestingConnection(false);\n              }}\n            >\n              Close\n            </Button>\n          </DialogFooter>"
+    }
+  ]
+}

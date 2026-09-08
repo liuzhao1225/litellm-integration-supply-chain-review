@@ -1,0 +1,209 @@
+[
+  {
+    "path": "ui/litellm-dashboard/src/app/(dashboard)/hooks/modelAccessGroups/useDeleteModelAccessGroupBudget.ts",
+    "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+    "git_blob_sha1": "3ed8af15cde27b7c0ec972f0ebdfc64386277e4a",
+    "sha256": "92b944d4674ccbb19cf8373ffa9e6f50fd707709093aee9fc445163550002a40",
+    "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/app/%28dashboard%29/hooks/modelAccessGroups/useDeleteModelAccessGroupBudget.ts",
+    "local_file": "upstream-ts/ui__litellm-dashboard__src__app__(dashboard)__hooks__modelAccessGroups__useDeleteModelAccessGroupBudget.ts",
+    "checked_at_utc": "2026-09-08T20:26:33.429297+00:00"
+  },
+  {
+    "path": "ui/litellm-dashboard/src/app/(dashboard)/hooks/modelAccessGroups/useModelAccessGroups.ts",
+    "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+    "git_blob_sha1": "703c51b75b12a7285573dc53a53357cc93d10d50",
+    "sha256": "d98bc291f61d6be8db9ae5fab941757fb72f211684af075289bd48cccb780aa5",
+    "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/app/%28dashboard%29/hooks/modelAccessGroups/useModelAccessGroups.ts",
+    "local_file": "upstream-ts/ui__litellm-dashboard__src__app__(dashboard)__hooks__modelAccessGroups__useModelAccessGroups.ts",
+    "checked_at_utc": "2026-09-08T20:26:33.444512+00:00"
+  },
+  {
+    "path": "ui/litellm-dashboard/src/app/(dashboard)/hooks/modelAccessGroups/useSetModelAccessGroupBudget.ts",
+    "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+    "git_blob_sha1": "cdea15bedb4dfe7324751e1037af33e4bb5e3ee8",
+    "sha256": "5be39f3f33dcda0458cca755ee8c910507c3d2683e10541dc7e5a8393fc82601",
+    "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/app/%28dashboard%29/hooks/modelAccessGroups/useSetModelAccessGroupBudget.ts",
+    "local_file": "upstream-ts/ui__litellm-dashboard__src__app__(dashboard)__hooks__modelAccessGroups__useSetModelAccessGroupBudget.ts",
+    "checked_at_utc": "2026-09-08T20:26:33.522267+00:00"
+  },
+  {
+    "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/ImportMCPServers.tsx",
+    "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+    "git_blob_sha1": "d04160bca3e76ad8a7dc6306152bed77b68ffb59",
+    "sha256": "671715f351a1eb2abe9ed42846a3c47ef495fbcc7c45891305b75cef89cf7dab",
+    "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/app/%28dashboard%29/mcp-servers/_components/ImportMCPServers.tsx",
+    "local_file": "upstream-ts/ui__litellm-dashboard__src__app__(dashboard)__mcp-servers___components__ImportMCPServers.tsx",
+    "checked_at_utc": "2026-09-08T20:26:33.485576+00:00"
+  },
+  {
+    "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/importConnectorConfig.ts",
+    "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+    "git_blob_sha1": "16dfc0542fdcb856b20e3bff3c5d9025d5fa4a32",
+    "sha256": "ef25eb1291626f363fdd9b26186aadc8a5821fbdcba58c9464050b1269e27063",
+    "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/app/%28dashboard%29/mcp-servers/_components/importConnectorConfig.ts",
+    "local_file": "upstream-ts/ui__litellm-dashboard__src__app__(dashboard)__mcp-servers___components__importConnectorConfig.ts",
+    "checked_at_utc": "2026-09-08T20:31:37.962099+00:00"
+  },
+  {
+    "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/index.tsx",
+    "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+    "git_blob_sha1": "00a03b64c23fcf6ace9d031cf0f8ae4efe5365b4",
+    "sha256": "187b3e36e643d6484ba0286c361eadcf4d3f4174865c8bb2e92ede5cfc0206c7",
+    "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/app/%28dashboard%29/mcp-servers/_components/index.tsx",
+    "local_file": "upstream-ts/ui__litellm-dashboard__src__app__(dashboard)__mcp-servers___components__index.tsx",
+    "checked_at_utc": "2026-09-08T20:31:38.021456+00:00"
+  },
+  {
+    "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/_components/mcp_servers.tsx",
+    "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+    "git_blob_sha1": "6e70b1ac59ac0c1ae7c00b7241deb91f873ed63f",
+    "sha256": "db2dd46f6554af77c3e4f35db19db8573fb9cef2d2b9116453cc6d270c16af68",
+    "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/app/%28dashboard%29/mcp-servers/_components/mcp_servers.tsx",
+    "local_file": "upstream-ts/ui__litellm-dashboard__src__app__(dashboard)__mcp-servers___components__mcp_servers.tsx",
+    "checked_at_utc": "2026-09-08T20:32:59.813588+00:00"
+  },
+  {
+    "path": "ui/litellm-dashboard/src/app/(dashboard)/mcp-servers/page.tsx",
+    "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+    "git_blob_sha1": "462c48360cd3526febf1341ac1c5581deaddb3c4",
+    "sha256": "b5cc0ba3df9e33e2fa3849d474b4c558b77c854ec3addb719919720786f2462b",
+    "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/app/%28dashboard%29/mcp-servers/page.tsx",
+    "local_file": "upstream-ts/ui__litellm-dashboard__src__app__(dashboard)__mcp-servers__page.tsx",
+    "checked_at_utc": "2026-09-08T20:26:33.434366+00:00"
+  },
+  {
+    "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetColumns.tsx",
+    "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+    "git_blob_sha1": "4401941c2f400c013370c799b7cb3b7071fc1609",
+    "sha256": "a2bc61e9998909cdcb970a57b46b9bb502242bc9d93a9a09be2c2f446baa729d",
+    "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/app/%28dashboard%29/models-and-endpoints/components/AccessGroupBudgetColumns.tsx",
+    "local_file": "upstream-ts/ui__litellm-dashboard__src__app__(dashboard)__models-and-endpoints__components__AccessGroupBudgetColumns.tsx",
+    "checked_at_utc": "2026-09-08T20:26:34.260423+00:00"
+  },
+  {
+    "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AccessGroupBudgetModal.tsx",
+    "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+    "git_blob_sha1": "8df2a6620f938b27dfc93be6bb76c38d5a803c55",
+    "sha256": "7ca021d1c2dce515eefcf872fd521c489e8ae3509706d5af45e4a53f7ff22549",
+    "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/app/%28dashboard%29/models-and-endpoints/components/AccessGroupBudgetModal.tsx",
+    "local_file": "upstream-ts/ui__litellm-dashboard__src__app__(dashboard)__models-and-endpoints__components__AccessGroupBudgetModal.tsx",
+    "checked_at_utc": "2026-09-08T20:26:34.167461+00:00"
+  },
+  {
+    "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AllModelsTab.tsx",
+    "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+    "git_blob_sha1": "be2cf22d71a1866bda9a4018aa21910e213ad783",
+    "sha256": "9cc24db71253178c315ade9247fb2815f14af2bd58f5d3764d9d53484e6a2a81",
+    "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/app/%28dashboard%29/models-and-endpoints/components/AllModelsTab.tsx",
+    "local_file": "upstream-ts/ui__litellm-dashboard__src__app__(dashboard)__models-and-endpoints__components__AllModelsTab.tsx",
+    "checked_at_utc": "2026-09-08T20:34:47.398627+00:00"
+  },
+  {
+    "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/AllModelsTable.tsx",
+    "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+    "git_blob_sha1": "5c7dbb184289946d4f126722f867ffe139d7e8c3",
+    "sha256": "5ec9b5391ad2f1fc9329b4d7f8684642d34f6c7fd339fbf5074ea3115ce9b5dd",
+    "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/app/%28dashboard%29/models-and-endpoints/components/AllModelsTable.tsx",
+    "local_file": "upstream-ts/ui__litellm-dashboard__src__app__(dashboard)__models-and-endpoints__components__AllModelsTable.tsx",
+    "checked_at_utc": "2026-09-08T20:34:47.467753+00:00"
+  },
+  {
+    "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/components/accessGroupBudgetPayload.ts",
+    "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+    "git_blob_sha1": "0d7cc20114491d63612b589b0b5434eceb3b8a8a",
+    "sha256": "a30abd322bbe6fce3aae6ef89bfdad79fe165b3dc284d001d8dd05392cf22033",
+    "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/app/%28dashboard%29/models-and-endpoints/components/accessGroupBudgetPayload.ts",
+    "local_file": "upstream-ts/ui__litellm-dashboard__src__app__(dashboard)__models-and-endpoints__components__accessGroupBudgetPayload.ts",
+    "checked_at_utc": "2026-09-08T20:31:38.008951+00:00"
+  },
+  {
+    "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/page.tsx",
+    "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+    "git_blob_sha1": "9ae7dc12f8150c2b69907b2d1d88f987cd84fa28",
+    "sha256": "f1bf239c23f7d4bd31494cfbf78b68b74dba64e640cbf0a08a05d43e2785070e",
+    "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/app/%28dashboard%29/models-and-endpoints/page.tsx",
+    "local_file": "upstream-ts/ui__litellm-dashboard__src__app__(dashboard)__models-and-endpoints__page.tsx",
+    "checked_at_utc": "2026-09-08T20:26:34.211685+00:00"
+  },
+  {
+    "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/panels/AccessGroupBudgetsPanel.tsx",
+    "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+    "git_blob_sha1": "ee8baab81abccf5dd3d4576c07c890b96382046e",
+    "sha256": "3d22e1e309ede0c6371c87d97d483c22238e80163d130277ae2906fc4241b76f",
+    "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/app/%28dashboard%29/models-and-endpoints/panels/AccessGroupBudgetsPanel.tsx",
+    "local_file": "upstream-ts/ui__litellm-dashboard__src__app__(dashboard)__models-and-endpoints__panels__AccessGroupBudgetsPanel.tsx",
+    "checked_at_utc": "2026-09-08T20:26:34.211780+00:00"
+  },
+  {
+    "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/panels/AllModelsPanel.tsx",
+    "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+    "git_blob_sha1": "552a4f57b24e1f442c7f59aac2961801c4379e26",
+    "sha256": "e03417e94b5cc0dcf823345bb66d315e527526d7c114a3d8d5334279c7cfda97",
+    "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/app/%28dashboard%29/models-and-endpoints/panels/AllModelsPanel.tsx",
+    "local_file": "upstream-ts/ui__litellm-dashboard__src__app__(dashboard)__models-and-endpoints__panels__AllModelsPanel.tsx",
+    "checked_at_utc": "2026-09-08T20:34:30.519590+00:00"
+  },
+  {
+    "path": "ui/litellm-dashboard/src/app/(dashboard)/models-and-endpoints/panels/LlmCredentialsPanel.tsx",
+    "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+    "git_blob_sha1": "c71ed1774165d49874da5189ebc98167aa588f23",
+    "sha256": "7444ab226ecde90756e4e31ca68280797132b5c3b38348dfafbb101346ff9c4a",
+    "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/app/%28dashboard%29/models-and-endpoints/panels/LlmCredentialsPanel.tsx",
+    "local_file": "upstream-ts/ui__litellm-dashboard__src__app__(dashboard)__models-and-endpoints__panels__LlmCredentialsPanel.tsx",
+    "checked_at_utc": "2026-09-08T20:33:52.205412+00:00"
+  },
+  {
+    "path": "ui/litellm-dashboard/src/components/add_model/AddModelForm.tsx",
+    "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+    "git_blob_sha1": "ad0f749b1894e29fea2d840629068a027f540bc6",
+    "sha256": "588c15bd6d0b4c98f68a0d9937a1cdbcb6a502cfa5183b10e66a1df549e68e4c",
+    "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/components/add_model/AddModelForm.tsx",
+    "local_file": "upstream-ts/ui__litellm-dashboard__src__components__add_model__AddModelForm.tsx",
+    "checked_at_utc": "2026-09-08T20:35:16.639197+00:00"
+  },
+  {
+    "path": "ui/litellm-dashboard/src/components/model_dashboard/ModelSettingsModal/ModelSettingsModal.tsx",
+    "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+    "git_blob_sha1": "699d77ccc47f5442ce54f8ca3181d7a95cc83d12",
+    "sha256": "268d9444d7e21783addb24299011460c065a57101057d5ce904524742f7fd5a7",
+    "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/components/model_dashboard/ModelSettingsModal/ModelSettingsModal.tsx",
+    "local_file": "upstream-ts/ui__litellm-dashboard__src__components__model_dashboard__ModelSettingsModal__ModelSettingsModal.tsx",
+    "checked_at_utc": "2026-09-08T20:33:52.185552+00:00"
+  },
+  {
+    "path": "ui/litellm-dashboard/src/components/model_info_view.tsx",
+    "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+    "git_blob_sha1": "f21e98e084caabc6befeb98ea1c14b5aeb4250b5",
+    "sha256": "cabf742a4ea4a60f70f88efcc2d320b8e1560f54d7ae90fcb8c79af7a75cd920",
+    "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/components/model_info_view.tsx",
+    "local_file": "upstream-ts/ui__litellm-dashboard__src__components__model_info_view.tsx",
+    "checked_at_utc": "2026-09-08T20:33:52.277292+00:00"
+  },
+  {
+    "path": "ui/litellm-dashboard/src/components/networking.tsx",
+    "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+    "git_blob_sha1": "b53a67f9bccf069addb3d580f94efea77859597b",
+    "sha256": "df6e3f89b0c8b1dbc3e42693cf73456ef671ad50b490feff3d236f21e85704db",
+    "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/components/networking.tsx",
+    "local_file": "upstream-ts/ui__litellm-dashboard__src__components__networking.tsx",
+    "checked_at_utc": "2026-09-08T20:26:34.561620+00:00"
+  },
+  {
+    "path": "ui/litellm-dashboard/src/lib/http/api.ts",
+    "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+    "git_blob_sha1": "508a27db78d52f8020cde38c6079fdd1b29cc78c",
+    "sha256": "2e0b9c5b9659b03cf5a40b73ebfe3b0c8de950f06308a61502a2722e2f418c18",
+    "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/lib/http/api.ts",
+    "local_file": "upstream-ts/ui__litellm-dashboard__src__lib__http__api.ts",
+    "checked_at_utc": "2026-09-08T20:31:38.051239+00:00"
+  },
+  {
+    "path": "ui/litellm-dashboard/src/lib/http/client.ts",
+    "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+    "git_blob_sha1": "b8cfb81211add4a68dd64318739a80275fc137ec",
+    "sha256": "121fc7776751821e405243a0c188554d2749dd334482a1d311af61373072a89a",
+    "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/ui/litellm-dashboard/src/lib/http/client.ts",
+    "local_file": "upstream-ts/ui__litellm-dashboard__src__lib__http__client.ts",
+    "checked_at_utc": "2026-09-08T20:31:38.102544+00:00"
+  }
+]

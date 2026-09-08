@@ -1,0 +1,164 @@
+{
+  "checked_at_utc": "2026-09-08T20:20:27.050Z",
+  "module_id": 602869,
+  "added_exports": [
+    "importMCPServers"
+  ],
+  "removed_exports": [],
+  "added_function_ast": {
+    "type": "VariableDeclarator",
+    "id": {
+      "type": "Identifier",
+      "name": "rE"
+    },
+    "init": {
+      "type": "ArrowFunctionExpression",
+      "id": null,
+      "expression": false,
+      "generator": false,
+      "async": true,
+      "params": [
+        {
+          "type": "Identifier",
+          "name": "e"
+        },
+        {
+          "type": "Identifier",
+          "name": "t"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "TryStatement",
+            "block": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "argument": {
+                    "type": "AwaitExpression",
+                    "argument": {
+                      "type": "CallExpression",
+                      "callee": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "Identifier",
+                          "name": "A"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "post"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "value": "/v1/mcp/server/import"
+                        },
+                        {
+                          "type": "ObjectExpression",
+                          "properties": [
+                            {
+                              "type": "Property",
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false,
+                              "key": {
+                                "type": "Identifier",
+                                "name": "accessToken"
+                              },
+                              "value": {
+                                "type": "Identifier",
+                                "name": "e"
+                              },
+                              "kind": "init"
+                            },
+                            {
+                              "type": "Property",
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false,
+                              "key": {
+                                "type": "Identifier",
+                                "name": "body"
+                              },
+                              "value": {
+                                "type": "Identifier",
+                                "name": "t"
+                              },
+                              "kind": "init"
+                            }
+                          ]
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            },
+            "handler": {
+              "type": "CatchClause",
+              "param": {
+                "type": "Identifier",
+                "name": "e"
+              },
+              "body": {
+                "type": "BlockStatement",
+                "body": [
+                  {
+                    "type": "ThrowStatement",
+                    "argument": {
+                      "type": "SequenceExpression",
+                      "expressions": [
+                        {
+                          "type": "CallExpression",
+                          "callee": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "Identifier",
+                              "name": "console"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "error"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "value": "Failed to import MCP servers:"
+                            },
+                            {
+                              "type": "Identifier",
+                              "name": "e"
+                            }
+                          ],
+                          "optional": false
+                        },
+                        {
+                          "type": "Identifier",
+                          "name": "e"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "finalizer": null
+          }
+        ]
+      }
+    }
+  },
+  "git_without_feature_sha256": "a7f0a055da556ff99e4c5786f6234798cd8a6e495a027c797c2d8508181f7bb3",
+  "wheel_without_feature_sha256": "a7f0a055da556ff99e4c5786f6234798cd8a6e495a027c797c2d8508181f7bb3",
+  "remainder_structurally_equal": true
+}

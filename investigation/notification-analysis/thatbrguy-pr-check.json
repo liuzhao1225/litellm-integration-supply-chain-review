@@ -1,0 +1,336 @@
+{
+  "started_at_utc": "2026-09-08T20:48:18.754765+00:00",
+  "completed_at_utc": "2026-09-08T20:48:26.137024+00:00",
+  "method": "Enumerate all 24 returned public repositories, then query the newest PR from each repository directly using state=all, sort=created, direction=desc. No reliance on repository updated_at as a PR timestamp.",
+  "repositories_response_sha256": "529ce1ee7ba011c450a0e2d126550b1b53a4092c03ae1898a419b92f365a494c",
+  "repository_count": 24,
+  "checks": [
+    {
+      "repo": "thatbrguy/kornia",
+      "url": "https://github.com/thatbrguy/kornia",
+      "fork": true,
+      "archived": false,
+      "pushed_at": "2023-03-19T03:54:28Z",
+      "source": "https://api.github.com/repos/thatbrguy/kornia/pulls?state=all&sort=created&direction=desc&per_page=1",
+      "response_sha256": "a1c7c400d2ce465dbac8ebf2a234ee7e5d8f85fe8f2a92695c1eb7770eb147c1",
+      "latest_pr": {
+        "html_url": "https://github.com/thatbrguy/kornia/pull/41",
+        "number": 41,
+        "title": "Bump accelerate from 0.5.1 to 0.17.1",
+        "created_at": "2023-03-19T03:54:23Z",
+        "updated_at": "2023-03-19T03:54:25Z",
+        "state": "open",
+        "merged_at": null
+      },
+      "latest_pr_author": "dependabot[bot]"
+    },
+    {
+      "repo": "thatbrguy/Deep-Stream-ONNX",
+      "url": "https://github.com/thatbrguy/Deep-Stream-ONNX",
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2021-05-08T16:54:35Z",
+      "source": "https://api.github.com/repos/thatbrguy/Deep-Stream-ONNX/pulls?state=all&sort=created&direction=desc&per_page=1",
+      "response_sha256": "c4441c2af957bb6931d05baee53798ac21312fb7bb7b69fdc24ad958302be9b5",
+      "latest_pr": {
+        "html_url": "https://github.com/thatbrguy/Deep-Stream-ONNX/pull/14",
+        "number": 14,
+        "title": "Correct objectness and class probability",
+        "created_at": "2021-05-02T14:14:31Z",
+        "updated_at": "2021-05-02T14:14:49Z",
+        "state": "closed",
+        "merged_at": "2021-05-02T14:14:43Z"
+      },
+      "latest_pr_author": "thatbrguy"
+    },
+    {
+      "repo": "thatbrguy/Dehaze-GAN",
+      "url": "https://github.com/thatbrguy/Dehaze-GAN",
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2021-10-31T17:28:16Z",
+      "source": "https://api.github.com/repos/thatbrguy/Dehaze-GAN/pulls?state=all&sort=created&direction=desc&per_page=1",
+      "response_sha256": "3da6644f91bb444f3b8a97adee9f75d2b748a2919fda51fb5ea6a744c098d402",
+      "latest_pr": {
+        "html_url": "https://github.com/thatbrguy/Dehaze-GAN/pull/17",
+        "number": 17,
+        "title": "Update vgg19.py",
+        "created_at": "2020-08-28T09:27:00Z",
+        "updated_at": "2021-06-27T11:36:31Z",
+        "state": "closed",
+        "merged_at": null
+      },
+      "latest_pr_author": "jeffin07"
+    },
+    {
+      "repo": "thatbrguy/Pedestrian-Detection",
+      "url": "https://github.com/thatbrguy/Pedestrian-Detection",
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2019-09-04T13:12:32Z",
+      "source": "https://api.github.com/repos/thatbrguy/Pedestrian-Detection/pulls?state=all&sort=created&direction=desc&per_page=1",
+      "response_sha256": "5c3c1e80093fc9a6af5066374e01cc7724fd31e95685ac720e098c7c9e0ad209",
+      "latest_pr": {
+        "html_url": "https://github.com/thatbrguy/Pedestrian-Detection/pull/9",
+        "number": 9,
+        "title": "validation, error handling, logging and removing outdated tensorflow object detection api",
+        "created_at": "2019-09-04T13:12:32Z",
+        "updated_at": "2019-09-04T13:12:32Z",
+        "state": "open",
+        "merged_at": null
+      },
+      "latest_pr_author": "ericnjogu"
+    },
+    {
+      "repo": "thatbrguy/nerf-tf2",
+      "url": "https://github.com/thatbrguy/nerf-tf2",
+      "fork": false,
+      "archived": true,
+      "pushed_at": "2022-05-14T17:21:58Z",
+      "source": "https://api.github.com/repos/thatbrguy/nerf-tf2/pulls?state=all&sort=created&direction=desc&per_page=1",
+      "response_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "latest_pr": null,
+      "latest_pr_author": null
+    },
+    {
+      "repo": "thatbrguy/Hyperspectral-Image-Segmentation",
+      "url": "https://github.com/thatbrguy/Hyperspectral-Image-Segmentation",
+      "fork": false,
+      "archived": true,
+      "pushed_at": "2021-08-29T17:40:01Z",
+      "source": "https://api.github.com/repos/thatbrguy/Hyperspectral-Image-Segmentation/pulls?state=all&sort=created&direction=desc&per_page=1",
+      "response_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "latest_pr": null,
+      "latest_pr_author": null
+    },
+    {
+      "repo": "thatbrguy/Multilabel-Classification",
+      "url": "https://github.com/thatbrguy/Multilabel-Classification",
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2019-05-07T15:42:36Z",
+      "source": "https://api.github.com/repos/thatbrguy/Multilabel-Classification/pulls?state=all&sort=created&direction=desc&per_page=1",
+      "response_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "latest_pr": null,
+      "latest_pr_author": null
+    },
+    {
+      "repo": "thatbrguy/colmap_utils",
+      "url": "https://github.com/thatbrguy/colmap_utils",
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2021-11-13T17:09:26Z",
+      "source": "https://api.github.com/repos/thatbrguy/colmap_utils/pulls?state=all&sort=created&direction=desc&per_page=1",
+      "response_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "latest_pr": null,
+      "latest_pr_author": null
+    },
+    {
+      "repo": "thatbrguy/Reverse-Dictionary",
+      "url": "https://github.com/thatbrguy/Reverse-Dictionary",
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2018-05-12T17:09:32Z",
+      "source": "https://api.github.com/repos/thatbrguy/Reverse-Dictionary/pulls?state=all&sort=created&direction=desc&per_page=1",
+      "response_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "latest_pr": null,
+      "latest_pr_author": null
+    },
+    {
+      "repo": "thatbrguy/Object-Detection-Quidditch",
+      "url": "https://github.com/thatbrguy/Object-Detection-Quidditch",
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2018-08-01T16:50:20Z",
+      "source": "https://api.github.com/repos/thatbrguy/Object-Detection-Quidditch/pulls?state=all&sort=created&direction=desc&per_page=1",
+      "response_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "latest_pr": null,
+      "latest_pr_author": null
+    },
+    {
+      "repo": "thatbrguy/NumPy-CNN",
+      "url": "https://github.com/thatbrguy/NumPy-CNN",
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2018-05-15T16:37:04Z",
+      "source": "https://api.github.com/repos/thatbrguy/NumPy-CNN/pulls?state=all&sort=created&direction=desc&per_page=1",
+      "response_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "latest_pr": null,
+      "latest_pr_author": null
+    },
+    {
+      "repo": "thatbrguy/cmu-vision.github.io",
+      "url": "https://github.com/thatbrguy/cmu-vision.github.io",
+      "fork": true,
+      "archived": false,
+      "pushed_at": "2023-08-13T00:46:02Z",
+      "source": "https://api.github.com/repos/thatbrguy/cmu-vision.github.io/pulls?state=all&sort=created&direction=desc&per_page=1",
+      "response_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "latest_pr": null,
+      "latest_pr_author": null
+    },
+    {
+      "repo": "thatbrguy/thatbrguy.github.io",
+      "url": "https://github.com/thatbrguy/thatbrguy.github.io",
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-08-31T04:43:35Z",
+      "source": "https://api.github.com/repos/thatbrguy/thatbrguy.github.io/pulls?state=all&sort=created&direction=desc&per_page=1",
+      "response_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "latest_pr": null,
+      "latest_pr_author": null
+    },
+    {
+      "repo": "thatbrguy/Dropbox-Uploader",
+      "url": "https://github.com/thatbrguy/Dropbox-Uploader",
+      "fork": true,
+      "archived": false,
+      "pushed_at": "2018-06-09T04:48:47Z",
+      "source": "https://api.github.com/repos/thatbrguy/Dropbox-Uploader/pulls?state=all&sort=created&direction=desc&per_page=1",
+      "response_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "latest_pr": null,
+      "latest_pr_author": null
+    },
+    {
+      "repo": "thatbrguy/VGG19-Transfer-Learn",
+      "url": "https://github.com/thatbrguy/VGG19-Transfer-Learn",
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2018-04-11T12:51:27Z",
+      "source": "https://api.github.com/repos/thatbrguy/VGG19-Transfer-Learn/pulls?state=all&sort=created&direction=desc&per_page=1",
+      "response_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "latest_pr": null,
+      "latest_pr_author": null
+    },
+    {
+      "repo": "thatbrguy/Cifar10",
+      "url": "https://github.com/thatbrguy/Cifar10",
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2017-12-05T10:09:24Z",
+      "source": "https://api.github.com/repos/thatbrguy/Cifar10/pulls?state=all&sort=created&direction=desc&per_page=1",
+      "response_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "latest_pr": null,
+      "latest_pr_author": null
+    },
+    {
+      "repo": "thatbrguy/AU-Question-Paper-Scrapper",
+      "url": "https://github.com/thatbrguy/AU-Question-Paper-Scrapper",
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2018-04-21T11:25:49Z",
+      "source": "https://api.github.com/repos/thatbrguy/AU-Question-Paper-Scrapper/pulls?state=all&sort=created&direction=desc&per_page=1",
+      "response_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "latest_pr": null,
+      "latest_pr_author": null
+    },
+    {
+      "repo": "thatbrguy/Ball-Tracking-Bot",
+      "url": "https://github.com/thatbrguy/Ball-Tracking-Bot",
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2018-07-27T18:35:31Z",
+      "source": "https://api.github.com/repos/thatbrguy/Ball-Tracking-Bot/pulls?state=all&sort=created&direction=desc&per_page=1",
+      "response_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "latest_pr": null,
+      "latest_pr_author": null
+    },
+    {
+      "repo": "thatbrguy/multi-label-classification-sample-python",
+      "url": "https://github.com/thatbrguy/multi-label-classification-sample-python",
+      "fork": true,
+      "archived": false,
+      "pushed_at": "2018-11-16T14:06:16Z",
+      "source": "https://api.github.com/repos/thatbrguy/multi-label-classification-sample-python/pulls?state=all&sort=created&direction=desc&per_page=1",
+      "response_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "latest_pr": null,
+      "latest_pr_author": null
+    },
+    {
+      "repo": "thatbrguy/Fabrik",
+      "url": "https://github.com/thatbrguy/Fabrik",
+      "fork": true,
+      "archived": false,
+      "pushed_at": "2018-11-18T14:20:07Z",
+      "source": "https://api.github.com/repos/thatbrguy/Fabrik/pulls?state=all&sort=created&direction=desc&per_page=1",
+      "response_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "latest_pr": null,
+      "latest_pr_author": null
+    },
+    {
+      "repo": "thatbrguy/GCI",
+      "url": "https://github.com/thatbrguy/GCI",
+      "fork": true,
+      "archived": false,
+      "pushed_at": "2018-11-18T14:36:04Z",
+      "source": "https://api.github.com/repos/thatbrguy/GCI/pulls?state=all&sort=created&direction=desc&per_page=1",
+      "response_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "latest_pr": null,
+      "latest_pr_author": null
+    },
+    {
+      "repo": "thatbrguy/Plotholes-notebooks",
+      "url": "https://github.com/thatbrguy/Plotholes-notebooks",
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2019-01-21T09:38:59Z",
+      "source": "https://api.github.com/repos/thatbrguy/Plotholes-notebooks/pulls?state=all&sort=created&direction=desc&per_page=1",
+      "response_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "latest_pr": null,
+      "latest_pr_author": null
+    },
+    {
+      "repo": "thatbrguy/numpy-image-speedtest",
+      "url": "https://github.com/thatbrguy/numpy-image-speedtest",
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2020-08-08T13:45:20Z",
+      "source": "https://api.github.com/repos/thatbrguy/numpy-image-speedtest/pulls?state=all&sort=created&direction=desc&per_page=1",
+      "response_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "latest_pr": null,
+      "latest_pr_author": null
+    },
+    {
+      "repo": "thatbrguy/path-swap",
+      "url": "https://github.com/thatbrguy/path-swap",
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2020-02-02T17:53:33Z",
+      "source": "https://api.github.com/repos/thatbrguy/path-swap/pulls?state=all&sort=created&direction=desc&per_page=1",
+      "response_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "latest_pr": null,
+      "latest_pr_author": null
+    }
+  ],
+  "personal_site_latest_commits": [
+    {
+      "sha": "ac1bb32d608a3582b7c0a389a41ed0767f1b1b56",
+      "url": "https://github.com/thatbrguy/thatbrguy.github.io/commit/ac1bb32d608a3582b7c0a389a41ed0767f1b1b56",
+      "author_login": "thatbrguy",
+      "author_date": "2021-09-17T18:30:35Z",
+      "committer_date": "2021-09-17T18:30:35Z",
+      "subject": "minor update"
+    },
+    {
+      "sha": "8d56d63b6b4a1c061b97d0f1967db44abad48b52",
+      "url": "https://github.com/thatbrguy/thatbrguy.github.io/commit/8d56d63b6b4a1c061b97d0f1967db44abad48b52",
+      "author_login": "thatbrguy",
+      "author_date": "2021-02-10T04:28:22Z",
+      "committer_date": "2021-02-10T04:28:22Z",
+      "subject": "update details, add publications, modify portfolio, polish some features"
+    },
+    {
+      "sha": "a137c68ece367a980c6dbd9c83b614f39bea0095",
+      "url": "https://github.com/thatbrguy/thatbrguy.github.io/commit/a137c68ece367a980c6dbd9c83b614f39bea0095",
+      "author_login": "thatbrguy",
+      "author_date": "2020-12-21T18:21:30Z",
+      "committer_date": "2020-12-21T18:21:30Z",
+      "subject": "update resume"
+    }
+  ],
+  "personal_site_commits_response_sha256": "f8aec303267739ca9c6a900ba06610dd6b418965a4cc82bfcd3f9f383c0fa2cc",
+  "limitations": [
+    "Public repositories visible at collection only. Private/deleted repositories, deleted PRs and organization-owned repositories are not covered.",
+    "Latest-PR queries establish recency of visible PR creation; they do not audit every historic diff."
+  ]
+}

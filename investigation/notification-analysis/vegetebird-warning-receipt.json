@@ -1,0 +1,9 @@
+{
+  "author": "liuzhao1225",
+  "body": "@Vegetebird Please treat this as a phishing alert. The repository owner put a purported login warning in an ordinary issue and mentioned you, which can trigger a genuine GitHub notification email. The same account posted the same claimed IP address in another issue targeting a different user.\n\nThe “This wasn't me” button points to an external GitHub Pages site. Static inspection of that site's source found an encoded redirect script shared by several similar notification sites. Do not enter a password or 2FA code, or approve a login/authorization prompted by that link. Check your account directly through [GitHub's official security log](https://github.com/settings/security-log).\n\nDelivery by notifications@github.com does not authenticate the security claim written by this issue's author. We are preserving the public evidence in [this investigation repository](https://github.com/liuzhao1225/litellm-integration-supply-chain-review); no connection between this phishing activity and LiteLLM contributors has been established.\n",
+  "created_at": "2026-09-08T20:56:13Z",
+  "id": 5591750437,
+  "url": "https://github.com/7051294/Security/issues/1#issuecomment-5591750437",
+  "readback_at_utc": "2026-09-08T20:56:31.451210+00:00",
+  "authorization": "The repository owner requested a warning to Vegetebird about this issue."
+}
