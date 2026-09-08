@@ -1,0 +1,77 @@
+{
+  "repository": "zhayujie/CowAgent",
+  "number": 3075,
+  "url": "https://github.com/zhayujie/CowAgent/pull/3075",
+  "author": "prodmanpd",
+  "created_at": "2026-08-24T17:32:23Z",
+  "state": "closed",
+  "head_sha": "8cfb66a4cf3b99dbb9f320b4bdd75621603a19ed",
+  "base_sha": "a8ab40c900179b3c6ed6bf56ce92f6aabb9e5697",
+  "integration": "python-sdk",
+  "constraints": [
+    {
+      "file": "requirements.txt",
+      "specifier": ">=1.89,<2.0"
+    }
+  ],
+  "lock": null,
+  "evidence_file": "prs/zhayujie__CowAgent__3075.json",
+  "files": [
+    {
+      "path": "common/const.py",
+      "status": "modified",
+      "blob_sha": "2efe4df0ac2ea8c45c7f03be5f24b8e31c56c5d2",
+      "patch_sha256": "270df68690cd35f1ef02f2bd3e1efef8b7f6b757d4146e36e1a796a998380285",
+      "patch_available": true
+    },
+    {
+      "path": "config.py",
+      "status": "modified",
+      "blob_sha": "a7465aca11aed657c0492293505aff0b9c962e07",
+      "patch_sha256": "8ee30b4b91f6546ec621c716c26c555bd140f194b63d27aec0d870053e099eb7",
+      "patch_available": true
+    },
+    {
+      "path": "models/bot_factory.py",
+      "status": "modified",
+      "blob_sha": "19df89721159057c6674edfb6037597095b38b09",
+      "patch_sha256": "30bd9c20df142ebc257278cc49a3df15688c549afb50c8d984fa748e65b3b914",
+      "patch_available": true
+    },
+    {
+      "path": "models/litellm/__init__.py",
+      "status": "added",
+      "blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "patch_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "patch_available": false
+    },
+    {
+      "path": "models/litellm/litellm_bot.py",
+      "status": "added",
+      "blob_sha": "93b96aff0079b0d22280be7896cee48f47f1d1e5",
+      "patch_sha256": "c45f948b5bf3c40766bc11178e46ae6e9b1b51e02121bde8e6bd916b090b0dc9",
+      "patch_available": true
+    },
+    {
+      "path": "models/litellm/litellm_session.py",
+      "status": "added",
+      "blob_sha": "4002a7a70c3ec4cec3fbba889a057a90b50b9214",
+      "patch_sha256": "f9394426d3e3211f2a9c9821e34129ef8e5be6dbb363ec3867694c752ab75bab",
+      "patch_available": true
+    },
+    {
+      "path": "requirements.txt",
+      "status": "modified",
+      "blob_sha": "da00ff1d8aa603d88b65d0b0132bea6586ffeb46",
+      "patch_sha256": "d90ea7f3149d46148781768fc7868f7b0b07e5a700e2758a1a946b27652660d4",
+      "patch_available": true
+    },
+    {
+      "path": "tests/test_litellm_provider.py",
+      "status": "added",
+      "blob_sha": "9a8478688b4326bd55d716fbf62ee6541a8937a9",
+      "patch_sha256": "c308733041c16e4de07c26c9ca4c86a323dcf9c5700ae5a2e8f334d872d4a988",
+      "patch_available": true
+    }
+  ]
+}

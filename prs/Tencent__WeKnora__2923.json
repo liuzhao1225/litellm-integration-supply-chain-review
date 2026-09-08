@@ -1,0 +1,177 @@
+{
+  "repository": "Tencent/WeKnora",
+  "number": 2923,
+  "url": "https://github.com/Tencent/WeKnora/pull/2923",
+  "author": "prodmanpd",
+  "created_at": "2026-08-31T16:03:29Z",
+  "state": "merged",
+  "head_sha": "329267dd6f3b3cb46780fa58dea8b8211913e3a3",
+  "base_sha": "a55f4b78341fb11b7018ea30d6d07db244765207",
+  "integration": "proxy-compatible",
+  "constraints": [],
+  "lock": null,
+  "evidence_file": "prs/Tencent__WeKnora__2923.json",
+  "files": [
+    {
+      "path": "client/model.go",
+      "status": "modified",
+      "blob_sha": "a6d67cc97b3a459743e7f42308c1b180c9c68bbb",
+      "patch_sha256": "b7d1de6dffec109ec45bd428aa1ccd45025c9af082dcfc6130b2a29c7a275830",
+      "patch_available": true
+    },
+    {
+      "path": "docs/BUILTIN_MODELS.md",
+      "status": "modified",
+      "blob_sha": "b4fe9bba2e1c92661b1abadc5ce0757df3c519ba",
+      "patch_sha256": "44809081125316e9489e158c350f4b1a930c8fe7f07ca5b51d306160ced89ec5",
+      "patch_available": true
+    },
+    {
+      "path": "docs/api/model.md",
+      "status": "modified",
+      "blob_sha": "61f6a165282469949b39d189d61385de8ce6faf1",
+      "patch_sha256": "dd79a9575c76b79a239eeddd5aa1c1a03f1f1f20c76b0d7650e34f02cfea0507",
+      "patch_available": true
+    },
+    {
+      "path": "docs/docs.go",
+      "status": "modified",
+      "blob_sha": "0e42773c2c1ffffb96b74a22a9b7b257ea7cb870",
+      "patch_sha256": "d1a3855d186235802c1d4e715ba27c3cd663786215c8333022c4a590b54f8d0e",
+      "patch_available": true
+    },
+    {
+      "path": "docs/swagger.json",
+      "status": "modified",
+      "blob_sha": "e7f9e01e6319512c0b513f75288105993ee9188b",
+      "patch_sha256": "e088523aecef924dd058802892b956311d8b92f634b9ab9b530f3b8c01d34890",
+      "patch_available": true
+    },
+    {
+      "path": "docs/swagger.yaml",
+      "status": "modified",
+      "blob_sha": "49ed133c215dea3702bfb4d57cd4c801d8a818eb",
+      "patch_sha256": "261e0faf6dc88246e22088b1defeddd4d45609a25156da4f161b8898f2bf6b4f",
+      "patch_available": true
+    },
+    {
+      "path": "docs/wiki/核心功能/内置模型管理.md",
+      "status": "modified",
+      "blob_sha": "871b96760253c97c73d81d0fa9374f78b9746ae2",
+      "patch_sha256": "1c7b6b8a53210841633cd30158bd43a23fb8b914f665978bda996ada96084b5b",
+      "patch_available": true
+    },
+    {
+      "path": "frontend/src/components/ModelEditorDialog.vue",
+      "status": "modified",
+      "blob_sha": "94fcb12d6b8bdd39e967a7e65a00e7bb115a72d8",
+      "patch_sha256": "75d6ead49c726974cb2854ef47dd8f41fb8b5c1de8e466ba3840370559b5e4bc",
+      "patch_available": true
+    },
+    {
+      "path": "frontend/src/i18n/locales/en-US.ts",
+      "status": "modified",
+      "blob_sha": "63fb71235c5239f988244ef39519418883c66cec",
+      "patch_sha256": "dc60110531a76421b1cca74f9d56dbd699a1e88fa93a5cf2e87f2ed9524ce15b",
+      "patch_available": true
+    },
+    {
+      "path": "frontend/src/i18n/locales/ko-KR.ts",
+      "status": "modified",
+      "blob_sha": "8deaf14a52d5b538e5bcb1fb751852e77c81d0ba",
+      "patch_sha256": "bb3aa9664cebf4ed51f17479d7494a63665df1532c701399ad496df1c7bd021f",
+      "patch_available": true
+    },
+    {
+      "path": "frontend/src/i18n/locales/ru-RU.ts",
+      "status": "modified",
+      "blob_sha": "c972d3dc385bd3c23b5dc35fb473b597805cf12a",
+      "patch_sha256": "d68660711d00c7750002323e43e5968e43af725e79d3f960a2177ec6d5636f1c",
+      "patch_available": true
+    },
+    {
+      "path": "frontend/src/i18n/locales/zh-CN.ts",
+      "status": "modified",
+      "blob_sha": "30cf1922600a5f6aac834890bd7cadbe712ef759",
+      "patch_sha256": "557d56fb7c80b13c4dcd2a8c1abad8426c771f20f00e2f91d66ecb60a46e8d49",
+      "patch_available": true
+    },
+    {
+      "path": "frontend/src/utils/thinkingControl.test.ts",
+      "status": "modified",
+      "blob_sha": "1840e34e6573f8400bf1b3b83d9d1ebec2622337",
+      "patch_sha256": "44310a88ac3ef757e1bc6d4ef5c775b0fac7768aae55af6cda97e149392a5fc6",
+      "patch_available": true
+    },
+    {
+      "path": "frontend/src/utils/thinkingControl.ts",
+      "status": "modified",
+      "blob_sha": "9ec34cbb742497f6704c53163937f9f1ca1005e9",
+      "patch_sha256": "ea0d08323c6697f2cc8cb762ad063c5d5473dad272d54171478967253c5e56e4",
+      "patch_available": true
+    },
+    {
+      "path": "internal/models/chat/provider.go",
+      "status": "modified",
+      "blob_sha": "be1a4f7991ad843cc41749861d34a98e57a29869",
+      "patch_sha256": "d60076cfbd3753502dd2253e4e4948592c4cf7347c58da90279221def4f604f4",
+      "patch_available": true
+    },
+    {
+      "path": "internal/models/chat/provider_test.go",
+      "status": "modified",
+      "blob_sha": "688485724e24e8bd2f28284196b3fcd7eec5a29e",
+      "patch_sha256": "48cbeefd4c93090328c960b2f7af682622c31372d13443769676086b90a811ec",
+      "patch_available": true
+    },
+    {
+      "path": "internal/models/provider/litellm.go",
+      "status": "added",
+      "blob_sha": "c06ca6abb4e0605ddbc0c7ff9cfda9b6ac111059",
+      "patch_sha256": "95ccc211186f76210139750922ba8c918d1c674dfe87b92272e639d1c6661ed1",
+      "patch_available": true
+    },
+    {
+      "path": "internal/models/provider/provider.go",
+      "status": "modified",
+      "blob_sha": "d96036621e76da6b1f951dd68b75eab158495902",
+      "patch_sha256": "461939a3cb4e4b2b84306063ec8ead732d7bedbfa02fcbb05c11e871c448e1d7",
+      "patch_available": true
+    },
+    {
+      "path": "internal/models/provider/provider_test.go",
+      "status": "modified",
+      "blob_sha": "a0a9320e4b48d742b0af9af8161403f0203f00ec",
+      "patch_sha256": "1086029ba4f275790fee54cd20d3f5e89f3c70ecbd6f8de144f00485920ab82c",
+      "patch_available": true
+    },
+    {
+      "path": "internal/types/model.go",
+      "status": "modified",
+      "blob_sha": "176060439c4ef4a4dc8360369b42c61456410077",
+      "patch_sha256": "f37dfcc60afa17c93c9a837f1cb2feee5e81560b6c905af612a2cbfa270ffbf5",
+      "patch_available": true
+    },
+    {
+      "path": "website-docs/01-getting-started/01-introduction.md",
+      "status": "modified",
+      "blob_sha": "d0fca60ccc4a6861f9911c1ae7ef0196bb9bce42",
+      "patch_sha256": "6afd8043a949438c45d90c5369106a71f14f01e170223f776e9c65a0c05e7e0e",
+      "patch_available": true
+    },
+    {
+      "path": "website-docs/03-features/06-models.md",
+      "status": "modified",
+      "blob_sha": "cda2ab0eff93b6cb20bd6b9f2ce7f179ae77db2e",
+      "patch_sha256": "114fbbdddda531e1ab531b8e0e118a28feb79af2bfe579ac18d9ede82f40cd7c",
+      "patch_available": true
+    },
+    {
+      "path": "website-docs/06-development/03-extension-points.md",
+      "status": "modified",
+      "blob_sha": "687dce40d5c443458ef99611889165debada8786",
+      "patch_sha256": "5d5cb5cde27712b7e7c1ae9d08fdefa4c9dbb3ff75360924e715527e7643c305",
+      "patch_available": true
+    }
+  ]
+}

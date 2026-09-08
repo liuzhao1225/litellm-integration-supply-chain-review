@@ -1,0 +1,71 @@
+{
+  "repository": "datalab-to/marker",
+  "number": 1097,
+  "url": "https://github.com/datalab-to/marker/pull/1097",
+  "author": "prodmanpd",
+  "created_at": "2026-08-31T15:23:04Z",
+  "state": "open",
+  "head_sha": "29a3d4298d1cc8acb5637a8a859ed4ad20ab08e3",
+  "base_sha": "bfae9f0c125590b7576e326df10c3b65b50f7111",
+  "integration": "python-sdk",
+  "constraints": [
+    {
+      "file": "pyproject.toml",
+      "specifier": ">=1.89.0,<2"
+    }
+  ],
+  "lock": {
+    "pr": "https://github.com/datalab-to/marker/pull/1097",
+    "version": "1.98.0",
+    "artifacts": 8,
+    "mismatches": [],
+    "source": {
+      "registry": "https://pypi.org/simple"
+    }
+  },
+  "evidence_file": "prs/datalab-to__marker__1097.json",
+  "files": [
+    {
+      "path": "README.md",
+      "status": "modified",
+      "blob_sha": "615ed1b145601b78b79cbd3c06a3fe618b50a335",
+      "patch_sha256": "bc77b2486a0a308d8bb853b82c2620c91cc1bdf40dd2b9080ff06cd1067ee2c0",
+      "patch_available": true
+    },
+    {
+      "path": "marker/services/litellm.py",
+      "status": "added",
+      "blob_sha": "0ed34c9dd64966e656e65e581586f9a52e35e962",
+      "patch_sha256": "82ad5c5c04ddb898a7b9c74b9f64164100ee5d247eb01849dc5b5966a0dc8ebc",
+      "patch_available": true
+    },
+    {
+      "path": "pyproject.toml",
+      "status": "modified",
+      "blob_sha": "21c9cecf130b5218ce5e9fa5fbc6e90b68a42fba",
+      "patch_sha256": "428949ba271f89de8ce4a113ca029b9113db840e8b0fe436a22b6f125e2d63a8",
+      "patch_available": true
+    },
+    {
+      "path": "tests/services/test_litellm.py",
+      "status": "added",
+      "blob_sha": "8f59498bac88bcb9e40892a06a1e1c508566866d",
+      "patch_sha256": "81fa49ac7b4d963a5deb80067f684057eabe887d55e4f786ef0c2bcdbed125d3",
+      "patch_available": true
+    },
+    {
+      "path": "tests/services/test_service_init.py",
+      "status": "modified",
+      "blob_sha": "9e12180e167b54950d9dc44210f2fd75f0e7d725",
+      "patch_sha256": "8343020e6a868372c03089759b00b84628fc53a0e8a4b5d8507e09d7ea648be7",
+      "patch_available": true
+    },
+    {
+      "path": "uv.lock",
+      "status": "modified",
+      "blob_sha": "21333e8ac5950ae1b1bba0ca6f9ed50200ea4487",
+      "patch_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "patch_available": false
+    }
+  ]
+}

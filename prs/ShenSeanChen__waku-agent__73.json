@@ -1,0 +1,44 @@
+{
+  "repository": "ShenSeanChen/waku-agent",
+  "number": 73,
+  "url": "https://github.com/ShenSeanChen/waku-agent/pull/73",
+  "author": "prodmanpd",
+  "created_at": "2026-08-03T13:53:08Z",
+  "state": "closed",
+  "head_sha": "327ff5628969ea07bb21fe74f186e2b24bb2bd1f",
+  "base_sha": "d7b9f52409cb5aa3bb74d75a0ebb70877973bee4",
+  "integration": "proxy-compatible",
+  "constraints": [],
+  "lock": null,
+  "evidence_file": "prs/ShenSeanChen__waku-agent__73.json",
+  "files": [
+    {
+      "path": ".env.example",
+      "status": "modified",
+      "blob_sha": "78010cf34f49420b988549c4929ea6f7360abe9b",
+      "patch_sha256": "5de951305b65c729bdea18daa6e5f5d8a21df32be8a345462bc9de697523da11",
+      "patch_available": true
+    },
+    {
+      "path": "README.md",
+      "status": "modified",
+      "blob_sha": "0ddf6fe48309390261fb3019d5c8a59c43c4c33a",
+      "patch_sha256": "9f69f73eff87076657668f47f75b60d4f95cfb5c7314c9f91542ee912564a9d2",
+      "patch_available": true
+    },
+    {
+      "path": "waku/loop/models.py",
+      "status": "modified",
+      "blob_sha": "713caadfcb8a580b0e8472f66a55a3271890e1f8",
+      "patch_sha256": "395eb8811044d563321cf86d3199425bdcbb0dee61a946497e9d30f95a435d6b",
+      "patch_available": true
+    },
+    {
+      "path": "waku/ops/pricing.py",
+      "status": "modified",
+      "blob_sha": "740c94a25d9e365d943be257b76d90365d15a5ad",
+      "patch_sha256": "44aba8a505264d84a8f720d06469c7c0120d93d2a5dc6f2a4c75fe9b032b5417",
+      "patch_available": true
+    }
+  ]
+}

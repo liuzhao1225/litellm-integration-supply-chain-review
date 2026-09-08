@@ -1,0 +1,72 @@
+{
+  "repository": "lofcz/LLMTornado",
+  "number": 186,
+  "url": "https://github.com/lofcz/LLMTornado/pull/186",
+  "author": "prodmanpd",
+  "created_at": "2026-08-17T15:57:55Z",
+  "state": "merged",
+  "head_sha": "7479d068d8b8fc717a7a0cfa3108a701369b7f56",
+  "base_sha": "da83d3ccfa26fbaeed32450025ec4a7055becff8",
+  "integration": "proxy-compatible",
+  "constraints": [],
+  "lock": null,
+  "evidence_file": "prs/lofcz__LLMTornado__186.json",
+  "files": [
+    {
+      "path": "README.md",
+      "status": "modified",
+      "blob_sha": "31c4e24f7b3e22a9d60343cf5cf19d78eae2603d",
+      "patch_sha256": "d5eb117f6cc4abfaeccc6739c477a5a57113a1acff72b7ed41afdf60efa2cda0",
+      "patch_available": true
+    },
+    {
+      "path": "src/LlmTornado.Demo/ChatDemo2.cs",
+      "status": "modified",
+      "blob_sha": "9714ad954663589f2f139167411e24c670ac7927",
+      "patch_sha256": "5a521ef5b34dfd2c5112b5f8d615109944acdd62f913e5af00dc284d403a74f3",
+      "patch_available": true
+    },
+    {
+      "path": "src/LlmTornado.Demo/Program.cs",
+      "status": "modified",
+      "blob_sha": "80f4edef9f78eae1585fe75e1ffcaf09bf8566fe",
+      "patch_sha256": "01e8eb520d30a2d1ea54f259bf8f271cf7fcdde6cffb5d9736c3277711392aba",
+      "patch_available": true
+    },
+    {
+      "path": "src/LlmTornado.Tests/LiteLlmProviderTests.cs",
+      "status": "added",
+      "blob_sha": "f3a1b05e3f99745008716683cf977adf29d9e8be",
+      "patch_sha256": "a1663e0463c735c60a7ee914c933b26fd180c835ed73ca18a1e77902e69e645c",
+      "patch_available": true
+    },
+    {
+      "path": "src/LlmTornado/Chat/ChatRequest.cs",
+      "status": "modified",
+      "blob_sha": "97f1772861a1fc62eecb1dc3e5a8305b9f42aa76",
+      "patch_sha256": "0f4a3e1af0a2b7df6ba56197dd5f354b8322b045f7d5ad195b2131f593e1d0ac",
+      "patch_available": true
+    },
+    {
+      "path": "src/LlmTornado/Code/EndpointProviderConverter.cs",
+      "status": "modified",
+      "blob_sha": "14bf5394d1eb8f3900c4a39eb4b7898622dab8e5",
+      "patch_sha256": "12b5b0958a25b4940a5e9df0bb050b51c24c520cf0e76c8c1df32b6121cdd11b",
+      "patch_available": true
+    },
+    {
+      "path": "src/LlmTornado/Code/PartialModels.cs",
+      "status": "modified",
+      "blob_sha": "2469b86cdc7559b7bb1c604658526d3de7daa236",
+      "patch_sha256": "cb54fdafc279dd0252997c0c325ec34b04239a7bcf31e3e4b8eb1c7b996c966b",
+      "patch_available": true
+    },
+    {
+      "path": "src/LlmTornado/Embedding/EmbeddingRequest.cs",
+      "status": "modified",
+      "blob_sha": "113d6581948e917240d00a8ce5eb8b38ae964d99",
+      "patch_sha256": "471fc3a78e8b7f95f20762fa06094961c09a53314a7510db8f8db442a134cd09",
+      "patch_available": true
+    }
+  ]
+}

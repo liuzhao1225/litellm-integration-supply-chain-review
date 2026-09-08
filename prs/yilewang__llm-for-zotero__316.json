@@ -1,0 +1,65 @@
+{
+  "repository": "yilewang/llm-for-zotero",
+  "number": 316,
+  "url": "https://github.com/yilewang/llm-for-zotero/pull/316",
+  "author": "prodmanpd",
+  "created_at": "2026-07-17T18:49:48Z",
+  "state": "open",
+  "head_sha": "49abae562ffd1d40d0ad436d5b43b7d6e6370d0f",
+  "base_sha": "f8dbbd863b021368c07efe0f61c67f3503d79bc9",
+  "integration": "proxy-compatible",
+  "constraints": [],
+  "lock": null,
+  "evidence_file": "prs/yilewang__llm-for-zotero__316.json",
+  "files": [
+    {
+      "path": "src/modules/preferenceScript.ts",
+      "status": "modified",
+      "blob_sha": "075103dabe8edcea90feba0582d587e47018133a",
+      "patch_sha256": "7c18fe02945a2538b5039401aea207a1414aa9268d548a51ce01647bee69e20b",
+      "patch_available": true
+    },
+    {
+      "path": "src/providers/types.ts",
+      "status": "modified",
+      "blob_sha": "4838e5dbcd8e261d1e3a09341b88c6dca3b117de",
+      "patch_sha256": "c02e5b0d85f0431fad2bb40e8eb49eb8b70914615ebcf90bb53f7812aa10599a",
+      "patch_available": true
+    },
+    {
+      "path": "src/utils/llmClient.ts",
+      "status": "modified",
+      "blob_sha": "d4f84f29f93b33c9840104d513b3b79e200e3e48",
+      "patch_sha256": "f4a7f4eccbd023a0085a951519ca1bf496ae71b94d3c2d90525fb9a49a350e6b",
+      "patch_available": true
+    },
+    {
+      "path": "src/utils/modelProviders.ts",
+      "status": "modified",
+      "blob_sha": "bd6f30fd0ea17730bd85807283d35c3c9d40fa38",
+      "patch_sha256": "9f9b27274db947cadccc28863b94533d357cce292056ddd9083347be1e22ce3e",
+      "patch_available": true
+    },
+    {
+      "path": "src/utils/providerPresets.ts",
+      "status": "modified",
+      "blob_sha": "61712a03b7d7637d66f2b092637668bd0fa7fd7a",
+      "patch_sha256": "db6d378a8eac1ced78b1aa71cb1f63df75b9eb5eb7d3661cad8aac50a56955eb",
+      "patch_available": true
+    },
+    {
+      "path": "test/providerCapabilities.test.ts",
+      "status": "modified",
+      "blob_sha": "47ffe7f4d4e015bf53f5690139de8d257c560d03",
+      "patch_sha256": "8b3eda2f65eba67aedbaa1958fdfbc85abdb90a3c170ca020ef486cbfe7f3251",
+      "patch_available": true
+    },
+    {
+      "path": "test/providerPresets.test.ts",
+      "status": "modified",
+      "blob_sha": "cb23b37dd74c22176b21f60683c2e483bd5956fb",
+      "patch_sha256": "01d6955c2b9bdd466aa27edba61cf60826717c2897431492bacc9cbba9dbea33",
+      "patch_available": true
+    }
+  ]
+}

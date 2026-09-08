@@ -1,0 +1,85 @@
+{
+  "repository": "OpenBMB/UltraRAG",
+  "number": 496,
+  "url": "https://github.com/OpenBMB/UltraRAG/pull/496",
+  "author": "prodmanpd",
+  "created_at": "2026-08-24T17:03:47Z",
+  "state": "merged",
+  "head_sha": "85bc0f597097ddea8f32b41dbd4fe73e899662b9",
+  "base_sha": "53cefae50b45949e06120498483ee286a77b2952",
+  "integration": "python-sdk",
+  "constraints": [
+    {
+      "file": "pyproject.toml",
+      "specifier": ">=1.60,<2.0"
+    }
+  ],
+  "lock": {
+    "pr": "https://github.com/OpenBMB/UltraRAG/pull/496",
+    "version": "1.97.0",
+    "artifacts": 8,
+    "mismatches": [],
+    "source": {
+      "registry": "https://pypi.org/simple"
+    }
+  },
+  "evidence_file": "prs/OpenBMB__UltraRAG__496.json",
+  "files": [
+    {
+      "path": "pyproject.toml",
+      "status": "modified",
+      "blob_sha": "6bf4713c9f80e79192e44068c2fd957609dc4240",
+      "patch_sha256": "9be4324e43184c7b8d0afcb643f7003ff7d3a119f25d87c16af0d404cadf9174",
+      "patch_available": true
+    },
+    {
+      "path": "servers/generation/parameter.yaml",
+      "status": "modified",
+      "blob_sha": "ddafba1d29a130fec928ef872e9fa207027405ae",
+      "patch_sha256": "ef10f374059120ad620f7e07e68be0abc84a9cbe83fa6267b47a4fd06016fbc4",
+      "patch_available": true
+    },
+    {
+      "path": "servers/generation/src/generation.py",
+      "status": "modified",
+      "blob_sha": "ac0f907494791886b7342917b73a361c680b8d23",
+      "patch_sha256": "6ffeb2b6c0d3dcdf9b91f6cafb00a2b4e4af763b07807bc5401bfac150d971b4",
+      "patch_available": true
+    },
+    {
+      "path": "servers/generation/tests/test_litellm_backend.py",
+      "status": "added",
+      "blob_sha": "f27e597b9210809c7067c6cadf2bb1026c01bc8d",
+      "patch_sha256": "e71bda8c735c45b0c2ab35f66097224bf5438f6560b0f4e094361f758e725f49",
+      "patch_available": true
+    },
+    {
+      "path": "servers/retriever/parameter.yaml",
+      "status": "modified",
+      "blob_sha": "2048e4d20db6aace6c643aae8c1f313d56965a30",
+      "patch_sha256": "59302b96dc484c8213c74db6a287eb582a1b884dfb501cb87d355a60fbcb7128",
+      "patch_available": true
+    },
+    {
+      "path": "servers/retriever/src/retriever.py",
+      "status": "modified",
+      "blob_sha": "4b6809ddde3c1622100053c0b417d90dc945381a",
+      "patch_sha256": "e94adfd1a38820ed6c111fea30690744c04c7bccdf89a65a33c44a84b3ab9e5b",
+      "patch_available": true
+    },
+    {
+      "path": "servers/retriever/tests/test_litellm_embedding.py",
+      "status": "added",
+      "blob_sha": "32c1a1df6d39f36557bed8f697865f62fb0866ee",
+      "patch_sha256": "f611e8e9d48b64ffd6d46be3205bc2ebb6bcd30c97020e8ccaf51683e3dc9c87",
+      "patch_available": true
+    },
+    {
+      "path": "uv.lock",
+      "status": "modified",
+      "blob_sha": "d4ca8f8e99a946ec57f6913c8e22a7d34fa1709a",
+      "patch_sha256": "e997091b823318d471927afac438c5ba15f29942bfe8054cc59e176003f00227",
+      "patch_available": true
+    }
+  ]
+}

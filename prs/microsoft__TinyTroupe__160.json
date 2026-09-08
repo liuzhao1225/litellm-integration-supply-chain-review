@@ -1,0 +1,49 @@
+{
+  "repository": "microsoft/TinyTroupe",
+  "number": 160,
+  "url": "https://github.com/microsoft/TinyTroupe/pull/160",
+  "author": "prodmanpd",
+  "created_at": "2026-07-17T18:53:12Z",
+  "state": "open",
+  "head_sha": "e6cc3e0507fc48baf138cf4073de934ca12bf633",
+  "base_sha": "a6244b358a1fe1c71bf751f7ba0f8dfa368ec5a4",
+  "integration": "python-sdk",
+  "constraints": [
+    {
+      "file": "pyproject.toml",
+      "specifier": ">=1.83.0,<2.0"
+    }
+  ],
+  "lock": null,
+  "evidence_file": "prs/microsoft__TinyTroupe__160.json",
+  "files": [
+    {
+      "path": "pyproject.toml",
+      "status": "modified",
+      "blob_sha": "474f73006500bf13c60eacb57bcf1b51878bb947",
+      "patch_sha256": "36af97d5efcde4fc378a18674ce3ca26d7bd153ccb2103e9dea472e546436058",
+      "patch_available": true
+    },
+    {
+      "path": "tests/unit/test_litellm_client.py",
+      "status": "added",
+      "blob_sha": "7ebd42045d95789d6bb987c0b5489d23c52bacf3",
+      "patch_sha256": "10128661f1171f975cc2b0f6754a3e2f04324cd1754aba143a7fbe0caeb3c7b8",
+      "patch_available": true
+    },
+    {
+      "path": "tinytroupe/clients/__init__.py",
+      "status": "modified",
+      "blob_sha": "2ec911a2385dca3b63676b2bc4ad115803290875",
+      "patch_sha256": "fd2ee235621b5fc334cb2e4f0c8f189881cb0f40504f1b392c3fb745f216bd90",
+      "patch_available": true
+    },
+    {
+      "path": "tinytroupe/clients/litellm_client.py",
+      "status": "added",
+      "blob_sha": "0abb09785d7b9c19789936b4e728544af5bd825b",
+      "patch_sha256": "4aec647a783fa75299b169642d95f8108a5c884294f0f3dfb9ef363725dcec7c",
+      "patch_available": true
+    }
+  ]
+}

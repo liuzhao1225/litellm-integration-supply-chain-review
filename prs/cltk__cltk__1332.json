@@ -1,0 +1,93 @@
+{
+  "repository": "cltk/cltk",
+  "number": 1332,
+  "url": "https://github.com/cltk/cltk/pull/1332",
+  "author": "prodmanpd",
+  "created_at": "2026-08-02T20:08:30Z",
+  "state": "open",
+  "head_sha": "32ddf3b68a2b9111f6ea59949cba423bd7276c2b",
+  "base_sha": "33e1653331fc2499e3f2f5da45237d87db0313cc",
+  "integration": "proxy-compatible",
+  "constraints": [],
+  "lock": null,
+  "evidence_file": "prs/cltk__cltk__1332.json",
+  "files": [
+    {
+      "path": "LLM_DEV_GUIDE.md",
+      "status": "modified",
+      "blob_sha": "4786326353263d018f1c76ce6eead198ce229135",
+      "patch_sha256": "3f196f77e3ca0c7f64c8927a431790d82f286823e4d449a82b601c9cc5653f37",
+      "patch_available": true
+    },
+    {
+      "path": "README.md",
+      "status": "modified",
+      "blob_sha": "6e0c45c659e1c972edd5f5c2c779add6f3134772",
+      "patch_sha256": "dcfcb49504cc962dc5cb529bb4a0678fe296efad2abe82eef82e2c90b2974dff",
+      "patch_available": true
+    },
+    {
+      "path": "docs/advanced-model-configuration.md",
+      "status": "modified",
+      "blob_sha": "141fd5feaf9c7205d925aa37370f094d613a31e6",
+      "patch_sha256": "158a026e7b8fb3029958589caa473214a6078d247826ff2c4516d79cad63ab73",
+      "patch_available": true
+    },
+    {
+      "path": "src/cltk/core/data_types.py",
+      "status": "modified",
+      "blob_sha": "8e680d95b0a9c4bd96e806b9f5e39fc6cae398fb",
+      "patch_sha256": "a0e4fb0f58d5a1763507d53e60c5ab091ed84b0e24fd1f5e738f3bf6bb87febb",
+      "patch_available": true
+    },
+    {
+      "path": "src/cltk/dependency/utils.py",
+      "status": "modified",
+      "blob_sha": "d1d20433cb3f0ddcae6fdbec73845e008f02a146",
+      "patch_sha256": "e977afb95fb92016208ab78c25dd8006203b39fca01dd8d8fa59f055e0b8631a",
+      "patch_available": true
+    },
+    {
+      "path": "src/cltk/enrichment/utils.py",
+      "status": "modified",
+      "blob_sha": "0b0d97d13a76549ac31d591004637b1b95364c97",
+      "patch_sha256": "9642ce613413992931ed89c76055ab799459044ae1c9633edad1547af60cd12b",
+      "patch_available": true
+    },
+    {
+      "path": "src/cltk/genai/openai.py",
+      "status": "modified",
+      "blob_sha": "16203799b981b69041993968e815a884c806999e",
+      "patch_sha256": "8788c64e23f51cbac7a124bcb36615fbb8e0dbb194bd7cec6a071c0f8e29ad75",
+      "patch_available": true
+    },
+    {
+      "path": "src/cltk/morphosyntax/utils.py",
+      "status": "modified",
+      "blob_sha": "5f19086f018ea75959db4cfb52a7eefc94a4d1f2",
+      "patch_sha256": "94615dc1c6bdf189d0043cb96e2e08ab6010dbdae19013c3c223b7af83eb5dd1",
+      "patch_available": true
+    },
+    {
+      "path": "src/cltk/nlp.py",
+      "status": "modified",
+      "blob_sha": "a72e62b7697d005520ded1393b4a5d78f8d65606",
+      "patch_sha256": "3d3e58697389758548483b6d17597df2ffd423c0375621d3a026c05c3b40bf02",
+      "patch_available": true
+    },
+    {
+      "path": "src/cltk/translation/utils.py",
+      "status": "modified",
+      "blob_sha": "4e2718d24b9fd1e77a426b78f8414f44f9882de0",
+      "patch_sha256": "b6abcc078521d0ff6a319c052fae7e9f214e438742bbb0bb22a79ff4fe3df6e7",
+      "patch_available": true
+    },
+    {
+      "path": "tests/genai/test_litellm_connection.py",
+      "status": "added",
+      "blob_sha": "55fec7faa4046a1cfb4c1482e8de2f7c7c756cc9",
+      "patch_sha256": "71b09ec0dcbde26c40f6dc7fcec1b51ac3212d65958a6cfc053377a920977895",
+      "patch_available": true
+    }
+  ]
+}

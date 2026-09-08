@@ -1,0 +1,71 @@
+{
+  "repository": "StarTrail-org/PixelRAG",
+  "number": 145,
+  "url": "https://github.com/StarTrail-org/PixelRAG/pull/145",
+  "author": "prodmanpd",
+  "created_at": "2026-08-24T17:38:34Z",
+  "state": "merged",
+  "head_sha": "474161feec53e5a5c5b586aa820ab3f84bcce87e",
+  "base_sha": "c1dae49ba78e33ff1d02d9f8efd7b9adf9cecb22",
+  "integration": "python-sdk",
+  "constraints": [
+    {
+      "file": "eval/pyproject.toml",
+      "specifier": ">=1.89.0,<2.0.0"
+    }
+  ],
+  "lock": {
+    "pr": "https://github.com/StarTrail-org/PixelRAG/pull/145",
+    "version": "1.98.0",
+    "artifacts": 8,
+    "mismatches": [],
+    "source": {
+      "registry": "https://pypi.org/simple"
+    }
+  },
+  "evidence_file": "prs/StarTrail-org__PixelRAG__145.json",
+  "files": [
+    {
+      "path": "eval/lib/llm.py",
+      "status": "modified",
+      "blob_sha": "0f4879bdc575978ba012291100a827b002bae622",
+      "patch_sha256": "394db5c9bf5143bc3e84677cb61d3774330c7f9e34ca8f028f7278f99dd99267",
+      "patch_available": true
+    },
+    {
+      "path": "eval/pyproject.toml",
+      "status": "modified",
+      "blob_sha": "39fbf880e743efece9be3e3fae3db318768dd970",
+      "patch_sha256": "3cb92d95d69aadcc9f5127c4c6badc31ac0b2ca9cb2df0d21c321209e729d9b2",
+      "patch_available": true
+    },
+    {
+      "path": "eval/run_bench.py",
+      "status": "modified",
+      "blob_sha": "e7ca40f5ce2d9359859e81967dad677f5dc95802",
+      "patch_sha256": "7f52de550ec864b9c6bf64c9f006dec5ed957440f85ce843453ea6cee87622ad",
+      "patch_available": true
+    },
+    {
+      "path": "eval/run_livevqa.py",
+      "status": "modified",
+      "blob_sha": "671dc24a724dbb17761f6ab26f2c59131f13e536",
+      "patch_sha256": "f26b4728723350adc4ae15129801b594b93e257aae29c1c8a6071ce090e29119",
+      "patch_available": true
+    },
+    {
+      "path": "eval/uv.lock",
+      "status": "modified",
+      "blob_sha": "7c88f7cb81b9665c6dc1e317ed30e8fee1b4dd2f",
+      "patch_sha256": "9c1bc86d2a9fdb89a6383737aed4bca465cb5909a01d96bc278edcada2525837",
+      "patch_available": true
+    },
+    {
+      "path": "tests/test_litellm_client.py",
+      "status": "added",
+      "blob_sha": "a366393e26aae0d2981fe7f79a21c61e3b264377",
+      "patch_sha256": "cb91106c4ffd5782545d858d8eb6852ea60e4de94b41caf5ffbb024c5fa68b6c",
+      "patch_available": true
+    }
+  ]
+}

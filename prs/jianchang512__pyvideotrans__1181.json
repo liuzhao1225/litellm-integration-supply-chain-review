@@ -1,0 +1,161 @@
+{
+  "repository": "jianchang512/pyvideotrans",
+  "number": 1181,
+  "url": "https://github.com/jianchang512/pyvideotrans/pull/1181",
+  "author": "prodmanpd",
+  "created_at": "2026-08-17T15:49:53Z",
+  "state": "merged",
+  "head_sha": "2531e6bd5e950ca9c9a113c9e93c77776e76810a",
+  "base_sha": "12e30723fc11a2f260c2b4b678102c21021fe44a",
+  "integration": "python-sdk",
+  "constraints": [
+    {
+      "file": "pyproject.toml",
+      "specifier": ">=1.85.0,<2.0"
+    }
+  ],
+  "lock": null,
+  "evidence_file": "prs/jianchang512__pyvideotrans__1181.json",
+  "files": [
+    {
+      "path": "pyproject.toml",
+      "status": "modified",
+      "blob_sha": "8dc134ffc1582aeb41b48b796a57266bcd5d5be5",
+      "patch_sha256": "af36fd87e652287e7228d7dcdb61c86c739cc25f73ea222f177803795a04a35b",
+      "patch_available": true
+    },
+    {
+      "path": "tests/test_translator_split.py",
+      "status": "modified",
+      "blob_sha": "e12dcab6bbdef96dee55b80f447e9438d4b4d006",
+      "patch_sha256": "d7422a6877429b391c92790589ac9df589168fb27b1d6bf8e750a05d36eb5417",
+      "patch_available": true
+    },
+    {
+      "path": "tests/test_ui_en_split.py",
+      "status": "modified",
+      "blob_sha": "6f78b30f243cf92178051e5814ad06e0b932cf73",
+      "patch_sha256": "8ee23c26fe4f057053fef93be57b2d42122470f126c0ffd9f4df19fcf81ed5cd",
+      "patch_available": true
+    },
+    {
+      "path": "videotrans/component/set_form.py",
+      "status": "modified",
+      "blob_sha": "6bf2e2c8cdc1e5b28a7c13e4615020f56e0d660b",
+      "patch_sha256": "54c393adb809183853df8a1ac01900fad617fd44c00cbb2c999e033bc4f40da2",
+      "patch_available": true
+    },
+    {
+      "path": "videotrans/configure/_app_params.py",
+      "status": "modified",
+      "blob_sha": "49710607ec0f8b57477a8a05246a1d84e038939e",
+      "patch_sha256": "4d63bb09c874aea45322087992b4cd6d0910a6debba35d9915b12af32982c748",
+      "patch_available": true
+    },
+    {
+      "path": "videotrans/configure/_app_settings.py",
+      "status": "modified",
+      "blob_sha": "7048dc0da22c3044a3581c9ba670eb55a2b46790",
+      "patch_sha256": "47bb490781765fa47d819d08e07254508b5974b2942460e7709cd7c3d88c6a58",
+      "patch_available": true
+    },
+    {
+      "path": "videotrans/configure/contants.py",
+      "status": "modified",
+      "blob_sha": "9792248340b5c02d60aaa0d2d961567ccf80f568",
+      "patch_sha256": "1799286f8cef3016e037518c6682b35e92cac6641bfac0a96d6778d508781496",
+      "patch_available": true
+    },
+    {
+      "path": "videotrans/mainwin/_bind_signals.py",
+      "status": "modified",
+      "blob_sha": "442ee99f34b9fe84200ca3410e6d386f40ae9743",
+      "patch_sha256": "a62d3e5bd88a4b043c65dfecb0d12acb322c849075f844bb62ec013c1958b61f",
+      "patch_available": true
+    },
+    {
+      "path": "videotrans/prompts/srt/litellm.txt",
+      "status": "added",
+      "blob_sha": "033696f697dc5571e6c0a6f9bc5a065ba920e23d",
+      "patch_sha256": "09dbc2a7ccc936639a97217ed3c825dcb582cce25d528d8e5091be9b196e5129",
+      "patch_available": true
+    },
+    {
+      "path": "videotrans/prompts/text/litellm.txt",
+      "status": "added",
+      "blob_sha": "4cf2d265a9f8f520ea43b1f6818dcf26e7e8c64b",
+      "patch_sha256": "7463b9ace49ab5231bf1cb9134a36cfcc203553cdf26be542d21455ae1cb05ba",
+      "patch_available": true
+    },
+    {
+      "path": "videotrans/translator/__init__.py",
+      "status": "modified",
+      "blob_sha": "e00a2eb4c7411c11f6d1627552801a6683f07bce",
+      "patch_sha256": "8162fc8d4f2a121ea4fe247f8d82e6cc7055b3214891c2283a1edae8ba8ebb27",
+      "patch_available": true
+    },
+    {
+      "path": "videotrans/translator/_constants.py",
+      "status": "modified",
+      "blob_sha": "1f672d347aead4fa5d6a17b4a318dd5788690dc6",
+      "patch_sha256": "7ca572b24939a8eecea30b647582ddbb66cb4230ce9932f48609827c476cb9ec",
+      "patch_available": true
+    },
+    {
+      "path": "videotrans/translator/_litellm.py",
+      "status": "added",
+      "blob_sha": "0a817be6a7a77e45389b3580f1a2b86fec950495",
+      "patch_sha256": "8453ad3954df0dfaba3dad6f21eb8e2686bb3aaeb3eb555684b35f69451d94b7",
+      "patch_available": true
+    },
+    {
+      "path": "videotrans/translator/_openaicompat.py",
+      "status": "modified",
+      "blob_sha": "524a1110105a2440f96b127ef953af87f2450af2",
+      "patch_sha256": "16601cdabfba06ffa5e024403667f7ae2290233c22760f998e164f0b2eea7872",
+      "patch_available": true
+    },
+    {
+      "path": "videotrans/translator/_registry.py",
+      "status": "modified",
+      "blob_sha": "8f45dd4e50a98737ec0fe9526a26a22a477f8b59",
+      "patch_sha256": "78c6488c78df6616967666c6f850cdb83f0f11efc4ea105dcc4245472eb981c1",
+      "patch_available": true
+    },
+    {
+      "path": "videotrans/ui/_setup_menus.py",
+      "status": "modified",
+      "blob_sha": "33bec1380b342d4a0def6d65bf68f0b5309c55bf",
+      "patch_sha256": "69272a8fcea7e23df12273136d7eca0efc2b95026e54e4ec1e32f0c298c3395b",
+      "patch_available": true
+    },
+    {
+      "path": "videotrans/ui/en.py",
+      "status": "modified",
+      "blob_sha": "e9b21556f65cc6c85ea21fd585783bbc78a022a6",
+      "patch_sha256": "a8c8efad3298698c68f6c010e69467e1a922726989ee4193fc202c20c411af40",
+      "patch_available": true
+    },
+    {
+      "path": "videotrans/ui/litellm.py",
+      "status": "added",
+      "blob_sha": "55818d757548c6661b66dd144bfd1823e2f45907",
+      "patch_sha256": "1232967744f8c9dab1ecb13fe3958165ba7b8c834676b995a56afceae9f895f7",
+      "patch_available": true
+    },
+    {
+      "path": "videotrans/winform/__init__.py",
+      "status": "modified",
+      "blob_sha": "5d556dc6c4bae2a5eccd50b35a0a312691e802f6",
+      "patch_sha256": "0e128957e8c6149e66333ba687aa0a11179895f27aee57c7f8ea01f36dabd87b",
+      "patch_available": true
+    },
+    {
+      "path": "videotrans/winform/litellm.py",
+      "status": "added",
+      "blob_sha": "a5db193538e18aaeac3dc7a18346359132971953",
+      "patch_sha256": "93d31eb783a252db6f667437ce447ff8d3a8cb0d92a609f7415b35182420965b",
+      "patch_available": true
+    }
+  ]
+}

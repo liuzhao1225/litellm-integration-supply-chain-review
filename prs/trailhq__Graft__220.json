@@ -1,0 +1,44 @@
+{
+  "repository": "trailhq/Graft",
+  "number": 220,
+  "url": "https://github.com/trailhq/Graft/pull/220",
+  "author": "prodmanpd",
+  "created_at": "2026-08-24T17:43:44Z",
+  "state": "merged",
+  "head_sha": "1788e9175b99560ce3798e7272a28061215d0a76",
+  "base_sha": "ee1ef03538c4e94b1a8552b13984b9fc2992dd29",
+  "integration": "proxy-compatible",
+  "constraints": [],
+  "lock": null,
+  "evidence_file": "prs/trailhq__Graft__220.json",
+  "files": [
+    {
+      "path": "src/ai/llm/factory.ts",
+      "status": "modified",
+      "blob_sha": "1d1a53ff4f75aeaf7d09e8048a08c20d9e758982",
+      "patch_sha256": "5beddb785514126c6f25088d1f0a5249a665cd90f5fe9c90947add73ce76ba6c",
+      "patch_available": true
+    },
+    {
+      "path": "src/ai/llm/litellm.ts",
+      "status": "added",
+      "blob_sha": "3ebb24b8508febaf1b83a542f2a9d814465edebe",
+      "patch_sha256": "f6cbe7ddf0b3f00a59c254dd13ece875e393d12404a2520371989e78a9c597f2",
+      "patch_available": true
+    },
+    {
+      "path": "src/ai/providers.ts",
+      "status": "modified",
+      "blob_sha": "2f7437134209be68ff5d3cfd9354a5ef0596fe9f",
+      "patch_sha256": "fbe231f1c47020bfe33395fc67eeac114206268ece7b5461282ca24e649a0a7c",
+      "patch_available": true
+    },
+    {
+      "path": "test/litellm-adapter.test.ts",
+      "status": "added",
+      "blob_sha": "fa7baa9846460e79076cf1feff0a5230c04420ab",
+      "patch_sha256": "9572ea4326758b30d943f5bced90440a02b5510013358532a92422a0486b0dbd",
+      "patch_available": true
+    }
+  ]
+}

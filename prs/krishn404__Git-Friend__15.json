@@ -1,0 +1,58 @@
+{
+  "repository": "krishn404/Git-Friend",
+  "number": 15,
+  "url": "https://github.com/krishn404/Git-Friend/pull/15",
+  "author": "prodmanpd",
+  "created_at": "2026-08-10T19:53:42Z",
+  "state": "open",
+  "head_sha": "781c5117ee5971ea7954ff97b0e4f6c03ca2ebe4",
+  "base_sha": "0345a4ce5a53ee07012bf5588eb47a91e434afec",
+  "integration": "proxy-compatible",
+  "constraints": [],
+  "lock": null,
+  "evidence_file": "prs/krishn404__Git-Friend__15.json",
+  "files": [
+    {
+      "path": ".env.example",
+      "status": "modified",
+      "blob_sha": "1dae519fd9231f4d51f7ad8515f26e99de5fc08a",
+      "patch_sha256": "65a65ed384954c1cd9aff2d130bc4d447b2855075ac888bbbcd4c3f954a8c4e1",
+      "patch_available": true
+    },
+    {
+      "path": "README.md",
+      "status": "modified",
+      "blob_sha": "a925236bbfd2bbe1918b05f8eae399a013dbefc8",
+      "patch_sha256": "04a16fd61ef44aaf0529cee8a623d9c94139a29fac1bf67e9518d231cb8c066d",
+      "patch_available": true
+    },
+    {
+      "path": "app/api/chat/route.ts",
+      "status": "modified",
+      "blob_sha": "f4fe576d06f5db66a917f15898975020bf1aecf9",
+      "patch_sha256": "1621c4ad3744f46f55fb918c74cf87c44b164176c2251ab6f110ac84dd7139f4",
+      "patch_available": true
+    },
+    {
+      "path": "app/api/generate-readme/route.ts",
+      "status": "modified",
+      "blob_sha": "9b9ec1557d7d05f37a41825922db4b361b73a941",
+      "patch_sha256": "aa14ed07c3fd04d6968d27bfb8c098afdedaba88d712342db4525a04e2ad84c9",
+      "patch_available": true
+    },
+    {
+      "path": "app/api/suggestions/route.tsx",
+      "status": "modified",
+      "blob_sha": "ca5d4d57596e12e3d03f361f655b00f6dd69adea",
+      "patch_sha256": "8925be37bb903e48ff641cf815cd59e0be3c05435f55aaa8432129f6ffba0183",
+      "patch_available": true
+    },
+    {
+      "path": "lib/llm.ts",
+      "status": "added",
+      "blob_sha": "beb83a2e7a6ffb2a8a37203d133a6be5a31b85cf",
+      "patch_sha256": "49ed7c7eced2300f15140deffcf9e4c1409211f27a09944ae3c5c994ad060e24",
+      "patch_available": true
+    }
+  ]
+}

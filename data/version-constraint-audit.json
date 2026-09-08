@@ -1,0 +1,226 @@
+[
+  {
+    "pr": "https://github.com/Awarexone/Agentic-Bug-Hunter/pull/129",
+    "head": "bf3866fc646474035e01a962c510f5034455640a",
+    "hits": [
+      {
+        "file": "requirements.txt",
+        "specifier": ">=1.89.0,<2.0.0"
+      }
+    ]
+  },
+  {
+    "pr": "https://github.com/OpenBMB/UltraRAG/pull/496",
+    "head": "85bc0f597097ddea8f32b41dbd4fe73e899662b9",
+    "hits": [
+      {
+        "file": "pyproject.toml",
+        "specifier": ">=1.60,<2.0"
+      }
+    ]
+  },
+  {
+    "pr": "https://github.com/SWE-bench/SWE-bench/pull/639",
+    "head": "89d3f912cd0762f9b9792f845db26f4144a10ede",
+    "hits": [
+      {
+        "file": "pyproject.toml",
+        "specifier": ">=1.85.0,<2.0"
+      },
+      {
+        "file": "pyproject.toml",
+        "specifier": ">=1.85.0,<2.0"
+      }
+    ]
+  },
+  {
+    "pr": "https://github.com/SenteLabsAI/OpenExecutive/pull/98",
+    "head": "cf6903bb342c32a0772eee4009472ee2339dbdbd",
+    "hits": [
+      {
+        "file": "packages/core/pyproject.toml",
+        "specifier": ">=1.89.0,<2.0.0"
+      }
+    ]
+  },
+  {
+    "pr": "https://github.com/StarTrail-org/LEANN/pull/395",
+    "head": "194482ef54dc86bdecbe9728040a26c801244358",
+    "hits": [
+      {
+        "file": "packages/leann-core/pyproject.toml",
+        "specifier": ">=1.85.0,<2.0"
+      }
+    ]
+  },
+  {
+    "pr": "https://github.com/StarTrail-org/PixelRAG/pull/145",
+    "head": "474161feec53e5a5c5b586aa820ab3f84bcce87e",
+    "hits": [
+      {
+        "file": "eval/pyproject.toml",
+        "specifier": ">=1.89.0,<2.0.0"
+      }
+    ]
+  },
+  {
+    "pr": "https://github.com/TIGER-AI-Lab/ClawBench/pull/288",
+    "head": "a5d00b9d2b0165aae3dee9cd74f60b008f0c9609",
+    "hits": [
+      {
+        "file": "pyproject.toml",
+        "specifier": ">=1.85.0,<2.0"
+      }
+    ]
+  },
+  {
+    "pr": "https://github.com/Tencent/AI-Infra-Guard/pull/598",
+    "head": "9466706f106d472a76b84d0888df204f9d3741ab",
+    "hits": [
+      {
+        "file": "agent-scan/pyproject.toml",
+        "specifier": ">=1.89.0,<2.0.0"
+      },
+      {
+        "file": "agent-scan/requirements.txt",
+        "specifier": ">=1.89.0,<2.0.0"
+      },
+      {
+        "file": "mcp-scan/pyproject.toml",
+        "specifier": ">=1.89.0,<2.0.0"
+      },
+      {
+        "file": "mcp-scan/requirements.txt",
+        "specifier": ">=1.89.0,<2.0.0"
+      },
+      {
+        "file": "skill-scan/pyproject.toml",
+        "specifier": ">=1.89.0,<2.0.0"
+      }
+    ]
+  },
+  {
+    "pr": "https://github.com/TideDra/zotero-arxiv-daily/pull/294",
+    "head": "41c9552c1e50630bbfeb1252ef0439d054889e4e",
+    "hits": [
+      {
+        "file": "pyproject.toml",
+        "specifier": ">=1.89.0,<2"
+      }
+    ]
+  },
+  {
+    "pr": "https://github.com/agentscope-ai/OpenJudge/pull/196",
+    "head": "7ecfc3bee7849d04a3a0c891e9f49ed0b3025de2",
+    "hits": [
+      {
+        "file": "pyproject.toml",
+        "specifier": ">=1.89.0,<2.0.0"
+      }
+    ]
+  },
+  {
+    "pr": "https://github.com/datajuicer/data-juicer/pull/1062",
+    "head": "d72e6263cfc64fdf2bf7d457eff18d9dbec5b3f6",
+    "hits": [
+      {
+        "file": "pyproject.toml",
+        "specifier": ">=1.80.0,<2"
+      }
+    ]
+  },
+  {
+    "pr": "https://github.com/datalab-to/marker/pull/1097",
+    "head": "29a3d4298d1cc8acb5637a8a859ed4ad20ab08e3",
+    "hits": [
+      {
+        "file": "pyproject.toml",
+        "specifier": ">=1.89.0,<2"
+      }
+    ]
+  },
+  {
+    "pr": "https://github.com/jianchang512/pyvideotrans/pull/1181",
+    "head": "2531e6bd5e950ca9c9a113c9e93c77776e76810a",
+    "hits": [
+      {
+        "file": "pyproject.toml",
+        "specifier": ">=1.85.0,<2.0"
+      }
+    ]
+  },
+  {
+    "pr": "https://github.com/jjyaoao/HelloAgents/pull/113",
+    "head": "92d62462b1e68febca781d134005d92b84d239a8",
+    "hits": [
+      {
+        "file": "pyproject.toml",
+        "specifier": ">=1.89.0,<2.0.0"
+      }
+    ]
+  },
+  {
+    "pr": "https://github.com/liuzhao1225/YouDub-webui/pull/130",
+    "head": "1add1b6d90795ddc222c3f5021305a2e8d953a17",
+    "hits": [
+      {
+        "file": "requirements.txt",
+        "specifier": ">=1.89.0,<2.0.0"
+      }
+    ]
+  },
+  {
+    "pr": "https://github.com/microsoft/TinyTroupe/pull/160",
+    "head": "e6cc3e0507fc48baf138cf4073de934ca12bf633",
+    "hits": [
+      {
+        "file": "pyproject.toml",
+        "specifier": ">=1.83.0,<2.0"
+      }
+    ]
+  },
+  {
+    "pr": "https://github.com/mnemox-ai/tradememory-protocol/pull/10",
+    "head": "caacbaca9bc78c88e8120562da82aaaf546c6340",
+    "hits": [
+      {
+        "file": "pyproject.toml",
+        "specifier": ">=1.87,<2.0"
+      }
+    ]
+  },
+  {
+    "pr": "https://github.com/polyrabbit/hacker-news-digest/pull/47",
+    "head": "904e3be46a8df1dac5c75e1f614afa13bf619342",
+    "hits": [
+      {
+        "file": "requirements.txt",
+        "specifier": ">=1.83.0,<2.0"
+      }
+    ]
+  },
+  {
+    "pr": "https://github.com/trace-cortex/cortex-app/pull/9",
+    "head": "c3bc8c4e7a0f78957934c4599e862737a94d543f",
+    "hits": [
+      {
+        "file": "backend/requirements.txt",
+        "specifier": ">=1.89.0,<2.0.0"
+      },
+      {
+        "file": "requirements.txt",
+        "specifier": ">=1.89.0,<2.0.0"
+      }
+    ]
+  },
+  {
+    "pr": "https://github.com/zhayujie/CowAgent/pull/3075",
+    "head": "8cfb66a4cf3b99dbb9f320b4bdd75621603a19ed",
+    "hits": [
+      {
+        "file": "requirements.txt",
+        "specifier": ">=1.89,<2.0"
+      }
+    ]
+  }
+]

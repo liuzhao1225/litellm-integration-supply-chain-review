@@ -1,0 +1,12 @@
+{
+  "version": "1.100.0",
+  "artifact": "litellm-1.100.0-cp310-abi3-manylinux_2_28_x86_64.whl",
+  "pypi_sha256": "8224c8eed9cab3319a88e6665d1275ad8faf21d353b1b22223a6d6115a302ea2",
+  "upload_time": "2026-09-06T00:22:31.913161Z",
+  "upstream_commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+  "pth_files": [],
+  "known_ioc_hits": [],
+  "python_file_count": 2280,
+  "python_files_differing_from_upstream": [],
+  "limitations": "Static sample only. Native binaries and transitive dependencies were not fully audited."
+}

@@ -1,0 +1,37 @@
+{
+  "repository": "Atmosphere/atmosphere",
+  "number": 2735,
+  "url": "https://github.com/Atmosphere/atmosphere/pull/2735",
+  "author": "prodmanpd",
+  "created_at": "2026-08-03T11:36:38Z",
+  "state": "merged",
+  "head_sha": "6c8d08c6c378c3a964af2177f1af9336954b6c5f",
+  "base_sha": "c0472dcb56101e1feddd05866025c5fa14bd73c1",
+  "integration": "proxy-compatible",
+  "constraints": [],
+  "lock": null,
+  "evidence_file": "prs/Atmosphere__atmosphere__2735.json",
+  "files": [
+    {
+      "path": "modules/ai/README.md",
+      "status": "modified",
+      "blob_sha": "9582f5cd173b4a4de1c2a48599a88552bb5b19a0",
+      "patch_sha256": "3de1dc00c831d5b86e8ce585a50e748c6c9c9f9c7c5a8e761ce5acad38741bf1",
+      "patch_available": true
+    },
+    {
+      "path": "modules/ai/src/main/java/org/atmosphere/ai/llm/OpenAiCompatibleClient.java",
+      "status": "modified",
+      "blob_sha": "47b4b83cfe65bdc94cf25412b27dc4c6c848157a",
+      "patch_sha256": "0a16dff31b8e4e365b68c36e99360bd23d3424573a70557fd9584fe61a6e7221",
+      "patch_available": true
+    },
+    {
+      "path": "modules/ai/src/test/java/org/atmosphere/ai/llm/OpenAiCompatibleClientTest.java",
+      "status": "modified",
+      "blob_sha": "51abd2fbe7e0e436bc473aef54de9a5875ad5474",
+      "patch_sha256": "0411eb6ec31aa64caa7a4d2c71cc79dfee85917f6501dac822fe3165e3896067",
+      "patch_available": true
+    }
+  ]
+}

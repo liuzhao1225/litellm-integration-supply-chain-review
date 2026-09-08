@@ -1,0 +1,79 @@
+{
+  "repository": "buxuku/SmartSub",
+  "number": 448,
+  "url": "https://github.com/buxuku/SmartSub/pull/448",
+  "author": "prodmanpd",
+  "created_at": "2026-08-17T14:40:59Z",
+  "state": "open",
+  "head_sha": "e18426a0d8f790adc47dbbdc60b811c43343d98d",
+  "base_sha": "27459b3fd0652bc5447ccf4ab30cb398014c35f7",
+  "integration": "proxy-compatible",
+  "constraints": [],
+  "lock": null,
+  "evidence_file": "prs/buxuku__SmartSub__448.json",
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "status": "modified",
+      "blob_sha": "e4053cd611b06d35d7af76157b557d01da0d64de",
+      "patch_sha256": "2d18054f1c97d130a083b4b09a5ff42bb57debb6a93e9d8ebe2a1f7d3d33acf2",
+      "patch_available": true
+    },
+    {
+      "path": "main/helpers/providerManager.ts",
+      "status": "modified",
+      "blob_sha": "1e21d9e7151f2df0534ee590f27f8388fbfa4b97",
+      "patch_sha256": "c1615cdb329c10954f4a7add5fb64e3f33bd5fd3a6b5b755ace0fc7a5ce1f87f",
+      "patch_available": true
+    },
+    {
+      "path": "main/service/thinkingControl.ts",
+      "status": "modified",
+      "blob_sha": "1214716fa3dde38683840abc2f57f5118783647a",
+      "patch_sha256": "bb6d6fb8bc2e2219c037552d78aa3b3080215fcec28d2758275ac3f163b2aaa2",
+      "patch_available": true
+    },
+    {
+      "path": "main/translate/services/translationProvider.ts",
+      "status": "modified",
+      "blob_sha": "7e0d7240c2d8675c8bafe5c6c5c2b143acf86b5f",
+      "patch_sha256": "327f5060cfec86db93d39a4067e195354ffc8a89c5974bc1d960668d4d3cb958",
+      "patch_available": true
+    },
+    {
+      "path": "package.json",
+      "status": "modified",
+      "blob_sha": "af1e067e1465cae3d204f2113ba988ec06f3336e",
+      "patch_sha256": "19534df12ee217455897346ccd5a8f539f2b3b781d2f54513996eea6469f6863",
+      "patch_available": true
+    },
+    {
+      "path": "renderer/public/locales/en/translateControl.json",
+      "status": "modified",
+      "blob_sha": "b2eb4948eb43744423a825c9af6d3b51297e60f0",
+      "patch_sha256": "deea22fd57abb99a2ba04f911d2f50832ed23b6b98c74e2262e0c0f81843ac99",
+      "patch_available": true
+    },
+    {
+      "path": "renderer/public/locales/zh/translateControl.json",
+      "status": "modified",
+      "blob_sha": "81733884c6f2e1a9a4679241fb3b925121e0364d",
+      "patch_sha256": "eab27a7eefccc58d9bcdfac643193bfbfed8d6cb9fb0f95e941763d52a28d832",
+      "patch_available": true
+    },
+    {
+      "path": "scripts/test-litellm-provider.ts",
+      "status": "added",
+      "blob_sha": "9fd76a69dbb6e14cf69b040188211a2c84e04ac1",
+      "patch_sha256": "c321bd75e007803d8a50ff1d7b067959d097179435fd9047ee5936d3d25c4e0c",
+      "patch_available": true
+    },
+    {
+      "path": "types/provider.ts",
+      "status": "modified",
+      "blob_sha": "15e0ae599d08c90ab669a667200f26eb74056fbf",
+      "patch_sha256": "c6d932aafb4d3d5b9318b1dffa652d77ef24f5cbc06c2186369b5e5565a8c12d",
+      "patch_available": true
+    }
+  ]
+}

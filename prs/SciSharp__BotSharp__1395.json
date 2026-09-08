@@ -1,0 +1,107 @@
+{
+  "repository": "SciSharp/BotSharp",
+  "number": 1395,
+  "url": "https://github.com/SciSharp/BotSharp/pull/1395",
+  "author": "prodmanpd",
+  "created_at": "2026-08-10T17:41:57Z",
+  "state": "merged",
+  "head_sha": "2e7dbe7cf8c8daef07a277d4a5566bf349b2a6c2",
+  "base_sha": "e2f09cea0fa7818c1bddb13edfa08bc4b81f1cc8",
+  "integration": "proxy-compatible",
+  "constraints": [],
+  "lock": null,
+  "evidence_file": "prs/SciSharp__BotSharp__1395.json",
+  "files": [
+    {
+      "path": "BotSharp.sln",
+      "status": "modified",
+      "blob_sha": "ac88b815a1651072edf5ede7aa880df84637d750",
+      "patch_sha256": "3489632a559f6d23575ce993f9b9486c471746ac362efaa795e7eef0ad2444e2",
+      "patch_available": true
+    },
+    {
+      "path": "src/Plugins/BotSharp.Plugin.LiteLLM/BotSharp.Plugin.LiteLLM.csproj",
+      "status": "added",
+      "blob_sha": "3f9a26ce0a4205f3b27d719626a9684b3ef55036",
+      "patch_sha256": "4f801bc913a3f41169eb165658a37de180db69f02ce7bd2dc9f8c679b0eab9a2",
+      "patch_available": true
+    },
+    {
+      "path": "src/Plugins/BotSharp.Plugin.LiteLLM/LiteLLMPlugin.cs",
+      "status": "added",
+      "blob_sha": "cf3d37c8df27c857606930d9ed2c9d6cccd9e6ae",
+      "patch_sha256": "0d8034d91ba1ca8f660fde8bb126736e598494fa49aef707eae4597dc713a7ea",
+      "patch_available": true
+    },
+    {
+      "path": "src/Plugins/BotSharp.Plugin.LiteLLM/Providers/Chat/ChatCompletionProvider.cs",
+      "status": "added",
+      "blob_sha": "0592db8db9eab75704da0741d0935286f1e2d9a0",
+      "patch_sha256": "bc6a047b7461953e0abdee663445c00efadf5e7167c1066a9d842223e31fbb01",
+      "patch_available": true
+    },
+    {
+      "path": "src/Plugins/BotSharp.Plugin.LiteLLM/Providers/ProviderHelper.cs",
+      "status": "added",
+      "blob_sha": "6a1cef5f8b98583a8bc8e5fe7e7a3f6878c5145f",
+      "patch_sha256": "042c4a673b1d45075da2d9d1cfc30e48ac49533c084929221b5be087b804c979",
+      "patch_available": true
+    },
+    {
+      "path": "src/Plugins/BotSharp.Plugin.LiteLLM/Providers/Text/TextCompletionProvider.cs",
+      "status": "added",
+      "blob_sha": "50ae2321a067c93f6bf481b076a13d630d65a479",
+      "patch_sha256": "71e53f2343b8fc87b1531ed1bba0ac4c4b12176c7625250ca7c75ff1d9a502be",
+      "patch_available": true
+    },
+    {
+      "path": "src/Plugins/BotSharp.Plugin.LiteLLM/Using.cs",
+      "status": "added",
+      "blob_sha": "751f1aec8d246dd7dad85b96c173b74025e46fca",
+      "patch_sha256": "58c22eaf7a51c4eb60b2a7c1b211fa620ca0951a865571a4dffd5233abea8ba4",
+      "patch_available": true
+    },
+    {
+      "path": "src/WebStarter/WebStarter.csproj",
+      "status": "modified",
+      "blob_sha": "7af0d2ce5e2c5e3be6bb5effee02b0eb2466f34d",
+      "patch_sha256": "6a5859c285e1bedb2c4c99ed2cfa6e72a465a47673ed1e69a8c60586e8fb3bfa",
+      "patch_available": true
+    },
+    {
+      "path": "src/WebStarter/appsettings.json",
+      "status": "modified",
+      "blob_sha": "59c4186abc08a4a0a4a72046a19b4ba631633d6f",
+      "patch_sha256": "5e490e9839a89bede5ebddab31158ae718b3c01df2150cca25584a73c28fce7d",
+      "patch_available": true
+    },
+    {
+      "path": "tests/BotSharp.LLM.Tests/BotSharp.LLM.Tests.csproj",
+      "status": "modified",
+      "blob_sha": "d0181fadd8b1971cb19c945acafa260ea565eb4e",
+      "patch_sha256": "4c399d5e743300072e3af2a328afc38168ab2c38db3818f26b893ab89c933d2f",
+      "patch_available": true
+    },
+    {
+      "path": "tests/BotSharp.LLM.Tests/ChatCompletionTests.cs",
+      "status": "modified",
+      "blob_sha": "f96ed145345ef1fa97e151d52ef973d8f3836b90",
+      "patch_sha256": "c806cbfc879fdf6473d406b04e3bdaaf0bdb316368e517958606d1049814378c",
+      "patch_available": true
+    },
+    {
+      "path": "tests/BotSharp.LLM.Tests/Core/LLMProvider.cs",
+      "status": "modified",
+      "blob_sha": "b710147944dc31b83c622fee272a21f9d6965878",
+      "patch_sha256": "0c806ded293ab9f79339a9571227ae6ba65a2206c84a82f00b52c3dc02521c5c",
+      "patch_available": true
+    },
+    {
+      "path": "tests/BotSharp.LLM.Tests/Core/NullConversationService.cs",
+      "status": "added",
+      "blob_sha": "7ec9cd2f363f0cb8df1d8a7f89d552d3d94738ff",
+      "patch_sha256": "7e1511e88a843caefa27cf764c8a3833d9f9c542c7f142ecad91ed165c55a162",
+      "patch_available": true
+    }
+  ]
+}

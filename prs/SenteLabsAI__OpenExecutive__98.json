@@ -1,0 +1,70 @@
+{
+  "repository": "SenteLabsAI/OpenExecutive",
+  "number": 98,
+  "url": "https://github.com/SenteLabsAI/OpenExecutive/pull/98",
+  "author": "prodmanpd",
+  "created_at": "2026-09-08T18:35:01Z",
+  "state": "open",
+  "head_sha": "cf6903bb342c32a0772eee4009472ee2339dbdbd",
+  "base_sha": "69c0ae33eaeab05575a11eda7829bf7cc9ae3d08",
+  "integration": "python-sdk",
+  "constraints": [
+    {
+      "file": "packages/core/pyproject.toml",
+      "specifier": ">=1.89.0,<2.0.0"
+    }
+  ],
+  "lock": null,
+  "evidence_file": "prs/SenteLabsAI__OpenExecutive__98.json",
+  "files": [
+    {
+      "path": ".env.example",
+      "status": "modified",
+      "blob_sha": "3532cc6a86de754dfcac191a8ce269dd5e35ee3f",
+      "patch_sha256": "9377d3e01a3fc7ade0abe57838ad6943abafda29a4f5bd17c808c734ead1048c",
+      "patch_available": true
+    },
+    {
+      "path": "packages/core/openexecutive/config.py",
+      "status": "modified",
+      "blob_sha": "c8103dd98ad5ec1fae9ccca70f87e1b9c16d28b5",
+      "patch_sha256": "2af80309ceb751f49c1fff0d5247f7e43d175f79d89b43bcd990afc4109fe200",
+      "patch_available": true
+    },
+    {
+      "path": "packages/core/openexecutive/providers/litellm_provider.py",
+      "status": "added",
+      "blob_sha": "eb425a8162780ab91027c1f1bbfc432760616230",
+      "patch_sha256": "b56a2a5818eb9e7840e74994bf859c0afae97e4a050478058b7370d0a0f32f70",
+      "patch_available": true
+    },
+    {
+      "path": "packages/core/openexecutive/providers/registry.py",
+      "status": "modified",
+      "blob_sha": "0f9f4f842dfd9798bb13e5ecf7a69482a67c8679",
+      "patch_sha256": "1f5d39f11f5de1b3c4152313761ef2ad2c8dca704d3c859874891f12db6712e3",
+      "patch_available": true
+    },
+    {
+      "path": "packages/core/pyproject.toml",
+      "status": "modified",
+      "blob_sha": "ff9347c4197394a8ab4ff57a03cbc125648fb14f",
+      "patch_sha256": "57f49fc1c4bb9784ef7c2794488f23a1bd7b1c021ef86e82b554a2b17e18acc2",
+      "patch_available": true
+    },
+    {
+      "path": "packages/core/tests/unit/test_config_litellm.py",
+      "status": "added",
+      "blob_sha": "2ed4c4dc012e95457fa645cd5bed3c62eced54fd",
+      "patch_sha256": "58a5bbdaa4add9226f3a0365aa9c1921806539dc2e5e6d19e286801dfdc291db",
+      "patch_available": true
+    },
+    {
+      "path": "packages/core/tests/unit/test_litellm_provider.py",
+      "status": "added",
+      "blob_sha": "d62ea4fd02bce0520599a9575ab4e2eb86355dc8",
+      "patch_sha256": "9f806150bdd7c999fb3a942549c47352ce545d523dc961ca876c2dcf794120a9",
+      "patch_available": true
+    }
+  ]
+}

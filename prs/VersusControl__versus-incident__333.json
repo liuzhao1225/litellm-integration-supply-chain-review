@@ -1,0 +1,72 @@
+{
+  "repository": "VersusControl/versus-incident",
+  "number": 333,
+  "url": "https://github.com/VersusControl/versus-incident/pull/333",
+  "author": "prodmanpd",
+  "created_at": "2026-08-10T19:39:56Z",
+  "state": "open",
+  "head_sha": "2c33b7d7e0bcc2b50f02522931dc6c7b1aa0de14",
+  "base_sha": "eeb1e57dd7c80f563c9e3b70668be98bd4a0c8f4",
+  "integration": "proxy-compatible",
+  "constraints": [],
+  "lock": null,
+  "evidence_file": "prs/VersusControl__versus-incident__333.json",
+  "files": [
+    {
+      "path": "config/config.yaml",
+      "status": "modified",
+      "blob_sha": "ebe15c315e159b735ac1fcc4a23ef33d779991e1",
+      "patch_sha256": "61eb4f06770442d8c46e2855793046ed9229b8d6c8c7e564ed5ed8b08c2800de",
+      "patch_available": true
+    },
+    {
+      "path": "pkg/agent/ai/eino/holder.go",
+      "status": "modified",
+      "blob_sha": "5c58a69a68dca7462a92e76502a67e70b5422d4c",
+      "patch_sha256": "3dc1a6af78bc4ee550e79361b25fdc0a57503850a3dd1d59c23ea3ce32e42d67",
+      "patch_available": true
+    },
+    {
+      "path": "pkg/agent/ai/eino/provider.go",
+      "status": "modified",
+      "blob_sha": "76adf7cb39775e60acf8c039a95a06f507508d37",
+      "patch_sha256": "2d5962f4c50f7793ae6762fee60cc32a5d810187968c4fd556e0a86bfc3cc663",
+      "patch_available": true
+    },
+    {
+      "path": "pkg/agent/ai/eino/provider_test.go",
+      "status": "modified",
+      "blob_sha": "69745017e850018b815c8fd54ac88faed73aed35",
+      "patch_sha256": "9f1d61b5859b772b3f669d7393c78f616e2157af33e4b2b34febaabe872e3272",
+      "patch_available": true
+    },
+    {
+      "path": "pkg/agent/aisettings.go",
+      "status": "modified",
+      "blob_sha": "c7a78dd546cd9cf6a03e4ee2f2d7cedd26b03345",
+      "patch_sha256": "149b95075f2c9efd6c3437844d4c4609490469769833e2c1d6fc8b5f288e61e5",
+      "patch_available": true
+    },
+    {
+      "path": "pkg/config/agent.go",
+      "status": "modified",
+      "blob_sha": "25444f050b63fe5e43e0902a90a05ba03f0d8271",
+      "patch_sha256": "babc2bcf2840256d218a71ec2ffecbdf453b4e144799625609755e75667ce338",
+      "patch_available": true
+    },
+    {
+      "path": "pkg/config/default_config.yaml",
+      "status": "modified",
+      "blob_sha": "e45e4614ba59a413cf7a24867e2debde9349e509",
+      "patch_sha256": "6632cdc3af2b1c4abe4b8f3a2baa3d1b58d49110c1e4e5ecb403ab425cbf9964",
+      "patch_available": true
+    },
+    {
+      "path": "src/agent/configuration.md",
+      "status": "modified",
+      "blob_sha": "63d9df4aaf50cc5e162cf47f63f947298b270fe9",
+      "patch_sha256": "d8da336dcec22c7869453ad3d38add86cde02692bcdd93cda6205c0ffe6bab01",
+      "patch_available": true
+    }
+  ]
+}

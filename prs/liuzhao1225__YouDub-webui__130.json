@@ -1,0 +1,77 @@
+{
+  "repository": "liuzhao1225/YouDub-webui",
+  "number": 130,
+  "url": "https://github.com/liuzhao1225/YouDub-webui/pull/130",
+  "author": "prodmanpd",
+  "created_at": "2026-09-08T18:46:05Z",
+  "state": "open",
+  "head_sha": "1add1b6d90795ddc222c3f5021305a2e8d953a17",
+  "base_sha": "f094766ebc786cea99bda10051d8967e94570670",
+  "integration": "python-sdk",
+  "constraints": [
+    {
+      "file": "requirements.txt",
+      "specifier": ">=1.89.0,<2.0.0"
+    }
+  ],
+  "lock": null,
+  "evidence_file": "prs/liuzhao1225__YouDub-webui__130.json",
+  "files": [
+    {
+      "path": "backend/app/adapters/litellm_translate.py",
+      "status": "added",
+      "blob_sha": "5b4099315c5f17c41aa0c62f6491ed319c843e15",
+      "patch_sha256": "12577f2bf70c65a98c83c74ab240409e7afff85c4e03be2d0aa5b3c2c9776abc",
+      "patch_available": true
+    },
+    {
+      "path": "backend/app/adapters/openai_translate.py",
+      "status": "modified",
+      "blob_sha": "3c2d3209c358726c4a27cc199e7f72d71f87b3d8",
+      "patch_sha256": "5f8d323936b3e50a2fe8b2d27a881192390e1b857467a65bad139ef074c986c8",
+      "patch_available": true
+    },
+    {
+      "path": "backend/app/config.py",
+      "status": "modified",
+      "blob_sha": "c1b801bd11746ab5b2b74083cfe239f119f41304",
+      "patch_sha256": "932c12d62e01010a7f492f31f73d796491f4621db2aa391e29338a0963458497",
+      "patch_available": true
+    },
+    {
+      "path": "backend/app/database.py",
+      "status": "modified",
+      "blob_sha": "695ef3ed827ecd5a55b4d9d76123c432b9b92fca",
+      "patch_sha256": "981e270179ef34b5ba071a385d04cc1b11106236bd91b1237689097120439b4a",
+      "patch_available": true
+    },
+    {
+      "path": "backend/app/main.py",
+      "status": "modified",
+      "blob_sha": "5f53bbe832aac0c116790eec9b01d9745448b943",
+      "patch_sha256": "1ed910848d2b8b6b171b4923d436c353aaaadb80229106a3ecdca75fcb150189",
+      "patch_available": true
+    },
+    {
+      "path": "backend/app/pipeline.py",
+      "status": "modified",
+      "blob_sha": "baa6d2f275e77ca5e1b687b1f6aad587ad0b3be3",
+      "patch_sha256": "2ba48de9f580de298c4fa4601e869470c96389846228b497bac0ff30d554232d",
+      "patch_available": true
+    },
+    {
+      "path": "backend/tests/test_litellm_translate.py",
+      "status": "added",
+      "blob_sha": "1d8cd938cf68c776dfa8990f423f364bd66bca9d",
+      "patch_sha256": "63a6644b59bde6f49368c2f40bf60ddf6096277a16dc7570dee09b8eab5548af",
+      "patch_available": true
+    },
+    {
+      "path": "requirements.txt",
+      "status": "modified",
+      "blob_sha": "a5d5e072c01b95de6bd5f19c3f9f65b1b2ecfa4b",
+      "patch_sha256": "b05212c57f914d0a4a9480e735dfd9273f931c28326e1f1fc29942d3806f30d0",
+      "patch_available": true
+    }
+  ]
+}

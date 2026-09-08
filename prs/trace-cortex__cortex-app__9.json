@@ -1,0 +1,74 @@
+{
+  "repository": "trace-cortex/cortex-app",
+  "number": 9,
+  "url": "https://github.com/trace-cortex/cortex-app/pull/9",
+  "author": "prodmanpd",
+  "created_at": "2026-08-24T17:56:07Z",
+  "state": "open",
+  "head_sha": "c3bc8c4e7a0f78957934c4599e862737a94d543f",
+  "base_sha": "d084a3c038de37864ff48abaed8c829e6eab12cc",
+  "integration": "python-sdk",
+  "constraints": [
+    {
+      "file": "backend/requirements.txt",
+      "specifier": ">=1.89.0,<2.0.0"
+    },
+    {
+      "file": "requirements.txt",
+      "specifier": ">=1.89.0,<2.0.0"
+    }
+  ],
+  "lock": null,
+  "evidence_file": "prs/trace-cortex__cortex-app__9.json",
+  "files": [
+    {
+      "path": "backend/app/condense.py",
+      "status": "modified",
+      "blob_sha": "108c224e7e8e89ad327701919bbc070aa2814379",
+      "patch_sha256": "ab8d33bd995a758265f9edcd8f0b1534acf062c2895a2138a9af3c76de10b87b",
+      "patch_available": true
+    },
+    {
+      "path": "backend/app/embeddings.py",
+      "status": "modified",
+      "blob_sha": "c69dd854ace6f48c4d0b58af6ae2c5c9b02657ed",
+      "patch_sha256": "dc365ceb3ae2d5f6b8b2c4e5804da0729f4ee81b7d90366980195bdbff282f1c",
+      "patch_available": true
+    },
+    {
+      "path": "backend/app/extractor.py",
+      "status": "modified",
+      "blob_sha": "81937db3bad2bde3641aaba7473f61257e860f7d",
+      "patch_sha256": "f081c738a5c27e87b9be6243ead817a46271bb8eced76eca14bef4b1b969e618",
+      "patch_available": true
+    },
+    {
+      "path": "backend/requirements.txt",
+      "status": "modified",
+      "blob_sha": "76a717b7aa66ff84483e3675084f88b6a047aa00",
+      "patch_sha256": "ca563841f57136f6b66bafce7e6d253f341fe3b0d472f0ab3d1c5f7e01fb2a42",
+      "patch_available": true
+    },
+    {
+      "path": "ingest.py",
+      "status": "modified",
+      "blob_sha": "a018c48538328185fb5c0ec3c057f8610d75e668",
+      "patch_sha256": "a041b04fd9cc6973e5c9df9a7c7595fce14088bbabf35389945746b23a5fbbbc",
+      "patch_available": true
+    },
+    {
+      "path": "requirements.txt",
+      "status": "modified",
+      "blob_sha": "9bdbe67b3f853855fd3ee14e05b7d695f6ecb9c4",
+      "patch_sha256": "91e1705695809b1f2d0308952fb931cdd842944d019b7a527164e08e9f847aae",
+      "patch_available": true
+    },
+    {
+      "path": "ui.py",
+      "status": "modified",
+      "blob_sha": "bbcc06177a27b2489d17bc065cacb2e4247ae889",
+      "patch_sha256": "974622388541b321a13af69714af0c90498d541ab93fa96c068f462139d7878c",
+      "patch_available": true
+    }
+  ]
+}

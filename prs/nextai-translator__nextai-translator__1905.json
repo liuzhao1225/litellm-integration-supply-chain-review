@@ -1,0 +1,65 @@
+{
+  "repository": "nextai-translator/nextai-translator",
+  "number": 1905,
+  "url": "https://github.com/nextai-translator/nextai-translator/pull/1905",
+  "author": "prodmanpd",
+  "created_at": "2026-08-11T05:45:55Z",
+  "state": "merged",
+  "head_sha": "e31b8202fed2c7eae90abc831d51c04ceaa8c5f9",
+  "base_sha": "19e1c7f599b79705d6c71b17f774bf16dccc3e26",
+  "integration": "proxy-compatible",
+  "constraints": [],
+  "lock": null,
+  "evidence_file": "prs/nextai-translator__nextai-translator__1905.json",
+  "files": [
+    {
+      "path": "src/common/components/Settings.tsx",
+      "status": "modified",
+      "blob_sha": "5ac263a0aa3970d9a28f6226ce3b265b9fbde1b3",
+      "patch_sha256": "52c6d919b77a5c7373ceac1ce8b8151241a24bb151bd508e1f4bb25da7136056",
+      "patch_available": true
+    },
+    {
+      "path": "src/common/components/icons/LiteLLMIcon.tsx",
+      "status": "added",
+      "blob_sha": "364e0613422261b4da4ac75f56075a5f90e8ad73",
+      "patch_sha256": "3bb3b1206e7803d19de456652eefd922a857e50431ecc4117226a77a62dbfc41",
+      "patch_available": true
+    },
+    {
+      "path": "src/common/engines/index.ts",
+      "status": "modified",
+      "blob_sha": "87b31b629f34e093839a63b05169a213788cbf7a",
+      "patch_sha256": "46a59d77833016706a6d1c0cd94f504b6d74e7527f6d8d1bc662940d5b142156",
+      "patch_available": true
+    },
+    {
+      "path": "src/common/engines/litellm.spec.ts",
+      "status": "added",
+      "blob_sha": "dc4e94dad086ebc5e5a7e93f6ea2fa8099a27dff",
+      "patch_sha256": "4cdaf75206229c5f597eb749a56930202878dea6560e632b023c8ad0dccfeb9c",
+      "patch_available": true
+    },
+    {
+      "path": "src/common/engines/litellm.ts",
+      "status": "added",
+      "blob_sha": "34cc7af8816725c95f2c8cbd4a7a315c4d792806",
+      "patch_sha256": "2aa9360fccbde21b59a37eb91d3028bd23d0ced21e616eaf20ebd124d8e1a47e",
+      "patch_available": true
+    },
+    {
+      "path": "src/common/types.ts",
+      "status": "modified",
+      "blob_sha": "b631e35a8b90ff5bdfa35414e3379cffe583b2c4",
+      "patch_sha256": "6667d2a9f708cb41154a25c5376380e98bac40fe0e95b644b0c0a61747583c9f",
+      "patch_available": true
+    },
+    {
+      "path": "src/common/utils.ts",
+      "status": "modified",
+      "blob_sha": "d883de4947f996c3ec9660407733251e05e9a57d",
+      "patch_sha256": "35c8345bf941326b9bb636decfa783c1d3ffa56d202f2a169e017f6045f8ad56",
+      "patch_available": true
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "repository": "SWE-bench/SWE-bench",
+  "number": 639,
+  "url": "https://github.com/SWE-bench/SWE-bench/pull/639",
+  "author": "prodmanpd",
+  "created_at": "2026-08-17T14:32:55Z",
+  "state": "merged",
+  "head_sha": "89d3f912cd0762f9b9792f845db26f4144a10ede",
+  "base_sha": "18dd4dc84b12cd04119d4bde423048f984b2a344",
+  "integration": "python-sdk",
+  "constraints": [
+    {
+      "file": "pyproject.toml",
+      "specifier": ">=1.85.0,<2.0"
+    },
+    {
+      "file": "pyproject.toml",
+      "specifier": ">=1.85.0,<2.0"
+    }
+  ],
+  "lock": {
+    "pr": "https://github.com/SWE-bench/SWE-bench/pull/639",
+    "version": "1.98.0",
+    "artifacts": 8,
+    "mismatches": [],
+    "source": {
+      "registry": "https://pypi.org/simple"
+    }
+  },
+  "evidence_file": "prs/SWE-bench__SWE-bench__639.json",
+  "files": [
+    {
+      "path": "pyproject.toml",
+      "status": "modified",
+      "blob_sha": "89b32ca6fd3f23517d142f0be6a334a91855560e",
+      "patch_sha256": "fc5d2215cb4976ea8784f4cba01cc718467a96e043770c6070163c90c7c06f45",
+      "patch_available": true
+    },
+    {
+      "path": "swebench/inference/run_api.py",
+      "status": "modified",
+      "blob_sha": "d65afe25d0c0f3434dfe3c055c2b0d81153e71c7",
+      "patch_sha256": "61d14138207d96041e22f92593945aced0346fcb921369a07ff0e60c65f734ba",
+      "patch_available": true
+    },
+    {
+      "path": "tests/test_inference_litellm.py",
+      "status": "added",
+      "blob_sha": "46501330883114396584782e60a8dc91dc82f5e1",
+      "patch_sha256": "2b0d72c4ad2bd35db7749c68e5e95877785da4e211e6b64a46ca4473a7b1a62c",
+      "patch_available": true
+    },
+    {
+      "path": "uv.lock",
+      "status": "modified",
+      "blob_sha": "36d98cbe151ef797d38450adebb9c8f8eedfeb4f",
+      "patch_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "patch_available": false
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "repository": "Awarexone/Agentic-Bug-Hunter",
+  "number": 129,
+  "url": "https://github.com/Awarexone/Agentic-Bug-Hunter/pull/129",
+  "author": "prodmanpd",
+  "created_at": "2026-09-08T18:03:34Z",
+  "state": "open",
+  "head_sha": "bf3866fc646474035e01a962c510f5034455640a",
+  "base_sha": "114c90c731a0dac8b59dcef7d3f03a466e5d7179",
+  "integration": "python-sdk",
+  "constraints": [
+    {
+      "file": "requirements.txt",
+      "specifier": ">=1.89.0,<2.0.0"
+    }
+  ],
+  "lock": null,
+  "evidence_file": "prs/Awarexone__Agentic-Bug-Hunter__129.json",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "status": "modified",
+      "blob_sha": "8be07e2c338fc7adbf568f24075907b7afc64cce",
+      "patch_sha256": "3c138474715b992b229dfedd4883d799081ff8b34d53e2f1e6b99650429d7436",
+      "patch_available": true
+    },
+    {
+      "path": "README.md",
+      "status": "modified",
+      "blob_sha": "8d64817d6f60f278de8f58434ee3edea0225bcb9",
+      "patch_sha256": "c12955be77315613e1c5190ef5c02b88b0c78a8ca214dfe5746ac634b2ca99aa",
+      "patch_available": true
+    },
+    {
+      "path": "brain.py",
+      "status": "modified",
+      "blob_sha": "19de5a7f162fee4b1191d0137e59f0d553458da2",
+      "patch_sha256": "e5521cdb34d8960035a24693407786ec9c355b2e0690fb0ec3649d5b5b31dc60",
+      "patch_available": true
+    },
+    {
+      "path": "engine.py",
+      "status": "modified",
+      "blob_sha": "bdbdd520d990f0774647d61ef37db43a84403fad",
+      "patch_sha256": "ffcc7a8419b7a5aff95197d580b405b0459db31bff6d47468f8d1791bbb3d73f",
+      "patch_available": true
+    },
+    {
+      "path": "requirements.txt",
+      "status": "modified",
+      "blob_sha": "87a0cc85f228fcb259008164de5450a8563b1ace",
+      "patch_sha256": "2521dd6ce6695c1e13602d72dc815652cac38a9a81baed345af5a72ac9d9e2f4",
+      "patch_available": true
+    },
+    {
+      "path": "tests/test_brain_litellm.py",
+      "status": "added",
+      "blob_sha": "4e167b2ebf29daa59fc24304b05b52bdd2b9144c",
+      "patch_sha256": "2ab4264833a6e7c426001297d499a81237db505e24086840a21ed9b31a67d60f",
+      "patch_available": true
+    }
+  ]
+}

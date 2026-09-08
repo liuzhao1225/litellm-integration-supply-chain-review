@@ -1,0 +1,58 @@
+{
+  "repository": "itsOwen/CyberScraper-2077",
+  "number": 50,
+  "url": "https://github.com/itsOwen/CyberScraper-2077/pull/50",
+  "author": "prodmanpd",
+  "created_at": "2026-08-02T19:34:13Z",
+  "state": "merged",
+  "head_sha": "9253c0142dc14afd27975e92b680d336b3b2a452",
+  "base_sha": "ad9447b7a82950b496cbf7e943057c70a2a83877",
+  "integration": "proxy-compatible",
+  "constraints": [],
+  "lock": null,
+  "evidence_file": "prs/itsOwen__CyberScraper-2077__50.json",
+  "files": [
+    {
+      "path": "README.md",
+      "status": "modified",
+      "blob_sha": "39d81a3eed0e4bb2c9822ef179a9513c85033914",
+      "patch_sha256": "dc2db369cc54e1a206bae5df14a9b6d39163c76f68fb936b513383a52c37010f",
+      "patch_available": true
+    },
+    {
+      "path": "main.py",
+      "status": "modified",
+      "blob_sha": "b8842420cb1fba8debccb59828cc59a385309daf",
+      "patch_sha256": "bc80a452bb7a7914c213cedf4b699d9448af80ba5d208ae02e27b4cd243453ea",
+      "patch_available": true
+    },
+    {
+      "path": "src/models.py",
+      "status": "modified",
+      "blob_sha": "4cc66e2b4ace4d199cd4e5a3e4b2b6ae0d9baf2e",
+      "patch_sha256": "ad388d033b7245b248b434ab325a3819dd2b9129a1d00569b202747880b2d369",
+      "patch_available": true
+    },
+    {
+      "path": "src/prompts.py",
+      "status": "modified",
+      "blob_sha": "b9aeb26e040afbad4a51d1c194133c06416d29ce",
+      "patch_sha256": "ba9b4b94636785ffbe83a47573e03c71a5d7e68f2692eb2b3140752733cbfe97",
+      "patch_available": true
+    },
+    {
+      "path": "src/utils/error_handler.py",
+      "status": "modified",
+      "blob_sha": "72c0af49c5a71f43eafe4a6ee6fa68a2e713b11d",
+      "patch_sha256": "450b9ed2028d3ed54686c59370db8e10453638ca8b729d10dc33500d00c24140",
+      "patch_available": true
+    },
+    {
+      "path": "tests/test_litellm_model.py",
+      "status": "added",
+      "blob_sha": "6f03ef96378965d6a226ebb1563578e73cd0645e",
+      "patch_sha256": "590fa51635c716d54c00e0355b78693cafe3224003b1e1417c8269955f4b9f3c",
+      "patch_available": true
+    }
+  ]
+}

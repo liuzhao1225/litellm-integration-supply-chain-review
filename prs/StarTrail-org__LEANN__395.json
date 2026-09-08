@@ -1,0 +1,77 @@
+{
+  "repository": "StarTrail-org/LEANN",
+  "number": 395,
+  "url": "https://github.com/StarTrail-org/LEANN/pull/395",
+  "author": "prodmanpd",
+  "created_at": "2026-08-17T14:22:17Z",
+  "state": "merged",
+  "head_sha": "194482ef54dc86bdecbe9728040a26c801244358",
+  "base_sha": "dc85934f318c9c7f981cbe9b66042d00ec2cb634",
+  "integration": "python-sdk",
+  "constraints": [
+    {
+      "file": "packages/leann-core/pyproject.toml",
+      "specifier": ">=1.85.0,<2.0"
+    }
+  ],
+  "lock": null,
+  "evidence_file": "prs/StarTrail-org__LEANN__395.json",
+  "files": [
+    {
+      "path": ".github/workflows/build-reusable.yml",
+      "status": "modified",
+      "blob_sha": "c16d8f915dc4d032266b8e4ceb965460f306fc92",
+      "patch_sha256": "3d158d80c60dfe85b05d735859b5750587fbfadeb753a13767e4da2665ae0527",
+      "patch_available": true
+    },
+    {
+      "path": "apps/base_rag_example.py",
+      "status": "modified",
+      "blob_sha": "0618ed27abd53137467895c245085332a04f3fe8",
+      "patch_sha256": "a81451073f754991ee3e27f4eecaba0546989f6457dab05954caaa0bd79cbedb",
+      "patch_available": true
+    },
+    {
+      "path": "docs/configuration-guide.md",
+      "status": "modified",
+      "blob_sha": "06fc1faf65d4c8c73945a2455f2d439dcf9f7dc8",
+      "patch_sha256": "d680e10381ced798e15888e0dce989da9406d469bb38a0b9567b14d4ee20a35b",
+      "patch_available": true
+    },
+    {
+      "path": "packages/leann-core/pyproject.toml",
+      "status": "modified",
+      "blob_sha": "c9040e0d3924dbf1ff333547e46c5197d2ff1bd4",
+      "patch_sha256": "7a9aa1a037de57ef12ca3c540a66624f8546a27a4c2506e61a0f6782d8e7498e",
+      "patch_available": true
+    },
+    {
+      "path": "packages/leann-core/src/leann/chat.py",
+      "status": "modified",
+      "blob_sha": "f55d2fc3aa0bdc43a0cd6b280f572aa4917df0fd",
+      "patch_sha256": "71ee8acdd680b2962925f869ab43a6b596a6e0a845603b4ce178f5c894481ced",
+      "patch_available": true
+    },
+    {
+      "path": "packages/leann-core/src/leann/cli.py",
+      "status": "modified",
+      "blob_sha": "1511e66ef10653ecac145959663eafb28b98efd3",
+      "patch_sha256": "2df100058a252159ecb3b825f91046499bd0a80a7cadc6a7b993356fbdcc68d4",
+      "patch_available": true
+    },
+    {
+      "path": "packages/leann-core/src/leann/settings.py",
+      "status": "modified",
+      "blob_sha": "491c0c83461c92005afd0ca22bd0b004fb0280e0",
+      "patch_sha256": "784a55d4079d808207948c56800caf0008608fa1f4c95c1b4cf3742451f12369",
+      "patch_available": true
+    },
+    {
+      "path": "tests/test_litellm_provider.py",
+      "status": "added",
+      "blob_sha": "7fd58f65bd91f7a79e701006a930fdf23493f5d5",
+      "patch_sha256": "77a59979917bfc584f410becbbe5d7b7f31e5b66a39ee7155aeee5c30ef7c6f8",
+      "patch_available": true
+    }
+  ]
+}

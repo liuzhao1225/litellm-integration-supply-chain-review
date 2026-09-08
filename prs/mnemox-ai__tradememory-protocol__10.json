@@ -1,0 +1,56 @@
+{
+  "repository": "mnemox-ai/tradememory-protocol",
+  "number": 10,
+  "url": "https://github.com/mnemox-ai/tradememory-protocol/pull/10",
+  "author": "prodmanpd",
+  "created_at": "2026-08-10T18:23:20Z",
+  "state": "open",
+  "head_sha": "caacbaca9bc78c88e8120562da82aaaf546c6340",
+  "base_sha": "df74662939e931baae7d7dab2be1ad8e716180ea",
+  "integration": "python-sdk",
+  "constraints": [
+    {
+      "file": "pyproject.toml",
+      "specifier": ">=1.87,<2.0"
+    }
+  ],
+  "lock": null,
+  "evidence_file": "prs/mnemox-ai__tradememory-protocol__10.json",
+  "files": [
+    {
+      "path": "pyproject.toml",
+      "status": "modified",
+      "blob_sha": "aea2950b1a793855d3c3b4ef092d8bcbd62f2d0a",
+      "patch_sha256": "db2c6fd7e5361de04f0ecdc31e1193f326e8bacef96a3d6c8a1fb677e252d743",
+      "patch_available": true
+    },
+    {
+      "path": "src/tradememory/evolution/llm.py",
+      "status": "modified",
+      "blob_sha": "201d3a3bc6175bd63984a12158dfe5f85df2f345",
+      "patch_sha256": "f7ca330ad5eabf293326f40fa5031dfa1511d8a2ed47c45fb7fb5f227d59804b",
+      "patch_available": true
+    },
+    {
+      "path": "src/tradememory/evolution/re_evolution.py",
+      "status": "modified",
+      "blob_sha": "2a4f664b0cb47e25b910b0e5cd2b7aeb4a949611",
+      "patch_sha256": "63f7ddaa2c6785bdc51179074d024ca4e88c11d9bbcfe2964614dd985bf650c8",
+      "patch_available": true
+    },
+    {
+      "path": "src/tradememory/server.py",
+      "status": "modified",
+      "blob_sha": "00698ca613fb66337eaf8adbd3202e04acaa8581",
+      "patch_sha256": "ed306dee557ef9e761c4bc6875c78d03778c08fd9da215b1f88a3e24b993f146",
+      "patch_available": true
+    },
+    {
+      "path": "tests/test_evolution_litellm.py",
+      "status": "added",
+      "blob_sha": "4ea410b65d26083028b32050c3f4fa0cd5b73247",
+      "patch_sha256": "74472c23197c3fe5da4b81f792c835c1c9f759ea8bfc836e6c4a91980dfd9a6a",
+      "patch_available": true
+    }
+  ]
+}

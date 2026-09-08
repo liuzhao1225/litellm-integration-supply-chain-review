@@ -1,0 +1,57 @@
+{
+  "repository": "datajuicer/data-juicer",
+  "number": 1062,
+  "url": "https://github.com/datajuicer/data-juicer/pull/1062",
+  "author": "prodmanpd",
+  "created_at": "2026-08-31T15:27:02Z",
+  "state": "merged",
+  "head_sha": "d72e6263cfc64fdf2bf7d457eff18d9dbec5b3f6",
+  "base_sha": "20709225186a7f32f890ddb392172e1f675ac7e3",
+  "integration": "python-sdk",
+  "constraints": [
+    {
+      "file": "pyproject.toml",
+      "specifier": ">=1.80.0,<2"
+    }
+  ],
+  "lock": {
+    "pr": "https://github.com/datajuicer/data-juicer/pull/1062",
+    "version": "1.80.0",
+    "artifacts": 2,
+    "mismatches": [],
+    "source": {
+      "registry": "https://pypi.org/simple"
+    }
+  },
+  "evidence_file": "prs/datajuicer__data-juicer__1062.json",
+  "files": [
+    {
+      "path": "data_juicer/utils/model_utils.py",
+      "status": "modified",
+      "blob_sha": "16344f77eb7b3c49c0fd3e54152342a1b344adb3",
+      "patch_sha256": "c0f025a0496253d3800310346d71e1248a9b7d167d1a299066143e5ddec5a55e",
+      "patch_available": true
+    },
+    {
+      "path": "pyproject.toml",
+      "status": "modified",
+      "blob_sha": "695a941fa83cb1f95fb50d9e67ecbfb1d4a8908c",
+      "patch_sha256": "61b7c102aa00eaceb13a5c2f169d43db0518abaab02c77d06974bc039a9213fc",
+      "patch_available": true
+    },
+    {
+      "path": "tests/utils/test_model_utils.py",
+      "status": "modified",
+      "blob_sha": "c87ec7b8d237cbf53f5820eb10735136903fce3d",
+      "patch_sha256": "7149990fa49ae1eceffed1272d7c8e9c35d4dcc5092cb4fb2ed018048c01f2c8",
+      "patch_available": true
+    },
+    {
+      "path": "uv.lock",
+      "status": "modified",
+      "blob_sha": "d9d17ebaf657ef5fb42568889e3634a96c8d452e",
+      "patch_sha256": "9de1c0b6a0961bcb859d8cf6730ea892dbf8cd5512e7dcbb9b1e6ddb37906ee9",
+      "patch_available": true
+    }
+  ]
+}

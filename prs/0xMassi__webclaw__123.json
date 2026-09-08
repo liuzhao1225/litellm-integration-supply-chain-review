@@ -1,0 +1,65 @@
+{
+  "repository": "0xMassi/webclaw",
+  "number": 123,
+  "url": "https://github.com/0xMassi/webclaw/pull/123",
+  "author": "prodmanpd",
+  "created_at": "2026-08-31T16:07:26Z",
+  "state": "open",
+  "head_sha": "345422db95377c8ee2a3ad46392419fd3c7e4d73",
+  "base_sha": "17aba82bccaba2394ece64fa15664fec0ed50746",
+  "integration": "proxy-compatible",
+  "constraints": [],
+  "lock": null,
+  "evidence_file": "prs/0xMassi__webclaw__123.json",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "status": "modified",
+      "blob_sha": "2884567d2d32170cc1b3aa40c14ea33da8e7d7c9",
+      "patch_sha256": "fb949db1abbc37a07c15c85defc751a5243a751ca3e27813883dbf1dcfcd44ec",
+      "patch_available": true
+    },
+    {
+      "path": "README.md",
+      "status": "modified",
+      "blob_sha": "932096ede461b13155b7f280085aab1d3c21a86d",
+      "patch_sha256": "c53cf7746c3f39199bc8f75aa39b51f625f7729d0afbab48e42bd3e3fd6beb4a",
+      "patch_available": true
+    },
+    {
+      "path": "crates/webclaw-cli/src/main.rs",
+      "status": "modified",
+      "blob_sha": "b6b99c279a560561d6c84bb5cf6dbfc851ad63fc",
+      "patch_sha256": "8adcd722e1104eaf8f00c57594bc744a21c8bd2fd0ca741cb09ae0530778ef33",
+      "patch_available": true
+    },
+    {
+      "path": "crates/webclaw-llm/src/chain.rs",
+      "status": "modified",
+      "blob_sha": "2b0eb8399fa52b47c63e3cc945afea8e57bd0204",
+      "patch_sha256": "0703611fb4f0025a91588865435246962b86fbea4b7520049997cbcecc04e525",
+      "patch_available": true
+    },
+    {
+      "path": "crates/webclaw-llm/src/providers/litellm.rs",
+      "status": "added",
+      "blob_sha": "7ed48bcc4c29761eb49d9177a49f61e080583c94",
+      "patch_sha256": "497b7e1d240bc6decaa0d266a54624ee3d741f4ec47f77283eef841a3ac4042c",
+      "patch_available": true
+    },
+    {
+      "path": "crates/webclaw-llm/src/providers/mod.rs",
+      "status": "modified",
+      "blob_sha": "559e17bf66334bb9f52c6d12a9bdc2ed59c3adac",
+      "patch_sha256": "1b64d3a0d6fe1cafe0d4b27318a0359ad0df341dc01a04f4948108f7b5756598",
+      "patch_available": true
+    },
+    {
+      "path": "env.example",
+      "status": "modified",
+      "blob_sha": "b76cf9c51c8046347840958dae3d758422c631a8",
+      "patch_sha256": "8814979150e319b47abcd47e09cad762a7d31fa8fe04197888d99f6c97823e93",
+      "patch_available": true
+    }
+  ]
+}

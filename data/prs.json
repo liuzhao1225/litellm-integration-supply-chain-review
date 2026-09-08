@@ -1,0 +1,3527 @@
+[
+  {
+    "repository": "yilewang/llm-for-zotero",
+    "number": 316,
+    "url": "https://github.com/yilewang/llm-for-zotero/pull/316",
+    "author": "prodmanpd",
+    "created_at": "2026-07-17T18:49:48Z",
+    "state": "open",
+    "head_sha": "49abae562ffd1d40d0ad436d5b43b7d6e6370d0f",
+    "base_sha": "f8dbbd863b021368c07efe0f61c67f3503d79bc9",
+    "integration": "proxy-compatible",
+    "constraints": [],
+    "lock": null,
+    "evidence_file": "prs/yilewang__llm-for-zotero__316.json",
+    "files": [
+      {
+        "path": "src/modules/preferenceScript.ts",
+        "status": "modified",
+        "blob_sha": "075103dabe8edcea90feba0582d587e47018133a",
+        "patch_sha256": "7c18fe02945a2538b5039401aea207a1414aa9268d548a51ce01647bee69e20b",
+        "patch_available": true
+      },
+      {
+        "path": "src/providers/types.ts",
+        "status": "modified",
+        "blob_sha": "4838e5dbcd8e261d1e3a09341b88c6dca3b117de",
+        "patch_sha256": "c02e5b0d85f0431fad2bb40e8eb49eb8b70914615ebcf90bb53f7812aa10599a",
+        "patch_available": true
+      },
+      {
+        "path": "src/utils/llmClient.ts",
+        "status": "modified",
+        "blob_sha": "d4f84f29f93b33c9840104d513b3b79e200e3e48",
+        "patch_sha256": "f4a7f4eccbd023a0085a951519ca1bf496ae71b94d3c2d90525fb9a49a350e6b",
+        "patch_available": true
+      },
+      {
+        "path": "src/utils/modelProviders.ts",
+        "status": "modified",
+        "blob_sha": "bd6f30fd0ea17730bd85807283d35c3c9d40fa38",
+        "patch_sha256": "9f9b27274db947cadccc28863b94533d357cce292056ddd9083347be1e22ce3e",
+        "patch_available": true
+      },
+      {
+        "path": "src/utils/providerPresets.ts",
+        "status": "modified",
+        "blob_sha": "61712a03b7d7637d66f2b092637668bd0fa7fd7a",
+        "patch_sha256": "db6d378a8eac1ced78b1aa71cb1f63df75b9eb5eb7d3661cad8aac50a56955eb",
+        "patch_available": true
+      },
+      {
+        "path": "test/providerCapabilities.test.ts",
+        "status": "modified",
+        "blob_sha": "47ffe7f4d4e015bf53f5690139de8d257c560d03",
+        "patch_sha256": "8b3eda2f65eba67aedbaa1958fdfbc85abdb90a3c170ca020ef486cbfe7f3251",
+        "patch_available": true
+      },
+      {
+        "path": "test/providerPresets.test.ts",
+        "status": "modified",
+        "blob_sha": "cb23b37dd74c22176b21f60683c2e483bd5956fb",
+        "patch_sha256": "01d6955c2b9bdd466aa27edba61cf60826717c2897431492bacc9cbba9dbea33",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "microsoft/TinyTroupe",
+    "number": 160,
+    "url": "https://github.com/microsoft/TinyTroupe/pull/160",
+    "author": "prodmanpd",
+    "created_at": "2026-07-17T18:53:12Z",
+    "state": "open",
+    "head_sha": "e6cc3e0507fc48baf138cf4073de934ca12bf633",
+    "base_sha": "a6244b358a1fe1c71bf751f7ba0f8dfa368ec5a4",
+    "integration": "python-sdk",
+    "constraints": [
+      {
+        "file": "pyproject.toml",
+        "specifier": ">=1.83.0,<2.0"
+      }
+    ],
+    "lock": null,
+    "evidence_file": "prs/microsoft__TinyTroupe__160.json",
+    "files": [
+      {
+        "path": "pyproject.toml",
+        "status": "modified",
+        "blob_sha": "474f73006500bf13c60eacb57bcf1b51878bb947",
+        "patch_sha256": "36af97d5efcde4fc378a18674ce3ca26d7bd153ccb2103e9dea472e546436058",
+        "patch_available": true
+      },
+      {
+        "path": "tests/unit/test_litellm_client.py",
+        "status": "added",
+        "blob_sha": "7ebd42045d95789d6bb987c0b5489d23c52bacf3",
+        "patch_sha256": "10128661f1171f975cc2b0f6754a3e2f04324cd1754aba143a7fbe0caeb3c7b8",
+        "patch_available": true
+      },
+      {
+        "path": "tinytroupe/clients/__init__.py",
+        "status": "modified",
+        "blob_sha": "2ec911a2385dca3b63676b2bc4ad115803290875",
+        "patch_sha256": "fd2ee235621b5fc334cb2e4f0c8f189881cb0f40504f1b392c3fb745f216bd90",
+        "patch_available": true
+      },
+      {
+        "path": "tinytroupe/clients/litellm_client.py",
+        "status": "added",
+        "blob_sha": "0abb09785d7b9c19789936b4e728544af5bd825b",
+        "patch_sha256": "4aec647a783fa75299b169642d95f8108a5c884294f0f3dfb9ef363725dcec7c",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "xunbu/docutranslate",
+    "number": 53,
+    "url": "https://github.com/xunbu/docutranslate/pull/53",
+    "author": "prodmanpd",
+    "created_at": "2026-07-17T19:03:00Z",
+    "state": "open",
+    "head_sha": "3a7e7e2e3126654948eb37f2df9dbffb239e5cb0",
+    "base_sha": "a8c0cc4d938d9dc88238115f940460473163e6ba",
+    "integration": "python-sdk",
+    "constraints": [],
+    "lock": null,
+    "evidence_file": "prs/xunbu__docutranslate__53.json",
+    "files": [
+      {
+        "path": "docutranslate/agents/agent.py",
+        "status": "modified",
+        "blob_sha": "5878ed97b1ffc0a667cdc9dd795814e77c0a8202",
+        "patch_sha256": "c0efb27cd4c71002ef5d65c91dd101e2456149cd13ba877e2985e8af5503160a",
+        "patch_available": true
+      },
+      {
+        "path": "docutranslate/agents/provider/provider.py",
+        "status": "modified",
+        "blob_sha": "f0fda05346a692f7a166cfa604c391ae0f15efd5",
+        "patch_sha256": "a54c46d8bf7769eacbb410beca93adfd3e8d030ad16d6f74c22934fb32cdda1a",
+        "patch_available": true
+      },
+      {
+        "path": "docutranslate/agents/thinking/thinking_factory.py",
+        "status": "modified",
+        "blob_sha": "660da4d76104dde13f8f26f238da751843aad139",
+        "patch_sha256": "4d274dba2f6e89918edb3e2c49ff3a95e07d2f74e4995ddc569a3d1dec992a08",
+        "patch_available": true
+      },
+      {
+        "path": "tests/test_litellm_provider.py",
+        "status": "added",
+        "blob_sha": "6f410a81f756015d31e99abff8b904e2e1960901",
+        "patch_sha256": "34bff58a9b2ce1a9f4f668b3a390710f7560850440a2a0ba82c63491962b2423",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "polyrabbit/hacker-news-digest",
+    "number": 47,
+    "url": "https://github.com/polyrabbit/hacker-news-digest/pull/47",
+    "author": "prodmanpd",
+    "created_at": "2026-07-17T19:10:01Z",
+    "state": "open",
+    "head_sha": "904e3be46a8df1dac5c75e1f614afa13bf619342",
+    "base_sha": "62b4e5c86b011d726427a51a8d931aab486063ba",
+    "integration": "python-sdk",
+    "constraints": [
+      {
+        "file": "requirements.txt",
+        "specifier": ">=1.83.0,<2.0"
+      }
+    ],
+    "lock": null,
+    "evidence_file": "prs/polyrabbit__hacker-news-digest__47.json",
+    "files": [
+      {
+        "path": "config.py",
+        "status": "modified",
+        "blob_sha": "ec7346a2c1eaea441da490cc44c290fc936b39b6",
+        "patch_sha256": "69ab3c763e7b988aab9861d5ae8080bdf2d27aa494d302f88539c9c6644a8e56",
+        "patch_available": true
+      },
+      {
+        "path": "db/summary.py",
+        "status": "modified",
+        "blob_sha": "0f77a94a2462b3c2dc2a47587df7eb759d1b81ab",
+        "patch_sha256": "b6fd0985e509a25d658e949dcc49557f5697637065f991f3d4ebcf4f1a209ca2",
+        "patch_available": true
+      },
+      {
+        "path": "hacker_news/llm/litellm.py",
+        "status": "added",
+        "blob_sha": "4f2bb922b259b421f6a003f19f6618f56bffc3c7",
+        "patch_sha256": "958d41f63bbf5fa5cbee4f0b0a184925417d1b6c3ea6015d01eb1bbdfa4a382b",
+        "patch_available": true
+      },
+      {
+        "path": "hacker_news/news.py",
+        "status": "modified",
+        "blob_sha": "39dc496cedd8e79276309784d6a9db4331a01866",
+        "patch_sha256": "1595cd1505c426bbf76fc03162796832209dcff2ea5da327838495a4e55b4f8b",
+        "patch_available": true
+      },
+      {
+        "path": "requirements.txt",
+        "status": "modified",
+        "blob_sha": "3492344565e5e7f8217cde48a78a222018f340bd",
+        "patch_sha256": "26282483d18dadefb1594ab01a7012dcaeeeb3ca933c53a3ef100dcb51d9ab17",
+        "patch_available": true
+      },
+      {
+        "path": "test/test_litellm_provider.py",
+        "status": "added",
+        "blob_sha": "25935bd2ade702b707f9fae14adede0c9709f3c0",
+        "patch_sha256": "ee5bbafea6aa168d570504ad0852e9bd1fb7c7770e5cb23164ae9bb5109ca921",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "modelscope/FunClip",
+    "number": 178,
+    "url": "https://github.com/modelscope/FunClip/pull/178",
+    "author": "prodmanpd",
+    "created_at": "2026-07-17T19:17:54Z",
+    "state": "merged",
+    "head_sha": "849ef93277c8221ab4cbe37dadfd03119562da83",
+    "base_sha": "d30daccff432534788bc7a375091d33513465ab8",
+    "integration": "python-sdk",
+    "constraints": [],
+    "lock": null,
+    "evidence_file": "prs/modelscope__FunClip__178.json",
+    "files": [
+      {
+        "path": "funclip/launch.py",
+        "status": "modified",
+        "blob_sha": "51dbd71352232c41a2bb3c507cbe7111ae7f5a57",
+        "patch_sha256": "8f06c357e0a195f732f8388ff06390307bf1430c6f699d2044a9852bff6ed86e",
+        "patch_available": true
+      },
+      {
+        "path": "funclip/llm/litellm_api.py",
+        "status": "added",
+        "blob_sha": "6513437f73395c75899e17385f8bc211da97cf2a",
+        "patch_sha256": "c8f54e1832e5a0b2d05e08b90a9f1be3c8bd82009d439337c9ec7d4b7f2b1e3c",
+        "patch_available": true
+      },
+      {
+        "path": "tests/test_litellm_api.py",
+        "status": "added",
+        "blob_sha": "c8301e174058770a1af3e68c4512396963c32440",
+        "patch_sha256": "e605ceda94bffa2eabce2fc23c65205bbab7b4605f57ed0b17cda78e05a549d3",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "chartbrew/chartbrew",
+    "number": 365,
+    "url": "https://github.com/chartbrew/chartbrew/pull/365",
+    "author": "prodmanpd",
+    "created_at": "2026-08-02T18:48:47Z",
+    "state": "open",
+    "head_sha": "0fefa20573e9b0c732deea7e93541a686aa83853",
+    "base_sha": "dcf57d40748d14c4e23f6e1f5169eef91cd02bb2",
+    "integration": "proxy-compatible",
+    "constraints": [],
+    "lock": null,
+    "evidence_file": "prs/chartbrew__chartbrew__365.json",
+    "files": [
+      {
+        "path": ".env-template",
+        "status": "modified",
+        "blob_sha": "62dda6239f53273e83af41efa5d34550c91865cb",
+        "patch_sha256": "04e153644d6573720e356237c6bcf4a978408ff905f9b6a7345e42022af9aa00",
+        "patch_available": true
+      },
+      {
+        "path": "server/modules/ai/generateClickhouseQuery.js",
+        "status": "modified",
+        "blob_sha": "473d4d92f9304f0be83e17017ad326f1bc68dd54",
+        "patch_sha256": "a86f79192a63dc6cf3a9223456dfe6a297c1dd7a641f61b07e29927b988bf880",
+        "patch_available": true
+      },
+      {
+        "path": "server/modules/ai/generateMongoQuery.js",
+        "status": "modified",
+        "blob_sha": "2d83e69af6a52c09a54562849d56ecfc4d6b7130",
+        "patch_sha256": "c736a300e2342c8e47ed61a7f86feb46ee9136aa968b9f18c7879b5fbf3c0407",
+        "patch_available": true
+      },
+      {
+        "path": "server/modules/ai/generateSqlQuery.js",
+        "status": "modified",
+        "blob_sha": "78f01eb624e8593cddc14ecd42b2177f5fd99eee",
+        "patch_sha256": "87633dfbb2425dd0a5f88e63c24d6ab272f41e64252216cdfa68c834e8fe402e",
+        "patch_available": true
+      },
+      {
+        "path": "server/modules/ai/openAiClient.js",
+        "status": "added",
+        "blob_sha": "5a67c7110803edcde81ef51cc8f05fc68db88372",
+        "patch_sha256": "ac4d46db406725e0b82c5432012b59bd048534a6ec2946eac78729c1127e3970",
+        "patch_available": true
+      },
+      {
+        "path": "server/modules/ai/orchestrator/orchestrator.js",
+        "status": "modified",
+        "blob_sha": "311419c8963fc4a84dc04f103d444a00f8254482",
+        "patch_sha256": "674be9d3e69fc4c587db39014587a8ed2abaf2d3c509b98402ecbbbcd2c12f53",
+        "patch_available": true
+      },
+      {
+        "path": "server/tests/unit/openAiClient.test.js",
+        "status": "added",
+        "blob_sha": "fc94776ba077d955a2f13619cbd12d0d689ebc18",
+        "patch_sha256": "420210c8a056179bb2c34bd9a192c0cc381bbd69ac41e7198c0e7da37d0b6500",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "itsOwen/CyberScraper-2077",
+    "number": 50,
+    "url": "https://github.com/itsOwen/CyberScraper-2077/pull/50",
+    "author": "prodmanpd",
+    "created_at": "2026-08-02T19:34:13Z",
+    "state": "merged",
+    "head_sha": "9253c0142dc14afd27975e92b680d336b3b2a452",
+    "base_sha": "ad9447b7a82950b496cbf7e943057c70a2a83877",
+    "integration": "proxy-compatible",
+    "constraints": [],
+    "lock": null,
+    "evidence_file": "prs/itsOwen__CyberScraper-2077__50.json",
+    "files": [
+      {
+        "path": "README.md",
+        "status": "modified",
+        "blob_sha": "39d81a3eed0e4bb2c9822ef179a9513c85033914",
+        "patch_sha256": "dc2db369cc54e1a206bae5df14a9b6d39163c76f68fb936b513383a52c37010f",
+        "patch_available": true
+      },
+      {
+        "path": "main.py",
+        "status": "modified",
+        "blob_sha": "b8842420cb1fba8debccb59828cc59a385309daf",
+        "patch_sha256": "bc80a452bb7a7914c213cedf4b699d9448af80ba5d208ae02e27b4cd243453ea",
+        "patch_available": true
+      },
+      {
+        "path": "src/models.py",
+        "status": "modified",
+        "blob_sha": "4cc66e2b4ace4d199cd4e5a3e4b2b6ae0d9baf2e",
+        "patch_sha256": "ad388d033b7245b248b434ab325a3819dd2b9129a1d00569b202747880b2d369",
+        "patch_available": true
+      },
+      {
+        "path": "src/prompts.py",
+        "status": "modified",
+        "blob_sha": "b9aeb26e040afbad4a51d1c194133c06416d29ce",
+        "patch_sha256": "ba9b4b94636785ffbe83a47573e03c71a5d7e68f2692eb2b3140752733cbfe97",
+        "patch_available": true
+      },
+      {
+        "path": "src/utils/error_handler.py",
+        "status": "modified",
+        "blob_sha": "72c0af49c5a71f43eafe4a6ee6fa68a2e713b11d",
+        "patch_sha256": "450b9ed2028d3ed54686c59370db8e10453638ca8b729d10dc33500d00c24140",
+        "patch_available": true
+      },
+      {
+        "path": "tests/test_litellm_model.py",
+        "status": "added",
+        "blob_sha": "6f03ef96378965d6a226ebb1563578e73cd0645e",
+        "patch_sha256": "590fa51635c716d54c00e0355b78693cafe3224003b1e1417c8269955f4b9f3c",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "e2b-dev/surf",
+    "number": 40,
+    "url": "https://github.com/e2b-dev/surf/pull/40",
+    "author": "prodmanpd",
+    "created_at": "2026-08-02T19:44:11Z",
+    "state": "open",
+    "head_sha": "c36d1842dd5f1873873e1b75907c8740e12e9ffd",
+    "base_sha": "d2a98aa9d0cd67db5146bec843a296f132d443f5",
+    "integration": "proxy-compatible",
+    "constraints": [],
+    "lock": null,
+    "evidence_file": "prs/e2b-dev__surf__40.json",
+    "files": [
+      {
+        "path": "README.md",
+        "status": "modified",
+        "blob_sha": "f69ecdd5e2b23cb3eb58582505b2ff1318c07674",
+        "patch_sha256": "b3bfff326412931575c958f02bea76a05dcc9f17ca262218674368adf96657bf",
+        "patch_available": true
+      },
+      {
+        "path": "lib/config.test.ts",
+        "status": "added",
+        "blob_sha": "c04306086d8000a874537163c4ce11ce8566cd52",
+        "patch_sha256": "ed3f996479c5e4b9ce5addc88f1281706be85218c5373c571c4ccb449af2adb2",
+        "patch_available": true
+      },
+      {
+        "path": "lib/config.ts",
+        "status": "modified",
+        "blob_sha": "3f1e249aafcfee645d8287e0d744272f8463b8b1",
+        "patch_sha256": "3831f1277516b07e94c29ed24e08eb3cc7454c7973be2532fb64f3f6c022f127",
+        "patch_available": true
+      },
+      {
+        "path": "lib/streaming/openai.test.ts",
+        "status": "added",
+        "blob_sha": "254d1495b346728f8c79b227d48142b29e3dd0f2",
+        "patch_sha256": "8e4eb785f3f31a2f3528bf8856a0261e1c2cf3bbb515829f4c353638fcb38074",
+        "patch_available": true
+      },
+      {
+        "path": "lib/streaming/openai.ts",
+        "status": "modified",
+        "blob_sha": "5ec43a02504da58588b7703f2286d6fe006a43bf",
+        "patch_sha256": "9e063a517ff2f55faf7187615a9f54eb12f9d8a33ceccc019d9399f232259b09",
+        "patch_available": true
+      },
+      {
+        "path": "package-lock.json",
+        "status": "modified",
+        "blob_sha": "6ae7deb0918a6801ebbd46ab2ef781315d54a52b",
+        "patch_sha256": "afd8c22459f3e420526e961cab2f8ffb85168dda04bf79848fd40e509a0fd3ab",
+        "patch_available": true
+      },
+      {
+        "path": "package.json",
+        "status": "modified",
+        "blob_sha": "f121be17030af9c7a10d398e68aff6aa23eb5625",
+        "patch_sha256": "50a10ebd854c697fddd7e41268fe3c769d9dbd8e08cfa99d33665f905c686c2b",
+        "patch_available": true
+      },
+      {
+        "path": "vitest.config.ts",
+        "status": "added",
+        "blob_sha": "a55b11d0e76bcc65020b16dccd07f45be9c4d680",
+        "patch_sha256": "db4d0d8c940278e3a49b1962d39130acf3c214154e340de02ea8d893466b53d9",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "cltk/cltk",
+    "number": 1332,
+    "url": "https://github.com/cltk/cltk/pull/1332",
+    "author": "prodmanpd",
+    "created_at": "2026-08-02T20:08:30Z",
+    "state": "open",
+    "head_sha": "32ddf3b68a2b9111f6ea59949cba423bd7276c2b",
+    "base_sha": "33e1653331fc2499e3f2f5da45237d87db0313cc",
+    "integration": "proxy-compatible",
+    "constraints": [],
+    "lock": null,
+    "evidence_file": "prs/cltk__cltk__1332.json",
+    "files": [
+      {
+        "path": "LLM_DEV_GUIDE.md",
+        "status": "modified",
+        "blob_sha": "4786326353263d018f1c76ce6eead198ce229135",
+        "patch_sha256": "3f196f77e3ca0c7f64c8927a431790d82f286823e4d449a82b601c9cc5653f37",
+        "patch_available": true
+      },
+      {
+        "path": "README.md",
+        "status": "modified",
+        "blob_sha": "6e0c45c659e1c972edd5f5c2c779add6f3134772",
+        "patch_sha256": "dcfcb49504cc962dc5cb529bb4a0678fe296efad2abe82eef82e2c90b2974dff",
+        "patch_available": true
+      },
+      {
+        "path": "docs/advanced-model-configuration.md",
+        "status": "modified",
+        "blob_sha": "141fd5feaf9c7205d925aa37370f094d613a31e6",
+        "patch_sha256": "158a026e7b8fb3029958589caa473214a6078d247826ff2c4516d79cad63ab73",
+        "patch_available": true
+      },
+      {
+        "path": "src/cltk/core/data_types.py",
+        "status": "modified",
+        "blob_sha": "8e680d95b0a9c4bd96e806b9f5e39fc6cae398fb",
+        "patch_sha256": "a0e4fb0f58d5a1763507d53e60c5ab091ed84b0e24fd1f5e738f3bf6bb87febb",
+        "patch_available": true
+      },
+      {
+        "path": "src/cltk/dependency/utils.py",
+        "status": "modified",
+        "blob_sha": "d1d20433cb3f0ddcae6fdbec73845e008f02a146",
+        "patch_sha256": "e977afb95fb92016208ab78c25dd8006203b39fca01dd8d8fa59f055e0b8631a",
+        "patch_available": true
+      },
+      {
+        "path": "src/cltk/enrichment/utils.py",
+        "status": "modified",
+        "blob_sha": "0b0d97d13a76549ac31d591004637b1b95364c97",
+        "patch_sha256": "9642ce613413992931ed89c76055ab799459044ae1c9633edad1547af60cd12b",
+        "patch_available": true
+      },
+      {
+        "path": "src/cltk/genai/openai.py",
+        "status": "modified",
+        "blob_sha": "16203799b981b69041993968e815a884c806999e",
+        "patch_sha256": "8788c64e23f51cbac7a124bcb36615fbb8e0dbb194bd7cec6a071c0f8e29ad75",
+        "patch_available": true
+      },
+      {
+        "path": "src/cltk/morphosyntax/utils.py",
+        "status": "modified",
+        "blob_sha": "5f19086f018ea75959db4cfb52a7eefc94a4d1f2",
+        "patch_sha256": "94615dc1c6bdf189d0043cb96e2e08ab6010dbdae19013c3c223b7af83eb5dd1",
+        "patch_available": true
+      },
+      {
+        "path": "src/cltk/nlp.py",
+        "status": "modified",
+        "blob_sha": "a72e62b7697d005520ded1393b4a5d78f8d65606",
+        "patch_sha256": "3d3e58697389758548483b6d17597df2ffd423c0375621d3a026c05c3b40bf02",
+        "patch_available": true
+      },
+      {
+        "path": "src/cltk/translation/utils.py",
+        "status": "modified",
+        "blob_sha": "4e2718d24b9fd1e77a426b78f8414f44f9882de0",
+        "patch_sha256": "b6abcc078521d0ff6a319c052fae7e9f214e438742bbb0bb22a79ff4fe3df6e7",
+        "patch_available": true
+      },
+      {
+        "path": "tests/genai/test_litellm_connection.py",
+        "status": "added",
+        "blob_sha": "55fec7faa4046a1cfb4c1482e8de2f7c7c756cc9",
+        "patch_sha256": "71b09ec0dcbde26c40f6dc7fcec1b51ac3212d65958a6cfc053377a920977895",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "Atmosphere/atmosphere",
+    "number": 2735,
+    "url": "https://github.com/Atmosphere/atmosphere/pull/2735",
+    "author": "prodmanpd",
+    "created_at": "2026-08-03T11:36:38Z",
+    "state": "merged",
+    "head_sha": "6c8d08c6c378c3a964af2177f1af9336954b6c5f",
+    "base_sha": "c0472dcb56101e1feddd05866025c5fa14bd73c1",
+    "integration": "proxy-compatible",
+    "constraints": [],
+    "lock": null,
+    "evidence_file": "prs/Atmosphere__atmosphere__2735.json",
+    "files": [
+      {
+        "path": "modules/ai/README.md",
+        "status": "modified",
+        "blob_sha": "9582f5cd173b4a4de1c2a48599a88552bb5b19a0",
+        "patch_sha256": "3de1dc00c831d5b86e8ce585a50e748c6c9c9f9c7c5a8e761ce5acad38741bf1",
+        "patch_available": true
+      },
+      {
+        "path": "modules/ai/src/main/java/org/atmosphere/ai/llm/OpenAiCompatibleClient.java",
+        "status": "modified",
+        "blob_sha": "47b4b83cfe65bdc94cf25412b27dc4c6c848157a",
+        "patch_sha256": "0a16dff31b8e4e365b68c36e99360bd23d3424573a70557fd9584fe61a6e7221",
+        "patch_available": true
+      },
+      {
+        "path": "modules/ai/src/test/java/org/atmosphere/ai/llm/OpenAiCompatibleClientTest.java",
+        "status": "modified",
+        "blob_sha": "51abd2fbe7e0e436bc473aef54de9a5875ad5474",
+        "patch_sha256": "0411eb6ec31aa64caa7a4d2c71cc79dfee85917f6501dac822fe3165e3896067",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "inkeep/agents",
+    "number": 3492,
+    "url": "https://github.com/inkeep/agents/pull/3492",
+    "author": "prodmanpd",
+    "created_at": "2026-08-03T11:42:18Z",
+    "state": "open",
+    "head_sha": "62759e2b805d297fa77957893fca84c51669f94e",
+    "base_sha": "78653843ba9e55a36634f9679baa190ebf807a64",
+    "integration": "proxy-compatible",
+    "constraints": [],
+    "lock": null,
+    "evidence_file": "prs/inkeep__agents__3492.json",
+    "files": [
+      {
+        "path": ".changeset/add-litellm-provider.md",
+        "status": "added",
+        "blob_sha": "22825dfb536350b52ea61157997caf9ce61f1b4c",
+        "patch_sha256": "cab2498a22b8a022716ec4f2b54b519973248d51bf7856f66017ac994636271b",
+        "patch_available": true
+      },
+      {
+        "path": "agents-api/src/__tests__/run/agents/ModelFactory.test.ts",
+        "status": "modified",
+        "blob_sha": "a74ba6e236dee4a292f2449d80c224b100c6f510",
+        "patch_sha256": "a0c44f6cde1069b5ae338c6360916d30ca95ab93ac6e51a54c015b734012e225",
+        "patch_available": true
+      },
+      {
+        "path": "agents-docs/content/typescript-sdk/models.mdx",
+        "status": "modified",
+        "blob_sha": "be7c92277bd23c221a5199a5f1ea7c39451c033e",
+        "patch_sha256": "b5255eb7df83f163d8e030060c1bcc0de993e7cadad890ff873451a231222fab",
+        "patch_available": true
+      },
+      {
+        "path": "agents-manage-ui/src/components/agent/sidepane/nodes/model-selector.tsx",
+        "status": "modified",
+        "blob_sha": "957ce717fb314ecd0b56799402d6889473098fca",
+        "patch_sha256": "ee80ade5cb4301467373ff92f1ca87678940edf0e5933d149e897d4b6a02abed",
+        "patch_available": true
+      },
+      {
+        "path": "agents-manage-ui/src/features/agent/state/use-agent-store.ts",
+        "status": "modified",
+        "blob_sha": "fefb2f4bd1cb1777b6bc280b1b56cad5848d8da5",
+        "patch_sha256": "e5f3463b3ecc025f2f0735c83c4e5954b7337a1b63b394e0062c33546a3ce910",
+        "patch_available": true
+      },
+      {
+        "path": "packages/agents-core/src/__tests__/utils/model-factory.test.ts",
+        "status": "modified",
+        "blob_sha": "0f2a86f0367ad1160ac6e985f99fb3697731367c",
+        "patch_sha256": "58bc452cc03368485c577175225b13dae193ee96259f78d74dee91dcd83eae14",
+        "patch_available": true
+      },
+      {
+        "path": "packages/agents-core/src/utils/model-factory.ts",
+        "status": "modified",
+        "blob_sha": "1c1e86ce76ed8836d92da50da72ef28df4f2c874",
+        "patch_sha256": "87b0d79f5a85e297c17c759407c76dc842bd30d2ce181970c2bda021c4459018",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "ShenSeanChen/waku-agent",
+    "number": 73,
+    "url": "https://github.com/ShenSeanChen/waku-agent/pull/73",
+    "author": "prodmanpd",
+    "created_at": "2026-08-03T13:53:08Z",
+    "state": "closed",
+    "head_sha": "327ff5628969ea07bb21fe74f186e2b24bb2bd1f",
+    "base_sha": "d7b9f52409cb5aa3bb74d75a0ebb70877973bee4",
+    "integration": "proxy-compatible",
+    "constraints": [],
+    "lock": null,
+    "evidence_file": "prs/ShenSeanChen__waku-agent__73.json",
+    "files": [
+      {
+        "path": ".env.example",
+        "status": "modified",
+        "blob_sha": "78010cf34f49420b988549c4929ea6f7360abe9b",
+        "patch_sha256": "5de951305b65c729bdea18daa6e5f5d8a21df32be8a345462bc9de697523da11",
+        "patch_available": true
+      },
+      {
+        "path": "README.md",
+        "status": "modified",
+        "blob_sha": "0ddf6fe48309390261fb3019d5c8a59c43c4c33a",
+        "patch_sha256": "9f69f73eff87076657668f47f75b60d4f95cfb5c7314c9f91542ee912564a9d2",
+        "patch_available": true
+      },
+      {
+        "path": "waku/loop/models.py",
+        "status": "modified",
+        "blob_sha": "713caadfcb8a580b0e8472f66a55a3271890e1f8",
+        "patch_sha256": "395eb8811044d563321cf86d3199425bdcbb0dee61a946497e9d30f95a435d6b",
+        "patch_available": true
+      },
+      {
+        "path": "waku/ops/pricing.py",
+        "status": "modified",
+        "blob_sha": "740c94a25d9e365d943be257b76d90365d15a5ad",
+        "patch_sha256": "44aba8a505264d84a8f720d06469c7c0120d93d2a5dc6f2a4c75fe9b032b5417",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "Nutlope/notesGPT",
+    "number": 44,
+    "url": "https://github.com/Nutlope/notesGPT/pull/44",
+    "author": "prodmanpd",
+    "created_at": "2026-08-03T15:31:31Z",
+    "state": "open",
+    "head_sha": "7ac28219671c0e2ac269b6baafb7e6df14f994ab",
+    "base_sha": "5845a1f419f6c2c0dde860603746bc9a34cdc4d4",
+    "integration": "proxy-compatible",
+    "constraints": [],
+    "lock": null,
+    "evidence_file": "prs/Nutlope__notesGPT__44.json",
+    "files": [
+      {
+        "path": "README.md",
+        "status": "modified",
+        "blob_sha": "75a6612d89f3f13efc9402b746371ad6adde6986",
+        "patch_sha256": "fece908c6b856df2b818b31784cd4b1c868bc88c8c51879740e33e82a46e58df",
+        "patch_available": true
+      },
+      {
+        "path": "convex/llm.ts",
+        "status": "added",
+        "blob_sha": "ce68e0fb72c250efde0e545b9f021d2b56c567a4",
+        "patch_sha256": "c4b95a395895e376fa360afbb9298e142cef423400948898154fff7b92c1714e",
+        "patch_available": true
+      },
+      {
+        "path": "convex/together.ts",
+        "status": "modified",
+        "blob_sha": "dd14653fd743fb1f1d88d0f1798b60107c300b0b",
+        "patch_sha256": "ba2da4d96d6a3507eeff78d6aa2d8627bd000a9fd6b97ffdb8f2b7fdd19c4b6d",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "k8sgpt-ai/k8sgpt",
+    "number": 1719,
+    "url": "https://github.com/k8sgpt-ai/k8sgpt/pull/1719",
+    "author": "prodmanpd",
+    "created_at": "2026-08-03T16:34:14Z",
+    "state": "merged",
+    "head_sha": "5d195e02818d5fa24af964cebaa3dbd029457cc4",
+    "base_sha": "81ad2009bc89e031b5257314e734592e16b09641",
+    "integration": "proxy-compatible",
+    "constraints": [],
+    "lock": null,
+    "evidence_file": "prs/k8sgpt-ai__k8sgpt__1719.json",
+    "files": [
+      {
+        "path": "README.md",
+        "status": "modified",
+        "blob_sha": "ac960b332a2841cff26a60b5de22c0feb61ebce0",
+        "patch_sha256": "9b5d52948ad08da2a7b23de81e43146c67aeb468081cb8483bf079c337eaaf6f",
+        "patch_available": true
+      },
+      {
+        "path": "pkg/ai/iai.go",
+        "status": "modified",
+        "blob_sha": "9d472a1c4a08dfaf8b532a573cfe56737b130926",
+        "patch_sha256": "ad5abf9f42d1bf6cb0d311c011ea4fefeff12e5c0ff3047764e8352e64d77a6c",
+        "patch_available": true
+      },
+      {
+        "path": "pkg/ai/litellm.go",
+        "status": "added",
+        "blob_sha": "e03c070276dae941c4be6c39a4900c1030aba550",
+        "patch_sha256": "63429866738139446954926d52bea9a59d194b6bbc741e4ee35aef24b0ac3a09",
+        "patch_available": true
+      },
+      {
+        "path": "pkg/ai/litellm_test.go",
+        "status": "added",
+        "blob_sha": "55d1027d997fad53a3d1c8a7c80479cd3e0d6d69",
+        "patch_sha256": "f073701c73ed32f26bcc8028a5f1509298c5d9fe380511d5f879e9b81641c351",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "SciSharp/BotSharp",
+    "number": 1395,
+    "url": "https://github.com/SciSharp/BotSharp/pull/1395",
+    "author": "prodmanpd",
+    "created_at": "2026-08-10T17:41:57Z",
+    "state": "merged",
+    "head_sha": "2e7dbe7cf8c8daef07a277d4a5566bf349b2a6c2",
+    "base_sha": "e2f09cea0fa7818c1bddb13edfa08bc4b81f1cc8",
+    "integration": "proxy-compatible",
+    "constraints": [],
+    "lock": null,
+    "evidence_file": "prs/SciSharp__BotSharp__1395.json",
+    "files": [
+      {
+        "path": "BotSharp.sln",
+        "status": "modified",
+        "blob_sha": "ac88b815a1651072edf5ede7aa880df84637d750",
+        "patch_sha256": "3489632a559f6d23575ce993f9b9486c471746ac362efaa795e7eef0ad2444e2",
+        "patch_available": true
+      },
+      {
+        "path": "src/Plugins/BotSharp.Plugin.LiteLLM/BotSharp.Plugin.LiteLLM.csproj",
+        "status": "added",
+        "blob_sha": "3f9a26ce0a4205f3b27d719626a9684b3ef55036",
+        "patch_sha256": "4f801bc913a3f41169eb165658a37de180db69f02ce7bd2dc9f8c679b0eab9a2",
+        "patch_available": true
+      },
+      {
+        "path": "src/Plugins/BotSharp.Plugin.LiteLLM/LiteLLMPlugin.cs",
+        "status": "added",
+        "blob_sha": "cf3d37c8df27c857606930d9ed2c9d6cccd9e6ae",
+        "patch_sha256": "0d8034d91ba1ca8f660fde8bb126736e598494fa49aef707eae4597dc713a7ea",
+        "patch_available": true
+      },
+      {
+        "path": "src/Plugins/BotSharp.Plugin.LiteLLM/Providers/Chat/ChatCompletionProvider.cs",
+        "status": "added",
+        "blob_sha": "0592db8db9eab75704da0741d0935286f1e2d9a0",
+        "patch_sha256": "bc6a047b7461953e0abdee663445c00efadf5e7167c1066a9d842223e31fbb01",
+        "patch_available": true
+      },
+      {
+        "path": "src/Plugins/BotSharp.Plugin.LiteLLM/Providers/ProviderHelper.cs",
+        "status": "added",
+        "blob_sha": "6a1cef5f8b98583a8bc8e5fe7e7a3f6878c5145f",
+        "patch_sha256": "042c4a673b1d45075da2d9d1cfc30e48ac49533c084929221b5be087b804c979",
+        "patch_available": true
+      },
+      {
+        "path": "src/Plugins/BotSharp.Plugin.LiteLLM/Providers/Text/TextCompletionProvider.cs",
+        "status": "added",
+        "blob_sha": "50ae2321a067c93f6bf481b076a13d630d65a479",
+        "patch_sha256": "71e53f2343b8fc87b1531ed1bba0ac4c4b12176c7625250ca7c75ff1d9a502be",
+        "patch_available": true
+      },
+      {
+        "path": "src/Plugins/BotSharp.Plugin.LiteLLM/Using.cs",
+        "status": "added",
+        "blob_sha": "751f1aec8d246dd7dad85b96c173b74025e46fca",
+        "patch_sha256": "58c22eaf7a51c4eb60b2a7c1b211fa620ca0951a865571a4dffd5233abea8ba4",
+        "patch_available": true
+      },
+      {
+        "path": "src/WebStarter/WebStarter.csproj",
+        "status": "modified",
+        "blob_sha": "7af0d2ce5e2c5e3be6bb5effee02b0eb2466f34d",
+        "patch_sha256": "6a5859c285e1bedb2c4c99ed2cfa6e72a465a47673ed1e69a8c60586e8fb3bfa",
+        "patch_available": true
+      },
+      {
+        "path": "src/WebStarter/appsettings.json",
+        "status": "modified",
+        "blob_sha": "59c4186abc08a4a0a4a72046a19b4ba631633d6f",
+        "patch_sha256": "5e490e9839a89bede5ebddab31158ae718b3c01df2150cca25584a73c28fce7d",
+        "patch_available": true
+      },
+      {
+        "path": "tests/BotSharp.LLM.Tests/BotSharp.LLM.Tests.csproj",
+        "status": "modified",
+        "blob_sha": "d0181fadd8b1971cb19c945acafa260ea565eb4e",
+        "patch_sha256": "4c399d5e743300072e3af2a328afc38168ab2c38db3818f26b893ab89c933d2f",
+        "patch_available": true
+      },
+      {
+        "path": "tests/BotSharp.LLM.Tests/ChatCompletionTests.cs",
+        "status": "modified",
+        "blob_sha": "f96ed145345ef1fa97e151d52ef973d8f3836b90",
+        "patch_sha256": "c806cbfc879fdf6473d406b04e3bdaaf0bdb316368e517958606d1049814378c",
+        "patch_available": true
+      },
+      {
+        "path": "tests/BotSharp.LLM.Tests/Core/LLMProvider.cs",
+        "status": "modified",
+        "blob_sha": "b710147944dc31b83c622fee272a21f9d6965878",
+        "patch_sha256": "0c806ded293ab9f79339a9571227ae6ba65a2206c84a82f00b52c3dc02521c5c",
+        "patch_available": true
+      },
+      {
+        "path": "tests/BotSharp.LLM.Tests/Core/NullConversationService.cs",
+        "status": "added",
+        "blob_sha": "7ec9cd2f363f0cb8df1d8a7f89d552d3d94738ff",
+        "patch_sha256": "7e1511e88a843caefa27cf764c8a3833d9f9c542c7f142ecad91ed165c55a162",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "mnemox-ai/tradememory-protocol",
+    "number": 10,
+    "url": "https://github.com/mnemox-ai/tradememory-protocol/pull/10",
+    "author": "prodmanpd",
+    "created_at": "2026-08-10T18:23:20Z",
+    "state": "open",
+    "head_sha": "caacbaca9bc78c88e8120562da82aaaf546c6340",
+    "base_sha": "df74662939e931baae7d7dab2be1ad8e716180ea",
+    "integration": "python-sdk",
+    "constraints": [
+      {
+        "file": "pyproject.toml",
+        "specifier": ">=1.87,<2.0"
+      }
+    ],
+    "lock": null,
+    "evidence_file": "prs/mnemox-ai__tradememory-protocol__10.json",
+    "files": [
+      {
+        "path": "pyproject.toml",
+        "status": "modified",
+        "blob_sha": "aea2950b1a793855d3c3b4ef092d8bcbd62f2d0a",
+        "patch_sha256": "db2c6fd7e5361de04f0ecdc31e1193f326e8bacef96a3d6c8a1fb677e252d743",
+        "patch_available": true
+      },
+      {
+        "path": "src/tradememory/evolution/llm.py",
+        "status": "modified",
+        "blob_sha": "201d3a3bc6175bd63984a12158dfe5f85df2f345",
+        "patch_sha256": "f7ca330ad5eabf293326f40fa5031dfa1511d8a2ed47c45fb7fb5f227d59804b",
+        "patch_available": true
+      },
+      {
+        "path": "src/tradememory/evolution/re_evolution.py",
+        "status": "modified",
+        "blob_sha": "2a4f664b0cb47e25b910b0e5cd2b7aeb4a949611",
+        "patch_sha256": "63f7ddaa2c6785bdc51179074d024ca4e88c11d9bbcfe2964614dd985bf650c8",
+        "patch_available": true
+      },
+      {
+        "path": "src/tradememory/server.py",
+        "status": "modified",
+        "blob_sha": "00698ca613fb66337eaf8adbd3202e04acaa8581",
+        "patch_sha256": "ed306dee557ef9e761c4bc6875c78d03778c08fd9da215b1f88a3e24b993f146",
+        "patch_available": true
+      },
+      {
+        "path": "tests/test_evolution_litellm.py",
+        "status": "added",
+        "blob_sha": "4ea410b65d26083028b32050c3f4fa0cd5b73247",
+        "patch_sha256": "74472c23197c3fe5da4b81f792c835c1c9f759ea8bfc836e6c4a91980dfd9a6a",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "orneryd/NornicDB",
+    "number": 292,
+    "url": "https://github.com/orneryd/NornicDB/pull/292",
+    "author": "prodmanpd",
+    "created_at": "2026-08-10T19:08:10Z",
+    "state": "merged",
+    "head_sha": "d6eaab77ce0c62d5aac29441f134e570c5e051b0",
+    "base_sha": "8abc226963692a70327f9dd63b7d13f0fb602510",
+    "integration": "proxy-compatible",
+    "constraints": [],
+    "lock": null,
+    "evidence_file": "prs/orneryd__NornicDB__292.json",
+    "files": [
+      {
+        "path": "docs/operations/configuration.md",
+        "status": "modified",
+        "blob_sha": "6a7faa20f2b54958f7aff2139055eff299ee44bd",
+        "patch_sha256": "2f6465377af11e8ab53728bc6d4ca369870c16a733384b713d7771d65bbdf641",
+        "patch_available": true
+      },
+      {
+        "path": "docs/user-guides/heimdall-ai-assistant.md",
+        "status": "modified",
+        "blob_sha": "02ab645c5b0bcf049245afea68c4aacb6f4b5f34",
+        "patch_sha256": "56da357a800fadda14d630bc7b34388f98021642c8791956679d8a91f44cd468",
+        "patch_available": true
+      },
+      {
+        "path": "pkg/config/config.go",
+        "status": "modified",
+        "blob_sha": "f8cd8024b41db1dfde577a730ab55ecdf266ac81",
+        "patch_sha256": "b65adb30fdf63dd7f77606906ebeda6944b3b8f0a2b7d05a8e869b42acd5ba9d",
+        "patch_available": true
+      },
+      {
+        "path": "pkg/config/config_test.go",
+        "status": "modified",
+        "blob_sha": "1cff7bf88f99c1cc4528d19d2c8ee7317b971d1f",
+        "patch_sha256": "7f44a47ae9856a4995e07d3530023f1b1f58a0b83180e2c68e0f1fa0c54574bf",
+        "patch_available": true
+      },
+      {
+        "path": "pkg/heimdall/generator_litellm.go",
+        "status": "added",
+        "blob_sha": "f90c66db97af6109e14d26efed34f007bdc501a6",
+        "patch_sha256": "1746574789e34e258903b1abdde5ca4b8489687f17409b7473943f764637764c",
+        "patch_available": true
+      },
+      {
+        "path": "pkg/heimdall/generator_litellm_test.go",
+        "status": "added",
+        "blob_sha": "ce4fb22c95ab80fdcf43bc94ca4c4e6a372f6f1a",
+        "patch_sha256": "3db3347613ac427b43922cbe2a3880e020a1d145f6a61fd3442de69a27496eb4",
+        "patch_available": true
+      },
+      {
+        "path": "pkg/heimdall/scheduler.go",
+        "status": "modified",
+        "blob_sha": "f7bb62cc5f53ca2f28ab98b0054a791d91a95042",
+        "patch_sha256": "606040f5e6c01b7402e8617cbddbd3c2e9e876d62b0985835808f22dcff90f78",
+        "patch_available": true
+      },
+      {
+        "path": "pkg/heimdall/types.go",
+        "status": "modified",
+        "blob_sha": "b6f14d76ba4a9c2ffd7a2348788d189456fa08e9",
+        "patch_sha256": "89320b7d5bd88059be8aecd6488adb910678c561c983f82f8e6b52266487eac2",
+        "patch_available": true
+      },
+      {
+        "path": "pkg/heimdall/types_test.go",
+        "status": "modified",
+        "blob_sha": "13ebddf1e516365d184734471d4f99b0b726474d",
+        "patch_sha256": "bc3b717029122a039eaeff048d53556533bbccc661251c353772e1a5249436e2",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "VersusControl/versus-incident",
+    "number": 333,
+    "url": "https://github.com/VersusControl/versus-incident/pull/333",
+    "author": "prodmanpd",
+    "created_at": "2026-08-10T19:39:56Z",
+    "state": "open",
+    "head_sha": "2c33b7d7e0bcc2b50f02522931dc6c7b1aa0de14",
+    "base_sha": "eeb1e57dd7c80f563c9e3b70668be98bd4a0c8f4",
+    "integration": "proxy-compatible",
+    "constraints": [],
+    "lock": null,
+    "evidence_file": "prs/VersusControl__versus-incident__333.json",
+    "files": [
+      {
+        "path": "config/config.yaml",
+        "status": "modified",
+        "blob_sha": "ebe15c315e159b735ac1fcc4a23ef33d779991e1",
+        "patch_sha256": "61eb4f06770442d8c46e2855793046ed9229b8d6c8c7e564ed5ed8b08c2800de",
+        "patch_available": true
+      },
+      {
+        "path": "pkg/agent/ai/eino/holder.go",
+        "status": "modified",
+        "blob_sha": "5c58a69a68dca7462a92e76502a67e70b5422d4c",
+        "patch_sha256": "3dc1a6af78bc4ee550e79361b25fdc0a57503850a3dd1d59c23ea3ce32e42d67",
+        "patch_available": true
+      },
+      {
+        "path": "pkg/agent/ai/eino/provider.go",
+        "status": "modified",
+        "blob_sha": "76adf7cb39775e60acf8c039a95a06f507508d37",
+        "patch_sha256": "2d5962f4c50f7793ae6762fee60cc32a5d810187968c4fd556e0a86bfc3cc663",
+        "patch_available": true
+      },
+      {
+        "path": "pkg/agent/ai/eino/provider_test.go",
+        "status": "modified",
+        "blob_sha": "69745017e850018b815c8fd54ac88faed73aed35",
+        "patch_sha256": "9f1d61b5859b772b3f669d7393c78f616e2157af33e4b2b34febaabe872e3272",
+        "patch_available": true
+      },
+      {
+        "path": "pkg/agent/aisettings.go",
+        "status": "modified",
+        "blob_sha": "c7a78dd546cd9cf6a03e4ee2f2d7cedd26b03345",
+        "patch_sha256": "149b95075f2c9efd6c3437844d4c4609490469769833e2c1d6fc8b5f288e61e5",
+        "patch_available": true
+      },
+      {
+        "path": "pkg/config/agent.go",
+        "status": "modified",
+        "blob_sha": "25444f050b63fe5e43e0902a90a05ba03f0d8271",
+        "patch_sha256": "babc2bcf2840256d218a71ec2ffecbdf453b4e144799625609755e75667ce338",
+        "patch_available": true
+      },
+      {
+        "path": "pkg/config/default_config.yaml",
+        "status": "modified",
+        "blob_sha": "e45e4614ba59a413cf7a24867e2debde9349e509",
+        "patch_sha256": "6632cdc3af2b1c4abe4b8f3a2baa3d1b58d49110c1e4e5ecb403ab425cbf9964",
+        "patch_available": true
+      },
+      {
+        "path": "src/agent/configuration.md",
+        "status": "modified",
+        "blob_sha": "63d9df4aaf50cc5e162cf47f63f947298b270fe9",
+        "patch_sha256": "d8da336dcec22c7869453ad3d38add86cde02692bcdd93cda6205c0ffe6bab01",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "krishn404/Git-Friend",
+    "number": 15,
+    "url": "https://github.com/krishn404/Git-Friend/pull/15",
+    "author": "prodmanpd",
+    "created_at": "2026-08-10T19:53:42Z",
+    "state": "open",
+    "head_sha": "781c5117ee5971ea7954ff97b0e4f6c03ca2ebe4",
+    "base_sha": "0345a4ce5a53ee07012bf5588eb47a91e434afec",
+    "integration": "proxy-compatible",
+    "constraints": [],
+    "lock": null,
+    "evidence_file": "prs/krishn404__Git-Friend__15.json",
+    "files": [
+      {
+        "path": ".env.example",
+        "status": "modified",
+        "blob_sha": "1dae519fd9231f4d51f7ad8515f26e99de5fc08a",
+        "patch_sha256": "65a65ed384954c1cd9aff2d130bc4d447b2855075ac888bbbcd4c3f954a8c4e1",
+        "patch_available": true
+      },
+      {
+        "path": "README.md",
+        "status": "modified",
+        "blob_sha": "a925236bbfd2bbe1918b05f8eae399a013dbefc8",
+        "patch_sha256": "04a16fd61ef44aaf0529cee8a623d9c94139a29fac1bf67e9518d231cb8c066d",
+        "patch_available": true
+      },
+      {
+        "path": "app/api/chat/route.ts",
+        "status": "modified",
+        "blob_sha": "f4fe576d06f5db66a917f15898975020bf1aecf9",
+        "patch_sha256": "1621c4ad3744f46f55fb918c74cf87c44b164176c2251ab6f110ac84dd7139f4",
+        "patch_available": true
+      },
+      {
+        "path": "app/api/generate-readme/route.ts",
+        "status": "modified",
+        "blob_sha": "9b9ec1557d7d05f37a41825922db4b361b73a941",
+        "patch_sha256": "aa14ed07c3fd04d6968d27bfb8c098afdedaba88d712342db4525a04e2ad84c9",
+        "patch_available": true
+      },
+      {
+        "path": "app/api/suggestions/route.tsx",
+        "status": "modified",
+        "blob_sha": "ca5d4d57596e12e3d03f361f655b00f6dd69adea",
+        "patch_sha256": "8925be37bb903e48ff641cf815cd59e0be3c05435f55aaa8432129f6ffba0183",
+        "patch_available": true
+      },
+      {
+        "path": "lib/llm.ts",
+        "status": "added",
+        "blob_sha": "beb83a2e7a6ffb2a8a37203d133a6be5a31b85cf",
+        "patch_sha256": "49ed7c7eced2300f15140deffcf9e4c1409211f27a09944ae3c5c994ad060e24",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "MindWorkAI/AI-Studio",
+    "number": 909,
+    "url": "https://github.com/MindWorkAI/AI-Studio/pull/909",
+    "author": "prodmanpd",
+    "created_at": "2026-08-11T03:50:23Z",
+    "state": "merged",
+    "head_sha": "c7f90debbe2e927cb801fc861c1558597f68fcd1",
+    "base_sha": "2965102c536f6d3b2258d0c7ee2b34df29ac59ec",
+    "integration": "proxy-compatible",
+    "constraints": [],
+    "lock": null,
+    "evidence_file": "prs/MindWorkAI__AI-Studio__909.json",
+    "files": [
+      {
+        "path": "README.md",
+        "status": "modified",
+        "blob_sha": "72f2f3e0c5df02824d5a7e480f967ac4ba36cba9",
+        "patch_sha256": "0d5839ec817ad99dc6c79b16e371661e463847da0fd9c9fe1eeb56d0c10d6729",
+        "patch_available": true
+      },
+      {
+        "path": "app/MindWork AI Studio/Assistants/I18N/allTexts.lua",
+        "status": "modified",
+        "blob_sha": "d0bdf8c0adf4bd27fae2e7dc7d3cedf26d2bc33b",
+        "patch_sha256": "c2ddedadb48f55d69e273bbf8dc1934800322833785f7f63a938c5244c631e7b",
+        "patch_available": true
+      },
+      {
+        "path": "app/MindWork AI Studio/Pages/Home.razor.cs",
+        "status": "modified",
+        "blob_sha": "c140d900afd94447a35a36ba4e8b81178aea3b2a",
+        "patch_sha256": "5532dda4bcb390d2fbd3155f0d04ba577f86265dfeba3fdafc29f108130a210f",
+        "patch_available": true
+      },
+      {
+        "path": "app/MindWork AI Studio/Plugins/configuration/plugin.lua",
+        "status": "modified",
+        "blob_sha": "747ae2efa1f3154be271a068cdddb8397f345655",
+        "patch_sha256": "b65c821425f988cac8e3fa6423f318585e54408a6d8f3234df6f9dc234b141ac",
+        "patch_available": true
+      },
+      {
+        "path": "app/MindWork AI Studio/Plugins/languages/de-de-43065dbc-78d0-45b7-92be-f14c2926e2dc/plugin.lua",
+        "status": "modified",
+        "blob_sha": "f93095be70425da5ce8392fe92349b9525ecbd2c",
+        "patch_sha256": "d6987e5161019d49be362b71080ec260b79b5c402499f22085bcdcb1143038c7",
+        "patch_available": true
+      },
+      {
+        "path": "app/MindWork AI Studio/Plugins/languages/en-us-97dfb1ba-50c4-4440-8dfa-6575daf543c8/plugin.lua",
+        "status": "modified",
+        "blob_sha": "ff2afa5f50988826a48073a9d6b52c031086798c",
+        "patch_sha256": "ce741993a6856e2e89847f22a8a3af4d72b41f4e28762fea23e48fe9f27e3cec",
+        "patch_available": true
+      },
+      {
+        "path": "app/MindWork AI Studio/Provider/BaseProvider.cs",
+        "status": "modified",
+        "blob_sha": "f0108a8d9e77809b9f21456f3967afc6dbc2202e",
+        "patch_sha256": "d1714a6c9b7288391d23178f3e3f24baa317b7046058172e474980dd73b8a3a9",
+        "patch_available": true
+      },
+      {
+        "path": "app/MindWork AI Studio/Provider/Confidence.cs",
+        "status": "modified",
+        "blob_sha": "a0e058ff5a8edfa29a56845c19a73d3f50408866",
+        "patch_sha256": "1b7a0abbcf95eb401ddb2dcd3707f97b7d57a6893d338b985b07cc649be7b6c3",
+        "patch_available": true
+      },
+      {
+        "path": "app/MindWork AI Studio/Provider/LLMProviders.cs",
+        "status": "modified",
+        "blob_sha": "f682bd0b4a5c31313e7daa5c496e7cec05a1a00c",
+        "patch_sha256": "67c00957ac6c297a008a215fb951dc38abd7b7bf3a913dbaef63a8f1b2001c3a",
+        "patch_available": true
+      },
+      {
+        "path": "app/MindWork AI Studio/Provider/LLMProvidersExtensions.cs",
+        "status": "modified",
+        "blob_sha": "596a06f68f326434c584518d54d2954b8eb3c5df",
+        "patch_sha256": "8e3e337b3754db9fef8e9e685156130ef00584e75c207a51928495c22c6e0997",
+        "patch_available": true
+      },
+      {
+        "path": "app/MindWork AI Studio/Provider/LLMProvidersIconExtensions.cs",
+        "status": "modified",
+        "blob_sha": "66264cacc3166de2b200f65427e6838b7d4a26cf",
+        "patch_sha256": "ef0a975d2537f51faa89407cd06c175e6a8cff6b1ec67d2135551581e7ec6c76",
+        "patch_available": true
+      },
+      {
+        "path": "app/MindWork AI Studio/Provider/LiteLLM/ProviderLiteLLM.cs",
+        "status": "added",
+        "blob_sha": "462bce34ce6b47fafd3bca57e1f17e644ac35a02",
+        "patch_sha256": "5d98098e016fc6ff2ba03526d53d5646e056d7b19406a21b028363f6017a20d8",
+        "patch_available": true
+      },
+      {
+        "path": "app/MindWork AI Studio/Settings/ProviderExtensions.Reasoning.cs",
+        "status": "modified",
+        "blob_sha": "25d687b4cce65f0f47b01095b3bca38b0aded7e2",
+        "patch_sha256": "6932e6b3917702141a14a0d796ee0e0718e58fb6ee00773a7c41f259dc3c805f",
+        "patch_available": true
+      },
+      {
+        "path": "app/MindWork AI Studio/Settings/ProviderExtensions.cs",
+        "status": "modified",
+        "blob_sha": "513235fdc45090b1b9aea9f305d394d507376786",
+        "patch_sha256": "5760c6e24e6a571ba704e7f060c3ebf3952e00cb552196d5f4d8b53344762be1",
+        "patch_available": true
+      },
+      {
+        "path": "app/MindWork AI Studio/Tools/Validation/ProviderValidation.cs",
+        "status": "modified",
+        "blob_sha": "4a14061441f679c1b12e0fb2bc0a3a153f0f4aed",
+        "patch_sha256": "fc74f0e32de8cd8a412c2bb117dda7b26f20ae1e2df83ca7cc76e3d5b05f4501",
+        "patch_available": true
+      },
+      {
+        "path": "app/MindWork AI Studio/wwwroot/changelog/v26.8.2.md",
+        "status": "modified",
+        "blob_sha": "8045f174509870102544a36f52fa2859f8790b94",
+        "patch_sha256": "1a48d91f0a89ae8372704d81daa262f01f4903a3f427c6019485ee1aa0191463",
+        "patch_available": true
+      },
+      {
+        "path": "app/MindWork AI Studio/wwwroot/images/provider-icons/README.md",
+        "status": "modified",
+        "blob_sha": "4bf0d75bdcb5f6e3096628fd0b22c09dd7169c0d",
+        "patch_sha256": "e9aeb2e8cf2ec26eab0b13076f65eaaf2509e1e6f8e49c8bda9fdc282eaeff88",
+        "patch_available": true
+      },
+      {
+        "path": "app/MindWork AI Studio/wwwroot/images/provider-icons/litellm.svg",
+        "status": "added",
+        "blob_sha": "2b24d9ab3ab5939454f83a2ef4068b8bb617cd5c",
+        "patch_sha256": "324ff1a71b06994802eddd152d565f7d3691b7d3cfe2cebbec42c4a8fb2b96c5",
+        "patch_available": true
+      },
+      {
+        "path": "runtime/packaging/linux/org.mindworkai.AIStudio.metainfo.xml",
+        "status": "modified",
+        "blob_sha": "c2ed6a45abbc17f94c75490a61a5dd50a0af6504",
+        "patch_sha256": "2c821b13b59b0c71142750a2e734320b0beb406cacf30c6f60e04b8ef7e137ce",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "nextai-translator/nextai-translator",
+    "number": 1905,
+    "url": "https://github.com/nextai-translator/nextai-translator/pull/1905",
+    "author": "prodmanpd",
+    "created_at": "2026-08-11T05:45:55Z",
+    "state": "merged",
+    "head_sha": "e31b8202fed2c7eae90abc831d51c04ceaa8c5f9",
+    "base_sha": "19e1c7f599b79705d6c71b17f774bf16dccc3e26",
+    "integration": "proxy-compatible",
+    "constraints": [],
+    "lock": null,
+    "evidence_file": "prs/nextai-translator__nextai-translator__1905.json",
+    "files": [
+      {
+        "path": "src/common/components/Settings.tsx",
+        "status": "modified",
+        "blob_sha": "5ac263a0aa3970d9a28f6226ce3b265b9fbde1b3",
+        "patch_sha256": "52c6d919b77a5c7373ceac1ce8b8151241a24bb151bd508e1f4bb25da7136056",
+        "patch_available": true
+      },
+      {
+        "path": "src/common/components/icons/LiteLLMIcon.tsx",
+        "status": "added",
+        "blob_sha": "364e0613422261b4da4ac75f56075a5f90e8ad73",
+        "patch_sha256": "3bb3b1206e7803d19de456652eefd922a857e50431ecc4117226a77a62dbfc41",
+        "patch_available": true
+      },
+      {
+        "path": "src/common/engines/index.ts",
+        "status": "modified",
+        "blob_sha": "87b31b629f34e093839a63b05169a213788cbf7a",
+        "patch_sha256": "46a59d77833016706a6d1c0cd94f504b6d74e7527f6d8d1bc662940d5b142156",
+        "patch_available": true
+      },
+      {
+        "path": "src/common/engines/litellm.spec.ts",
+        "status": "added",
+        "blob_sha": "dc4e94dad086ebc5e5a7e93f6ea2fa8099a27dff",
+        "patch_sha256": "4cdaf75206229c5f597eb749a56930202878dea6560e632b023c8ad0dccfeb9c",
+        "patch_available": true
+      },
+      {
+        "path": "src/common/engines/litellm.ts",
+        "status": "added",
+        "blob_sha": "34cc7af8816725c95f2c8cbd4a7a315c4d792806",
+        "patch_sha256": "2aa9360fccbde21b59a37eb91d3028bd23d0ced21e616eaf20ebd124d8e1a47e",
+        "patch_available": true
+      },
+      {
+        "path": "src/common/types.ts",
+        "status": "modified",
+        "blob_sha": "b631e35a8b90ff5bdfa35414e3379cffe583b2c4",
+        "patch_sha256": "6667d2a9f708cb41154a25c5376380e98bac40fe0e95b644b0c0a61747583c9f",
+        "patch_available": true
+      },
+      {
+        "path": "src/common/utils.ts",
+        "status": "modified",
+        "blob_sha": "d883de4947f996c3ec9660407733251e05e9a57d",
+        "patch_sha256": "35c8345bf941326b9bb636decfa783c1d3ffa56d202f2a169e017f6045f8ad56",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "StarTrail-org/LEANN",
+    "number": 395,
+    "url": "https://github.com/StarTrail-org/LEANN/pull/395",
+    "author": "prodmanpd",
+    "created_at": "2026-08-17T14:22:17Z",
+    "state": "merged",
+    "head_sha": "194482ef54dc86bdecbe9728040a26c801244358",
+    "base_sha": "dc85934f318c9c7f981cbe9b66042d00ec2cb634",
+    "integration": "python-sdk",
+    "constraints": [
+      {
+        "file": "packages/leann-core/pyproject.toml",
+        "specifier": ">=1.85.0,<2.0"
+      }
+    ],
+    "lock": null,
+    "evidence_file": "prs/StarTrail-org__LEANN__395.json",
+    "files": [
+      {
+        "path": ".github/workflows/build-reusable.yml",
+        "status": "modified",
+        "blob_sha": "c16d8f915dc4d032266b8e4ceb965460f306fc92",
+        "patch_sha256": "3d158d80c60dfe85b05d735859b5750587fbfadeb753a13767e4da2665ae0527",
+        "patch_available": true
+      },
+      {
+        "path": "apps/base_rag_example.py",
+        "status": "modified",
+        "blob_sha": "0618ed27abd53137467895c245085332a04f3fe8",
+        "patch_sha256": "a81451073f754991ee3e27f4eecaba0546989f6457dab05954caaa0bd79cbedb",
+        "patch_available": true
+      },
+      {
+        "path": "docs/configuration-guide.md",
+        "status": "modified",
+        "blob_sha": "06fc1faf65d4c8c73945a2455f2d439dcf9f7dc8",
+        "patch_sha256": "d680e10381ced798e15888e0dce989da9406d469bb38a0b9567b14d4ee20a35b",
+        "patch_available": true
+      },
+      {
+        "path": "packages/leann-core/pyproject.toml",
+        "status": "modified",
+        "blob_sha": "c9040e0d3924dbf1ff333547e46c5197d2ff1bd4",
+        "patch_sha256": "7a9aa1a037de57ef12ca3c540a66624f8546a27a4c2506e61a0f6782d8e7498e",
+        "patch_available": true
+      },
+      {
+        "path": "packages/leann-core/src/leann/chat.py",
+        "status": "modified",
+        "blob_sha": "f55d2fc3aa0bdc43a0cd6b280f572aa4917df0fd",
+        "patch_sha256": "71ee8acdd680b2962925f869ab43a6b596a6e0a845603b4ce178f5c894481ced",
+        "patch_available": true
+      },
+      {
+        "path": "packages/leann-core/src/leann/cli.py",
+        "status": "modified",
+        "blob_sha": "1511e66ef10653ecac145959663eafb28b98efd3",
+        "patch_sha256": "2df100058a252159ecb3b825f91046499bd0a80a7cadc6a7b993356fbdcc68d4",
+        "patch_available": true
+      },
+      {
+        "path": "packages/leann-core/src/leann/settings.py",
+        "status": "modified",
+        "blob_sha": "491c0c83461c92005afd0ca22bd0b004fb0280e0",
+        "patch_sha256": "784a55d4079d808207948c56800caf0008608fa1f4c95c1b4cf3742451f12369",
+        "patch_available": true
+      },
+      {
+        "path": "tests/test_litellm_provider.py",
+        "status": "added",
+        "blob_sha": "7fd58f65bd91f7a79e701006a930fdf23493f5d5",
+        "patch_sha256": "77a59979917bfc584f410becbbe5d7b7f31e5b66a39ee7155aeee5c30ef7c6f8",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "SWE-bench/SWE-bench",
+    "number": 639,
+    "url": "https://github.com/SWE-bench/SWE-bench/pull/639",
+    "author": "prodmanpd",
+    "created_at": "2026-08-17T14:32:55Z",
+    "state": "merged",
+    "head_sha": "89d3f912cd0762f9b9792f845db26f4144a10ede",
+    "base_sha": "18dd4dc84b12cd04119d4bde423048f984b2a344",
+    "integration": "python-sdk",
+    "constraints": [
+      {
+        "file": "pyproject.toml",
+        "specifier": ">=1.85.0,<2.0"
+      },
+      {
+        "file": "pyproject.toml",
+        "specifier": ">=1.85.0,<2.0"
+      }
+    ],
+    "lock": {
+      "pr": "https://github.com/SWE-bench/SWE-bench/pull/639",
+      "version": "1.98.0",
+      "artifacts": 8,
+      "mismatches": [],
+      "source": {
+        "registry": "https://pypi.org/simple"
+      }
+    },
+    "evidence_file": "prs/SWE-bench__SWE-bench__639.json",
+    "files": [
+      {
+        "path": "pyproject.toml",
+        "status": "modified",
+        "blob_sha": "89b32ca6fd3f23517d142f0be6a334a91855560e",
+        "patch_sha256": "fc5d2215cb4976ea8784f4cba01cc718467a96e043770c6070163c90c7c06f45",
+        "patch_available": true
+      },
+      {
+        "path": "swebench/inference/run_api.py",
+        "status": "modified",
+        "blob_sha": "d65afe25d0c0f3434dfe3c055c2b0d81153e71c7",
+        "patch_sha256": "61d14138207d96041e22f92593945aced0346fcb921369a07ff0e60c65f734ba",
+        "patch_available": true
+      },
+      {
+        "path": "tests/test_inference_litellm.py",
+        "status": "added",
+        "blob_sha": "46501330883114396584782e60a8dc91dc82f5e1",
+        "patch_sha256": "2b0d72c4ad2bd35db7749c68e5e95877785da4e211e6b64a46ca4473a7b1a62c",
+        "patch_available": true
+      },
+      {
+        "path": "uv.lock",
+        "status": "modified",
+        "blob_sha": "36d98cbe151ef797d38450adebb9c8f8eedfeb4f",
+        "patch_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "patch_available": false
+      }
+    ]
+  },
+  {
+    "repository": "buxuku/SmartSub",
+    "number": 448,
+    "url": "https://github.com/buxuku/SmartSub/pull/448",
+    "author": "prodmanpd",
+    "created_at": "2026-08-17T14:40:59Z",
+    "state": "open",
+    "head_sha": "e18426a0d8f790adc47dbbdc60b811c43343d98d",
+    "base_sha": "27459b3fd0652bc5447ccf4ab30cb398014c35f7",
+    "integration": "proxy-compatible",
+    "constraints": [],
+    "lock": null,
+    "evidence_file": "prs/buxuku__SmartSub__448.json",
+    "files": [
+      {
+        "path": ".github/workflows/ci.yml",
+        "status": "modified",
+        "blob_sha": "e4053cd611b06d35d7af76157b557d01da0d64de",
+        "patch_sha256": "2d18054f1c97d130a083b4b09a5ff42bb57debb6a93e9d8ebe2a1f7d3d33acf2",
+        "patch_available": true
+      },
+      {
+        "path": "main/helpers/providerManager.ts",
+        "status": "modified",
+        "blob_sha": "1e21d9e7151f2df0534ee590f27f8388fbfa4b97",
+        "patch_sha256": "c1615cdb329c10954f4a7add5fb64e3f33bd5fd3a6b5b755ace0fc7a5ce1f87f",
+        "patch_available": true
+      },
+      {
+        "path": "main/service/thinkingControl.ts",
+        "status": "modified",
+        "blob_sha": "1214716fa3dde38683840abc2f57f5118783647a",
+        "patch_sha256": "bb6d6fb8bc2e2219c037552d78aa3b3080215fcec28d2758275ac3f163b2aaa2",
+        "patch_available": true
+      },
+      {
+        "path": "main/translate/services/translationProvider.ts",
+        "status": "modified",
+        "blob_sha": "7e0d7240c2d8675c8bafe5c6c5c2b143acf86b5f",
+        "patch_sha256": "327f5060cfec86db93d39a4067e195354ffc8a89c5974bc1d960668d4d3cb958",
+        "patch_available": true
+      },
+      {
+        "path": "package.json",
+        "status": "modified",
+        "blob_sha": "af1e067e1465cae3d204f2113ba988ec06f3336e",
+        "patch_sha256": "19534df12ee217455897346ccd5a8f539f2b3b781d2f54513996eea6469f6863",
+        "patch_available": true
+      },
+      {
+        "path": "renderer/public/locales/en/translateControl.json",
+        "status": "modified",
+        "blob_sha": "b2eb4948eb43744423a825c9af6d3b51297e60f0",
+        "patch_sha256": "deea22fd57abb99a2ba04f911d2f50832ed23b6b98c74e2262e0c0f81843ac99",
+        "patch_available": true
+      },
+      {
+        "path": "renderer/public/locales/zh/translateControl.json",
+        "status": "modified",
+        "blob_sha": "81733884c6f2e1a9a4679241fb3b925121e0364d",
+        "patch_sha256": "eab27a7eefccc58d9bcdfac643193bfbfed8d6cb9fb0f95e941763d52a28d832",
+        "patch_available": true
+      },
+      {
+        "path": "scripts/test-litellm-provider.ts",
+        "status": "added",
+        "blob_sha": "9fd76a69dbb6e14cf69b040188211a2c84e04ac1",
+        "patch_sha256": "c321bd75e007803d8a50ff1d7b067959d097179435fd9047ee5936d3d25c4e0c",
+        "patch_available": true
+      },
+      {
+        "path": "types/provider.ts",
+        "status": "modified",
+        "blob_sha": "15e0ae599d08c90ab669a667200f26eb74056fbf",
+        "patch_sha256": "c6d932aafb4d3d5b9318b1dffa652d77ef24f5cbc06c2186369b5e5565a8c12d",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "TIGER-AI-Lab/ClawBench",
+    "number": 288,
+    "url": "https://github.com/TIGER-AI-Lab/ClawBench/pull/288",
+    "author": "prodmanpd",
+    "created_at": "2026-08-17T15:30:34Z",
+    "state": "closed",
+    "head_sha": "a5d00b9d2b0165aae3dee9cd74f60b008f0c9609",
+    "base_sha": "b6f1af5172284f82938b08ca67be498ee111bc3c",
+    "integration": "python-sdk",
+    "constraints": [
+      {
+        "file": "pyproject.toml",
+        "specifier": ">=1.85.0,<2.0"
+      }
+    ],
+    "lock": null,
+    "evidence_file": "prs/TIGER-AI-Lab__ClawBench__288.json",
+    "files": [
+      {
+        "path": "pyproject.toml",
+        "status": "modified",
+        "blob_sha": "8dc196049a120963def8e8a31f08abd52ba43c28",
+        "patch_sha256": "a2dba3f0486c7255a07d152deedf1ec6dcd4d4351fb9603110d43ca23ac1c051",
+        "patch_available": true
+      },
+      {
+        "path": "src/clawbench/runner/judge.py",
+        "status": "modified",
+        "blob_sha": "dec0b8102b84e7cc4bf9648d4513fc782b480ef9",
+        "patch_sha256": "30e48b05d9041ed9eb426ad33118906fd91609820d91aa05dd79c526d4d16b49",
+        "patch_available": true
+      },
+      {
+        "path": "src/clawbench/runner/judge_llm.py",
+        "status": "modified",
+        "blob_sha": "86619d33f04030faef92aefe1c06e87b67b9fb29",
+        "patch_sha256": "d036824a44eec44d3ce55159c3b0fa9a6f3cf1f1230fe163916cc4c2f8e9fbff",
+        "patch_available": true
+      },
+      {
+        "path": "src/clawbench/runner/run_support/api_preflight.py",
+        "status": "modified",
+        "blob_sha": "417ea1bbf97192a83d29fbf1dcb09eed08f83688",
+        "patch_sha256": "f465a2dbc5bd0576dbefb90143d431d082d737f34e9298d61b6a332f920ab55a",
+        "patch_available": true
+      },
+      {
+        "path": "src/clawbench/tui.py",
+        "status": "modified",
+        "blob_sha": "c4448b4d29fa267da07ad8b9f44156e77e5e6e2c",
+        "patch_sha256": "56f7efc9f45c988256df6e10a46ebce6d0fd05ab07baa8a2617f59a320ffef34",
+        "patch_available": true
+      },
+      {
+        "path": "tests/test_judge_litellm.py",
+        "status": "added",
+        "blob_sha": "bb407d82a601799c2d1aa1380ce7465b593d7ffe",
+        "patch_sha256": "458265934ca610d80b7a46f950550adca7886ba799da22fb23766672165d154d",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "trpc-group/trpc-agent-go",
+    "number": 2484,
+    "url": "https://github.com/trpc-group/trpc-agent-go/pull/2484",
+    "author": "prodmanpd",
+    "created_at": "2026-08-17T15:39:58Z",
+    "state": "open",
+    "head_sha": "ccae1e0832bf52bb1412a668135cf6f23b284629",
+    "base_sha": "ba4a78e7523497947d8d9479cf646aa37f352b96",
+    "integration": "proxy-compatible",
+    "constraints": [],
+    "lock": null,
+    "evidence_file": "prs/trpc-group__trpc-agent-go__2484.json",
+    "files": [
+      {
+        "path": "docs/mkdocs/en/model.md",
+        "status": "modified",
+        "blob_sha": "70bb8ca9b042bc45e3e2929c3c754cd62cd4f618",
+        "patch_sha256": "aa1a5f224a75e800e0ad3f197959ac6609fe3628bcacbbdb07cc5c43a163cdfe",
+        "patch_available": true
+      },
+      {
+        "path": "model/openai/openai.go",
+        "status": "modified",
+        "blob_sha": "946a5ac2715bc55164d6cd7f08786bbcd8fad60c",
+        "patch_sha256": "1bfbb2f319911235a81209490eb81c970978f22ec4686719af06e6b58fa958ed",
+        "patch_available": true
+      },
+      {
+        "path": "model/openai/openai_test.go",
+        "status": "modified",
+        "blob_sha": "664ec94b0fb9e498e022daea1c0456e57b1a5757",
+        "patch_sha256": "bfa9e3e02f9221810974ad62a5fa56658dac0f8008442e29d12787f954842f84",
+        "patch_available": true
+      },
+      {
+        "path": "model/openai/options.go",
+        "status": "modified",
+        "blob_sha": "6b50d5cd940a7c31ecfbc9e33bcf529fea2cc1dc",
+        "patch_sha256": "fc38ea0ead452ea0e72c16df44599f8e4dd2e908f59b729aa3e71349ef0a6b10",
+        "patch_available": true
+      },
+      {
+        "path": "model/provider/provider.go",
+        "status": "modified",
+        "blob_sha": "6deb93f234ecf86c52596c3de7c27948921275b5",
+        "patch_sha256": "a5cd9171e355f06ee456626e34819b8059420b3454afc6f11c3c105b569e2085",
+        "patch_available": true
+      },
+      {
+        "path": "model/provider/provider_test.go",
+        "status": "modified",
+        "blob_sha": "0617b3ebc2d2fdc7a2b4e9cff30deaa079d3b038",
+        "patch_sha256": "fab0835db9ebb830be6dceb0a0b4794ef3549c1987825b52d7fbd5b5bf11573f",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "jianchang512/pyvideotrans",
+    "number": 1181,
+    "url": "https://github.com/jianchang512/pyvideotrans/pull/1181",
+    "author": "prodmanpd",
+    "created_at": "2026-08-17T15:49:53Z",
+    "state": "merged",
+    "head_sha": "2531e6bd5e950ca9c9a113c9e93c77776e76810a",
+    "base_sha": "12e30723fc11a2f260c2b4b678102c21021fe44a",
+    "integration": "python-sdk",
+    "constraints": [
+      {
+        "file": "pyproject.toml",
+        "specifier": ">=1.85.0,<2.0"
+      }
+    ],
+    "lock": null,
+    "evidence_file": "prs/jianchang512__pyvideotrans__1181.json",
+    "files": [
+      {
+        "path": "pyproject.toml",
+        "status": "modified",
+        "blob_sha": "8dc134ffc1582aeb41b48b796a57266bcd5d5be5",
+        "patch_sha256": "af36fd87e652287e7228d7dcdb61c86c739cc25f73ea222f177803795a04a35b",
+        "patch_available": true
+      },
+      {
+        "path": "tests/test_translator_split.py",
+        "status": "modified",
+        "blob_sha": "e12dcab6bbdef96dee55b80f447e9438d4b4d006",
+        "patch_sha256": "d7422a6877429b391c92790589ac9df589168fb27b1d6bf8e750a05d36eb5417",
+        "patch_available": true
+      },
+      {
+        "path": "tests/test_ui_en_split.py",
+        "status": "modified",
+        "blob_sha": "6f78b30f243cf92178051e5814ad06e0b932cf73",
+        "patch_sha256": "8ee23c26fe4f057053fef93be57b2d42122470f126c0ffd9f4df19fcf81ed5cd",
+        "patch_available": true
+      },
+      {
+        "path": "videotrans/component/set_form.py",
+        "status": "modified",
+        "blob_sha": "6bf2e2c8cdc1e5b28a7c13e4615020f56e0d660b",
+        "patch_sha256": "54c393adb809183853df8a1ac01900fad617fd44c00cbb2c999e033bc4f40da2",
+        "patch_available": true
+      },
+      {
+        "path": "videotrans/configure/_app_params.py",
+        "status": "modified",
+        "blob_sha": "49710607ec0f8b57477a8a05246a1d84e038939e",
+        "patch_sha256": "4d63bb09c874aea45322087992b4cd6d0910a6debba35d9915b12af32982c748",
+        "patch_available": true
+      },
+      {
+        "path": "videotrans/configure/_app_settings.py",
+        "status": "modified",
+        "blob_sha": "7048dc0da22c3044a3581c9ba670eb55a2b46790",
+        "patch_sha256": "47bb490781765fa47d819d08e07254508b5974b2942460e7709cd7c3d88c6a58",
+        "patch_available": true
+      },
+      {
+        "path": "videotrans/configure/contants.py",
+        "status": "modified",
+        "blob_sha": "9792248340b5c02d60aaa0d2d961567ccf80f568",
+        "patch_sha256": "1799286f8cef3016e037518c6682b35e92cac6641bfac0a96d6778d508781496",
+        "patch_available": true
+      },
+      {
+        "path": "videotrans/mainwin/_bind_signals.py",
+        "status": "modified",
+        "blob_sha": "442ee99f34b9fe84200ca3410e6d386f40ae9743",
+        "patch_sha256": "a62d3e5bd88a4b043c65dfecb0d12acb322c849075f844bb62ec013c1958b61f",
+        "patch_available": true
+      },
+      {
+        "path": "videotrans/prompts/srt/litellm.txt",
+        "status": "added",
+        "blob_sha": "033696f697dc5571e6c0a6f9bc5a065ba920e23d",
+        "patch_sha256": "09dbc2a7ccc936639a97217ed3c825dcb582cce25d528d8e5091be9b196e5129",
+        "patch_available": true
+      },
+      {
+        "path": "videotrans/prompts/text/litellm.txt",
+        "status": "added",
+        "blob_sha": "4cf2d265a9f8f520ea43b1f6818dcf26e7e8c64b",
+        "patch_sha256": "7463b9ace49ab5231bf1cb9134a36cfcc203553cdf26be542d21455ae1cb05ba",
+        "patch_available": true
+      },
+      {
+        "path": "videotrans/translator/__init__.py",
+        "status": "modified",
+        "blob_sha": "e00a2eb4c7411c11f6d1627552801a6683f07bce",
+        "patch_sha256": "8162fc8d4f2a121ea4fe247f8d82e6cc7055b3214891c2283a1edae8ba8ebb27",
+        "patch_available": true
+      },
+      {
+        "path": "videotrans/translator/_constants.py",
+        "status": "modified",
+        "blob_sha": "1f672d347aead4fa5d6a17b4a318dd5788690dc6",
+        "patch_sha256": "7ca572b24939a8eecea30b647582ddbb66cb4230ce9932f48609827c476cb9ec",
+        "patch_available": true
+      },
+      {
+        "path": "videotrans/translator/_litellm.py",
+        "status": "added",
+        "blob_sha": "0a817be6a7a77e45389b3580f1a2b86fec950495",
+        "patch_sha256": "8453ad3954df0dfaba3dad6f21eb8e2686bb3aaeb3eb555684b35f69451d94b7",
+        "patch_available": true
+      },
+      {
+        "path": "videotrans/translator/_openaicompat.py",
+        "status": "modified",
+        "blob_sha": "524a1110105a2440f96b127ef953af87f2450af2",
+        "patch_sha256": "16601cdabfba06ffa5e024403667f7ae2290233c22760f998e164f0b2eea7872",
+        "patch_available": true
+      },
+      {
+        "path": "videotrans/translator/_registry.py",
+        "status": "modified",
+        "blob_sha": "8f45dd4e50a98737ec0fe9526a26a22a477f8b59",
+        "patch_sha256": "78c6488c78df6616967666c6f850cdb83f0f11efc4ea105dcc4245472eb981c1",
+        "patch_available": true
+      },
+      {
+        "path": "videotrans/ui/_setup_menus.py",
+        "status": "modified",
+        "blob_sha": "33bec1380b342d4a0def6d65bf68f0b5309c55bf",
+        "patch_sha256": "69272a8fcea7e23df12273136d7eca0efc2b95026e54e4ec1e32f0c298c3395b",
+        "patch_available": true
+      },
+      {
+        "path": "videotrans/ui/en.py",
+        "status": "modified",
+        "blob_sha": "e9b21556f65cc6c85ea21fd585783bbc78a022a6",
+        "patch_sha256": "a8c8efad3298698c68f6c010e69467e1a922726989ee4193fc202c20c411af40",
+        "patch_available": true
+      },
+      {
+        "path": "videotrans/ui/litellm.py",
+        "status": "added",
+        "blob_sha": "55818d757548c6661b66dd144bfd1823e2f45907",
+        "patch_sha256": "1232967744f8c9dab1ecb13fe3958165ba7b8c834676b995a56afceae9f895f7",
+        "patch_available": true
+      },
+      {
+        "path": "videotrans/winform/__init__.py",
+        "status": "modified",
+        "blob_sha": "5d556dc6c4bae2a5eccd50b35a0a312691e802f6",
+        "patch_sha256": "0e128957e8c6149e66333ba687aa0a11179895f27aee57c7f8ea01f36dabd87b",
+        "patch_available": true
+      },
+      {
+        "path": "videotrans/winform/litellm.py",
+        "status": "added",
+        "blob_sha": "a5db193538e18aaeac3dc7a18346359132971953",
+        "patch_sha256": "93d31eb783a252db6f667437ce447ff8d3a8cb0d92a609f7415b35182420965b",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "lofcz/LLMTornado",
+    "number": 186,
+    "url": "https://github.com/lofcz/LLMTornado/pull/186",
+    "author": "prodmanpd",
+    "created_at": "2026-08-17T15:57:55Z",
+    "state": "merged",
+    "head_sha": "7479d068d8b8fc717a7a0cfa3108a701369b7f56",
+    "base_sha": "da83d3ccfa26fbaeed32450025ec4a7055becff8",
+    "integration": "proxy-compatible",
+    "constraints": [],
+    "lock": null,
+    "evidence_file": "prs/lofcz__LLMTornado__186.json",
+    "files": [
+      {
+        "path": "README.md",
+        "status": "modified",
+        "blob_sha": "31c4e24f7b3e22a9d60343cf5cf19d78eae2603d",
+        "patch_sha256": "d5eb117f6cc4abfaeccc6739c477a5a57113a1acff72b7ed41afdf60efa2cda0",
+        "patch_available": true
+      },
+      {
+        "path": "src/LlmTornado.Demo/ChatDemo2.cs",
+        "status": "modified",
+        "blob_sha": "9714ad954663589f2f139167411e24c670ac7927",
+        "patch_sha256": "5a521ef5b34dfd2c5112b5f8d615109944acdd62f913e5af00dc284d403a74f3",
+        "patch_available": true
+      },
+      {
+        "path": "src/LlmTornado.Demo/Program.cs",
+        "status": "modified",
+        "blob_sha": "80f4edef9f78eae1585fe75e1ffcaf09bf8566fe",
+        "patch_sha256": "01e8eb520d30a2d1ea54f259bf8f271cf7fcdde6cffb5d9736c3277711392aba",
+        "patch_available": true
+      },
+      {
+        "path": "src/LlmTornado.Tests/LiteLlmProviderTests.cs",
+        "status": "added",
+        "blob_sha": "f3a1b05e3f99745008716683cf977adf29d9e8be",
+        "patch_sha256": "a1663e0463c735c60a7ee914c933b26fd180c835ed73ca18a1e77902e69e645c",
+        "patch_available": true
+      },
+      {
+        "path": "src/LlmTornado/Chat/ChatRequest.cs",
+        "status": "modified",
+        "blob_sha": "97f1772861a1fc62eecb1dc3e5a8305b9f42aa76",
+        "patch_sha256": "0f4a3e1af0a2b7df6ba56197dd5f354b8322b045f7d5ad195b2131f593e1d0ac",
+        "patch_available": true
+      },
+      {
+        "path": "src/LlmTornado/Code/EndpointProviderConverter.cs",
+        "status": "modified",
+        "blob_sha": "14bf5394d1eb8f3900c4a39eb4b7898622dab8e5",
+        "patch_sha256": "12b5b0958a25b4940a5e9df0bb050b51c24c520cf0e76c8c1df32b6121cdd11b",
+        "patch_available": true
+      },
+      {
+        "path": "src/LlmTornado/Code/PartialModels.cs",
+        "status": "modified",
+        "blob_sha": "2469b86cdc7559b7bb1c604658526d3de7daa236",
+        "patch_sha256": "cb54fdafc279dd0252997c0c325ec34b04239a7bcf31e3e4b8eb1c7b996c966b",
+        "patch_available": true
+      },
+      {
+        "path": "src/LlmTornado/Embedding/EmbeddingRequest.cs",
+        "status": "modified",
+        "blob_sha": "113d6581948e917240d00a8ce5eb8b38ae964d99",
+        "patch_sha256": "471fc3a78e8b7f95f20762fa06094961c09a53314a7510db8f8db442a134cd09",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "continuedev/continue",
+    "number": 13151,
+    "url": "https://github.com/continuedev/continue/pull/13151",
+    "author": "prodmanpd",
+    "created_at": "2026-08-17T16:03:09Z",
+    "state": "open",
+    "head_sha": "07c4843453463599f118f6bcd40ecbbf5b6aaa91",
+    "base_sha": "5522c6f44ca0ac3528b37244818fbfa39b5af470",
+    "integration": "proxy-compatible",
+    "constraints": [],
+    "lock": null,
+    "evidence_file": "prs/continuedev__continue__13151.json",
+    "files": [
+      {
+        "path": "core/llm/autodetect.ts",
+        "status": "modified",
+        "blob_sha": "105feb04a6f2cd4ffc99f3821745b6045a1c298b",
+        "patch_sha256": "1aac3f680bba717f36fad89ed9200dc6e193d45ef7a3d217ffec15aaafb85aaa",
+        "patch_available": true
+      },
+      {
+        "path": "core/llm/llms/LiteLLM.ts",
+        "status": "added",
+        "blob_sha": "3b8166b250bc489350d13d35b9544efef46506b6",
+        "patch_sha256": "ea0541765cc61e34ef4e5992f5016e65fab34fd22613ad2246082507ecd5aa2c",
+        "patch_available": true
+      },
+      {
+        "path": "core/llm/llms/LiteLLM.vitest.ts",
+        "status": "added",
+        "blob_sha": "d4b863760fbbaaaccf4fcc6933f3ab042fe09cf8",
+        "patch_sha256": "911018a990f1bf9f0c8d44ac238eed4730d5b79ad9ec48f21f997eebe5ec89d1",
+        "patch_available": true
+      },
+      {
+        "path": "core/llm/llms/index.ts",
+        "status": "modified",
+        "blob_sha": "f4b7142fcb22e55a386bdcd706505746ae3dce1b",
+        "patch_sha256": "dddb139ffa1f7ee523486f3c1945896b2096f69fa6dde0f1ad6320b638ab2cb1",
+        "patch_available": true
+      },
+      {
+        "path": "core/llm/toolSupport.test.ts",
+        "status": "modified",
+        "blob_sha": "60c158aee2e1372b746db4710cf432aee637c232",
+        "patch_sha256": "2b9a26029e22cada343847b48778f1adb778478768d579c2fadf9dc01823d202",
+        "patch_available": true
+      },
+      {
+        "path": "core/llm/toolSupport.ts",
+        "status": "modified",
+        "blob_sha": "0b50604b00a73e13f3f21d3d6c08480b69ccb792",
+        "patch_sha256": "21cdfcc7dd4ad402c76718b2126e334044a71bd4914af259e2eeefe35a26f882",
+        "patch_available": true
+      },
+      {
+        "path": "docs/customize/model-providers/more/litellm.mdx",
+        "status": "added",
+        "blob_sha": "5e65c0f07f628c9d3ec1d9aaed57425b02564c88",
+        "patch_sha256": "67d1570f4b86d36dab128175ab549a1b3783ab7da63b97f2f3a8cdcc6c9605e0",
+        "patch_available": true
+      },
+      {
+        "path": "docs/customize/model-providers/overview.mdx",
+        "status": "modified",
+        "blob_sha": "46211a9c4ebd5107d1aaaba65b4da7f1f597820d",
+        "patch_sha256": "c521e7680e496b2fc48a5f7e315e2c291780cd3cb1eaac89abe5c302a23b8d41",
+        "patch_available": true
+      },
+      {
+        "path": "docs/docs.json",
+        "status": "modified",
+        "blob_sha": "461181b35c3e1fcd078a74f36ea64a006393c958",
+        "patch_sha256": "a79cfb6d0e658fce714849792a217c64c86644a6210ab57c80ce08feafc551c6",
+        "patch_available": true
+      },
+      {
+        "path": "gui/src/pages/AddNewModel/configs/providers.ts",
+        "status": "modified",
+        "blob_sha": "bfeffe53b9713d820879bcd4b076ecd0876aef54",
+        "patch_sha256": "b7863dffbd2e4052229d332a3da21db64d46b6267c8e235bd1603518fb8445a4",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "OpenBMB/UltraRAG",
+    "number": 496,
+    "url": "https://github.com/OpenBMB/UltraRAG/pull/496",
+    "author": "prodmanpd",
+    "created_at": "2026-08-24T17:03:47Z",
+    "state": "merged",
+    "head_sha": "85bc0f597097ddea8f32b41dbd4fe73e899662b9",
+    "base_sha": "53cefae50b45949e06120498483ee286a77b2952",
+    "integration": "python-sdk",
+    "constraints": [
+      {
+        "file": "pyproject.toml",
+        "specifier": ">=1.60,<2.0"
+      }
+    ],
+    "lock": {
+      "pr": "https://github.com/OpenBMB/UltraRAG/pull/496",
+      "version": "1.97.0",
+      "artifacts": 8,
+      "mismatches": [],
+      "source": {
+        "registry": "https://pypi.org/simple"
+      }
+    },
+    "evidence_file": "prs/OpenBMB__UltraRAG__496.json",
+    "files": [
+      {
+        "path": "pyproject.toml",
+        "status": "modified",
+        "blob_sha": "6bf4713c9f80e79192e44068c2fd957609dc4240",
+        "patch_sha256": "9be4324e43184c7b8d0afcb643f7003ff7d3a119f25d87c16af0d404cadf9174",
+        "patch_available": true
+      },
+      {
+        "path": "servers/generation/parameter.yaml",
+        "status": "modified",
+        "blob_sha": "ddafba1d29a130fec928ef872e9fa207027405ae",
+        "patch_sha256": "ef10f374059120ad620f7e07e68be0abc84a9cbe83fa6267b47a4fd06016fbc4",
+        "patch_available": true
+      },
+      {
+        "path": "servers/generation/src/generation.py",
+        "status": "modified",
+        "blob_sha": "ac0f907494791886b7342917b73a361c680b8d23",
+        "patch_sha256": "6ffeb2b6c0d3dcdf9b91f6cafb00a2b4e4af763b07807bc5401bfac150d971b4",
+        "patch_available": true
+      },
+      {
+        "path": "servers/generation/tests/test_litellm_backend.py",
+        "status": "added",
+        "blob_sha": "f27e597b9210809c7067c6cadf2bb1026c01bc8d",
+        "patch_sha256": "e71bda8c735c45b0c2ab35f66097224bf5438f6560b0f4e094361f758e725f49",
+        "patch_available": true
+      },
+      {
+        "path": "servers/retriever/parameter.yaml",
+        "status": "modified",
+        "blob_sha": "2048e4d20db6aace6c643aae8c1f313d56965a30",
+        "patch_sha256": "59302b96dc484c8213c74db6a287eb582a1b884dfb501cb87d355a60fbcb7128",
+        "patch_available": true
+      },
+      {
+        "path": "servers/retriever/src/retriever.py",
+        "status": "modified",
+        "blob_sha": "4b6809ddde3c1622100053c0b417d90dc945381a",
+        "patch_sha256": "e94adfd1a38820ed6c111fea30690744c04c7bccdf89a65a33c44a84b3ab9e5b",
+        "patch_available": true
+      },
+      {
+        "path": "servers/retriever/tests/test_litellm_embedding.py",
+        "status": "added",
+        "blob_sha": "32c1a1df6d39f36557bed8f697865f62fb0866ee",
+        "patch_sha256": "f611e8e9d48b64ffd6d46be3205bc2ebb6bcd30c97020e8ccaf51683e3dc9c87",
+        "patch_available": true
+      },
+      {
+        "path": "uv.lock",
+        "status": "modified",
+        "blob_sha": "d4ca8f8e99a946ec57f6913c8e22a7d34fa1709a",
+        "patch_sha256": "e997091b823318d471927afac438c5ba15f29942bfe8054cc59e176003f00227",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "OtterMind/Chat2DB",
+    "number": 2757,
+    "url": "https://github.com/OtterMind/Chat2DB/pull/2757",
+    "author": "prodmanpd",
+    "created_at": "2026-08-24T17:26:10Z",
+    "state": "open",
+    "head_sha": "cab7ecd153654edbbcb8fba633ec2deeacbb409f",
+    "base_sha": "ab5fa7778cea359c9e23d26c8c77f9dc749a718c",
+    "integration": "proxy-compatible",
+    "constraints": [],
+    "lock": null,
+    "evidence_file": "prs/OtterMind__Chat2DB__2757.json",
+    "files": [
+      {
+        "path": "chat2db-community-client/src/blocks/AI/components/AIModelConfigModal/index.tsx",
+        "status": "modified",
+        "blob_sha": "9a9acc152fcfe4ace806348f6dfff993996f78bb",
+        "patch_sha256": "b945a09355a3fe1214173c75c7aee93b78fbd269c82e9bdfc3e51d0c1fe5c3e5",
+        "patch_available": true
+      },
+      {
+        "path": "chat2db-community-client/src/blocks/AI/components/AIModelConfigModal/modelConfigDefaults.test.ts",
+        "status": "modified",
+        "blob_sha": "0f069ed5036845358c25b0b1941d5b3f1eaf9cd9",
+        "patch_sha256": "d53a88e0726550cfb4c6b3d7e20928cf138811d3c34e1f79f026848e2f95e090",
+        "patch_available": true
+      },
+      {
+        "path": "chat2db-community-client/src/blocks/AI/components/AIModelConfigModal/modelConfigDefaults.ts",
+        "status": "modified",
+        "blob_sha": "bc8aff77005817aa12bc9c9d177bc5ca025070f2",
+        "patch_sha256": "991e1f9a92aeea1b1a53a433f5fcf96f2402a7fc3619a30a9ac4b0f31438f1ee",
+        "patch_available": true
+      },
+      {
+        "path": "chat2db-community-client/src/service/aiModelConfig.ts",
+        "status": "modified",
+        "blob_sha": "41ea223c3e387c728bae34cb205a6fd10aeb64b0",
+        "patch_sha256": "602fd8db4ea6eb3649e111373ce198c687e87cfed523cffa5f05c0b9601d0137",
+        "patch_available": true
+      },
+      {
+        "path": "chat2db-community-client/src/service/aiStream.ts",
+        "status": "modified",
+        "blob_sha": "f0d896c9de8948020a94b12b3c4639e0efc82085",
+        "patch_sha256": "04a52db8091cafd45be7c4511c45f02518d3472a1ba659f25545332dc34e752a",
+        "patch_available": true
+      },
+      {
+        "path": "chat2db-community-server/chat2db-community-domain/chat2db-community-domain-api/src/main/java/ai/chat2db/community/domain/api/enums/ai/AiProviderEnum.java",
+        "status": "modified",
+        "blob_sha": "cda5676300ed1dc2b59bb217f0f26f516aeeba1b",
+        "patch_sha256": "673e39e7c5931dedc6f93c6d4878b1c11e2f03b72ad7fb88df5f216a52866938",
+        "patch_available": true
+      },
+      {
+        "path": "chat2db-community-server/chat2db-community-domain/chat2db-community-domain-core/src/main/java/ai/chat2db/community/domain/core/impl/ai/AiModelConfigServiceImpl.java",
+        "status": "modified",
+        "blob_sha": "ef38ec8a024953d9bc6b9875304aaac21dfbe54e",
+        "patch_sha256": "19b9e57502f34a94a6583e630d9316e011da1a59661301be1e03f4ebc480cac6",
+        "patch_available": true
+      },
+      {
+        "path": "chat2db-community-server/chat2db-community-web/src/main/java/ai/chat2db/community/web/api/adapter/ai/AiModelFactory.java",
+        "status": "modified",
+        "blob_sha": "8ba55a61e3c1b75407ba5717d5367703879582e3",
+        "patch_sha256": "928d5cd67dcaab550aa1067a338f99dcd14cbba77408e4a785de82157ac9d2ea",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "zhayujie/CowAgent",
+    "number": 3075,
+    "url": "https://github.com/zhayujie/CowAgent/pull/3075",
+    "author": "prodmanpd",
+    "created_at": "2026-08-24T17:32:23Z",
+    "state": "closed",
+    "head_sha": "8cfb66a4cf3b99dbb9f320b4bdd75621603a19ed",
+    "base_sha": "a8ab40c900179b3c6ed6bf56ce92f6aabb9e5697",
+    "integration": "python-sdk",
+    "constraints": [
+      {
+        "file": "requirements.txt",
+        "specifier": ">=1.89,<2.0"
+      }
+    ],
+    "lock": null,
+    "evidence_file": "prs/zhayujie__CowAgent__3075.json",
+    "files": [
+      {
+        "path": "common/const.py",
+        "status": "modified",
+        "blob_sha": "2efe4df0ac2ea8c45c7f03be5f24b8e31c56c5d2",
+        "patch_sha256": "270df68690cd35f1ef02f2bd3e1efef8b7f6b757d4146e36e1a796a998380285",
+        "patch_available": true
+      },
+      {
+        "path": "config.py",
+        "status": "modified",
+        "blob_sha": "a7465aca11aed657c0492293505aff0b9c962e07",
+        "patch_sha256": "8ee30b4b91f6546ec621c716c26c555bd140f194b63d27aec0d870053e099eb7",
+        "patch_available": true
+      },
+      {
+        "path": "models/bot_factory.py",
+        "status": "modified",
+        "blob_sha": "19df89721159057c6674edfb6037597095b38b09",
+        "patch_sha256": "30bd9c20df142ebc257278cc49a3df15688c549afb50c8d984fa748e65b3b914",
+        "patch_available": true
+      },
+      {
+        "path": "models/litellm/__init__.py",
+        "status": "added",
+        "blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "patch_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "patch_available": false
+      },
+      {
+        "path": "models/litellm/litellm_bot.py",
+        "status": "added",
+        "blob_sha": "93b96aff0079b0d22280be7896cee48f47f1d1e5",
+        "patch_sha256": "c45f948b5bf3c40766bc11178e46ae6e9b1b51e02121bde8e6bd916b090b0dc9",
+        "patch_available": true
+      },
+      {
+        "path": "models/litellm/litellm_session.py",
+        "status": "added",
+        "blob_sha": "4002a7a70c3ec4cec3fbba889a057a90b50b9214",
+        "patch_sha256": "f9394426d3e3211f2a9c9821e34129ef8e5be6dbb363ec3867694c752ab75bab",
+        "patch_available": true
+      },
+      {
+        "path": "requirements.txt",
+        "status": "modified",
+        "blob_sha": "da00ff1d8aa603d88b65d0b0132bea6586ffeb46",
+        "patch_sha256": "d90ea7f3149d46148781768fc7868f7b0b07e5a700e2758a1a946b27652660d4",
+        "patch_available": true
+      },
+      {
+        "path": "tests/test_litellm_provider.py",
+        "status": "added",
+        "blob_sha": "9a8478688b4326bd55d716fbf62ee6541a8937a9",
+        "patch_sha256": "c308733041c16e4de07c26c9ca4c86a323dcf9c5700ae5a2e8f334d872d4a988",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "StarTrail-org/PixelRAG",
+    "number": 145,
+    "url": "https://github.com/StarTrail-org/PixelRAG/pull/145",
+    "author": "prodmanpd",
+    "created_at": "2026-08-24T17:38:34Z",
+    "state": "merged",
+    "head_sha": "474161feec53e5a5c5b586aa820ab3f84bcce87e",
+    "base_sha": "c1dae49ba78e33ff1d02d9f8efd7b9adf9cecb22",
+    "integration": "python-sdk",
+    "constraints": [
+      {
+        "file": "eval/pyproject.toml",
+        "specifier": ">=1.89.0,<2.0.0"
+      }
+    ],
+    "lock": {
+      "pr": "https://github.com/StarTrail-org/PixelRAG/pull/145",
+      "version": "1.98.0",
+      "artifacts": 8,
+      "mismatches": [],
+      "source": {
+        "registry": "https://pypi.org/simple"
+      }
+    },
+    "evidence_file": "prs/StarTrail-org__PixelRAG__145.json",
+    "files": [
+      {
+        "path": "eval/lib/llm.py",
+        "status": "modified",
+        "blob_sha": "0f4879bdc575978ba012291100a827b002bae622",
+        "patch_sha256": "394db5c9bf5143bc3e84677cb61d3774330c7f9e34ca8f028f7278f99dd99267",
+        "patch_available": true
+      },
+      {
+        "path": "eval/pyproject.toml",
+        "status": "modified",
+        "blob_sha": "39fbf880e743efece9be3e3fae3db318768dd970",
+        "patch_sha256": "3cb92d95d69aadcc9f5127c4c6badc31ac0b2ca9cb2df0d21c321209e729d9b2",
+        "patch_available": true
+      },
+      {
+        "path": "eval/run_bench.py",
+        "status": "modified",
+        "blob_sha": "e7ca40f5ce2d9359859e81967dad677f5dc95802",
+        "patch_sha256": "7f52de550ec864b9c6bf64c9f006dec5ed957440f85ce843453ea6cee87622ad",
+        "patch_available": true
+      },
+      {
+        "path": "eval/run_livevqa.py",
+        "status": "modified",
+        "blob_sha": "671dc24a724dbb17761f6ab26f2c59131f13e536",
+        "patch_sha256": "f26b4728723350adc4ae15129801b594b93e257aae29c1c8a6071ce090e29119",
+        "patch_available": true
+      },
+      {
+        "path": "eval/uv.lock",
+        "status": "modified",
+        "blob_sha": "7c88f7cb81b9665c6dc1e317ed30e8fee1b4dd2f",
+        "patch_sha256": "9c1bc86d2a9fdb89a6383737aed4bca465cb5909a01d96bc278edcada2525837",
+        "patch_available": true
+      },
+      {
+        "path": "tests/test_litellm_client.py",
+        "status": "added",
+        "blob_sha": "a366393e26aae0d2981fe7f79a21c61e3b264377",
+        "patch_sha256": "cb91106c4ffd5782545d858d8eb6852ea60e4de94b41caf5ffbb024c5fa68b6c",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "trailhq/Graft",
+    "number": 220,
+    "url": "https://github.com/trailhq/Graft/pull/220",
+    "author": "prodmanpd",
+    "created_at": "2026-08-24T17:43:44Z",
+    "state": "merged",
+    "head_sha": "1788e9175b99560ce3798e7272a28061215d0a76",
+    "base_sha": "ee1ef03538c4e94b1a8552b13984b9fc2992dd29",
+    "integration": "proxy-compatible",
+    "constraints": [],
+    "lock": null,
+    "evidence_file": "prs/trailhq__Graft__220.json",
+    "files": [
+      {
+        "path": "src/ai/llm/factory.ts",
+        "status": "modified",
+        "blob_sha": "1d1a53ff4f75aeaf7d09e8048a08c20d9e758982",
+        "patch_sha256": "5beddb785514126c6f25088d1f0a5249a665cd90f5fe9c90947add73ce76ba6c",
+        "patch_available": true
+      },
+      {
+        "path": "src/ai/llm/litellm.ts",
+        "status": "added",
+        "blob_sha": "3ebb24b8508febaf1b83a542f2a9d814465edebe",
+        "patch_sha256": "f6cbe7ddf0b3f00a59c254dd13ece875e393d12404a2520371989e78a9c597f2",
+        "patch_available": true
+      },
+      {
+        "path": "src/ai/providers.ts",
+        "status": "modified",
+        "blob_sha": "2f7437134209be68ff5d3cfd9354a5ef0596fe9f",
+        "patch_sha256": "fbe231f1c47020bfe33395fc67eeac114206268ece7b5461282ca24e649a0a7c",
+        "patch_available": true
+      },
+      {
+        "path": "test/litellm-adapter.test.ts",
+        "status": "added",
+        "blob_sha": "fa7baa9846460e79076cf1feff0a5230c04420ab",
+        "patch_sha256": "9572ea4326758b30d943f5bced90440a02b5510013358532a92422a0486b0dbd",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "Tencent/AI-Infra-Guard",
+    "number": 598,
+    "url": "https://github.com/Tencent/AI-Infra-Guard/pull/598",
+    "author": "prodmanpd",
+    "created_at": "2026-08-24T17:48:30Z",
+    "state": "open",
+    "head_sha": "9466706f106d472a76b84d0888df204f9d3741ab",
+    "base_sha": "32df94d38a0c39b4c94206966e44f7273e151fca",
+    "integration": "python-sdk",
+    "constraints": [
+      {
+        "file": "agent-scan/pyproject.toml",
+        "specifier": ">=1.89.0,<2.0.0"
+      },
+      {
+        "file": "agent-scan/requirements.txt",
+        "specifier": ">=1.89.0,<2.0.0"
+      },
+      {
+        "file": "mcp-scan/pyproject.toml",
+        "specifier": ">=1.89.0,<2.0.0"
+      },
+      {
+        "file": "mcp-scan/requirements.txt",
+        "specifier": ">=1.89.0,<2.0.0"
+      },
+      {
+        "file": "skill-scan/pyproject.toml",
+        "specifier": ">=1.89.0,<2.0.0"
+      }
+    ],
+    "lock": null,
+    "evidence_file": "prs/Tencent__AI-Infra-Guard__598.json",
+    "files": [
+      {
+        "path": "agent-scan/agent_scan/utils/llm.py",
+        "status": "modified",
+        "blob_sha": "e8bc97b778526bfd1078d49c1478a205efde66ca",
+        "patch_sha256": "81a151bf4ad6c2c52a7ed4a2169b85f25c89c3c0372abecfc66cd8a6191b4287",
+        "patch_available": true
+      },
+      {
+        "path": "agent-scan/pyproject.toml",
+        "status": "modified",
+        "blob_sha": "8dd7ebf2396acccaa4c4eb09101fc0744b2007e7",
+        "patch_sha256": "cd0ffa53947da1eabb61b76b43c57549ff88c680bf8b861a77862a130482b3ea",
+        "patch_available": true
+      },
+      {
+        "path": "agent-scan/pytests/test_llm_request.py",
+        "status": "modified",
+        "blob_sha": "3220d270eabde45a16e0b540031b21fd9b8ac109",
+        "patch_sha256": "bdcb3212422dc72347c1acbcf55d317154ff166bbe3bcb7a9d2c05b00cae01fc",
+        "patch_available": true
+      },
+      {
+        "path": "agent-scan/requirements.txt",
+        "status": "modified",
+        "blob_sha": "fc96678a32153297a4aab81d1e0bba2fc3a93ecd",
+        "patch_sha256": "020d755484c7ac406b0320c54c898ca36868a07456a3620a41113f689cd0ce85",
+        "patch_available": true
+      },
+      {
+        "path": "mcp-scan/mcp_scan/redteam/attacker.py",
+        "status": "modified",
+        "blob_sha": "28ebdd1b546692a7b1a1dfe1bc86134b4b9d2ba3",
+        "patch_sha256": "4f389269109d7f7b4d11bb2c65a62d3574300dce71412ee2ab4dd042756563a3",
+        "patch_available": true
+      },
+      {
+        "path": "mcp-scan/mcp_scan/redteam/evaluator.py",
+        "status": "modified",
+        "blob_sha": "d4dc5e0545fc3e62d27c43b2c2e182829f1560e7",
+        "patch_sha256": "6427f3b1411be941f2380c9cde234b0e3877d705734f27f22ab6b19270f93dd9",
+        "patch_available": true
+      },
+      {
+        "path": "mcp-scan/mcp_scan/redteam/orchestrator.py",
+        "status": "modified",
+        "blob_sha": "3c7bd47e95cfec397189cf233cb6771b1685e0f6",
+        "patch_sha256": "5041c36f296f9fe4fe8cc741177e535aead74b14f9c75aee9d9e86616af0a29d",
+        "patch_available": true
+      },
+      {
+        "path": "mcp-scan/mcp_scan/redteam/target.py",
+        "status": "modified",
+        "blob_sha": "52e930d05aa14a93c23e6ada92d14a474fd0815c",
+        "patch_sha256": "dd860b66715ac16b33aad37626b646da7cb5288a3833c3fb87bcf446260f433c",
+        "patch_available": true
+      },
+      {
+        "path": "mcp-scan/mcp_scan/utils/llm.py",
+        "status": "modified",
+        "blob_sha": "5a01bd35383b2c3f02d6d462b2e7bb31c961b28d",
+        "patch_sha256": "3abbeb65bc395bb66d0cf4e0804080c707bd63e7f9485782464db37ee2967669",
+        "patch_available": true
+      },
+      {
+        "path": "mcp-scan/pyproject.toml",
+        "status": "modified",
+        "blob_sha": "7c95ee7b6c9bdc761dd6dac29c1f6ebda232f2ad",
+        "patch_sha256": "304db24a4351f8f406d217c50414e9ba8b95ae64d4b3bdd240aff80ca1825cd4",
+        "patch_available": true
+      },
+      {
+        "path": "mcp-scan/pytests/test_llm_request.py",
+        "status": "modified",
+        "blob_sha": "5140e3f883ff983727c585447ba043354d5c3268",
+        "patch_sha256": "e1c168daea023697cc2cd910f79ddf3b55954ee6a74695c8fcb0d2fcdb64f6cf",
+        "patch_available": true
+      },
+      {
+        "path": "mcp-scan/pytests/test_redteam_litellm_client.py",
+        "status": "added",
+        "blob_sha": "ac95dea402d4dd2efdce5b409f46649e1576b45d",
+        "patch_sha256": "2a049afc27576f96986104132d61f64eaa97a9fb7baff05d531139e8c3b5703f",
+        "patch_available": true
+      },
+      {
+        "path": "mcp-scan/requirements.txt",
+        "status": "modified",
+        "blob_sha": "222e983f7086cf145b9f8af7293022ced12ce463",
+        "patch_sha256": "2b73f829c704238b89ea948572fea91fffacffef59d8de5b4e3ed5ef0460ecd4",
+        "patch_available": true
+      },
+      {
+        "path": "skill-scan/pyproject.toml",
+        "status": "modified",
+        "blob_sha": "a9249f32903fc0c04ca9b6a1f87eb32cecbb4282",
+        "patch_sha256": "7d3a64808076a803f4cef23e18ae02bdb28502bc73430d10a332f46222aba620",
+        "patch_available": true
+      },
+      {
+        "path": "skill-scan/pytests/test_llm_request.py",
+        "status": "modified",
+        "blob_sha": "d1dd9d910bbf5e081acbf40184549f916f053c47",
+        "patch_sha256": "8e7b8724ef02898ed542ee52b4b41c7573b9183797be78cb83f83c7221c9795e",
+        "patch_available": true
+      },
+      {
+        "path": "skill-scan/skill_scan/utils/llm.py",
+        "status": "modified",
+        "blob_sha": "b8435e1f5491c3f033842bb61ad0f3e9a5a46d72",
+        "patch_sha256": "89c1569aa44cbe9cdbadf88ec0304a34bf0c5218e3f491e704814fd154e7f0aa",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "trace-cortex/cortex-app",
+    "number": 9,
+    "url": "https://github.com/trace-cortex/cortex-app/pull/9",
+    "author": "prodmanpd",
+    "created_at": "2026-08-24T17:56:07Z",
+    "state": "open",
+    "head_sha": "c3bc8c4e7a0f78957934c4599e862737a94d543f",
+    "base_sha": "d084a3c038de37864ff48abaed8c829e6eab12cc",
+    "integration": "python-sdk",
+    "constraints": [
+      {
+        "file": "backend/requirements.txt",
+        "specifier": ">=1.89.0,<2.0.0"
+      },
+      {
+        "file": "requirements.txt",
+        "specifier": ">=1.89.0,<2.0.0"
+      }
+    ],
+    "lock": null,
+    "evidence_file": "prs/trace-cortex__cortex-app__9.json",
+    "files": [
+      {
+        "path": "backend/app/condense.py",
+        "status": "modified",
+        "blob_sha": "108c224e7e8e89ad327701919bbc070aa2814379",
+        "patch_sha256": "ab8d33bd995a758265f9edcd8f0b1534acf062c2895a2138a9af3c76de10b87b",
+        "patch_available": true
+      },
+      {
+        "path": "backend/app/embeddings.py",
+        "status": "modified",
+        "blob_sha": "c69dd854ace6f48c4d0b58af6ae2c5c9b02657ed",
+        "patch_sha256": "dc365ceb3ae2d5f6b8b2c4e5804da0729f4ee81b7d90366980195bdbff282f1c",
+        "patch_available": true
+      },
+      {
+        "path": "backend/app/extractor.py",
+        "status": "modified",
+        "blob_sha": "81937db3bad2bde3641aaba7473f61257e860f7d",
+        "patch_sha256": "f081c738a5c27e87b9be6243ead817a46271bb8eced76eca14bef4b1b969e618",
+        "patch_available": true
+      },
+      {
+        "path": "backend/requirements.txt",
+        "status": "modified",
+        "blob_sha": "76a717b7aa66ff84483e3675084f88b6a047aa00",
+        "patch_sha256": "ca563841f57136f6b66bafce7e6d253f341fe3b0d472f0ab3d1c5f7e01fb2a42",
+        "patch_available": true
+      },
+      {
+        "path": "ingest.py",
+        "status": "modified",
+        "blob_sha": "a018c48538328185fb5c0ec3c057f8610d75e668",
+        "patch_sha256": "a041b04fd9cc6973e5c9df9a7c7595fce14088bbabf35389945746b23a5fbbbc",
+        "patch_available": true
+      },
+      {
+        "path": "requirements.txt",
+        "status": "modified",
+        "blob_sha": "9bdbe67b3f853855fd3ee14e05b7d695f6ecb9c4",
+        "patch_sha256": "91e1705695809b1f2d0308952fb931cdd842944d019b7a527164e08e9f847aae",
+        "patch_available": true
+      },
+      {
+        "path": "ui.py",
+        "status": "modified",
+        "blob_sha": "bbcc06177a27b2489d17bc065cacb2e4247ae889",
+        "patch_sha256": "974622388541b321a13af69714af0c90498d541ab93fa96c068f462139d7878c",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "datalab-to/marker",
+    "number": 1097,
+    "url": "https://github.com/datalab-to/marker/pull/1097",
+    "author": "prodmanpd",
+    "created_at": "2026-08-31T15:23:04Z",
+    "state": "open",
+    "head_sha": "29a3d4298d1cc8acb5637a8a859ed4ad20ab08e3",
+    "base_sha": "bfae9f0c125590b7576e326df10c3b65b50f7111",
+    "integration": "python-sdk",
+    "constraints": [
+      {
+        "file": "pyproject.toml",
+        "specifier": ">=1.89.0,<2"
+      }
+    ],
+    "lock": {
+      "pr": "https://github.com/datalab-to/marker/pull/1097",
+      "version": "1.98.0",
+      "artifacts": 8,
+      "mismatches": [],
+      "source": {
+        "registry": "https://pypi.org/simple"
+      }
+    },
+    "evidence_file": "prs/datalab-to__marker__1097.json",
+    "files": [
+      {
+        "path": "README.md",
+        "status": "modified",
+        "blob_sha": "615ed1b145601b78b79cbd3c06a3fe618b50a335",
+        "patch_sha256": "bc77b2486a0a308d8bb853b82c2620c91cc1bdf40dd2b9080ff06cd1067ee2c0",
+        "patch_available": true
+      },
+      {
+        "path": "marker/services/litellm.py",
+        "status": "added",
+        "blob_sha": "0ed34c9dd64966e656e65e581586f9a52e35e962",
+        "patch_sha256": "82ad5c5c04ddb898a7b9c74b9f64164100ee5d247eb01849dc5b5966a0dc8ebc",
+        "patch_available": true
+      },
+      {
+        "path": "pyproject.toml",
+        "status": "modified",
+        "blob_sha": "21c9cecf130b5218ce5e9fa5fbc6e90b68a42fba",
+        "patch_sha256": "428949ba271f89de8ce4a113ca029b9113db840e8b0fe436a22b6f125e2d63a8",
+        "patch_available": true
+      },
+      {
+        "path": "tests/services/test_litellm.py",
+        "status": "added",
+        "blob_sha": "8f59498bac88bcb9e40892a06a1e1c508566866d",
+        "patch_sha256": "81fa49ac7b4d963a5deb80067f684057eabe887d55e4f786ef0c2bcdbed125d3",
+        "patch_available": true
+      },
+      {
+        "path": "tests/services/test_service_init.py",
+        "status": "modified",
+        "blob_sha": "9e12180e167b54950d9dc44210f2fd75f0e7d725",
+        "patch_sha256": "8343020e6a868372c03089759b00b84628fc53a0e8a4b5d8507e09d7ea648be7",
+        "patch_available": true
+      },
+      {
+        "path": "uv.lock",
+        "status": "modified",
+        "blob_sha": "21333e8ac5950ae1b1bba0ca6f9ed50200ea4487",
+        "patch_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "patch_available": false
+      }
+    ]
+  },
+  {
+    "repository": "datajuicer/data-juicer",
+    "number": 1062,
+    "url": "https://github.com/datajuicer/data-juicer/pull/1062",
+    "author": "prodmanpd",
+    "created_at": "2026-08-31T15:27:02Z",
+    "state": "merged",
+    "head_sha": "d72e6263cfc64fdf2bf7d457eff18d9dbec5b3f6",
+    "base_sha": "20709225186a7f32f890ddb392172e1f675ac7e3",
+    "integration": "python-sdk",
+    "constraints": [
+      {
+        "file": "pyproject.toml",
+        "specifier": ">=1.80.0,<2"
+      }
+    ],
+    "lock": {
+      "pr": "https://github.com/datajuicer/data-juicer/pull/1062",
+      "version": "1.80.0",
+      "artifacts": 2,
+      "mismatches": [],
+      "source": {
+        "registry": "https://pypi.org/simple"
+      }
+    },
+    "evidence_file": "prs/datajuicer__data-juicer__1062.json",
+    "files": [
+      {
+        "path": "data_juicer/utils/model_utils.py",
+        "status": "modified",
+        "blob_sha": "16344f77eb7b3c49c0fd3e54152342a1b344adb3",
+        "patch_sha256": "c0f025a0496253d3800310346d71e1248a9b7d167d1a299066143e5ddec5a55e",
+        "patch_available": true
+      },
+      {
+        "path": "pyproject.toml",
+        "status": "modified",
+        "blob_sha": "695a941fa83cb1f95fb50d9e67ecbfb1d4a8908c",
+        "patch_sha256": "61b7c102aa00eaceb13a5c2f169d43db0518abaab02c77d06974bc039a9213fc",
+        "patch_available": true
+      },
+      {
+        "path": "tests/utils/test_model_utils.py",
+        "status": "modified",
+        "blob_sha": "c87ec7b8d237cbf53f5820eb10735136903fce3d",
+        "patch_sha256": "7149990fa49ae1eceffed1272d7c8e9c35d4dcc5092cb4fb2ed018048c01f2c8",
+        "patch_available": true
+      },
+      {
+        "path": "uv.lock",
+        "status": "modified",
+        "blob_sha": "d9d17ebaf657ef5fb42568889e3634a96c8d452e",
+        "patch_sha256": "9de1c0b6a0961bcb859d8cf6730ea892dbf8cd5512e7dcbb9b1e6ddb37906ee9",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "TideDra/zotero-arxiv-daily",
+    "number": 294,
+    "url": "https://github.com/TideDra/zotero-arxiv-daily/pull/294",
+    "author": "prodmanpd",
+    "created_at": "2026-08-31T15:30:33Z",
+    "state": "open",
+    "head_sha": "41c9552c1e50630bbfeb1252ef0439d054889e4e",
+    "base_sha": "e30e47ba3e39a32a5000354336f83aba2d49950f",
+    "integration": "python-sdk",
+    "constraints": [
+      {
+        "file": "pyproject.toml",
+        "specifier": ">=1.89.0,<2"
+      }
+    ],
+    "lock": {
+      "pr": "https://github.com/TideDra/zotero-arxiv-daily/pull/294",
+      "version": "1.98.0",
+      "artifacts": 8,
+      "mismatches": [],
+      "source": {
+        "registry": "https://pypi.org/simple"
+      }
+    },
+    "evidence_file": "prs/TideDra__zotero-arxiv-daily__294.json",
+    "files": [
+      {
+        "path": "config/base.yaml",
+        "status": "modified",
+        "blob_sha": "b82663789e0ce8cff82a21280d22ec3d5dd2d95f",
+        "patch_sha256": "12a8cb603221f6377e5c4a096a4a2f585277ffbcf6119d61a918693245216622",
+        "patch_available": true
+      },
+      {
+        "path": "pyproject.toml",
+        "status": "modified",
+        "blob_sha": "ec97d9536a9d55c63665ad8f08c040e7ab0604a4",
+        "patch_sha256": "72668821403b2c056220860282bb3d8d551b88f4539d34bb7b9c9c87b208ee8c",
+        "patch_available": true
+      },
+      {
+        "path": "src/zotero_arxiv_daily/executor.py",
+        "status": "modified",
+        "blob_sha": "ec6f75dc3c2f4c37cb134cab1137cd4f63fbb84c",
+        "patch_sha256": "53cf90583e074690dd0ba123381980cd3345bce4b7a1d862d33183268cd193d7",
+        "patch_available": true
+      },
+      {
+        "path": "src/zotero_arxiv_daily/protocol.py",
+        "status": "modified",
+        "blob_sha": "16643711fa7037447f834617f1988fc8061588cf",
+        "patch_sha256": "7ffa2712522ac5e4f964e01645e80bd8e6358222b521e35819dee88923595bc0",
+        "patch_available": true
+      },
+      {
+        "path": "src/zotero_arxiv_daily/reranker/api.py",
+        "status": "modified",
+        "blob_sha": "0053e85db37304bd400132aefc82e6180ee0038e",
+        "patch_sha256": "f16a3948215c4a700a834b33cfda2bddb630ad17e362d7200c59cedb8738d548",
+        "patch_available": true
+      },
+      {
+        "path": "tests/reranker/test_api_reranker.py",
+        "status": "modified",
+        "blob_sha": "4085dd7941a086449a58e666e94ab4c8b8eb33cc",
+        "patch_sha256": "17f5808dbea1c8fdc1d412a718ea958be4ed225bde8fb6bc55b0b8a200b412b7",
+        "patch_available": true
+      },
+      {
+        "path": "tests/test_protocol.py",
+        "status": "modified",
+        "blob_sha": "5f43b553de62da788716385fda80ba3b00a26be5",
+        "patch_sha256": "da5ae7a812200944567567b5f0fc9bf44e72a82dcde5e350faba4d416ee4b767",
+        "patch_available": true
+      },
+      {
+        "path": "uv.lock",
+        "status": "modified",
+        "blob_sha": "adc3fa4162018f017f0de5943d6c0ca489b32ed5",
+        "patch_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "patch_available": false
+      }
+    ]
+  },
+  {
+    "repository": "Tencent/WeKnora",
+    "number": 2923,
+    "url": "https://github.com/Tencent/WeKnora/pull/2923",
+    "author": "prodmanpd",
+    "created_at": "2026-08-31T16:03:29Z",
+    "state": "merged",
+    "head_sha": "329267dd6f3b3cb46780fa58dea8b8211913e3a3",
+    "base_sha": "a55f4b78341fb11b7018ea30d6d07db244765207",
+    "integration": "proxy-compatible",
+    "constraints": [],
+    "lock": null,
+    "evidence_file": "prs/Tencent__WeKnora__2923.json",
+    "files": [
+      {
+        "path": "client/model.go",
+        "status": "modified",
+        "blob_sha": "a6d67cc97b3a459743e7f42308c1b180c9c68bbb",
+        "patch_sha256": "b7d1de6dffec109ec45bd428aa1ccd45025c9af082dcfc6130b2a29c7a275830",
+        "patch_available": true
+      },
+      {
+        "path": "docs/BUILTIN_MODELS.md",
+        "status": "modified",
+        "blob_sha": "b4fe9bba2e1c92661b1abadc5ce0757df3c519ba",
+        "patch_sha256": "44809081125316e9489e158c350f4b1a930c8fe7f07ca5b51d306160ced89ec5",
+        "patch_available": true
+      },
+      {
+        "path": "docs/api/model.md",
+        "status": "modified",
+        "blob_sha": "61f6a165282469949b39d189d61385de8ce6faf1",
+        "patch_sha256": "dd79a9575c76b79a239eeddd5aa1c1a03f1f1f20c76b0d7650e34f02cfea0507",
+        "patch_available": true
+      },
+      {
+        "path": "docs/docs.go",
+        "status": "modified",
+        "blob_sha": "0e42773c2c1ffffb96b74a22a9b7b257ea7cb870",
+        "patch_sha256": "d1a3855d186235802c1d4e715ba27c3cd663786215c8333022c4a590b54f8d0e",
+        "patch_available": true
+      },
+      {
+        "path": "docs/swagger.json",
+        "status": "modified",
+        "blob_sha": "e7f9e01e6319512c0b513f75288105993ee9188b",
+        "patch_sha256": "e088523aecef924dd058802892b956311d8b92f634b9ab9b530f3b8c01d34890",
+        "patch_available": true
+      },
+      {
+        "path": "docs/swagger.yaml",
+        "status": "modified",
+        "blob_sha": "49ed133c215dea3702bfb4d57cd4c801d8a818eb",
+        "patch_sha256": "261e0faf6dc88246e22088b1defeddd4d45609a25156da4f161b8898f2bf6b4f",
+        "patch_available": true
+      },
+      {
+        "path": "docs/wiki/核心功能/内置模型管理.md",
+        "status": "modified",
+        "blob_sha": "871b96760253c97c73d81d0fa9374f78b9746ae2",
+        "patch_sha256": "1c7b6b8a53210841633cd30158bd43a23fb8b914f665978bda996ada96084b5b",
+        "patch_available": true
+      },
+      {
+        "path": "frontend/src/components/ModelEditorDialog.vue",
+        "status": "modified",
+        "blob_sha": "94fcb12d6b8bdd39e967a7e65a00e7bb115a72d8",
+        "patch_sha256": "75d6ead49c726974cb2854ef47dd8f41fb8b5c1de8e466ba3840370559b5e4bc",
+        "patch_available": true
+      },
+      {
+        "path": "frontend/src/i18n/locales/en-US.ts",
+        "status": "modified",
+        "blob_sha": "63fb71235c5239f988244ef39519418883c66cec",
+        "patch_sha256": "dc60110531a76421b1cca74f9d56dbd699a1e88fa93a5cf2e87f2ed9524ce15b",
+        "patch_available": true
+      },
+      {
+        "path": "frontend/src/i18n/locales/ko-KR.ts",
+        "status": "modified",
+        "blob_sha": "8deaf14a52d5b538e5bcb1fb751852e77c81d0ba",
+        "patch_sha256": "bb3aa9664cebf4ed51f17479d7494a63665df1532c701399ad496df1c7bd021f",
+        "patch_available": true
+      },
+      {
+        "path": "frontend/src/i18n/locales/ru-RU.ts",
+        "status": "modified",
+        "blob_sha": "c972d3dc385bd3c23b5dc35fb473b597805cf12a",
+        "patch_sha256": "d68660711d00c7750002323e43e5968e43af725e79d3f960a2177ec6d5636f1c",
+        "patch_available": true
+      },
+      {
+        "path": "frontend/src/i18n/locales/zh-CN.ts",
+        "status": "modified",
+        "blob_sha": "30cf1922600a5f6aac834890bd7cadbe712ef759",
+        "patch_sha256": "557d56fb7c80b13c4dcd2a8c1abad8426c771f20f00e2f91d66ecb60a46e8d49",
+        "patch_available": true
+      },
+      {
+        "path": "frontend/src/utils/thinkingControl.test.ts",
+        "status": "modified",
+        "blob_sha": "1840e34e6573f8400bf1b3b83d9d1ebec2622337",
+        "patch_sha256": "44310a88ac3ef757e1bc6d4ef5c775b0fac7768aae55af6cda97e149392a5fc6",
+        "patch_available": true
+      },
+      {
+        "path": "frontend/src/utils/thinkingControl.ts",
+        "status": "modified",
+        "blob_sha": "9ec34cbb742497f6704c53163937f9f1ca1005e9",
+        "patch_sha256": "ea0d08323c6697f2cc8cb762ad063c5d5473dad272d54171478967253c5e56e4",
+        "patch_available": true
+      },
+      {
+        "path": "internal/models/chat/provider.go",
+        "status": "modified",
+        "blob_sha": "be1a4f7991ad843cc41749861d34a98e57a29869",
+        "patch_sha256": "d60076cfbd3753502dd2253e4e4948592c4cf7347c58da90279221def4f604f4",
+        "patch_available": true
+      },
+      {
+        "path": "internal/models/chat/provider_test.go",
+        "status": "modified",
+        "blob_sha": "688485724e24e8bd2f28284196b3fcd7eec5a29e",
+        "patch_sha256": "48cbeefd4c93090328c960b2f7af682622c31372d13443769676086b90a811ec",
+        "patch_available": true
+      },
+      {
+        "path": "internal/models/provider/litellm.go",
+        "status": "added",
+        "blob_sha": "c06ca6abb4e0605ddbc0c7ff9cfda9b6ac111059",
+        "patch_sha256": "95ccc211186f76210139750922ba8c918d1c674dfe87b92272e639d1c6661ed1",
+        "patch_available": true
+      },
+      {
+        "path": "internal/models/provider/provider.go",
+        "status": "modified",
+        "blob_sha": "d96036621e76da6b1f951dd68b75eab158495902",
+        "patch_sha256": "461939a3cb4e4b2b84306063ec8ead732d7bedbfa02fcbb05c11e871c448e1d7",
+        "patch_available": true
+      },
+      {
+        "path": "internal/models/provider/provider_test.go",
+        "status": "modified",
+        "blob_sha": "a0a9320e4b48d742b0af9af8161403f0203f00ec",
+        "patch_sha256": "1086029ba4f275790fee54cd20d3f5e89f3c70ecbd6f8de144f00485920ab82c",
+        "patch_available": true
+      },
+      {
+        "path": "internal/types/model.go",
+        "status": "modified",
+        "blob_sha": "176060439c4ef4a4dc8360369b42c61456410077",
+        "patch_sha256": "f37dfcc60afa17c93c9a837f1cb2feee5e81560b6c905af612a2cbfa270ffbf5",
+        "patch_available": true
+      },
+      {
+        "path": "website-docs/01-getting-started/01-introduction.md",
+        "status": "modified",
+        "blob_sha": "d0fca60ccc4a6861f9911c1ae7ef0196bb9bce42",
+        "patch_sha256": "6afd8043a949438c45d90c5369106a71f14f01e170223f776e9c65a0c05e7e0e",
+        "patch_available": true
+      },
+      {
+        "path": "website-docs/03-features/06-models.md",
+        "status": "modified",
+        "blob_sha": "cda2ab0eff93b6cb20bd6b9f2ce7f179ae77db2e",
+        "patch_sha256": "114fbbdddda531e1ab531b8e0e118a28feb79af2bfe579ac18d9ede82f40cd7c",
+        "patch_available": true
+      },
+      {
+        "path": "website-docs/06-development/03-extension-points.md",
+        "status": "modified",
+        "blob_sha": "687dce40d5c443458ef99611889165debada8786",
+        "patch_sha256": "5d5cb5cde27712b7e7c1ae9d08fdefa4c9dbb3ff75360924e715527e7643c305",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "0xMassi/webclaw",
+    "number": 123,
+    "url": "https://github.com/0xMassi/webclaw/pull/123",
+    "author": "prodmanpd",
+    "created_at": "2026-08-31T16:07:26Z",
+    "state": "open",
+    "head_sha": "345422db95377c8ee2a3ad46392419fd3c7e4d73",
+    "base_sha": "17aba82bccaba2394ece64fa15664fec0ed50746",
+    "integration": "proxy-compatible",
+    "constraints": [],
+    "lock": null,
+    "evidence_file": "prs/0xMassi__webclaw__123.json",
+    "files": [
+      {
+        "path": "CHANGELOG.md",
+        "status": "modified",
+        "blob_sha": "2884567d2d32170cc1b3aa40c14ea33da8e7d7c9",
+        "patch_sha256": "fb949db1abbc37a07c15c85defc751a5243a751ca3e27813883dbf1dcfcd44ec",
+        "patch_available": true
+      },
+      {
+        "path": "README.md",
+        "status": "modified",
+        "blob_sha": "932096ede461b13155b7f280085aab1d3c21a86d",
+        "patch_sha256": "c53cf7746c3f39199bc8f75aa39b51f625f7729d0afbab48e42bd3e3fd6beb4a",
+        "patch_available": true
+      },
+      {
+        "path": "crates/webclaw-cli/src/main.rs",
+        "status": "modified",
+        "blob_sha": "b6b99c279a560561d6c84bb5cf6dbfc851ad63fc",
+        "patch_sha256": "8adcd722e1104eaf8f00c57594bc744a21c8bd2fd0ca741cb09ae0530778ef33",
+        "patch_available": true
+      },
+      {
+        "path": "crates/webclaw-llm/src/chain.rs",
+        "status": "modified",
+        "blob_sha": "2b0eb8399fa52b47c63e3cc945afea8e57bd0204",
+        "patch_sha256": "0703611fb4f0025a91588865435246962b86fbea4b7520049997cbcecc04e525",
+        "patch_available": true
+      },
+      {
+        "path": "crates/webclaw-llm/src/providers/litellm.rs",
+        "status": "added",
+        "blob_sha": "7ed48bcc4c29761eb49d9177a49f61e080583c94",
+        "patch_sha256": "497b7e1d240bc6decaa0d266a54624ee3d741f4ec47f77283eef841a3ac4042c",
+        "patch_available": true
+      },
+      {
+        "path": "crates/webclaw-llm/src/providers/mod.rs",
+        "status": "modified",
+        "blob_sha": "559e17bf66334bb9f52c6d12a9bdc2ed59c3adac",
+        "patch_sha256": "1b64d3a0d6fe1cafe0d4b27318a0359ad0df341dc01a04f4948108f7b5756598",
+        "patch_available": true
+      },
+      {
+        "path": "env.example",
+        "status": "modified",
+        "blob_sha": "b76cf9c51c8046347840958dae3d758422c631a8",
+        "patch_sha256": "8814979150e319b47abcd47e09cad762a7d31fa8fe04197888d99f6c97823e93",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "nageoffer/ragent",
+    "number": 126,
+    "url": "https://github.com/nageoffer/ragent/pull/126",
+    "author": "prodmanpd",
+    "created_at": "2026-08-31T16:11:39Z",
+    "state": "open",
+    "head_sha": "41c082ed3f62462ebf88f6416f7f36b5057de5f3",
+    "base_sha": "1cb684ed5df03f241d90c836466465f6aab37800",
+    "integration": "proxy-compatible",
+    "constraints": [],
+    "lock": null,
+    "evidence_file": "prs/nageoffer__ragent__126.json",
+    "files": [
+      {
+        "path": "bootstrap/src/main/resources/application.yaml",
+        "status": "modified",
+        "blob_sha": "133c32e14442809d28bc1de0f2731aa23fda6efc",
+        "patch_sha256": "ab96b454c9b707432659a0529caa5c27e273ebb219515ca1ec9fd6fb226d7c2d",
+        "patch_available": true
+      },
+      {
+        "path": "infra-ai/src/main/java/com/nageoffer/ai/ragent/infra/chat/LiteLLMChatClient.java",
+        "status": "added",
+        "blob_sha": "1b677c4ce442411c5615b4b6dea1f84e76d46b4f",
+        "patch_sha256": "b6fbb94116823542cb2aecd800f567f9d59fe37c560fcec3a2a91d0bce2bdc17",
+        "patch_available": true
+      },
+      {
+        "path": "infra-ai/src/main/java/com/nageoffer/ai/ragent/infra/embedding/LiteLLMEmbeddingClient.java",
+        "status": "added",
+        "blob_sha": "5f75e6e0816ed3cb8d6c638352cf1fc978672bd0",
+        "patch_sha256": "723bae7cb88c42a1d7d910a85bb485e1ca48b37d1dad593e4d579b3395d644a6",
+        "patch_available": true
+      },
+      {
+        "path": "infra-ai/src/main/java/com/nageoffer/ai/ragent/infra/enums/ModelProvider.java",
+        "status": "modified",
+        "blob_sha": "e901b59ae6d5bcfd083c44f8fc98524e78e4cf0a",
+        "patch_sha256": "c7f037d2de428d811145a12c04eb2657e3cdb7bf8baa078d941a6efce42b2fc1",
+        "patch_available": true
+      },
+      {
+        "path": "infra-ai/src/test/java/com/nageoffer/ai/ragent/infra/chat/LiteLLMProviderTest.java",
+        "status": "added",
+        "blob_sha": "ffc8194fcb6c38ff2adbe904385367046d2521f7",
+        "patch_sha256": "633a95307c6acf41350c0bc89cfff11a1f482ad9243900de9a6ab71421a4a78f",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "sdcb/chats",
+    "number": 142,
+    "url": "https://github.com/sdcb/chats/pull/142",
+    "author": "prodmanpd",
+    "created_at": "2026-08-31T16:14:05Z",
+    "state": "open",
+    "head_sha": "64431246e8703af87832117af79dc427ec182fa4",
+    "base_sha": "090ac266182386e9386d19e9ea89a1a842eae234",
+    "integration": "proxy-compatible",
+    "constraints": [],
+    "lock": null,
+    "evidence_file": "prs/sdcb__chats__142.json",
+    "files": [
+      {
+        "path": "src/BE/db/Enums/DBModelProvider.cs",
+        "status": "modified",
+        "blob_sha": "4c459ae0fa10e666f38c9dbde2970573270bbc66",
+        "patch_sha256": "22d0e0164bce77f05cd2dd04056d7356ddf5b7eb0bb80c619d76b55feb335675",
+        "patch_available": true
+      },
+      {
+        "path": "src/BE/tests/Chats.BE.UnitTest/ChatServices/ChatCompletions/LiteLLMChatServiceTests.cs",
+        "status": "added",
+        "blob_sha": "865a136760b6cdb40766c1292bf3cc57bbc5a4e0",
+        "patch_sha256": "35900c46a41e89170628a940f08198c8320a21ed2cef3488a26d0b8229221242",
+        "patch_available": true
+      },
+      {
+        "path": "src/BE/web/DB/ModelProviderInfo.cs",
+        "status": "modified",
+        "blob_sha": "73b19e42ef8411514dd8c9d37ae4839c39841b36",
+        "patch_sha256": "9bb1dec5ab52f0f497259715d2e87b030e52ae4ac1598151938ef4d9b290ab28",
+        "patch_available": true
+      },
+      {
+        "path": "src/BE/web/Program.cs",
+        "status": "modified",
+        "blob_sha": "6037dbf8c5477af83cbd6c0d1fcf1eabfbabfdad",
+        "patch_sha256": "f9a35c68c1612ac865c88ddc386d5c004401cc423edd8db48c0f1916de7f8e9c",
+        "patch_available": true
+      },
+      {
+        "path": "src/BE/web/Services/Models/ChatServices/ChatFactory.cs",
+        "status": "modified",
+        "blob_sha": "0b9a89eeb5d3b360aa524a0b4305b848652332e0",
+        "patch_sha256": "16f1825639fb7baab79d7ec320df7edb410509497daeb6620f3e9f1c8f396bdd",
+        "patch_available": true
+      },
+      {
+        "path": "src/BE/web/Services/Models/ChatServices/OpenAI/LiteLLMChatService.cs",
+        "status": "added",
+        "blob_sha": "e9a885e1e6aa223b94ed41913ac5773377574d6e",
+        "patch_sha256": "7442d1950a68e91ad25b5679525d257020c1a76367fac94a8d56ff7859da4dd8",
+        "patch_available": true
+      },
+      {
+        "path": "src/FE/public/logos/litellm.svg",
+        "status": "added",
+        "blob_sha": "dee84eb6e1a3ded3247cda59744e8f6ba02e8a6d",
+        "patch_sha256": "73a0e14d9a242e4dc6e5056c0f01b54a1fb7f55766072a841f4cabd746c4bbc7",
+        "patch_available": true
+      },
+      {
+        "path": "src/FE/types/model.ts",
+        "status": "modified",
+        "blob_sha": "9d986ac3722fac8f658168828bba273f4b8a0085",
+        "patch_sha256": "4b9e0aaaadfaa109f86956ca9bd799f16c75d47862ec5cdfacbe56a3bb66b3e1",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "Awarexone/Agentic-Bug-Hunter",
+    "number": 129,
+    "url": "https://github.com/Awarexone/Agentic-Bug-Hunter/pull/129",
+    "author": "prodmanpd",
+    "created_at": "2026-09-08T18:03:34Z",
+    "state": "open",
+    "head_sha": "bf3866fc646474035e01a962c510f5034455640a",
+    "base_sha": "114c90c731a0dac8b59dcef7d3f03a466e5d7179",
+    "integration": "python-sdk",
+    "constraints": [
+      {
+        "file": "requirements.txt",
+        "specifier": ">=1.89.0,<2.0.0"
+      }
+    ],
+    "lock": null,
+    "evidence_file": "prs/Awarexone__Agentic-Bug-Hunter__129.json",
+    "files": [
+      {
+        "path": "CHANGELOG.md",
+        "status": "modified",
+        "blob_sha": "8be07e2c338fc7adbf568f24075907b7afc64cce",
+        "patch_sha256": "3c138474715b992b229dfedd4883d799081ff8b34d53e2f1e6b99650429d7436",
+        "patch_available": true
+      },
+      {
+        "path": "README.md",
+        "status": "modified",
+        "blob_sha": "8d64817d6f60f278de8f58434ee3edea0225bcb9",
+        "patch_sha256": "c12955be77315613e1c5190ef5c02b88b0c78a8ca214dfe5746ac634b2ca99aa",
+        "patch_available": true
+      },
+      {
+        "path": "brain.py",
+        "status": "modified",
+        "blob_sha": "19de5a7f162fee4b1191d0137e59f0d553458da2",
+        "patch_sha256": "e5521cdb34d8960035a24693407786ec9c355b2e0690fb0ec3649d5b5b31dc60",
+        "patch_available": true
+      },
+      {
+        "path": "engine.py",
+        "status": "modified",
+        "blob_sha": "bdbdd520d990f0774647d61ef37db43a84403fad",
+        "patch_sha256": "ffcc7a8419b7a5aff95197d580b405b0459db31bff6d47468f8d1791bbb3d73f",
+        "patch_available": true
+      },
+      {
+        "path": "requirements.txt",
+        "status": "modified",
+        "blob_sha": "87a0cc85f228fcb259008164de5450a8563b1ace",
+        "patch_sha256": "2521dd6ce6695c1e13602d72dc815652cac38a9a81baed345af5a72ac9d9e2f4",
+        "patch_available": true
+      },
+      {
+        "path": "tests/test_brain_litellm.py",
+        "status": "added",
+        "blob_sha": "4e167b2ebf29daa59fc24304b05b52bdd2b9144c",
+        "patch_sha256": "2ab4264833a6e7c426001297d499a81237db505e24086840a21ed9b31a67d60f",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "agentscope-ai/OpenJudge",
+    "number": 196,
+    "url": "https://github.com/agentscope-ai/OpenJudge/pull/196",
+    "author": "prodmanpd",
+    "created_at": "2026-09-08T18:15:08Z",
+    "state": "open",
+    "head_sha": "7ecfc3bee7849d04a3a0c891e9f49ed0b3025de2",
+    "base_sha": "5439e9f56cbc89314b7c3e1eab77ab9d9be44e85",
+    "integration": "python-sdk",
+    "constraints": [
+      {
+        "file": "pyproject.toml",
+        "specifier": ">=1.89.0,<2.0.0"
+      }
+    ],
+    "lock": null,
+    "evidence_file": "prs/agentscope-ai__OpenJudge__196.json",
+    "files": [
+      {
+        "path": "openjudge/models/__init__.py",
+        "status": "modified",
+        "blob_sha": "d87bbe9114b072fcaf812c1f6ecb3b27b7fa6cbb",
+        "patch_sha256": "4623d925bd4c93c85e39211acfca1c1c214ebbe7c877135e95c254d9c5a06992",
+        "patch_available": true
+      },
+      {
+        "path": "openjudge/models/litellm_chat_model.py",
+        "status": "added",
+        "blob_sha": "50c30c05367bf7d7c7d64713aff7503e11c8dacb",
+        "patch_sha256": "c39a4f9233c3adc51b6a43fc19432a28bb8978ca73f2cce2eb7176b2cf26b7d5",
+        "patch_available": true
+      },
+      {
+        "path": "pyproject.toml",
+        "status": "modified",
+        "blob_sha": "af3353bf05cb1d0bc3073f554f75412d0c0d6725",
+        "patch_sha256": "39222ac5da62f9275eb185c4d87622961247f6bc56680fdf4fc02d08f856e413",
+        "patch_available": true
+      },
+      {
+        "path": "tests/models/test_litellm_chat_model.py",
+        "status": "added",
+        "blob_sha": "36407df63a47e11a32d42bd0de3fe185a0c29b4f",
+        "patch_sha256": "2c4c62817cfdb9e801e816c7901791dd5e4b0f0741c65ea717acb66389cb7278",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "jjyaoao/HelloAgents",
+    "number": 113,
+    "url": "https://github.com/jjyaoao/HelloAgents/pull/113",
+    "author": "prodmanpd",
+    "created_at": "2026-09-08T18:23:49Z",
+    "state": "open",
+    "head_sha": "92d62462b1e68febca781d134005d92b84d239a8",
+    "base_sha": "93e77ea60c13436636c9b39b6761ff8dfe940ba2",
+    "integration": "python-sdk",
+    "constraints": [
+      {
+        "file": "pyproject.toml",
+        "specifier": ">=1.89.0,<2.0.0"
+      }
+    ],
+    "lock": null,
+    "evidence_file": "prs/jjyaoao__HelloAgents__113.json",
+    "files": [
+      {
+        "path": "hello_agents/core/llm.py",
+        "status": "modified",
+        "blob_sha": "2b111ba31282145bed173aefe531da13814416d3",
+        "patch_sha256": "5498e7ced1c31f92fbb5a04965af8c588628918c6fb704a98492a8287ae86d90",
+        "patch_available": true
+      },
+      {
+        "path": "hello_agents/core/llm_adapters.py",
+        "status": "modified",
+        "blob_sha": "fbffe4e83bd127732f2865e9596f65afcbf1d079",
+        "patch_sha256": "49350d77eed0870d7c6177c7ad0175d6d835eb8f71535a3ed65cd6d6db708b7e",
+        "patch_available": true
+      },
+      {
+        "path": "pyproject.toml",
+        "status": "modified",
+        "blob_sha": "f18e5f06978e6aa2857464945d56fa34d1e7d69a",
+        "patch_sha256": "41a818085f37fbdce358f38459b3acbeae2105106786388e76313cefd49e2ad2",
+        "patch_available": true
+      },
+      {
+        "path": "tests/test_litellm_adapter.py",
+        "status": "added",
+        "blob_sha": "962dbf42e627d470d50193172bc6481e792cfdbd",
+        "patch_sha256": "40abc4342fa8a1fc90b8d99eb94ec01c38117a338b9d962dca738ae572a27934",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "SenteLabsAI/OpenExecutive",
+    "number": 98,
+    "url": "https://github.com/SenteLabsAI/OpenExecutive/pull/98",
+    "author": "prodmanpd",
+    "created_at": "2026-09-08T18:35:01Z",
+    "state": "open",
+    "head_sha": "cf6903bb342c32a0772eee4009472ee2339dbdbd",
+    "base_sha": "69c0ae33eaeab05575a11eda7829bf7cc9ae3d08",
+    "integration": "python-sdk",
+    "constraints": [
+      {
+        "file": "packages/core/pyproject.toml",
+        "specifier": ">=1.89.0,<2.0.0"
+      }
+    ],
+    "lock": null,
+    "evidence_file": "prs/SenteLabsAI__OpenExecutive__98.json",
+    "files": [
+      {
+        "path": ".env.example",
+        "status": "modified",
+        "blob_sha": "3532cc6a86de754dfcac191a8ce269dd5e35ee3f",
+        "patch_sha256": "9377d3e01a3fc7ade0abe57838ad6943abafda29a4f5bd17c808c734ead1048c",
+        "patch_available": true
+      },
+      {
+        "path": "packages/core/openexecutive/config.py",
+        "status": "modified",
+        "blob_sha": "c8103dd98ad5ec1fae9ccca70f87e1b9c16d28b5",
+        "patch_sha256": "2af80309ceb751f49c1fff0d5247f7e43d175f79d89b43bcd990afc4109fe200",
+        "patch_available": true
+      },
+      {
+        "path": "packages/core/openexecutive/providers/litellm_provider.py",
+        "status": "added",
+        "blob_sha": "eb425a8162780ab91027c1f1bbfc432760616230",
+        "patch_sha256": "b56a2a5818eb9e7840e74994bf859c0afae97e4a050478058b7370d0a0f32f70",
+        "patch_available": true
+      },
+      {
+        "path": "packages/core/openexecutive/providers/registry.py",
+        "status": "modified",
+        "blob_sha": "0f9f4f842dfd9798bb13e5ecf7a69482a67c8679",
+        "patch_sha256": "1f5d39f11f5de1b3c4152313761ef2ad2c8dca704d3c859874891f12db6712e3",
+        "patch_available": true
+      },
+      {
+        "path": "packages/core/pyproject.toml",
+        "status": "modified",
+        "blob_sha": "ff9347c4197394a8ab4ff57a03cbc125648fb14f",
+        "patch_sha256": "57f49fc1c4bb9784ef7c2794488f23a1bd7b1c021ef86e82b554a2b17e18acc2",
+        "patch_available": true
+      },
+      {
+        "path": "packages/core/tests/unit/test_config_litellm.py",
+        "status": "added",
+        "blob_sha": "2ed4c4dc012e95457fa645cd5bed3c62eced54fd",
+        "patch_sha256": "58a5bbdaa4add9226f3a0365aa9c1921806539dc2e5e6d19e286801dfdc291db",
+        "patch_available": true
+      },
+      {
+        "path": "packages/core/tests/unit/test_litellm_provider.py",
+        "status": "added",
+        "blob_sha": "d62ea4fd02bce0520599a9575ab4e2eb86355dc8",
+        "patch_sha256": "9f806150bdd7c999fb3a942549c47352ce545d523dc961ca876c2dcf794120a9",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "liuzhao1225/YouDub-webui",
+    "number": 130,
+    "url": "https://github.com/liuzhao1225/YouDub-webui/pull/130",
+    "author": "prodmanpd",
+    "created_at": "2026-09-08T18:46:05Z",
+    "state": "open",
+    "head_sha": "1add1b6d90795ddc222c3f5021305a2e8d953a17",
+    "base_sha": "f094766ebc786cea99bda10051d8967e94570670",
+    "integration": "python-sdk",
+    "constraints": [
+      {
+        "file": "requirements.txt",
+        "specifier": ">=1.89.0,<2.0.0"
+      }
+    ],
+    "lock": null,
+    "evidence_file": "prs/liuzhao1225__YouDub-webui__130.json",
+    "files": [
+      {
+        "path": "backend/app/adapters/litellm_translate.py",
+        "status": "added",
+        "blob_sha": "5b4099315c5f17c41aa0c62f6491ed319c843e15",
+        "patch_sha256": "12577f2bf70c65a98c83c74ab240409e7afff85c4e03be2d0aa5b3c2c9776abc",
+        "patch_available": true
+      },
+      {
+        "path": "backend/app/adapters/openai_translate.py",
+        "status": "modified",
+        "blob_sha": "3c2d3209c358726c4a27cc199e7f72d71f87b3d8",
+        "patch_sha256": "5f8d323936b3e50a2fe8b2d27a881192390e1b857467a65bad139ef074c986c8",
+        "patch_available": true
+      },
+      {
+        "path": "backend/app/config.py",
+        "status": "modified",
+        "blob_sha": "c1b801bd11746ab5b2b74083cfe239f119f41304",
+        "patch_sha256": "932c12d62e01010a7f492f31f73d796491f4621db2aa391e29338a0963458497",
+        "patch_available": true
+      },
+      {
+        "path": "backend/app/database.py",
+        "status": "modified",
+        "blob_sha": "695ef3ed827ecd5a55b4d9d76123c432b9b92fca",
+        "patch_sha256": "981e270179ef34b5ba071a385d04cc1b11106236bd91b1237689097120439b4a",
+        "patch_available": true
+      },
+      {
+        "path": "backend/app/main.py",
+        "status": "modified",
+        "blob_sha": "5f53bbe832aac0c116790eec9b01d9745448b943",
+        "patch_sha256": "1ed910848d2b8b6b171b4923d436c353aaaadb80229106a3ecdca75fcb150189",
+        "patch_available": true
+      },
+      {
+        "path": "backend/app/pipeline.py",
+        "status": "modified",
+        "blob_sha": "baa6d2f275e77ca5e1b687b1f6aad587ad0b3be3",
+        "patch_sha256": "2ba48de9f580de298c4fa4601e869470c96389846228b497bac0ff30d554232d",
+        "patch_available": true
+      },
+      {
+        "path": "backend/tests/test_litellm_translate.py",
+        "status": "added",
+        "blob_sha": "1d8cd938cf68c776dfa8990f423f364bd66bca9d",
+        "patch_sha256": "63a6644b59bde6f49368c2f40bf60ddf6096277a16dc7570dee09b8eab5548af",
+        "patch_available": true
+      },
+      {
+        "path": "requirements.txt",
+        "status": "modified",
+        "blob_sha": "a5d5e072c01b95de6bd5f19c3f9f65b1b2ecfa4b",
+        "patch_sha256": "b05212c57f914d0a4a9480e735dfd9273f931c28326e1f1fc29942d3806f30d0",
+        "patch_available": true
+      }
+    ]
+  },
+  {
+    "repository": "ageerle/ruoyi-ai",
+    "number": 333,
+    "url": "https://github.com/ageerle/ruoyi-ai/pull/333",
+    "author": "prodmanpd",
+    "created_at": "2026-09-08T19:01:44Z",
+    "state": "open",
+    "head_sha": "b1104c8ac609b5ca22a14f8c78312fd137c1e191",
+    "base_sha": "4766d2e6281e3157cb0f0b045fbab3a2027fb4db",
+    "integration": "proxy-compatible",
+    "constraints": [],
+    "lock": null,
+    "evidence_file": "prs/ageerle__ruoyi-ai__333.json",
+    "files": [
+      {
+        "path": "ruoyi-modules/ruoyi-chat/src/main/java/org/ruoyi/enums/ChatModeType.java",
+        "status": "modified",
+        "blob_sha": "df7cb6c11a771537da58a3989a794ccfc6d76db7",
+        "patch_sha256": "19bdacfc2d1ee9abb7a07fcf3d063d0624635121417a454f11b76fe25b6cdad6",
+        "patch_available": true
+      },
+      {
+        "path": "ruoyi-modules/ruoyi-chat/src/main/java/org/ruoyi/service/chat/impl/provider/LiteLLMServiceImpl.java",
+        "status": "added",
+        "blob_sha": "e881425634ff6affd4cb8d65eb9a1107e1851341",
+        "patch_sha256": "15f200d2fd08b86a786e380aa92a0b6784abf569f04015fe55e65b57c9f99606",
+        "patch_available": true
+      },
+      {
+        "path": "ruoyi-modules/ruoyi-chat/src/main/java/org/ruoyi/service/embed/impl/LiteLLMEmbeddingProvider.java",
+        "status": "added",
+        "blob_sha": "9119f4d0ea90fbcf77e961cc2b75ccd414cf45f7",
+        "patch_sha256": "5afd56ebf2d6f7d1daecc0735c7607fdb7332150ef85020775742775988bc047",
+        "patch_available": true
+      },
+      {
+        "path": "ruoyi-modules/ruoyi-chat/src/test/java/org/ruoyi/service/chat/impl/provider/LiteLLMServiceImplTest.java",
+        "status": "added",
+        "blob_sha": "5b89ee4302dbf9fdcc6018137c7750eb2595617e",
+        "patch_sha256": "d915386336dfb97703f1999c3bda2534f74622640e05cef76158e6212a5da649",
+        "patch_available": true
+      },
+      {
+        "path": "ruoyi-modules/ruoyi-chat/src/test/java/org/ruoyi/service/embed/impl/LiteLLMEmbeddingProviderTest.java",
+        "status": "added",
+        "blob_sha": "237c9cfdf9cdb2973de9043108791df17896e875",
+        "patch_sha256": "59912005b66fd3a57f54a6558508c1bd4f8aeb07cb6734138e516200ad7c8e3e",
+        "patch_available": true
+      }
+    ]
+  }
+]

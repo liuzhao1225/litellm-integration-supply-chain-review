@@ -1,0 +1,49 @@
+{
+  "repository": "agentscope-ai/OpenJudge",
+  "number": 196,
+  "url": "https://github.com/agentscope-ai/OpenJudge/pull/196",
+  "author": "prodmanpd",
+  "created_at": "2026-09-08T18:15:08Z",
+  "state": "open",
+  "head_sha": "7ecfc3bee7849d04a3a0c891e9f49ed0b3025de2",
+  "base_sha": "5439e9f56cbc89314b7c3e1eab77ab9d9be44e85",
+  "integration": "python-sdk",
+  "constraints": [
+    {
+      "file": "pyproject.toml",
+      "specifier": ">=1.89.0,<2.0.0"
+    }
+  ],
+  "lock": null,
+  "evidence_file": "prs/agentscope-ai__OpenJudge__196.json",
+  "files": [
+    {
+      "path": "openjudge/models/__init__.py",
+      "status": "modified",
+      "blob_sha": "d87bbe9114b072fcaf812c1f6ecb3b27b7fa6cbb",
+      "patch_sha256": "4623d925bd4c93c85e39211acfca1c1c214ebbe7c877135e95c254d9c5a06992",
+      "patch_available": true
+    },
+    {
+      "path": "openjudge/models/litellm_chat_model.py",
+      "status": "added",
+      "blob_sha": "50c30c05367bf7d7c7d64713aff7503e11c8dacb",
+      "patch_sha256": "c39a4f9233c3adc51b6a43fc19432a28bb8978ca73f2cce2eb7176b2cf26b7d5",
+      "patch_available": true
+    },
+    {
+      "path": "pyproject.toml",
+      "status": "modified",
+      "blob_sha": "af3353bf05cb1d0bc3073f554f75412d0c0d6725",
+      "patch_sha256": "39222ac5da62f9275eb185c4d87622961247f6bc56680fdf4fc02d08f856e413",
+      "patch_available": true
+    },
+    {
+      "path": "tests/models/test_litellm_chat_model.py",
+      "status": "added",
+      "blob_sha": "36407df63a47e11a32d42bd0de3fe185a0c29b4f",
+      "patch_sha256": "2c4c62817cfdb9e801e816c7901791dd5e4b0f0741c65ea717acb66389cb7278",
+      "patch_available": true
+    }
+  ]
+}

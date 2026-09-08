@@ -1,0 +1,79 @@
+{
+  "repository": "orneryd/NornicDB",
+  "number": 292,
+  "url": "https://github.com/orneryd/NornicDB/pull/292",
+  "author": "prodmanpd",
+  "created_at": "2026-08-10T19:08:10Z",
+  "state": "merged",
+  "head_sha": "d6eaab77ce0c62d5aac29441f134e570c5e051b0",
+  "base_sha": "8abc226963692a70327f9dd63b7d13f0fb602510",
+  "integration": "proxy-compatible",
+  "constraints": [],
+  "lock": null,
+  "evidence_file": "prs/orneryd__NornicDB__292.json",
+  "files": [
+    {
+      "path": "docs/operations/configuration.md",
+      "status": "modified",
+      "blob_sha": "6a7faa20f2b54958f7aff2139055eff299ee44bd",
+      "patch_sha256": "2f6465377af11e8ab53728bc6d4ca369870c16a733384b713d7771d65bbdf641",
+      "patch_available": true
+    },
+    {
+      "path": "docs/user-guides/heimdall-ai-assistant.md",
+      "status": "modified",
+      "blob_sha": "02ab645c5b0bcf049245afea68c4aacb6f4b5f34",
+      "patch_sha256": "56da357a800fadda14d630bc7b34388f98021642c8791956679d8a91f44cd468",
+      "patch_available": true
+    },
+    {
+      "path": "pkg/config/config.go",
+      "status": "modified",
+      "blob_sha": "f8cd8024b41db1dfde577a730ab55ecdf266ac81",
+      "patch_sha256": "b65adb30fdf63dd7f77606906ebeda6944b3b8f0a2b7d05a8e869b42acd5ba9d",
+      "patch_available": true
+    },
+    {
+      "path": "pkg/config/config_test.go",
+      "status": "modified",
+      "blob_sha": "1cff7bf88f99c1cc4528d19d2c8ee7317b971d1f",
+      "patch_sha256": "7f44a47ae9856a4995e07d3530023f1b1f58a0b83180e2c68e0f1fa0c54574bf",
+      "patch_available": true
+    },
+    {
+      "path": "pkg/heimdall/generator_litellm.go",
+      "status": "added",
+      "blob_sha": "f90c66db97af6109e14d26efed34f007bdc501a6",
+      "patch_sha256": "1746574789e34e258903b1abdde5ca4b8489687f17409b7473943f764637764c",
+      "patch_available": true
+    },
+    {
+      "path": "pkg/heimdall/generator_litellm_test.go",
+      "status": "added",
+      "blob_sha": "ce4fb22c95ab80fdcf43bc94ca4c4e6a372f6f1a",
+      "patch_sha256": "3db3347613ac427b43922cbe2a3880e020a1d145f6a61fd3442de69a27496eb4",
+      "patch_available": true
+    },
+    {
+      "path": "pkg/heimdall/scheduler.go",
+      "status": "modified",
+      "blob_sha": "f7bb62cc5f53ca2f28ab98b0054a791d91a95042",
+      "patch_sha256": "606040f5e6c01b7402e8617cbddbd3c2e9e876d62b0985835808f22dcff90f78",
+      "patch_available": true
+    },
+    {
+      "path": "pkg/heimdall/types.go",
+      "status": "modified",
+      "blob_sha": "b6f14d76ba4a9c2ffd7a2348788d189456fa08e9",
+      "patch_sha256": "89320b7d5bd88059be8aecd6488adb910678c561c983f82f8e6b52266487eac2",
+      "patch_available": true
+    },
+    {
+      "path": "pkg/heimdall/types_test.go",
+      "status": "modified",
+      "blob_sha": "13ebddf1e516365d184734471d4f99b0b726474d",
+      "patch_sha256": "bc3b717029122a039eaeff048d53556533bbccc661251c353772e1a5249436e2",
+      "patch_available": true
+    }
+  ]
+}

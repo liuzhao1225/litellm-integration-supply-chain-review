@@ -1,0 +1,51 @@
+{
+  "repository": "ageerle/ruoyi-ai",
+  "number": 333,
+  "url": "https://github.com/ageerle/ruoyi-ai/pull/333",
+  "author": "prodmanpd",
+  "created_at": "2026-09-08T19:01:44Z",
+  "state": "open",
+  "head_sha": "b1104c8ac609b5ca22a14f8c78312fd137c1e191",
+  "base_sha": "4766d2e6281e3157cb0f0b045fbab3a2027fb4db",
+  "integration": "proxy-compatible",
+  "constraints": [],
+  "lock": null,
+  "evidence_file": "prs/ageerle__ruoyi-ai__333.json",
+  "files": [
+    {
+      "path": "ruoyi-modules/ruoyi-chat/src/main/java/org/ruoyi/enums/ChatModeType.java",
+      "status": "modified",
+      "blob_sha": "df7cb6c11a771537da58a3989a794ccfc6d76db7",
+      "patch_sha256": "19bdacfc2d1ee9abb7a07fcf3d063d0624635121417a454f11b76fe25b6cdad6",
+      "patch_available": true
+    },
+    {
+      "path": "ruoyi-modules/ruoyi-chat/src/main/java/org/ruoyi/service/chat/impl/provider/LiteLLMServiceImpl.java",
+      "status": "added",
+      "blob_sha": "e881425634ff6affd4cb8d65eb9a1107e1851341",
+      "patch_sha256": "15f200d2fd08b86a786e380aa92a0b6784abf569f04015fe55e65b57c9f99606",
+      "patch_available": true
+    },
+    {
+      "path": "ruoyi-modules/ruoyi-chat/src/main/java/org/ruoyi/service/embed/impl/LiteLLMEmbeddingProvider.java",
+      "status": "added",
+      "blob_sha": "9119f4d0ea90fbcf77e961cc2b75ccd414cf45f7",
+      "patch_sha256": "5afd56ebf2d6f7d1daecc0735c7607fdb7332150ef85020775742775988bc047",
+      "patch_available": true
+    },
+    {
+      "path": "ruoyi-modules/ruoyi-chat/src/test/java/org/ruoyi/service/chat/impl/provider/LiteLLMServiceImplTest.java",
+      "status": "added",
+      "blob_sha": "5b89ee4302dbf9fdcc6018137c7750eb2595617e",
+      "patch_sha256": "d915386336dfb97703f1999c3bda2534f74622640e05cef76158e6212a5da649",
+      "patch_available": true
+    },
+    {
+      "path": "ruoyi-modules/ruoyi-chat/src/test/java/org/ruoyi/service/embed/impl/LiteLLMEmbeddingProviderTest.java",
+      "status": "added",
+      "blob_sha": "237c9cfdf9cdb2973de9043108791df17896e875",
+      "patch_sha256": "59912005b66fd3a57f54a6558508c1bd4f8aeb07cb6734138e516200ad7c8e3e",
+      "patch_available": true
+    }
+  ]
+}

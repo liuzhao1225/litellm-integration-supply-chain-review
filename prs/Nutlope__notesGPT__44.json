@@ -1,0 +1,37 @@
+{
+  "repository": "Nutlope/notesGPT",
+  "number": 44,
+  "url": "https://github.com/Nutlope/notesGPT/pull/44",
+  "author": "prodmanpd",
+  "created_at": "2026-08-03T15:31:31Z",
+  "state": "open",
+  "head_sha": "7ac28219671c0e2ac269b6baafb7e6df14f994ab",
+  "base_sha": "5845a1f419f6c2c0dde860603746bc9a34cdc4d4",
+  "integration": "proxy-compatible",
+  "constraints": [],
+  "lock": null,
+  "evidence_file": "prs/Nutlope__notesGPT__44.json",
+  "files": [
+    {
+      "path": "README.md",
+      "status": "modified",
+      "blob_sha": "75a6612d89f3f13efc9402b746371ad6adde6986",
+      "patch_sha256": "fece908c6b856df2b818b31784cd4b1c868bc88c8c51879740e33e82a46e58df",
+      "patch_available": true
+    },
+    {
+      "path": "convex/llm.ts",
+      "status": "added",
+      "blob_sha": "ce68e0fb72c250efde0e545b9f021d2b56c567a4",
+      "patch_sha256": "c4b95a395895e376fa360afbb9298e142cef423400948898154fff7b92c1714e",
+      "patch_available": true
+    },
+    {
+      "path": "convex/together.ts",
+      "status": "modified",
+      "blob_sha": "dd14653fd743fb1f1d88d0f1798b60107c300b0b",
+      "patch_sha256": "ba2da4d96d6a3507eeff78d6aa2d8627bd000a9fd6b97ffdb8f2b7fdd19c4b6d",
+      "patch_available": true
+    }
+  ]
+}

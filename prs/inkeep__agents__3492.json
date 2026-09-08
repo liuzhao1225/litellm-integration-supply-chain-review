@@ -1,0 +1,65 @@
+{
+  "repository": "inkeep/agents",
+  "number": 3492,
+  "url": "https://github.com/inkeep/agents/pull/3492",
+  "author": "prodmanpd",
+  "created_at": "2026-08-03T11:42:18Z",
+  "state": "open",
+  "head_sha": "62759e2b805d297fa77957893fca84c51669f94e",
+  "base_sha": "78653843ba9e55a36634f9679baa190ebf807a64",
+  "integration": "proxy-compatible",
+  "constraints": [],
+  "lock": null,
+  "evidence_file": "prs/inkeep__agents__3492.json",
+  "files": [
+    {
+      "path": ".changeset/add-litellm-provider.md",
+      "status": "added",
+      "blob_sha": "22825dfb536350b52ea61157997caf9ce61f1b4c",
+      "patch_sha256": "cab2498a22b8a022716ec4f2b54b519973248d51bf7856f66017ac994636271b",
+      "patch_available": true
+    },
+    {
+      "path": "agents-api/src/__tests__/run/agents/ModelFactory.test.ts",
+      "status": "modified",
+      "blob_sha": "a74ba6e236dee4a292f2449d80c224b100c6f510",
+      "patch_sha256": "a0c44f6cde1069b5ae338c6360916d30ca95ab93ac6e51a54c015b734012e225",
+      "patch_available": true
+    },
+    {
+      "path": "agents-docs/content/typescript-sdk/models.mdx",
+      "status": "modified",
+      "blob_sha": "be7c92277bd23c221a5199a5f1ea7c39451c033e",
+      "patch_sha256": "b5255eb7df83f163d8e030060c1bcc0de993e7cadad890ff873451a231222fab",
+      "patch_available": true
+    },
+    {
+      "path": "agents-manage-ui/src/components/agent/sidepane/nodes/model-selector.tsx",
+      "status": "modified",
+      "blob_sha": "957ce717fb314ecd0b56799402d6889473098fca",
+      "patch_sha256": "ee80ade5cb4301467373ff92f1ca87678940edf0e5933d149e897d4b6a02abed",
+      "patch_available": true
+    },
+    {
+      "path": "agents-manage-ui/src/features/agent/state/use-agent-store.ts",
+      "status": "modified",
+      "blob_sha": "fefb2f4bd1cb1777b6bc280b1b56cad5848d8da5",
+      "patch_sha256": "e5f3463b3ecc025f2f0735c83c4e5954b7337a1b63b394e0062c33546a3ce910",
+      "patch_available": true
+    },
+    {
+      "path": "packages/agents-core/src/__tests__/utils/model-factory.test.ts",
+      "status": "modified",
+      "blob_sha": "0f2a86f0367ad1160ac6e985f99fb3697731367c",
+      "patch_sha256": "58bc452cc03368485c577175225b13dae193ee96259f78d74dee91dcd83eae14",
+      "patch_available": true
+    },
+    {
+      "path": "packages/agents-core/src/utils/model-factory.ts",
+      "status": "modified",
+      "blob_sha": "1c1e86ce76ed8836d92da50da72ef28df4f2c874",
+      "patch_sha256": "87b0d79f5a85e297c17c759407c76dc842bd30d2ce181970c2bda021c4459018",
+      "patch_available": true
+    }
+  ]
+}

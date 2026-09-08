@@ -1,0 +1,72 @@
+{
+  "repository": "e2b-dev/surf",
+  "number": 40,
+  "url": "https://github.com/e2b-dev/surf/pull/40",
+  "author": "prodmanpd",
+  "created_at": "2026-08-02T19:44:11Z",
+  "state": "open",
+  "head_sha": "c36d1842dd5f1873873e1b75907c8740e12e9ffd",
+  "base_sha": "d2a98aa9d0cd67db5146bec843a296f132d443f5",
+  "integration": "proxy-compatible",
+  "constraints": [],
+  "lock": null,
+  "evidence_file": "prs/e2b-dev__surf__40.json",
+  "files": [
+    {
+      "path": "README.md",
+      "status": "modified",
+      "blob_sha": "f69ecdd5e2b23cb3eb58582505b2ff1318c07674",
+      "patch_sha256": "b3bfff326412931575c958f02bea76a05dcc9f17ca262218674368adf96657bf",
+      "patch_available": true
+    },
+    {
+      "path": "lib/config.test.ts",
+      "status": "added",
+      "blob_sha": "c04306086d8000a874537163c4ce11ce8566cd52",
+      "patch_sha256": "ed3f996479c5e4b9ce5addc88f1281706be85218c5373c571c4ccb449af2adb2",
+      "patch_available": true
+    },
+    {
+      "path": "lib/config.ts",
+      "status": "modified",
+      "blob_sha": "3f1e249aafcfee645d8287e0d744272f8463b8b1",
+      "patch_sha256": "3831f1277516b07e94c29ed24e08eb3cc7454c7973be2532fb64f3f6c022f127",
+      "patch_available": true
+    },
+    {
+      "path": "lib/streaming/openai.test.ts",
+      "status": "added",
+      "blob_sha": "254d1495b346728f8c79b227d48142b29e3dd0f2",
+      "patch_sha256": "8e4eb785f3f31a2f3528bf8856a0261e1c2cf3bbb515829f4c353638fcb38074",
+      "patch_available": true
+    },
+    {
+      "path": "lib/streaming/openai.ts",
+      "status": "modified",
+      "blob_sha": "5ec43a02504da58588b7703f2286d6fe006a43bf",
+      "patch_sha256": "9e063a517ff2f55faf7187615a9f54eb12f9d8a33ceccc019d9399f232259b09",
+      "patch_available": true
+    },
+    {
+      "path": "package-lock.json",
+      "status": "modified",
+      "blob_sha": "6ae7deb0918a6801ebbd46ab2ef781315d54a52b",
+      "patch_sha256": "afd8c22459f3e420526e961cab2f8ffb85168dda04bf79848fd40e509a0fd3ab",
+      "patch_available": true
+    },
+    {
+      "path": "package.json",
+      "status": "modified",
+      "blob_sha": "f121be17030af9c7a10d398e68aff6aa23eb5625",
+      "patch_sha256": "50a10ebd854c697fddd7e41268fe3c769d9dbd8e08cfa99d33665f905c686c2b",
+      "patch_available": true
+    },
+    {
+      "path": "vitest.config.ts",
+      "status": "added",
+      "blob_sha": "a55b11d0e76bcc65020b16dccd07f45be9c4d680",
+      "patch_sha256": "db4d0d8c940278e3a49b1962d39130acf3c214154e340de02ea8d893466b53d9",
+      "patch_available": true
+    }
+  ]
+}

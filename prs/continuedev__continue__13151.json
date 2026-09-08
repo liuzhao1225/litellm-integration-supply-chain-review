@@ -1,0 +1,86 @@
+{
+  "repository": "continuedev/continue",
+  "number": 13151,
+  "url": "https://github.com/continuedev/continue/pull/13151",
+  "author": "prodmanpd",
+  "created_at": "2026-08-17T16:03:09Z",
+  "state": "open",
+  "head_sha": "07c4843453463599f118f6bcd40ecbbf5b6aaa91",
+  "base_sha": "5522c6f44ca0ac3528b37244818fbfa39b5af470",
+  "integration": "proxy-compatible",
+  "constraints": [],
+  "lock": null,
+  "evidence_file": "prs/continuedev__continue__13151.json",
+  "files": [
+    {
+      "path": "core/llm/autodetect.ts",
+      "status": "modified",
+      "blob_sha": "105feb04a6f2cd4ffc99f3821745b6045a1c298b",
+      "patch_sha256": "1aac3f680bba717f36fad89ed9200dc6e193d45ef7a3d217ffec15aaafb85aaa",
+      "patch_available": true
+    },
+    {
+      "path": "core/llm/llms/LiteLLM.ts",
+      "status": "added",
+      "blob_sha": "3b8166b250bc489350d13d35b9544efef46506b6",
+      "patch_sha256": "ea0541765cc61e34ef4e5992f5016e65fab34fd22613ad2246082507ecd5aa2c",
+      "patch_available": true
+    },
+    {
+      "path": "core/llm/llms/LiteLLM.vitest.ts",
+      "status": "added",
+      "blob_sha": "d4b863760fbbaaaccf4fcc6933f3ab042fe09cf8",
+      "patch_sha256": "911018a990f1bf9f0c8d44ac238eed4730d5b79ad9ec48f21f997eebe5ec89d1",
+      "patch_available": true
+    },
+    {
+      "path": "core/llm/llms/index.ts",
+      "status": "modified",
+      "blob_sha": "f4b7142fcb22e55a386bdcd706505746ae3dce1b",
+      "patch_sha256": "dddb139ffa1f7ee523486f3c1945896b2096f69fa6dde0f1ad6320b638ab2cb1",
+      "patch_available": true
+    },
+    {
+      "path": "core/llm/toolSupport.test.ts",
+      "status": "modified",
+      "blob_sha": "60c158aee2e1372b746db4710cf432aee637c232",
+      "patch_sha256": "2b9a26029e22cada343847b48778f1adb778478768d579c2fadf9dc01823d202",
+      "patch_available": true
+    },
+    {
+      "path": "core/llm/toolSupport.ts",
+      "status": "modified",
+      "blob_sha": "0b50604b00a73e13f3f21d3d6c08480b69ccb792",
+      "patch_sha256": "21cdfcc7dd4ad402c76718b2126e334044a71bd4914af259e2eeefe35a26f882",
+      "patch_available": true
+    },
+    {
+      "path": "docs/customize/model-providers/more/litellm.mdx",
+      "status": "added",
+      "blob_sha": "5e65c0f07f628c9d3ec1d9aaed57425b02564c88",
+      "patch_sha256": "67d1570f4b86d36dab128175ab549a1b3783ab7da63b97f2f3a8cdcc6c9605e0",
+      "patch_available": true
+    },
+    {
+      "path": "docs/customize/model-providers/overview.mdx",
+      "status": "modified",
+      "blob_sha": "46211a9c4ebd5107d1aaaba65b4da7f1f597820d",
+      "patch_sha256": "c521e7680e496b2fc48a5f7e315e2c291780cd3cb1eaac89abe5c302a23b8d41",
+      "patch_available": true
+    },
+    {
+      "path": "docs/docs.json",
+      "status": "modified",
+      "blob_sha": "461181b35c3e1fcd078a74f36ea64a006393c958",
+      "patch_sha256": "a79cfb6d0e658fce714849792a217c64c86644a6210ab57c80ce08feafc551c6",
+      "patch_available": true
+    },
+    {
+      "path": "gui/src/pages/AddNewModel/configs/providers.ts",
+      "status": "modified",
+      "blob_sha": "bfeffe53b9713d820879bcd4b076ecd0876aef54",
+      "patch_sha256": "b7863dffbd2e4052229d332a3da21db64d46b6267c8e235bd1603518fb8445a4",
+      "patch_available": true
+    }
+  ]
+}

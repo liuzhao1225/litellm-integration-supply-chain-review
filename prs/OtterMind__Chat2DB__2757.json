@@ -1,0 +1,72 @@
+{
+  "repository": "OtterMind/Chat2DB",
+  "number": 2757,
+  "url": "https://github.com/OtterMind/Chat2DB/pull/2757",
+  "author": "prodmanpd",
+  "created_at": "2026-08-24T17:26:10Z",
+  "state": "open",
+  "head_sha": "cab7ecd153654edbbcb8fba633ec2deeacbb409f",
+  "base_sha": "ab5fa7778cea359c9e23d26c8c77f9dc749a718c",
+  "integration": "proxy-compatible",
+  "constraints": [],
+  "lock": null,
+  "evidence_file": "prs/OtterMind__Chat2DB__2757.json",
+  "files": [
+    {
+      "path": "chat2db-community-client/src/blocks/AI/components/AIModelConfigModal/index.tsx",
+      "status": "modified",
+      "blob_sha": "9a9acc152fcfe4ace806348f6dfff993996f78bb",
+      "patch_sha256": "b945a09355a3fe1214173c75c7aee93b78fbd269c82e9bdfc3e51d0c1fe5c3e5",
+      "patch_available": true
+    },
+    {
+      "path": "chat2db-community-client/src/blocks/AI/components/AIModelConfigModal/modelConfigDefaults.test.ts",
+      "status": "modified",
+      "blob_sha": "0f069ed5036845358c25b0b1941d5b3f1eaf9cd9",
+      "patch_sha256": "d53a88e0726550cfb4c6b3d7e20928cf138811d3c34e1f79f026848e2f95e090",
+      "patch_available": true
+    },
+    {
+      "path": "chat2db-community-client/src/blocks/AI/components/AIModelConfigModal/modelConfigDefaults.ts",
+      "status": "modified",
+      "blob_sha": "bc8aff77005817aa12bc9c9d177bc5ca025070f2",
+      "patch_sha256": "991e1f9a92aeea1b1a53a433f5fcf96f2402a7fc3619a30a9ac4b0f31438f1ee",
+      "patch_available": true
+    },
+    {
+      "path": "chat2db-community-client/src/service/aiModelConfig.ts",
+      "status": "modified",
+      "blob_sha": "41ea223c3e387c728bae34cb205a6fd10aeb64b0",
+      "patch_sha256": "602fd8db4ea6eb3649e111373ce198c687e87cfed523cffa5f05c0b9601d0137",
+      "patch_available": true
+    },
+    {
+      "path": "chat2db-community-client/src/service/aiStream.ts",
+      "status": "modified",
+      "blob_sha": "f0d896c9de8948020a94b12b3c4639e0efc82085",
+      "patch_sha256": "04a52db8091cafd45be7c4511c45f02518d3472a1ba659f25545332dc34e752a",
+      "patch_available": true
+    },
+    {
+      "path": "chat2db-community-server/chat2db-community-domain/chat2db-community-domain-api/src/main/java/ai/chat2db/community/domain/api/enums/ai/AiProviderEnum.java",
+      "status": "modified",
+      "blob_sha": "cda5676300ed1dc2b59bb217f0f26f516aeeba1b",
+      "patch_sha256": "673e39e7c5931dedc6f93c6d4878b1c11e2f03b72ad7fb88df5f216a52866938",
+      "patch_available": true
+    },
+    {
+      "path": "chat2db-community-server/chat2db-community-domain/chat2db-community-domain-core/src/main/java/ai/chat2db/community/domain/core/impl/ai/AiModelConfigServiceImpl.java",
+      "status": "modified",
+      "blob_sha": "ef38ec8a024953d9bc6b9875304aaac21dfbe54e",
+      "patch_sha256": "19b9e57502f34a94a6583e630d9316e011da1a59661301be1e03f4ebc480cac6",
+      "patch_available": true
+    },
+    {
+      "path": "chat2db-community-server/chat2db-community-web/src/main/java/ai/chat2db/community/web/api/adapter/ai/AiModelFactory.java",
+      "status": "modified",
+      "blob_sha": "8ba55a61e3c1b75407ba5717d5367703879582e3",
+      "patch_sha256": "928d5cd67dcaab550aa1067a338f99dcd14cbba77408e4a785de82157ac9d2ea",
+      "patch_available": true
+    }
+  ]
+}

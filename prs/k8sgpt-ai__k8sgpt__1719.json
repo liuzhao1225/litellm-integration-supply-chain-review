@@ -1,0 +1,44 @@
+{
+  "repository": "k8sgpt-ai/k8sgpt",
+  "number": 1719,
+  "url": "https://github.com/k8sgpt-ai/k8sgpt/pull/1719",
+  "author": "prodmanpd",
+  "created_at": "2026-08-03T16:34:14Z",
+  "state": "merged",
+  "head_sha": "5d195e02818d5fa24af964cebaa3dbd029457cc4",
+  "base_sha": "81ad2009bc89e031b5257314e734592e16b09641",
+  "integration": "proxy-compatible",
+  "constraints": [],
+  "lock": null,
+  "evidence_file": "prs/k8sgpt-ai__k8sgpt__1719.json",
+  "files": [
+    {
+      "path": "README.md",
+      "status": "modified",
+      "blob_sha": "ac960b332a2841cff26a60b5de22c0feb61ebce0",
+      "patch_sha256": "9b5d52948ad08da2a7b23de81e43146c67aeb468081cb8483bf079c337eaaf6f",
+      "patch_available": true
+    },
+    {
+      "path": "pkg/ai/iai.go",
+      "status": "modified",
+      "blob_sha": "9d472a1c4a08dfaf8b532a573cfe56737b130926",
+      "patch_sha256": "ad5abf9f42d1bf6cb0d311c011ea4fefeff12e5c0ff3047764e8352e64d77a6c",
+      "patch_available": true
+    },
+    {
+      "path": "pkg/ai/litellm.go",
+      "status": "added",
+      "blob_sha": "e03c070276dae941c4be6c39a4900c1030aba550",
+      "patch_sha256": "63429866738139446954926d52bea9a59d194b6bbc741e4ee35aef24b0ac3a09",
+      "patch_available": true
+    },
+    {
+      "path": "pkg/ai/litellm_test.go",
+      "status": "added",
+      "blob_sha": "55d1027d997fad53a3d1c8a7c80479cd3e0d6d69",
+      "patch_sha256": "f073701c73ed32f26bcc8028a5f1509298c5d9fe380511d5f879e9b81641c351",
+      "patch_available": true
+    }
+  ]
+}

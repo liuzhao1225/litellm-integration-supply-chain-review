@@ -1,0 +1,63 @@
+{
+  "repository": "TIGER-AI-Lab/ClawBench",
+  "number": 288,
+  "url": "https://github.com/TIGER-AI-Lab/ClawBench/pull/288",
+  "author": "prodmanpd",
+  "created_at": "2026-08-17T15:30:34Z",
+  "state": "closed",
+  "head_sha": "a5d00b9d2b0165aae3dee9cd74f60b008f0c9609",
+  "base_sha": "b6f1af5172284f82938b08ca67be498ee111bc3c",
+  "integration": "python-sdk",
+  "constraints": [
+    {
+      "file": "pyproject.toml",
+      "specifier": ">=1.85.0,<2.0"
+    }
+  ],
+  "lock": null,
+  "evidence_file": "prs/TIGER-AI-Lab__ClawBench__288.json",
+  "files": [
+    {
+      "path": "pyproject.toml",
+      "status": "modified",
+      "blob_sha": "8dc196049a120963def8e8a31f08abd52ba43c28",
+      "patch_sha256": "a2dba3f0486c7255a07d152deedf1ec6dcd4d4351fb9603110d43ca23ac1c051",
+      "patch_available": true
+    },
+    {
+      "path": "src/clawbench/runner/judge.py",
+      "status": "modified",
+      "blob_sha": "dec0b8102b84e7cc4bf9648d4513fc782b480ef9",
+      "patch_sha256": "30e48b05d9041ed9eb426ad33118906fd91609820d91aa05dd79c526d4d16b49",
+      "patch_available": true
+    },
+    {
+      "path": "src/clawbench/runner/judge_llm.py",
+      "status": "modified",
+      "blob_sha": "86619d33f04030faef92aefe1c06e87b67b9fb29",
+      "patch_sha256": "d036824a44eec44d3ce55159c3b0fa9a6f3cf1f1230fe163916cc4c2f8e9fbff",
+      "patch_available": true
+    },
+    {
+      "path": "src/clawbench/runner/run_support/api_preflight.py",
+      "status": "modified",
+      "blob_sha": "417ea1bbf97192a83d29fbf1dcb09eed08f83688",
+      "patch_sha256": "f465a2dbc5bd0576dbefb90143d431d082d737f34e9298d61b6a332f920ab55a",
+      "patch_available": true
+    },
+    {
+      "path": "src/clawbench/tui.py",
+      "status": "modified",
+      "blob_sha": "c4448b4d29fa267da07ad8b9f44156e77e5e6e2c",
+      "patch_sha256": "56f7efc9f45c988256df6e10a46ebce6d0fd05ab07baa8a2617f59a320ffef34",
+      "patch_available": true
+    },
+    {
+      "path": "tests/test_judge_litellm.py",
+      "status": "added",
+      "blob_sha": "bb407d82a601799c2d1aa1380ce7465b593d7ffe",
+      "patch_sha256": "458265934ca610d80b7a46f950550adca7886ba799da22fb23766672165d154d",
+      "patch_available": true
+    }
+  ]
+}

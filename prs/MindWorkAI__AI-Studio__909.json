@@ -1,0 +1,149 @@
+{
+  "repository": "MindWorkAI/AI-Studio",
+  "number": 909,
+  "url": "https://github.com/MindWorkAI/AI-Studio/pull/909",
+  "author": "prodmanpd",
+  "created_at": "2026-08-11T03:50:23Z",
+  "state": "merged",
+  "head_sha": "c7f90debbe2e927cb801fc861c1558597f68fcd1",
+  "base_sha": "2965102c536f6d3b2258d0c7ee2b34df29ac59ec",
+  "integration": "proxy-compatible",
+  "constraints": [],
+  "lock": null,
+  "evidence_file": "prs/MindWorkAI__AI-Studio__909.json",
+  "files": [
+    {
+      "path": "README.md",
+      "status": "modified",
+      "blob_sha": "72f2f3e0c5df02824d5a7e480f967ac4ba36cba9",
+      "patch_sha256": "0d5839ec817ad99dc6c79b16e371661e463847da0fd9c9fe1eeb56d0c10d6729",
+      "patch_available": true
+    },
+    {
+      "path": "app/MindWork AI Studio/Assistants/I18N/allTexts.lua",
+      "status": "modified",
+      "blob_sha": "d0bdf8c0adf4bd27fae2e7dc7d3cedf26d2bc33b",
+      "patch_sha256": "c2ddedadb48f55d69e273bbf8dc1934800322833785f7f63a938c5244c631e7b",
+      "patch_available": true
+    },
+    {
+      "path": "app/MindWork AI Studio/Pages/Home.razor.cs",
+      "status": "modified",
+      "blob_sha": "c140d900afd94447a35a36ba4e8b81178aea3b2a",
+      "patch_sha256": "5532dda4bcb390d2fbd3155f0d04ba577f86265dfeba3fdafc29f108130a210f",
+      "patch_available": true
+    },
+    {
+      "path": "app/MindWork AI Studio/Plugins/configuration/plugin.lua",
+      "status": "modified",
+      "blob_sha": "747ae2efa1f3154be271a068cdddb8397f345655",
+      "patch_sha256": "b65c821425f988cac8e3fa6423f318585e54408a6d8f3234df6f9dc234b141ac",
+      "patch_available": true
+    },
+    {
+      "path": "app/MindWork AI Studio/Plugins/languages/de-de-43065dbc-78d0-45b7-92be-f14c2926e2dc/plugin.lua",
+      "status": "modified",
+      "blob_sha": "f93095be70425da5ce8392fe92349b9525ecbd2c",
+      "patch_sha256": "d6987e5161019d49be362b71080ec260b79b5c402499f22085bcdcb1143038c7",
+      "patch_available": true
+    },
+    {
+      "path": "app/MindWork AI Studio/Plugins/languages/en-us-97dfb1ba-50c4-4440-8dfa-6575daf543c8/plugin.lua",
+      "status": "modified",
+      "blob_sha": "ff2afa5f50988826a48073a9d6b52c031086798c",
+      "patch_sha256": "ce741993a6856e2e89847f22a8a3af4d72b41f4e28762fea23e48fe9f27e3cec",
+      "patch_available": true
+    },
+    {
+      "path": "app/MindWork AI Studio/Provider/BaseProvider.cs",
+      "status": "modified",
+      "blob_sha": "f0108a8d9e77809b9f21456f3967afc6dbc2202e",
+      "patch_sha256": "d1714a6c9b7288391d23178f3e3f24baa317b7046058172e474980dd73b8a3a9",
+      "patch_available": true
+    },
+    {
+      "path": "app/MindWork AI Studio/Provider/Confidence.cs",
+      "status": "modified",
+      "blob_sha": "a0e058ff5a8edfa29a56845c19a73d3f50408866",
+      "patch_sha256": "1b7a0abbcf95eb401ddb2dcd3707f97b7d57a6893d338b985b07cc649be7b6c3",
+      "patch_available": true
+    },
+    {
+      "path": "app/MindWork AI Studio/Provider/LLMProviders.cs",
+      "status": "modified",
+      "blob_sha": "f682bd0b4a5c31313e7daa5c496e7cec05a1a00c",
+      "patch_sha256": "67c00957ac6c297a008a215fb951dc38abd7b7bf3a913dbaef63a8f1b2001c3a",
+      "patch_available": true
+    },
+    {
+      "path": "app/MindWork AI Studio/Provider/LLMProvidersExtensions.cs",
+      "status": "modified",
+      "blob_sha": "596a06f68f326434c584518d54d2954b8eb3c5df",
+      "patch_sha256": "8e3e337b3754db9fef8e9e685156130ef00584e75c207a51928495c22c6e0997",
+      "patch_available": true
+    },
+    {
+      "path": "app/MindWork AI Studio/Provider/LLMProvidersIconExtensions.cs",
+      "status": "modified",
+      "blob_sha": "66264cacc3166de2b200f65427e6838b7d4a26cf",
+      "patch_sha256": "ef0a975d2537f51faa89407cd06c175e6a8cff6b1ec67d2135551581e7ec6c76",
+      "patch_available": true
+    },
+    {
+      "path": "app/MindWork AI Studio/Provider/LiteLLM/ProviderLiteLLM.cs",
+      "status": "added",
+      "blob_sha": "462bce34ce6b47fafd3bca57e1f17e644ac35a02",
+      "patch_sha256": "5d98098e016fc6ff2ba03526d53d5646e056d7b19406a21b028363f6017a20d8",
+      "patch_available": true
+    },
+    {
+      "path": "app/MindWork AI Studio/Settings/ProviderExtensions.Reasoning.cs",
+      "status": "modified",
+      "blob_sha": "25d687b4cce65f0f47b01095b3bca38b0aded7e2",
+      "patch_sha256": "6932e6b3917702141a14a0d796ee0e0718e58fb6ee00773a7c41f259dc3c805f",
+      "patch_available": true
+    },
+    {
+      "path": "app/MindWork AI Studio/Settings/ProviderExtensions.cs",
+      "status": "modified",
+      "blob_sha": "513235fdc45090b1b9aea9f305d394d507376786",
+      "patch_sha256": "5760c6e24e6a571ba704e7f060c3ebf3952e00cb552196d5f4d8b53344762be1",
+      "patch_available": true
+    },
+    {
+      "path": "app/MindWork AI Studio/Tools/Validation/ProviderValidation.cs",
+      "status": "modified",
+      "blob_sha": "4a14061441f679c1b12e0fb2bc0a3a153f0f4aed",
+      "patch_sha256": "fc74f0e32de8cd8a412c2bb117dda7b26f20ae1e2df83ca7cc76e3d5b05f4501",
+      "patch_available": true
+    },
+    {
+      "path": "app/MindWork AI Studio/wwwroot/changelog/v26.8.2.md",
+      "status": "modified",
+      "blob_sha": "8045f174509870102544a36f52fa2859f8790b94",
+      "patch_sha256": "1a48d91f0a89ae8372704d81daa262f01f4903a3f427c6019485ee1aa0191463",
+      "patch_available": true
+    },
+    {
+      "path": "app/MindWork AI Studio/wwwroot/images/provider-icons/README.md",
+      "status": "modified",
+      "blob_sha": "4bf0d75bdcb5f6e3096628fd0b22c09dd7169c0d",
+      "patch_sha256": "e9aeb2e8cf2ec26eab0b13076f65eaaf2509e1e6f8e49c8bda9fdc282eaeff88",
+      "patch_available": true
+    },
+    {
+      "path": "app/MindWork AI Studio/wwwroot/images/provider-icons/litellm.svg",
+      "status": "added",
+      "blob_sha": "2b24d9ab3ab5939454f83a2ef4068b8bb617cd5c",
+      "patch_sha256": "324ff1a71b06994802eddd152d565f7d3691b7d3cfe2cebbec42c4a8fb2b96c5",
+      "patch_available": true
+    },
+    {
+      "path": "runtime/packaging/linux/org.mindworkai.AIStudio.metainfo.xml",
+      "status": "modified",
+      "blob_sha": "c2ed6a45abbc17f94c75490a61a5dd50a0af6504",
+      "patch_sha256": "2c821b13b59b0c71142750a2e734320b0beb406cacf30c6f60e04b8ef7e137ce",
+      "patch_available": true
+    }
+  ]
+}

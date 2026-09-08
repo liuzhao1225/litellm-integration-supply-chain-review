@@ -1,0 +1,65 @@
+{
+  "repository": "chartbrew/chartbrew",
+  "number": 365,
+  "url": "https://github.com/chartbrew/chartbrew/pull/365",
+  "author": "prodmanpd",
+  "created_at": "2026-08-02T18:48:47Z",
+  "state": "open",
+  "head_sha": "0fefa20573e9b0c732deea7e93541a686aa83853",
+  "base_sha": "dcf57d40748d14c4e23f6e1f5169eef91cd02bb2",
+  "integration": "proxy-compatible",
+  "constraints": [],
+  "lock": null,
+  "evidence_file": "prs/chartbrew__chartbrew__365.json",
+  "files": [
+    {
+      "path": ".env-template",
+      "status": "modified",
+      "blob_sha": "62dda6239f53273e83af41efa5d34550c91865cb",
+      "patch_sha256": "04e153644d6573720e356237c6bcf4a978408ff905f9b6a7345e42022af9aa00",
+      "patch_available": true
+    },
+    {
+      "path": "server/modules/ai/generateClickhouseQuery.js",
+      "status": "modified",
+      "blob_sha": "473d4d92f9304f0be83e17017ad326f1bc68dd54",
+      "patch_sha256": "a86f79192a63dc6cf3a9223456dfe6a297c1dd7a641f61b07e29927b988bf880",
+      "patch_available": true
+    },
+    {
+      "path": "server/modules/ai/generateMongoQuery.js",
+      "status": "modified",
+      "blob_sha": "2d83e69af6a52c09a54562849d56ecfc4d6b7130",
+      "patch_sha256": "c736a300e2342c8e47ed61a7f86feb46ee9136aa968b9f18c7879b5fbf3c0407",
+      "patch_available": true
+    },
+    {
+      "path": "server/modules/ai/generateSqlQuery.js",
+      "status": "modified",
+      "blob_sha": "78f01eb624e8593cddc14ecd42b2177f5fd99eee",
+      "patch_sha256": "87633dfbb2425dd0a5f88e63c24d6ab272f41e64252216cdfa68c834e8fe402e",
+      "patch_available": true
+    },
+    {
+      "path": "server/modules/ai/openAiClient.js",
+      "status": "added",
+      "blob_sha": "5a67c7110803edcde81ef51cc8f05fc68db88372",
+      "patch_sha256": "ac4d46db406725e0b82c5432012b59bd048534a6ec2946eac78729c1127e3970",
+      "patch_available": true
+    },
+    {
+      "path": "server/modules/ai/orchestrator/orchestrator.js",
+      "status": "modified",
+      "blob_sha": "311419c8963fc4a84dc04f103d444a00f8254482",
+      "patch_sha256": "674be9d3e69fc4c587db39014587a8ed2abaf2d3c509b98402ecbbbcd2c12f53",
+      "patch_available": true
+    },
+    {
+      "path": "server/tests/unit/openAiClient.test.js",
+      "status": "added",
+      "blob_sha": "fc94776ba077d955a2f13619cbd12d0d689ebc18",
+      "patch_sha256": "420210c8a056179bb2c34bd9a192c0cc381bbd69ac41e7198c0e7da37d0b6500",
+      "patch_available": true
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "repos": 85,
+  "forks": 84,
+  "branches": 435,
+  "repos_with_authored_commits": 59,
+  "unique_commits": 122,
+  "prs": 49,
+  "sdk_prs": 22,
+  "proxy_prs": 27,
+  "states": {
+    "open": 29,
+    "merged": 17,
+    "closed": 3
+  }
+}

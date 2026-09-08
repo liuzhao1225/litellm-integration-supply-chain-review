@@ -1,0 +1,51 @@
+{
+  "repository": "nageoffer/ragent",
+  "number": 126,
+  "url": "https://github.com/nageoffer/ragent/pull/126",
+  "author": "prodmanpd",
+  "created_at": "2026-08-31T16:11:39Z",
+  "state": "open",
+  "head_sha": "41c082ed3f62462ebf88f6416f7f36b5057de5f3",
+  "base_sha": "1cb684ed5df03f241d90c836466465f6aab37800",
+  "integration": "proxy-compatible",
+  "constraints": [],
+  "lock": null,
+  "evidence_file": "prs/nageoffer__ragent__126.json",
+  "files": [
+    {
+      "path": "bootstrap/src/main/resources/application.yaml",
+      "status": "modified",
+      "blob_sha": "133c32e14442809d28bc1de0f2731aa23fda6efc",
+      "patch_sha256": "ab96b454c9b707432659a0529caa5c27e273ebb219515ca1ec9fd6fb226d7c2d",
+      "patch_available": true
+    },
+    {
+      "path": "infra-ai/src/main/java/com/nageoffer/ai/ragent/infra/chat/LiteLLMChatClient.java",
+      "status": "added",
+      "blob_sha": "1b677c4ce442411c5615b4b6dea1f84e76d46b4f",
+      "patch_sha256": "b6fbb94116823542cb2aecd800f567f9d59fe37c560fcec3a2a91d0bce2bdc17",
+      "patch_available": true
+    },
+    {
+      "path": "infra-ai/src/main/java/com/nageoffer/ai/ragent/infra/embedding/LiteLLMEmbeddingClient.java",
+      "status": "added",
+      "blob_sha": "5f75e6e0816ed3cb8d6c638352cf1fc978672bd0",
+      "patch_sha256": "723bae7cb88c42a1d7d910a85bb485e1ca48b37d1dad593e4d579b3395d644a6",
+      "patch_available": true
+    },
+    {
+      "path": "infra-ai/src/main/java/com/nageoffer/ai/ragent/infra/enums/ModelProvider.java",
+      "status": "modified",
+      "blob_sha": "e901b59ae6d5bcfd083c44f8fc98524e78e4cf0a",
+      "patch_sha256": "c7f037d2de428d811145a12c04eb2657e3cdb7bf8baa078d941a6efce42b2fc1",
+      "patch_available": true
+    },
+    {
+      "path": "infra-ai/src/test/java/com/nageoffer/ai/ragent/infra/chat/LiteLLMProviderTest.java",
+      "status": "added",
+      "blob_sha": "ffc8194fcb6c38ff2adbe904385367046d2521f7",
+      "patch_sha256": "633a95307c6acf41350c0bc89cfff11a1f482ad9243900de9a6ab71421a4a78f",
+      "patch_available": true
+    }
+  ]
+}

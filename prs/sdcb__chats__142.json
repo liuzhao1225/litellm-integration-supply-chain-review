@@ -1,0 +1,72 @@
+{
+  "repository": "sdcb/chats",
+  "number": 142,
+  "url": "https://github.com/sdcb/chats/pull/142",
+  "author": "prodmanpd",
+  "created_at": "2026-08-31T16:14:05Z",
+  "state": "open",
+  "head_sha": "64431246e8703af87832117af79dc427ec182fa4",
+  "base_sha": "090ac266182386e9386d19e9ea89a1a842eae234",
+  "integration": "proxy-compatible",
+  "constraints": [],
+  "lock": null,
+  "evidence_file": "prs/sdcb__chats__142.json",
+  "files": [
+    {
+      "path": "src/BE/db/Enums/DBModelProvider.cs",
+      "status": "modified",
+      "blob_sha": "4c459ae0fa10e666f38c9dbde2970573270bbc66",
+      "patch_sha256": "22d0e0164bce77f05cd2dd04056d7356ddf5b7eb0bb80c619d76b55feb335675",
+      "patch_available": true
+    },
+    {
+      "path": "src/BE/tests/Chats.BE.UnitTest/ChatServices/ChatCompletions/LiteLLMChatServiceTests.cs",
+      "status": "added",
+      "blob_sha": "865a136760b6cdb40766c1292bf3cc57bbc5a4e0",
+      "patch_sha256": "35900c46a41e89170628a940f08198c8320a21ed2cef3488a26d0b8229221242",
+      "patch_available": true
+    },
+    {
+      "path": "src/BE/web/DB/ModelProviderInfo.cs",
+      "status": "modified",
+      "blob_sha": "73b19e42ef8411514dd8c9d37ae4839c39841b36",
+      "patch_sha256": "9bb1dec5ab52f0f497259715d2e87b030e52ae4ac1598151938ef4d9b290ab28",
+      "patch_available": true
+    },
+    {
+      "path": "src/BE/web/Program.cs",
+      "status": "modified",
+      "blob_sha": "6037dbf8c5477af83cbd6c0d1fcf1eabfbabfdad",
+      "patch_sha256": "f9a35c68c1612ac865c88ddc386d5c004401cc423edd8db48c0f1916de7f8e9c",
+      "patch_available": true
+    },
+    {
+      "path": "src/BE/web/Services/Models/ChatServices/ChatFactory.cs",
+      "status": "modified",
+      "blob_sha": "0b9a89eeb5d3b360aa524a0b4305b848652332e0",
+      "patch_sha256": "16f1825639fb7baab79d7ec320df7edb410509497daeb6620f3e9f1c8f396bdd",
+      "patch_available": true
+    },
+    {
+      "path": "src/BE/web/Services/Models/ChatServices/OpenAI/LiteLLMChatService.cs",
+      "status": "added",
+      "blob_sha": "e9a885e1e6aa223b94ed41913ac5773377574d6e",
+      "patch_sha256": "7442d1950a68e91ad25b5679525d257020c1a76367fac94a8d56ff7859da4dd8",
+      "patch_available": true
+    },
+    {
+      "path": "src/FE/public/logos/litellm.svg",
+      "status": "added",
+      "blob_sha": "dee84eb6e1a3ded3247cda59744e8f6ba02e8a6d",
+      "patch_sha256": "73a0e14d9a242e4dc6e5056c0f01b54a1fb7f55766072a841f4cabd746c4bbc7",
+      "patch_available": true
+    },
+    {
+      "path": "src/FE/types/model.ts",
+      "status": "modified",
+      "blob_sha": "9d986ac3722fac8f658168828bba273f4b8a0085",
+      "patch_sha256": "4b9e0aaaadfaa109f86956ca9bd799f16c75d47862ec5cdfacbe56a3bb66b3e1",
+      "patch_available": true
+    }
+  ]
+}

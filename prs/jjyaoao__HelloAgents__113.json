@@ -1,0 +1,49 @@
+{
+  "repository": "jjyaoao/HelloAgents",
+  "number": 113,
+  "url": "https://github.com/jjyaoao/HelloAgents/pull/113",
+  "author": "prodmanpd",
+  "created_at": "2026-09-08T18:23:49Z",
+  "state": "open",
+  "head_sha": "92d62462b1e68febca781d134005d92b84d239a8",
+  "base_sha": "93e77ea60c13436636c9b39b6761ff8dfe940ba2",
+  "integration": "python-sdk",
+  "constraints": [
+    {
+      "file": "pyproject.toml",
+      "specifier": ">=1.89.0,<2.0.0"
+    }
+  ],
+  "lock": null,
+  "evidence_file": "prs/jjyaoao__HelloAgents__113.json",
+  "files": [
+    {
+      "path": "hello_agents/core/llm.py",
+      "status": "modified",
+      "blob_sha": "2b111ba31282145bed173aefe531da13814416d3",
+      "patch_sha256": "5498e7ced1c31f92fbb5a04965af8c588628918c6fb704a98492a8287ae86d90",
+      "patch_available": true
+    },
+    {
+      "path": "hello_agents/core/llm_adapters.py",
+      "status": "modified",
+      "blob_sha": "fbffe4e83bd127732f2865e9596f65afcbf1d079",
+      "patch_sha256": "49350d77eed0870d7c6177c7ad0175d6d835eb8f71535a3ed65cd6d6db708b7e",
+      "patch_available": true
+    },
+    {
+      "path": "pyproject.toml",
+      "status": "modified",
+      "blob_sha": "f18e5f06978e6aa2857464945d56fa34d1e7d69a",
+      "patch_sha256": "41a818085f37fbdce358f38459b3acbeae2105106786388e76313cefd49e2ad2",
+      "patch_available": true
+    },
+    {
+      "path": "tests/test_litellm_adapter.py",
+      "status": "added",
+      "blob_sha": "962dbf42e627d470d50193172bc6481e792cfdbd",
+      "patch_sha256": "40abc4342fa8a1fc90b8d99eb94ec01c38117a338b9d962dca738ae572a27934",
+      "patch_available": true
+    }
+  ]
+}

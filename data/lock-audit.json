@@ -1,0 +1,56 @@
+[
+  {
+    "pr": "https://github.com/OpenBMB/UltraRAG/pull/496",
+    "version": "1.97.0",
+    "artifacts": 8,
+    "mismatches": [],
+    "source": {
+      "registry": "https://pypi.org/simple"
+    }
+  },
+  {
+    "pr": "https://github.com/TideDra/zotero-arxiv-daily/pull/294",
+    "version": "1.98.0",
+    "artifacts": 8,
+    "mismatches": [],
+    "source": {
+      "registry": "https://pypi.org/simple"
+    }
+  },
+  {
+    "pr": "https://github.com/StarTrail-org/PixelRAG/pull/145",
+    "version": "1.98.0",
+    "artifacts": 8,
+    "mismatches": [],
+    "source": {
+      "registry": "https://pypi.org/simple"
+    }
+  },
+  {
+    "pr": "https://github.com/datalab-to/marker/pull/1097",
+    "version": "1.98.0",
+    "artifacts": 8,
+    "mismatches": [],
+    "source": {
+      "registry": "https://pypi.org/simple"
+    }
+  },
+  {
+    "pr": "https://github.com/SWE-bench/SWE-bench/pull/639",
+    "version": "1.98.0",
+    "artifacts": 8,
+    "mismatches": [],
+    "source": {
+      "registry": "https://pypi.org/simple"
+    }
+  },
+  {
+    "pr": "https://github.com/datajuicer/data-juicer/pull/1062",
+    "version": "1.80.0",
+    "artifacts": 2,
+    "mismatches": [],
+    "source": {
+      "registry": "https://pypi.org/simple"
+    }
+  }
+]
