@@ -1,0 +1,20 @@
+--- 1.100.0/litellm/proxy/guardrails/guardrail_hooks/noma/noma.py
++++ 1.101.0rc1/litellm/proxy/guardrails/guardrail_hooks/noma/noma.py
+@@ -72,7 +72,7 @@
+             },
+         )
+ 
+-    def _is_result_true(self, result_obj: dict[str, Any] | None) -> bool:
++    def _is_result_true(self, result_obj: dict[str, object] | None) -> bool:
+         """
+         Check if a result object has a "result" field that is True.
+ 
+@@ -454,7 +454,7 @@
+ 
+         return False
+ 
+-    def _is_result_true(self, result_obj: dict[str, Any] | None) -> bool:
++    def _is_result_true(self, result_obj: dict[str, object] | None) -> bool:
+         """
+         Check if a result object has a "result" field that is True.
+ 

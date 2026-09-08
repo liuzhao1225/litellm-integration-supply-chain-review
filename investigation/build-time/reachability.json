@@ -1,0 +1,93 @@
+{
+  "note": "Lock-graph reachability only; lock merges targets/features/development edges; not cargo feature resolution or execution proof.",
+  "new_count": 37,
+  "pythonize_new": [
+    "pythonize 0.29.0"
+  ],
+  "criterion_new": [
+    "aho-corasick 1.1.5",
+    "alloca 0.4.0",
+    "anes 0.1.6",
+    "anstyle 1.0.14",
+    "cast 0.3.0",
+    "ciborium 0.2.2",
+    "ciborium-io 0.2.2",
+    "ciborium-ll 0.2.2",
+    "clap 4.6.6",
+    "clap_builder 4.6.6",
+    "clap_lex 1.1.0",
+    "criterion 0.8.2",
+    "criterion-plot 0.8.2",
+    "crossbeam-deque 0.8.7",
+    "crossbeam-epoch 0.9.20",
+    "crossbeam-utils 0.8.22",
+    "crunchy 0.2.4",
+    "half 2.7.1",
+    "itertools 0.13.0",
+    "oorandom 11.1.5",
+    "page_size 0.6.0",
+    "plotters 0.3.7",
+    "plotters-backend 0.3.7",
+    "plotters-svg 0.3.7",
+    "rayon 1.12.0",
+    "rayon-core 1.13.0",
+    "regex 1.13.1",
+    "regex-automata 0.4.18",
+    "regex-syntax 0.8.11",
+    "same-file 1.0.6",
+    "tinytemplate 1.2.1",
+    "walkdir 2.5.0",
+    "winapi 0.3.9",
+    "winapi-i686-pc-windows-gnu 0.4.0",
+    "winapi-util 0.1.11",
+    "winapi-x86_64-pc-windows-gnu 0.4.0"
+  ],
+  "outside_these": [],
+  "new_build_scripts": [
+    {
+      "name": "alloca",
+      "version": "0.4.0",
+      "build": "build.rs"
+    },
+    {
+      "name": "crossbeam-deque",
+      "version": "0.8.7",
+      "build": "build.rs"
+    },
+    {
+      "name": "crossbeam-epoch",
+      "version": "0.9.20",
+      "build": "build.rs"
+    },
+    {
+      "name": "crossbeam-utils",
+      "version": "0.8.22",
+      "build": "build.rs"
+    },
+    {
+      "name": "crunchy",
+      "version": "0.2.4",
+      "build": "build.rs"
+    },
+    {
+      "name": "rayon-core",
+      "version": "1.13.0",
+      "build": "build.rs"
+    },
+    {
+      "name": "winapi",
+      "version": "0.3.9",
+      "build": "build.rs"
+    },
+    {
+      "name": "winapi-i686-pc-windows-gnu",
+      "version": "0.4.0",
+      "build": "build.rs"
+    },
+    {
+      "name": "winapi-x86_64-pc-windows-gnu",
+      "version": "0.4.0",
+      "build": "build.rs"
+    }
+  ]
+}

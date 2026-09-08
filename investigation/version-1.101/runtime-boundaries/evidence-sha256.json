@@ -1,0 +1,40 @@
+{
+  "created_at_utc": "2026-09-08T21:51:19.103977+00:00",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3737,
+      "sha256": "43c79a616e58d6ba00a5389a32a52d5097092f5945fde3ab56e09e3b3d7255a1"
+    },
+    {
+      "path": "evidence.json",
+      "bytes": 8155,
+      "sha256": "cc741231a81b20d7dfa439b67bce70e68228940d548bb06e62cc5be8b876ac50"
+    },
+    {
+      "path": "sources/litellm__llms__openai__common_utils.py.txt",
+      "bytes": 14337,
+      "sha256": "2333615d6382f510bc4268f04450d56ed7f7c61ca8394daf654d70e8d7692ac9"
+    },
+    {
+      "path": "sources/litellm__llms__openai__workload_identity.py.txt",
+      "bytes": 3715,
+      "sha256": "dfe21ee67922cdfc476d0f7870d72c63396fba43482c1d4588e0adf2b0970622"
+    },
+    {
+      "path": "sources/litellm__proxy__client__cli__commands__debug.py.txt",
+      "bytes": 14073,
+      "sha256": "621be83a31e09ae59980ebe59557ed61e137b9434d49b0d2da94bd0bdc0752f5"
+    },
+    {
+      "path": "sources/litellm__proxy__client__cli__main.py.txt",
+      "bytes": 6191,
+      "sha256": "7940ffeaf5d8be6bf9d10e9f6175072b7ee7193987abd5b6a723b79a67ab3467"
+    },
+    {
+      "path": "sources/litellm__proxy__client__http_client.py.txt",
+      "bytes": 3395,
+      "sha256": "b2ae65bd6fae9794006008f574cd9e912a8c44a89f1ff76be6f597d774b2d99e"
+    }
+  ]
+}

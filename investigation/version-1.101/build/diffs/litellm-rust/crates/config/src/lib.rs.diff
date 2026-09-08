@@ -1,0 +1,10 @@
+--- 1.100.0/litellm-rust/crates/config/src/lib.rs
++++ 1.101.0rc1/litellm-rust/crates/config/src/lib.rs
+@@ -0,0 +1,7 @@
++mod error;
++#[cfg(feature = "python")]
++mod python;
++
++pub use error::Error;
++#[cfg(feature = "python")]
++pub use python::load_model_list;

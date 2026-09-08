@@ -1,0 +1,11 @@
+--- 1.100.0/litellm/router_strategy/lowest_latency.py
++++ 1.101.0rc1/litellm/router_strategy/lowest_latency.py
+@@ -14,7 +14,7 @@
+ if TYPE_CHECKING:
+     from opentelemetry.trace import Span as _Span
+ 
+-    Span = _Span | Any
++    Span = _Span
+ else:
+     Span = Any
+ 

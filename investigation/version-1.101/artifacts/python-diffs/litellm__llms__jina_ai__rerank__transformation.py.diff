@@ -1,0 +1,22 @@
+--- 1.100.0/litellm/llms/jina_ai/rerank/transformation.py
++++ 1.101.0rc1/litellm/llms/jina_ai/rerank/transformation.py
+@@ -6,8 +6,8 @@
+ Docs - https://jina.ai/reranker
+ """
+ 
+-from collections.abc import Mapping
+-from typing import Any, Final
++from collections.abc import Mapping, Sequence
++from typing import Final
+ 
+ from httpx import URL, Response
+ 
+@@ -39,7 +39,7 @@
+         model: str,
+         drop_params: bool,
+         query: str,
+-        documents: list[str | dict[str, Any]],
++        documents: Sequence[str | Mapping[str, object]],
+         custom_llm_provider: str | None = None,
+         top_n: int | None = None,
+         rank_fields: list[str] | None = None,

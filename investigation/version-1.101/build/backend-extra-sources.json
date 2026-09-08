@@ -1,0 +1,92 @@
+[
+  {
+    "version": "1.9.4",
+    "url": "https://files.pythonhosted.org/packages/13/7c/b11b870fc4fd84de2099906314ce45488ae17be32ff5493519a6cddc518a/maturin-1.9.4.tar.gz",
+    "sha256": "235163a0c99bc6f380fb8786c04fd14dcf6cd622ff295ea3de525015e6ac40cf",
+    "pypi_hash_match": true
+  },
+  {
+    "version": "1.9.4",
+    "member": "maturin/bootstrap.py",
+    "path": "backend/1.9.4/maturin/bootstrap.py.txt",
+    "sha256": "53f8f29df842e3bd6b3adcbcba7544c41a9fe1109943187197fc32974b2108ee"
+  },
+  {
+    "version": "1.9.4",
+    "member": "setup.py",
+    "path": "backend/1.9.4/setup.py.txt",
+    "sha256": "dfa8064be77840506dcd843193d3c071e4b333ca0d21c1bb1ad23b34ac85cc73"
+  },
+  {
+    "version": "1.9.4",
+    "member": "src/build_context.rs",
+    "path": "backend/1.9.4/src/build_context.rs.txt",
+    "sha256": "6a904b2acd95b27fb2b8bc6117e3574d07d9c4431f6a8126a8ac896848838ade"
+  },
+  {
+    "version": "1.9.4",
+    "member": "src/main.rs",
+    "path": "backend/1.9.4/src/main.rs.txt",
+    "sha256": "ca44a6db0a7ecf62aa9b54ed3a4eb4f49ff1c48faa119790505c4cc39e99fb5e"
+  },
+  {
+    "version": "1.9.4",
+    "member": "pyproject.toml",
+    "path": "backend/1.9.4/pyproject.toml.txt",
+    "sha256": "32770a9f3777e57318a1b204c1fa87affc06f72dc573753785e1ff7f7acfa868"
+  },
+  {
+    "version": "1.15.0",
+    "member": "maturin/bootstrap.py",
+    "path": "backend/1.15.0/maturin/bootstrap.py.txt",
+    "sha256": "2cc46d04e9cd2dc1854ba900bee0d6718172844cd839dde9befcadddbc1a17bb"
+  },
+  {
+    "version": "1.15.0",
+    "member": "pyproject.toml",
+    "path": "backend/1.15.0/pyproject.toml.txt",
+    "sha256": "e9129952b16e0572d6fa444944ae000c699545b3f97258a307f114ffa3b12979"
+  },
+  {
+    "version": "1.15.0",
+    "member": "setup.py",
+    "path": "backend/1.15.0/setup.py.txt",
+    "sha256": "0ebe766e475bcda4ecba8dd91e048a69cec6de49681a5e17e44492d280ada47c"
+  },
+  {
+    "version": "1.15.0",
+    "member": "src/build_context/builder.rs",
+    "path": "backend/1.15.0/src/build_context/builder.rs.txt",
+    "sha256": "c1eb153f18b5dfd93f32492bc4e793f189f5fdeea381e3b18b147c952c38a2fb"
+  },
+  {
+    "version": "1.15.0",
+    "member": "src/build_context/mod.rs",
+    "path": "backend/1.15.0/src/build_context/mod.rs.txt",
+    "sha256": "45386ff4d2e3625cf7cdcb548bd19714ca92701f86fb151be6acf3e295f738dd"
+  },
+  {
+    "version": "1.15.0",
+    "member": "src/build_context/repair.rs",
+    "path": "backend/1.15.0/src/build_context/repair.rs.txt",
+    "sha256": "4776577b4bd522c7ee9df10af46440ede89d4b70d784e29a363bd14f05db02b9"
+  },
+  {
+    "version": "1.15.0",
+    "member": "src/build_orchestrator.rs",
+    "path": "backend/1.15.0/src/build_orchestrator.rs.txt",
+    "sha256": "378d619bb4b0a9af0ceefc5c33c1c94e6be51cd4fb90bf3cfdce5cae2a362d3a"
+  },
+  {
+    "version": "1.15.0",
+    "member": "src/main.rs",
+    "path": "backend/1.15.0/src/main.rs.txt",
+    "sha256": "8197164555d5a703533253b8b8a9bc1b110b7faa7cf92a86cf824bbebdfdfd61"
+  },
+  {
+    "version": "1.15.0",
+    "member": "src/pgo.rs",
+    "path": "backend/1.15.0/src/pgo.rs.txt",
+    "sha256": "e252512f2ba9f126cb0ae9b6d5c3d7acbd62102faf80830f28aa1ca4ac84711b"
+  }
+]

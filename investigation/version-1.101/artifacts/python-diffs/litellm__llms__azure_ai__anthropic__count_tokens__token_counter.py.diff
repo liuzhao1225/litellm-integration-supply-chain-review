@@ -1,0 +1,19 @@
+--- 1.100.0/litellm/llms/azure_ai/anthropic/count_tokens/token_counter.py
++++ 1.101.0rc1/litellm/llms/azure_ai/anthropic/count_tokens/token_counter.py
+@@ -28,12 +28,12 @@
+     async def count_tokens(
+         self,
+         model_to_use: str,
+-        messages: list[dict[str, Any]] | None,
+-        contents: list[dict[str, Any]] | None,
++        messages: list[dict[str, object]] | None,
++        contents: list[dict[str, object]] | None,
+         deployment: dict[str, Any] | None = None,
+         request_model: str = "",
+-        tools: list[dict[str, Any]] | None = None,
+-        system: Any | None = None,
++        tools: list[dict[str, object]] | None = None,
++        system: object | None = None,
+     ) -> TokenCountResponse | None:
+         """
+         Count tokens using Azure AI Anthropic's CountTokens API.

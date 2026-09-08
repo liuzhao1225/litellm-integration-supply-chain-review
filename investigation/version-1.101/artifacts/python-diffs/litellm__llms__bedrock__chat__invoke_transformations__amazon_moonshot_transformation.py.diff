@@ -1,0 +1,25 @@
+--- 1.100.0/litellm/llms/bedrock/chat/invoke_transformations/amazon_moonshot_transformation.py
++++ 1.101.0rc1/litellm/llms/bedrock/chat/invoke_transformations/amazon_moonshot_transformation.py
+@@ -149,19 +149,15 @@
+         - Temperature and parameter validation
+ 
+         """
+-        # Filter out AWS credentials using the existing method from BaseAWSLLM
+-        self._get_boto_credentials_from_optional_params(optional_params, model)
+-
+-        # Strip routing prefixes to get the actual model ID
++        inference_params: Final = {k: v for k, v in optional_params.items() if k not in self.aws_authentication_params}
++
+         clean_model_id: Final = self._get_model_id(model)
+ 
+-        # Use Moonshot's transform_request which handles message transformation
+-        # and tool_choice="required" workaround
+         return MoonshotChatConfig.transform_request(
+             self,
+             model=clean_model_id,
+             messages=messages,
+-            optional_params=optional_params,
++            optional_params=inference_params,
+             litellm_params=litellm_params,
+             headers=headers,
+         )

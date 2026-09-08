@@ -1,0 +1,16 @@
+--- 1.100.0/litellm/llms/gigachat/__init__.py
++++ 1.101.0rc1/litellm/llms/gigachat/__init__.py
+@@ -15,9 +15,11 @@
+ 
+ from .chat.transformation import GigaChatConfig, GigaChatError
+ from .embedding.transformation import GigaChatEmbeddingConfig
++from .passthrough.transformation import GigaChatPassthroughConfig
+ 
+-__all__ = [
++__all__ = (
+     "GigaChatConfig",
+     "GigaChatEmbeddingConfig",
+     "GigaChatError",
+-]
++    "GigaChatPassthroughConfig",
++)

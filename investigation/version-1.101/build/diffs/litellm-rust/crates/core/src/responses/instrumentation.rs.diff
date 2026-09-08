@@ -1,0 +1,40 @@
+--- 1.100.0/litellm-rust/crates/core/src/responses/instrumentation.rs
++++ 1.101.0rc1/litellm-rust/crates/core/src/responses/instrumentation.rs
+@@ -5,9 +5,9 @@
+ 
+ use serde_json::Value;
+ 
++use crate::Error;
+ use crate::call_lifecycle::{CallLifecycleContext, CallLifecycleHooks, CallLifecycleTiming};
+ use crate::responses::types::{ResponsesWsEvent, ResponsesWsEventType};
+-use crate::{CoreError, CoreResult};
+ 
+ #[derive(Clone, Debug, Default, PartialEq, Eq)]
+ pub struct ResponsesWsUsage {
+@@ -205,7 +205,7 @@
+     }
+ }
+ 
+-type LifecycleFuture<'a, T> = Pin<Box<dyn Future<Output = CoreResult<T>> + Send + 'a>>;
++type LifecycleFuture<'a, T> = Pin<Box<dyn Future<Output = Result<T, Error>> + Send + 'a>>;
+ 
+ impl CallLifecycleHooks<(), (), ()> for ResponsesWsInstrumentation {
+     type PreCallFuture<'a> = LifecycleFuture<'a, ()>;
+@@ -246,7 +246,7 @@
+     fn async_log_failure_event<'a>(
+         &'a self,
+         _context: &'a CallLifecycleContext,
+-        _error: &'a CoreError,
++        _error: &'a Error,
+         _timing: &'a CallLifecycleTiming,
+     ) -> Self::FailureFuture<'a> {
+         Box::pin(async move {
+@@ -342,7 +342,7 @@
+                 ),
+                 (),
+                 &instrumentation,
+-                |_| async { Ok::<(), CoreError>(()) },
++                |_| async { Ok::<(), Error>(()) },
+             )
+             .await;
+ 

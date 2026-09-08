@@ -1,0 +1,19 @@
+--- 1.100.0/litellm/proxy/batches_endpoints/endpoints.py
++++ 1.101.0rc1/litellm/proxy/batches_endpoints/endpoints.py
+@@ -25,6 +25,7 @@
+     get_custom_llm_provider_from_request_query,
+ )
+ from litellm.proxy.openai_files_endpoints.common_utils import (
++    BATCH_CREATE_HIDDEN_PARAM,
+     _is_base64_encoded_unified_file_id,
+     add_internal_model_credentials,
+     apply_team_provider_credentials,
+@@ -347,6 +348,8 @@
+                     **_create_batch_data,
+                 )
+ 
++        response._hidden_params[BATCH_CREATE_HIDDEN_PARAM] = True
++
+         ### CALL HOOKS ### - modify outgoing data
+         response = await proxy_logging_obj.post_call_success_hook(
+             data=data, user_api_key_dict=user_api_key_dict, response=response

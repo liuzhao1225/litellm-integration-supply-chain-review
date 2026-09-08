@@ -1,0 +1,20 @@
+--- 1.100.0/litellm-rust/crates/ai-gateway/src/io/realtime_pool.rs
++++ 1.101.0rc1/litellm-rust/crates/ai-gateway/src/io/realtime_pool.rs
+@@ -28,7 +28,7 @@
+ use std::time::{Duration, Instant};
+ 
+ use futures_util::StreamExt;
+-use litellm_core::CoreResult;
++use litellm_core::Error;
+ use litellm_core::realtime::types::RealtimeEvent;
+ 
+ use crate::io::realtime::{
+@@ -438,7 +438,7 @@
+ ///
+ /// `key.api_key` is already resolved (non-blank). The first frame OpenAI sends
+ /// unprompted is `session.created`; we buffer exactly that and read nothing more.
+-async fn warm_one(key: &UpstreamKey) -> CoreResult<WarmConnection> {
++async fn warm_one(key: &UpstreamKey) -> Result<WarmConnection, Error> {
+     let upstream: UpstreamWs =
+         dial_upstream(&key.model, &key.api_key, key.api_base.as_deref()).await?;
+     let (tx, mut rx) = upstream.split();

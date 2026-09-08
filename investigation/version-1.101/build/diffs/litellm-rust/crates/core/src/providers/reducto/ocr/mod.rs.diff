@@ -1,0 +1,7 @@
+--- 1.100.0/litellm-rust/crates/core/src/providers/reducto/ocr/mod.rs
++++ 1.101.0rc1/litellm-rust/crates/core/src/providers/reducto/ocr/mod.rs
+@@ -0,0 +1,4 @@
++pub mod transformation;
++
++#[cfg(test)]
++mod tests;

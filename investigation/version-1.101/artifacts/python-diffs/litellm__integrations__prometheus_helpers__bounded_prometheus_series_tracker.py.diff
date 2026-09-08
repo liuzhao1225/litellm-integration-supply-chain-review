@@ -1,0 +1,13 @@
+--- 1.100.0/litellm/integrations/prometheus_helpers/bounded_prometheus_series_tracker.py
++++ 1.101.0rc1/litellm/integrations/prometheus_helpers/bounded_prometheus_series_tracker.py
+@@ -60,6 +60,10 @@
+                         break
+                     del series[tracked_label_values]
+ 
++    def remove_series(self, metric: object, label_values: tuple[str | None, ...]) -> bool:
++        """Drop one child series, True when it is gone (removed or never existed)."""
++        return self._remove_metric_child(metric, label_values)
++
+     def _should_run_ttl_cleanup(
+         self,
+         metric_name: str,

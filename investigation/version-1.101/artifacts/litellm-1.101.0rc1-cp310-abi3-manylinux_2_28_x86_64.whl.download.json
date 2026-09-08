@@ -1,0 +1,10 @@
+{
+  "filename": "litellm-1.101.0rc1-cp310-abi3-manylinux_2_28_x86_64.whl",
+  "sha256": "38273b92727303fd6e759fa9306b47c43e52a57c3ce583b239457c7dd5b8e598",
+  "upload_time": "2026-09-06T03:06:09.998121Z",
+  "yanked": false,
+  "url": "https://files.pythonhosted.org/packages/83/d3/44656229aa5e81a0a0f00768c144c6501bcd349d4bd473b1a287cb129b32/litellm-1.101.0rc1-cp310-abi3-manylinux_2_28_x86_64.whl",
+  "size": 24576768,
+  "checked_at_utc": "2026-09-08T21:41:41.754389+00:00",
+  "actual_sha256": "38273b92727303fd6e759fa9306b47c43e52a57c3ce583b239457c7dd5b8e598"
+}

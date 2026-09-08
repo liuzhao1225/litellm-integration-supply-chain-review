@@ -1,0 +1,17 @@
+--- 1.100.0/litellm/llms/azure_ai/ocr/__init__.py
++++ 1.101.0rc1/litellm/llms/azure_ai/ocr/__init__.py
+@@ -1,5 +1,6 @@
+ """Azure AI OCR module."""
+ 
++from .cohere_parse_transformation import AzureAICohereParseConfig
+ from .common_utils import get_azure_ai_ocr_config
+ from .document_intelligence.transformation import (
+     AzureDocumentIntelligenceOCRConfig,
+@@ -7,6 +8,7 @@
+ from .transformation import AzureAIOCRConfig
+ 
+ __all__ = [
++    "AzureAICohereParseConfig",
+     "AzureAIOCRConfig",
+     "AzureDocumentIntelligenceOCRConfig",
+     "get_azure_ai_ocr_config",

@@ -1,0 +1,11 @@
+--- 1.100.0/litellm/litellm_core_utils/safe_json_dumps.py
++++ 1.101.0rc1/litellm/litellm_core_utils/safe_json_dumps.py
+@@ -30,7 +30,7 @@
+     def _transform(key: str | None, value: str) -> str:
+         return value if value_transform is None else value_transform(key, value)
+ 
+-    def _serialize(obj: Any, seen: set, depth: int, key: str | None = None) -> Any:
++    def _serialize(obj: object, seen: set[int], depth: int, key: str | None = None) -> Any:
+         # Check for maximum depth.
+         if depth > max_depth:
+             return "MaxDepthExceeded"

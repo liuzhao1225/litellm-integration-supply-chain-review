@@ -1,0 +1,23 @@
+--- 1.100.0/litellm/proxy/_experimental/mcp_server/exceptions.py
++++ 1.101.0rc1/litellm/proxy/_experimental/mcp_server/exceptions.py
+@@ -3,6 +3,20 @@
+ from typing import Final
+ 
+ from fastapi import HTTPException
++
++
++class MCPServerURLCredentialsError(HTTPException):
++    """A fixed, sanitized URL-credential migration error safe for operator previews."""
++
++    def __init__(self) -> None:
++        super().__init__(
++            status_code=500,
++            detail=(
++                "misconfigured: auth_type none cannot be used with credentials embedded in the upstream URL; "
++                "remove them from the URL and configure Basic Auth with auth_type: basic and "
++                "auth_value: username:password"
++            ),
++        )
+ 
+ 
+ class MCPUpstreamAuthError(Exception):

@@ -1,0 +1,230 @@
+{
+  "commit": "eeb7732fc11fd47762ca84cc3fb7cc74235d7097",
+  "tag_snapshot_sha256": "beebf7b6cf3750a7a51b942f62b52e96069e5efe01de50a6b2396d4992c6bfff",
+  "files": [
+    {
+      "path": "litellm-rust/Cargo.lock",
+      "url": "https://raw.githubusercontent.com/BerriAI/litellm/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm-rust/Cargo.lock",
+      "checked_at_utc": "2026-09-08T21:44:33.223014+00:00",
+      "git_sha256": "d9a93b52067504a56073d87cbde7dd6b3f9489b95cc3e9b9ad5b5a1c4372919b",
+      "sdist_sha256": "d9a93b52067504a56073d87cbde7dd6b3f9489b95cc3e9b9ad5b5a1c4372919b",
+      "identical": true
+    },
+    {
+      "path": "litellm-rust/Cargo.toml",
+      "url": "https://raw.githubusercontent.com/BerriAI/litellm/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm-rust/Cargo.toml",
+      "checked_at_utc": "2026-09-08T21:44:33.072796+00:00",
+      "git_sha256": "61850ba10f19f661b11455c1d5ef5d1d185cee448478086b437612ada386084d",
+      "sdist_sha256": "04e49766f18c419f20e471537c0f7d03538923dacf7e58d069b9aeea4aa6aff1",
+      "identical": false
+    },
+    {
+      "path": "litellm-rust/crates/ai-gateway/Cargo.toml",
+      "url": "https://raw.githubusercontent.com/BerriAI/litellm/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm-rust/crates/ai-gateway/Cargo.toml",
+      "checked_at_utc": "2026-09-08T21:44:33.240043+00:00",
+      "git_sha256": "1f19543985a9155f3d2e09f23de2b4d2c4800604b27dde71d0093e3c34ea96d8",
+      "sdist_sha256": "d162b3a1f69b110b002fb1f2074a185f9de0ab84ce026d935556e90e9d34ccf3",
+      "identical": false
+    },
+    {
+      "path": "litellm-rust/crates/config/Cargo.toml",
+      "url": "https://raw.githubusercontent.com/BerriAI/litellm/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm-rust/crates/config/Cargo.toml",
+      "checked_at_utc": "2026-09-08T21:44:33.081642+00:00",
+      "git_sha256": "34b4290652fd7d052ead1185ded518675ce4459b4746c7dd70dd62da1070b753",
+      "sdist_sha256": "34b4290652fd7d052ead1185ded518675ce4459b4746c7dd70dd62da1070b753",
+      "identical": true
+    },
+    {
+      "path": "litellm-rust/crates/core/Cargo.toml",
+      "url": "https://raw.githubusercontent.com/BerriAI/litellm/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm-rust/crates/core/Cargo.toml",
+      "checked_at_utc": "2026-09-08T21:44:33.655872+00:00",
+      "git_sha256": "e5a47342a6a299027f4196a518d079cf211af1d91e9323f68c4168e3bd5aa2a0",
+      "sdist_sha256": "e5a47342a6a299027f4196a518d079cf211af1d91e9323f68c4168e3bd5aa2a0",
+      "identical": true
+    },
+    {
+      "path": "litellm-rust/crates/python-bridge/Cargo.toml",
+      "url": "https://raw.githubusercontent.com/BerriAI/litellm/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm-rust/crates/python-bridge/Cargo.toml",
+      "checked_at_utc": "2026-09-08T21:44:33.693216+00:00",
+      "git_sha256": "160c752c74d634c9c1eabca0ff7f0b701c1e3fb76c9f9bc74e94a50c25df2836",
+      "sdist_sha256": "160c752c74d634c9c1eabca0ff7f0b701c1e3fb76c9f9bc74e94a50c25df2836",
+      "identical": true
+    },
+    {
+      "path": "litellm-rust/crates/python-bridge/benches/serialization.rs",
+      "url": "https://raw.githubusercontent.com/BerriAI/litellm/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm-rust/crates/python-bridge/benches/serialization.rs",
+      "checked_at_utc": "2026-09-08T21:44:33.817464+00:00",
+      "git_sha256": "8b688c217d618823ac93a9f90c822491f3a3b5f65dbe20ea5ff4e2394ef69980",
+      "sdist_sha256": "8b688c217d618823ac93a9f90c822491f3a3b5f65dbe20ea5ff4e2394ef69980",
+      "identical": true
+    },
+    {
+      "path": "litellm-rust/crates/python-bridge/build.rs",
+      "url": "https://raw.githubusercontent.com/BerriAI/litellm/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm-rust/crates/python-bridge/build.rs",
+      "checked_at_utc": "2026-09-08T21:44:33.881264+00:00",
+      "git_sha256": "47058522169bf71400f1d928bae82b68afa7ce3423436220ee9bbe013b131831",
+      "sdist_sha256": "47058522169bf71400f1d928bae82b68afa7ce3423436220ee9bbe013b131831",
+      "identical": true
+    },
+    {
+      "path": "litellm-rust/crates/python-bridge/src/diagnostics.rs",
+      "url": "https://raw.githubusercontent.com/BerriAI/litellm/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm-rust/crates/python-bridge/src/diagnostics.rs",
+      "checked_at_utc": "2026-09-08T21:44:34.332837+00:00",
+      "git_sha256": "356b8478bfeb1bb181084b70138a22e0a0ef21e5635819437b04d89cf8de89e0",
+      "sdist_sha256": "356b8478bfeb1bb181084b70138a22e0a0ef21e5635819437b04d89cf8de89e0",
+      "identical": true
+    },
+    {
+      "path": "litellm-rust/crates/python-bridge/src/errors.rs",
+      "url": "https://raw.githubusercontent.com/BerriAI/litellm/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm-rust/crates/python-bridge/src/errors.rs",
+      "checked_at_utc": "2026-09-08T21:44:34.282570+00:00",
+      "git_sha256": "6d47ae72297809830601533457715a6e0fc1974c80959f7e670c965e11eff52d",
+      "sdist_sha256": "6d47ae72297809830601533457715a6e0fc1974c80959f7e670c965e11eff52d",
+      "identical": true
+    },
+    {
+      "path": "litellm-rust/crates/python-bridge/src/execution.rs",
+      "url": "https://raw.githubusercontent.com/BerriAI/litellm/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm-rust/crates/python-bridge/src/execution.rs",
+      "checked_at_utc": "2026-09-08T21:44:34.427378+00:00",
+      "git_sha256": "2e1aeec41f312fd1045a95a2d81feb4eb9c6f0655322b22931a3bea43c043f33",
+      "sdist_sha256": "2e1aeec41f312fd1045a95a2d81feb4eb9c6f0655322b22931a3bea43c043f33",
+      "identical": true
+    },
+    {
+      "path": "litellm-rust/crates/python-bridge/src/function_trace.rs",
+      "url": "https://raw.githubusercontent.com/BerriAI/litellm/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm-rust/crates/python-bridge/src/function_trace.rs",
+      "checked_at_utc": "2026-09-08T21:44:34.539550+00:00",
+      "git_sha256": "b3cf385d81ae160f5d7b3abdd7cc6876153addd03f1bac589ff244fd0534d0de",
+      "sdist_sha256": "b3cf385d81ae160f5d7b3abdd7cc6876153addd03f1bac589ff244fd0534d0de",
+      "identical": true
+    },
+    {
+      "path": "litellm-rust/crates/python-bridge/src/lib.rs",
+      "url": "https://raw.githubusercontent.com/BerriAI/litellm/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm-rust/crates/python-bridge/src/lib.rs",
+      "checked_at_utc": "2026-09-08T21:44:34.964872+00:00",
+      "git_sha256": "1c17b815a57b3aa5105d395b698df2cfedf2be7f4dbdb99f7e2f494e7ab83cc9",
+      "sdist_sha256": "1c17b815a57b3aa5105d395b698df2cfedf2be7f4dbdb99f7e2f494e7ab83cc9",
+      "identical": true
+    },
+    {
+      "path": "litellm-rust/crates/python-bridge/src/marshal.rs",
+      "url": "https://raw.githubusercontent.com/BerriAI/litellm/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm-rust/crates/python-bridge/src/marshal.rs",
+      "checked_at_utc": "2026-09-08T21:44:34.940494+00:00",
+      "git_sha256": "0cdded48ad61334ca1d2547af0f08266019373563d554726cc92220d0009278a",
+      "sdist_sha256": "0cdded48ad61334ca1d2547af0f08266019373563d554726cc92220d0009278a",
+      "identical": true
+    },
+    {
+      "path": "litellm-rust/crates/python-bridge/src/routes/audio_transcription.rs",
+      "url": "https://raw.githubusercontent.com/BerriAI/litellm/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm-rust/crates/python-bridge/src/routes/audio_transcription.rs",
+      "checked_at_utc": "2026-09-08T21:44:35.022576+00:00",
+      "git_sha256": "ce8ae82975bccba0459dc016229d6422bd77315c7d89a6ccd80f0ce7fa072560",
+      "sdist_sha256": "ce8ae82975bccba0459dc016229d6422bd77315c7d89a6ccd80f0ce7fa072560",
+      "identical": true
+    },
+    {
+      "path": "litellm-rust/crates/python-bridge/src/routes/chat_completions.rs",
+      "url": "https://raw.githubusercontent.com/BerriAI/litellm/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm-rust/crates/python-bridge/src/routes/chat_completions.rs",
+      "checked_at_utc": "2026-09-08T21:44:35.449918+00:00",
+      "git_sha256": "8bbd7314c7cd8f130c29c0e17453c860110e8481ccdd7328e97ef17b77995efd",
+      "sdist_sha256": "8bbd7314c7cd8f130c29c0e17453c860110e8481ccdd7328e97ef17b77995efd",
+      "identical": true
+    },
+    {
+      "path": "litellm-rust/crates/python-bridge/src/routes/definition.rs",
+      "url": "https://raw.githubusercontent.com/BerriAI/litellm/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm-rust/crates/python-bridge/src/routes/definition.rs",
+      "checked_at_utc": "2026-09-08T21:44:35.566828+00:00",
+      "git_sha256": "39f4cd1c93938c7345539634b4493f43530d1dafeb7432dd02bdfca4d28fad4d",
+      "sdist_sha256": "39f4cd1c93938c7345539634b4493f43530d1dafeb7432dd02bdfca4d28fad4d",
+      "identical": true
+    },
+    {
+      "path": "litellm-rust/crates/python-bridge/src/routes/gateway_messages.rs",
+      "url": "https://raw.githubusercontent.com/BerriAI/litellm/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm-rust/crates/python-bridge/src/routes/gateway_messages.rs",
+      "checked_at_utc": "2026-09-08T21:44:35.552027+00:00",
+      "git_sha256": "fdef19940a4b1167e215abe423737577c8313f3326349ba0418a0b190c024346",
+      "sdist_sha256": "fdef19940a4b1167e215abe423737577c8313f3326349ba0418a0b190c024346",
+      "identical": true
+    },
+    {
+      "path": "litellm-rust/crates/python-bridge/src/routes/messages.rs",
+      "url": "https://raw.githubusercontent.com/BerriAI/litellm/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm-rust/crates/python-bridge/src/routes/messages.rs",
+      "checked_at_utc": "2026-09-08T21:44:35.614360+00:00",
+      "git_sha256": "bb8fad7f0f8cad52ef3c8561b4c5dc87252ee9e8d13d4e2b1271b521c1e0afa5",
+      "sdist_sha256": "bb8fad7f0f8cad52ef3c8561b4c5dc87252ee9e8d13d4e2b1271b521c1e0afa5",
+      "identical": true
+    },
+    {
+      "path": "litellm-rust/crates/python-bridge/src/routes/mod.rs",
+      "url": "https://raw.githubusercontent.com/BerriAI/litellm/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm-rust/crates/python-bridge/src/routes/mod.rs",
+      "checked_at_utc": "2026-09-08T21:44:36.119666+00:00",
+      "git_sha256": "c40ddcc16b03a97423b3bf243376252ff06d08266c1c7edb7cd55e77965b0e8a",
+      "sdist_sha256": "c40ddcc16b03a97423b3bf243376252ff06d08266c1c7edb7cd55e77965b0e8a",
+      "identical": true
+    },
+    {
+      "path": "litellm-rust/crates/python-bridge/src/routes/ocr.rs",
+      "url": "https://raw.githubusercontent.com/BerriAI/litellm/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm-rust/crates/python-bridge/src/routes/ocr.rs",
+      "checked_at_utc": "2026-09-08T21:44:36.142405+00:00",
+      "git_sha256": "f25c84b84e3402429750c149dac90262a4859b4a09f5aea155c5bb8038f3e038",
+      "sdist_sha256": "f25c84b84e3402429750c149dac90262a4859b4a09f5aea155c5bb8038f3e038",
+      "identical": true
+    },
+    {
+      "path": "litellm-rust/crates/python-bridge/tests/marshal_boundary.rs",
+      "url": "https://raw.githubusercontent.com/BerriAI/litellm/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm-rust/crates/python-bridge/tests/marshal_boundary.rs",
+      "checked_at_utc": "2026-09-08T21:44:36.179632+00:00",
+      "git_sha256": "319f671e6164344d44e00597994456c3c8969cc7ed239b9aa5cbd8163aa3274e",
+      "sdist_sha256": "319f671e6164344d44e00597994456c3c8969cc7ed239b9aa5cbd8163aa3274e",
+      "identical": true
+    },
+    {
+      "path": "litellm-rust/crates/python-interop/Cargo.toml",
+      "url": "https://raw.githubusercontent.com/BerriAI/litellm/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm-rust/crates/python-interop/Cargo.toml",
+      "checked_at_utc": "2026-09-08T21:44:36.266200+00:00",
+      "git_sha256": "b195366db2a2c65f12337904c6c99d58b88477286072cc53ea92524d91a2ec3d",
+      "sdist_sha256": "b195366db2a2c65f12337904c6c99d58b88477286072cc53ea92524d91a2ec3d",
+      "identical": true
+    },
+    {
+      "path": "litellm-rust/crates/python-interop/src/gil.rs",
+      "url": "https://raw.githubusercontent.com/BerriAI/litellm/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm-rust/crates/python-interop/src/gil.rs",
+      "checked_at_utc": "2026-09-08T21:44:36.704683+00:00",
+      "git_sha256": "880a5494070522093a2de8b58e0cfa056466ddcda9927ec62c77fb1cd2c6ac23",
+      "sdist_sha256": "880a5494070522093a2de8b58e0cfa056466ddcda9927ec62c77fb1cd2c6ac23",
+      "identical": true
+    },
+    {
+      "path": "litellm-rust/crates/python-interop/src/lib.rs",
+      "url": "https://raw.githubusercontent.com/BerriAI/litellm/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm-rust/crates/python-interop/src/lib.rs",
+      "checked_at_utc": "2026-09-08T21:44:36.822698+00:00",
+      "git_sha256": "a26a6784a4efab461bdf6c0a97375123620eb50177d71071ae3ccf8702121c02",
+      "sdist_sha256": "a26a6784a4efab461bdf6c0a97375123620eb50177d71071ae3ccf8702121c02",
+      "identical": true
+    },
+    {
+      "path": "litellm-rust/crates/python-interop/src/marshal.rs",
+      "url": "https://raw.githubusercontent.com/BerriAI/litellm/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm-rust/crates/python-interop/src/marshal.rs",
+      "checked_at_utc": "2026-09-08T21:44:36.803501+00:00",
+      "git_sha256": "757f4efaf1b80fb5e30897b5abc57aae7033d2cce862aab4d673cbc19610fb0d",
+      "sdist_sha256": "757f4efaf1b80fb5e30897b5abc57aae7033d2cce862aab4d673cbc19610fb0d",
+      "identical": true
+    },
+    {
+      "path": "litellm-rust/crates/python-interop/tests/interop.rs",
+      "url": "https://raw.githubusercontent.com/BerriAI/litellm/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm-rust/crates/python-interop/tests/interop.rs",
+      "checked_at_utc": "2026-09-08T21:44:36.913116+00:00",
+      "git_sha256": "968d8fcae1c7141b8462ed65338f4763bd3d709f9fd22de4a4fce542c3d3604d",
+      "sdist_sha256": "968d8fcae1c7141b8462ed65338f4763bd3d709f9fd22de4a4fce542c3d3604d",
+      "identical": true
+    },
+    {
+      "path": "pyproject.toml",
+      "url": "https://raw.githubusercontent.com/BerriAI/litellm/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/pyproject.toml",
+      "checked_at_utc": "2026-09-08T21:44:37.520543+00:00",
+      "git_sha256": "b9a2ef14f3c78bc71d8510c4d7c030dd1d2f3e858c084fac82defe185c9117bb",
+      "sdist_sha256": "1c8df15a9c75c6567cd5232819f8b9637515d28f4c26344a61f88a516c89072d",
+      "identical": false
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "checked_at_utc": "2026-09-08T21:50:23.738942+00:00",
+  "wheel_sha256": "38273b92727303fd6e759fa9306b47c43e52a57c3ce583b239457c7dd5b8e598",
+  "commit": "eeb7732fc11fd47762ca84cc3fb7cc74235d7097",
+  "scope": "Five selected source files read and parsed without imports; direct Git blob identity verified.",
+  "files": [
+    {
+      "archive_path": "litellm/llms/openai/workload_identity.py",
+      "git_blob": "283fdfb92c2c422470bbcb2d050e2958b78077ec",
+      "sha256": "dfe21ee67922cdfc476d0f7870d72c63396fba43482c1d4588e0adf2b0970622",
+      "bytes": 3715,
+      "saved_path": "sources/litellm__llms__openai__workload_identity.py.txt",
+      "source_url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/llms/openai/workload_identity.py",
+      "functions": [
+        {
+          "name": "resolve_openai_workload_identity_config",
+          "start": 43,
+          "end": 66
+        },
+        {
+          "name": "get_workload_identity_bearer_token",
+          "start": 69,
+          "end": 70
+        },
+        {
+          "name": "_targets_openai_api",
+          "start": 73,
+          "end": 77
+        },
+        {
+          "name": "_workload_identity_auth",
+          "start": 81,
+          "end": 83
+        },
+        {
+          "name": "_load_sdk_workload_identity_auth",
+          "start": 86,
+          "end": 91
+        },
+        {
+          "name": "_load_sdk_k8s_token_provider",
+          "start": 94,
+          "end": 99
+        },
+        {
+          "name": "to_sdk_workload_identity",
+          "start": 32,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "archive_path": "litellm/llms/openai/common_utils.py",
+      "git_blob": "2db6d78a218c78b24a9c5285e4ffdb8555c78e38",
+      "sha256": "2333615d6382f510bc4268f04450d56ed7f7c61ca8394daf654d70e8d7692ac9",
+      "bytes": 14337,
+      "saved_path": "sources/litellm__llms__openai__common_utils.py.txt",
+      "source_url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/llms/openai/common_utils.py",
+      "functions": [
+        {
+          "name": "_get_client_init_params",
+          "start": 38,
+          "end": 40
+        },
+        {
+          "name": "is_openai_backed_api_base",
+          "start": 50,
+          "end": 52
+        },
+        {
+          "name": "drop_params_from_unprocessable_entity_error",
+          "start": 88,
+          "end": 129
+        },
+        {
+          "name": "is_output_token_limit_error",
+          "start": 137,
+          "end": 144
+        },
+        {
+          "name": "_output_token_limit_completion",
+          "start": 147,
+          "end": 161
+        },
+        {
+          "name": "_output_token_limit_chunk",
+          "start": 164,
+          "end": 177
+        },
+        {
+          "name": "_iter_once",
+          "start": 180,
+          "end": 181
+        },
+        {
+          "name": "_aiter_once",
+          "start": 184,
+          "end": 185
+        },
+        {
+          "name": "build_output_token_limit_response",
+          "start": 188,
+          "end": 202
+        },
+        {
+          "name": "get_openai_credentials",
+          "start": 355,
+          "end": 374
+        },
+        {
+          "name": "__init__",
+          "start": 56,
+          "end": 83
+        },
+        {
+          "name": "get_cached_openai_client",
+          "start": 211,
+          "end": 220
+        },
+        {
+          "name": "owns_wrapped_http_client",
+          "start": 223,
+          "end": 235
+        },
+        {
+          "name": "set_cached_openai_client",
+          "start": 238,
+          "end": 258
+        },
+        {
+          "name": "get_openai_client_cache_key",
+          "start": 261,
+          "end": 291
+        },
+        {
+          "name": "get_openai_client_initialization_param_fields",
+          "start": 294,
+          "end": 301
+        },
+        {
+          "name": "_get_async_http_client",
+          "start": 304,
+          "end": 328
+        },
+        {
+          "name": "_get_sync_http_client",
+          "start": 331,
+          "end": 346
+        }
+      ]
+    },
+    {
+      "archive_path": "litellm/proxy/client/cli/commands/debug.py",
+      "git_blob": "4e3914143d8669813c17df2eebac25a50d64f88f",
+      "sha256": "621be83a31e09ae59980ebe59557ed61e137b9434d49b0d2da94bd0bdc0752f5",
+      "bytes": 14073,
+      "saved_path": "sources/litellm__proxy__client__cli__commands__debug.py.txt",
+      "source_url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/client/cli/commands/debug.py",
+      "functions": [
+        {
+          "name": "detect_claude_session_id",
+          "start": 124,
+          "end": 134
+        },
+        {
+          "name": "_transport_failure",
+          "start": 137,
+          "end": 140
+        },
+        {
+          "name": "_fmt_json",
+          "start": 187,
+          "end": 191
+        },
+        {
+          "name": "_fenced",
+          "start": 194,
+          "end": 197
+        },
+        {
+          "name": "_row_section",
+          "start": 200,
+          "end": 234
+        },
+        {
+          "name": "render_report",
+          "start": 237,
+          "end": 264
+        },
+        {
+          "name": "build_report",
+          "start": 267,
+          "end": 291
+        },
+        {
+          "name": "write_report",
+          "start": 294,
+          "end": 299
+        },
+        {
+          "name": "install_slash_command",
+          "start": 302,
+          "end": 307
+        },
+        {
+          "name": "debug",
+          "start": 311,
+          "end": 312
+        },
+        {
+          "name": "debug_claude",
+          "start": 337,
+          "end": 364
+        },
+        {
+          "name": "debug_install_claude_command",
+          "start": 368,
+          "end": 372
+        },
+        {
+          "name": "_parse_metadata",
+          "start": 83,
+          "end": 88
+        },
+        {
+          "name": "failed",
+          "start": 91,
+          "end": 92
+        },
+        {
+          "name": "error",
+          "start": 95,
+          "end": 96
+        },
+        {
+          "name": "__init__",
+          "start": 144,
+          "end": 145
+        },
+        {
+          "name": "session_rows",
+          "start": 147,
+          "end": 156
+        },
+        {
+          "name": "_get",
+          "start": 158,
+          "end": 162
+        },
+        {
+          "name": "_page",
+          "start": 164,
+          "end": 174
+        },
+        {
+          "name": "payload",
+          "start": 176,
+          "end": 184
+        }
+      ]
+    },
+    {
+      "archive_path": "litellm/proxy/client/cli/main.py",
+      "git_blob": "eae1b0f5bc9ee3911631693ca2c386a9b4a5d57c",
+      "sha256": "7940ffeaf5d8be6bf9d10e9f6175072b7ee7193987abd5b6a723b79a67ab3467",
+      "bytes": 6191,
+      "saved_path": "sources/litellm__proxy__client__cli__main.py.txt",
+      "source_url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/client/cli/main.py",
+      "functions": [
+        {
+          "name": "print_version",
+          "start": 31,
+          "end": 44
+        },
+        {
+          "name": "cli",
+          "start": 84,
+          "end": 121
+        },
+        {
+          "name": "version",
+          "start": 126,
+          "end": 128
+        },
+        {
+          "name": "list_commands",
+          "start": 56,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "archive_path": "litellm/proxy/client/http_client.py",
+      "git_blob": "aa0b986b1ad591ec8a1d2f0cb8c3a4d572f6427e",
+      "sha256": "b2ae65bd6fae9794006008f574cd9e912a8c44a89f1ff76be6f597d774b2d99e",
+      "bytes": 3395,
+      "saved_path": "sources/litellm__proxy__client__http_client.py.txt",
+      "source_url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/client/http_client.py",
+      "functions": [
+        {
+          "name": "__init__",
+          "start": 12,
+          "end": 22
+        },
+        {
+          "name": "request",
+          "start": 24,
+          "end": 97
+        }
+      ]
+    }
+  ]
+}

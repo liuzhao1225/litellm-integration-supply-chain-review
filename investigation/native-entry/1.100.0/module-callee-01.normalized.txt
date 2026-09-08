@@ -1,0 +1,126 @@
+pushq	%r15
+pushq	%r14
+pushq	%r13
+pushq	%r12
+pushq	%rbx
+subq	$0x10, %rsp
+movl	$0x1, %ecx
+xorl	%eax, %eax
+lock
+cmpxchgl	%ecx, RIP(%rip)
+jne	TARGET
+movq	RIP(%rip), %rax
+shlq	%rax
+testq	%rax, %rax
+jne	TARGET
+xorl	%eax, %eax
+movzbl	RIP(%rip), %ecx
+testb	%cl, %cl
+jne	TARGET
+movq	RIP(%rip), %r14
+testq	%r14, %r14
+je	TARGET
+movq	RIP(%rip), %r15
+movq	RIP(%rip), %rbx
+movq	$0x0, RIP(%rip)
+movq	$0x8, RIP(%rip)
+movq	$0x0, RIP(%rip)
+testb	%al, %al
+jne	TARGET
+movq	RIP(%rip), %rax
+testq	%rcx, %rax
+jne	TARGET
+xorl	%eax, %eax
+xchgl	%eax, RIP(%rip)
+cmpl	$0x2, %eax
+je	TARGET
+shlq	$0x3, %r14
+xorl	%r12d, %r12d
+movq	RIP(%rip), %r13
+nopw	%cs:(%rax,%rax)
+movq	(%rbx,%r12), %rdi
+callq	*%r13
+addq	$0x8, %r12
+cmpq	%r12, %r14
+jne	TARGET
+testq	%r15, %r15
+je	TARGET
+movq	%rbx, %rdi
+addq	$0x10, %rsp
+popq	%rbx
+popq	%r12
+popq	%r13
+popq	%r14
+popq	%r15
+jmpq	*RIP(%rip)
+testb	%al, %al
+jne	TARGET
+movq	RIP(%rip), %rax
+testq	%rcx, %rax
+jne	TARGET
+xorl	%eax, %eax
+xchgl	%eax, RIP(%rip)
+cmpl	$0x2, %eax
+je	TARGET
+addq	$0x10, %rsp
+popq	%rbx
+popq	%r12
+popq	%r13
+popq	%r14
+popq	%r15
+retq
+leaq	RIP(%rip), %rdi
+callq	TARGET
+movq	RIP(%rip), %rax
+shlq	%rax
+testq	%rax, %rax
+je	TARGET
+callq	TARGET
+xorb	$0x1, %al
+movzbl	RIP(%rip), %ecx
+testb	%cl, %cl
+je	TARGET
+leaq	RIP(%rip), %rcx
+movq	%rcx, (%rsp)
+movb	%al, 0x8(%rsp)
+leaq	RIP(%rip), %rdi
+leaq	RIP(%rip), %rcx
+leaq	RIP(%rip), %r8
+movq	%rsp, %rdx
+movl	$0x2b, %esi
+callq	TARGET
+ud2
+leaq	RIP(%rip), %rsi
+movl	$0xca, %edi
+movl	$0x81, %edx
+movl	$0x1, %ecx
+xorl	%eax, %eax
+callq	*RIP(%rip)
+jmp	TARGET
+leaq	RIP(%rip), %rsi
+movl	$0xca, %edi
+movl	$0x81, %edx
+movl	$0x1, %ecx
+xorl	%eax, %eax
+addq	$0x10, %rsp
+popq	%rbx
+popq	%r12
+popq	%r13
+popq	%r14
+popq	%r15
+jmpq	*RIP(%rip)
+callq	TARGET
+testb	%al, %al
+jne	TARGET
+movb	$0x1, RIP(%rip)
+jmp	TARGET
+callq	TARGET
+testb	%al, %al
+jne	TARGET
+movb	$0x1, RIP(%rip)
+jmp	TARGET
+movq	%rax, %rbx
+movq	%rsp, %rdi
+callq	TARGET
+movq	%rbx, %rdi
+callq	TARGET

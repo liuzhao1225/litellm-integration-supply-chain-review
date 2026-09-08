@@ -1,0 +1,22 @@
+pushq	%rbx
+movq	%rdi, %rbx
+movl	$0x10, %edi
+callq	*RIP(%rip)
+testq	%rax, %rax
+je	TARGET
+leaq	RIP(%rip), %rcx
+movq	%rcx, (%rax)
+movq	$0x2d, 0x8(%rax)
+xorps	%xmm0, %xmm0
+movups	%xmm0, (%rbx)
+movq	$0x1, 0x10(%rbx)
+movq	$0x0, 0x18(%rbx)
+movq	%rax, 0x20(%rbx)
+leaq	RIP(%rip), %rax
+movq	%rax, 0x28(%rbx)
+movl	$0x3, 0x38(%rbx)
+popq	%rbx
+retq
+movl	$0x8, %edi
+movl	$0x10, %esi
+callq	TARGET

@@ -1,0 +1,266 @@
+[
+  {
+    "file": "module-exec.asm",
+    "import_reference_sequence_equal": true,
+    "symbols": [
+      "PyModule_Type",
+      "PyModule_Type",
+      "PyType_IsSubtype",
+      "_Py_IncRef",
+      "malloc",
+      "_Py_IncRef",
+      "_Py_IncRef"
+    ],
+    "other_version_symbols": [
+      "PyModule_Type",
+      "PyModule_Type",
+      "PyType_IsSubtype",
+      "_Py_IncRef",
+      "malloc",
+      "_Py_IncRef",
+      "_Py_IncRef"
+    ]
+  },
+  {
+    "file": "crypto-constructor.asm",
+    "import_reference_sequence_equal": true,
+    "symbols": [],
+    "other_version_symbols": []
+  },
+  {
+    "file": "module-callee-01.asm",
+    "import_reference_sequence_equal": true,
+    "symbols": [
+      "_Py_DecRef",
+      "free",
+      "syscall",
+      "syscall"
+    ],
+    "other_version_symbols": [
+      "_Py_DecRef",
+      "free",
+      "syscall",
+      "syscall"
+    ]
+  },
+  {
+    "file": "module-callee-02.asm",
+    "import_reference_sequence_equal": true,
+    "symbols": [
+      "PyModule_GetNameObject",
+      "PyCMethod_New",
+      "_Py_DecRef",
+      "_Py_DecRef"
+    ],
+    "other_version_symbols": [
+      "PyModule_GetNameObject",
+      "PyCMethod_New",
+      "_Py_DecRef",
+      "_Py_DecRef"
+    ]
+  },
+  {
+    "file": "module-callee-03.asm",
+    "import_reference_sequence_equal": true,
+    "symbols": [
+      "PyErr_Fetch",
+      "PyErr_NormalizeException",
+      "_Py_DecRef",
+      "_Py_DecRef",
+      "_Py_DecRef"
+    ],
+    "other_version_symbols": [
+      "PyErr_Fetch",
+      "PyErr_NormalizeException",
+      "_Py_DecRef",
+      "_Py_DecRef",
+      "_Py_DecRef"
+    ]
+  },
+  {
+    "file": "module-callee-04.asm",
+    "import_reference_sequence_equal": true,
+    "symbols": [
+      "PyObject_GetAttr",
+      "PyType_GetFlags",
+      "PyUnicode_Type",
+      "_Py_IncRef",
+      "_Py_DecRef",
+      "_Py_DecRef",
+      "_Py_DecRef",
+      "_Py_DecRef",
+      "_Py_DecRef"
+    ],
+    "other_version_symbols": [
+      "PyObject_GetAttr",
+      "PyType_GetFlags",
+      "PyUnicode_Type",
+      "_Py_IncRef",
+      "_Py_DecRef",
+      "_Py_DecRef",
+      "_Py_DecRef",
+      "_Py_DecRef",
+      "_Py_DecRef"
+    ]
+  },
+  {
+    "file": "module-callee-05.asm",
+    "import_reference_sequence_equal": true,
+    "symbols": [
+      "PyErr_Restore",
+      "PyErr_Restore"
+    ],
+    "other_version_symbols": [
+      "PyErr_Restore",
+      "PyErr_Restore"
+    ]
+  },
+  {
+    "file": "module-callee-06.asm",
+    "import_reference_sequence_equal": true,
+    "symbols": [
+      "PyUnicode_FromStringAndSize",
+      "_Py_DecRef",
+      "_Py_DecRef",
+      "_Py_DecRef",
+      "_Py_DecRef"
+    ],
+    "other_version_symbols": [
+      "PyUnicode_FromStringAndSize",
+      "_Py_DecRef",
+      "_Py_DecRef",
+      "_Py_DecRef",
+      "_Py_DecRef"
+    ]
+  },
+  {
+    "file": "module-callee-07.asm",
+    "import_reference_sequence_equal": true,
+    "symbols": [],
+    "other_version_symbols": []
+  },
+  {
+    "file": "module-callee-08.asm",
+    "import_reference_sequence_equal": true,
+    "symbols": [
+      "malloc"
+    ],
+    "other_version_symbols": [
+      "malloc"
+    ]
+  },
+  {
+    "file": "module-callee-09.asm",
+    "import_reference_sequence_equal": true,
+    "symbols": [],
+    "other_version_symbols": []
+  },
+  {
+    "file": "module-callee-10.asm",
+    "import_reference_sequence_equal": true,
+    "symbols": [
+      "PyUnicode_FromStringAndSize",
+      "_Py_DecRef",
+      "_Py_DecRef"
+    ],
+    "other_version_symbols": [
+      "PyUnicode_FromStringAndSize",
+      "_Py_DecRef",
+      "_Py_DecRef"
+    ]
+  },
+  {
+    "file": "module-callee-11.asm",
+    "import_reference_sequence_equal": true,
+    "symbols": [
+      "PyEval_SaveThread",
+      "PyEval_RestoreThread"
+    ],
+    "other_version_symbols": [
+      "PyEval_SaveThread",
+      "PyEval_RestoreThread"
+    ]
+  },
+  {
+    "file": "module-callee-12.asm",
+    "import_reference_sequence_equal": true,
+    "symbols": [
+      "PyEval_SaveThread",
+      "PyEval_RestoreThread"
+    ],
+    "other_version_symbols": [
+      "PyEval_SaveThread",
+      "PyEval_RestoreThread"
+    ]
+  },
+  {
+    "file": "module-callee-13.asm",
+    "import_reference_sequence_equal": true,
+    "symbols": [
+      "_Py_DecRef",
+      "_Py_DecRef"
+    ],
+    "other_version_symbols": [
+      "_Py_DecRef",
+      "_Py_DecRef"
+    ]
+  },
+  {
+    "file": "module-callee-14.asm",
+    "import_reference_sequence_equal": true,
+    "symbols": [
+      "free",
+      "_Unwind_DeleteException"
+    ],
+    "other_version_symbols": [
+      "free",
+      "_Unwind_DeleteException"
+    ]
+  },
+  {
+    "file": "module-callee-15.asm",
+    "import_reference_sequence_equal": true,
+    "symbols": [
+      "malloc",
+      "memcpy",
+      "malloc",
+      "malloc",
+      "malloc",
+      "malloc",
+      "memcpy",
+      "malloc",
+      "free",
+      "malloc",
+      "free",
+      "free",
+      "free"
+    ],
+    "other_version_symbols": [
+      "malloc",
+      "memcpy",
+      "malloc",
+      "malloc",
+      "malloc",
+      "malloc",
+      "memcpy",
+      "malloc",
+      "free",
+      "malloc",
+      "free",
+      "free",
+      "free"
+    ]
+  },
+  {
+    "file": "module-callee-16.asm",
+    "import_reference_sequence_equal": true,
+    "symbols": [],
+    "other_version_symbols": []
+  },
+  {
+    "file": "module-callee-17.asm",
+    "import_reference_sequence_equal": true,
+    "symbols": [],
+    "other_version_symbols": []
+  }
+]

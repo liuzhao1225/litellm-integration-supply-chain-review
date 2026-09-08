@@ -1,0 +1,12 @@
+{
+  "pypi_direct_request": {
+    "url": "https://pypi.org/project/litellm/1.100.0/",
+    "result": "Client Challenge HTML; no release metadata parsed",
+    "bytes": 3038,
+    "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+    "error": "ValueError: Unexpected PyPI file metadata shape for 1.100.0: []",
+    "retry": false
+  },
+  "independent_image_requests": "Four manifests and four statements completed and were preserved; summarized offline with full digest-chain checks.",
+  "pypi_page_alternative_source": "Explicitly identified web reader view of the official page; not represented as the failed direct HTTP response."
+}

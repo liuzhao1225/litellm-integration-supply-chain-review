@@ -1,0 +1,5328 @@
+{
+  "checked_at_utc": "2026-09-08T21:21:44.962712+00:00",
+  "method": "ELF SHN_UNDEF symbols beginning Py or _Py; function/data records in pinned official manifests; no target execution",
+  "source_evidence": [
+    {
+      "path": "native-entry/1.99.0/elf.json",
+      "sha256": "89000b81073c1c2e67f939ed43c8b56116f4f21dae991c84dd80b1dea5af361e",
+      "wheel_sha256": "1c45097e426fed2ae7fbd38b5404c3addeb203d0e1148c0a59848aabd5fe83c6",
+      "native_sha256": "2345a380bce52f040ff2ea0a7b1988e8f682a40e63bcb3b8ac822c53149e09a6"
+    },
+    {
+      "path": "native-entry/1.100.0/elf.json",
+      "sha256": "7bf2366f40b8eb2208df6f4f850f9148041f435e73470af3de36eb952d9bfd54",
+      "wheel_sha256": "8224c8eed9cab3319a88e6665d1275ad8faf21d353b1b22223a6d6115a302ea2",
+      "native_sha256": "c6992e805578007dc61f872127fb164490751adc6556c6b37e58f550a0f23951"
+    }
+  ],
+  "counts": {
+    "1.99.0": 77,
+    "1.100.0": 111
+  },
+  "added_count": 34,
+  "removed": [],
+  "unlisted_in_3_10": [],
+  "requires_after_3_10": [],
+  "rows": [
+    {
+      "symbol": "PyBaseObject_Type",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyBaseObject_Type",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyBaseObject_Type",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "data",
+        "name": "PyBaseObject_Type",
+        "line": 308,
+        "raw_lines": [
+          "data PyBaseObject_Type",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "data",
+        "name": "PyBaseObject_Type",
+        "line": 402,
+        "raw_lines": [
+          "[data.PyBaseObject_Type]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyBool_Type",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "PyBool_Type",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "data",
+        "name": "PyBool_Type",
+        "line": 312,
+        "raw_lines": [
+          "data PyBool_Type",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "data",
+        "name": "PyBool_Type",
+        "line": 406,
+        "raw_lines": [
+          "[data.PyBool_Type]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyByteArray_Type",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "PyByteArray_Type",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "data",
+        "name": "PyByteArray_Type",
+        "line": 328,
+        "raw_lines": [
+          "data PyByteArray_Type",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "data",
+        "name": "PyByteArray_Type",
+        "line": 422,
+        "raw_lines": [
+          "[data.PyByteArray_Type]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyBytes_AsString",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyBytes_AsString",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyBytes_AsString",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyBytes_AsString",
+        "line": 332,
+        "raw_lines": [
+          "function PyBytes_AsString",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyBytes_AsString",
+        "line": 426,
+        "raw_lines": [
+          "[function.PyBytes_AsString]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyBytes_Size",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyBytes_Size",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyBytes_Size",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyBytes_Size",
+        "line": 354,
+        "raw_lines": [
+          "function PyBytes_Size",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyBytes_Size",
+        "line": 448,
+        "raw_lines": [
+          "[function.PyBytes_Size]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyBytes_Type",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "PyBytes_Type",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "data",
+        "name": "PyBytes_Type",
+        "line": 356,
+        "raw_lines": [
+          "data PyBytes_Type",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "data",
+        "name": "PyBytes_Type",
+        "line": 450,
+        "raw_lines": [
+          "[data.PyBytes_Type]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyCMethod_New",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyCMethod_New",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyCMethod_New",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyCMethod_New",
+        "line": 2059,
+        "raw_lines": [
+          "function PyCMethod_New",
+          "    added 3.9  # Windows: 3.10 & 3.9.2 -- https://bugs.python.org/issue43155"
+        ],
+        "added": "3.9",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyCMethod_New",
+        "line": 2160,
+        "raw_lines": [
+          "[function.PyCMethod_New]",
+          "    added = '3.9'"
+        ],
+        "added": "3.9",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyDict_GetItemWithError",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "PyDict_GetItemWithError",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyDict_GetItemWithError",
+        "line": 482,
+        "raw_lines": [
+          "function PyDict_GetItemWithError",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyDict_GetItemWithError",
+        "line": 577,
+        "raw_lines": [
+          "[function.PyDict_GetItemWithError]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyDict_Keys",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "PyDict_Keys",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyDict_Keys",
+        "line": 486,
+        "raw_lines": [
+          "function PyDict_Keys",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyDict_Keys",
+        "line": 581,
+        "raw_lines": [
+          "[function.PyDict_Keys]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyDict_New",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyDict_New",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyDict_New",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyDict_New",
+        "line": 492,
+        "raw_lines": [
+          "function PyDict_New",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyDict_New",
+        "line": 587,
+        "raw_lines": [
+          "[function.PyDict_New]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyDict_Next",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyDict_Next",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyDict_Next",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyDict_Next",
+        "line": 494,
+        "raw_lines": [
+          "function PyDict_Next",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyDict_Next",
+        "line": 589,
+        "raw_lines": [
+          "[function.PyDict_Next]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyDict_SetItem",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyDict_SetItem",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyDict_SetItem",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyDict_SetItem",
+        "line": 496,
+        "raw_lines": [
+          "function PyDict_SetItem",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyDict_SetItem",
+        "line": 591,
+        "raw_lines": [
+          "[function.PyDict_SetItem]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyDict_Size",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyDict_Size",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyDict_Size",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyDict_Size",
+        "line": 500,
+        "raw_lines": [
+          "function PyDict_Size",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyDict_Size",
+        "line": 595,
+        "raw_lines": [
+          "[function.PyDict_Size]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyDict_Type",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "PyDict_Type",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "data",
+        "name": "PyDict_Type",
+        "line": 502,
+        "raw_lines": [
+          "data PyDict_Type",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "data",
+        "name": "PyDict_Type",
+        "line": 597,
+        "raw_lines": [
+          "[data.PyDict_Type]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyErr_Clear",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "PyErr_Clear",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyErr_Clear",
+        "line": 518,
+        "raw_lines": [
+          "function PyErr_Clear",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyErr_Clear",
+        "line": 613,
+        "raw_lines": [
+          "[function.PyErr_Clear]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyErr_ExceptionMatches",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "PyErr_ExceptionMatches",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyErr_ExceptionMatches",
+        "line": 522,
+        "raw_lines": [
+          "function PyErr_ExceptionMatches",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyErr_ExceptionMatches",
+        "line": 619,
+        "raw_lines": [
+          "[function.PyErr_ExceptionMatches]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyErr_Fetch",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyErr_Fetch",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyErr_Fetch",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyErr_Fetch",
+        "line": 524,
+        "raw_lines": [
+          "function PyErr_Fetch",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyErr_Fetch",
+        "line": 621,
+        "raw_lines": [
+          "[function.PyErr_Fetch]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyErr_GivenExceptionMatches",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyErr_GivenExceptionMatches",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyErr_GivenExceptionMatches",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyErr_GivenExceptionMatches",
+        "line": 528,
+        "raw_lines": [
+          "function PyErr_GivenExceptionMatches",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyErr_GivenExceptionMatches",
+        "line": 625,
+        "raw_lines": [
+          "[function.PyErr_GivenExceptionMatches]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyErr_NewExceptionWithDoc",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyErr_NewExceptionWithDoc",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyErr_NewExceptionWithDoc",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyErr_NewExceptionWithDoc",
+        "line": 532,
+        "raw_lines": [
+          "function PyErr_NewExceptionWithDoc",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyErr_NewExceptionWithDoc",
+        "line": 629,
+        "raw_lines": [
+          "[function.PyErr_NewExceptionWithDoc]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyErr_NormalizeException",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyErr_NormalizeException",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyErr_NormalizeException",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyErr_NormalizeException",
+        "line": 536,
+        "raw_lines": [
+          "function PyErr_NormalizeException",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyErr_NormalizeException",
+        "line": 633,
+        "raw_lines": [
+          "[function.PyErr_NormalizeException]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyErr_Occurred",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "PyErr_Occurred",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyErr_Occurred",
+        "line": 538,
+        "raw_lines": [
+          "function PyErr_Occurred",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyErr_Occurred",
+        "line": 635,
+        "raw_lines": [
+          "[function.PyErr_Occurred]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyErr_PrintEx",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyErr_PrintEx",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyErr_PrintEx",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyErr_PrintEx",
+        "line": 542,
+        "raw_lines": [
+          "function PyErr_PrintEx",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyErr_PrintEx",
+        "line": 639,
+        "raw_lines": [
+          "[function.PyErr_PrintEx]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyErr_Restore",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyErr_Restore",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyErr_Restore",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyErr_Restore",
+        "line": 546,
+        "raw_lines": [
+          "function PyErr_Restore",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyErr_Restore",
+        "line": 643,
+        "raw_lines": [
+          "[function.PyErr_Restore]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyErr_SetObject",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyErr_SetObject",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyErr_SetObject",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyErr_SetObject",
+        "line": 558,
+        "raw_lines": [
+          "function PyErr_SetObject",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyErr_SetObject",
+        "line": 655,
+        "raw_lines": [
+          "[function.PyErr_SetObject]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyErr_SetString",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyErr_SetString",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyErr_SetString",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyErr_SetString",
+        "line": 560,
+        "raw_lines": [
+          "function PyErr_SetString",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyErr_SetString",
+        "line": 657,
+        "raw_lines": [
+          "[function.PyErr_SetString]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyErr_WriteUnraisable",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyErr_WriteUnraisable",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyErr_WriteUnraisable",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyErr_WriteUnraisable",
+        "line": 570,
+        "raw_lines": [
+          "function PyErr_WriteUnraisable",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyErr_WriteUnraisable",
+        "line": 667,
+        "raw_lines": [
+          "[function.PyErr_WriteUnraisable]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyEval_RestoreThread",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyEval_RestoreThread",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyEval_RestoreThread",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyEval_RestoreThread",
+        "line": 608,
+        "raw_lines": [
+          "function PyEval_RestoreThread",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyEval_RestoreThread",
+        "line": 710,
+        "raw_lines": [
+          "[function.PyEval_RestoreThread]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyEval_SaveThread",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyEval_SaveThread",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyEval_SaveThread",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyEval_SaveThread",
+        "line": 610,
+        "raw_lines": [
+          "function PyEval_SaveThread",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyEval_SaveThread",
+        "line": 712,
+        "raw_lines": [
+          "[function.PyEval_SaveThread]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyExc_AttributeError",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyExc_AttributeError",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyExc_AttributeError",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "data",
+        "name": "PyExc_AttributeError",
+        "line": 618,
+        "raw_lines": [
+          "data PyExc_AttributeError",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "data",
+        "name": "PyExc_AttributeError",
+        "line": 721,
+        "raw_lines": [
+          "[data.PyExc_AttributeError]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyExc_BaseException",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyExc_BaseException",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyExc_BaseException",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "data",
+        "name": "PyExc_BaseException",
+        "line": 620,
+        "raw_lines": [
+          "data PyExc_BaseException",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "data",
+        "name": "PyExc_BaseException",
+        "line": 723,
+        "raw_lines": [
+          "[data.PyExc_BaseException]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyExc_Exception",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyExc_Exception",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyExc_Exception",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "data",
+        "name": "PyExc_Exception",
+        "line": 632,
+        "raw_lines": [
+          "data PyExc_Exception",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "data",
+        "name": "PyExc_Exception",
+        "line": 737,
+        "raw_lines": [
+          "[data.PyExc_Exception]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyExc_KeyError",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "PyExc_KeyError",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "data",
+        "name": "PyExc_KeyError",
+        "line": 650,
+        "raw_lines": [
+          "data PyExc_KeyError",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "data",
+        "name": "PyExc_KeyError",
+        "line": 755,
+        "raw_lines": [
+          "[data.PyExc_KeyError]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyExc_RuntimeError",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyExc_RuntimeError",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyExc_RuntimeError",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "data",
+        "name": "PyExc_RuntimeError",
+        "line": 670,
+        "raw_lines": [
+          "data PyExc_RuntimeError",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "data",
+        "name": "PyExc_RuntimeError",
+        "line": 775,
+        "raw_lines": [
+          "[data.PyExc_RuntimeError]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyExc_SystemError",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyExc_SystemError",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyExc_SystemError",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "data",
+        "name": "PyExc_SystemError",
+        "line": 680,
+        "raw_lines": [
+          "data PyExc_SystemError",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "data",
+        "name": "PyExc_SystemError",
+        "line": 785,
+        "raw_lines": [
+          "[data.PyExc_SystemError]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyExc_TypeError",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyExc_TypeError",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyExc_TypeError",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "data",
+        "name": "PyExc_TypeError",
+        "line": 686,
+        "raw_lines": [
+          "data PyExc_TypeError",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "data",
+        "name": "PyExc_TypeError",
+        "line": 791,
+        "raw_lines": [
+          "[data.PyExc_TypeError]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyExc_ValueError",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyExc_ValueError",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyExc_ValueError",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "data",
+        "name": "PyExc_ValueError",
+        "line": 702,
+        "raw_lines": [
+          "data PyExc_ValueError",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "data",
+        "name": "PyExc_ValueError",
+        "line": 807,
+        "raw_lines": [
+          "[data.PyExc_ValueError]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyException_SetCause",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyException_SetCause",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyException_SetCause",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyException_SetCause",
+        "line": 714,
+        "raw_lines": [
+          "function PyException_SetCause",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyException_SetCause",
+        "line": 819,
+        "raw_lines": [
+          "[function.PyException_SetCause]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyException_SetTraceback",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyException_SetTraceback",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyException_SetTraceback",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyException_SetTraceback",
+        "line": 718,
+        "raw_lines": [
+          "function PyException_SetTraceback",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyException_SetTraceback",
+        "line": 823,
+        "raw_lines": [
+          "[function.PyException_SetTraceback]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyFloat_AsDouble",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyFloat_AsDouble",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyFloat_AsDouble",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyFloat_AsDouble",
+        "line": 730,
+        "raw_lines": [
+          "function PyFloat_AsDouble",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyFloat_AsDouble",
+        "line": 835,
+        "raw_lines": [
+          "[function.PyFloat_AsDouble]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyFloat_FromDouble",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "PyFloat_FromDouble",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyFloat_FromDouble",
+        "line": 732,
+        "raw_lines": [
+          "function PyFloat_FromDouble",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyFloat_FromDouble",
+        "line": 837,
+        "raw_lines": [
+          "[function.PyFloat_FromDouble]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyFloat_Type",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "PyFloat_Type",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "data",
+        "name": "PyFloat_Type",
+        "line": 742,
+        "raw_lines": [
+          "data PyFloat_Type",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "data",
+        "name": "PyFloat_Type",
+        "line": 847,
+        "raw_lines": [
+          "[data.PyFloat_Type]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyFrozenSet_Type",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "PyFrozenSet_Type",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "data",
+        "name": "PyFrozenSet_Type",
+        "line": 746,
+        "raw_lines": [
+          "data PyFrozenSet_Type",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "data",
+        "name": "PyFrozenSet_Type",
+        "line": 851,
+        "raw_lines": [
+          "[data.PyFrozenSet_Type]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyGILState_Ensure",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyGILState_Ensure",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyGILState_Ensure",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyGILState_Ensure",
+        "line": 750,
+        "raw_lines": [
+          "function PyGILState_Ensure",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyGILState_Ensure",
+        "line": 855,
+        "raw_lines": [
+          "[function.PyGILState_Ensure]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyGILState_Release",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyGILState_Release",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyGILState_Release",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyGILState_Release",
+        "line": 754,
+        "raw_lines": [
+          "function PyGILState_Release",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyGILState_Release",
+        "line": 859,
+        "raw_lines": [
+          "[function.PyGILState_Release]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyImport_Import",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyImport_Import",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyImport_Import",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyImport_Import",
+        "line": 776,
+        "raw_lines": [
+          "function PyImport_Import",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyImport_Import",
+        "line": 881,
+        "raw_lines": [
+          "[function.PyImport_Import]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyIter_Next",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "PyIter_Next",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyIter_Next",
+        "line": 794,
+        "raw_lines": [
+          "function PyIter_Next",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyIter_Next",
+        "line": 899,
+        "raw_lines": [
+          "[function.PyIter_Next]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyList_Append",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyList_Append",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyList_Append",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyList_Append",
+        "line": 800,
+        "raw_lines": [
+          "function PyList_Append",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyList_Append",
+        "line": 905,
+        "raw_lines": [
+          "[function.PyList_Append]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyList_GetItem",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "PyList_GetItem",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyList_GetItem",
+        "line": 804,
+        "raw_lines": [
+          "function PyList_GetItem",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyList_GetItem",
+        "line": 909,
+        "raw_lines": [
+          "[function.PyList_GetItem]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyList_New",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyList_New",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyList_New",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyList_New",
+        "line": 810,
+        "raw_lines": [
+          "function PyList_New",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyList_New",
+        "line": 915,
+        "raw_lines": [
+          "[function.PyList_New]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyList_SetItem",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "PyList_SetItem",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyList_SetItem",
+        "line": 814,
+        "raw_lines": [
+          "function PyList_SetItem",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyList_SetItem",
+        "line": 919,
+        "raw_lines": [
+          "[function.PyList_SetItem]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyList_Size",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "PyList_Size",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyList_Size",
+        "line": 818,
+        "raw_lines": [
+          "function PyList_Size",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyList_Size",
+        "line": 923,
+        "raw_lines": [
+          "[function.PyList_Size]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyList_Type",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyList_Type",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyList_Type",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "data",
+        "name": "PyList_Type",
+        "line": 822,
+        "raw_lines": [
+          "data PyList_Type",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "data",
+        "name": "PyList_Type",
+        "line": 927,
+        "raw_lines": [
+          "[data.PyList_Type]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyLong_AsLong",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "PyLong_AsLong",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyLong_AsLong",
+        "line": 828,
+        "raw_lines": [
+          "function PyLong_AsLong",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyLong_AsLong",
+        "line": 933,
+        "raw_lines": [
+          "[function.PyLong_AsLong]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyLong_AsUnsignedLongLong",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "PyLong_AsUnsignedLongLong",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyLong_AsUnsignedLongLong",
+        "line": 842,
+        "raw_lines": [
+          "function PyLong_AsUnsignedLongLong",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyLong_AsUnsignedLongLong",
+        "line": 947,
+        "raw_lines": [
+          "[function.PyLong_AsUnsignedLongLong]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyLong_AsUnsignedLongLongMask",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "PyLong_AsUnsignedLongLongMask",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyLong_AsUnsignedLongLongMask",
+        "line": 844,
+        "raw_lines": [
+          "function PyLong_AsUnsignedLongLongMask",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyLong_AsUnsignedLongLongMask",
+        "line": 949,
+        "raw_lines": [
+          "[function.PyLong_AsUnsignedLongLongMask]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyLong_FromLong",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyLong_FromLong",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyLong_FromLong",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyLong_FromLong",
+        "line": 852,
+        "raw_lines": [
+          "function PyLong_FromLong",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyLong_FromLong",
+        "line": 957,
+        "raw_lines": [
+          "[function.PyLong_FromLong]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyLong_FromSsize_t",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyLong_FromSsize_t",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyLong_FromSsize_t",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyLong_FromSsize_t",
+        "line": 858,
+        "raw_lines": [
+          "function PyLong_FromSsize_t",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyLong_FromSsize_t",
+        "line": 963,
+        "raw_lines": [
+          "[function.PyLong_FromSsize_t]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyLong_FromUnsignedLongLong",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyLong_FromUnsignedLongLong",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyLong_FromUnsignedLongLong",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyLong_FromUnsignedLongLong",
+        "line": 864,
+        "raw_lines": [
+          "function PyLong_FromUnsignedLongLong",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyLong_FromUnsignedLongLong",
+        "line": 969,
+        "raw_lines": [
+          "[function.PyLong_FromUnsignedLongLong]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyLong_Type",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "PyLong_Type",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "data",
+        "name": "PyLong_Type",
+        "line": 870,
+        "raw_lines": [
+          "data PyLong_Type",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "data",
+        "name": "PyLong_Type",
+        "line": 975,
+        "raw_lines": [
+          "[data.PyLong_Type]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyMapping_Keys",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "PyMapping_Keys",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyMapping_Keys",
+        "line": 884,
+        "raw_lines": [
+          "function PyMapping_Keys",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyMapping_Keys",
+        "line": 989,
+        "raw_lines": [
+          "[function.PyMapping_Keys]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyMapping_Size",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "PyMapping_Size",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyMapping_Size",
+        "line": 890,
+        "raw_lines": [
+          "function PyMapping_Size",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyMapping_Size",
+        "line": 995,
+        "raw_lines": [
+          "[function.PyMapping_Size]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyMapping_Values",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "PyMapping_Values",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyMapping_Values",
+        "line": 892,
+        "raw_lines": [
+          "function PyMapping_Values",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyMapping_Values",
+        "line": 997,
+        "raw_lines": [
+          "[function.PyMapping_Values]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyModuleDef_Init",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyModuleDef_Init",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyModuleDef_Init",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyModuleDef_Init",
+        "line": 1783,
+        "raw_lines": [
+          "function PyModuleDef_Init",
+          "    added 3.5"
+        ],
+        "added": "3.5",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyModuleDef_Init",
+        "line": 1888,
+        "raw_lines": [
+          "[function.PyModuleDef_Init]",
+          "    added = '3.5'"
+        ],
+        "added": "3.5",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyModule_GetNameObject",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyModule_GetNameObject",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyModule_GetNameObject",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyModule_GetNameObject",
+        "line": 1888,
+        "raw_lines": [
+          "function PyModule_GetNameObject",
+          "    added 3.7  # (and 3.6.1 and 3.5.3)"
+        ],
+        "added": "3.7",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyModule_GetNameObject",
+        "line": 1993,
+        "raw_lines": [
+          "[function.PyModule_GetNameObject]",
+          "    added = '3.7'  # (and 3.6.1 and 3.5.3)"
+        ],
+        "added": "3.7",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyModule_Type",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyModule_Type",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyModule_Type",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "data",
+        "name": "PyModule_Type",
+        "line": 932,
+        "raw_lines": [
+          "data PyModule_Type",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "data",
+        "name": "PyModule_Type",
+        "line": 1037,
+        "raw_lines": [
+          "[data.PyModule_Type]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyNumber_Index",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "PyNumber_Index",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyNumber_Index",
+        "line": 974,
+        "raw_lines": [
+          "function PyNumber_Index",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyNumber_Index",
+        "line": 1079,
+        "raw_lines": [
+          "[function.PyNumber_Index]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyNumber_Rshift",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "PyNumber_Rshift",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyNumber_Rshift",
+        "line": 994,
+        "raw_lines": [
+          "function PyNumber_Rshift",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyNumber_Rshift",
+        "line": 1099,
+        "raw_lines": [
+          "[function.PyNumber_Rshift]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyObject_Call",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyObject_Call",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyObject_Call",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyObject_Call",
+        "line": 1037,
+        "raw_lines": [
+          "function PyObject_Call",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyObject_Call",
+        "line": 1142,
+        "raw_lines": [
+          "[function.PyObject_Call]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyObject_CallMethodObjArgs",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyObject_CallMethodObjArgs",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyObject_CallMethodObjArgs",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyObject_CallMethodObjArgs",
+        "line": 1045,
+        "raw_lines": [
+          "function PyObject_CallMethodObjArgs",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyObject_CallMethodObjArgs",
+        "line": 1150,
+        "raw_lines": [
+          "[function.PyObject_CallMethodObjArgs]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyObject_CallNoArgs",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyObject_CallNoArgs",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyObject_CallNoArgs",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyObject_CallNoArgs",
+        "line": 2095,
+        "raw_lines": [
+          "function PyObject_CallNoArgs",
+          "    added 3.10"
+        ],
+        "added": "3.10",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyObject_CallNoArgs",
+        "line": 2196,
+        "raw_lines": [
+          "[function.PyObject_CallNoArgs]",
+          "    added = '3.10'"
+        ],
+        "added": "3.10",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyObject_DelItem",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyObject_DelItem",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyObject_DelItem",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyObject_DelItem",
+        "line": 1051,
+        "raw_lines": [
+          "function PyObject_DelItem",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyObject_DelItem",
+        "line": 1156,
+        "raw_lines": [
+          "[function.PyObject_DelItem]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyObject_GC_UnTrack",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyObject_GC_UnTrack",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyObject_GC_UnTrack",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyObject_GC_UnTrack",
+        "line": 1065,
+        "raw_lines": [
+          "function PyObject_GC_UnTrack",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyObject_GC_UnTrack",
+        "line": 1170,
+        "raw_lines": [
+          "[function.PyObject_GC_UnTrack]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyObject_GenericGetDict",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyObject_GenericGetDict",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyObject_GenericGetDict",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyObject_GenericGetDict",
+        "line": 2077,
+        "raw_lines": [
+          "function PyObject_GenericGetDict",
+          "    added 3.10"
+        ],
+        "added": "3.10",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyObject_GenericGetDict",
+        "line": 2178,
+        "raw_lines": [
+          "[function.PyObject_GenericGetDict]",
+          "    added = '3.10'"
+        ],
+        "added": "3.10",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyObject_GenericSetDict",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyObject_GenericSetDict",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyObject_GenericSetDict",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyObject_GenericSetDict",
+        "line": 1900,
+        "raw_lines": [
+          "function PyObject_GenericSetDict",
+          "    added 3.7  # (and 3.6.1 and 3.5.3)"
+        ],
+        "added": "3.7",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyObject_GenericSetDict",
+        "line": 2005,
+        "raw_lines": [
+          "[function.PyObject_GenericSetDict]",
+          "    added = '3.7'  # (and 3.6.1 and 3.5.3)"
+        ],
+        "added": "3.7",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyObject_GetAttr",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyObject_GetAttr",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyObject_GetAttr",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyObject_GetAttr",
+        "line": 1071,
+        "raw_lines": [
+          "function PyObject_GetAttr",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyObject_GetAttr",
+        "line": 1176,
+        "raw_lines": [
+          "[function.PyObject_GetAttr]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyObject_GetItem",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyObject_GetItem",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyObject_GetItem",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyObject_GetItem",
+        "line": 1075,
+        "raw_lines": [
+          "function PyObject_GetItem",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyObject_GetItem",
+        "line": 1180,
+        "raw_lines": [
+          "[function.PyObject_GetItem]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyObject_GetIter",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "PyObject_GetIter",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyObject_GetIter",
+        "line": 1077,
+        "raw_lines": [
+          "function PyObject_GetIter",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyObject_GetIter",
+        "line": 1182,
+        "raw_lines": [
+          "[function.PyObject_GetIter]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyObject_IsInstance",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "PyObject_IsInstance",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyObject_IsInstance",
+        "line": 1091,
+        "raw_lines": [
+          "function PyObject_IsInstance",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyObject_IsInstance",
+        "line": 1196,
+        "raw_lines": [
+          "[function.PyObject_IsInstance]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyObject_IsTrue",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyObject_IsTrue",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyObject_IsTrue",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyObject_IsTrue",
+        "line": 1095,
+        "raw_lines": [
+          "function PyObject_IsTrue",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyObject_IsTrue",
+        "line": 1200,
+        "raw_lines": [
+          "[function.PyObject_IsTrue]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyObject_Repr",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyObject_Repr",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyObject_Repr",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyObject_Repr",
+        "line": 1105,
+        "raw_lines": [
+          "function PyObject_Repr",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyObject_Repr",
+        "line": 1210,
+        "raw_lines": [
+          "[function.PyObject_Repr]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyObject_SetAttr",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyObject_SetAttr",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyObject_SetAttr",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyObject_SetAttr",
+        "line": 1113,
+        "raw_lines": [
+          "function PyObject_SetAttr",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyObject_SetAttr",
+        "line": 1218,
+        "raw_lines": [
+          "[function.PyObject_SetAttr]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyObject_SetAttrString",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyObject_SetAttrString",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyObject_SetAttrString",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyObject_SetAttrString",
+        "line": 1115,
+        "raw_lines": [
+          "function PyObject_SetAttrString",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyObject_SetAttrString",
+        "line": 1220,
+        "raw_lines": [
+          "[function.PyObject_SetAttrString]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyObject_SetItem",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyObject_SetItem",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyObject_SetItem",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyObject_SetItem",
+        "line": 1117,
+        "raw_lines": [
+          "function PyObject_SetItem",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyObject_SetItem",
+        "line": 1222,
+        "raw_lines": [
+          "[function.PyObject_SetItem]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyObject_Size",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "PyObject_Size",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyObject_Size",
+        "line": 1119,
+        "raw_lines": [
+          "function PyObject_Size",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyObject_Size",
+        "line": 1224,
+        "raw_lines": [
+          "[function.PyObject_Size]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyObject_Str",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyObject_Str",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyObject_Str",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyObject_Str",
+        "line": 1121,
+        "raw_lines": [
+          "function PyObject_Str",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyObject_Str",
+        "line": 1226,
+        "raw_lines": [
+          "[function.PyObject_Str]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PySequence_GetItem",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "PySequence_GetItem",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PySequence_GetItem",
+        "line": 1151,
+        "raw_lines": [
+          "function PySequence_GetItem",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PySequence_GetItem",
+        "line": 1256,
+        "raw_lines": [
+          "[function.PySequence_GetItem]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PySet_Type",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "PySet_Type",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "data",
+        "name": "PySet_Type",
+        "line": 1193,
+        "raw_lines": [
+          "data PySet_Type",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "data",
+        "name": "PySet_Type",
+        "line": 1298,
+        "raw_lines": [
+          "[data.PySet_Type]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyTraceBack_Print",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyTraceBack_Print",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyTraceBack_Print",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyTraceBack_Print",
+        "line": 1260,
+        "raw_lines": [
+          "function PyTraceBack_Print",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyTraceBack_Print",
+        "line": 1369,
+        "raw_lines": [
+          "[function.PyTraceBack_Print]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyTuple_GetItem",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyTuple_GetItem",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyTuple_GetItem",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyTuple_GetItem",
+        "line": 1266,
+        "raw_lines": [
+          "function PyTuple_GetItem",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyTuple_GetItem",
+        "line": 1375,
+        "raw_lines": [
+          "[function.PyTuple_GetItem]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyTuple_New",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyTuple_New",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyTuple_New",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyTuple_New",
+        "line": 1270,
+        "raw_lines": [
+          "function PyTuple_New",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyTuple_New",
+        "line": 1379,
+        "raw_lines": [
+          "[function.PyTuple_New]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyTuple_SetItem",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyTuple_SetItem",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyTuple_SetItem",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyTuple_SetItem",
+        "line": 1274,
+        "raw_lines": [
+          "function PyTuple_SetItem",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyTuple_SetItem",
+        "line": 1383,
+        "raw_lines": [
+          "[function.PyTuple_SetItem]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyTuple_Size",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyTuple_Size",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyTuple_Size",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyTuple_Size",
+        "line": 1276,
+        "raw_lines": [
+          "function PyTuple_Size",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyTuple_Size",
+        "line": 1385,
+        "raw_lines": [
+          "[function.PyTuple_Size]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyTuple_Type",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyTuple_Type",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyTuple_Type",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "data",
+        "name": "PyTuple_Type",
+        "line": 1278,
+        "raw_lines": [
+          "data PyTuple_Type",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "data",
+        "name": "PyTuple_Type",
+        "line": 1387,
+        "raw_lines": [
+          "[data.PyTuple_Type]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyType_FromSpec",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyType_FromSpec",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyType_FromSpec",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyType_FromSpec",
+        "line": 52,
+        "raw_lines": [
+          "function PyType_FromSpec",
+          "    added 3.2",
+          ""
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyType_FromSpec",
+        "line": 146,
+        "raw_lines": [
+          "[function.PyType_FromSpec]",
+          "    added = '3.2'",
+          ""
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyType_GetFlags",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyType_GetFlags",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyType_GetFlags",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyType_GetFlags",
+        "line": 1286,
+        "raw_lines": [
+          "function PyType_GetFlags",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyType_GetFlags",
+        "line": 1395,
+        "raw_lines": [
+          "[function.PyType_GetFlags]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyType_GetSlot",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyType_GetSlot",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyType_GetSlot",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyType_GetSlot",
+        "line": 1774,
+        "raw_lines": [
+          "function PyType_GetSlot",
+          "    added 3.4",
+          "",
+          "# The following were added in PC/python3.def in Python 3.5:",
+          "# 11d7b1423fc44d764eba7065ea5eba58ed748b21",
+          "# f3b73ad51da3097d7915796fdc62608b1ab90c0a",
+          ""
+        ],
+        "added": "3.4",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyType_GetSlot",
+        "line": 1879,
+        "raw_lines": [
+          "[function.PyType_GetSlot]",
+          "    added = '3.4'",
+          "",
+          "# The following were added in PC/python3.def in Python 3.5:",
+          "# 11d7b1423fc44d764eba7065ea5eba58ed748b21",
+          "# f3b73ad51da3097d7915796fdc62608b1ab90c0a",
+          ""
+        ],
+        "added": "3.4",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyType_IsSubtype",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyType_IsSubtype",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyType_IsSubtype",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyType_IsSubtype",
+        "line": 1288,
+        "raw_lines": [
+          "function PyType_IsSubtype",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyType_IsSubtype",
+        "line": 1397,
+        "raw_lines": [
+          "[function.PyType_IsSubtype]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyType_Type",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyType_Type",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyType_Type",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "data",
+        "name": "PyType_Type",
+        "line": 1294,
+        "raw_lines": [
+          "data PyType_Type",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "data",
+        "name": "PyType_Type",
+        "line": 1403,
+        "raw_lines": [
+          "[data.PyType_Type]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyUnicode_AsEncodedString",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyUnicode_AsEncodedString",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyUnicode_AsEncodedString",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyUnicode_AsEncodedString",
+        "line": 1360,
+        "raw_lines": [
+          "function PyUnicode_AsEncodedString",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyUnicode_AsEncodedString",
+        "line": 1469,
+        "raw_lines": [
+          "[function.PyUnicode_AsEncodedString]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyUnicode_AsUTF8AndSize",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyUnicode_AsUTF8AndSize",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyUnicode_AsUTF8AndSize",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyUnicode_AsUTF8AndSize",
+        "line": 2075,
+        "raw_lines": [
+          "function PyUnicode_AsUTF8AndSize",
+          "    added 3.10"
+        ],
+        "added": "3.10",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyUnicode_AsUTF8AndSize",
+        "line": 2176,
+        "raw_lines": [
+          "[function.PyUnicode_AsUTF8AndSize]",
+          "    added = '3.10'"
+        ],
+        "added": "3.10",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyUnicode_FromStringAndSize",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyUnicode_FromStringAndSize",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyUnicode_FromStringAndSize",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyUnicode_FromStringAndSize",
+        "line": 1434,
+        "raw_lines": [
+          "function PyUnicode_FromStringAndSize",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyUnicode_FromStringAndSize",
+        "line": 1543,
+        "raw_lines": [
+          "[function.PyUnicode_FromStringAndSize]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyUnicode_InternInPlace",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyUnicode_InternInPlace",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyUnicode_InternInPlace",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "PyUnicode_InternInPlace",
+        "line": 1480,
+        "raw_lines": [
+          "function PyUnicode_InternInPlace",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "PyUnicode_InternInPlace",
+        "line": 1591,
+        "raw_lines": [
+          "[function.PyUnicode_InternInPlace]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "PyUnicode_Type",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "PyUnicode_Type",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "PyUnicode_Type",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "data",
+        "name": "PyUnicode_Type",
+        "line": 1482,
+        "raw_lines": [
+          "data PyUnicode_Type",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "data",
+        "name": "PyUnicode_Type",
+        "line": 1593,
+        "raw_lines": [
+          "[data.PyUnicode_Type]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "Py_GetVersion",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "Py_GetVersion",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "Py_GetVersion",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "Py_GetVersion",
+        "line": 1538,
+        "raw_lines": [
+          "function Py_GetVersion",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "Py_GetVersion",
+        "line": 1649,
+        "raw_lines": [
+          "[function.Py_GetVersion]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "Py_IsInitialized",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "Py_IsInitialized",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "Py_IsInitialized",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "Py_IsInitialized",
+        "line": 1548,
+        "raw_lines": [
+          "function Py_IsInitialized",
+          "    added 3.2"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "Py_IsInitialized",
+        "line": 1659,
+        "raw_lines": [
+          "[function.Py_IsInitialized]",
+          "    added = '3.2'"
+        ],
+        "added": "3.2",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "Py_NewRef",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "Py_NewRef",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "Py_NewRef",
+        "line": 2079,
+        "raw_lines": [
+          "function Py_NewRef",
+          "    added 3.10"
+        ],
+        "added": "3.10",
+        "abi_only": false,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "Py_NewRef",
+        "line": 2180,
+        "raw_lines": [
+          "[function.Py_NewRef]",
+          "    added = '3.10'"
+        ],
+        "added": "3.10",
+        "abi_only": false,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "_Py_DecRef",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "_Py_DecRef",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "_Py_DecRef",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "_Py_DecRef",
+        "line": 2122,
+        "raw_lines": [
+          "function _Py_DecRef",
+          "    added 3.10",
+          "    abi_only"
+        ],
+        "added": "3.10",
+        "abi_only": true,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "_Py_DecRef",
+        "line": 2223,
+        "raw_lines": [
+          "[function._Py_DecRef]",
+          "    added = '3.10'",
+          "    abi_only = true"
+        ],
+        "added": "3.10",
+        "abi_only": true,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "_Py_FalseStruct",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "_Py_FalseStruct",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "data",
+        "name": "_Py_FalseStruct",
+        "line": 1632,
+        "raw_lines": [
+          "data _Py_FalseStruct",
+          "    added 3.2",
+          "    abi_only"
+        ],
+        "added": "3.2",
+        "abi_only": true,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "data",
+        "name": "_Py_FalseStruct",
+        "line": 1734,
+        "raw_lines": [
+          "[data._Py_FalseStruct]",
+          "    added = '3.2'",
+          "    abi_only = true"
+        ],
+        "added": "3.2",
+        "abi_only": true,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "_Py_IncRef",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "_Py_IncRef",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "_Py_IncRef",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "function",
+        "name": "_Py_IncRef",
+        "line": 2119,
+        "raw_lines": [
+          "function _Py_IncRef",
+          "    added 3.10",
+          "    abi_only"
+        ],
+        "added": "3.10",
+        "abi_only": true,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "function",
+        "name": "_Py_IncRef",
+        "line": 2220,
+        "raw_lines": [
+          "[function._Py_IncRef]",
+          "    added = '3.10'",
+          "    abi_only = true"
+        ],
+        "added": "3.10",
+        "abi_only": true,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "_Py_NoneStruct",
+      "new_in_1_100": false,
+      "present_versions": [
+        "1.99.0",
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.99.0": {
+          "name": "_Py_NoneStruct",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        },
+        "1.100.0": {
+          "name": "_Py_NoneStruct",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "data",
+        "name": "_Py_NoneStruct",
+        "line": 1635,
+        "raw_lines": [
+          "data _Py_NoneStruct",
+          "    added 3.2",
+          "    abi_only"
+        ],
+        "added": "3.2",
+        "abi_only": true,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "data",
+        "name": "_Py_NoneStruct",
+        "line": 1737,
+        "raw_lines": [
+          "[data._Py_NoneStruct]",
+          "    added = '3.2'",
+          "    abi_only = true"
+        ],
+        "added": "3.2",
+        "abi_only": true,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    },
+    {
+      "symbol": "_Py_TrueStruct",
+      "new_in_1_100": true,
+      "present_versions": [
+        "1.100.0"
+      ],
+      "elf_symbols": {
+        "1.100.0": {
+          "name": "_Py_TrueStruct",
+          "info": 16,
+          "section": 0,
+          "value": 0,
+          "size": 0
+        }
+      },
+      "cpython_3_10": {
+        "kind": "data",
+        "name": "_Py_TrueStruct",
+        "line": 1644,
+        "raw_lines": [
+          "data _Py_TrueStruct",
+          "    added 3.2",
+          "    abi_only"
+        ],
+        "added": "3.2",
+        "abi_only": true,
+        "conditions": []
+      },
+      "cpython_3_14": {
+        "kind": "data",
+        "name": "_Py_TrueStruct",
+        "line": 1746,
+        "raw_lines": [
+          "[data._Py_TrueStruct]",
+          "    added = '3.2'",
+          "    abi_only = true"
+        ],
+        "added": "3.2",
+        "abi_only": true,
+        "conditions": []
+      },
+      "declared_since_at_most_3_10": true,
+      "manifests_agree_on_kind_since_and_abi_only": true
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "version": "1.101.0rc1",
+  "specification": "https://docs.pypi.org/api/integrity/",
+  "file_metadata_source": "https://pypi.org/pypi/litellm/1.101.0rc1/json",
+  "file_metadata_observed_at": "2026-09-08T21:27:14.766451+00:00",
+  "file_metadata_reused": true,
+  "files": [
+    {
+      "filename": "litellm-1.101.0rc1-cp310-abi3-macosx_10_12_x86_64.whl",
+      "artifact_sha256": "a268dec1871810366d90ab8f78698c265ff35ae675681f83f2d289c33eaee2e3",
+      "upload_time": "2026-09-06T03:06:01.687228Z",
+      "provenance_request": {
+        "source": "https://pypi.org/integrity/litellm/1.101.0rc1/litellm-1.101.0rc1-cp310-abi3-macosx_10_12_x86_64.whl/provenance",
+        "started_at": "2026-09-08T21:41:48.513426+00:00",
+        "method": "GET",
+        "http_status": 404,
+        "error": "HTTP Error 404: Not Found",
+        "finished_at": "2026-09-08T21:41:49.187635+00:00",
+        "body_bytes": 95,
+        "body_sha256": "a0d948d5cb21032193a4960b2b9852c9da0880238a5437f06bf2cc4cefa7ac96",
+        "error_response": {
+          "message": "No provenance available for litellm-1.101.0rc1-cp310-abi3-macosx_10_12_x86_64.whl"
+        }
+      }
+    },
+    {
+      "filename": "litellm-1.101.0rc1-cp310-abi3-macosx_11_0_arm64.whl",
+      "artifact_sha256": "0238c7f35f6ca972b931f8ad308b1f5d3b1639ee301910a4877ea00b45477a16",
+      "upload_time": "2026-09-06T03:06:04.733607Z",
+      "provenance_request": {
+        "source": "https://pypi.org/integrity/litellm/1.101.0rc1/litellm-1.101.0rc1-cp310-abi3-macosx_11_0_arm64.whl/provenance",
+        "started_at": "2026-09-08T21:41:48.513890+00:00",
+        "method": "GET",
+        "http_status": 404,
+        "error": "HTTP Error 404: Not Found",
+        "finished_at": "2026-09-08T21:41:49.187634+00:00",
+        "body_bytes": 93,
+        "body_sha256": "4daeb877d9336d988ea8c2eaa0ecc388935964a73812a5548ad73a9dd0f34d0c",
+        "error_response": {
+          "message": "No provenance available for litellm-1.101.0rc1-cp310-abi3-macosx_11_0_arm64.whl"
+        }
+      }
+    },
+    {
+      "filename": "litellm-1.101.0rc1-cp310-abi3-manylinux_2_28_aarch64.whl",
+      "artifact_sha256": "a44a38bcd4135224a9608bdd94829830b2d101d0124bde10756fdef9cf68badc",
+      "upload_time": "2026-09-06T03:06:07.703619Z",
+      "provenance_request": {
+        "source": "https://pypi.org/integrity/litellm/1.101.0rc1/litellm-1.101.0rc1-cp310-abi3-manylinux_2_28_aarch64.whl/provenance",
+        "started_at": "2026-09-08T21:41:48.513577+00:00",
+        "method": "GET",
+        "http_status": 404,
+        "error": "HTTP Error 404: Not Found",
+        "finished_at": "2026-09-08T21:41:49.200488+00:00",
+        "body_bytes": 98,
+        "body_sha256": "b1657db75f7c9ae6fc82575d0398168e4f0d7bf0c25cd397106e7047e5a03102",
+        "error_response": {
+          "message": "No provenance available for litellm-1.101.0rc1-cp310-abi3-manylinux_2_28_aarch64.whl"
+        }
+      }
+    },
+    {
+      "filename": "litellm-1.101.0rc1-cp310-abi3-manylinux_2_28_x86_64.whl",
+      "artifact_sha256": "38273b92727303fd6e759fa9306b47c43e52a57c3ce583b239457c7dd5b8e598",
+      "upload_time": "2026-09-06T03:06:09.998121Z",
+      "provenance_request": {
+        "source": "https://pypi.org/integrity/litellm/1.101.0rc1/litellm-1.101.0rc1-cp310-abi3-manylinux_2_28_x86_64.whl/provenance",
+        "started_at": "2026-09-08T21:41:49.249650+00:00",
+        "method": "GET",
+        "http_status": 404,
+        "error": "HTTP Error 404: Not Found",
+        "finished_at": "2026-09-08T21:41:49.895015+00:00",
+        "body_bytes": 97,
+        "body_sha256": "d8ba8941f85d09c8473d1b2ca3c7ff9c8f5920d565aed9c1d2c807b03790283e",
+        "error_response": {
+          "message": "No provenance available for litellm-1.101.0rc1-cp310-abi3-manylinux_2_28_x86_64.whl"
+        }
+      }
+    },
+    {
+      "filename": "litellm-1.101.0rc1-cp310-abi3-musllinux_1_2_aarch64.whl",
+      "artifact_sha256": "f57171064d55d1e6874d6d189bd008f13ab5b1c4d212c8586084e13fb6db5f6e",
+      "upload_time": "2026-09-06T03:06:12.707740Z",
+      "provenance_request": {
+        "source": "https://pypi.org/integrity/litellm/1.101.0rc1/litellm-1.101.0rc1-cp310-abi3-musllinux_1_2_aarch64.whl/provenance",
+        "started_at": "2026-09-08T21:41:49.248722+00:00",
+        "method": "GET",
+        "http_status": 404,
+        "error": "HTTP Error 404: Not Found",
+        "finished_at": "2026-09-08T21:41:49.900364+00:00",
+        "body_bytes": 97,
+        "body_sha256": "e209913420390293f3e806abab9a83b4a0dd4d352a770fc2aaf4751962df4bc1",
+        "error_response": {
+          "message": "No provenance available for litellm-1.101.0rc1-cp310-abi3-musllinux_1_2_aarch64.whl"
+        }
+      }
+    },
+    {
+      "filename": "litellm-1.101.0rc1-cp310-abi3-musllinux_1_2_x86_64.whl",
+      "artifact_sha256": "573710517a0436a506d614ea55e85f7fdcf3de526667f0ba0dfe6913e1f680ef",
+      "upload_time": "2026-09-06T03:06:15.009652Z",
+      "provenance_request": {
+        "source": "https://pypi.org/integrity/litellm/1.101.0rc1/litellm-1.101.0rc1-cp310-abi3-musllinux_1_2_x86_64.whl/provenance",
+        "started_at": "2026-09-08T21:41:49.260403+00:00",
+        "method": "GET",
+        "http_status": 404,
+        "error": "HTTP Error 404: Not Found",
+        "finished_at": "2026-09-08T21:41:49.903813+00:00",
+        "body_bytes": 96,
+        "body_sha256": "1712052f096d5582ad67a59a52257f4a7dd477a9f5bb889b5fb421b4e6dfa0a5",
+        "error_response": {
+          "message": "No provenance available for litellm-1.101.0rc1-cp310-abi3-musllinux_1_2_x86_64.whl"
+        }
+      }
+    },
+    {
+      "filename": "litellm-1.101.0rc1-cp310-abi3-win_amd64.whl",
+      "artifact_sha256": "dfb7c3fb47e713ebf11665808416694be58fa29822ea66246609b72f537d3016",
+      "upload_time": "2026-09-06T03:06:17.684017Z",
+      "provenance_request": {
+        "source": "https://pypi.org/integrity/litellm/1.101.0rc1/litellm-1.101.0rc1-cp310-abi3-win_amd64.whl/provenance",
+        "started_at": "2026-09-08T21:41:49.957975+00:00",
+        "method": "GET",
+        "http_status": 404,
+        "error": "HTTP Error 404: Not Found",
+        "finished_at": "2026-09-08T21:41:50.654602+00:00",
+        "body_bytes": 85,
+        "body_sha256": "b5c79c184628c319a2779ccffffb76e35f68694fbb5ac8e78890e8edd9db7118",
+        "error_response": {
+          "message": "No provenance available for litellm-1.101.0rc1-cp310-abi3-win_amd64.whl"
+        }
+      }
+    },
+    {
+      "filename": "litellm-1.101.0rc1.tar.gz",
+      "artifact_sha256": "acb7a84fdc8f19fc79e73df29b5fec4e8a3de9a4e74f41cbc14bd2ef1e7e8aae",
+      "upload_time": "2026-09-06T03:06:20.500474Z",
+      "provenance_request": {
+        "source": "https://pypi.org/integrity/litellm/1.101.0rc1/litellm-1.101.0rc1.tar.gz/provenance",
+        "started_at": "2026-09-08T21:41:49.958795+00:00",
+        "method": "GET",
+        "http_status": 404,
+        "error": "HTTP Error 404: Not Found",
+        "finished_at": "2026-09-08T21:41:50.615287+00:00",
+        "body_bytes": 67,
+        "body_sha256": "519c1bce326d873c1899911f3122d1c4e6a4f683114ceb5af0ed65b6877e5b1b",
+        "error_response": {
+          "message": "No provenance available for litellm-1.101.0rc1.tar.gz"
+        }
+      }
+    }
+  ],
+  "artifact_downloaded": false,
+  "interpretation": "All eight responses explicitly say No provenance available. This does not determine Trusted Publishing use, publisher identity, source tree, or artifact safety."
+}

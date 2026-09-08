@@ -1,0 +1,11 @@
+--- 1.100.0/litellm/llms/vertex_ai/gemini/vertex_and_google_ai_studio_gemini.py
++++ 1.101.0rc1/litellm/llms/vertex_ai/gemini/vertex_and_google_ai_studio_gemini.py
+@@ -949,7 +949,7 @@
+         # For Gemini 3+ models, use thinkingLevel instead of thinkingBudget
+         if model and VertexGeminiConfig._is_gemini_3_or_newer(model):
+             if thinking_enabled:
+-                if thinking_budget is None or thinking_budget == 0:
++                if thinking_budget == 0:
+                     params["includeThoughts"] = False
+                 else:
+                     params["includeThoughts"] = True

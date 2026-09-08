@@ -1,0 +1,11 @@
+--- 1.100.0/litellm/proxy/client/cli/commands/teams.py
++++ 1.101.0rc1/litellm/proxy/client/cli/commands/teams.py
+@@ -34,7 +34,7 @@
+     """Manage teams and team assignments"""
+ 
+ 
+-def display_teams_table(teams: list[dict[str, Any]]) -> None:
++def display_teams_table(teams: Sequence[dict[str, Any]]) -> None:
+     """Display teams in a formatted table"""
+     console: Final = Console()
+ 

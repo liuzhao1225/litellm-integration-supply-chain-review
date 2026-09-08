@@ -1,0 +1,20 @@
+--- 1.100.0/litellm/litellm_core_utils/url_utils.py
++++ 1.101.0rc1/litellm/litellm_core_utils/url_utils.py
+@@ -417,7 +417,7 @@
+     return str(httpx.URL(request_url).join(location))
+ 
+ 
+-def safe_get(client: Any, url: str, **kwargs: Any) -> Any:
++def safe_get(client: Any, url: str, **kwargs: Any) -> httpx.Response:
+     """
+     Fetch a user-supplied URL with SSRF protection on every redirect hop.
+ 
+@@ -460,7 +460,7 @@
+     raise SSRFError("Too many redirects")
+ 
+ 
+-async def async_safe_get(client: Any, url: str, **kwargs: Any) -> Any:
++async def async_safe_get(client: Any, url: str, **kwargs: Any) -> httpx.Response:
+     """Async version of safe_get."""
+     if not getattr(litellm, "user_url_validation", True):
+         kwargs.setdefault("follow_redirects", True)

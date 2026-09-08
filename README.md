@@ -1,8 +1,8 @@
 # LiteLLM integration supply-chain investigation
 
-This investigation examines LiteLLM 1.100 artifacts, publishing, runtime behavior and supply-chain relationships. [YouDub-webui PR #130](https://github.com/liuzhao1225/YouDub-webui/pull/130) is the discovery point and one downstream case. The [complete report](REPORT.zh-CN.md) is maintained as one account, with findings revised and reordered as evidence changes. Collection date: **September 9, 2026**; individual records retain UTC timestamps.
+This investigation examines LiteLLM 1.100 and 1.101 artifacts, publishing, runtime behavior and supply-chain relationships. [YouDub-webui PR #130](https://github.com/liuzhao1225/YouDub-webui/pull/130) is the discovery point and one downstream case. The [complete report](REPORT.zh-CN.md) is maintained as one account, with findings revised and reordered as evidence changes. Collection date: **September 9, 2026**; individual records retain UTC timestamps.
 
-**The investigation has not established poisoning of LiteLLM 1.100.0 or contributor participation in an attack.** Confirmed installation and testing concerns, conditional credential-routing risks, source matches and unresolved build-provenance gaps are documented together.
+**The investigation has not established poisoning of LiteLLM 1.100.0 or 1.101.0rc1, or contributor participation in an attack.** Confirmed installation and testing concerns, conditional credential-routing risks, source matches and unresolved build-provenance gaps are documented together.
 
 [完整调查报告](REPORT.zh-CN.md) · [Evidence index](investigation/README.md) · [49-PR index](PR-INDEX.md) · [Investigation responsibilities](INVESTIGATION-PLAN.zh-CN.md) · [Published notices](NOTICES.md)
 
@@ -29,6 +29,13 @@ LiteLLM [1.100.0](https://pypi.org/project/litellm/1.100.0/) was uploaded Septem
 | [Source comparison](investigation/artifact-records/source-comparison.json) | Seven-platform Python content matches the fixed source after Windows CRLF normalization. Machine code requires separate analysis. |
 | [Image signatures](updates/litellm-1.100-deep-audit-20260909.md) | Fixed-public-key verification succeeds for the 1.99/1.100 GHCR digests. This does not establish reproducible builds or PyPI publisher identity. |
 | [Release-chain analysis](investigation/release-chain/README.md) | All eight 1.100 PyPI Integrity requests return no provenance available. Native compiler fingerprints differ by platform; generated JS feature changes map to fixed source, and 13 other modules match after binding-name normalization without changing import order. Full compiled equivalence and native build provenance remain open. |
+| [Publishing metadata and image attestations](investigation/publishing-provenance/README.md) | PyPI displays Trusted Publishing for all eight files. Four image SLSA statements are hash-linked to previously verified signed indexes; their runs explicitly skip PyPI publishing and do not resolve original wheel build inputs. |
+| [Native initialization](investigation/native-entry/README.md) | Nineteen bounded code comparisons and identified startup operations have normal counterparts in 1.99. Address normalization and one-layer call coverage do not establish full binary equivalence. |
+| [Source-build execution](investigation/build-time/README.md) | Backend and package build script are unchanged; added Cargo entries mostly belong to development dependencies. Removed ABI3 configuration requires original build parameters; [all 111 Python imports](investigation/abi-compatibility/README.md) are present in the pinned CPython 3.10 Stable ABI list. |
+
+## LiteLLM 1.101 release status
+
+The [1.101 investigation](investigation/version-1.101/README.md) records PyPI `1.101.0rc1` and GitHub `v1.101.0-rc.1`, uploaded and released September 6. Exact stable-version PyPI and GitHub Release endpoints returned 404 at September 8, 21:27 UTC. Seven candidate wheels pass 24,236 RECORD hashes and their Python sources match the fixed Git tree, allowing for Windows line endings. The sdist requires maturin 1.15.0 while all seven wheels report generator 1.9.4; original build inputs remain unresolved. Candidate image signatures and hash-linked statements verify successfully, with scope limited to images. Default pip resolution with a suitable stable candidate does not select this RC merely because a requirement says `<2`; explicit prerelease options or requirements change that behavior. [Official pip rules](https://pip.pypa.io/en/stable/cli/pip_install/#pre-release-versions).
 
 ## Contributor activity and downstream responses
 

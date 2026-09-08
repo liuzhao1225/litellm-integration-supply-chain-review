@@ -1,0 +1,11 @@
+--- 1.100.0/litellm-rust/crates/ai-gateway/src/routes/AGENTS.md
++++ 1.101.0rc1/litellm-rust/crates/ai-gateway/src/routes/AGENTS.md
+@@ -13,7 +13,7 @@
+ pub fn router() -> Router<AppState> { Router::new().route(PATH, get(handle)) }
+ async fn handle(...) -> impl IntoResponse { ... }
+ ```
+-`health.rs` and `gil.rs` are examples.
++`health.rs` is the example.
+ 
+ ## Split out `service` when there's real logic
+ When a route has business logic worth testing without axum, put it in a sibling

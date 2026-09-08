@@ -1,0 +1,19 @@
+--- 1.100.0/litellm/compression/scoring/embedding_scorer.py
++++ 1.101.0rc1/litellm/compression/scoring/embedding_scorer.py
+@@ -5,6 +5,7 @@
+ """
+ 
+ import math
++from collections.abc import Mapping
+ from typing import Any, Final
+ 
+ from litellm.caching.dual_cache import DualCache
+@@ -49,7 +50,7 @@
+     messages: list[dict],
+     model: str,
+     cache: DualCache | None = None,
+-    embedding_model_params: dict[str, Any] | None = None,
++    embedding_model_params: Mapping[str, object] | None = None,
+ ) -> list[float]:
+     """
+     Score each message's semantic similarity to the query using embeddings.

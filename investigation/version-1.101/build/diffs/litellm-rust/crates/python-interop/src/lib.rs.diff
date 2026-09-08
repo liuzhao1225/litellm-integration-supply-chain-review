@@ -1,0 +1,8 @@
+--- 1.100.0/litellm-rust/crates/python-interop/src/lib.rs
++++ 1.101.0rc1/litellm-rust/crates/python-interop/src/lib.rs
+@@ -0,0 +1,5 @@
++mod gil;
++mod marshal;
++
++pub use gil::{release_count, release_gil};
++pub use marshal::{Pythonized, from_py, panic_to_pyerr, to_py};

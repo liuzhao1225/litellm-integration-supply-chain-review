@@ -1,0 +1,275 @@
+{
+  "source_url": "https://api.github.com/repos/BerriAI/litellm/security-advisories?per_page=100",
+  "observed_on_utc": "2026-09-08",
+  "count": 14,
+  "pagination_scope": "one response, fewer than the requested 100 entries; published repository advisories only",
+  "interpretation": "The 14 returned affected-version range strings all use upper bounds below 1.100.0. This does not certify 1.100, cover unpublished advisories, or prove fixes; the latest routing-parameter advisory has a nontrivial backport list requiring separate interpretation.",
+  "advisories": [
+    {
+      "cve_id": "CVE-2026-84377",
+      "ghsa_id": "GHSA-3cv6-jpf6-8222",
+      "html_url": "https://github.com/BerriAI/litellm/security/advisories/GHSA-3cv6-jpf6-8222",
+      "published_at": "2026-08-26T20:00:03Z",
+      "summary": "Authenticated SSRF and provider-credential exfiltration via unvalidated request-body routing parameters",
+      "updated_at": "2026-09-03T17:37:07Z",
+      "vulnerabilities": [
+        {
+          "package": {
+            "ecosystem": "pip",
+            "name": "litellm"
+          },
+          "patched_versions": "1.96.2, 1.95.1, 1.94.3, 1.93.2, 1.92.2, 1.91.5, 1.90.7, 1.89.7, 1.88.6",
+          "vulnerable_functions": [],
+          "vulnerable_version_range": "<1.94.0"
+        }
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-59819",
+      "ghsa_id": "GHSA-4g5m-c9r5-49xf",
+      "html_url": "https://github.com/BerriAI/litellm/security/advisories/GHSA-4g5m-c9r5-49xf",
+      "published_at": "2026-06-30T22:42:59Z",
+      "summary": "Local file read via request-supplied OIDC file references",
+      "updated_at": "2026-07-07T16:10:42Z",
+      "vulnerabilities": [
+        {
+          "package": {
+            "ecosystem": "pip",
+            "name": "litellm"
+          },
+          "patched_versions": ">= 1.83.10-stable",
+          "vulnerable_functions": [],
+          "vulnerable_version_range": "< 1.83.10-stable"
+        }
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-59820",
+      "ghsa_id": "GHSA-5jmr-gcrj-2c9q",
+      "html_url": "https://github.com/BerriAI/litellm/security/advisories/GHSA-5jmr-gcrj-2c9q",
+      "published_at": "2026-06-30T22:40:36Z",
+      "summary": "Arbitrary file write via path traversal in Skills archive extraction",
+      "updated_at": "2026-07-07T16:11:18Z",
+      "vulnerabilities": [
+        {
+          "package": {
+            "ecosystem": "pip",
+            "name": "litellm"
+          },
+          "patched_versions": ">= 1.83.7-stable",
+          "vulnerable_functions": [],
+          "vulnerable_version_range": "< 1.83.7-stable"
+        }
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-59823",
+      "ghsa_id": "GHSA-hx8v-g79f-8w5f",
+      "html_url": "https://github.com/BerriAI/litellm/security/advisories/GHSA-hx8v-g79f-8w5f",
+      "published_at": "2026-08-26T07:16:34Z",
+      "summary": "Server-side request forgery via the `user_config` request parameter in LiteLLM Proxy",
+      "updated_at": "2026-08-26T07:16:34Z",
+      "vulnerabilities": [
+        {
+          "package": {
+            "ecosystem": "pip",
+            "name": "litellm"
+          },
+          "patched_versions": "1.83.9",
+          "vulnerable_functions": [],
+          "vulnerable_version_range": "<=1.83.8"
+        }
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-49468",
+      "ghsa_id": "GHSA-4xpc-pv4p-pm3w",
+      "html_url": "https://github.com/BerriAI/litellm/security/advisories/GHSA-4xpc-pv4p-pm3w",
+      "published_at": "2026-05-28T21:05:17Z",
+      "summary": "Authentication Bypass via Host Header Injection",
+      "updated_at": "2026-06-01T19:30:57Z",
+      "vulnerabilities": [
+        {
+          "package": {
+            "ecosystem": "pip",
+            "name": "litellm"
+          },
+          "patched_versions": ">=1.84.0",
+          "vulnerable_functions": [],
+          "vulnerable_version_range": "<1.84.0"
+        }
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-59821",
+      "ghsa_id": "GHSA-72m8-9m7m-h278",
+      "html_url": "https://github.com/BerriAI/litellm/security/advisories/GHSA-72m8-9m7m-h278",
+      "published_at": "2026-06-30T23:08:45Z",
+      "summary": "Custom Code Guardrails production endpoints bypass code safety checks",
+      "updated_at": "2026-07-07T16:12:34Z",
+      "vulnerabilities": [
+        {
+          "package": {
+            "ecosystem": "pip",
+            "name": "litellm"
+          },
+          "patched_versions": ">= 1.82.0-stable",
+          "vulnerable_functions": [],
+          "vulnerable_version_range": "< 1.82.0-stable"
+        }
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-59822",
+      "ghsa_id": "GHSA-7488-6r32-c95q",
+      "html_url": "https://github.com/BerriAI/litellm/security/advisories/GHSA-7488-6r32-c95q",
+      "published_at": "2026-06-30T23:08:35Z",
+      "summary": "MCP Authentication Bypass via OAuth2 Passthrough Fallback",
+      "updated_at": "2026-07-07T16:13:38Z",
+      "vulnerabilities": [
+        {
+          "package": {
+            "ecosystem": "pip",
+            "name": "litellm"
+          },
+          "patched_versions": ">= 1.84.0",
+          "vulnerable_functions": [],
+          "vulnerable_version_range": "< 1.84.0"
+        }
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-42271",
+      "ghsa_id": "GHSA-v4p8-mg3p-g94g",
+      "html_url": "https://github.com/BerriAI/litellm/security/advisories/GHSA-v4p8-mg3p-g94g",
+      "published_at": "2026-04-21T17:19:18Z",
+      "summary": "Authenticated command execution via MCP stdio test endpoints",
+      "updated_at": "2026-04-26T12:30:57Z",
+      "vulnerabilities": [
+        {
+          "package": {
+            "ecosystem": "pip",
+            "name": "litellm"
+          },
+          "patched_versions": ">=1.83.7",
+          "vulnerable_functions": [],
+          "vulnerable_version_range": ">=1.74.2, <1.83.7"
+        }
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-40217",
+      "ghsa_id": "GHSA-wxxx-gvqv-xp7p",
+      "html_url": "https://github.com/BerriAI/litellm/security/advisories/GHSA-wxxx-gvqv-xp7p",
+      "published_at": "2026-05-07T00:50:19Z",
+      "summary": "Sandbox escape in custom-code guardrail",
+      "updated_at": "2026-06-30T19:50:10Z",
+      "vulnerabilities": [
+        {
+          "package": {
+            "ecosystem": "pip",
+            "name": "litellm"
+          },
+          "patched_versions": ">= 1.83.10",
+          "vulnerable_functions": [],
+          "vulnerable_version_range": ">= 1.81.8, < 1.83.10"
+        }
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-42208",
+      "ghsa_id": "GHSA-r75f-5x8p-qvmc",
+      "html_url": "https://github.com/BerriAI/litellm/security/advisories/GHSA-r75f-5x8p-qvmc",
+      "published_at": "2026-04-20T21:14:19Z",
+      "summary": "SQL injection in Proxy API key verification",
+      "updated_at": "2026-04-28T16:05:28Z",
+      "vulnerabilities": [
+        {
+          "package": {
+            "ecosystem": "pip",
+            "name": "litellm"
+          },
+          "patched_versions": ">=1.83.7",
+          "vulnerable_functions": [],
+          "vulnerable_version_range": ">=1.81.16, <1.83.7"
+        }
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-42203",
+      "ghsa_id": "GHSA-xqmj-j6mv-4862",
+      "html_url": "https://github.com/BerriAI/litellm/security/advisories/GHSA-xqmj-j6mv-4862",
+      "published_at": "2026-04-20T19:50:41Z",
+      "summary": "Server-Side Template Injection in /prompts/test endpoint",
+      "updated_at": "2026-04-25T05:58:19Z",
+      "vulnerabilities": [
+        {
+          "package": {
+            "ecosystem": "pip",
+            "name": "litellm"
+          },
+          "patched_versions": ">= 1.83.7",
+          "vulnerable_functions": [],
+          "vulnerable_version_range": ">= 1.80.5, < 1.83.7"
+        }
+      ]
+    },
+    {
+      "cve_id": null,
+      "ghsa_id": "GHSA-69x8-hrgq-fjj8",
+      "html_url": "https://github.com/BerriAI/litellm/security/advisories/GHSA-69x8-hrgq-fjj8",
+      "published_at": "2026-04-04T01:00:18Z",
+      "summary": "Password hash exposure and pass-the-hash authentication bypass",
+      "updated_at": "2026-04-04T01:00:18Z",
+      "vulnerabilities": [
+        {
+          "package": {
+            "ecosystem": "pip",
+            "name": "litellm"
+          },
+          "patched_versions": "1.83.0",
+          "vulnerable_functions": [],
+          "vulnerable_version_range": "<1.83.0"
+        }
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-35029",
+      "ghsa_id": "GHSA-53mr-6c8q-9789",
+      "html_url": "https://github.com/BerriAI/litellm/security/advisories/GHSA-53mr-6c8q-9789",
+      "published_at": "2026-04-03T19:26:04Z",
+      "summary": "Privilege escalation via unrestricted proxy configuration endpoint",
+      "updated_at": "2026-04-03T19:26:04Z",
+      "vulnerabilities": [
+        {
+          "package": {
+            "ecosystem": "pip",
+            "name": "litellm"
+          },
+          "patched_versions": "1.83.0",
+          "vulnerable_functions": [],
+          "vulnerable_version_range": "<1.83.0"
+        }
+      ]
+    },
+    {
+      "cve_id": "CVE-2026-35030",
+      "ghsa_id": "GHSA-jjhc-v7c2-5hh6",
+      "html_url": "https://github.com/BerriAI/litellm/security/advisories/GHSA-jjhc-v7c2-5hh6",
+      "published_at": "2026-04-03T19:24:57Z",
+      "summary": "Authentication bypass via OIDC userinfo cache key collision",
+      "updated_at": "2026-04-03T19:24:57Z",
+      "vulnerabilities": [
+        {
+          "package": {
+            "ecosystem": "pip",
+            "name": "litellm"
+          },
+          "patched_versions": "1.83.0",
+          "vulnerable_functions": [],
+          "vulnerable_version_range": "<1.83.0"
+        }
+      ]
+    }
+  ]
+}

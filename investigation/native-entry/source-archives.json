@@ -1,0 +1,65 @@
+[
+  {
+    "name": "aws-lc-sys",
+    "version": "0.43.0",
+    "url": "https://static.crates.io/crates/aws-lc-sys/aws-lc-sys-0.43.0.crate",
+    "sha256": "43103168cc76fe62678a375e722fc9cb3a0146159ac5828bc4f0dfd755c2224c",
+    "matches_cargo_lock": true,
+    "checked_at_utc": "2026-09-08T21:03:03.297962+00:00",
+    "archive_source_file_count": 53,
+    "retained_files": [
+      "aws-lc-sys-0.43.0/aws-lc/crypto/crypto.c",
+      "aws-lc-sys-0.43.0/aws-lc/crypto/fipsmodule/cpucap/cpu_intel.c"
+    ]
+  },
+  {
+    "name": "pyo3",
+    "version": "0.29.0",
+    "url": "https://static.crates.io/crates/pyo3/pyo3-0.29.0.crate",
+    "sha256": "cd274650b21d4bfc26a0a47587962c1edb425f69287324355cd040c3ea66071c",
+    "matches_cargo_lock": true,
+    "checked_at_utc": "2026-09-08T21:03:01.871236+00:00",
+    "archive_source_file_count": 205,
+    "retained_files": [
+      "pyo3-0.29.0/src/impl_/pymodule.rs",
+      "pyo3-0.29.0/src/impl_/trampoline.rs",
+      "pyo3-0.29.0/src/internal/state.rs"
+    ]
+  },
+  {
+    "name": "pyo3-async-runtimes",
+    "version": "0.29.0",
+    "url": "https://static.crates.io/crates/pyo3-async-runtimes/pyo3-async-runtimes-0.29.0.crate",
+    "sha256": "b3ef68daa7316a3fac65e5e18b2203f010346de1c1c53456811a2624673ab046",
+    "matches_cargo_lock": true,
+    "checked_at_utc": "2026-09-08T21:03:01.472075+00:00",
+    "archive_source_file_count": 24,
+    "retained_files": [
+      "pyo3-async-runtimes-0.29.0/src/lib.rs"
+    ]
+  },
+  {
+    "name": "pyo3-ffi",
+    "version": "0.29.0",
+    "url": "https://static.crates.io/crates/pyo3-ffi/pyo3-ffi-0.29.0.crate",
+    "sha256": "ca85c467da1bbc8d866eea5deff9cf29ea5f7785054a17da36e65bda9c05845b",
+    "matches_cargo_lock": true,
+    "checked_at_utc": "2026-09-08T21:03:01.515200+00:00",
+    "archive_source_file_count": 108,
+    "retained_files": [
+      "pyo3-ffi-0.29.0/src/moduleobject.rs"
+    ]
+  },
+  {
+    "name": "pyo3-macros-backend",
+    "version": "0.29.0",
+    "url": "https://static.crates.io/crates/pyo3-macros-backend/pyo3-macros-backend-0.29.0.crate",
+    "sha256": "4ca3a1557399783172dc5bf39cfca835157732532cba56b71d2292161e53b362",
+    "matches_cargo_lock": true,
+    "checked_at_utc": "2026-09-08T21:03:01.493859+00:00",
+    "archive_source_file_count": 20,
+    "retained_files": [
+      "pyo3-macros-backend-0.29.0/src/module.rs"
+    ]
+  }
+]

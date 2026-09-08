@@ -1,0 +1,3626 @@
+{
+  "created_at_utc": "2026-09-08T21:54:43.889005+00:00",
+  "scope": "Public allowlist in investigation/version-1.101/artifacts; excludes .inputs, __pycache__, and this manifest itself.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 22,
+      "sha256": "7655cc076d0db24ed5d11483f1c114fe617988703202a2bfb35b94c570240507"
+    },
+    {
+      "path": "README.md",
+      "bytes": 11000,
+      "sha256": "490c511fbf0c9b3fa8a67cdc1f4b907af8180a6eea707345da125bfeeec4df9a"
+    },
+    {
+      "path": "additional-native-sources.json",
+      "bytes": 1841,
+      "sha256": "e7213a2542875d22cac4096fbf4f9c3ad2d2d6f84111788ae531ae797094e65d"
+    },
+    {
+      "path": "audit_native.py",
+      "bytes": 6467,
+      "sha256": "02ab9ba880372c559649724c99b025ef15c75a625416eac970a278c9a07e40bf"
+    },
+    {
+      "path": "audit_wheels.py",
+      "bytes": 5522,
+      "sha256": "b43a02001ccd7897154c346df19daeefe4b62592882cbaf8728378b256dfab46"
+    },
+    {
+      "path": "baseline-wheel-hashes.json",
+      "bytes": 1280,
+      "sha256": "53ad6f64bf76d6b82035bf52813b89767540119670a1646ea2ef550ac901c699"
+    },
+    {
+      "path": "download-summary.json",
+      "bytes": 4041,
+      "sha256": "28cbd0dbbdf2303d52c61ffe7d161b96f8a3aa94964b277d811d7a26f2e91357"
+    },
+    {
+      "path": "download_wheels.py",
+      "bytes": 1823,
+      "sha256": "c57322c3b5f4d33871ebbd016dc58b6ba487f061d16f8c47d7b67c2f74d570e6"
+    },
+    {
+      "path": "fixed-tree.json",
+      "bytes": 4073116,
+      "sha256": "047dadbc87218b9e7b29030f2cf4ab3b01760dabf6070d334177a99803853c98"
+    },
+    {
+      "path": "litellm-1.101.0rc1-cp310-abi3-macosx_10_12_x86_64.whl.audit.json",
+      "bytes": 43525,
+      "sha256": "204310394da867d738e6a1e07a6a6da1bb6f6664d5fba0d82b87ccb9df3d554d"
+    },
+    {
+      "path": "litellm-1.101.0rc1-cp310-abi3-macosx_10_12_x86_64.whl.download.json",
+      "bytes": 557,
+      "sha256": "119f6ae0ea083c6e73301a2b5f4e9cb17574b78fb5159812edd6fa5476f7908e"
+    },
+    {
+      "path": "litellm-1.101.0rc1-cp310-abi3-macosx_10_12_x86_64.whl.inventory.json",
+      "bytes": 621533,
+      "sha256": "c3041a370f7538ed65850b38e57840cae3f7ad6987be9c58fa42676963d68da8"
+    },
+    {
+      "path": "litellm-1.101.0rc1-cp310-abi3-macosx_10_12_x86_64.whl.python.json",
+      "bytes": 1260202,
+      "sha256": "c6a4cc0ea25a2474b1019e736842574c62b65559b433882f1f1a5ceddc21355b"
+    },
+    {
+      "path": "litellm-1.101.0rc1-cp310-abi3-macosx_11_0_arm64.whl.audit.json",
+      "bytes": 43522,
+      "sha256": "8f3834a118f78ccb4064295a523dec026011a56faedca9c10bdaf0b9cb37c8bd"
+    },
+    {
+      "path": "litellm-1.101.0rc1-cp310-abi3-macosx_11_0_arm64.whl.download.json",
+      "bytes": 553,
+      "sha256": "9fbde45c61ee7a4fe7ba227e04cd7ea2b17c9047b5582fe92893032f10cb030e"
+    },
+    {
+      "path": "litellm-1.101.0rc1-cp310-abi3-macosx_11_0_arm64.whl.inventory.json",
+      "bytes": 621532,
+      "sha256": "cb6e7e2ce4fc3e661d339152acd966907675aa44c6d174ed3cbf37333b76ce53"
+    },
+    {
+      "path": "litellm-1.101.0rc1-cp310-abi3-macosx_11_0_arm64.whl.python.json",
+      "bytes": 1260202,
+      "sha256": "c6a4cc0ea25a2474b1019e736842574c62b65559b433882f1f1a5ceddc21355b"
+    },
+    {
+      "path": "litellm-1.101.0rc1-cp310-abi3-manylinux_2_28_aarch64.whl.audit.json",
+      "bytes": 43527,
+      "sha256": "f61c5b459c0883a3bbf52b92f632dd89b8938a45ec3abf69bb585c610f988ac2"
+    },
+    {
+      "path": "litellm-1.101.0rc1-cp310-abi3-manylinux_2_28_aarch64.whl.download.json",
+      "bytes": 563,
+      "sha256": "4afd626fed75e846e3faec71fd8cdc8815fac1b727730ae888ec964b8de2b1d0"
+    },
+    {
+      "path": "litellm-1.101.0rc1-cp310-abi3-manylinux_2_28_aarch64.whl.inventory.json",
+      "bytes": 621532,
+      "sha256": "758939d4f09bd15f4498b1e9c13192f898719d5d4303a2ca6ed35392d8687d1d"
+    },
+    {
+      "path": "litellm-1.101.0rc1-cp310-abi3-manylinux_2_28_aarch64.whl.python.json",
+      "bytes": 1260202,
+      "sha256": "c6a4cc0ea25a2474b1019e736842574c62b65559b433882f1f1a5ceddc21355b"
+    },
+    {
+      "path": "litellm-1.101.0rc1-cp310-abi3-manylinux_2_28_x86_64.whl.audit.json",
+      "bytes": 43527,
+      "sha256": "c4030b1e655161a23258a662d2de7e6b48e31e36ee761a50ce018523374ee4f6"
+    },
+    {
+      "path": "litellm-1.101.0rc1-cp310-abi3-manylinux_2_28_x86_64.whl.download.json",
+      "bytes": 561,
+      "sha256": "fd3188be285252839c89aab6f8ef6dbcf2fc9503083e8260fc0587fc611e79c3"
+    },
+    {
+      "path": "litellm-1.101.0rc1-cp310-abi3-manylinux_2_28_x86_64.whl.inventory.json",
+      "bytes": 621533,
+      "sha256": "b092da8e2f202ba9b12010e3e1a4ce68f099d3229d6c8fe17f73bd221c229605"
+    },
+    {
+      "path": "litellm-1.101.0rc1-cp310-abi3-manylinux_2_28_x86_64.whl.python.json",
+      "bytes": 1260202,
+      "sha256": "c6a4cc0ea25a2474b1019e736842574c62b65559b433882f1f1a5ceddc21355b"
+    },
+    {
+      "path": "litellm-1.101.0rc1-cp310-abi3-musllinux_1_2_aarch64.whl.audit.json",
+      "bytes": 43849,
+      "sha256": "f065f48a0291c72f4f1ac86c726ec1e6e1339ae3f9a03e082f4316107b39133c"
+    },
+    {
+      "path": "litellm-1.101.0rc1-cp310-abi3-musllinux_1_2_aarch64.whl.download.json",
+      "bytes": 561,
+      "sha256": "02210879d0c904924aa2b136f9ec061e0cc91b09bf3bdfbcaba0407b7309aec4"
+    },
+    {
+      "path": "litellm-1.101.0rc1-cp310-abi3-musllinux_1_2_aarch64.whl.inventory.json",
+      "bytes": 621694,
+      "sha256": "f78e67e5cabbab3d87768812abbb1829ec9e5315e29b4081ed3aba3a7c879f51"
+    },
+    {
+      "path": "litellm-1.101.0rc1-cp310-abi3-musllinux_1_2_aarch64.whl.python.json",
+      "bytes": 1260202,
+      "sha256": "c6a4cc0ea25a2474b1019e736842574c62b65559b433882f1f1a5ceddc21355b"
+    },
+    {
+      "path": "litellm-1.101.0rc1-cp310-abi3-musllinux_1_2_x86_64.whl.audit.json",
+      "bytes": 43849,
+      "sha256": "741b207a2a777df8f5fdf28f83ee8a889dc6179da6c5927005e15ae4a6ba4873"
+    },
+    {
+      "path": "litellm-1.101.0rc1-cp310-abi3-musllinux_1_2_x86_64.whl.download.json",
+      "bytes": 559,
+      "sha256": "64b5a33eb010e03c9dcdea7e7fc79ae8be5019bd8f63a7151a65f372806a0ca5"
+    },
+    {
+      "path": "litellm-1.101.0rc1-cp310-abi3-musllinux_1_2_x86_64.whl.inventory.json",
+      "bytes": 621695,
+      "sha256": "e90058876b00e960bda82eb2743cb8b1962f9ed96bfbbf5f9771a1faf71aa28b"
+    },
+    {
+      "path": "litellm-1.101.0rc1-cp310-abi3-musllinux_1_2_x86_64.whl.python.json",
+      "bytes": 1260202,
+      "sha256": "c6a4cc0ea25a2474b1019e736842574c62b65559b433882f1f1a5ceddc21355b"
+    },
+    {
+      "path": "litellm-1.101.0rc1-cp310-abi3-win_amd64.whl.audit.json",
+      "bytes": 43509,
+      "sha256": "d2241fe538df49ee837cad58915a8931113f7185d5d801b997892f3477279031"
+    },
+    {
+      "path": "litellm-1.101.0rc1-cp310-abi3-win_amd64.whl.download.json",
+      "bytes": 537,
+      "sha256": "5bdfd6be679e442529315278a0a12358807528e6ddf8b8e186a975bc767a09e4"
+    },
+    {
+      "path": "litellm-1.101.0rc1-cp310-abi3-win_amd64.whl.inventory.json",
+      "bytes": 621551,
+      "sha256": "87d6047a39b95e2bfd196ef23b89ba9d24c224fb9149f68e31500ebf8c94347a"
+    },
+    {
+      "path": "litellm-1.101.0rc1-cp310-abi3-win_amd64.whl.python.json",
+      "bytes": 1262467,
+      "sha256": "caf313436a1d408b4b4ffc8e7432bd0353c0700a90b0ee4d8e3e8dc23d16234a"
+    },
+    {
+      "path": "metadata-comparison.json",
+      "bytes": 4630,
+      "sha256": "5fa87c0dc4dd1ca6fba7374b26fefb4f519a756d7d62bc158570b24567fbfba6"
+    },
+    {
+      "path": "native/1.101.0rc1/PyInit__native.asm",
+      "bytes": 305,
+      "sha256": "17e5497961892344837906c1f2315ed2941f39924411a354645cb8ea1bfa858b"
+    },
+    {
+      "path": "native/1.101.0rc1/candidate-callee-2a17c0.asm",
+      "bytes": 2754,
+      "sha256": "3ed3b92773de32b14b39919d043476d37b68b1f059544ce8c6865812519417a8"
+    },
+    {
+      "path": "native/1.101.0rc1/candidate-callee-2a1900.asm",
+      "bytes": 2754,
+      "sha256": "70a1db4277de5b0cf06c53f46e08925dc0838962495527384cff49e33ab8f9cb"
+    },
+    {
+      "path": "native/1.101.0rc1/candidate-callee-341a40.asm",
+      "bytes": 1300,
+      "sha256": "ee133280024e0cc1d904e6724641869394e190492aede9c83a49461e8295c050"
+    },
+    {
+      "path": "native/1.101.0rc1/candidate-callee-343c60.asm",
+      "bytes": 17726,
+      "sha256": "45bf46d6c7272d3ca65984aac65a1ad46e298b320a8d2ad63e69899705d64869"
+    },
+    {
+      "path": "native/1.101.0rc1/candidate-callee-376792.asm",
+      "bytes": 478,
+      "sha256": "1c5c6d262401ed2b29df389b0d2d576254e96a04ba19be446d1ed273606fabfb"
+    },
+    {
+      "path": "native/1.101.0rc1/candidate-callee-595e0c.asm",
+      "bytes": 298,
+      "sha256": "4652e9af97a20eb23de031182cee1ba74663b902a4261d0de2b2ec48aa30eb7a"
+    },
+    {
+      "path": "native/1.101.0rc1/candidate-callee-685b20.asm",
+      "bytes": 8718,
+      "sha256": "4af3f738733a00c915eddbffc7190911fb52d4299ea094c0fe017560244841d4"
+    },
+    {
+      "path": "native/1.101.0rc1/candidate-callee-685d60.asm",
+      "bytes": 1706,
+      "sha256": "7c40429936955a1e9cc52ed78e03df893dee0f5fb5c8916a8c367f98187f58ef"
+    },
+    {
+      "path": "native/1.101.0rc1/candidate-callee-686090.asm",
+      "bytes": 1343,
+      "sha256": "5d921692def9bd63d16fd10ada802ceae215fc88c325fc449cd149275b462a96"
+    },
+    {
+      "path": "native/1.101.0rc1/candidate-callee-6860d0.asm",
+      "bytes": 3557,
+      "sha256": "51269bd671e30bddcf5f638e2977701e4005ed3171cbe5ac7a16377db6d9c738"
+    },
+    {
+      "path": "native/1.101.0rc1/candidate-callee-686de0.asm",
+      "bytes": 8871,
+      "sha256": "aa7d3af015bb860a9b2754a1b9f5649b898218536e4c3fdd778a4013e2092a36"
+    },
+    {
+      "path": "native/1.101.0rc1/candidate-callee-687900.asm",
+      "bytes": 2358,
+      "sha256": "367644dbb7a8bc48ddcf17ab5565387901ec536c3a64754cc7339219b285e792"
+    },
+    {
+      "path": "native/1.101.0rc1/candidate-callee-688950.asm",
+      "bytes": 1527,
+      "sha256": "edfee9502c0da64e5cfd1b65a3be9a12c7ef2be7ecc30baa62cbe43ec86f417f"
+    },
+    {
+      "path": "native/1.101.0rc1/candidate-callee-689870.asm",
+      "bytes": 10524,
+      "sha256": "cf2b709330ff185f93782ff11ebce34b8f90fd0a8eb088121e53055c5cd4f53e"
+    },
+    {
+      "path": "native/1.101.0rc1/candidate-callee-689ca0.asm",
+      "bytes": 719,
+      "sha256": "89ad389298e1e36d476dd8f9b35530c72e9d5b5766fc0a28a48a65c505a2c1f1"
+    },
+    {
+      "path": "native/1.101.0rc1/candidate-callee-691380.asm",
+      "bytes": 22462,
+      "sha256": "397c837acb5b7dc999edc4e4d8fa154e738f2ab261e9531d1404c3218ba349db"
+    },
+    {
+      "path": "native/1.101.0rc1/candidate-callee-691c10.asm",
+      "bytes": 6137,
+      "sha256": "3b2913d574aa839f385911fb490fb281d1dc295da9039d032097471c613dff43"
+    },
+    {
+      "path": "native/1.101.0rc1/candidate-callee-691de0.asm",
+      "bytes": 7120,
+      "sha256": "babb5b6aa685422da4015e4efed79f7b3701302f83d58a98a094ede77c61b0fc"
+    },
+    {
+      "path": "native/1.101.0rc1/candidate-callee-692180.asm",
+      "bytes": 737,
+      "sha256": "fd2203e4196a3c24afe6c55f2fe2e0a28b6b4820560b25a6df3d44d9a195cec7"
+    },
+    {
+      "path": "native/1.101.0rc1/candidate-callee-834136.asm",
+      "bytes": 2002,
+      "sha256": "5edccb31cd4976d30d61ea3f780d84d8170c2928387357c079f5238dc08c03a4"
+    },
+    {
+      "path": "native/1.101.0rc1/crt-start.asm",
+      "bytes": 3329,
+      "sha256": "fcef67a3e0c1f61a4e45c25f1e66090e949b0d28005846c67900822542f20526"
+    },
+    {
+      "path": "native/1.101.0rc1/crypto-constructor.asm",
+      "bytes": 12185,
+      "sha256": "e9d750b4dc81b6d2c15355d6b6d1a4b36a060d21f19b1370a0462663e970bb90"
+    },
+    {
+      "path": "native/1.101.0rc1/crypto-constructor.normalized.txt",
+      "bytes": 2740,
+      "sha256": "be6ee5c766b2b237c1a03ec144f594a75f0c78ace3ce6d816ad3fe30ed596286"
+    },
+    {
+      "path": "native/1.101.0rc1/elf.json",
+      "bytes": 2079640,
+      "sha256": "984caab26ed47ed864baeb25c593aeb10dadb0f692edfa858ad88589a9082931"
+    },
+    {
+      "path": "native/1.101.0rc1/fini.asm",
+      "bytes": 306,
+      "sha256": "7c4264ed196095b6b0813c4309ed2cabbd22067cba344ab97ee45bc9bb930b48"
+    },
+    {
+      "path": "native/1.101.0rc1/headers.txt",
+      "bytes": 5652,
+      "sha256": "ad110e7bab0ef2d5a7de53a5c7a9e8b37fff7dfa24ec58e89238b053ece0e13f"
+    },
+    {
+      "path": "native/1.101.0rc1/init-array-0.asm",
+      "bytes": 842,
+      "sha256": "587eb33ed2a1695090546e192ce8dc8d4b5a7dc2cc568086718b80cfac75af36"
+    },
+    {
+      "path": "native/1.101.0rc1/init-array-1.asm",
+      "bytes": 530,
+      "sha256": "2a765d2b01fbedcf7f1802a5026ce6cf854b47c9ebd322038a7819d6a2bad701"
+    },
+    {
+      "path": "native/1.101.0rc1/init-array-2.asm",
+      "bytes": 708,
+      "sha256": "c5f87e0e19c8077c407d86c1c41ba0c21eff912319de4f78953317d50d1029c9"
+    },
+    {
+      "path": "native/1.101.0rc1/init.asm",
+      "bytes": 593,
+      "sha256": "978e04ef4fdb0b24e0e40408c525c1c633103ca1eb3b9e5964136bc9550c19b1"
+    },
+    {
+      "path": "native/1.101.0rc1/module-exec.asm",
+      "bytes": 26647,
+      "sha256": "e2b5474a2f200967b13d599c597cf10e1cf37325692f0933679a6e1365ecbfa6"
+    },
+    {
+      "path": "native/1.101.0rc1/module-exec.normalized.txt",
+      "bytes": 6542,
+      "sha256": "48c8517f58d4c1c41f88826a697059ee51f4771599d02393c1c2d9145427a5b4"
+    },
+    {
+      "path": "native/1.101.0rc1/plt.asm",
+      "bytes": 14278,
+      "sha256": "09a01b72bf55aa45284f1bc7a3f33a203927dced30ec2134ed0fee6a8668fdbe"
+    },
+    {
+      "path": "native-registration.json",
+      "bytes": 50047,
+      "sha256": "3c582560a2b13a7b80eb6672be0aae6d32e6328d159f5fd1d58b3614ec1c4d8a"
+    },
+    {
+      "path": "native-sensitive-sites.json",
+      "bytes": 7392,
+      "sha256": "3ca3aa7f98e4c3d4f3ba7c22792687e4c6333d8398087580eb17ec6a88b37e31"
+    },
+    {
+      "path": "native-source.json",
+      "bytes": 355,
+      "sha256": "fdba493b8ce98299a9fc013cf78581f070219941707416bb4e47946af420933c"
+    },
+    {
+      "path": "native-summary.json",
+      "bytes": 56758,
+      "sha256": "222bf83c8dc4d1115a597a1f40102999185a12c41f68c43532aac50b49fca05a"
+    },
+    {
+      "path": "python-diffs/litellm____init__.py.diff",
+      "bytes": 4465,
+      "sha256": "fe6ac1792885e53dbb91e792904ae4b00f84a0e6fc7ab24bcc835497e0128b34"
+    },
+    {
+      "path": "python-diffs/litellm___lazy_imports.py.diff",
+      "bytes": 2630,
+      "sha256": "a1461251d157a099caa99bcc520ce7125a402915d1e50a30d73c42bc35332076"
+    },
+    {
+      "path": "python-diffs/litellm___lazy_imports_registry.py.diff",
+      "bytes": 791,
+      "sha256": "0e699114ea446a1ec5955d809e55c53b9b32fb9381c44b1e27d5b737e3f5f074"
+    },
+    {
+      "path": "python-diffs/litellm___logging.py.diff",
+      "bytes": 7805,
+      "sha256": "232565e1048af35f4ca436b0a21e0905b752be079b214e8bfe6e5c4f213b4305"
+    },
+    {
+      "path": "python-diffs/litellm___redis.py.diff",
+      "bytes": 8271,
+      "sha256": "185597f5fe0319c67cd43483299cddd3a64edfb2f0f99771c617d274b7e4dc5c"
+    },
+    {
+      "path": "python-diffs/litellm___redis_credential_provider.py.diff",
+      "bytes": 1239,
+      "sha256": "7fd8abc195f69fb7080d23e9925cc68636a232b1ae57175efde235b6dc5b7287"
+    },
+    {
+      "path": "python-diffs/litellm___service_logger.py.diff",
+      "bytes": 8284,
+      "sha256": "4d91baa4d3d190cf595b7c1039875a4d5d806ad4f5a139daa3275bc2b6fc572e"
+    },
+    {
+      "path": "python-diffs/litellm__a2a_protocol__card_resolver.py.diff",
+      "bytes": 647,
+      "sha256": "01e72bf64ad31cd62894e6202a387c2afc2805e803861003f1327c61dc7f8f02"
+    },
+    {
+      "path": "python-diffs/litellm__a2a_protocol__providers__bedrock_agentcore__handler.py.diff",
+      "bytes": 1819,
+      "sha256": "061750fe249ad7fb9344408a51e2783d117a63de5bbc2c929df2726680d3115b"
+    },
+    {
+      "path": "python-diffs/litellm__a2a_protocol__providers__bedrock_agentcore__transformation.py.diff",
+      "bytes": 5201,
+      "sha256": "09d9468f8cc90fc0ab9a3b7dbcc03bcad26cd80b39c77609cfe98897d1949227"
+    },
+    {
+      "path": "python-diffs/litellm__a2a_protocol__providers__watsonx_orchestrate__transformation.py.diff",
+      "bytes": 2046,
+      "sha256": "4b5d915539111fcadcc68dd7c4eeabffbb9a854d0be65ee129d767e861a4b322"
+    },
+    {
+      "path": "python-diffs/litellm__a2a_protocol__streaming_iterator.py.diff",
+      "bytes": 732,
+      "sha256": "40dde33ffcf1db1cf40b5b57d3b3a7b7fa77ffd63e8966483f54b9c670807673"
+    },
+    {
+      "path": "python-diffs/litellm__a2a_protocol__utils.py.diff",
+      "bytes": 2362,
+      "sha256": "d65ba4a9b2638e56eecdcfed9629a53de102dff467df2017b85f830d91999129"
+    },
+    {
+      "path": "python-diffs/litellm__anthropic_interface__exceptions__exceptions.py.diff",
+      "bytes": 678,
+      "sha256": "0a762094cb81129a7e08aa273703f56f8ff074f57adf21fd99fc8b79fdc892b1"
+    },
+    {
+      "path": "python-diffs/litellm__assistants__utils.py.diff",
+      "bytes": 3207,
+      "sha256": "f4cb4f0d45b0521d6a4a3590ffc0a532e73f3d811fa10fa30efdb141eec05452"
+    },
+    {
+      "path": "python-diffs/litellm__batches__batch_utils.py.diff",
+      "bytes": 1831,
+      "sha256": "23195ed06f93746e642d350f6b29ed532ed802879e3f6a2614f8a9b339d82290"
+    },
+    {
+      "path": "python-diffs/litellm__caching__caching.py.diff",
+      "bytes": 5011,
+      "sha256": "887ca05be7e164454f728221c92e2a196cbfda167d888c170aabe9f218009771"
+    },
+    {
+      "path": "python-diffs/litellm__caching__caching_handler.py.diff",
+      "bytes": 671,
+      "sha256": "fb6e230aad2caa138ca12185c5fea4e8d7a9d29abfe38475d84defa59b45061a"
+    },
+    {
+      "path": "python-diffs/litellm__caching__dual_cache.py.diff",
+      "bytes": 3341,
+      "sha256": "bb5cc02ef891c206da0c896c8a73cf5964dcf82db6c71d6290e45bfd5ed44dbd"
+    },
+    {
+      "path": "python-diffs/litellm__caching__qdrant_semantic_cache.py.diff",
+      "bytes": 2669,
+      "sha256": "249aee578f4942a0ec073e842b864e893c57d003863405ca40a6996bc0ef919a"
+    },
+    {
+      "path": "python-diffs/litellm__caching__redis_cache.py.diff",
+      "bytes": 20441,
+      "sha256": "01560a1a612bc3b511789be9a3029a999374df1bd1cf9d3f2d1e4950331c274c"
+    },
+    {
+      "path": "python-diffs/litellm__caching__redis_cluster_node_isolation.py.diff",
+      "bytes": 7150,
+      "sha256": "0f5e6bd80932df7544cece39ae6936f0603e03f5d8ce06d41f77875e1e9028d6"
+    },
+    {
+      "path": "python-diffs/litellm__caching__redis_semantic_cache.py.diff",
+      "bytes": 3169,
+      "sha256": "81e4f1fdc27e637bafa9cdcbddae92c7ad5ea81971efc30c8828f02860e41bc3"
+    },
+    {
+      "path": "python-diffs/litellm__caching__valkey_semantic_cache.py.diff",
+      "bytes": 9900,
+      "sha256": "4c9f5e4c61c42d7225a49212f3f118c8ef6553bf4907bf98157fecbaa1614362"
+    },
+    {
+      "path": "python-diffs/litellm__completion_extras__litellm_responses_transformation__handler.py.diff",
+      "bytes": 2196,
+      "sha256": "93b2333dffcff71318c1139fa421545494a5486baf81c61c7f5d6fd7fd4e8204"
+    },
+    {
+      "path": "python-diffs/litellm__completion_extras__litellm_responses_transformation__transformation.py.diff",
+      "bytes": 1879,
+      "sha256": "9391ef504db75a6bd7c13b043f06ce148b57abd99246df1d95ec0206da106d56"
+    },
+    {
+      "path": "python-diffs/litellm__compression__compress.py.diff",
+      "bytes": 1910,
+      "sha256": "3bbc384bb2adaa153cf475b52c440eec8173fb34cdf9e47fda28c3c2edda7372"
+    },
+    {
+      "path": "python-diffs/litellm__compression__scoring__embedding_scorer.py.diff",
+      "bytes": 607,
+      "sha256": "de83a34a3a83b2ac2747defe6030dd78bbb36cd0df30dd2fe7591ba678d0c5bf"
+    },
+    {
+      "path": "python-diffs/litellm__constants.py.diff",
+      "bytes": 10917,
+      "sha256": "03ea5e1b66b93de03b905277a2b150127f718aef5fd0d555d3882df1659c36dd"
+    },
+    {
+      "path": "python-diffs/litellm__containers__endpoint_factory.py.diff",
+      "bytes": 1483,
+      "sha256": "00ab055525dc7322c85cbe33a730e847fc6060f60b19e9b610d02f872baa5b94"
+    },
+    {
+      "path": "python-diffs/litellm__containers__main.py.diff",
+      "bytes": 1673,
+      "sha256": "8b3f96ec57b2676bbcbf32df9ebb637bd561dab7da9ff9bed649121b79a3c67d"
+    },
+    {
+      "path": "python-diffs/litellm__cost_calculator.py.diff",
+      "bytes": 6684,
+      "sha256": "c1bab3e38337f7bd8be4455a537f39fb23cea51382d6cc877428197251c3e296"
+    },
+    {
+      "path": "python-diffs/litellm__endpoints__speech__speech_to_completion_bridge__handler.py.diff",
+      "bytes": 684,
+      "sha256": "b6876e86db6d65ea7307fea7d931965c3de7989a721cf39f6a924f7cf5738c00"
+    },
+    {
+      "path": "python-diffs/litellm__endpoints__speech__speech_to_completion_bridge__transformation.py.diff",
+      "bytes": 7644,
+      "sha256": "446b9852bcafbe4c24db0cf73f825d56619040ef51738d8cb217f7fa870f1e12"
+    },
+    {
+      "path": "python-diffs/litellm__exceptions.py.diff",
+      "bytes": 764,
+      "sha256": "11909935cf364901b27f4a1376f91686e447dc190c4c87cd04f24f57f71d591f"
+    },
+    {
+      "path": "python-diffs/litellm__experimental_mcp_client__client.py.diff",
+      "bytes": 5556,
+      "sha256": "d4631c7c22703883f38c5aa3752c4f7e8a49c4f7ffa53ce54cb1e05d5d0ae45b"
+    },
+    {
+      "path": "python-diffs/litellm__experimental_mcp_client__tools.py.diff",
+      "bytes": 4420,
+      "sha256": "b81b2c12c0f4ff4b8790bb25cf2a47258cf906ff597748c7f151174870fa8704"
+    },
+    {
+      "path": "python-diffs/litellm__files__main.py.diff",
+      "bytes": 1574,
+      "sha256": "0e33bf2c1fb3bcb0589834cc9399f5c1386ee96554ef23b28c82173bf82bb45f"
+    },
+    {
+      "path": "python-diffs/litellm__fine_tuning__main.py.diff",
+      "bytes": 2047,
+      "sha256": "aa475259a16532d503716c47213347b46c32ceeb1397fade52372205d5df4278"
+    },
+    {
+      "path": "python-diffs/litellm__google_genai__adapters__transformation.py.diff",
+      "bytes": 17354,
+      "sha256": "383fbc06b1403c815b41b8579f137e598a6b707106e785fb07ae218429193e0a"
+    },
+    {
+      "path": "python-diffs/litellm__google_genai__main.py.diff",
+      "bytes": 3864,
+      "sha256": "c85d21edeb68f11cd4933679f63c889867e7560f3105cbb8ad29c4fbfd7861ea"
+    },
+    {
+      "path": "python-diffs/litellm__images__main.py.diff",
+      "bytes": 3777,
+      "sha256": "1d2745b019d9ac4cec7a5548c5466fea84244de6ff721a19bf07e4a00effcc58"
+    },
+    {
+      "path": "python-diffs/litellm__images__utils.py.diff",
+      "bytes": 531,
+      "sha256": "f445eb1236f4631135a9f715c2a36491db7e81e3c4c0651e0033e7a8bde22be6"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__SlackAlerting__slack_alerting.py.diff",
+      "bytes": 7746,
+      "sha256": "2bbd22943082c6f38140958d6ccd093a7a7e3d5efff230d13c200f876bce06c0"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__SlackAlerting__user_spend_alerts.py.diff",
+      "bytes": 5524,
+      "sha256": "1b010587e1a5d4a323980e3669266c60ede2b8211adec6018661fb001192fec0"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__anthropic_cache_control_hook.py.diff",
+      "bytes": 2850,
+      "sha256": "13a7e2c6bb2a6f039ffd842d22827377d550e63d724608e9c69d9acedd6ef1f6"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__arize___utils.py.diff",
+      "bytes": 1836,
+      "sha256": "d84febd6b2e555c7ed2209145655a35515d49d536be919e5ece0fd16f23caa46"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__arize__arize_phoenix_prompt_manager.py.diff",
+      "bytes": 6996,
+      "sha256": "b7779aa21e92401d8316f78dc9515efa297644465cddfcc05a68e5b418089f9a"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__azure_storage__azure_storage.py.diff",
+      "bytes": 4106,
+      "sha256": "b5b08388466f539a8728d0059133c6b312d9eb0318bfbe712019c9b3b8f12742"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__bitbucket__bitbucket_client.py.diff",
+      "bytes": 909,
+      "sha256": "f8241e47189a1852cb3cf227cab04df0fa394513c9d4a4b5ab4799ea3d141fb6"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__bitbucket__bitbucket_prompt_manager.py.diff",
+      "bytes": 4478,
+      "sha256": "ba26f3003cb3ee8606e29100e168b742089c824e7c8d8765eccb12acb1aae397"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__cloudzero__cz_stream_api.py.diff",
+      "bytes": 643,
+      "sha256": "f78f9ecb3c05b1db8718cb52b1f7d93c8c6d363b3c02ba92d0f8707e404918de"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__cloudzero__database.py.diff",
+      "bytes": 1151,
+      "sha256": "f5e8dc6a436dfda000c78e3c3b01289e14cb2edf332081a78c27ed890080c912"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__cloudzero__transform.py.diff",
+      "bytes": 3146,
+      "sha256": "5c47f9d216e5eb91036b9a4b39bd02c9a52295990ad50e244df6d36bbfcd1341"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__compression_interception__handler.py.diff",
+      "bytes": 8990,
+      "sha256": "92ea68823d77df58c99aaa1db78edeb0112f19fc76fc355cc14a1393c5b42de7"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__custom_guardrail.py.diff",
+      "bytes": 10311,
+      "sha256": "7c0fe089725b3ad3d44b30888fe2dc7ac04b4cd94e07fbdcf237b00d9b6ff50b"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__custom_logger.py.diff",
+      "bytes": 9501,
+      "sha256": "4c2019287e91f63eb304905bb55858c411eacf0d4c0b8e7211483b6b33bc7562"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__datadog__datadog.py.diff",
+      "bytes": 4328,
+      "sha256": "6fc4f234dd888dd32b00f74e5b906c3e27b88b4f6a755758f1fc77c2fed60d58"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__datadog__datadog_cost_management.py.diff",
+      "bytes": 1064,
+      "sha256": "ae6276c1f6086478e5dc6e1594b84321fcc0dce645fe66aa6d3628f40351062a"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__datadog__datadog_llm_obs.py.diff",
+      "bytes": 37852,
+      "sha256": "5c6d67946a3a557f823d72a305983a7ea45d62d1ff1745b5991ab8157cd850e5"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__dotprompt__dotprompt_manager.py.diff",
+      "bytes": 1317,
+      "sha256": "d855b7cdfd8be987bf530afddbe2c3fc2ee62a8feb752d2bd6e711f97a6f43a8"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__dotprompt__prompt_manager.py.diff",
+      "bytes": 3762,
+      "sha256": "00ee4867227db711c73218ff54ce3802a1b699cb101b1e3a06e8c13b9dc8744d"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__focus__database.py.diff",
+      "bytes": 999,
+      "sha256": "a890e20205debd911f1d8e3a0a745d9fb838b319bf9b55140ca34487b2682730"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__focus__destinations__s3_destination.py.diff",
+      "bytes": 3120,
+      "sha256": "ee9d4d760bc2da5f5aa7b72290dd9791c32135d4624aea6d748e543f37c47d46"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__focus__focus_logger.py.diff",
+      "bytes": 1000,
+      "sha256": "199021a5e852f7fffdb289765c990238ce93dfa54fbef8a1816bd191fa62f0aa"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__galileo.py.diff",
+      "bytes": 2191,
+      "sha256": "5e2438f5d685554874ea1c10f9bb2c287ba04bf110287a7649dd06618f76b900"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__generic_prompt_management__generic_prompt_manager.py.diff",
+      "bytes": 592,
+      "sha256": "73f43716d689a152058d8e0e3b661941536c4d1cb4ca3440dbbb40b940ef6695"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__gitlab__gitlab_client.py.diff",
+      "bytes": 5301,
+      "sha256": "0808e34c12378d7b3e1e80986653b20f241d594f9091ce9bbf77dd026d49248e"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__gitlab__gitlab_prompt_manager.py.diff",
+      "bytes": 6533,
+      "sha256": "2536a010a716836b949d0f3ce41e5f703eb6b797394c12ed639fa7d56316894a"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__humanloop.py.diff",
+      "bytes": 975,
+      "sha256": "cbe97bb5996f890d0e135d15794f7595620ce78cf49eff1325d36c3d59ddcc9b"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__langfuse__langfuse.py.diff",
+      "bytes": 5957,
+      "sha256": "1ef5ce2248d870765590ada30c391bdd06fabb3261643c619892e88d7e54cbbe"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__newrelic__newrelic.py.diff",
+      "bytes": 3420,
+      "sha256": "46f18fd716c1e1f9dfedcbf9dc9c5c12c559dcb41d71c53612a2c2a0b11f22c0"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__opentelemetry.py.diff",
+      "bytes": 2052,
+      "sha256": "cc105fa39be80b05563232f842ff8871c83b59f14f7b49e29ddc5d0c0da23e35"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__opentelemetry_utils__gen_ai_semconv.py.diff",
+      "bytes": 1319,
+      "sha256": "c77bbd6de0e3f67d2b19bd294c1ca6e6aa0f26aa0508135c4027158c030110d5"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__opik__opik.py.diff",
+      "bytes": 3040,
+      "sha256": "aa9287f69b6cabce43ad7596273c7c1c3c4cd125ecdacc6a6da9184375a8e069"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__opik__opik_payload_builder__extractors.py.diff",
+      "bytes": 2048,
+      "sha256": "979e92c58172f288cf1992f93e1f63dd9368d48388bc9c08bee05c8dab6e2809"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__opik__opik_payload_builder__payload_builders.py.diff",
+      "bytes": 1761,
+      "sha256": "a3e47209ff948c2817ba1ff5b3cf630634e5ced33b824509ff1ef347b006da47"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__otel__langfuse_logger.py.diff",
+      "bytes": 3035,
+      "sha256": "da87852bd98232075d469f39e05cda1349c47d4526982a3f4afd2eae2e6a623e"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__otel__logger.py.diff",
+      "bytes": 2022,
+      "sha256": "6f02fa38b98ab3697f42062e459b432c035e201b0a2640995b4936d1c37aa06c"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__otel__mappers__genai.py.diff",
+      "bytes": 1155,
+      "sha256": "6ffbf5872aa401e580b07721377a1b5f7b23f55a0a9819322e6434b2427f8b93"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__otel__mappers__langfuse.py.diff",
+      "bytes": 1358,
+      "sha256": "7ababa49f60875cb61c85724df891fa3ee4da3b71ff0d4f3324f30fa36eec5eb"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__otel__model__metadata.py.diff",
+      "bytes": 800,
+      "sha256": "30e66168caad91f50c478d068d9fdadf04aebe2ca5695735b819e12a458dcbae"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__otel__model__payloads.py.diff",
+      "bytes": 4724,
+      "sha256": "6c133e84d7195bb6e6cd771354655ab9bb74b1738b1000ef2f16bc3ef2e2a003"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__otel__model__request_io.py.diff",
+      "bytes": 3613,
+      "sha256": "8db6d985a299f9b63026c07a99d6003ffa66ac8629140ed4689e543ad0ad34d8"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__otel__model__semconv.py.diff",
+      "bytes": 1045,
+      "sha256": "538d817c311f46add477f7a033d74344bd5e0bb0eaad128a3393ae0a12326657"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__otel__plumbing__context.py.diff",
+      "bytes": 1941,
+      "sha256": "fdb315e2ab60fb043dd8656af98e2ab821e9bc062f33d2ebb8eaf1f5764dac9e"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__otel__plumbing__metrics.py.diff",
+      "bytes": 3664,
+      "sha256": "d1663b4eff5af2c82dcfa72b7fffae8a94c41fcab169b6f9dbfcefecbc208caf"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__posthog.py.diff",
+      "bytes": 6476,
+      "sha256": "151677f89710cb7bf8b77a70d97c034848a47a1056a572ee955fac6127df9c41"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__prometheus.py.diff",
+      "bytes": 14813,
+      "sha256": "a80c8553c93aa2a7c18a81e3dbad7b3bba986380d9eec35385b19759ea244af9"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__prometheus_helpers__bounded_prometheus_series_tracker.py.diff",
+      "bytes": 608,
+      "sha256": "600653fdd083ad15023626a7982f15c151b37c6ccfbd8b7c7c945bd4b404aa53"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__rubrik.py.diff",
+      "bytes": 19970,
+      "sha256": "ab3ca30aa775100d6ac7f795045a10c41fcfb87e451a11a5f8a15ff8193b9336"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__s3.py.diff",
+      "bytes": 5123,
+      "sha256": "9618d4c811f9c3f467495c38461774599d7ff136233b5481da73f56b14624e66"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__s3_v2.py.diff",
+      "bytes": 1896,
+      "sha256": "931ccd53f9f452c9f15f2697779b36affcd57f08ca424f9ac8b948d80b3e85de"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__shadow_eval_logger.py.diff",
+      "bytes": 34777,
+      "sha256": "c111c27414f1de726eb6734c44fcb508fb410a0b536de693cc4ab309e9a1d45b"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__vector_store_integrations__vector_store_pre_call_hook.py.diff",
+      "bytes": 6384,
+      "sha256": "53ba8d7ade707b6af30f3d806e4de7fa451590d1f8707eb418a5d3a5fe6edc17"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__weave__weave_otel.py.diff",
+      "bytes": 1056,
+      "sha256": "029afaa2363491c414263962bb1c6d4903944600b9794a1bfe7663e1a09bbffa"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__websearch_interception__handler.py.diff",
+      "bytes": 15126,
+      "sha256": "227dcd4c59b41f0ec10c01b135da5316ebb7e63d8f134e29977dc172afe969b0"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__websearch_interception__tools.py.diff",
+      "bytes": 1537,
+      "sha256": "2057864b20f91c8109dd5dd67383877f6adce26b0636126d8b2f604b311b8ff6"
+    },
+    {
+      "path": "python-diffs/litellm__integrations__websearch_interception__transformation.py.diff",
+      "bytes": 1336,
+      "sha256": "d307052334110d80ee5455cf13b4598249a3eb0c5145600372a93ca1e9b60155"
+    },
+    {
+      "path": "python-diffs/litellm__interactions__agents__http_handler.py.diff",
+      "bytes": 3128,
+      "sha256": "4df46be1249245bf2f6fd04c2e71173c71ff522719ae7117550a697639986809"
+    },
+    {
+      "path": "python-diffs/litellm__interactions__agents__main.py.diff",
+      "bytes": 3498,
+      "sha256": "0db828d2beae582aa46b3f5401207e9154976d72da9f0186c516b2ad5d356885"
+    },
+    {
+      "path": "python-diffs/litellm__interactions__http_handler.py.diff",
+      "bytes": 4991,
+      "sha256": "27614acfec5f234869e2038f95ba6ce024ebbc7740409ac8403bbc46567c8319"
+    },
+    {
+      "path": "python-diffs/litellm__interactions__litellm_responses_transformation__transformation.py.diff",
+      "bytes": 2389,
+      "sha256": "e3a07d51e76e487fef3958972dad32e92c17b36ca15a2c87decfb9ad9240e10b"
+    },
+    {
+      "path": "python-diffs/litellm__interactions__main.py.diff",
+      "bytes": 1789,
+      "sha256": "322034dff3f581e78e8a35414f87b37f2c6e42ad2cb38ea68516217efb21edb3"
+    },
+    {
+      "path": "python-diffs/litellm__litellm_core_utils__audio_utils__utils.py.diff",
+      "bytes": 3435,
+      "sha256": "0e3022710206540e8b9e60095273ae981cb680e510732a101e8c488a99b0fd67"
+    },
+    {
+      "path": "python-diffs/litellm__litellm_core_utils__core_helpers.py.diff",
+      "bytes": 1733,
+      "sha256": "9af63cb4c32c5ce9cc398298a548ebf7917e84baa37b75a9bc18c6052c0a7dc5"
+    },
+    {
+      "path": "python-diffs/litellm__litellm_core_utils__dot_notation_indexing.py.diff",
+      "bytes": 2042,
+      "sha256": "01e19eee024ba4fc11fea4757fa26f00defaaa758ddf18d57e7766e154528f48"
+    },
+    {
+      "path": "python-diffs/litellm__litellm_core_utils__get_litellm_params.py.diff",
+      "bytes": 414,
+      "sha256": "f3b78f7de09e5fbc58bf4122264f0da538f2e60a5f5216e3f19a65b639e9ade6"
+    },
+    {
+      "path": "python-diffs/litellm__litellm_core_utils__get_llm_provider_logic.py.diff",
+      "bytes": 3556,
+      "sha256": "25e3db8ea756f3b95e917ec04ab80df0860a9d3ee325c255f7458690743651e5"
+    },
+    {
+      "path": "python-diffs/litellm__litellm_core_utils__get_model_cost_map.py.diff",
+      "bytes": 8022,
+      "sha256": "b9c208214da39362203dd646adf3e729d4e70661d25130a61fdda234b422b8f5"
+    },
+    {
+      "path": "python-diffs/litellm__litellm_core_utils__health_check_helpers.py.diff",
+      "bytes": 5865,
+      "sha256": "0636e16e52f3f2d132d8dfce30389539c7cf06ce4aea2e45f3f9b8f5079bcd54"
+    },
+    {
+      "path": "python-diffs/litellm__litellm_core_utils__internal_call_metadata.py.diff",
+      "bytes": 1405,
+      "sha256": "37644a67573304fdb7cbdc598401d9ce73c8f869447561227ae006fe9f0c7728"
+    },
+    {
+      "path": "python-diffs/litellm__litellm_core_utils__json_validation_rule.py.diff",
+      "bytes": 846,
+      "sha256": "0b8e46972f78077757e6b0567aadd6dde7b0e7e9feda6ebf68da06491c88e818"
+    },
+    {
+      "path": "python-diffs/litellm__litellm_core_utils__litellm_logging.py.diff",
+      "bytes": 25658,
+      "sha256": "7eaa3c73f78f18a495a0ddc2021bf0605cccde376f51024a1303cf1ad2bc0b10"
+    },
+    {
+      "path": "python-diffs/litellm__litellm_core_utils__llm_cost_calc__guardrail_cost.py.diff",
+      "bytes": 3820,
+      "sha256": "39916d3004fd46a6c76a5769e0a31dbc27563aaf5ad8a5b1ac0a94d9597c0306"
+    },
+    {
+      "path": "python-diffs/litellm__litellm_core_utils__llm_cost_calc__tool_call_cost_tracking.py.diff",
+      "bytes": 8212,
+      "sha256": "9c1d86b43a9f06b9a59b77d425dc3f9193cd2c16ccb30727c945b71b001aadcd"
+    },
+    {
+      "path": "python-diffs/litellm__litellm_core_utils__llm_cost_calc__utils.py.diff",
+      "bytes": 17025,
+      "sha256": "f2ef313f4e44bb094f87003aafb0610e44853a24f2ae5404135e598bbf91ab01"
+    },
+    {
+      "path": "python-diffs/litellm__litellm_core_utils__llm_response_utils__response_metadata.py.diff",
+      "bytes": 11184,
+      "sha256": "aec6be9393169fc327c41d6b51bbcf191465fe71f1de33886439aadb8f32aa15"
+    },
+    {
+      "path": "python-diffs/litellm__litellm_core_utils__logging_utils.py.diff",
+      "bytes": 2481,
+      "sha256": "8bb5fdd83521bda303639b966042c6e616ae63bc85fda1d94f30c53f175ce0a3"
+    },
+    {
+      "path": "python-diffs/litellm__litellm_core_utils__model_response_utils.py.diff",
+      "bytes": 1049,
+      "sha256": "02ac642d23c7da8e2142e57b99182e2273261e2f6eebf985edc8f1c5d4fa7fcc"
+    },
+    {
+      "path": "python-diffs/litellm__litellm_core_utils__prompt_templates__common_utils.py.diff",
+      "bytes": 8147,
+      "sha256": "d1c5d7a4967a335ba9f6632136d613b8aaf705bbb9d27333074975b313bb5c0c"
+    },
+    {
+      "path": "python-diffs/litellm__litellm_core_utils__prompt_templates__factory.py.diff",
+      "bytes": 4244,
+      "sha256": "f4e1385093383acfac3d0bea5652042054a80bebd7f75fff2939ea08c67d13b3"
+    },
+    {
+      "path": "python-diffs/litellm__litellm_core_utils__realtime_errors.py.diff",
+      "bytes": 583,
+      "sha256": "568fd520d1bccb7d7afb1afb7a865197384043ba742e930f7539767ad1967f9e"
+    },
+    {
+      "path": "python-diffs/litellm__litellm_core_utils__realtime_streaming.py.diff",
+      "bytes": 13490,
+      "sha256": "cf7770f97b214c9dd4968e6033c54f0381f357b7cd0c1a3c9cd66bb86df5e5d9"
+    },
+    {
+      "path": "python-diffs/litellm__litellm_core_utils__safe_json_dumps.py.diff",
+      "bytes": 562,
+      "sha256": "d8934ba79c34d1a9219a4b75af6aa003ee47da26629dc8c892dd9f77521db3cf"
+    },
+    {
+      "path": "python-diffs/litellm__litellm_core_utils__secret_redaction.py.diff",
+      "bytes": 4366,
+      "sha256": "c2f22839993e2c975be051fe8e66dfd462aee9c281c7ce323c0e29a863a3c6a9"
+    },
+    {
+      "path": "python-diffs/litellm__litellm_core_utils__sensitive_data_masker.py.diff",
+      "bytes": 4918,
+      "sha256": "06a8347d0193cfe86128c7cf036eef2c9540072765cf1d27c117f107b49c3345"
+    },
+    {
+      "path": "python-diffs/litellm__litellm_core_utils__streaming_chunk_builder_utils.py.diff",
+      "bytes": 2060,
+      "sha256": "f2e28e447f3ea3f81d141de0f9df4bc3120e21445ac3c649b539f72fabcb7a8d"
+    },
+    {
+      "path": "python-diffs/litellm__litellm_core_utils__streaming_handler.py.diff",
+      "bytes": 4953,
+      "sha256": "43f975c86d80b0db0f065b3ff62e17d2b4f657b228e0ce9049a27a2a460aa8d3"
+    },
+    {
+      "path": "python-diffs/litellm__litellm_core_utils__token_counter.py.diff",
+      "bytes": 7023,
+      "sha256": "ca8cd221c0e3ef72fcf306150f29d03342be0904825d99207f12a4bdaf3c6a0d"
+    },
+    {
+      "path": "python-diffs/litellm__litellm_core_utils__url_utils.py.diff",
+      "bytes": 775,
+      "sha256": "e57cbf7abaefc605cf5457ca6646a074133a3b03d3656e8fe322af1e566183c0"
+    },
+    {
+      "path": "python-diffs/litellm__llms__a2a__chat__guardrail_translation__handler.py.diff",
+      "bytes": 3663,
+      "sha256": "2e5777498b1554bd0a447e47e9c3fc23cf9e3340127a1dfd1f3f048b8c60e08f"
+    },
+    {
+      "path": "python-diffs/litellm__llms__a2a__common_utils.py.diff",
+      "bytes": 586,
+      "sha256": "75245ce243d2c54bef98576a623f28b7060eb62b0092bda0c2465e231eb86ffe"
+    },
+    {
+      "path": "python-diffs/litellm__llms__anthropic__batches__transformation.py.diff",
+      "bytes": 3867,
+      "sha256": "7de497c333f81a8bd8e03512f38bc3e4fbf2b99fd366c5135050968a71ae6643"
+    },
+    {
+      "path": "python-diffs/litellm__llms__anthropic__chat__guardrail_translation__handler.py.diff",
+      "bytes": 19391,
+      "sha256": "0b510ed0a60e49cd30fa22fbc6107c3cc6fc9d27e717bc556751f3a16131c824"
+    },
+    {
+      "path": "python-diffs/litellm__llms__anthropic__chat__handler.py.diff",
+      "bytes": 5863,
+      "sha256": "f051b022a19f50f3ef563d9003ce4fe6d4338c539f3bdda4c3703d2f16233df6"
+    },
+    {
+      "path": "python-diffs/litellm__llms__anthropic__chat__transformation.py.diff",
+      "bytes": 8245,
+      "sha256": "746fc9e94ff34b925f7f5d8b20ac3a5b819119b7987246143de28c660b4cd03b"
+    },
+    {
+      "path": "python-diffs/litellm__llms__anthropic__common_utils.py.diff",
+      "bytes": 13915,
+      "sha256": "48e0a1ea79f94ca31363fffdae47ef2f0c2fa5e99c9f04638ca5c0ff15d8cc1e"
+    },
+    {
+      "path": "python-diffs/litellm__llms__anthropic__experimental_pass_through__adapters__handler.py.diff",
+      "bytes": 1113,
+      "sha256": "38225eabfe82ab203fd3db1263ab09ce054faad3c4f28a68e9e864286b6fc443"
+    },
+    {
+      "path": "python-diffs/litellm__llms__anthropic__experimental_pass_through__adapters__streaming_iterator.py.diff",
+      "bytes": 3459,
+      "sha256": "6b77b43f6b409927298e978b99561b381d0b48e8f22b1edccebe6488d7ae82c0"
+    },
+    {
+      "path": "python-diffs/litellm__llms__anthropic__experimental_pass_through__adapters__transformation.py.diff",
+      "bytes": 9777,
+      "sha256": "3c85999a336d6c94cabf8080a0b251e1a70de6fadd50b4c09f26d6e5499559f9"
+    },
+    {
+      "path": "python-diffs/litellm__llms__anthropic__experimental_pass_through__context_management__editors__compact.py.diff",
+      "bytes": 18361,
+      "sha256": "39392ae3f587ca6b16f9e5b893bede28487c501736e5497a873a464db3c73415"
+    },
+    {
+      "path": "python-diffs/litellm__llms__anthropic__experimental_pass_through__messages__fake_stream_iterator.py.diff",
+      "bytes": 3581,
+      "sha256": "7c854bb99628d9e2d17422156f4b1b337d154cab0e0bbcc6e3fb281408b46042"
+    },
+    {
+      "path": "python-diffs/litellm__llms__anthropic__experimental_pass_through__messages__handler.py.diff",
+      "bytes": 1184,
+      "sha256": "73aa82803dbe182959459e263095ad7c22ec51212a38ce31a1673760bb03d179"
+    },
+    {
+      "path": "python-diffs/litellm__llms__anthropic__experimental_pass_through__messages__interceptors__advisor.py.diff",
+      "bytes": 1482,
+      "sha256": "8ce3b65a9671c0abd1db4f1114682b75720cd95afb61953ba92b9e8d4f33bd12"
+    },
+    {
+      "path": "python-diffs/litellm__llms__anthropic__experimental_pass_through__messages__streaming_iterator.py.diff",
+      "bytes": 17933,
+      "sha256": "061ba249e4b91cdadf195f45d828681334de533b11e0c9e380cebe3d324614b0"
+    },
+    {
+      "path": "python-diffs/litellm__llms__anthropic__experimental_pass_through__messages__transformation.py.diff",
+      "bytes": 4104,
+      "sha256": "4cec5e553ebcd2b5a862488e9612449c4f1b8f045704605bc80bad9b984d9b44"
+    },
+    {
+      "path": "python-diffs/litellm__llms__anthropic__experimental_pass_through__messages__utils.py.diff",
+      "bytes": 3182,
+      "sha256": "55c1875fda6944c2945cdbd9c7990d57d7f4ce3a6cf9e655c042a994f38179fc"
+    },
+    {
+      "path": "python-diffs/litellm__llms__anthropic__experimental_pass_through__responses_adapters__handler.py.diff",
+      "bytes": 2143,
+      "sha256": "684f0aabf7646b5160746fe5f0b0dc325ba6dcf62b75118eff5384c9501328e7"
+    },
+    {
+      "path": "python-diffs/litellm__llms__anthropic__experimental_pass_through__responses_adapters__streaming_iterator.py.diff",
+      "bytes": 3029,
+      "sha256": "cfe0fab6ae9b5f2ab632e214bfa8bb9e8fd00a36dca29622117d17778e8210c6"
+    },
+    {
+      "path": "python-diffs/litellm__llms__anthropic__experimental_pass_through__responses_adapters__transformation.py.diff",
+      "bytes": 6572,
+      "sha256": "2485fff467d04d09ad091aede93e28ec6a53f384dbaa541c0d52d1f6a6173660"
+    },
+    {
+      "path": "python-diffs/litellm__llms__anthropic__experimental_pass_through__utils.py.diff",
+      "bytes": 1138,
+      "sha256": "dce0c30c43838e0b6dc7f9d11aec233ed1a45286a51c42e27c32ec0cf2d020cf"
+    },
+    {
+      "path": "python-diffs/litellm__llms__anthropic__files__handler.py.diff",
+      "bytes": 654,
+      "sha256": "5c6051f593c0796602ff8e14f88504aa5a56c355ce99bf20f7dbb1d9dd739581"
+    },
+    {
+      "path": "python-diffs/litellm__llms__anthropic__files__transformation.py.diff",
+      "bytes": 709,
+      "sha256": "67b1c5b6a7eae4537b99b75f858a8caa17a1616f294747f4ce38db979ed6a640"
+    },
+    {
+      "path": "python-diffs/litellm__llms__aws_polly__text_to_speech__transformation.py.diff",
+      "bytes": 1754,
+      "sha256": "df153e556d64971312cdcf6661e1fc99be6b4ab7dde481c19a7dbb7aec581642"
+    },
+    {
+      "path": "python-diffs/litellm__llms__azure__azure.py.diff",
+      "bytes": 2958,
+      "sha256": "955f48012387eb818d50167dcf7a225c17c8f1d3df4792dc1628a92f2490139c"
+    },
+    {
+      "path": "python-diffs/litellm__llms__azure__chat__gpt_5_transformation.py.diff",
+      "bytes": 1997,
+      "sha256": "6cc0d67e510f6cd7f4999ff34fb8b4c438903b841ace6474593e57733864c22c"
+    },
+    {
+      "path": "python-diffs/litellm__llms__azure__chat__gpt_transformation.py.diff",
+      "bytes": 2260,
+      "sha256": "23520301ce3158e9468932ce6c1d612e17e3366f272693031031f229eec8f45a"
+    },
+    {
+      "path": "python-diffs/litellm__llms__azure__chat__o_series_transformation.py.diff",
+      "bytes": 959,
+      "sha256": "2c268431339a7eb88ca1a31046164696be3a41f6a8d539b64bdbd66b28e5104f"
+    },
+    {
+      "path": "python-diffs/litellm__llms__azure__realtime__handler.py.diff",
+      "bytes": 1584,
+      "sha256": "53e251ba6639bbb1c19b71ed5f5b19fe952c0a6ff35237d83ab1fbaf94d23394"
+    },
+    {
+      "path": "python-diffs/litellm__llms__azure__responses__transformation.py.diff",
+      "bytes": 2342,
+      "sha256": "52fb6c7c80aa12ee7994740fad9b29f1449e6f721dd437537e760c88c65fa67c"
+    },
+    {
+      "path": "python-diffs/litellm__llms__azure_ai__agents__handler.py.diff",
+      "bytes": 2242,
+      "sha256": "dcc1ee597652df6ea1ac59dce0597e9e7f606e1ad38091959471430dc1a92502"
+    },
+    {
+      "path": "python-diffs/litellm__llms__azure_ai__anthropic__count_tokens__token_counter.py.diff",
+      "bytes": 824,
+      "sha256": "706d43d697ac8b4272bf538d868d4590237a6d8dc57f87801f7fd4b3f575ac5e"
+    },
+    {
+      "path": "python-diffs/litellm__llms__azure_ai__anthropic__transformation.py.diff",
+      "bytes": 962,
+      "sha256": "2a8d3f626f657cf92230a4589ce122a82728ea7281720ee5e7cd21ce611e475a"
+    },
+    {
+      "path": "python-diffs/litellm__llms__azure_ai__chat__transformation.py.diff",
+      "bytes": 1730,
+      "sha256": "6e64fe527ae43a4f8f0b5b912a47dc2bf6c0053b2ee497ac39b7604b97eb6160"
+    },
+    {
+      "path": "python-diffs/litellm__llms__azure_ai__common_utils.py.diff",
+      "bytes": 883,
+      "sha256": "aef9b0efc4c230da0f8456cb58c3805684b7dee345cceaa6f8c2f78c34c7cdce"
+    },
+    {
+      "path": "python-diffs/litellm__llms__azure_ai__embed__handler.py.diff",
+      "bytes": 2131,
+      "sha256": "398b1484d45a2860d21d402056c3a1cb7393d1c3a26c8060bd723ed6f7f71fb7"
+    },
+    {
+      "path": "python-diffs/litellm__llms__azure_ai__ocr____init__.py.diff",
+      "bytes": 571,
+      "sha256": "986824b418adfaef1fbb68883ce88441b99a149adc8fc8f8c31967ed974a15d8"
+    },
+    {
+      "path": "python-diffs/litellm__llms__azure_ai__ocr__cohere_parse_transformation.py.diff",
+      "bytes": 3981,
+      "sha256": "d0847c79561aba78cec82f7db8572672a990607e50aef41bfe3102d2b4f6c20b"
+    },
+    {
+      "path": "python-diffs/litellm__llms__azure_ai__ocr__common_utils.py.diff",
+      "bytes": 1392,
+      "sha256": "2ffc9083c006b2d632c841855d671220742725785d0030268bdc07c29244983b"
+    },
+    {
+      "path": "python-diffs/litellm__llms__azure_ai__vector_stores__transformation.py.diff",
+      "bytes": 7277,
+      "sha256": "6fd1547b6c0cc48043d4541ed55947ba8560cff20246666a0d062c1318f9bfea"
+    },
+    {
+      "path": "python-diffs/litellm__llms__base_llm__agents__transformation.py.diff",
+      "bytes": 2409,
+      "sha256": "c5174c2dc986db7d7aad4d2254a9fd8015b4c1b3ea7dc6eb0a5c392d95b1d5e0"
+    },
+    {
+      "path": "python-diffs/litellm__llms__base_llm__files__azure_blob_storage_backend.py.diff",
+      "bytes": 2485,
+      "sha256": "513c347837596b8460c76a3e7e3f13044f8d70fdf793813b0e4e4c38f3d87336"
+    },
+    {
+      "path": "python-diffs/litellm__llms__base_llm__guardrail_translation__base_translation.py.diff",
+      "bytes": 5077,
+      "sha256": "4d268340a59d7ef02e4709672ddd05e5d4ae7d0b4d37d1d68fa5842ec13f2137"
+    },
+    {
+      "path": "python-diffs/litellm__llms__base_llm__guardrail_translation__utils.py.diff",
+      "bytes": 4582,
+      "sha256": "e34ec0150b5ab8c3de3e1bddb38939243885e61f184e6228fcbb75f0144aabf0"
+    },
+    {
+      "path": "python-diffs/litellm__llms__base_llm__managed_resources__base_managed_resource.py.diff",
+      "bytes": 6233,
+      "sha256": "9611a87a149b33c6665fd9970cad5f57cbfdc815407f66db2bf933afd5ca7904"
+    },
+    {
+      "path": "python-diffs/litellm__llms__base_llm__ocr__transformation.py.diff",
+      "bytes": 3340,
+      "sha256": "19773f8ff1f83d17f0958cd3ee129b5c08a0b4421eda2d5b81717af3a341fc7b"
+    },
+    {
+      "path": "python-diffs/litellm__llms__base_llm__vector_store__transformation.py.diff",
+      "bytes": 11788,
+      "sha256": "04f3d879af0475e3e4be702b6ce6068b65d5ab07288ef785a9235666347895c5"
+    },
+    {
+      "path": "python-diffs/litellm__llms__base_llm__vector_store_files__transformation.py.diff",
+      "bytes": 2774,
+      "sha256": "db9289bc5fc213a7f1d7711f7040949b3424bb3621356c5b8d46e3f3c0dc141d"
+    },
+    {
+      "path": "python-diffs/litellm__llms__bedrock__base_aws_llm.py.diff",
+      "bytes": 7053,
+      "sha256": "eb6dae251c78142de2a7050cb11493a2ff3485f396a88ed21d00b2577b5c4643"
+    },
+    {
+      "path": "python-diffs/litellm__llms__bedrock__chat__converse_handler.py.diff",
+      "bytes": 4499,
+      "sha256": "d27a55704fff500e1788826c360fc7fa05721ae3a76ca730e1be9c8079cccbe5"
+    },
+    {
+      "path": "python-diffs/litellm__llms__bedrock__chat__converse_transformation.py.diff",
+      "bytes": 5202,
+      "sha256": "e789f6a320b861adcf9c122d248f5b42aef87e447f8bcac020b6bf37567ab33e"
+    },
+    {
+      "path": "python-diffs/litellm__llms__bedrock__chat__invoke_handler.py.diff",
+      "bytes": 2130,
+      "sha256": "ebdd3d41a1a92fc48b3a61e0636bba35b32d86bdf29f6e7d91f84fa5de264f57"
+    },
+    {
+      "path": "python-diffs/litellm__llms__bedrock__chat__invoke_transformations__amazon_moonshot_transformation.py.diff",
+      "bytes": 1134,
+      "sha256": "3982303cd4845879a28f86b795e3159dc383b3cded552484ac02bf44f31eca43"
+    },
+    {
+      "path": "python-diffs/litellm__llms__bedrock__chat__invoke_transformations__anthropic_claude3_transformation.py.diff",
+      "bytes": 5273,
+      "sha256": "5a230098665dcc82661bb4034f106fcbafa7f9d207b032bf023dbef52fd50a7c"
+    },
+    {
+      "path": "python-diffs/litellm__llms__bedrock__common_utils.py.diff",
+      "bytes": 9755,
+      "sha256": "c82845ccb7f59393bf2323c608f5883cb11303c4ade8e9488f255b9acd52b669"
+    },
+    {
+      "path": "python-diffs/litellm__llms__bedrock__embed__embedding.py.diff",
+      "bytes": 4437,
+      "sha256": "8759a22ae466a5322f2a7c1b135b9559599798e9a2f5e37dcd83fbb75196e0fb"
+    },
+    {
+      "path": "python-diffs/litellm__llms__bedrock__files__handler.py.diff",
+      "bytes": 452,
+      "sha256": "2d7f8ad75a05f7407a24587d9eded091129600184306a4b02e7c764efeb0b731"
+    },
+    {
+      "path": "python-diffs/litellm__llms__bedrock__files__transformation.py.diff",
+      "bytes": 1130,
+      "sha256": "3eed5c17889c441dca9a529796519023666105f37680ba1d93706669972f212d"
+    },
+    {
+      "path": "python-diffs/litellm__llms__bedrock__image_edit__amazon_nova_canvas_image_edit_transformation.py.diff",
+      "bytes": 3118,
+      "sha256": "538285bce3748ab6f635183cdb0844017e721e6d539e0debf24fd1597b49d007"
+    },
+    {
+      "path": "python-diffs/litellm__llms__bedrock__image_edit__handler.py.diff",
+      "bytes": 905,
+      "sha256": "f3e57bb4a360082755e3280ac01ea8247ceca58a63599a9d1f141e4cd6e1028f"
+    },
+    {
+      "path": "python-diffs/litellm__llms__bedrock__image_generation__image_handler.py.diff",
+      "bytes": 947,
+      "sha256": "364b4e49268551bcd3b32402238d10917216276e477a5d0cd4bd0751248ea035"
+    },
+    {
+      "path": "python-diffs/litellm__llms__bedrock__messages__invoke_transformations__anthropic_claude3_transformation.py.diff",
+      "bytes": 5311,
+      "sha256": "13e59367b2a556fdc8f1f36ce964c5773ec8fba8ccaf4c3303b25c53afe499a6"
+    },
+    {
+      "path": "python-diffs/litellm__llms__bedrock__passthrough__guardrail_translation__handler.py.diff",
+      "bytes": 2508,
+      "sha256": "22012db49a8ec2575cbb43567d5671ec8cd809276cbbd00563c282d3841a188c"
+    },
+    {
+      "path": "python-diffs/litellm__llms__bedrock__realtime__handler.py.diff",
+      "bytes": 7097,
+      "sha256": "11cb679c12d6ac2decc9f38f7cd44d638d1b68a4b8fdc2938cb77f5a1eb1815d"
+    },
+    {
+      "path": "python-diffs/litellm__llms__bedrock__realtime__transformation.py.diff",
+      "bytes": 13574,
+      "sha256": "113ed29a85d9064ec4546dbe864a8a03be454a1d31208f9ca478aadcfc595bce"
+    },
+    {
+      "path": "python-diffs/litellm__llms__bedrock__vector_stores__transformation.py.diff",
+      "bytes": 1027,
+      "sha256": "933c10c1f60ae36fa3d2938fa458ff6c57e2331de9d356fafed4885ee7bf40ee"
+    },
+    {
+      "path": "python-diffs/litellm__llms__bedrock_mantle__common_utils.py.diff",
+      "bytes": 552,
+      "sha256": "1ebcef9295099318317ce11074ba7677e9ccfe504746bdec43d7cf2662b6e53d"
+    },
+    {
+      "path": "python-diffs/litellm__llms__bedrock_mantle__responses__transformation.py.diff",
+      "bytes": 567,
+      "sha256": "6e76eb6aef5060c297163a79d5a51c5aeed760e449cd8110d3810e42e4ceff73"
+    },
+    {
+      "path": "python-diffs/litellm__llms__black_forest_labs__image_edit__handler.py.diff",
+      "bytes": 3602,
+      "sha256": "bb2acf7c5840a913a710ae18ff7b630a00e32735987e2c8a1fbb922b877ef0d2"
+    },
+    {
+      "path": "python-diffs/litellm__llms__black_forest_labs__image_edit__transformation.py.diff",
+      "bytes": 732,
+      "sha256": "cfb0b307803ea710413133cc9ccca570350a60dcd8e0ec9db0d4a21bc0fce753"
+    },
+    {
+      "path": "python-diffs/litellm__llms__black_forest_labs__image_generation__handler.py.diff",
+      "bytes": 3289,
+      "sha256": "fe5bb70b32c219048f9e90511b64a0d2b1155601a025dc5d3237a4deea21ef3e"
+    },
+    {
+      "path": "python-diffs/litellm__llms__chatgpt__chat__streaming_utils.py.diff",
+      "bytes": 490,
+      "sha256": "13066e4f7fc7df0bac41a9e1e8d0bf6ca25dfced3f7297fb373a9d14773c1854"
+    },
+    {
+      "path": "python-diffs/litellm__llms__codestral__completion__handler.py.diff",
+      "bytes": 2378,
+      "sha256": "57e72461ca5e7b1dae10686c33ef4ab0522eb3f8aca47367c9c52076b8ec448d"
+    },
+    {
+      "path": "python-diffs/litellm__llms__cohere__embed__transformation.py.diff",
+      "bytes": 1340,
+      "sha256": "c7023c862c8f4a5d02be49e18c808d79eccc19a7d2f52946c696e74bec448029"
+    },
+    {
+      "path": "python-diffs/litellm__llms__cohere__ocr____init__.py.diff",
+      "bytes": 221,
+      "sha256": "938504d537b05572a76bc9e0cd68d852399b0152170e0c72f214692df6a68b42"
+    },
+    {
+      "path": "python-diffs/litellm__llms__cohere__ocr__transformation.py.diff",
+      "bytes": 12116,
+      "sha256": "0e7baa148e632f20008781d077d082284b9a314a8a1ec785e7487b084bfd9060"
+    },
+    {
+      "path": "python-diffs/litellm__llms__compactifai__chat__transformation.py.diff",
+      "bytes": 2761,
+      "sha256": "424362f3978f75fe5da3a7d2ee7ebe3e68ed2042a6947bbe9e118ef630e79407"
+    },
+    {
+      "path": "python-diffs/litellm__llms__custom_httpx__aiohttp_transport.py.diff",
+      "bytes": 1031,
+      "sha256": "3fc5feafad88487b9998c63030f16acfbaa631e97da8b897536b5ae146e15e68"
+    },
+    {
+      "path": "python-diffs/litellm__llms__custom_httpx__container_handler.py.diff",
+      "bytes": 12731,
+      "sha256": "bc4a2d0e35a6ae91932739d29ac2bf9c71d55bea9d5a82206a5d423f529bb8a9"
+    },
+    {
+      "path": "python-diffs/litellm__llms__custom_httpx__http_handler.py.diff",
+      "bytes": 4605,
+      "sha256": "058dddb3be24245cf458ac0033d1ccda68bbc9d76c73ed73cb6f228d9e154dc8"
+    },
+    {
+      "path": "python-diffs/litellm__llms__custom_httpx__llm_http_handler.py.diff",
+      "bytes": 24023,
+      "sha256": "318ecee369ba078845aae0b54d9667625a634b469c7c075f0d12996492d4e46e"
+    },
+    {
+      "path": "python-diffs/litellm__llms__dashscope__chat__transformation.py.diff",
+      "bytes": 1093,
+      "sha256": "06b900365157007838ece05eea730926560df8503bb477dc45df00e757a79f57"
+    },
+    {
+      "path": "python-diffs/litellm__llms__dashscope__common_utils.py.diff",
+      "bytes": 3579,
+      "sha256": "67ef338ad430e38ed5a51b258fcbee25c34845536a2c111c159b4093e64ba6d0"
+    },
+    {
+      "path": "python-diffs/litellm__llms__dashscope__cost_calculator.py.diff",
+      "bytes": 6734,
+      "sha256": "6c8553140a3d5a4091487460adc58060741a65c5b31948ca28b18bc01ba1ee1b"
+    },
+    {
+      "path": "python-diffs/litellm__llms__dashscope__embed__transformation.py.diff",
+      "bytes": 2007,
+      "sha256": "804a8913115f821db00c2bcfd905a4e52995389ee932b0c7a0af5799811bb2b4"
+    },
+    {
+      "path": "python-diffs/litellm__llms__dashscope__image_generation__transformation.py.diff",
+      "bytes": 1625,
+      "sha256": "fca2019e6c57eb1cfc3380de8f13ee9fdc090d7935a7066d7793348c89b56ba8"
+    },
+    {
+      "path": "python-diffs/litellm__llms__dashscope__qwen_ai_platform.py.diff",
+      "bytes": 2964,
+      "sha256": "d9932ce592d021eba57a3ad41cc66126f083b4ae394746113842d1344dfc8edd"
+    },
+    {
+      "path": "python-diffs/litellm__llms__dashscope__qwencloud.py.diff",
+      "bytes": 2798,
+      "sha256": "8ddc1eae904828c5f769363088df21408e47d9edecb579a8793668ca51a007ca"
+    },
+    {
+      "path": "python-diffs/litellm__llms__dashscope__rerank__transformation.py.diff",
+      "bytes": 3209,
+      "sha256": "747cbc55d757e29821b14e85d79f9ac43472eb4d74786ec5e9ed91b58a46864d"
+    },
+    {
+      "path": "python-diffs/litellm__llms__databricks__chat__transformation.py.diff",
+      "bytes": 3045,
+      "sha256": "bec8fa6fb54fdce16ff683502f1283caca50ccc2cb3da333aeede041bc90de10"
+    },
+    {
+      "path": "python-diffs/litellm__llms__dataforseo__search__transformation.py.diff",
+      "bytes": 703,
+      "sha256": "8d50f3214cf8e2ad7c57d494b3a89947d0db83d99a164675927f0368c8c6c85d"
+    },
+    {
+      "path": "python-diffs/litellm__llms__deepinfra__rerank__transformation.py.diff",
+      "bytes": 2348,
+      "sha256": "cfcaa3fbbf36be3bd9ec840002718195f2a2e376550fa4ab4f0c0ce2c3de6efb"
+    },
+    {
+      "path": "python-diffs/litellm__llms__e2b__sandbox__transformation.py.diff",
+      "bytes": 2366,
+      "sha256": "8bc981ffef4ff86acb25e7e4266f248eb040084a39eba164a03b27f3032e0ffe"
+    },
+    {
+      "path": "python-diffs/litellm__llms__elevenlabs__text_to_speech__transformation.py.diff",
+      "bytes": 2315,
+      "sha256": "0f9b32660473ad9e7664db27add70ebc99ea23e9dec1b559e7fd8475902264c3"
+    },
+    {
+      "path": "python-diffs/litellm__llms__fireworks_ai__chat__transformation.py.diff",
+      "bytes": 1068,
+      "sha256": "0fa73e8ff4005e2480a580461179bf5b67620f160f8ff04416fbe612703b69cd"
+    },
+    {
+      "path": "python-diffs/litellm__llms__fireworks_ai__common_utils.py.diff",
+      "bytes": 1421,
+      "sha256": "949d4ac03c0bfd2f2f870cd8bde3d86a959652eaedadbdfba2bfd41b24cc63a1"
+    },
+    {
+      "path": "python-diffs/litellm__llms__fireworks_ai__cost_calculator.py.diff",
+      "bytes": 4265,
+      "sha256": "de7d97f55c117f5b523d10848245279e3884cdbd62b4a37933739af6e2dc1b20"
+    },
+    {
+      "path": "python-diffs/litellm__llms__fireworks_ai__rerank__transformation.py.diff",
+      "bytes": 597,
+      "sha256": "9d15678146f5e8bf2c90f3abaa294d70d2e1c55a3b8c9d1cc2103c5c0a54407d"
+    },
+    {
+      "path": "python-diffs/litellm__llms__gdc__chat__transformation.py.diff",
+      "bytes": 4769,
+      "sha256": "434bce2e00940a6eb0922e4983d1f6605f382b2e3d2bfc0f97b9c66aaf5a88b1"
+    },
+    {
+      "path": "python-diffs/litellm__llms__gemini__agents__transformation.py.diff",
+      "bytes": 2746,
+      "sha256": "c561a3bc14e22b694d258e2f8ee647a11483a9ecd0e31f34a8b4b2cad99ca57b"
+    },
+    {
+      "path": "python-diffs/litellm__llms__gemini__common_utils.py.diff",
+      "bytes": 7631,
+      "sha256": "9594ce6e5ac7d029c56225f6e8f42a6ca6db155a5911fc559f6e11f3fe47e4af"
+    },
+    {
+      "path": "python-diffs/litellm__llms__gemini__count_tokens__handler.py.diff",
+      "bytes": 607,
+      "sha256": "f462f76a2fd1553f6d9d50861a5432a6a2161284f90bfff1e680f7cbf33c3cce"
+    },
+    {
+      "path": "python-diffs/litellm__llms__gemini__files__transformation.py.diff",
+      "bytes": 3125,
+      "sha256": "f65aa341cd5c85e20e18f1855855ac51fdc1ec6ac9952b178f144890a10e6ffa"
+    },
+    {
+      "path": "python-diffs/litellm__llms__gemini__google_genai__transformation.py.diff",
+      "bytes": 1186,
+      "sha256": "6d4e888b10b6a1f06c77ef4d5da51dca4bd0e30d642cbfa66942337282f91ea1"
+    },
+    {
+      "path": "python-diffs/litellm__llms__gemini__interactions__transformation.py.diff",
+      "bytes": 4354,
+      "sha256": "a13113056d7d39ee4cef4d7d8180bb1939bd364c6e57f439145bdbaeecb1cb9e"
+    },
+    {
+      "path": "python-diffs/litellm__llms__gemini__realtime__transformation.py.diff",
+      "bytes": 8211,
+      "sha256": "86b8e1cff9f6d2d639bb025968fd18f9735ed05cc7efd94e5ad72ff59d6069c0"
+    },
+    {
+      "path": "python-diffs/litellm__llms__gemini__videos__transformation.py.diff",
+      "bytes": 5383,
+      "sha256": "feda2c0bcbd8bbbcb65fea74e5b5e0af7a8535fe176d0c32deff5da10605573f"
+    },
+    {
+      "path": "python-diffs/litellm__llms__gigachat____init__.py.diff",
+      "bytes": 455,
+      "sha256": "7944b1b10e94fb346a87c26a0fc5e3a2aed318a78e993e98c26ee0cc8c49b1b1"
+    },
+    {
+      "path": "python-diffs/litellm__llms__gigachat__authenticator.py.diff",
+      "bytes": 8434,
+      "sha256": "884fca5045fe6b0c27e398b44d1260e822984ec0ba14d84190cf119c792e3199"
+    },
+    {
+      "path": "python-diffs/litellm__llms__gigachat__chat____init__.py.diff",
+      "bytes": 351,
+      "sha256": "f56d4e060b3bb7b3185082f15d3df51c0a80617c487c4079a9473c56279ca83c"
+    },
+    {
+      "path": "python-diffs/litellm__llms__gigachat__chat__streaming.py.diff",
+      "bytes": 5118,
+      "sha256": "0e09db134fe6f64fea916f55259a995ef11be48a3d3448b6113fb7d85858582c"
+    },
+    {
+      "path": "python-diffs/litellm__llms__gigachat__chat__transformation.py.diff",
+      "bytes": 16710,
+      "sha256": "54193c2a70a65326a0d222531393fa92a5317805efa4efcfc6867e834d9ccf44"
+    },
+    {
+      "path": "python-diffs/litellm__llms__gigachat__embedding__transformation.py.diff",
+      "bytes": 2907,
+      "sha256": "fc4c8d4f65982a784ba1fdf5c5956992f609d5199b59eb6da4d20d356153726e"
+    },
+    {
+      "path": "python-diffs/litellm__llms__gigachat__file_handler.py.diff",
+      "bytes": 3463,
+      "sha256": "6a5e542c89e4d87fc7bb04280eaaab01a7cb959a35b7ae9c36525b0369dab86c"
+    },
+    {
+      "path": "python-diffs/litellm__llms__gigachat__passthrough____init__.py.diff",
+      "bytes": 275,
+      "sha256": "95fa67a664612b6eacb0b341aa79b03c827c88626229274e635eca2fec11948e"
+    },
+    {
+      "path": "python-diffs/litellm__llms__gigachat__passthrough__transformation.py.diff",
+      "bytes": 8519,
+      "sha256": "5c0183bf91c5846b68c55ebfd67fe9ba0ec1d2aac46a5457d9cedde77eb0eb66"
+    },
+    {
+      "path": "python-diffs/litellm__llms__gigachat__utils.py.diff",
+      "bytes": 1143,
+      "sha256": "679264cbc4acea2f6e60c15fd54b7f34261e39630b6604261f7f83fdf6acd130"
+    },
+    {
+      "path": "python-diffs/litellm__llms__hosted_vllm__rerank__transformation.py.diff",
+      "bytes": 3386,
+      "sha256": "307ea9047b3ff4366aa2fca32526be5a65c12c4a1e47a83b38f970be0057cd5a"
+    },
+    {
+      "path": "python-diffs/litellm__llms__huggingface__embedding__handler.py.diff",
+      "bytes": 1658,
+      "sha256": "2176df7d0c40ad168fbd435b2203ac4a8beed43349bafb00e82e7e5062eae90d"
+    },
+    {
+      "path": "python-diffs/litellm__llms__huggingface__embedding__transformation.py.diff",
+      "bytes": 2230,
+      "sha256": "f33a1171a8d69564c03213ed20632f6fb505fd08c29b38ad4718dad32940a98d"
+    },
+    {
+      "path": "python-diffs/litellm__llms__infinity__rerank__transformation.py.diff",
+      "bytes": 1797,
+      "sha256": "c5038d8b678df7d235632bfe1d3e09795deec0b3ae4816bf09a98d315d3b6181"
+    },
+    {
+      "path": "python-diffs/litellm__llms__jina_ai__rerank__transformation.py.diff",
+      "bytes": 678,
+      "sha256": "5bfdc53c7aaa7d3d0028b10526803c07616dc7ce6db53240fdf483395ebbb872"
+    },
+    {
+      "path": "python-diffs/litellm__llms__langflow__a2a.py.diff",
+      "bytes": 1293,
+      "sha256": "f66d8df4bc7f3b1bf425e97d2aef6108011eab8902e76289023c0de46488e7cb"
+    },
+    {
+      "path": "python-diffs/litellm__llms__litellm_proxy__skills__code_execution.py.diff",
+      "bytes": 7845,
+      "sha256": "c39e0933505d20446c0a8e6cda98de8668bae50e4889c52b7277c56369df6bb5"
+    },
+    {
+      "path": "python-diffs/litellm__llms__litellm_proxy__skills__handler.py.diff",
+      "bytes": 2370,
+      "sha256": "730d7ea30042c1e86645112cd15a31ebde935cd69dd2389b4494a86e2a1bc9d4"
+    },
+    {
+      "path": "python-diffs/litellm__llms__litellm_proxy__skills__sandbox_executor.py.diff",
+      "bytes": 1941,
+      "sha256": "f0420908a3a5d7d779d9b5a9b9b2d560eef94f1e1988492ec6af5594b04ba84c"
+    },
+    {
+      "path": "python-diffs/litellm__llms__milvus__vector_stores__transformation.py.diff",
+      "bytes": 7006,
+      "sha256": "f7fd8f3dc74a8dbbb91c0f5ab1ae096fd8fb1a605debdd2e90f022acead99d80"
+    },
+    {
+      "path": "python-diffs/litellm__llms__minimax__text_to_speech__transformation.py.diff",
+      "bytes": 1623,
+      "sha256": "4c354280d1b5925fe42bc6843c001a4829b7749e37df9e2a61806433b36d10f3"
+    },
+    {
+      "path": "python-diffs/litellm__llms__mongodb____init__.py.diff",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "python-diffs/litellm__llms__mongodb__common_utils.py.diff",
+      "bytes": 14697,
+      "sha256": "4a01eb857db1ed272ea55b6159d986a9386a0d4eab481891670db6a6e7c34be4"
+    },
+    {
+      "path": "python-diffs/litellm__llms__mongodb__vector_stores____init__.py.diff",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "python-diffs/litellm__llms__mongodb__vector_stores__transformation.py.diff",
+      "bytes": 20673,
+      "sha256": "436cc0ce1371fd3bdb79871ff855e8cb873fc71bdf0a7ab74c1856d10ee9ceff"
+    },
+    {
+      "path": "python-diffs/litellm__llms__nvidia_riva__audio_transcription__audio_utils.py.diff",
+      "bytes": 1491,
+      "sha256": "d92868a60430879464cfabc52ff5b274a7263d17e57f941d09492685b3308371"
+    },
+    {
+      "path": "python-diffs/litellm__llms__oci__chat__cohere.py.diff",
+      "bytes": 627,
+      "sha256": "dad4257324bebe6e65256a748264045328541765e12c1914b6a70cdbd814b43a"
+    },
+    {
+      "path": "python-diffs/litellm__llms__oci__common_utils.py.diff",
+      "bytes": 4709,
+      "sha256": "8e6b67dab0909782a98b0f959181c9c6dc67b2fb126ff91c047fcc78100381a5"
+    },
+    {
+      "path": "python-diffs/litellm__llms__ollama__chat__transformation.py.diff",
+      "bytes": 1548,
+      "sha256": "72ed43981d8dcfc8db692b1c6b0ff17e40e7e9f5ceece9964ef2ac6f506046d8"
+    },
+    {
+      "path": "python-diffs/litellm__llms__ollama__completion__handler.py.diff",
+      "bytes": 3035,
+      "sha256": "e1842ec0cf90d6883256115f42be1486b90908715df040f62626aa6e79faf98d"
+    },
+    {
+      "path": "python-diffs/litellm__llms__openai__chat__gpt_5_transformation.py.diff",
+      "bytes": 2294,
+      "sha256": "f4a39a8b1f9d4f670543c5ae39038cf7033c642f4eb6568827d107592d872eb6"
+    },
+    {
+      "path": "python-diffs/litellm__llms__openai__chat__gpt_transformation.py.diff",
+      "bytes": 8757,
+      "sha256": "0de4fbab01d5893004e0c9e7a98ad8cabbe74acae6561416f996009d76f79390"
+    },
+    {
+      "path": "python-diffs/litellm__llms__openai__chat__guardrail_translation__handler.py.diff",
+      "bytes": 13989,
+      "sha256": "c601c8a06836a3f01832aeb38723be3c9df4a9e38f47268b855e74f9e9cbf7de"
+    },
+    {
+      "path": "python-diffs/litellm__llms__openai__common_utils.py.diff",
+      "bytes": 2112,
+      "sha256": "058353424960ecbd09760f7167245a606755b6c122a45132e2513a78aa28e686"
+    },
+    {
+      "path": "python-diffs/litellm__llms__openai__containers__transformation.py.diff",
+      "bytes": 6852,
+      "sha256": "9db4b3a5a822fdd3470fb0453058f38df9ad3d3d3f66180c02e45c7559077530"
+    },
+    {
+      "path": "python-diffs/litellm__llms__openai__fine_tuning__handler.py.diff",
+      "bytes": 3014,
+      "sha256": "0c5f0fad0c2dfaa4f8e75b322b97e591117c9c9f891b5dd7314f7aef3c9a1675"
+    },
+    {
+      "path": "python-diffs/litellm__llms__openai__image_generation__gpt_transformation.py.diff",
+      "bytes": 865,
+      "sha256": "7af178e01817ecba6777223edc6c3020c9680a7a473e6599882808a47878b13f"
+    },
+    {
+      "path": "python-diffs/litellm__llms__openai__image_variations__handler.py.diff",
+      "bytes": 1269,
+      "sha256": "a9e572bff73a6d3c6a265092e8a3e13e7b88e07d9e16995505788bda1410b937"
+    },
+    {
+      "path": "python-diffs/litellm__llms__openai__openai.py.diff",
+      "bytes": 12169,
+      "sha256": "ceca4f7cd11a160b754c57381df2ddc0280daad606d025f7648095d75d4f6c44"
+    },
+    {
+      "path": "python-diffs/litellm__llms__openai__realtime__handler.py.diff",
+      "bytes": 1279,
+      "sha256": "6fdf7dfb5323c7466a485153b787691255aada12ed80c861e71af3fb54f72d8c"
+    },
+    {
+      "path": "python-diffs/litellm__llms__openai__responses__count_tokens__token_counter.py.diff",
+      "bytes": 822,
+      "sha256": "d10a8114100d7b25c87a806248206b0aa30c4a6c2230038b9c70abf15ab0ca22"
+    },
+    {
+      "path": "python-diffs/litellm__llms__openai__responses__count_tokens__transformation.py.diff",
+      "bytes": 7458,
+      "sha256": "87c4aeeab78b2c6f1fe1313e24e6f84f5db7d35501c06f2b8951c9cb257320d4"
+    },
+    {
+      "path": "python-diffs/litellm__llms__openai__responses__guardrail_translation__handler.py.diff",
+      "bytes": 43761,
+      "sha256": "190ef5b8e5ff16498f1193e00a9a7e84d839b3c1a20994bd25d2c08221c14c06"
+    },
+    {
+      "path": "python-diffs/litellm__llms__openai__responses__guardrail_translation__tool_merge.py.diff",
+      "bytes": 7765,
+      "sha256": "87cc50493d64d301560e3e9bdfbe067851744a9cdd6dd72788c397924f5e6fcc"
+    },
+    {
+      "path": "python-diffs/litellm__llms__openai__responses__transformation.py.diff",
+      "bytes": 14428,
+      "sha256": "69630189cda386fef0310a5b70c3bcf7357dc6c91c310ac895b2bd05ac5b43df"
+    },
+    {
+      "path": "python-diffs/litellm__llms__openai__vector_store_files__transformation.py.diff",
+      "bytes": 3550,
+      "sha256": "a38373248094aaaf9dbfeca3f200cf7a11d8202dc6f44152786fbf3e92315772"
+    },
+    {
+      "path": "python-diffs/litellm__llms__openai__vector_stores__transformation.py.diff",
+      "bytes": 568,
+      "sha256": "6865c161223df635afdd9bd0ab7b35cfddb9ce724c15acd6aa2b4a81070da15a"
+    },
+    {
+      "path": "python-diffs/litellm__llms__openai__videos__transformation.py.diff",
+      "bytes": 446,
+      "sha256": "1fd516806ecc183066be4cd184e5235e277d793451a0808237ed7ee4870857fa"
+    },
+    {
+      "path": "python-diffs/litellm__llms__openai__workload_identity.py.diff",
+      "bytes": 3940,
+      "sha256": "fb55cbd3c18142f0c49ad3fd5fd70bfdf24a48d6a634b83806266f6db7400669"
+    },
+    {
+      "path": "python-diffs/litellm__llms__openai_like__chat__handler.py.diff",
+      "bytes": 2460,
+      "sha256": "e63a901979031727d242b4cf7e9bfd79128390cd174358667a4c4fe13e4601be"
+    },
+    {
+      "path": "python-diffs/litellm__llms__openai_like__messages__transformation.py.diff",
+      "bytes": 3475,
+      "sha256": "e1b1323775b817eba8343a90a293e0ee52e6b5a4729cd7c37a109ec438d1e5bc"
+    },
+    {
+      "path": "python-diffs/litellm__llms__openrouter__image_edit__transformation.py.diff",
+      "bytes": 748,
+      "sha256": "4824cc45ec29f87f036cf5bd31b490b0871f5a27d3718d360f3825fba063fc35"
+    },
+    {
+      "path": "python-diffs/litellm__llms__opensandbox__sandbox__transformation.py.diff",
+      "bytes": 3669,
+      "sha256": "fd6e0cb1dfc5fac61441d73a53244549545126d4e45f4c88913b6b1c60b289f2"
+    },
+    {
+      "path": "python-diffs/litellm__llms__parallel_ai__search__cost_calculator.py.diff",
+      "bytes": 3744,
+      "sha256": "ec431670c698905cc8ebae64d36673c98bf05d7259ea90c9a6cdb5bb3969982a"
+    },
+    {
+      "path": "python-diffs/litellm__llms__parallel_ai__search__transformation.py.diff",
+      "bytes": 11221,
+      "sha256": "f5d881aa6159e075646bb0d8be0bb29f738acf9d6dc8c3484c9960f2e9591227"
+    },
+    {
+      "path": "python-diffs/litellm__llms__pass_through__guardrail_translation__handler.py.diff",
+      "bytes": 1816,
+      "sha256": "c12d75311dbad559b6c3b0e0587f7aa55662b6b1065a931ada5d3fcec6e38b2e"
+    },
+    {
+      "path": "python-diffs/litellm__llms__perplexity__cost_calculator.py.diff",
+      "bytes": 2471,
+      "sha256": "0f463891c89d96205678e3cfe27e9d406149d958a65c7a2372dc14625c37c62e"
+    },
+    {
+      "path": "python-diffs/litellm__llms__perplexity__embedding__transformation.py.diff",
+      "bytes": 962,
+      "sha256": "3eff4b8780eb4599a2e1984ae3fb46734054476cd2f33b0fa2d7ffdae363118d"
+    },
+    {
+      "path": "python-diffs/litellm__llms__predibase__chat__transformation.py.diff",
+      "bytes": 2190,
+      "sha256": "953783832080ec5759696f0c1a4b626cd4e5e449605fc09ed3f8b39c199968cf"
+    },
+    {
+      "path": "python-diffs/litellm__llms__ragflow__vector_stores__transformation.py.diff",
+      "bytes": 975,
+      "sha256": "05e55c6e5d8e713749d59c57a949d745c856edf859803f9689bf731ee42067eb"
+    },
+    {
+      "path": "python-diffs/litellm__llms__runwayml__image_generation__transformation.py.diff",
+      "bytes": 2941,
+      "sha256": "faaf6490ac4f02168d1b1cc8304c48369e002260cb1522aa9207bde04dc47b8e"
+    },
+    {
+      "path": "python-diffs/litellm__llms__runwayml__text_to_speech__transformation.py.diff",
+      "bytes": 3952,
+      "sha256": "11b630f472e6fa697b53a584702be7b5733f7376f6b57075504402dbcdf0781a"
+    },
+    {
+      "path": "python-diffs/litellm__llms__runwayml__videos__transformation.py.diff",
+      "bytes": 6534,
+      "sha256": "967e62bf061cee578cfc903d71fb4c63cab2784cbb433b2c5b1e113f04c705e6"
+    },
+    {
+      "path": "python-diffs/litellm__llms__s3_vectors__vector_stores__transformation.py.diff",
+      "bytes": 11290,
+      "sha256": "a315de74ee67e64107d33ab5f4bc126ea7d6583653d01ff74d4bb7b8c45889cf"
+    },
+    {
+      "path": "python-diffs/litellm__llms__sap__credentials.py.diff",
+      "bytes": 4014,
+      "sha256": "56a1cb7e5126384e1d1f62bd8ccaf916ffc19f68fe3e8d790bbf023094697327"
+    },
+    {
+      "path": "python-diffs/litellm__llms__snowflake__chat__transformation.py.diff",
+      "bytes": 22753,
+      "sha256": "65c60e954c8db067103849a9f28eef1dbc8fde877148f33031413b97997bda0c"
+    },
+    {
+      "path": "python-diffs/litellm__llms__soniox__audio_transcription__transformation.py.diff",
+      "bytes": 1159,
+      "sha256": "54f35b5c20a98a12f64da38027d2722b3558927a2e71c27be9e4ea84a6c7f857"
+    },
+    {
+      "path": "python-diffs/litellm__llms__valkey__vector_stores__transformation.py.diff",
+      "bytes": 3783,
+      "sha256": "7fa6bca69303bc4eff8416e2a2cd21edcd5af3a14fa9fc3c71906be96624f9bb"
+    },
+    {
+      "path": "python-diffs/litellm__llms__vertex_ai__common_utils.py.diff",
+      "bytes": 7731,
+      "sha256": "fc9da2e12b0c77ec2be9b7d7630a2c90214aae948070d77081791bfa1da6372d"
+    },
+    {
+      "path": "python-diffs/litellm__llms__vertex_ai__files__transformation.py.diff",
+      "bytes": 4983,
+      "sha256": "e657772706ba32dd6c316df872121f94639120d464ffa5096aa8b9091fb3f95e"
+    },
+    {
+      "path": "python-diffs/litellm__llms__vertex_ai__fine_tuning__handler.py.diff",
+      "bytes": 834,
+      "sha256": "3eb75f4110f0394018a1860b57cbdcce91ab4375f5bafce3bebdd6807caa3e83"
+    },
+    {
+      "path": "python-diffs/litellm__llms__vertex_ai__gemini__transformation.py.diff",
+      "bytes": 3682,
+      "sha256": "6f6e56943997244c35b695a37499f0139ecc5e0c4c7fd0b9cdb6f4bacfb32eb6"
+    },
+    {
+      "path": "python-diffs/litellm__llms__vertex_ai__gemini__vertex_and_google_ai_studio_gemini.py.diff",
+      "bytes": 608,
+      "sha256": "41dce8177d5d14d6a227882a0746c7101ae51dc1b1c5dc87ff17bb1b60c9a87f"
+    },
+    {
+      "path": "python-diffs/litellm__llms__vertex_ai__image_edit__vertex_gemini_transformation.py.diff",
+      "bytes": 472,
+      "sha256": "b4b5180b363627fa1f3994215b31b1006c4dfb063db6529760a23c66e4f21399"
+    },
+    {
+      "path": "python-diffs/litellm__llms__vertex_ai__ocr__deepseek_transformation.py.diff",
+      "bytes": 569,
+      "sha256": "ee9115d6d401c31605b5bf6fc688c4c4dc7814e9f706f696171a9b9489faec85"
+    },
+    {
+      "path": "python-diffs/litellm__llms__vertex_ai__rag_engine__ingestion.py.diff",
+      "bytes": 1151,
+      "sha256": "6ba27dc357a2fa41967fbb37382e47eb86a7dbfde32248948f8d23a5d42e73d2"
+    },
+    {
+      "path": "python-diffs/litellm__llms__vertex_ai__text_to_speech__transformation.py.diff",
+      "bytes": 3040,
+      "sha256": "f531c96f91065afc2098043743416fbbbcd788a40a0ec41b4c337b5945d765f6"
+    },
+    {
+      "path": "python-diffs/litellm__llms__vertex_ai__vector_stores__rag_api__transformation.py.diff",
+      "bytes": 1932,
+      "sha256": "398e4ededbb76e5d982c06238f9255449eaa3f16b658c31ee980734353787ad0"
+    },
+    {
+      "path": "python-diffs/litellm__llms__vertex_ai__vertex_ai_partner_models__anthropic__transformation.py.diff",
+      "bytes": 1859,
+      "sha256": "34c9f92324adeb3b4651bfb10dc68843b5649748c5d72c7238ab9ee80345d672"
+    },
+    {
+      "path": "python-diffs/litellm__llms__vertex_ai__vertex_llm_base.py.diff",
+      "bytes": 9638,
+      "sha256": "6261bd7e5269347248261b251c14902b14350c0066b0e9ed5f1554868fcc4d1e"
+    },
+    {
+      "path": "python-diffs/litellm__llms__vertex_ai__videos__transformation.py.diff",
+      "bytes": 833,
+      "sha256": "1ac32fc08a395504c4417554fbc3bb34330b7db781309a7744b6b4a12e197778"
+    },
+    {
+      "path": "python-diffs/litellm__llms__voyage__embedding__transformation_multimodal.py.diff",
+      "bytes": 1075,
+      "sha256": "d5b792c667650083df9bfc15e81e315e3786e47b8b40e964e3ee7e69580c5cfd"
+    },
+    {
+      "path": "python-diffs/litellm__llms__voyage__rerank__transformation.py.diff",
+      "bytes": 910,
+      "sha256": "d237a99082a1fdeedc967df20d89225a248df8690d90f029076d9a39046c54c0"
+    },
+    {
+      "path": "python-diffs/litellm__llms__xai__chat__transformation.py.diff",
+      "bytes": 2331,
+      "sha256": "74f6df056d21a7aaa151bf67a1bd54ebaa533e95d33e6540605546108da75068"
+    },
+    {
+      "path": "python-diffs/litellm__llms__xai__common_utils.py.diff",
+      "bytes": 750,
+      "sha256": "538f1384626db637bcc94825c164bb86f000cfc573ad4c6a552dee90e9fd2316"
+    },
+    {
+      "path": "python-diffs/litellm__llms__xai__cost_calculator.py.diff",
+      "bytes": 2067,
+      "sha256": "3b2c9b7f02250252dca617a7175c445b4ca20e87a17141f4c9ecedc8a6c637e6"
+    },
+    {
+      "path": "python-diffs/litellm__llms__xai__responses__transformation.py.diff",
+      "bytes": 5022,
+      "sha256": "8567f254113428ad74158ba50bd8acdbdc5779a3d18d51d73f878c4c277deca8"
+    },
+    {
+      "path": "python-diffs/litellm__main.py.diff",
+      "bytes": 10846,
+      "sha256": "d5cee29a68399f226c9902fe04b2813fce2b49c04b420e24d3902ad63641ef99"
+    },
+    {
+      "path": "python-diffs/litellm__models__base.py.diff",
+      "bytes": 478,
+      "sha256": "46e79a820879c6a40b8e92c21c3f307b10eb5c98c1a0e92960c31e8253e2d2d1"
+    },
+    {
+      "path": "python-diffs/litellm__models__model.py.diff",
+      "bytes": 423,
+      "sha256": "f8d6ff4692599eb672b4e0a975e264937e4d93ece093d0e68272f4b1a6abdbaa"
+    },
+    {
+      "path": "python-diffs/litellm__models__user.py.diff",
+      "bytes": 730,
+      "sha256": "e61618fc580c7d2748e6a84d0afa740c875ca29714e8d8612b1d69d607222e46"
+    },
+    {
+      "path": "python-diffs/litellm__ocr__main.py.diff",
+      "bytes": 1728,
+      "sha256": "f49586330beaa8eb8ca7a7f9d7909188f1c9a1c2a7d445dc66d42f60947802f0"
+    },
+    {
+      "path": "python-diffs/litellm__passthrough__main.py.diff",
+      "bytes": 20063,
+      "sha256": "feac3fe7407881bd9ab837978e1daebdb6163c3c77485382222c5db9c81fc69f"
+    },
+    {
+      "path": "python-diffs/litellm__proxy___experimental__mcp_server__auth__user_api_key_auth_mcp.py.diff",
+      "bytes": 8267,
+      "sha256": "321ea5a46a23cb3f47999f39dab1c495198a1aedfa595402fd1b495d26120497"
+    },
+    {
+      "path": "python-diffs/litellm__proxy___experimental__mcp_server__bridge_token_flow.py.diff",
+      "bytes": 4418,
+      "sha256": "3de0c2085b6bc31ebab3f4ce8544cce4f5865b012283034ef4969f7734d77bf5"
+    },
+    {
+      "path": "python-diffs/litellm__proxy___experimental__mcp_server__discoverable_endpoints.py.diff",
+      "bytes": 8160,
+      "sha256": "e67a64f71ea7566d25c9d27883d98cc38b6d727c38a4d6b5404763850dcb5db9"
+    },
+    {
+      "path": "python-diffs/litellm__proxy___experimental__mcp_server__elicitation_handler.py.diff",
+      "bytes": 3875,
+      "sha256": "1378ad57861e995e1d006e78215ec6886eef76a2cbe23d4c58572182e3d3b3fe"
+    },
+    {
+      "path": "python-diffs/litellm__proxy___experimental__mcp_server__exceptions.py.diff",
+      "bytes": 800,
+      "sha256": "db889e3791a4fc7ed7c8488c75dd6d628ccf6a304e7d987d8558eeb9626cb1b3"
+    },
+    {
+      "path": "python-diffs/litellm__proxy___experimental__mcp_server__gateway_dcr_flow.py.diff",
+      "bytes": 3622,
+      "sha256": "d7b01fbeb29d0dae26a354ba7aebc06525e6b997fa82c521a1c670342fad66a7"
+    },
+    {
+      "path": "python-diffs/litellm__proxy___experimental__mcp_server__guardrail_translation__handler.py.diff",
+      "bytes": 10209,
+      "sha256": "8bf67b8626f465f774d9a0c94ce8fb13760a8440cee1eceeef0c93a8a69b8ebe"
+    },
+    {
+      "path": "python-diffs/litellm__proxy___experimental__mcp_server__mcp_server_manager.py.diff",
+      "bytes": 39790,
+      "sha256": "902043e1622414cfa5a2af41b63ac871035ff1566586d310c9e503601f6920f4"
+    },
+    {
+      "path": "python-diffs/litellm__proxy___experimental__mcp_server__oauth2_flow_backfill.py.diff",
+      "bytes": 4091,
+      "sha256": "3f5d9ba2c31e79b80538ba5dd85040a614c221716b784ecb684d1e306e4c33e8"
+    },
+    {
+      "path": "python-diffs/litellm__proxy___experimental__mcp_server__outbound_credentials__adapter.py.diff",
+      "bytes": 1513,
+      "sha256": "48210b7a6d75b141afa9c01740e48268c96cc2850d0d830725dca3e848f7c1f8"
+    },
+    {
+      "path": "python-diffs/litellm__proxy___experimental__mcp_server__outbound_credentials__client_credentials.py.diff",
+      "bytes": 2927,
+      "sha256": "77fa42d19cd8cc2c2e96c90ba12d13943ff36320464219812f52627b4feb9dfb"
+    },
+    {
+      "path": "python-diffs/litellm__proxy___experimental__mcp_server__outbound_credentials__per_user_oauth_store.py.diff",
+      "bytes": 2066,
+      "sha256": "8aab4e2bbec2b9721c1a0b98edee40e8ea8898f8650ea7bd61dc18fb92cd1e61"
+    },
+    {
+      "path": "python-diffs/litellm__proxy___experimental__mcp_server__outbound_credentials__resolver.py.diff",
+      "bytes": 3689,
+      "sha256": "44e5823477080d9c777aa671aad05e7ac638987ff88f16524c3b4dc6bf27441f"
+    },
+    {
+      "path": "python-diffs/litellm__proxy___experimental__mcp_server__outbound_credentials__runtime_refresh_coordinator.py.diff",
+      "bytes": 2252,
+      "sha256": "c9a93ff96d5d65d7e574b8a03a8d62d0f2d404affc68e49ac1a5e17d0ec53442"
+    },
+    {
+      "path": "python-diffs/litellm__proxy___experimental__mcp_server__outbound_credentials__sso_assertion_refresher.py.diff",
+      "bytes": 24430,
+      "sha256": "03fcd4a012513291913d17b5dfbc1d633fb2725c681d76cfa886fcc4670ce48c"
+    },
+    {
+      "path": "python-diffs/litellm__proxy___experimental__mcp_server__outbound_credentials__sso_assertion_store.py.diff",
+      "bytes": 8925,
+      "sha256": "8503d9ef02394525a7ad907d4e37d4fc223863b7c9cf9cd354a8520f89663ba3"
+    },
+    {
+      "path": "python-diffs/litellm__proxy___experimental__mcp_server__outbound_credentials__token_endpoint.py.diff",
+      "bytes": 6856,
+      "sha256": "03c0080fed4b0a48b46043c60839ec24d7d49edd524ba26b9e68e13ef2ce70c1"
+    },
+    {
+      "path": "python-diffs/litellm__proxy___experimental__mcp_server__outbound_credentials__types.py.diff",
+      "bytes": 2031,
+      "sha256": "b66ed6eab0fec3436b9ec365e6a15d2cef0483ec6914ff8c8c2957151e8f0274"
+    },
+    {
+      "path": "python-diffs/litellm__proxy___experimental__mcp_server__rest_endpoints.py.diff",
+      "bytes": 13330,
+      "sha256": "583ba6d5d91748533193854691121aebe09bd9db925c60dda6a262361f4c9e66"
+    },
+    {
+      "path": "python-diffs/litellm__proxy___experimental__mcp_server__semantic_tool_filter.py.diff",
+      "bytes": 3525,
+      "sha256": "deceb9e2b8baa4445dfb765da06fc0197a479cad68575b3626de8ddedbd35819"
+    },
+    {
+      "path": "python-diffs/litellm__proxy___experimental__mcp_server__server.py.diff",
+      "bytes": 6167,
+      "sha256": "a1d9ce1f6f786ffbf5f2f95c8effc2152ce91f52d3a30ee801841a88563069b4"
+    },
+    {
+      "path": "python-diffs/litellm__proxy___experimental__mcp_server__tool_search.py.diff",
+      "bytes": 8678,
+      "sha256": "ea35a24d4df320b5d2ce08386fcf1229fbc9bc3ea1217e144832f9bd1d84779d"
+    },
+    {
+      "path": "python-diffs/litellm__proxy___experimental__mcp_server__toolset_db.py.diff",
+      "bytes": 6022,
+      "sha256": "8624c53901c12fc9e074f01398b41d524339a0a68c43047ed2213f5e0b26312b"
+    },
+    {
+      "path": "python-diffs/litellm__proxy___experimental__mcp_server__utils.py.diff",
+      "bytes": 3592,
+      "sha256": "a6b40eb569a96801371315e3e0bb864b28861289fa784a73ce2d744c2fd5d0d8"
+    },
+    {
+      "path": "python-diffs/litellm__proxy___types.py.diff",
+      "bytes": 11325,
+      "sha256": "9aede3215d9f66bbf486767d83c1312799a4314344258015606d5829fcfd1d56"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__a2a__version_convert.py.diff",
+      "bytes": 1790,
+      "sha256": "78a5f89549de38c7d5c623f72bd6f702f544a29db6e4bd32b7d9e7e73b4c427a"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__agent_endpoints__a2a_endpoints.py.diff",
+      "bytes": 2312,
+      "sha256": "54f59661558d351161b77ec3e7d5a6492400ba62c97cd62f0b69bbbb01cc99cc"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__agent_endpoints__agent_registry.py.diff",
+      "bytes": 15086,
+      "sha256": "312cd541f09140cc4138c4ce1c00f1692b82cebdc0866e9a396b9b7bfca05019"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__agent_endpoints__agent_search.py.diff",
+      "bytes": 7032,
+      "sha256": "d82404fdd219fabdeff7c3ad53fb88c2de038bee68b04d2c583327aa262a6c77"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__agent_endpoints__auth__agent_permission_handler.py.diff",
+      "bytes": 3386,
+      "sha256": "7b0556023e93c5767109c9f64542fd6d4707c110746ab4c33e9da2d8a5736f9e"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__agent_endpoints__endpoints.py.diff",
+      "bytes": 7822,
+      "sha256": "3afffd05f440c965a6f7f1fa450bf56333d6d22e962b08b63d406a2cc18c0125"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__anthropic_endpoints__endpoints.py.diff",
+      "bytes": 3282,
+      "sha256": "747a916396efbd76060e96102a015a39a05498dabb1148d5e93107c5fe471cbc"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__anthropic_endpoints__streaming_model_restamp.py.diff",
+      "bytes": 7354,
+      "sha256": "3d029b93fc47c29e6fbba324a4ea38495b9dd4d63e555969dc6f552cd9aa52bb"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__auth__auth_checks.py.diff",
+      "bytes": 7411,
+      "sha256": "d8134ff748a8b975ffc37c82ec21cd6a4370245d88893df8ee187d54c2e47d31"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__auth__auth_exception_handler.py.diff",
+      "bytes": 6513,
+      "sha256": "35a48571c6037028e7fe6f58d91833cde354653afac110e61de89a516b406b3e"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__auth__auth_utils.py.diff",
+      "bytes": 7673,
+      "sha256": "f279d8deae6689f55d1518100ef05c00a927598f499fd47a5ea746f3656f702a"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__auth__handle_jwt.py.diff",
+      "bytes": 4124,
+      "sha256": "5a353645c8d33d5df74c32d55c174027ff6d006c02822e951ad958c6da705c7d"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__auth__ip_address_utils.py.diff",
+      "bytes": 2556,
+      "sha256": "9d2fe30fab31f624662b5c65b9aac394e2dc357a8a43293aa3ef4ec47287b18a"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__auth__litellm_license.py.diff",
+      "bytes": 2406,
+      "sha256": "7ef2ff30a417de21e8e83e98277d7ed0f506d2c4bca771f37fcc6b592709e24d"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__auth__login_utils.py.diff",
+      "bytes": 3155,
+      "sha256": "7565787780e716ea6973b5132c716b6d0556a30e2f540d93f126aa1fd6339824"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__auth__model_checks.py.diff",
+      "bytes": 2357,
+      "sha256": "9032cf9857d2ded825eb562ca901397cb0d2ff8a11a8c664801f9e17f211074c"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__auth__password_policy.py.diff",
+      "bytes": 4066,
+      "sha256": "476dc69c1a3733ada23c3bc88bacfc6fd15f258003869306ccd77c50b63f4a3e"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__auth__user_api_key_auth.py.diff",
+      "bytes": 3279,
+      "sha256": "4d26cafa86c5f38652233002cae3cd38e38ee425e096c018ba2eff0d0c44ca7e"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__batches_endpoints__endpoints.py.diff",
+      "bytes": 751,
+      "sha256": "efe5ffa01eb9be4c833aecbd20e6608edeb611c1c5ea41dc70a6c6393352ed2f"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__caching_routes.py.diff",
+      "bytes": 1054,
+      "sha256": "c3a8ca3535a31302f1d87895d2c9bcd06d01aabdd0db8cc60ddfeb6ad827eab5"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__client__chat.py.diff",
+      "bytes": 869,
+      "sha256": "280b7fcad73051ee4750bc658ce49c1e920aa8fd956ec03dee84882f3ff91068"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__client__cli__commands__agents.py.diff",
+      "bytes": 13195,
+      "sha256": "fce0647774081e168bd124294ce8e47de439371a6dd26cef0459ec43cb93b960"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__client__cli__commands__auth.py.diff",
+      "bytes": 3039,
+      "sha256": "cfc602b281258bbc0b0109ec5fc3893f76f5b61584f46866932f9a0bfd9de955"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__client__cli__commands__autoroute__settings.py.diff",
+      "bytes": 1027,
+      "sha256": "68c87174aa4cc38dac52a2bab2fba29415956e0eeb2e6653dbb307b627a36c2b"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__client__cli__commands__claude_settings.py.diff",
+      "bytes": 3660,
+      "sha256": "ce063af01899567a154307010c68d94672bd06f09a16a2c2ca77f2bfeeb2bcdc"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__client__cli__commands__cmd_quoting.py.diff",
+      "bytes": 1352,
+      "sha256": "3f49755e6174c0c49e10d622d02c3d19dbdd22ef8dafd1a851573143613a6fc4"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__client__cli__commands__debug.py.diff",
+      "bytes": 14576,
+      "sha256": "9ce21b1243183fd53dbfa7fb93001a203f64a94fcab338169befd3aadb58c913"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__client__cli__commands__models.py.diff",
+      "bytes": 1964,
+      "sha256": "68f27fbc5d07b218203a0e139b9af453366d45ffeca421becc5401fe463cfef9"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__client__cli__commands__teams.py.diff",
+      "bytes": 390,
+      "sha256": "6f50f9b1c275ecae16e1014b7ab7eca98f42cb86177b38840c3262aa1eccc5ad"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__client__cli__commands__users.py.diff",
+      "bytes": 2141,
+      "sha256": "1aad3128fb2f4d6088991c6547c40ccbe50d658880995f19d7da89b5114090de"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__client__cli__main.py.diff",
+      "bytes": 627,
+      "sha256": "076539d0b5ae3dbab96c8664d99e3619bb22e8c7429cfcb28b94ecd8f687a81f"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__client__http_client.py.diff",
+      "bytes": 666,
+      "sha256": "2eb92ed1342c4e334a06d915b6b73b90f4e846c1c617023c1874bcae0337d526"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__client__keys.py.diff",
+      "bytes": 2504,
+      "sha256": "7b3a03669dfb09eb07e3dd527d653b969afa00dff03ae6e792be14ff7f417822"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__client__models.py.diff",
+      "bytes": 1315,
+      "sha256": "b7eccc606e6201346f7e6db85eb4466862aeafa06e3aa359b6418a5cdfa1f4c6"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__client__teams.py.diff",
+      "bytes": 336,
+      "sha256": "aaf5a2d571ff54a05aec6b464b3e258a5c6e4e2d8a16a875444c89701633ce28"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__common_request_processing.py.diff",
+      "bytes": 30735,
+      "sha256": "93b3b7218a66a45d691696b28f184ff800b943533ea2b661d65ddfce90774f70"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__common_utils__cache_coordinator.py.diff",
+      "bytes": 2704,
+      "sha256": "bb84f57a3bd11bfeeb43bab443c3e0847e5870bc6f016a430f995e5d64ac686d"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__common_utils__callback_utils.py.diff",
+      "bytes": 3058,
+      "sha256": "0f5061b1d40677183ecf5b7f85b95bc1be70088a3d351e76a3cd362ee35cf25b"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__common_utils__custom_openapi_spec.py.diff",
+      "bytes": 16599,
+      "sha256": "31c158d0e75345a5d3ae4b213b7fb20e42b3df8c87718537397146b684c0d957"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__common_utils__debug_utils.py.diff",
+      "bytes": 6726,
+      "sha256": "c7bcb41dc2d0e337f65c985c84a5c52de6b8b915cfdc19a565e5bb75a21e01b4"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__common_utils__http_parsing_utils.py.diff",
+      "bytes": 5657,
+      "sha256": "e905f9defef1f36ac7602b61c2db66f8d4934fff7eabbebf8c2f5f9c04571dc1"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__common_utils__model_listing_utils.py.diff",
+      "bytes": 1351,
+      "sha256": "a0a574fe7805650dda6c30ea3e388c354c23ba624332e2b760d7fc028a6f7908"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__common_utils__performance_utils.py.diff",
+      "bytes": 1479,
+      "sha256": "0e1603cb8957d8e25d8c15d0a369a2ad2ba27b2d385b41d17aa193c10ed166cc"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__common_utils__reset_budget_job.py.diff",
+      "bytes": 3021,
+      "sha256": "e607abcc1b62588f2eec1a740502326b7bce740242c0aef189cb3dd58622ba75"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__common_utils__semantic_text_index.py.diff",
+      "bytes": 6027,
+      "sha256": "9ecf36b4c5b1bcb1ede03bd59effbdabb7eb56b804e9ddcd9832369d241b12f2"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__common_utils__user_api_key_cache.py.diff",
+      "bytes": 4790,
+      "sha256": "4720cce23a87ec8656cdec9ec7a0b03febed9848141e42dca2ef6ecce55d92ec"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__container_endpoints__endpoints.py.diff",
+      "bytes": 5612,
+      "sha256": "323a8f1dc91bd644f825d862286c1b5787610144bf8d05819043b32163b3e85e"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__container_endpoints__handler_factory.py.diff",
+      "bytes": 3981,
+      "sha256": "480605f3f2fbb9613ec255ec5b956d4660dae5684afef2d4574b9645f2495fa5"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__container_endpoints__ownership.py.diff",
+      "bytes": 7521,
+      "sha256": "0f0908094ba85fdbf1f22adc2d71bbc44e4ca07b36ad6633c9e171f648178e59"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__credential_endpoints__endpoints.py.diff",
+      "bytes": 1284,
+      "sha256": "ab9c195e894b14d56ea7ca1729cfe8d7842493dcbc7b5fe1a82a0e77e74b3827"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__db__budget_window_spend_writer.py.diff",
+      "bytes": 10134,
+      "sha256": "a1232a109a4b38d6e98593e8784b273a49bc54db9b5357eff224115782d9fb27"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__db__db_spend_update_writer.py.diff",
+      "bytes": 2970,
+      "sha256": "79761fd48788eb6bc5f53c126afddd7f7cda61ff715df8f4bebb88b23c3e1d2b"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__db__db_transaction_queue__redis_update_buffer.py.diff",
+      "bytes": 1508,
+      "sha256": "ef2aa0e56d881564c85f62daacf5ae09beb182e1666dc0a7dee2904ad8f639ae"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__db__db_transaction_queue__window_spend_update_queue.py.diff",
+      "bytes": 3860,
+      "sha256": "3044bc8f8f6cf972099128c769a5c98c5714180b7b8c8c88f3a79564088f9766"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__db__db_url_settings.py.diff",
+      "bytes": 4346,
+      "sha256": "c8928c945e47824bcfe534d1ff717ce7cc3cc0dec2c9858a4adf4738149436b6"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__db__exception_handler.py.diff",
+      "bytes": 8785,
+      "sha256": "cd1e49a748d9e166da75ec3f14865a079efbd2f5b0324558454c8f38429a1a8c"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__db__prisma_client.py.diff",
+      "bytes": 627,
+      "sha256": "3f8c9fd72169f190c43e5c535bb1e73a143623e8327100b0efbd59cb9dfa1005"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__db__spend_counter_reseed.py.diff",
+      "bytes": 3034,
+      "sha256": "05632572ca1ea077d775d137fe387347ac2d236e5dbfea7dd21bc521cb13211a"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__db__tool_registry_writer.py.diff",
+      "bytes": 6551,
+      "sha256": "65bf19daa936982424d7b02615e74bfd7a504a0ee473348502f12d9967fdbae1"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__discovery_endpoints__ui_discovery_endpoints.py.diff",
+      "bytes": 940,
+      "sha256": "6a191441447d3a4f05e1f6070e92548398717db6735a58ffe46a2c55b025980e"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails___content_utils.py.diff",
+      "bytes": 2789,
+      "sha256": "27740d398be493b119b1abaf1aa8a5c85caa592b975b9de4d728527751da1c53"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__anthropic_sse.py.diff",
+      "bytes": 4378,
+      "sha256": "b7179bd27b1edf69a475fbc2bfea9674d42912fe8a07d407457e2ee12ace6104"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__auto_router_compression.py.diff",
+      "bytes": 12035,
+      "sha256": "4b43a838d5b1a394677c49616cbb7cbbb07144d2781429a22cb0109c2e819208"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_endpoints.py.diff",
+      "bytes": 3994,
+      "sha256": "0c72038adbac3fc8ba1c12a963770c8c8cb7a09c03dd39c89cd0294d2a4840bc"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__akto__akto.py.diff",
+      "bytes": 1469,
+      "sha256": "f801d7501da215402ce0ee45db994470fc1d75e38ff35db8a987a4faebb69dea"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__alice____init__.py.diff",
+      "bytes": 1389,
+      "sha256": "426044005faad3a4fde3cb1b41c024bbd30c822aa239a598c0a155b99100a865"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__alice__alice.py.diff",
+      "bytes": 17613,
+      "sha256": "52d0c9a8b89f64c496823768d04f232d7751eecef5a2a75dac0fb86c121c429f"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__azure__base.py.diff",
+      "bytes": 1001,
+      "sha256": "253d43bcffb07b472b9d694aa07ce03ad4870ed0fe03091e9045b7f66e02befd"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__azure__text_moderation.py.diff",
+      "bytes": 2885,
+      "sha256": "170ceb66bf24d6452e1d3bdf4644223744d851168d8198a290624342e58030d1"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__bedrock_guardrails.py.diff",
+      "bytes": 20193,
+      "sha256": "08098901750fa16493d3fe60ccece071185756bc95528b0b2a345e513e8cde23"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__block_code_execution____init__.py.diff",
+      "bytes": 887,
+      "sha256": "052787e84fe5947551ad5df0418e0a0bda3c935d8cb622479c8bae0cd621711d"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__cato_networks__cato_networks.py.diff",
+      "bytes": 1829,
+      "sha256": "b15a634cfc2eb990733654587c2b67d0e5bf5116755dea6d0f1975f9ca13caab"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__cisco_ai_defense__cisco_ai_defense_mcp.py.diff",
+      "bytes": 8448,
+      "sha256": "5688d9387a71bc988fbb3a3894aed6e6b9a07b80865ba49213c214d227faf765"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__compresr__compresr.py.diff",
+      "bytes": 2158,
+      "sha256": "ecf1926c9a2d36d3cc630834605b8e5fa1428b4aebf24f5c1de513afe0621721"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__crowdstrike_aidr____init__.py.diff",
+      "bytes": 1612,
+      "sha256": "950780de3c2ddd4f7d8d424cf7e2002428763f28fa1b42071a3481396bcd65d7"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__crowdstrike_aidr__crowdstrike_aidr.py.diff",
+      "bytes": 4001,
+      "sha256": "0b938608b023a7db3b8fbaf47d061832048748156d1c942fe59b3af65a971f85"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__custom_code__custom_code_guardrail.py.diff",
+      "bytes": 3119,
+      "sha256": "fb9df6f631b77f77929204a1677768357f8de3a6cbaf83173f93e38162c50723"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__custom_code__primitives.py.diff",
+      "bytes": 2112,
+      "sha256": "215cbea43311502724b0401a7ccb2ce240640f741cc7afe830b25603b934d91c"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__dynamoai__dynamoai.py.diff",
+      "bytes": 1494,
+      "sha256": "99f28cce377388201110c795a70af43b4b7a575616b0ae6116200130ce9f2821"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__generic_guardrail_api__generic_guardrail_api.py.diff",
+      "bytes": 1687,
+      "sha256": "5c7f883553fd2af609ccefb2c2d89bc9e8b7791fd8962073bd705d75d1704eb6"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__grayswan__grayswan.py.diff",
+      "bytes": 4638,
+      "sha256": "00d227a709b1617b8fcfcd53d316d889f48a3cec4082a9af27ab9b74f43ac286"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__headroom____init__.py.diff",
+      "bytes": 524,
+      "sha256": "72353d690d1ff70cdd683fd7ba4b30eda6eb291301979817bdb34372f910e8b6"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__headroom__headroom.py.diff",
+      "bytes": 14125,
+      "sha256": "613aaa40ffa7127f199749f06d37f8b94f9a1d833e1192832dd01c5d87b5bcf1"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__hiddenlayer__hiddenlayer.py.diff",
+      "bytes": 4541,
+      "sha256": "d461b6833de73fc4d823df34659a725128ae7764ea1f4659f489fb60c6865f2f"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__lasso__lasso.py.diff",
+      "bytes": 2086,
+      "sha256": "837f6c01b1dbcf15a89df174e53204a417593adb0fdc5672c0024083305f5fbb"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__mcp_jwt_signer__mcp_jwt_signer.py.diff",
+      "bytes": 3442,
+      "sha256": "497b19f854689b3ca9c0bd78e1faae6be9b64e4b204c37d5768c2aaed95b2aec"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__model_armor__model_armor.py.diff",
+      "bytes": 28849,
+      "sha256": "4223efc33e0e903d633bb73e572e4fb7a32e4327cae5732c642af1483f40e238"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__noma__noma.py.diff",
+      "bytes": 702,
+      "sha256": "ff937374a238d9acd8c24fe3cd7e9140cbc8f459aff234f5f7266acc862530f8"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__noma__noma_v2.py.diff",
+      "bytes": 5778,
+      "sha256": "b498227737503b6beaee18e9f4e4fa311e658078caa309cbccf5742b3444070b"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__pangea__pangea.py.diff",
+      "bytes": 1119,
+      "sha256": "c7b193da17bd06361f9c74b2eb8bf66d5532311f07bb80e0b2e8d82f342f5be6"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__panw_prisma_airs__panw_prisma_airs.py.diff",
+      "bytes": 691,
+      "sha256": "2d5e09a6096cf47ffaadca6e7ec781ff46f081d6f4acfc90f86ba77fcfb77b05"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__pillar__pillar.py.diff",
+      "bytes": 4867,
+      "sha256": "2cecea9800421b06eae38cbcd04edfa7e2f2b0e478390f2c1601d04438efa858"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__presidio.py.diff",
+      "bytes": 5182,
+      "sha256": "b793945278526bcb3ece5b4298c6738732a4f6d1f16e7162dffa59701f3cd779"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__prompt_security____init__.py.diff",
+      "bytes": 526,
+      "sha256": "79d2280715ab782881db46f46d2b75aaf2b509e3550e76a487a02fd81238b836"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__prompt_security__prompt_security.py.diff",
+      "bytes": 3687,
+      "sha256": "264189d29775a4dcc6314da2ed92da19f4c3ec373a7114df1d27ad3c4921f814"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__qualifire__qualifire.py.diff",
+      "bytes": 2260,
+      "sha256": "ab1702e767fd4c1e543d6e37c23a17500711e2975ded21d010ae3c720028942f"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__repelloai__repelloai.py.diff",
+      "bytes": 1044,
+      "sha256": "896141608a9bf6fcb1dbf8dd7da97791fdcb94e2f4dec62c11290a4c171cfbb4"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__semantic_guard__semantic_guard.py.diff",
+      "bytes": 1645,
+      "sha256": "e83c27b133aa9bf061f3eccec10846b1f5a809c47a61b6d5ab201dce5f5116f7"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__singulr__singulr.py.diff",
+      "bytes": 1826,
+      "sha256": "e7a35fc88ae213c0d3b79ac39e923affaf3524b84ebd0617389f28fc619c72bb"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__tool_permission.py.diff",
+      "bytes": 5837,
+      "sha256": "775ef39860615d2b456faccb0a997e2c77f034d2cb3f14fd5835d5046b9170f4"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__tool_policy__tool_policy_guardrail.py.diff",
+      "bytes": 1265,
+      "sha256": "c2d1d78a014caf951b20fa7737e67f1bc7209187ee243dc513acc3ae150f966f"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__unified_guardrail__unified_guardrail.py.diff",
+      "bytes": 17007,
+      "sha256": "2c825341a33cbbbb0b61185c5c7fdb5bf5983f892f3c656d30d50f24a8432639"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__vigil_guard__vigil_guard.py.diff",
+      "bytes": 469,
+      "sha256": "17672cd054250300fef03906894a61fd0ca051eae11e1e478023301d8fa2643a"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_hooks__xecguard__xecguard.py.diff",
+      "bytes": 747,
+      "sha256": "d0ea66a8794e1307f572c68662f5123f3cb39617c0c7d280cfe8d2860be1970d"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_initializers.py.diff",
+      "bytes": 3542,
+      "sha256": "2b133d58b148a3efa9d7f384829787fdc91f912d329824afc8c166ac0ae8c383"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__guardrail_registry.py.diff",
+      "bytes": 13346,
+      "sha256": "e930b01e8e79ad5d2b6d65bc3416ade8217532711db24447dedf5936e17ce09f"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__usage_endpoints.py.diff",
+      "bytes": 14654,
+      "sha256": "2ead272190e6eafe2a773342e089076e019380dd62290236b8df1f8f4f933421"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__guardrails__usage_tracking.py.diff",
+      "bytes": 9220,
+      "sha256": "dbb21c5a1bd1f8cbfbee26a5bf5cdc346be861f82d1f9fb2ba8187778c86f123"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__health_check_utils__shared_health_check_manager.py.diff",
+      "bytes": 1381,
+      "sha256": "3530fe6bccb04238a03219d20ac72a02b171b202618787c421c9fb5b6ebe8f26"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__health_endpoints___health_endpoints.py.diff",
+      "bytes": 5206,
+      "sha256": "f9637f349324a248dbe0a13da93fddec485645e286b5e412662e142be48d6cec"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__hooks__batch_rate_limiter.py.diff",
+      "bytes": 1253,
+      "sha256": "4764e5c8c6714b28c28444c3d8bc1983e7ea1419e1def3680110b485d9a11854"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__hooks__key_management_event_hooks.py.diff",
+      "bytes": 685,
+      "sha256": "01eef9f5face93b15b45aca6661572baba13396f764f66d423ad29b16d3923de"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__hooks__litellm_skills__main.py.diff",
+      "bytes": 1302,
+      "sha256": "15aeee337dbfff16adddeb1f402bd978b4ceb918d48d3ce41b29226c09203976"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__hooks__mcp_semantic_filter__hook.py.diff",
+      "bytes": 5377,
+      "sha256": "1b943c4105757b882c18c8cc366b15ab01eae79058cf8218fb941a9a181bfa9b"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__hooks__model_max_budget_limiter.py.diff",
+      "bytes": 3124,
+      "sha256": "9a07c5880aafb49b0956ba91841dd31411e1a3aab651f49f7dbe8e441ff9f6d7"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__hooks__parallel_request_limiter_v3.py.diff",
+      "bytes": 10763,
+      "sha256": "5f6dc2d727ef516567a8698ba87779ec0e73b41d41d49434a4536a155ceed043"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__hooks__proxy_track_cost_callback.py.diff",
+      "bytes": 2756,
+      "sha256": "cea300e8c26ce69043886062c00ededac4af06401dfa1e5d63d6041b4ada961a"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__hooks__responses_id_security.py.diff",
+      "bytes": 5523,
+      "sha256": "b03b99c5e871cef37f02f113436ed531dc7ec56df0bad6b72b872b387bfd9266"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__image_endpoints__endpoints.py.diff",
+      "bytes": 1726,
+      "sha256": "241e057a4a7363da15830ccf86b29e993e3f125de7f782d0228f23cfed2707ef"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__list_api__in_memory.py.diff",
+      "bytes": 960,
+      "sha256": "3220debfa139e3de8daf90c177e601eab77c68112b98cba4471bf9eed0c120c2"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__list_api__list_framework.py.diff",
+      "bytes": 4141,
+      "sha256": "96e7401be62ecb3a22cfb331709cf55d1ffe32f432b88cfe738463e58231ee05"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__litellm_pre_call_utils.py.diff",
+      "bytes": 16465,
+      "sha256": "c4b6a67a5efae3e2171e48af9224da56f482c8e5ddba8a75a5c4bc4697c927c9"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__logging_endpoints__callback_logs_endpoints.py.diff",
+      "bytes": 759,
+      "sha256": "098aaceb1bcb7c0ce5e338a45b9f8e991e249a989e12aeb3c7c911de36381799"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__management_endpoints__access_group_endpoints.py.diff",
+      "bytes": 10926,
+      "sha256": "c2a89cf1d70a8dd91a3c33779c8112f3e55ddeed56d18e9ada18cd61adaa54c2"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__management_endpoints__auto_router_endpoints.py.diff",
+      "bytes": 36386,
+      "sha256": "77a59198a263f8c9f92ccc8d0d9a5f8c3a7e6546e168381db79d7e6a0bb267d5"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__management_endpoints__common_daily_activity.py.diff",
+      "bytes": 9397,
+      "sha256": "99c64b174f429c6efc6def9778750d995f6357c07dc503cea908c586e8893eb0"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__management_endpoints__common_utils.py.diff",
+      "bytes": 2041,
+      "sha256": "f36cf88cf35148f1b822df2bab4a93803c925a8e74f4b19e48beb09434a3c44d"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__management_endpoints__customer_endpoints.py.diff",
+      "bytes": 697,
+      "sha256": "d5d5bb96186852c68aac9d000fdddb7ff482a12866eb9d1f6eff11149535bff2"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__management_endpoints__internal_user_endpoints.py.diff",
+      "bytes": 15603,
+      "sha256": "f497bdb4bf814f01a6a40648a3036e8506213121c105a65aaf4d1c10e936b117"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__management_endpoints__jwt_key_mapping_endpoints.py.diff",
+      "bytes": 7732,
+      "sha256": "ef9392738432da23e13b12154e15274192f261eff966a805b497581b5b205e58"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__management_endpoints__key_management_endpoints.py.diff",
+      "bytes": 31753,
+      "sha256": "b441971f3c3f1f64709ed426a11f5c1ea5de89ca5c64418415883f52b52aabff"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__management_endpoints__mcp_management_endpoints.py.diff",
+      "bytes": 2544,
+      "sha256": "6880ba099123f54a374cccb8718298e04b9ec0b74d7e8bb210c3cde8a9227d6d"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__management_endpoints__model_management_endpoints.py.diff",
+      "bytes": 34153,
+      "sha256": "2794d68fd20caa6adb33d55dec694981e6e2aefd720768630be9c63689df26f6"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__management_endpoints__organization_endpoints.py.diff",
+      "bytes": 5183,
+      "sha256": "4ec184955fccfd90fb570247db4b89c89687f37ddba586eb6ddb2b78d9dba72d"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__management_endpoints__policy_endpoints__endpoints.py.diff",
+      "bytes": 3485,
+      "sha256": "593a1932cb3fd32f643f36b620c1f82e3d4d36dc7c202b1ae81410a86c07b9a0"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__management_endpoints__scim__scim_v2.py.diff",
+      "bytes": 10411,
+      "sha256": "944656fc07fb4915f5fc0579eafcdf0940605bc26dbdb97dac28fc159861a3dc"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__management_endpoints__sso__id_jag_assertion_capture.py.diff",
+      "bytes": 3758,
+      "sha256": "5d4fde99ceb873168b1786164cfe320981fe4429bd517cd1866e8092c0f859f4"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__management_endpoints__sso__saml_sso.py.diff",
+      "bytes": 1694,
+      "sha256": "738fa9c2cdf4b873f762267a9f4e7e0dc58c68c6d7fe87c087a719c37d57c627"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__management_endpoints__team_callback_endpoints.py.diff",
+      "bytes": 2324,
+      "sha256": "fd83a3b6fd313e858f72a7ea1463f9c9f3845114b5338d17dee8e4f323701347"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__management_endpoints__team_endpoints.py.diff",
+      "bytes": 11745,
+      "sha256": "39c1d11bb294ffdaaabd28472976b85de0cd8993be472d362488f54d9afcc92a"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__management_endpoints__types.py.diff",
+      "bytes": 3576,
+      "sha256": "9d4b51ed9921aa08c988f79feab06182922768f28c8db3668a6df8315fd23114"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__management_endpoints__ui_sso.py.diff",
+      "bytes": 13248,
+      "sha256": "d341a0a076bd2864c4121b569ec15b975f7431ba91326f1a08f4eebbec9fca2e"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__management_endpoints__usage_endpoints__ai_usage_chat.py.diff",
+      "bytes": 3513,
+      "sha256": "ea5bb48eef15bd6a4933a47892f73fda491925fcac0b077fefdf264e073c98be"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__management_endpoints__usage_endpoints__endpoints.py.diff",
+      "bytes": 1340,
+      "sha256": "1b7cddc089702231de483ccb718ca610fa23e427c700ed5eb3ae58fd5d1f9ab9"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__management_helpers__access_group_key_sync.py.diff",
+      "bytes": 1233,
+      "sha256": "500ed723ebaada61e107d81555aa001eff67b39213f867d1888f72de9ad6d19a"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__management_helpers__access_group_model_sync.py.diff",
+      "bytes": 4586,
+      "sha256": "36dc986f2f67f8f56e29c41938137b0f929cc628503af5e6271295dc2081627c"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__management_helpers__object_permission_utils.py.diff",
+      "bytes": 8115,
+      "sha256": "142fdf220acd640a2bdfd72f21975f06b43a031e315d89df9da9b997ddcfd342"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__management_helpers__resource_display_names.py.diff",
+      "bytes": 3101,
+      "sha256": "05c48b4b8278cdd9ada83834e1d678c71ade734984c993c0469fec3c6613d0ba"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__memory__memory_endpoints.py.diff",
+      "bytes": 3402,
+      "sha256": "11ced0cb17d321c8bccf4a7aebf849a92111e9dec6ea9c45129ec9ff8905405a"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__middleware__admission_control_middleware.py.diff",
+      "bytes": 11038,
+      "sha256": "e6dae7daed67559299f97f21d512601541a359cb3fc97cea4d9e2ad66378a85a"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__openai_evals_endpoints__endpoints.py.diff",
+      "bytes": 2601,
+      "sha256": "38f756bc6e222a38909a3f8af1a9638322e204c142158983e3322d0c9092e71f"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__openai_files_endpoints__batch_file_validation.py.diff",
+      "bytes": 474,
+      "sha256": "f984351c24fd11abe3763116596e5467e7e3ba0baf5a05ba21fa236d3db8c3b0"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__openai_files_endpoints__common_utils.py.diff",
+      "bytes": 352,
+      "sha256": "277caaf813a2430273f9ba5d6518e993386758f87fa2869c8de358afa9e5ec26"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__openai_files_endpoints__files_endpoints.py.diff",
+      "bytes": 2838,
+      "sha256": "22d39a5c206ae5dc7ac75ed9eb593cec422a3886d94772befe77bc988c22046e"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__openai_files_endpoints__general_upload_validation.py.diff",
+      "bytes": 5830,
+      "sha256": "66dd5f90d4c2dcb7332bf106a2c4a6042430417edf8e5a54d39ed139fa3afc7c"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__pass_through_endpoints__llm_passthrough_endpoints.py.diff",
+      "bytes": 40848,
+      "sha256": "83acaa51c749cc95711679c415b48efc2e91dafa9c89ca9c18726c8d8c18aec4"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__pass_through_endpoints__llm_provider_handlers__anthropic_passthrough_logging_handler.py.diff",
+      "bytes": 14845,
+      "sha256": "ea577754c1557487c161cd2efacd54f340dc2346921469b5fb60eee59fa3f97c"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__pass_through_endpoints__llm_provider_handlers__vertex_passthrough_logging_handler.py.diff",
+      "bytes": 1051,
+      "sha256": "0d72255e6b33bd41ecba9c4edba5a9e2f5286b85f9a93ea754020e6fcf9e15a2"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__pass_through_endpoints__pass_through_endpoints.py.diff",
+      "bytes": 16681,
+      "sha256": "a394d79fd46c02fd2c37b872dcc21d3d654c42e16261e74fcf1d54ada60ca554"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__pass_through_endpoints__streaming_handler.py.diff",
+      "bytes": 9423,
+      "sha256": "2722f4c2f15e81929a083a5f885a7be66b74164df8bc92231cea0705eb641e3c"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__policy_engine__init_policies.py.diff",
+      "bytes": 761,
+      "sha256": "1aaf5494400920896f1797f0986c96c5fa3babecc2a5fc0f84c58048fd458a05"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__policy_engine__pipeline_executor.py.diff",
+      "bytes": 3780,
+      "sha256": "474bd6ee0b50fd79b6aaaa2e0f6658077ad91330979e825ff590d03c1eea0990"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__prometheus_metrics_server.py.diff",
+      "bytes": 6539,
+      "sha256": "41573a1a2480a701df62c4e0f2cca2753035eaee16e0bb75cc53f1dde7a7bbd7"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__prompts__prompt_endpoints.py.diff",
+      "bytes": 14292,
+      "sha256": "92d3bf04d29d5d7957f29a2ddd37a46c2ab0c6bd9933408070fbd897a2044e1f"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__prompts__prompt_registry.py.diff",
+      "bytes": 10165,
+      "sha256": "91a232f77cf375512d73f0fb53991a85d61cf9d4aa21f7b8131829c4b23627b4"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__proxy_cli.py.diff",
+      "bytes": 10511,
+      "sha256": "2f2edbf0b7a37ffcdd07c549415bad693ffb05689abcffdee3889e30a49d988a"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__proxy_server.py.diff",
+      "bytes": 49280,
+      "sha256": "a19745a369d4ff9463bd5cb7aa46e7c97868b2013f59ee3069fb47aaf1d181b3"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__public_endpoints__public_endpoints.py.diff",
+      "bytes": 4294,
+      "sha256": "e59b8d36667dc775408bdea998b78965a962ec644fc299071569425b67b6ca63"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__public_endpoints__public_v1__model_hub.py.diff",
+      "bytes": 7377,
+      "sha256": "d2ded02409c57ece6b8940d12b747dc3dea8c2e190f7abaedcdbef878ea32ab2"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__rag_endpoints__endpoints.py.diff",
+      "bytes": 12606,
+      "sha256": "8c2236cfb2c024df76ceded11f77d02e93cd54f450ed85459dc85efaf2271b28"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__realtime_endpoints__endpoints.py.diff",
+      "bytes": 1629,
+      "sha256": "4d30fb0b110b9548d6b5f8c12bacaddcaed2900858fb26545b6a2a5de6f9fca7"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__response_api_endpoints__endpoints.py.diff",
+      "bytes": 8786,
+      "sha256": "55056f5710815d4cf3e8d510c979a3d645f02b4eac9ec975cc2fd19168c6f998"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__response_polling__background_streaming.py.diff",
+      "bytes": 10611,
+      "sha256": "44ed73732376d81bb5b036794adb9b81c4ddd05a41d656a86c7cc74551547e73"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__response_polling__polling_handler.py.diff",
+      "bytes": 478,
+      "sha256": "4295a39193ce5bee9d30b0c885cf30235cdbd8291bd8fdec6be898e22da4ca78"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__route_llm_request.py.diff",
+      "bytes": 742,
+      "sha256": "a069542757ddef5814394659587f9ecb1d1163a8cc05498dcc60d2868d406054"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__search_endpoints__search_tool_registry.py.diff",
+      "bytes": 5658,
+      "sha256": "e3cd13d55ce118b1a3ddbd8a8518fb5a317e28dd84bc6c90e3e987fec4a6e060"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__spend_tracking__budget_reservation.py.diff",
+      "bytes": 10143,
+      "sha256": "ee6eb828767db376827b70496b382ad01655131b795d3ad21205e1c95ca5f06c"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__spend_tracking__key_metadata_recovery.py.diff",
+      "bytes": 8082,
+      "sha256": "bd86d17051dda2f5e75265a2792a4dddd4b4893262b1d6f5f0ea6b7a06879764"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__spend_tracking__spend_management_endpoints.py.diff",
+      "bytes": 39282,
+      "sha256": "8493784a5c0b2191649508b4a8e392bc5a0dcb6fb7ea249d167a4bfb26c90ae2"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__spend_tracking__spend_tracking_utils.py.diff",
+      "bytes": 14799,
+      "sha256": "87a9cb7dfab73a7b3bfd5c0df1f07bc04626af18b23f5d4ca1d3908cb9b57da8"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__ui_crud_endpoints__proxy_setting_endpoints.py.diff",
+      "bytes": 15177,
+      "sha256": "0eec79d6fd2aa96abbe4db9cbb575c824e9a161dc264f6d84302aa85af567be5"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__utils.py.diff",
+      "bytes": 7102,
+      "sha256": "e643de3ff96ac4e7b5a8fde868c68b4e56cb5d28493d521ee7b870766efd7877"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__vector_store_endpoints__endpoints.py.diff",
+      "bytes": 5509,
+      "sha256": "92b7f67fa226907da3ebee1829bf74815e67e6771bbef9a2d3b3cbaab2031c81"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__vector_store_endpoints__management_endpoints.py.diff",
+      "bytes": 17159,
+      "sha256": "099e0febea2f1709eedf3eb247da9649c4b6347c5943be7d7afc9af2194623a9"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__vector_store_endpoints__utils.py.diff",
+      "bytes": 4520,
+      "sha256": "5c7eb26a17644ffb7ca4576978e56d036aceb859f20f08a067f3a17646cc4180"
+    },
+    {
+      "path": "python-diffs/litellm__proxy__video_endpoints__endpoints.py.diff",
+      "bytes": 1679,
+      "sha256": "ebaa4a49d8c5228ec54ed6d44f0df669b60bb298b6f93bda0f6030b7ef6e40f2"
+    },
+    {
+      "path": "python-diffs/litellm__rag__ingestion__bedrock_ingestion.py.diff",
+      "bytes": 1639,
+      "sha256": "e9a07d9b3e0c97371c36b5a674d36eaa132e0881b0f4f4879d280d88677119ad"
+    },
+    {
+      "path": "python-diffs/litellm__rag__ingestion__gemini_ingestion.py.diff",
+      "bytes": 1535,
+      "sha256": "f31eec7f5f03ce1cd91aa23ab2985691a81b0f3b7da9f9db549349d888f914b5"
+    },
+    {
+      "path": "python-diffs/litellm__rag__ingestion__vertex_ai_ingestion.py.diff",
+      "bytes": 1012,
+      "sha256": "5988df5c7d8ddb5049d6fc3e6da523fe7059744e5df8428feb3696fbe091bc5a"
+    },
+    {
+      "path": "python-diffs/litellm__rag__main.py.diff",
+      "bytes": 5247,
+      "sha256": "bd877eecad10dab3ec319cd4d77ad4939b72e99da24bab799d3ef1a717b14b50"
+    },
+    {
+      "path": "python-diffs/litellm__rag__rag_query.py.diff",
+      "bytes": 4485,
+      "sha256": "e120fbc2dd98337cc09ff341b3ff3a96668fb3ff70871c54670e9f1c3fd5f62a"
+    },
+    {
+      "path": "python-diffs/litellm__realtime_api__main.py.diff",
+      "bytes": 3808,
+      "sha256": "456b23ef6ca3b36abd978ab4dec8d2dcf0d2d609a548f890ef2e808197e4a517"
+    },
+    {
+      "path": "python-diffs/litellm__repositories__base_repository.py.diff",
+      "bytes": 429,
+      "sha256": "4828aa7bb4fd4bba3bd9012a26931015f14510dbb9a03138bdea557b8330c588"
+    },
+    {
+      "path": "python-diffs/litellm__repositories__config_repository.py.diff",
+      "bytes": 2098,
+      "sha256": "a366c55a10e2b726f3799eae099459e57a3b47994e0674e03e2aefe2e3e61522"
+    },
+    {
+      "path": "python-diffs/litellm__repositories__table_repositories.py.diff",
+      "bytes": 651,
+      "sha256": "15ecc8b4a3e7970d339c35ad95786293c8d49bb4d5be3e34982959de9ab42a48"
+    },
+    {
+      "path": "python-diffs/litellm__repositories__team_repository.py.diff",
+      "bytes": 2701,
+      "sha256": "5fad8b780c8902d15cc10b402a25f4377c8fa7a7e2be485db26f7f99479635db"
+    },
+    {
+      "path": "python-diffs/litellm__repositories__user_repository.py.diff",
+      "bytes": 2034,
+      "sha256": "fb941d5e1fabcab1481821b1ae98ee4211c495b7eea5042ec9f8a57d8d259b61"
+    },
+    {
+      "path": "python-diffs/litellm__rerank_api__main.py.diff",
+      "bytes": 2853,
+      "sha256": "7c7e5dedee565215fbe60719b26ea16d59f7af10bffcbf193711d21c5a2dd6de"
+    },
+    {
+      "path": "python-diffs/litellm__responses__litellm_completion_transformation__custom_tools.py.diff",
+      "bytes": 2142,
+      "sha256": "b2e600c139dbb2329366c5f9716ba1c7486602292e7649ec40c4112f8a562fae"
+    },
+    {
+      "path": "python-diffs/litellm__responses__litellm_completion_transformation__streaming_iterator.py.diff",
+      "bytes": 6625,
+      "sha256": "76de0992942e880d2fc0e8c947120a8aea1e4996fc83750a448821b617ef23b0"
+    },
+    {
+      "path": "python-diffs/litellm__responses__litellm_completion_transformation__transformation.py.diff",
+      "bytes": 14810,
+      "sha256": "345ecf926be1ff45e9ff0ebc3f931213ca3c832913c71a562d6883a0f9cde0df"
+    },
+    {
+      "path": "python-diffs/litellm__responses__main.py.diff",
+      "bytes": 9332,
+      "sha256": "44e1fb68c86970e240e027472f1a15369c3b08a058c67fe532f5ff544d49976d"
+    },
+    {
+      "path": "python-diffs/litellm__responses__mcp__litellm_proxy_mcp_handler.py.diff",
+      "bytes": 3791,
+      "sha256": "83666a8e0322364973d26809204ae37d9caa7e3878d43797d094a5d2630476a0"
+    },
+    {
+      "path": "python-diffs/litellm__responses__mcp__mcp_streaming_iterator.py.diff",
+      "bytes": 837,
+      "sha256": "5115f3d57c12e3ca815b1060594da103a3202ce6a0c06a804cb703ebdee0bd82"
+    },
+    {
+      "path": "python-diffs/litellm__responses__streaming_iterator.py.diff",
+      "bytes": 32451,
+      "sha256": "5a6a68d5dd73b9f1ec67ec87dcb2fa9174d08b50b6c7a482572e2f82f36de0c8"
+    },
+    {
+      "path": "python-diffs/litellm__responses__utils.py.diff",
+      "bytes": 1222,
+      "sha256": "24ae718270e7ebec8ac0e6f43d8fcc9a22a728aba47e36235a5022f4fa0cee61"
+    },
+    {
+      "path": "python-diffs/litellm__router.py.diff",
+      "bytes": 92953,
+      "sha256": "7dd3507852f4f3dafc698db3aa7b90090fe2467c2b8cda4efef615deabf69aa7"
+    },
+    {
+      "path": "python-diffs/litellm__router_strategy__adaptive_router__hooks.py.diff",
+      "bytes": 2590,
+      "sha256": "07cc345641774c56b001f532af67a7073ada8e878de45c1f89d8d98c1e7c927e"
+    },
+    {
+      "path": "python-diffs/litellm__router_strategy__adaptive_router__signals.py.diff",
+      "bytes": 2269,
+      "sha256": "93c292d184fdfa47dee9d4f0e9822d2f10cb605489b557528efef30983292bc4"
+    },
+    {
+      "path": "python-diffs/litellm__router_strategy__auto_router__auto_router.py.diff",
+      "bytes": 6094,
+      "sha256": "c5cd88b797504b36e534e6ffc62225c4fea200d8956aa6ac1e8ae0eb94e27633"
+    },
+    {
+      "path": "python-diffs/litellm__router_strategy__budget_limiter.py.diff",
+      "bytes": 1384,
+      "sha256": "1b09cd0d52e5577cadb9188ba61ca44b778647e91a9900e47011ec4ca5b43f8e"
+    },
+    {
+      "path": "python-diffs/litellm__router_strategy__complexity_router____init__.py.diff",
+      "bytes": 838,
+      "sha256": "83b4cce314e8b9e6473887000795958fa3c33158c10fc2ce58db9693ec453c7c"
+    },
+    {
+      "path": "python-diffs/litellm__router_strategy__complexity_router__complexity_router.py.diff",
+      "bytes": 91483,
+      "sha256": "ef61cc69cd73a514305e04dba2780d53f339569498519d9c6a74f0cd15b31b51"
+    },
+    {
+      "path": "python-diffs/litellm__router_strategy__complexity_router__config.py.diff",
+      "bytes": 25580,
+      "sha256": "b9c5624b6bda0b9b8020e4ef793592afca94f6d6aae5c053161b3a830d57d4f3"
+    },
+    {
+      "path": "python-diffs/litellm__router_strategy__complexity_router__stall_detector.py.diff",
+      "bytes": 5393,
+      "sha256": "b8e4bd02a6ee25d45b661d90c58d58e8a0a920d5d178152249439f3ae5b2c7a5"
+    },
+    {
+      "path": "python-diffs/litellm__router_strategy__complexity_router__tier_predictor.py.diff",
+      "bytes": 7152,
+      "sha256": "e8c360504a0ce8d3215ca71df88e71166b764ce347532b8a8cf9f7d7e224a24d"
+    },
+    {
+      "path": "python-diffs/litellm__router_strategy__lowest_latency.py.diff",
+      "bytes": 268,
+      "sha256": "c72a70a5ce714de694c16e8407974f9fc048a12ef757dbda0d6ddd324411a505"
+    },
+    {
+      "path": "python-diffs/litellm__router_strategy__lowest_tpm_rpm_v2.py.diff",
+      "bytes": 709,
+      "sha256": "0db21cc4d52959370fee9b1b1928d36587791b4e29095dd8e61048f8e9afcd58"
+    },
+    {
+      "path": "python-diffs/litellm__router_strategy__quality_router__quality_router.py.diff",
+      "bytes": 1936,
+      "sha256": "edf95d3fbaa08881c6dc4ce17fd177ea19796772c035b76f95c704b793d3d863"
+    },
+    {
+      "path": "python-diffs/litellm__router_strategy__tag_based_routing.py.diff",
+      "bytes": 18190,
+      "sha256": "a00f4d9fd02d5385c351b11539fa062c86ad572c54f4ac02aa948759be97bc37"
+    },
+    {
+      "path": "python-diffs/litellm__router_utils__auto_router_model_naming.py.diff",
+      "bytes": 8130,
+      "sha256": "8203aadedd1da8d755228ec49a105d6079af73f4e6bc25ae51d7c9f841d388b9"
+    },
+    {
+      "path": "python-diffs/litellm__router_utils__cooldown_handlers.py.diff",
+      "bytes": 1249,
+      "sha256": "9f6591fbd76a1f135d5296a1fd4d5eeef1e49ce531cf0536d13d6667d119a7f7"
+    },
+    {
+      "path": "python-diffs/litellm__router_utils__fallback_event_handlers.py.diff",
+      "bytes": 8836,
+      "sha256": "c30bf66c6033b7ae00d335d9d8a9e3e89ec376743763bbaa69658da800c8b5c0"
+    },
+    {
+      "path": "python-diffs/litellm__router_utils__get_retry_from_policy.py.diff",
+      "bytes": 4392,
+      "sha256": "23fd4e988e96d46572c0d157ab53d1fcee4604479e089c4352e4c09855fae7b2"
+    },
+    {
+      "path": "python-diffs/litellm__router_utils__pattern_match_deployments.py.diff",
+      "bytes": 3820,
+      "sha256": "0301fbef31db4f7b2db88ee40d2ee142e7f69baa9ff9269c8b31afeb95d8debe"
+    },
+    {
+      "path": "python-diffs/litellm__router_utils__pre_call_checks__deployment_affinity_check.py.diff",
+      "bytes": 4783,
+      "sha256": "477678d84bccdc31c14152ec9016f2038b703e147a1bf01888a474a2db6e056d"
+    },
+    {
+      "path": "python-diffs/litellm__router_utils__pre_call_checks__encrypted_content_affinity_check.py.diff",
+      "bytes": 2649,
+      "sha256": "a0f10c9620e532b3787b5b8fe2d0f0bccf7f23b6934da543c9ea77405cda89d0"
+    },
+    {
+      "path": "python-diffs/litellm__router_utils__pre_call_checks__io_token_rate_limit_check.py.diff",
+      "bytes": 1277,
+      "sha256": "821deb6ebf2ae80f0ebf2e790bdbd3aa15951c7152f71453ba42d3f1708836d3"
+    },
+    {
+      "path": "python-diffs/litellm__router_utils__pre_call_checks__prompt_caching_deployment_check.py.diff",
+      "bytes": 564,
+      "sha256": "08ec5a052e25881e1d75eec8fa57ddaa8b6cb5af2057fce1a69104c3183a4217"
+    },
+    {
+      "path": "python-diffs/litellm__router_utils__prompt_caching_cache.py.diff",
+      "bytes": 681,
+      "sha256": "db016aff5e6de598f5c3cb9b06aa9a3492894d0477bf3207f9b5c9cd7764802d"
+    },
+    {
+      "path": "python-diffs/litellm__router_utils__search_api_router.py.diff",
+      "bytes": 2437,
+      "sha256": "8dbf71b7d6ab791de0b3bd69e9ee61b7c622381048c86218e149ccfd5d9d08a7"
+    },
+    {
+      "path": "python-diffs/litellm__rust_bridge____init__.py.diff",
+      "bytes": 562,
+      "sha256": "bc44ca318119ab271921f9fa72f98ded49dedc9812d235d0094d5b19b5317dfe"
+    },
+    {
+      "path": "python-diffs/litellm__rust_bridge__bindings.py.diff",
+      "bytes": 1648,
+      "sha256": "c9af7016ec567adc86dde1f95fdf088a1d35e885b96308baf955656a2053de02"
+    },
+    {
+      "path": "python-diffs/litellm__rust_bridge__chat_completions.py.diff",
+      "bytes": 1901,
+      "sha256": "c3eea8859240c042550807cc135e4516059b0d13cdf755a958f4c0ef7a832809"
+    },
+    {
+      "path": "python-diffs/litellm__rust_bridge__configuration.py.diff",
+      "bytes": 2676,
+      "sha256": "597f97a0c3b89dab2d565c239640adcbac9ba5a674cc47a3987054e80f58bbc4"
+    },
+    {
+      "path": "python-diffs/litellm__rust_bridge__loader.py.diff",
+      "bytes": 470,
+      "sha256": "932192fa83adc755ae450c5ff3ca3804274e33c0710ac98c014c6b0ac027ed29"
+    },
+    {
+      "path": "python-diffs/litellm__rust_bridge__ocr.py.diff",
+      "bytes": 3444,
+      "sha256": "04783685c92ed41a83981054a74695e569fa28809b6bba1073de13a0e9a04797"
+    },
+    {
+      "path": "python-diffs/litellm__rust_bridge__runtime.py.diff",
+      "bytes": 4669,
+      "sha256": "9e1053efb64fc9afb2ca91343effbd897cdf1f657d109c34a2b179430047d538"
+    },
+    {
+      "path": "python-diffs/litellm__search__cost_calculator.py.diff",
+      "bytes": 2081,
+      "sha256": "f94e0562147c625e150d1161a669badadf8e7cd6fe7459293456cf4062af8348"
+    },
+    {
+      "path": "python-diffs/litellm__secret_managers__aws_secret_manager_v2.py.diff",
+      "bytes": 711,
+      "sha256": "13533fe143fb6995fdff505421309b30b3a127411f3e68890786378856acb089"
+    },
+    {
+      "path": "python-diffs/litellm__secret_managers__custom_secret_manager_loader.py.diff",
+      "bytes": 610,
+      "sha256": "cb99f8c0102a1507619f8d1108dddbc909fd067cf808301dfc84e73cd9c8cd62"
+    },
+    {
+      "path": "python-diffs/litellm__secret_managers__get_azure_ad_token_provider.py.diff",
+      "bytes": 2014,
+      "sha256": "f8f043e7ad72f7154e2cd96a056b54584b9bfbc54ba08a92ec15768ea8eedbcc"
+    },
+    {
+      "path": "python-diffs/litellm__secret_managers__hashicorp_secret_manager.py.diff",
+      "bytes": 7851,
+      "sha256": "f043eb50ce150f2a469eb1902adf247ea4642efb3f05bd92b6c60c97313f546c"
+    },
+    {
+      "path": "python-diffs/litellm__setup_wizard.py.diff",
+      "bytes": 672,
+      "sha256": "bcaee21a8ba72ccbbf41e58bf36d1e67b6513294323411a4808a3d2ea5c2e386"
+    },
+    {
+      "path": "python-diffs/litellm__skills__main.py.diff",
+      "bytes": 4763,
+      "sha256": "10b1a74648130eeee293bc26d2328b96b0a983cacc500ae895246f55b6d707e9"
+    },
+    {
+      "path": "python-diffs/litellm__types__access_group.py.diff",
+      "bytes": 866,
+      "sha256": "575bbe0343f7dbdfa75766e428e0ac29c12ce60a8bdd3a26ddecefdc03c748dd"
+    },
+    {
+      "path": "python-diffs/litellm__types__caching.py.diff",
+      "bytes": 313,
+      "sha256": "ad2a5e77dfb5edd9cf8da43c9df286fbb2cea3625a4b40e976d544fe1faf8c0f"
+    },
+    {
+      "path": "python-diffs/litellm__types__containers__main.py.diff",
+      "bytes": 4865,
+      "sha256": "63475c0eec8b3909a8e11238b819b285ab68d04d79d9a320fa804318cc5b12a3"
+    },
+    {
+      "path": "python-diffs/litellm__types__guardrail_base_init.py.diff",
+      "bytes": 1168,
+      "sha256": "b30e40850a3d712fdca828dd935c28e57456f66be6d4040e349d6db2404d7149"
+    },
+    {
+      "path": "python-diffs/litellm__types__guardrails.py.diff",
+      "bytes": 2494,
+      "sha256": "87921735b3269acc29241f8b25fdfca0eec6abb1ba86065b4ff7b901c2b456f8"
+    },
+    {
+      "path": "python-diffs/litellm__types__integrations__custom_logger.py.diff",
+      "bytes": 713,
+      "sha256": "7d605bd3a79e61ce937d2f8d40832c41c14c6d0709a74f4f3816b755c74871ce"
+    },
+    {
+      "path": "python-diffs/litellm__types__integrations__datadog_llm_obs.py.diff",
+      "bytes": 2603,
+      "sha256": "93a906f06e899a4af934eb97e68062e4190309d00643b5fab4362a691833e69d"
+    },
+    {
+      "path": "python-diffs/litellm__types__integrations__prometheus.py.diff",
+      "bytes": 1461,
+      "sha256": "5dd3761273ad954b2b310d22499b1cda1dfbd172a8541d7e4c057e8acda85862"
+    },
+    {
+      "path": "python-diffs/litellm__types__integrations__slack_alerting.py.diff",
+      "bytes": 2278,
+      "sha256": "c37d0cd5502d7e531d5b65d4120b38bdd29f4c33b4a3b131b633d1c4c01e72dd"
+    },
+    {
+      "path": "python-diffs/litellm__types__llms__anthropic_messages__anthropic_response.py.diff",
+      "bytes": 1187,
+      "sha256": "d06be813ab9e84ffd68d35c810951cc567cc004b16a1c5ce4d891bb34f6c5304"
+    },
+    {
+      "path": "python-diffs/litellm__types__llms__gemini_audio_transcription.py.diff",
+      "bytes": 418,
+      "sha256": "e44669de835f00338747fa902ee45f1a910b8c5d8b3bbce200bcc6c12a1aab2e"
+    },
+    {
+      "path": "python-diffs/litellm__types__llms__oci.py.diff",
+      "bytes": 3206,
+      "sha256": "bcdb53420ed1d14e23adb94b0276eeee97df1e7fec8bab48e18d12c29c615fc7"
+    },
+    {
+      "path": "python-diffs/litellm__types__llms__openai.py.diff",
+      "bytes": 5024,
+      "sha256": "fd3e5bd7bd995027e439a40c54169b0fbde705b4dd2946bd95868a29050051c2"
+    },
+    {
+      "path": "python-diffs/litellm__types__llms__openai_evals.py.diff",
+      "bytes": 3855,
+      "sha256": "3638d579c06cc737e88d58e76277e06d7b2fdb4e2f646d796ed24b581bce475d"
+    },
+    {
+      "path": "python-diffs/litellm__types__management_endpoints__auto_router_endpoints.py.diff",
+      "bytes": 19831,
+      "sha256": "31d48c144199fc8232425be54ac99041ab1dacd25eb7682fe29caffbc10a8a23"
+    },
+    {
+      "path": "python-diffs/litellm__types__management_endpoints__cache_settings_endpoints.py.diff",
+      "bytes": 916,
+      "sha256": "d4efcc1ef5ac78550050b92eac0bc80a1acb84b6ba8ee786b1eb0b1e754e6e90"
+    },
+    {
+      "path": "python-diffs/litellm__types__mcp.py.diff",
+      "bytes": 1560,
+      "sha256": "1da3b86d2a7e321f7a061d4b42b3bd3a8c48d0b3c11e03d0cb4252a09e57e9ab"
+    },
+    {
+      "path": "python-diffs/litellm__types__proxy__guardrails__guardrail_hooks__alice.py.diff",
+      "bytes": 809,
+      "sha256": "7ead70e6ebf8baffd97da7bace7e0b0e65261b3c19bf142a3c09478ebf090256"
+    },
+    {
+      "path": "python-diffs/litellm__types__proxy__guardrails__guardrail_hooks__crowdstrike_aidr.py.diff",
+      "bytes": 1063,
+      "sha256": "25efc68a66cbc13db991bb78c1ea33356c6bce3354385d62c695aca0ea2da68e"
+    },
+    {
+      "path": "python-diffs/litellm__types__proxy__guardrails__guardrail_hooks__hide_secrets.py.diff",
+      "bytes": 887,
+      "sha256": "754693212f735454938e6c5fd1eae91aa7d6bf65dd59d3f1d9fcf9f5709972b4"
+    },
+    {
+      "path": "python-diffs/litellm__types__proxy__guardrails__guardrail_hooks__prompt_security.py.diff",
+      "bytes": 617,
+      "sha256": "45148e06c8c34426b4cf96277a3e29b3aad89f4a0b775ad8828884595cb18195"
+    },
+    {
+      "path": "python-diffs/litellm__types__proxy__management_endpoints__common_daily_activity.py.diff",
+      "bytes": 326,
+      "sha256": "9a9a3bd6853c0f0b1b9d4bc9f35f5e89914d3a179193cfa7a5833424cee36c84"
+    },
+    {
+      "path": "python-diffs/litellm__types__proxy__management_endpoints__internal_user_endpoints.py.diff",
+      "bytes": 935,
+      "sha256": "3876e0ec525193a7fbc20b3abfa16d0b122108a1e0978e062ef06e3c23336aa1"
+    },
+    {
+      "path": "python-diffs/litellm__types__proxy__management_endpoints__key_management_endpoints.py.diff",
+      "bytes": 843,
+      "sha256": "7d47f184092fffa647c9f7aae7b27fa4545c109d79b4836524cb5636f02584a1"
+    },
+    {
+      "path": "python-diffs/litellm__types__proxy__management_endpoints__management_v1.py.diff",
+      "bytes": 628,
+      "sha256": "56a7f95f31b2c543b3f790f09551f8d4ba20277d4153fb6034bc950593799637"
+    },
+    {
+      "path": "python-diffs/litellm__types__proxy__management_endpoints__scim_v2.py.diff",
+      "bytes": 2243,
+      "sha256": "28b34441ffbb8d69398cda26a22cc673ad4fe3898c243bbe3a103b3e3b2cb0c6"
+    },
+    {
+      "path": "python-diffs/litellm__types__proxy__management_endpoints__team_endpoints.py.diff",
+      "bytes": 829,
+      "sha256": "2a8a5803c74564e3b02e45d1daf8b8d905adf7f2bc2c10a25c77f2efcfed09ee"
+    },
+    {
+      "path": "python-diffs/litellm__types__proxy__model_listing.py.diff",
+      "bytes": 559,
+      "sha256": "a58522670924975fbfcf0aac7c0eb110f0842a55c3b8ce3dcbcc1eca2935546d"
+    },
+    {
+      "path": "python-diffs/litellm__types__proxy__public_endpoints__public_endpoints.py.diff",
+      "bytes": 2051,
+      "sha256": "10b5bdfdd4ffef77dd76899cd492dcef939819fe4e22efab0a4a2c2db510d8c0"
+    },
+    {
+      "path": "python-diffs/litellm__types__rerank.py.diff",
+      "bytes": 1425,
+      "sha256": "e0bbfb9b3798e40271b89bd90066fa35a88c81db6760d6f9c08dc030ca053c08"
+    },
+    {
+      "path": "python-diffs/litellm__types__router.py.diff",
+      "bytes": 4475,
+      "sha256": "cff9cf32b4fc5b3b6729c4478478ab6afb039ac86cefc813eee09e594f764038"
+    },
+    {
+      "path": "python-diffs/litellm__types__secret_managers__get_azure_ad_token_provider.py.diff",
+      "bytes": 401,
+      "sha256": "ba01e5b62e9d09700bedd36297cd838114371ad683f9b75bd7c7fbd43524079a"
+    },
+    {
+      "path": "python-diffs/litellm__types__utils.py.diff",
+      "bytes": 12481,
+      "sha256": "1e72d9ad28ef0ce488523b78399104ba3bb502a8326f7ccb94fbeee1e64c85fe"
+    },
+    {
+      "path": "python-diffs/litellm__types__vector_stores.py.diff",
+      "bytes": 2750,
+      "sha256": "1717e5d11a04395d24aee372b48bcd0b56ae2e9cec6d20ef953f58adc9ffe9b9"
+    },
+    {
+      "path": "python-diffs/litellm__types__videos__main.py.diff",
+      "bytes": 2866,
+      "sha256": "ff80d1007f46ebc0b287b2483b11a357cdcbf90933060e7cfd397e4700b0525d"
+    },
+    {
+      "path": "python-diffs/litellm__utils.py.diff",
+      "bytes": 17831,
+      "sha256": "023e853e1d5ffd50e474c32fde6b55f0671284b0b4f95b52cb2421fc87a7c858"
+    },
+    {
+      "path": "python-diffs/litellm__vector_store_files__main.py.diff",
+      "bytes": 7039,
+      "sha256": "ef34536259d1d8c6033f713f1706af65f37ff7b86515a43f46f18fe580bba493"
+    },
+    {
+      "path": "python-diffs/litellm__vector_stores__main.py.diff",
+      "bytes": 5752,
+      "sha256": "0db3b86c9a7d8f22650b55ad6192af3d081946af0b0112d169707c583b6d7880"
+    },
+    {
+      "path": "python-diffs/litellm__vector_stores__vector_store_registry.py.diff",
+      "bytes": 1067,
+      "sha256": "56069a2177e0f8c2d1c1bcd330c99c682e3dee9f4f267d202a0b3497f2b5f1ab"
+    },
+    {
+      "path": "sources/litellm-rust/crates/python-bridge/Cargo.toml",
+      "bytes": 965,
+      "sha256": "160c752c74d634c9c1eabca0ff7f0b701c1e3fb76c9f9bc74e94a50c25df2836"
+    },
+    {
+      "path": "sources/litellm-rust/crates/python-bridge/src/diagnostics.rs",
+      "bytes": 652,
+      "sha256": "356b8478bfeb1bb181084b70138a22e0a0ef21e5635819437b04d89cf8de89e0"
+    },
+    {
+      "path": "sources/litellm-rust/crates/python-bridge/src/errors.rs",
+      "bytes": 3757,
+      "sha256": "6d47ae72297809830601533457715a6e0fc1974c80959f7e670c965e11eff52d"
+    },
+    {
+      "path": "sources/litellm-rust/crates/python-bridge/src/execution.rs",
+      "bytes": 13433,
+      "sha256": "2e1aeec41f312fd1045a95a2d81feb4eb9c6f0655322b22931a3bea43c043f33"
+    },
+    {
+      "path": "sources/litellm-rust/crates/python-bridge/src/lib.rs",
+      "bytes": 7641,
+      "sha256": "1c17b815a57b3aa5105d395b698df2cfedf2be7f4dbdb99f7e2f494e7ab83cc9"
+    },
+    {
+      "path": "sources/litellm-rust/crates/python-bridge/src/routes/mod.rs",
+      "bytes": 794,
+      "sha256": "c40ddcc16b03a97423b3bf243376252ff06d08266c1c7edb7cd55e77965b0e8a"
+    },
+    {
+      "path": "tag-resolution.json",
+      "bytes": 4081,
+      "sha256": "beebf7b6cf3750a7a51b942f62b52e96069e5efe01de50a6b2396d4992c6bfff"
+    },
+    {
+      "path": "wheel-audit-summary.json",
+      "bytes": 327884,
+      "sha256": "09ab948f7d2d470777ef1c725bfd6a8d5ac2d99ef754ebc06702799cc56e4317"
+    }
+  ]
+}

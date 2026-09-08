@@ -1,0 +1,262 @@
+[
+  {
+    "version": "1.99.0",
+    "signed_index_digest": "sha256:570a872d2fde8f1bc4a147634810941103c14697270f0f2918c5aa7d8201cac5",
+    "target_manifest_digest": "sha256:1eb1e1401c871cea0ff6ecdb33fcb5bb4e0749452132058c92e1e2842e8843a1",
+    "manifest_source": "https://ghcr.io/v2/berriai/litellm/manifests/sha256:b3f4ed81e097dbdd4bb88d72ece9a42d4f77b8c3c90d4003672528fb8b057992",
+    "attestation_manifest_digest": "sha256:b3f4ed81e097dbdd4bb88d72ece9a42d4f77b8c3c90d4003672528fb8b057992",
+    "statement_source": "https://ghcr.io/v2/berriai/litellm/blobs/sha256:3c95f281fed1bb0223d9a56b329727b4037828adce6adf02b69594223f99cfc2",
+    "statement_digest": "sha256:3c95f281fed1bb0223d9a56b329727b4037828adce6adf02b69594223f99cfc2",
+    "saved_file_mtime_utc": "2026-09-08T21:10:43.822707+00:00",
+    "time_basis": "local raw file write time; original HTTP timestamp not retained after sibling PyPI parse failure",
+    "hash_chain_verified": true,
+    "signature_basis": "same index digest as previously published fixed-public-key verification; not a new independent signature identity assertion",
+    "predicate_type": "https://slsa.dev/provenance/v1",
+    "build_type": "https://github.com/moby/buildkit/blob/master/docs/attestations/slsa-definitions.md",
+    "builder_id": "https://github.com/BerriAI/project-releaser/actions/runs/33459885212/attempts/1",
+    "workflow_ref": "BerriAI/project-releaser/.github/workflows/release.yml@refs/heads/main",
+    "workflow_sha": "0506e1456bf3514b46dacc596d531eb1b7f20eb2",
+    "actor_claim": "yuneng-berri",
+    "event_claim": "workflow_dispatch",
+    "inputs_claim": {
+      "allow_republish": "true",
+      "dry_run": "false",
+      "git_ref": "fa647f742d7baefe8eb1181899d9c81b41559772",
+      "registries": "both",
+      "release_type": "stable",
+      "skip_components": "pypi-litellm"
+    },
+    "vcs_claim": {
+      "localdir:context": ".",
+      "localdir:dockerfile": ".",
+      "revision": "fa647f742d7baefe8eb1181899d9c81b41559772",
+      "source": "https://github.com/BerriAI/litellm"
+    },
+    "started_on_claim": "2026-09-01T01:50:38.558798744Z",
+    "finished_on_claim": "2026-09-01T01:55:25.408365792Z",
+    "completeness": {
+      "request": false,
+      "resolvedDependencies": false
+    },
+    "resolved_dependencies": [
+      {
+        "uri": "pkg:docker/cgr.dev/chainguard/wolfi-base?digest=sha256:e624c5d5e42382ce7165ddafcbbf8e6769a24cbd02ea6114b880b05ae5ba2a8d&platform=linux%2Famd64",
+        "digest": {
+          "sha256": "e624c5d5e42382ce7165ddafcbbf8e6769a24cbd02ea6114b880b05ae5ba2a8d"
+        }
+      },
+      {
+        "uri": "pkg:docker/docker/dockerfile@1.7",
+        "digest": {
+          "sha256": "a57df69d0ea827fb7266491f2813635de6f17269be881f696fbfdf2d83dda33e"
+        }
+      },
+      {
+        "uri": "pkg:docker/ghcr.io/astral-sh/uv@0.11.7?digest=sha256:240fb85ab0f263ef12f492d8476aa3a2e4e1e333f7d67fbdd923d00a506a516a&platform=linux%2Famd64",
+        "digest": {
+          "sha256": "240fb85ab0f263ef12f492d8476aa3a2e4e1e333f7d67fbdd923d00a506a516a"
+        }
+      }
+    ],
+    "local_context_names": [
+      "context",
+      "dockerfile",
+      "ui-builder"
+    ]
+  },
+  {
+    "version": "1.99.0",
+    "signed_index_digest": "sha256:570a872d2fde8f1bc4a147634810941103c14697270f0f2918c5aa7d8201cac5",
+    "target_manifest_digest": "sha256:d7056c140b785ccf79de81514bc177cfb591060acab38327228fb54cc8a38175",
+    "manifest_source": "https://ghcr.io/v2/berriai/litellm/manifests/sha256:84225c26897dd9b020b8b9ba1831bde432e497c3cf12919bb0832bc442dc85b8",
+    "attestation_manifest_digest": "sha256:84225c26897dd9b020b8b9ba1831bde432e497c3cf12919bb0832bc442dc85b8",
+    "statement_source": "https://ghcr.io/v2/berriai/litellm/blobs/sha256:2a2212d82abc91079c79d5e49f91aabe1d765136c57308ec5483bea0deee5938",
+    "statement_digest": "sha256:2a2212d82abc91079c79d5e49f91aabe1d765136c57308ec5483bea0deee5938",
+    "saved_file_mtime_utc": "2026-09-08T21:10:45.915813+00:00",
+    "time_basis": "local raw file write time; original HTTP timestamp not retained after sibling PyPI parse failure",
+    "hash_chain_verified": true,
+    "signature_basis": "same index digest as previously published fixed-public-key verification; not a new independent signature identity assertion",
+    "predicate_type": "https://slsa.dev/provenance/v1",
+    "build_type": "https://github.com/moby/buildkit/blob/master/docs/attestations/slsa-definitions.md",
+    "builder_id": "https://github.com/BerriAI/project-releaser/actions/runs/33459885212/attempts/1",
+    "workflow_ref": "BerriAI/project-releaser/.github/workflows/release.yml@refs/heads/main",
+    "workflow_sha": "0506e1456bf3514b46dacc596d531eb1b7f20eb2",
+    "actor_claim": "yuneng-berri",
+    "event_claim": "workflow_dispatch",
+    "inputs_claim": {
+      "allow_republish": "true",
+      "dry_run": "false",
+      "git_ref": "fa647f742d7baefe8eb1181899d9c81b41559772",
+      "registries": "both",
+      "release_type": "stable",
+      "skip_components": "pypi-litellm"
+    },
+    "vcs_claim": {
+      "localdir:context": ".",
+      "localdir:dockerfile": ".",
+      "revision": "fa647f742d7baefe8eb1181899d9c81b41559772",
+      "source": "https://github.com/BerriAI/litellm"
+    },
+    "started_on_claim": "2026-09-01T01:49:40.269828532Z",
+    "finished_on_claim": "2026-09-01T01:56:45.312309791Z",
+    "completeness": {
+      "request": false,
+      "resolvedDependencies": false
+    },
+    "resolved_dependencies": [
+      {
+        "uri": "pkg:docker/cgr.dev/chainguard/wolfi-base?digest=sha256:e624c5d5e42382ce7165ddafcbbf8e6769a24cbd02ea6114b880b05ae5ba2a8d&platform=linux%2Farm64",
+        "digest": {
+          "sha256": "e624c5d5e42382ce7165ddafcbbf8e6769a24cbd02ea6114b880b05ae5ba2a8d"
+        }
+      },
+      {
+        "uri": "pkg:docker/docker/dockerfile@1.7",
+        "digest": {
+          "sha256": "a57df69d0ea827fb7266491f2813635de6f17269be881f696fbfdf2d83dda33e"
+        }
+      },
+      {
+        "uri": "pkg:docker/ghcr.io/astral-sh/uv@0.11.7?digest=sha256:240fb85ab0f263ef12f492d8476aa3a2e4e1e333f7d67fbdd923d00a506a516a&platform=linux%2Farm64",
+        "digest": {
+          "sha256": "240fb85ab0f263ef12f492d8476aa3a2e4e1e333f7d67fbdd923d00a506a516a"
+        }
+      }
+    ],
+    "local_context_names": [
+      "context",
+      "dockerfile",
+      "ui-builder"
+    ]
+  },
+  {
+    "version": "1.100.0",
+    "signed_index_digest": "sha256:c8756e7b9a61fe45df2ccb5b781d388c3b2f3a21ef9e4956630caef20f9f03aa",
+    "target_manifest_digest": "sha256:50968359340577e3f462edae29f887a66932633738d6609066b619e2fa4cca66",
+    "manifest_source": "https://ghcr.io/v2/berriai/litellm/manifests/sha256:0b71ac376c2413eb862a65125677078573e586eebe2783a2413022297011a3f3",
+    "attestation_manifest_digest": "sha256:0b71ac376c2413eb862a65125677078573e586eebe2783a2413022297011a3f3",
+    "statement_source": "https://ghcr.io/v2/berriai/litellm/blobs/sha256:579a55dc7980de6313466a643ee08bfce126319e6a14892e000b48b7394aeb61",
+    "statement_digest": "sha256:579a55dc7980de6313466a643ee08bfce126319e6a14892e000b48b7394aeb61",
+    "saved_file_mtime_utc": "2026-09-08T21:10:47.992587+00:00",
+    "time_basis": "local raw file write time; original HTTP timestamp not retained after sibling PyPI parse failure",
+    "hash_chain_verified": true,
+    "signature_basis": "same index digest as previously published fixed-public-key verification; not a new independent signature identity assertion",
+    "predicate_type": "https://slsa.dev/provenance/v1",
+    "build_type": "https://github.com/moby/buildkit/blob/master/docs/attestations/slsa-definitions.md",
+    "builder_id": "https://github.com/BerriAI/project-releaser/actions/runs/34006625974/attempts/1",
+    "workflow_ref": "BerriAI/project-releaser/.github/workflows/release.yml@refs/heads/main",
+    "workflow_sha": "bf703759a46aa779d0ffb8d4e2a64dc8b9a11650",
+    "actor_claim": "yuneng-berri",
+    "event_claim": "workflow_dispatch",
+    "inputs_claim": {
+      "allow_republish": "true",
+      "dry_run": "false",
+      "git_ref": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+      "registries": "both",
+      "release_type": "stable",
+      "skip_components": "pypi-litellm"
+    },
+    "vcs_claim": {
+      "localdir:context": ".",
+      "localdir:dockerfile": ".",
+      "revision": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+      "source": "https://github.com/BerriAI/litellm"
+    },
+    "started_on_claim": "2026-09-06T02:37:31.071907908Z",
+    "finished_on_claim": "2026-09-06T02:45:18.344162732Z",
+    "completeness": {
+      "request": false,
+      "resolvedDependencies": false
+    },
+    "resolved_dependencies": [
+      {
+        "uri": "pkg:docker/cgr.dev/chainguard/wolfi-base?digest=sha256:e624c5d5e42382ce7165ddafcbbf8e6769a24cbd02ea6114b880b05ae5ba2a8d&platform=linux%2Farm64",
+        "digest": {
+          "sha256": "e624c5d5e42382ce7165ddafcbbf8e6769a24cbd02ea6114b880b05ae5ba2a8d"
+        }
+      },
+      {
+        "uri": "pkg:docker/docker/dockerfile@1.7",
+        "digest": {
+          "sha256": "a57df69d0ea827fb7266491f2813635de6f17269be881f696fbfdf2d83dda33e"
+        }
+      },
+      {
+        "uri": "pkg:docker/ghcr.io/astral-sh/uv@0.11.7?digest=sha256:240fb85ab0f263ef12f492d8476aa3a2e4e1e333f7d67fbdd923d00a506a516a&platform=linux%2Farm64",
+        "digest": {
+          "sha256": "240fb85ab0f263ef12f492d8476aa3a2e4e1e333f7d67fbdd923d00a506a516a"
+        }
+      }
+    ],
+    "local_context_names": [
+      "context",
+      "dockerfile",
+      "ui-builder"
+    ]
+  },
+  {
+    "version": "1.100.0",
+    "signed_index_digest": "sha256:c8756e7b9a61fe45df2ccb5b781d388c3b2f3a21ef9e4956630caef20f9f03aa",
+    "target_manifest_digest": "sha256:d524416722079cef3cba09d498daae97b79068d759fb13f560c31eccf3e545e9",
+    "manifest_source": "https://ghcr.io/v2/berriai/litellm/manifests/sha256:66f36cd7f63b3452a1a1fee27a399f5a63d44546164e16c795141a1799d2b59b",
+    "attestation_manifest_digest": "sha256:66f36cd7f63b3452a1a1fee27a399f5a63d44546164e16c795141a1799d2b59b",
+    "statement_source": "https://ghcr.io/v2/berriai/litellm/blobs/sha256:2b57d0a7017ca0dff5d617f18b4986b97a3ca855a96a5be5eaa188a057743b4a",
+    "statement_digest": "sha256:2b57d0a7017ca0dff5d617f18b4986b97a3ca855a96a5be5eaa188a057743b4a",
+    "saved_file_mtime_utc": "2026-09-08T21:10:50.111028+00:00",
+    "time_basis": "local raw file write time; original HTTP timestamp not retained after sibling PyPI parse failure",
+    "hash_chain_verified": true,
+    "signature_basis": "same index digest as previously published fixed-public-key verification; not a new independent signature identity assertion",
+    "predicate_type": "https://slsa.dev/provenance/v1",
+    "build_type": "https://github.com/moby/buildkit/blob/master/docs/attestations/slsa-definitions.md",
+    "builder_id": "https://github.com/BerriAI/project-releaser/actions/runs/34006625974/attempts/1",
+    "workflow_ref": "BerriAI/project-releaser/.github/workflows/release.yml@refs/heads/main",
+    "workflow_sha": "bf703759a46aa779d0ffb8d4e2a64dc8b9a11650",
+    "actor_claim": "yuneng-berri",
+    "event_claim": "workflow_dispatch",
+    "inputs_claim": {
+      "allow_republish": "true",
+      "dry_run": "false",
+      "git_ref": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+      "registries": "both",
+      "release_type": "stable",
+      "skip_components": "pypi-litellm"
+    },
+    "vcs_claim": {
+      "localdir:context": ".",
+      "localdir:dockerfile": ".",
+      "revision": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+      "source": "https://github.com/BerriAI/litellm"
+    },
+    "started_on_claim": "2026-09-06T02:38:16.95939824Z",
+    "finished_on_claim": "2026-09-06T02:42:40.038443313Z",
+    "completeness": {
+      "request": false,
+      "resolvedDependencies": false
+    },
+    "resolved_dependencies": [
+      {
+        "uri": "pkg:docker/cgr.dev/chainguard/wolfi-base?digest=sha256:e624c5d5e42382ce7165ddafcbbf8e6769a24cbd02ea6114b880b05ae5ba2a8d&platform=linux%2Famd64",
+        "digest": {
+          "sha256": "e624c5d5e42382ce7165ddafcbbf8e6769a24cbd02ea6114b880b05ae5ba2a8d"
+        }
+      },
+      {
+        "uri": "pkg:docker/docker/dockerfile@1.7",
+        "digest": {
+          "sha256": "a57df69d0ea827fb7266491f2813635de6f17269be881f696fbfdf2d83dda33e"
+        }
+      },
+      {
+        "uri": "pkg:docker/ghcr.io/astral-sh/uv@0.11.7?digest=sha256:240fb85ab0f263ef12f492d8476aa3a2e4e1e333f7d67fbdd923d00a506a516a&platform=linux%2Famd64",
+        "digest": {
+          "sha256": "240fb85ab0f263ef12f492d8476aa3a2e4e1e333f7d67fbdd923d00a506a516a"
+        }
+      }
+    ],
+    "local_context_names": [
+      "context",
+      "dockerfile",
+      "ui-builder"
+    ]
+  }
+]

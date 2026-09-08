@@ -1,0 +1,8 @@
+subq	$0x18, %rsp
+movq	%rdi, 0x8(%rsp)
+leaq	RIP(%rip), %rax
+movq	%rax, 0x10(%rsp)
+leaq	RIP(%rip), %rdi
+leaq	RIP(%rip), %rdx
+leaq	0x8(%rsp), %rsi
+callq	TARGET

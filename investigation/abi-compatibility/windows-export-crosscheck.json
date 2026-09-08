@@ -1,0 +1,1556 @@
+[
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyBaseObject_Type",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyBool_Type",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyByteArray_Type",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyBytes_AsString",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyBytes_Size",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyBytes_Type",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyCMethod_New",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyDict_GetItemWithError",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyDict_Keys",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyDict_New",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyDict_Next",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyDict_SetItem",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyDict_Size",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyDict_Type",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyErr_Clear",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyErr_ExceptionMatches",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyErr_Fetch",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyErr_GivenExceptionMatches",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyErr_NewExceptionWithDoc",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyErr_NormalizeException",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyErr_Occurred",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyErr_PrintEx",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyErr_Restore",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyErr_SetObject",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyErr_SetString",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyErr_WriteUnraisable",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyEval_RestoreThread",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyEval_SaveThread",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyExc_AttributeError",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyExc_BaseException",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyExc_Exception",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyExc_KeyError",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyExc_RuntimeError",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyExc_SystemError",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyExc_TypeError",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyExc_ValueError",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyException_SetCause",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyException_SetTraceback",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyFloat_AsDouble",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyFloat_FromDouble",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyFloat_Type",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyFrozenSet_Type",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyGILState_Ensure",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyGILState_Release",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyImport_Import",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyIter_Next",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyList_Append",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyList_GetItem",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyList_New",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyList_SetItem",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyList_Size",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyList_Type",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyLong_AsLong",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyLong_AsUnsignedLongLong",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyLong_AsUnsignedLongLongMask",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyLong_FromLong",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyLong_FromSsize_t",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyLong_FromUnsignedLongLong",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyLong_Type",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyMapping_Keys",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyMapping_Size",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyMapping_Values",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyModuleDef_Init",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyModule_GetNameObject",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyModule_Type",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyNumber_Index",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyNumber_Rshift",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyObject_Call",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyObject_CallMethodObjArgs",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyObject_CallNoArgs",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyObject_DelItem",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyObject_GC_UnTrack",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyObject_GenericGetDict",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyObject_GenericSetDict",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyObject_GetAttr",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyObject_GetItem",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyObject_GetIter",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyObject_IsInstance",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyObject_IsTrue",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyObject_Repr",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyObject_SetAttr",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyObject_SetAttrString",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyObject_SetItem",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyObject_Size",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyObject_Str",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PySequence_GetItem",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PySet_Type",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyTraceBack_Print",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyTuple_GetItem",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyTuple_New",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyTuple_SetItem",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyTuple_Size",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyTuple_Type",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyType_FromSpec",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyType_GetFlags",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyType_GetSlot",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyType_IsSubtype",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyType_Type",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyUnicode_AsEncodedString",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyUnicode_AsUTF8AndSize",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyUnicode_FromStringAndSize",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyUnicode_InternInPlace",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "PyUnicode_Type",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "Py_GetVersion",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "Py_IsInitialized",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "Py_NewRef",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "_Py_DecRef",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "_Py_FalseStruct",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "_Py_IncRef",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "_Py_NoneStruct",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.10.0",
+    "symbol": "_Py_TrueStruct",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyBaseObject_Type",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyBool_Type",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyByteArray_Type",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyBytes_AsString",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyBytes_Size",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyBytes_Type",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyCMethod_New",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyDict_GetItemWithError",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyDict_Keys",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyDict_New",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyDict_Next",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyDict_SetItem",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyDict_Size",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyDict_Type",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyErr_Clear",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyErr_ExceptionMatches",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyErr_Fetch",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyErr_GivenExceptionMatches",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyErr_NewExceptionWithDoc",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyErr_NormalizeException",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyErr_Occurred",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyErr_PrintEx",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyErr_Restore",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyErr_SetObject",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyErr_SetString",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyErr_WriteUnraisable",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyEval_RestoreThread",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyEval_SaveThread",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyExc_AttributeError",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyExc_BaseException",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyExc_Exception",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyExc_KeyError",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyExc_RuntimeError",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyExc_SystemError",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyExc_TypeError",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyExc_ValueError",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyException_SetCause",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyException_SetTraceback",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyFloat_AsDouble",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyFloat_FromDouble",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyFloat_Type",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyFrozenSet_Type",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyGILState_Ensure",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyGILState_Release",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyImport_Import",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyIter_Next",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyList_Append",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyList_GetItem",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyList_New",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyList_SetItem",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyList_Size",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyList_Type",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyLong_AsLong",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyLong_AsUnsignedLongLong",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyLong_AsUnsignedLongLongMask",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyLong_FromLong",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyLong_FromSsize_t",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyLong_FromUnsignedLongLong",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyLong_Type",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyMapping_Keys",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyMapping_Size",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyMapping_Values",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyModuleDef_Init",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyModule_GetNameObject",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyModule_Type",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyNumber_Index",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyNumber_Rshift",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyObject_Call",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyObject_CallMethodObjArgs",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyObject_CallNoArgs",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyObject_DelItem",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyObject_GC_UnTrack",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyObject_GenericGetDict",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyObject_GenericSetDict",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyObject_GetAttr",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyObject_GetItem",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyObject_GetIter",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyObject_IsInstance",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyObject_IsTrue",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyObject_Repr",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyObject_SetAttr",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyObject_SetAttrString",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyObject_SetItem",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyObject_Size",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyObject_Str",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PySequence_GetItem",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PySet_Type",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyTraceBack_Print",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyTuple_GetItem",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyTuple_New",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyTuple_SetItem",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyTuple_Size",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyTuple_Type",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyType_FromSpec",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyType_GetFlags",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyType_GetSlot",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyType_IsSubtype",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyType_Type",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyUnicode_AsEncodedString",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyUnicode_AsUTF8AndSize",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyUnicode_FromStringAndSize",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyUnicode_InternInPlace",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "PyUnicode_Type",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "Py_GetVersion",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "Py_IsInitialized",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "Py_NewRef",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "_Py_DecRef",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "_Py_FalseStruct",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "_Py_IncRef",
+    "declared_kind": "FUNC",
+    "windows_export_kind": "FUNC",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "_Py_NoneStruct",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  },
+  {
+    "cpython": "v3.14.0",
+    "symbol": "_Py_TrueStruct",
+    "declared_kind": "DATA",
+    "windows_export_kind": "DATA",
+    "matches": true
+  }
+]

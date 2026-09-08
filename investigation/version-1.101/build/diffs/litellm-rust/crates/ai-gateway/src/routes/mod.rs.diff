@@ -1,0 +1,22 @@
+--- 1.100.0/litellm-rust/crates/ai-gateway/src/routes/mod.rs
++++ 1.101.0rc1/litellm-rust/crates/ai-gateway/src/routes/mod.rs
+@@ -2,10 +2,9 @@
+ //!
+ //! **Template:** every route module exposes `pub fn router() -> Router<AppState>`
+ //! that mounts its own paths; [`app`] merges them. A trivial route is a single
+-//! file (`health.rs`, `gil.rs`); a non-trivial one is a folder (`realtime/`) with
++//! file (`health.rs`); a non-trivial one is a folder (`realtime/`) with
+ //! `handler` (entry) + `service` (logic) + `transport` (adapters). See AGENTS.md.
+ 
+-pub mod gil;
+ pub mod health;
+ pub mod messages;
+ pub mod realtime;
+@@ -19,7 +18,6 @@
+ pub fn app(state: AppState) -> Router {
+     Router::new()
+         .merge(health::router())
+-        .merge(gil::router())
+         .merge(messages::router())
+         .merge(realtime::router())
+         .merge(responses::router())

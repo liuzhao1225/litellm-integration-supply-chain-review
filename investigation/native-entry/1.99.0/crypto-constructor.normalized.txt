@@ -1,0 +1,180 @@
+pushq	%rbp
+xorl	%eax, %eax
+pushq	%rbx
+subq	$0x8, %rsp
+xorl	%ecx, %ecx
+cpuid
+movl	%edx, %r8d
+movl	%ecx, %r9d
+cmpl	$0x756e6547, %ebx
+je	TARGET
+cmpl	$0x69746e65, %edx
+sete	%cl
+cmpl	$0x68747541, %ebx
+sete	%dl
+testb	%dl, %cl
+je	TARGET
+cmpl	$0x444d4163, %r9d
+je	TARGET
+cmpl	$0x6, %eax
+ja	TARGET
+movl	$0x1, %eax
+xorl	%ecx, %ecx
+cpuid
+xorl	%esi, %esi
+movl	%ecx, %edi
+pxor	%xmm1, %xmm1
+andl	$0xbfefffff, %edx
+orl	$0x10000000, %edx
+movd	%edx, %xmm0
+testl	$0x8000000, %edi
+jne	TARGET
+andl	$0xefffe7ff, %edi
+andl	$0x3fdeffdf, %esi
+testl	$0x4000000, %edi
+je	TARGET
+movd	%edi, %xmm3
+movd	%esi, %xmm2
+leaq	RIP(%rip), %rbp
+leaq	RIP(%rip), %rax
+punpckldq	%xmm1, %xmm2
+punpckldq	%xmm3, %xmm0
+leaq	RIP(%rip), %rdi
+punpcklqdq	%xmm2, %xmm0
+movb	$0x1, (%rax)
+movups	%xmm0, (%rbp)
+callq	TARGET
+movq	%rax, %rbx
+testq	%rax, %rax
+je	TARGET
+movq	%rax, %rsi
+movq	%rbp, %rdi
+callq	TARGET
+movl	$0x3a, %esi
+movq	%rbx, %rdi
+callq	TARGET
+testq	%rax, %rax
+je	TARGET
+addq	$0x8, %rsp
+leaq	0x8(%rbp), %rdi
+leaq	0x1(%rax), %rsi
+popq	%rbx
+popq	%rbp
+jmp	TARGET
+nopl	(%rax)
+movl	$0x7, %eax
+xorl	%ecx, %ecx
+cpuid
+movl	$0x1, %eax
+movl	%ebx, %esi
+movd	%ecx, %xmm1
+xorl	%ecx, %ecx
+cpuid
+movl	%ecx, %edi
+jmp	TARGET
+nop
+addq	$0x8, %rsp
+popq	%rbx
+popq	%rbp
+retq
+nopw	(%rax,%rax)
+cmpl	$0x6, %eax
+ja	TARGET
+movl	$0x1, %eax
+xorl	%ecx, %ecx
+cpuid
+xorl	%esi, %esi
+movl	%ecx, %edi
+pxor	%xmm1, %xmm1
+movl	%edx, %ecx
+andl	$0xffefffff, %ecx
+cmpl	$0x6c65746e, %r9d
+jne	TARGET
+cmpl	$0x49656e69, %r8d
+jne	TARGET
+orl	$0x50000000, %ecx
+andl	$0xfff0ff0, %eax
+movd	%ecx, %xmm0
+cmpl	$0x50670, %eax
+je	TARGET
+cmpl	$0x80650, %eax
+jne	TARGET
+testl	$0x8000000, %edi
+jne	TARGET
+andl	$0xebffe7ff, %edi
+andl	$0x3fdeffdf, %esi
+andl	$0xfff7ffff, %esi
+jmp	TARGET
+nopl	(%rax)
+andl	$0xfbffffff, %edi
+xorl	%ecx, %ecx
+xgetbv
+movl	%eax, %eax
+shlq	$0x20, %rdx
+orq	%rax, %rdx
+notq	%rax
+testb	$0x6, %al
+je	TARGET
+andl	$0xefffe7ff, %edi
+andl	$0x3fdeffdf, %esi
+movl	%esi, %eax
+notq	%rdx
+andl	$0xfffeffff, %eax
+andl	$0xe6, %edx
+cmovnel	%eax, %esi
+jmp	TARGET
+nop
+movl	$0x7, %eax
+xorl	%ecx, %ecx
+cpuid
+movl	$0x1, %eax
+movl	%ebx, %esi
+movd	%ecx, %xmm1
+xorl	%ecx, %ecx
+cpuid
+movl	%ecx, %edi
+jmp	TARGET
+nop
+andl	$0xfffff7ff, %edi
+jmp	TARGET
+nopl	(%rax,%rax)
+cmpl	$0x6, %eax
+ja	TARGET
+movl	$0x1, %eax
+xorl	%ecx, %ecx
+cpuid
+movl	%eax, %esi
+movl	%ecx, %edi
+notl	%esi
+andl	$0xf00, %esi
+je	TARGET
+andl	$0xbfffffff, %edi
+xorl	%esi, %esi
+pxor	%xmm1, %xmm1
+jmp	TARGET
+nopl	(%rax)
+movl	$0x7, %eax
+xorl	%ecx, %ecx
+cpuid
+movl	$0x1, %eax
+movl	%ebx, %esi
+movd	%ecx, %xmm1
+xorl	%ecx, %ecx
+cpuid
+movl	%ecx, %edi
+movl	%eax, %ecx
+notl	%ecx
+andb	$0xf, %ch
+je	TARGET
+andl	$0xbfffffff, %edi
+jmp	TARGET
+xorl	%esi, %esi
+pxor	%xmm1, %xmm1
+nopw	%cs:(%rax,%rax)
+nop
+shrl	$0x14, %eax
+movzbl	%al, %eax
+subl	$0x9, %eax
+cmpl	$-0x19, %eax
+jbe	TARGET
+jmp	TARGET

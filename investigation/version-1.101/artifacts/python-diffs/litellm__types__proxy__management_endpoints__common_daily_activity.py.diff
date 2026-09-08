@@ -1,0 +1,10 @@
+--- 1.100.0/litellm/types/proxy/management_endpoints/common_daily_activity.py
++++ 1.101.0rc1/litellm/types/proxy/management_endpoints/common_daily_activity.py
+@@ -43,6 +43,7 @@
+ 
+     key_alias: str | None = None
+     team_id: str | None = None
++    user_email: str | None = None
+ 
+ 
+ class KeyMetricWithMetadata(MetricBase):

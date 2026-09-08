@@ -1,0 +1,1296 @@
+[
+  {
+    "label": "module-callee-01",
+    "va": "0x68c530",
+    "file_offset": "0x68b530",
+    "size": 553,
+    "refs": [
+      {
+        "instruction": "68c5eb: 4c 8b 2d b6 29 46 00         \tmovq\t0x4629b6(%rip), %r13    # 0xaeefa8 ; ELF relocation: _Py_DecRef",
+        "reference": "0xaeefa8",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464616,
+          "type": 6,
+          "addend": 0,
+          "symbol": "_Py_DecRef"
+        }
+      },
+      {
+        "instruction": "68c625: ff 25 45 29 46 00            \tjmpq\t*0x462945(%rip)         # 0xaeef70 ; ELF relocation: free",
+        "reference": "0xaeef70",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464560,
+          "type": 6,
+          "addend": 0,
+          "symbol": "free"
+        }
+      },
+      {
+        "instruction": "68c6a9: 48 8d 0d 50 3d 44 00         \tleaq\t0x443d50(%rip), %rcx    # 0xad0400 ; ELF relocation: local pointer 0x68e550",
+        "reference": "0xad0400",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11338752,
+          "type": 8,
+          "addend": 6874448,
+          "symbol": null
+        }
+      },
+      {
+        "instruction": "68c6b0: 4c 8d 05 41 3f 44 00         \tleaq\t0x443f41(%rip), %r8     # 0xad05f8 ; ELF relocation: local pointer 0xc2168",
+        "reference": "0xad05f8",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11339256,
+          "type": 8,
+          "addend": 794984,
+          "symbol": null
+        }
+      },
+      {
+        "instruction": "68c6de: ff 15 64 29 46 00            \tcallq\t*0x462964(%rip)         # 0xaef048 ; ELF relocation: syscall",
+        "reference": "0xaef048",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464776,
+          "type": 6,
+          "addend": 0,
+          "symbol": "syscall"
+        }
+      },
+      {
+        "instruction": "68c70e: ff 25 34 29 46 00            \tjmpq\t*0x462934(%rip)         # 0xaef048 ; ELF relocation: syscall",
+        "reference": "0xaef048",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464776,
+          "type": 6,
+          "addend": 0,
+          "symbol": "syscall"
+        }
+      }
+    ]
+  },
+  {
+    "label": "module-callee-02",
+    "va": "0x697080",
+    "file_offset": "0x696080",
+    "size": 382,
+    "refs": [
+      {
+        "instruction": "69709c: ff 15 86 84 45 00            \tcallq\t*0x458486(%rip)         # 0xaef528 ; ELF relocation: PyModule_GetNameObject",
+        "reference": "0xaef528",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11466024,
+          "type": 6,
+          "addend": 0,
+          "symbol": "PyModule_GetNameObject"
+        }
+      },
+      {
+        "instruction": "6970bc: ff 15 6e 84 45 00            \tcallq\t*0x45846e(%rip)         # 0xaef530 ; ELF relocation: PyCMethod_New",
+        "reference": "0xaef530",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11466032,
+          "type": 6,
+          "addend": 0,
+          "symbol": "PyCMethod_New"
+        }
+      },
+      {
+        "instruction": "69714e: ff 25 54 7e 45 00            \tjmpq\t*0x457e54(%rip)         # 0xaeefa8 ; ELF relocation: _Py_DecRef",
+        "reference": "0xaeefa8",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464616,
+          "type": 6,
+          "addend": 0,
+          "symbol": "_Py_DecRef"
+        }
+      },
+      {
+        "instruction": "6971f0: ff 15 b2 7d 45 00            \tcallq\t*0x457db2(%rip)         # 0xaeefa8 ; ELF relocation: _Py_DecRef",
+        "reference": "0xaeefa8",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464616,
+          "type": 6,
+          "addend": 0,
+          "symbol": "_Py_DecRef"
+        }
+      }
+    ]
+  },
+  {
+    "label": "module-callee-03",
+    "va": "0x68b270",
+    "file_offset": "0x68a270",
+    "size": 561,
+    "refs": [
+      {
+        "instruction": "68b2ac: ff 15 66 41 46 00            \tcallq\t*0x464166(%rip)         # 0xaef418 ; ELF relocation: PyErr_Fetch",
+        "reference": "0xaef418",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11465752,
+          "type": 6,
+          "addend": 0,
+          "symbol": "PyErr_Fetch"
+        }
+      },
+      {
+        "instruction": "68b2d0: ff 15 4a 41 46 00            \tcallq\t*0x46414a(%rip)         # 0xaef420 ; ELF relocation: PyErr_NormalizeException",
+        "reference": "0xaef420",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11465760,
+          "type": 6,
+          "addend": 0,
+          "symbol": "PyErr_NormalizeException"
+        }
+      },
+      {
+        "instruction": "68b3c9: ff 15 d9 3b 46 00            \tcallq\t*0x463bd9(%rip)         # 0xaeefa8 ; ELF relocation: _Py_DecRef",
+        "reference": "0xaeefa8",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464616,
+          "type": 6,
+          "addend": 0,
+          "symbol": "_Py_DecRef"
+        }
+      },
+      {
+        "instruction": "68b3d7: ff 15 cb 3b 46 00            \tcallq\t*0x463bcb(%rip)         # 0xaeefa8 ; ELF relocation: _Py_DecRef",
+        "reference": "0xaeefa8",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464616,
+          "type": 6,
+          "addend": 0,
+          "symbol": "_Py_DecRef"
+        }
+      },
+      {
+        "instruction": "68b3f9: 48 8d 15 70 4e 44 00         \tleaq\t0x444e70(%rip), %rdx    # 0xad0270 ; ELF relocation: local pointer 0xce9a5",
+        "reference": "0xad0270",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11338352,
+          "type": 8,
+          "addend": 846245,
+          "symbol": null
+        }
+      },
+      {
+        "instruction": "68b43b: 4c 8d 05 0e 51 44 00         \tleaq\t0x44510e(%rip), %r8     # 0xad0550 ; ELF relocation: local pointer 0xce9a5",
+        "reference": "0xad0550",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11339088,
+          "type": 8,
+          "addend": 846245,
+          "symbol": null
+        }
+      },
+      {
+        "instruction": "68b48e: ff 15 14 3b 46 00            \tcallq\t*0x463b14(%rip)         # 0xaeefa8 ; ELF relocation: _Py_DecRef",
+        "reference": "0xaeefa8",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464616,
+          "type": 6,
+          "addend": 0,
+          "symbol": "_Py_DecRef"
+        }
+      }
+    ]
+  },
+  {
+    "label": "module-callee-04",
+    "va": "0x697250",
+    "file_offset": "0x696250",
+    "size": 460,
+    "refs": [
+      {
+        "instruction": "697267: 0f 10 05 e2 a1 45 00         \tmovups\t0x45a1e2(%rip), %xmm0   # 0xaf1450 ; ELF relocation: local pointer 0xaad70",
+        "reference": "0xaf1450",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11474000,
+          "type": 8,
+          "addend": 699760,
+          "symbol": null
+        }
+      },
+      {
+        "instruction": "69729b: ff 15 2f 7e 45 00            \tcallq\t*0x457e2f(%rip)         # 0xaef0d0 ; ELF relocation: PyObject_GetAttr",
+        "reference": "0xaef0d0",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464912,
+          "type": 6,
+          "addend": 0,
+          "symbol": "PyObject_GetAttr"
+        }
+      },
+      {
+        "instruction": "6972ad: ff 15 45 81 45 00            \tcallq\t*0x458145(%rip)         # 0xaef3f8 ; ELF relocation: PyType_GetFlags",
+        "reference": "0xaef3f8",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11465720,
+          "type": 6,
+          "addend": 0,
+          "symbol": "PyType_GetFlags"
+        }
+      },
+      {
+        "instruction": "6972be: 4c 8b 3d 3b 81 45 00         \tmovq\t0x45813b(%rip), %r15    # 0xaef400 ; ELF relocation: PyUnicode_Type",
+        "reference": "0xaef400",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11465728,
+          "type": 6,
+          "addend": 0,
+          "symbol": "PyUnicode_Type"
+        }
+      },
+      {
+        "instruction": "6972c8: ff 15 fa 7c 45 00            \tcallq\t*0x457cfa(%rip)         # 0xaeefc8 ; ELF relocation: _Py_IncRef",
+        "reference": "0xaeefc8",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464648,
+          "type": 6,
+          "addend": 0,
+          "symbol": "_Py_IncRef"
+        }
+      },
+      {
+        "instruction": "6973a2: ff 15 00 7c 45 00            \tcallq\t*0x457c00(%rip)         # 0xaeefa8 ; ELF relocation: _Py_DecRef",
+        "reference": "0xaeefa8",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464616,
+          "type": 6,
+          "addend": 0,
+          "symbol": "_Py_DecRef"
+        }
+      },
+      {
+        "instruction": "6973ae: ff 15 f4 7b 45 00            \tcallq\t*0x457bf4(%rip)         # 0xaeefa8 ; ELF relocation: _Py_DecRef",
+        "reference": "0xaeefa8",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464616,
+          "type": 6,
+          "addend": 0,
+          "symbol": "_Py_DecRef"
+        }
+      },
+      {
+        "instruction": "6973ee: ff 15 b4 7b 45 00            \tcallq\t*0x457bb4(%rip)         # 0xaeefa8 ; ELF relocation: _Py_DecRef",
+        "reference": "0xaeefa8",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464616,
+          "type": 6,
+          "addend": 0,
+          "symbol": "_Py_DecRef"
+        }
+      },
+      {
+        "instruction": "6973fa: ff 15 a8 7b 45 00            \tcallq\t*0x457ba8(%rip)         # 0xaeefa8 ; ELF relocation: _Py_DecRef",
+        "reference": "0xaeefa8",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464616,
+          "type": 6,
+          "addend": 0,
+          "symbol": "_Py_DecRef"
+        }
+      },
+      {
+        "instruction": "69740e: ff 15 94 7b 45 00            \tcallq\t*0x457b94(%rip)         # 0xaeefa8 ; ELF relocation: _Py_DecRef",
+        "reference": "0xaeefa8",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464616,
+          "type": 6,
+          "addend": 0,
+          "symbol": "_Py_DecRef"
+        }
+      }
+    ]
+  },
+  {
+    "label": "module-callee-05",
+    "va": "0x68b820",
+    "file_offset": "0x68a820",
+    "size": 182,
+    "refs": [
+      {
+        "instruction": "68b854: ff 25 e6 3b 46 00            \tjmpq\t*0x463be6(%rip)         # 0xaef440 ; ELF relocation: PyErr_Restore",
+        "reference": "0xaef440",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11465792,
+          "type": 6,
+          "addend": 0,
+          "symbol": "PyErr_Restore"
+        }
+      },
+      {
+        "instruction": "68b878: ff 25 c2 3b 46 00            \tjmpq\t*0x463bc2(%rip)         # 0xaef440 ; ELF relocation: PyErr_Restore",
+        "reference": "0xaef440",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11465792,
+          "type": 6,
+          "addend": 0,
+          "symbol": "PyErr_Restore"
+        }
+      },
+      {
+        "instruction": "68b885: 48 8d 15 3c 4d 44 00         \tleaq\t0x444d3c(%rip), %rdx    # 0xad05c8 ; ELF relocation: local pointer 0xce9a5",
+        "reference": "0xad05c8",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11339208,
+          "type": 8,
+          "addend": 846245,
+          "symbol": null
+        }
+      },
+      {
+        "instruction": "68b8a1: 48 8d 0d d8 4a 44 00         \tleaq\t0x444ad8(%rip), %rcx    # 0xad0380 ; ELF relocation: local pointer 0x68b8e0",
+        "reference": "0xad0380",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11338624,
+          "type": 8,
+          "addend": 6863072,
+          "symbol": null
+        }
+      },
+      {
+        "instruction": "68b8a8: 4c 8d 05 f1 4d 44 00         \tleaq\t0x444df1(%rip), %r8     # 0xad06a0 ; ELF relocation: local pointer 0xce9a5",
+        "reference": "0xad06a0",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11339424,
+          "type": 8,
+          "addend": 846245,
+          "symbol": null
+        }
+      }
+    ]
+  },
+  {
+    "label": "module-callee-06",
+    "va": "0x2afe70",
+    "file_offset": "0x2aee70",
+    "size": 152,
+    "refs": [
+      {
+        "instruction": "2afe87: ff 15 6b f1 83 00            \tcallq\t*0x83f16b(%rip)         # 0xaeeff8 ; ELF relocation: PyUnicode_FromStringAndSize",
+        "reference": "0xaeeff8",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464696,
+          "type": 6,
+          "addend": 0,
+          "symbol": "PyUnicode_FromStringAndSize"
+        }
+      },
+      {
+        "instruction": "2afea6: 4c 8b 3d fb f0 83 00         \tmovq\t0x83f0fb(%rip), %r15    # 0xaeefa8 ; ELF relocation: _Py_DecRef",
+        "reference": "0xaeefa8",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464616,
+          "type": 6,
+          "addend": 0,
+          "symbol": "_Py_DecRef"
+        }
+      },
+      {
+        "instruction": "2afec6: 48 8d 3d 63 0b 82 00         \tleaq\t0x820b63(%rip), %rdi    # 0xad0a30 ; ELF relocation: local pointer 0xd39ea",
+        "reference": "0xad0a30",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11340336,
+          "type": 8,
+          "addend": 866794,
+          "symbol": null
+        }
+      },
+      {
+        "instruction": "2afeda: ff 15 c8 f0 83 00            \tcallq\t*0x83f0c8(%rip)         # 0xaeefa8 ; ELF relocation: _Py_DecRef",
+        "reference": "0xaeefa8",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464616,
+          "type": 6,
+          "addend": 0,
+          "symbol": "_Py_DecRef"
+        }
+      },
+      {
+        "instruction": "2afee3: ff 15 bf f0 83 00            \tcallq\t*0x83f0bf(%rip)         # 0xaeefa8 ; ELF relocation: _Py_DecRef",
+        "reference": "0xaeefa8",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464616,
+          "type": 6,
+          "addend": 0,
+          "symbol": "_Py_DecRef"
+        }
+      },
+      {
+        "instruction": "2afefa: ff 15 a8 f0 83 00            \tcallq\t*0x83f0a8(%rip)         # 0xaeefa8 ; ELF relocation: _Py_DecRef",
+        "reference": "0xaeefa8",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464616,
+          "type": 6,
+          "addend": 0,
+          "symbol": "_Py_DecRef"
+        }
+      }
+    ]
+  },
+  {
+    "label": "module-callee-07",
+    "va": "0x68e0a0",
+    "file_offset": "0x68d0a0",
+    "size": 82,
+    "refs": [
+      {
+        "instruction": "68e0aa: 48 8d 05 5f 24 44 00         \tleaq\t0x44245f(%rip), %rax    # 0xad0510 ; ELF relocation: local pointer 0x11aff6",
+        "reference": "0xad0510",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11339024,
+          "type": 8,
+          "addend": 1159158,
+          "symbol": null
+        }
+      },
+      {
+        "instruction": "68e0c9: 48 8d 15 e8 25 44 00         \tleaq\t0x4425e8(%rip), %rdx    # 0xad06b8 ; ELF relocation: local pointer 0xc2168",
+        "reference": "0xad06b8",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11339448,
+          "type": 8,
+          "addend": 794984,
+          "symbol": null
+        }
+      },
+      {
+        "instruction": "68e0e1: 48 8d 15 e8 25 44 00         \tleaq\t0x4425e8(%rip), %rdx    # 0xad06d0 ; ELF relocation: local pointer 0xc2168",
+        "reference": "0xad06d0",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11339472,
+          "type": 8,
+          "addend": 794984,
+          "symbol": null
+        }
+      }
+    ]
+  },
+  {
+    "label": "module-callee-08",
+    "va": "0x68b4b0",
+    "file_offset": "0x68a4b0",
+    "size": 99,
+    "refs": [
+      {
+        "instruction": "68b4b9: ff 15 a1 3a 46 00            \tcallq\t*0x463aa1(%rip)         # 0xaeef60 ; ELF relocation: malloc",
+        "reference": "0xaeef60",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464544,
+          "type": 6,
+          "addend": 0,
+          "symbol": "malloc"
+        }
+      }
+    ]
+  },
+  {
+    "label": "module-callee-09",
+    "va": "0x33b942",
+    "file_offset": "0x33a942",
+    "size": 18,
+    "refs": []
+  },
+  {
+    "label": "module-callee-10",
+    "va": "0x2aff10",
+    "file_offset": "0x2aef10",
+    "size": 210,
+    "refs": [
+      {
+        "instruction": "2aff41: ff 15 b1 f0 83 00            \tcallq\t*0x83f0b1(%rip)         # 0xaeeff8 ; ELF relocation: PyUnicode_FromStringAndSize",
+        "reference": "0xaeeff8",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464696,
+          "type": 6,
+          "addend": 0,
+          "symbol": "PyUnicode_FromStringAndSize"
+        }
+      },
+      {
+        "instruction": "2aff6e: ff 25 34 f0 83 00            \tjmpq\t*0x83f034(%rip)         # 0xaeefa8 ; ELF relocation: _Py_DecRef",
+        "reference": "0xaeefa8",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464616,
+          "type": 6,
+          "addend": 0,
+          "symbol": "_Py_DecRef"
+        }
+      },
+      {
+        "instruction": "2affc2: 48 8d 3d 67 0a 82 00         \tleaq\t0x820a67(%rip), %rdi    # 0xad0a30 ; ELF relocation: local pointer 0xd39ea",
+        "reference": "0xad0a30",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11340336,
+          "type": 8,
+          "addend": 866794,
+          "symbol": null
+        }
+      },
+      {
+        "instruction": "2affd4: ff 15 ce ef 83 00            \tcallq\t*0x83efce(%rip)         # 0xaeefa8 ; ELF relocation: _Py_DecRef",
+        "reference": "0xaeefa8",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464616,
+          "type": 6,
+          "addend": 0,
+          "symbol": "_Py_DecRef"
+        }
+      }
+    ]
+  },
+  {
+    "label": "module-callee-11",
+    "va": "0x28fe50",
+    "file_offset": "0x28ee50",
+    "size": 156,
+    "refs": [
+      {
+        "instruction": "28fe5c: 48 8d 3d c5 f0 85 00         \tleaq\t0x85f0c5(%rip), %rdi    # 0xaeef28 ; ELF relocation: local pointer 0x0",
+        "reference": "0xaeef28",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464488,
+          "type": 16,
+          "addend": 0,
+          "symbol": null
+        }
+      },
+      {
+        "instruction": "28fe7d: ff 15 35 f1 85 00            \tcallq\t*0x85f135(%rip)         # 0xaeefb8 ; ELF relocation: PyEval_SaveThread",
+        "reference": "0xaeefb8",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464632,
+          "type": 6,
+          "addend": 0,
+          "symbol": "PyEval_SaveThread"
+        }
+      },
+      {
+        "instruction": "28feac: ff 15 d6 f0 85 00            \tcallq\t*0x85f0d6(%rip)         # 0xaeef88 ; ELF relocation: PyEval_RestoreThread",
+        "reference": "0xaeef88",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464584,
+          "type": 6,
+          "addend": 0,
+          "symbol": "PyEval_RestoreThread"
+        }
+      }
+    ]
+  },
+  {
+    "label": "module-callee-12",
+    "va": "0x28ff90",
+    "file_offset": "0x28ef90",
+    "size": 156,
+    "refs": [
+      {
+        "instruction": "28ff9c: 48 8d 3d 85 ef 85 00         \tleaq\t0x85ef85(%rip), %rdi    # 0xaeef28 ; ELF relocation: local pointer 0x0",
+        "reference": "0xaeef28",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464488,
+          "type": 16,
+          "addend": 0,
+          "symbol": null
+        }
+      },
+      {
+        "instruction": "28ffbd: ff 15 f5 ef 85 00            \tcallq\t*0x85eff5(%rip)         # 0xaeefb8 ; ELF relocation: PyEval_SaveThread",
+        "reference": "0xaeefb8",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464632,
+          "type": 6,
+          "addend": 0,
+          "symbol": "PyEval_SaveThread"
+        }
+      },
+      {
+        "instruction": "28ffec: ff 15 96 ef 85 00            \tcallq\t*0x85ef96(%rip)         # 0xaeef88 ; ELF relocation: PyEval_RestoreThread",
+        "reference": "0xaeef88",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464584,
+          "type": 6,
+          "addend": 0,
+          "symbol": "PyEval_RestoreThread"
+        }
+      }
+    ]
+  },
+  {
+    "label": "module-callee-13",
+    "va": "0x68d050",
+    "file_offset": "0x68c050",
+    "size": 120,
+    "refs": [
+      {
+        "instruction": "68d05c: 48 8d 3d c5 1e 46 00         \tleaq\t0x461ec5(%rip), %rdi    # 0xaeef28 ; ELF relocation: local pointer 0x0",
+        "reference": "0xaeef28",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464488,
+          "type": 16,
+          "addend": 0,
+          "symbol": null
+        }
+      },
+      {
+        "instruction": "68d078: ff 15 2a 1f 46 00            \tcallq\t*0x461f2a(%rip)         # 0xaeefa8 ; ELF relocation: _Py_DecRef",
+        "reference": "0xaeefa8",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464616,
+          "type": 6,
+          "addend": 0,
+          "symbol": "_Py_DecRef"
+        }
+      },
+      {
+        "instruction": "68d093: ff 25 0f 1f 46 00            \tjmpq\t*0x461f0f(%rip)         # 0xaeefa8 ; ELF relocation: _Py_DecRef",
+        "reference": "0xaeefa8",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464616,
+          "type": 6,
+          "addend": 0,
+          "symbol": "_Py_DecRef"
+        }
+      }
+    ]
+  },
+  {
+    "label": "module-callee-14",
+    "va": "0x82eee6",
+    "file_offset": "0x82dee6",
+    "size": 105,
+    "refs": [
+      {
+        "instruction": "82ef11: ff 15 59 00 2c 00            \tcallq\t*0x2c0059(%rip)         # 0xaeef70 ; ELF relocation: free",
+        "reference": "0xaeef70",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464560,
+          "type": 6,
+          "addend": 0,
+          "symbol": "free"
+        }
+      },
+      {
+        "instruction": "82ef1f: 48 8d 3d 02 00 2c 00         \tleaq\t0x2c0002(%rip), %rdi    # 0xaeef28 ; ELF relocation: local pointer 0x0",
+        "reference": "0xaeef28",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464488,
+          "type": 16,
+          "addend": 0,
+          "symbol": null
+        }
+      },
+      {
+        "instruction": "82ef44: ff 15 76 0b 2c 00            \tcallq\t*0x2c0b76(%rip)         # 0xaefac0 ; ELF relocation: _Unwind_DeleteException",
+        "reference": "0xaefac0",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11467456,
+          "type": 6,
+          "addend": 0,
+          "symbol": "_Unwind_DeleteException"
+        }
+      }
+    ]
+  },
+  {
+    "label": "module-callee-15",
+    "va": "0x68ee90",
+    "file_offset": "0x68de90",
+    "size": 595,
+    "refs": [
+      {
+        "instruction": "68eedd: ff 15 7d 00 46 00            \tcallq\t*0x46007d(%rip)         # 0xaeef60 ; ELF relocation: malloc",
+        "reference": "0xaeef60",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464544,
+          "type": 6,
+          "addend": 0,
+          "symbol": "malloc"
+        }
+      },
+      {
+        "instruction": "68eef8: ff 15 6a 00 46 00            \tcallq\t*0x46006a(%rip)         # 0xaeef68 ; ELF relocation: memcpy",
+        "reference": "0xaeef68",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464552,
+          "type": 6,
+          "addend": 0,
+          "symbol": "memcpy"
+        }
+      },
+      {
+        "instruction": "68ef03: ff 15 57 00 46 00            \tcallq\t*0x460057(%rip)         # 0xaeef60 ; ELF relocation: malloc",
+        "reference": "0xaeef60",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464544,
+          "type": 6,
+          "addend": 0,
+          "symbol": "malloc"
+        }
+      },
+      {
+        "instruction": "68ef52: ff 15 08 00 46 00            \tcallq\t*0x460008(%rip)         # 0xaeef60 ; ELF relocation: malloc",
+        "reference": "0xaeef60",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464544,
+          "type": 6,
+          "addend": 0,
+          "symbol": "malloc"
+        }
+      },
+      {
+        "instruction": "68ef87: ff 15 d3 ff 45 00            \tcallq\t*0x45ffd3(%rip)         # 0xaeef60 ; ELF relocation: malloc",
+        "reference": "0xaeef60",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464544,
+          "type": 6,
+          "addend": 0,
+          "symbol": "malloc"
+        }
+      },
+      {
+        "instruction": "68efb2: ff 15 a8 ff 45 00            \tcallq\t*0x45ffa8(%rip)         # 0xaeef60 ; ELF relocation: malloc",
+        "reference": "0xaeef60",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464544,
+          "type": 6,
+          "addend": 0,
+          "symbol": "malloc"
+        }
+      },
+      {
+        "instruction": "68efcd: ff 15 95 ff 45 00            \tcallq\t*0x45ff95(%rip)         # 0xaeef68 ; ELF relocation: memcpy",
+        "reference": "0xaeef68",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464552,
+          "type": 6,
+          "addend": 0,
+          "symbol": "memcpy"
+        }
+      },
+      {
+        "instruction": "68efd8: ff 15 82 ff 45 00            \tcallq\t*0x45ff82(%rip)         # 0xaeef60 ; ELF relocation: malloc",
+        "reference": "0xaeef60",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464544,
+          "type": 6,
+          "addend": 0,
+          "symbol": "malloc"
+        }
+      },
+      {
+        "instruction": "68efee: 48 8d 0d 53 13 44 00         \tleaq\t0x441353(%rip), %rcx    # 0xad0348 ; ELF relocation: local pointer 0x38ee50",
+        "reference": "0xad0348",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11338568,
+          "type": 8,
+          "addend": 3731024,
+          "symbol": null
+        }
+      },
+      {
+        "instruction": "68f035: ff 15 35 ff 45 00            \tcallq\t*0x45ff35(%rip)         # 0xaeef70 ; ELF relocation: free",
+        "reference": "0xaeef70",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464560,
+          "type": 6,
+          "addend": 0,
+          "symbol": "free"
+        }
+      },
+      {
+        "instruction": "68f055: ff 15 05 ff 45 00            \tcallq\t*0x45ff05(%rip)         # 0xaeef60 ; ELF relocation: malloc",
+        "reference": "0xaeef60",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464544,
+          "type": 6,
+          "addend": 0,
+          "symbol": "malloc"
+        }
+      },
+      {
+        "instruction": "68f09e: ff 15 cc fe 45 00            \tcallq\t*0x45fecc(%rip)         # 0xaeef70 ; ELF relocation: free",
+        "reference": "0xaeef70",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464560,
+          "type": 6,
+          "addend": 0,
+          "symbol": "free"
+        }
+      },
+      {
+        "instruction": "68f0c0: ff 15 aa fe 45 00            \tcallq\t*0x45feaa(%rip)         # 0xaeef70 ; ELF relocation: free",
+        "reference": "0xaeef70",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464560,
+          "type": 6,
+          "addend": 0,
+          "symbol": "free"
+        }
+      },
+      {
+        "instruction": "68f0d8: ff 15 92 fe 45 00            \tcallq\t*0x45fe92(%rip)         # 0xaeef70 ; ELF relocation: free",
+        "reference": "0xaeef70",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464560,
+          "type": 6,
+          "addend": 0,
+          "symbol": "free"
+        }
+      }
+    ]
+  },
+  {
+    "label": "module-callee-16",
+    "va": "0x55a7ac",
+    "file_offset": "0x5597ac",
+    "size": 9,
+    "refs": []
+  },
+  {
+    "label": "module-callee-17",
+    "va": "0x6975f0",
+    "file_offset": "0x6965f0",
+    "size": 45,
+    "refs": [
+      {
+        "instruction": "69760c: 48 8d 15 65 92 43 00         \tleaq\t0x439265(%rip), %rdx    # 0xad0878 ; ELF relocation: local pointer 0xd087b",
+        "reference": "0xad0878",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11339896,
+          "type": 8,
+          "addend": 854139,
+          "symbol": null
+        }
+      }
+    ]
+  },
+  {
+    "label": "cpu-callee-01",
+    "va": "0x88a350",
+    "file_offset": "0x889350",
+    "size": 279,
+    "refs": [
+      {
+        "instruction": "88a444: 48 8b 05 65 58 26 00         \tmovq\t0x265865(%rip), %rax    # 0xaefcb0 ; ELF relocation: stderr",
+        "reference": "0xaefcb0",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11467952,
+          "type": 6,
+          "addend": 0,
+          "symbol": "stderr"
+        }
+      }
+    ]
+  },
+  {
+    "label": "dynamic-loader-835030",
+    "va": "0x835030",
+    "file_offset": "0x834030",
+    "size": 4213,
+    "refs": [
+      {
+        "instruction": "8351af: ff 15 93 9e 2b 00            \tcallq\t*0x2b9e93(%rip)         # 0xaef048 ; ELF relocation: syscall",
+        "reference": "0xaef048",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464776,
+          "type": 6,
+          "addend": 0,
+          "symbol": "syscall"
+        }
+      },
+      {
+        "instruction": "835212: ff 15 30 9e 2b 00            \tcallq\t*0x2b9e30(%rip)         # 0xaef048 ; ELF relocation: syscall",
+        "reference": "0xaef048",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464776,
+          "type": 6,
+          "addend": 0,
+          "symbol": "syscall"
+        }
+      },
+      {
+        "instruction": "835488: ff 15 e2 9a 2b 00            \tcallq\t*0x2b9ae2(%rip)         # 0xaeef70 ; ELF relocation: free",
+        "reference": "0xaeef70",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464560,
+          "type": 6,
+          "addend": 0,
+          "symbol": "free"
+        }
+      },
+      {
+        "instruction": "8354e3: 48 8d 3d 3e 9a 2b 00         \tleaq\t0x2b9a3e(%rip), %rdi    # 0xaeef28 ; ELF relocation: local pointer 0x0",
+        "reference": "0xaeef28",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464488,
+          "type": 16,
+          "addend": 0,
+          "symbol": null
+        }
+      },
+      {
+        "instruction": "8355b4: ff 15 a6 99 2b 00            \tcallq\t*0x2b99a6(%rip)         # 0xaeef60 ; ELF relocation: malloc",
+        "reference": "0xaeef60",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464544,
+          "type": 6,
+          "addend": 0,
+          "symbol": "malloc"
+        }
+      },
+      {
+        "instruction": "835708: ff 15 52 98 2b 00            \tcallq\t*0x2b9852(%rip)         # 0xaeef60 ; ELF relocation: malloc",
+        "reference": "0xaeef60",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464544,
+          "type": 6,
+          "addend": 0,
+          "symbol": "malloc"
+        }
+      },
+      {
+        "instruction": "8357f6: ff 15 64 97 2b 00            \tcallq\t*0x2b9764(%rip)         # 0xaeef60 ; ELF relocation: malloc",
+        "reference": "0xaeef60",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464544,
+          "type": 6,
+          "addend": 0,
+          "symbol": "malloc"
+        }
+      },
+      {
+        "instruction": "83585d: 48 8d 05 d4 92 2a 00         \tleaq\t0x2a92d4(%rip), %rax    # 0xadeb38 ; ELF relocation: local pointer 0x8361b0",
+        "reference": "0xadeb38",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11397944,
+          "type": 8,
+          "addend": 8610224,
+          "symbol": null
+        }
+      },
+      {
+        "instruction": "83586e: ff 15 ec 96 2b 00            \tcallq\t*0x2b96ec(%rip)         # 0xaeef60 ; ELF relocation: malloc",
+        "reference": "0xaeef60",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464544,
+          "type": 6,
+          "addend": 0,
+          "symbol": "malloc"
+        }
+      },
+      {
+        "instruction": "83589b: ff 15 5f a2 2b 00            \tcallq\t*0x2ba25f(%rip)         # 0xaefb00 ; ELF relocation: pthread_attr_init",
+        "reference": "0xaefb00",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11467520,
+          "type": 6,
+          "addend": 0,
+          "symbol": "pthread_attr_init"
+        }
+      },
+      {
+        "instruction": "8358e6: ff 15 1c a2 2b 00            \tcallq\t*0x2ba21c(%rip)         # 0xaefb08 ; ELF relocation: pthread_attr_setstacksize",
+        "reference": "0xaefb08",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11467528,
+          "type": 6,
+          "addend": 0,
+          "symbol": "pthread_attr_setstacksize"
+        }
+      },
+      {
+        "instruction": "835902: ff 15 08 a2 2b 00            \tcallq\t*0x2ba208(%rip)         # 0xaefb10 ; ELF relocation: sysconf",
+        "reference": "0xaefb10",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11467536,
+          "type": 6,
+          "addend": 0,
+          "symbol": "sysconf"
+        }
+      },
+      {
+        "instruction": "83591a: ff 15 e8 a1 2b 00            \tcallq\t*0x2ba1e8(%rip)         # 0xaefb08 ; ELF relocation: pthread_attr_setstacksize",
+        "reference": "0xaefb08",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11467528,
+          "type": 6,
+          "addend": 0,
+          "symbol": "pthread_attr_setstacksize"
+        }
+      },
+      {
+        "instruction": "835929: ff 15 59 a1 2b 00            \tcallq\t*0x2ba159(%rip)         # 0xaefa88 ; ELF relocation: pthread_attr_destroy",
+        "reference": "0xaefa88",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11467400,
+          "type": 6,
+          "addend": 0,
+          "symbol": "pthread_attr_destroy"
+        }
+      },
+      {
+        "instruction": "835943: 48 8d 15 36 89 2a 00         \tleaq\t0x2a8936(%rip), %rdx    # 0xade280 ; ELF relocation: local pointer 0x1330b8",
+        "reference": "0xade280",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11395712,
+          "type": 8,
+          "addend": 1257656,
+          "symbol": null
+        }
+      },
+      {
+        "instruction": "835976: ff 15 9c a1 2b 00            \tcallq\t*0x2ba19c(%rip)         # 0xaefb18 ; ELF relocation: pthread_create",
+        "reference": "0xaefb18",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11467544,
+          "type": 6,
+          "addend": 0,
+          "symbol": "pthread_create"
+        }
+      },
+      {
+        "instruction": "835991: 48 8b 0d 00 c9 2b 00         \tmovq\t0x2bc900(%rip), %rcx    # 0xaf2298 ; ELF relocation: local pointer 0xac8508",
+        "reference": "0xaf2298",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11477656,
+          "type": 8,
+          "addend": 11306248,
+          "symbol": null
+        }
+      },
+      {
+        "instruction": "835998: 48 8d 05 99 85 2a 00         \tleaq\t0x2a8599(%rip), %rax    # 0xaddf38 ; ELF relocation: local pointer 0x825a30",
+        "reference": "0xaddf38",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11394872,
+          "type": 8,
+          "addend": 8542768,
+          "symbol": null
+        }
+      },
+      {
+        "instruction": "8359ad: ff 15 d5 a0 2b 00            \tcallq\t*0x2ba0d5(%rip)         # 0xaefa88 ; ELF relocation: pthread_attr_destroy",
+        "reference": "0xaefa88",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11467400,
+          "type": 6,
+          "addend": 0,
+          "symbol": "pthread_attr_destroy"
+        }
+      },
+      {
+        "instruction": "835a37: ff 15 4b a0 2b 00            \tcallq\t*0x2ba04b(%rip)         # 0xaefa88 ; ELF relocation: pthread_attr_destroy",
+        "reference": "0xaefa88",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11467400,
+          "type": 6,
+          "addend": 0,
+          "symbol": "pthread_attr_destroy"
+        }
+      },
+      {
+        "instruction": "835b61: 48 8b 05 30 c7 2b 00         \tmovq\t0x2bc730(%rip), %rax    # 0xaf2298 ; ELF relocation: local pointer 0xac8508",
+        "reference": "0xaf2298",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11477656,
+          "type": 8,
+          "addend": 11306248,
+          "symbol": null
+        }
+      },
+      {
+        "instruction": "835c75: 48 8d 15 34 95 2a 00         \tleaq\t0x2a9534(%rip), %rdx    # 0xadf1b0 ; ELF relocation: local pointer 0xcee20",
+        "reference": "0xadf1b0",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11399600,
+          "type": 8,
+          "addend": 847392,
+          "symbol": null
+        }
+      },
+      {
+        "instruction": "835cc6: 48 8d 15 43 9a 2a 00         \tleaq\t0x2a9a43(%rip), %rdx    # 0xadf710 ; ELF relocation: local pointer 0xc6920",
+        "reference": "0xadf710",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11400976,
+          "type": 8,
+          "addend": 813344,
+          "symbol": null
+        }
+      },
+      {
+        "instruction": "835d24: 4c 8d 0d 85 85 2a 00         \tleaq\t0x2a8585(%rip), %r9     # 0xade2b0 ; ELF relocation: local pointer 0xd7e1f",
+        "reference": "0xade2b0",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11395760,
+          "type": 8,
+          "addend": 884255,
+          "symbol": null
+        }
+      },
+      {
+        "instruction": "835d47: ff 15 d3 9d 2b 00            \tcallq\t*0x2b9dd3(%rip)         # 0xaefb20 ; ELF relocation: dlsym",
+        "reference": "0xaefb20",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11467552,
+          "type": 6,
+          "addend": 0,
+          "symbol": "dlsym"
+        }
+      },
+      {
+        "instruction": "835da4: 4c 8d 0d ed 84 2a 00         \tleaq\t0x2a84ed(%rip), %r9     # 0xade298 ; ELF relocation: local pointer 0xd7e1f",
+        "reference": "0xade298",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11395736,
+          "type": 8,
+          "addend": 884255,
+          "symbol": null
+        }
+      },
+      {
+        "instruction": "835dc5: 4c 8d 0d 7c 82 2a 00         \tleaq\t0x2a827c(%rip), %r9     # 0xade048 ; ELF relocation: local pointer 0xd7e1f",
+        "reference": "0xade048",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11395144,
+          "type": 8,
+          "addend": 884255,
+          "symbol": null
+        }
+      },
+      {
+        "instruction": "835de6: 4c 8d 0d 5b 82 2a 00         \tleaq\t0x2a825b(%rip), %r9     # 0xade048 ; ELF relocation: local pointer 0xd7e1f",
+        "reference": "0xade048",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11395144,
+          "type": 8,
+          "addend": 884255,
+          "symbol": null
+        }
+      },
+      {
+        "instruction": "835dfd: 48 89 05 94 c4 2b 00         \tmovq\t%rax, 0x2bc494(%rip)    # 0xaf2298 ; ELF relocation: local pointer 0xac8508",
+        "reference": "0xaf2298",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11477656,
+          "type": 8,
+          "addend": 11306248,
+          "symbol": null
+        }
+      },
+      {
+        "instruction": "836083: ff 15 e7 8e 2b 00            \tcallq\t*0x2b8ee7(%rip)         # 0xaeef70 ; ELF relocation: free",
+        "reference": "0xaeef70",
+        "relocation": {
+          "section": ".rela.dyn",
+          "offset": 11464560,
+          "type": 6,
+          "addend": 0,
+          "symbol": "free"
+        }
+      }
+    ]
+  }
+]

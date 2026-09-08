@@ -1,0 +1,11 @@
+--- pyo3-ffi0.29.0/src/cpython/dictobject.rs
++++ pyo3-ffi0.29.2/src/cpython/dictobject.rs
+@@ -2,6 +2,8 @@
+ use crate::object::*;
+ #[cfg(not(any(PyPy, GraalPy)))]
+ use crate::pyport::Py_ssize_t;
++#[cfg(all(GraalPy, Py_3_13))]
++use crate::PyObject;
+ 
+ #[cfg(all(not(PyPy), Py_3_13))]
+ use core::ffi::c_char;

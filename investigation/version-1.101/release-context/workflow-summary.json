@@ -1,0 +1,117 @@
+{
+  "files": [
+    {
+      "path": ".github/workflows/create-release.yml",
+      "commit": "eeb7732fc11fd47762ca84cc3fb7cc74235d7097",
+      "blob_sha": "0ad84cd3ceb29af1ab0e0c321f50ae6bdc9637a1",
+      "sha256": "20f6a2618262b68836e283a0b1113f6fe0e2c34e1ecc01c29612bade13ee6cd6",
+      "bytes": 7396,
+      "source": "https://api.github.com/repos/BerriAI/litellm/git/blobs/0ad84cd3ceb29af1ab0e0c321f50ae6bdc9637a1",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/.github/workflows/create-release.yml",
+      "observation": {
+        "source": "https://api.github.com/repos/BerriAI/litellm/git/blobs/0ad84cd3ceb29af1ab0e0c321f50ae6bdc9637a1",
+        "started_at": "2026-09-08T21:42:53.278596+00:00",
+        "method": "GET",
+        "http_status": 200,
+        "exit_code": 0,
+        "error": null,
+        "finished_at": "2026-09-08T21:42:54.126838+00:00",
+        "body_bytes": 10475,
+        "body_sha256": "3d61cae2545986c5f1566d75cecd649c326bbec7cbd05ee536b6a303abb3a1f5"
+      },
+      "run_head_comparison": {
+        "commit": "11a0c0abf03b036357e4997fe76cf4eb2f04941f",
+        "blob_sha": "0ad84cd3ceb29af1ab0e0c321f50ae6bdc9637a1",
+        "matches_tag_blob": true,
+        "observation": {
+          "source": "https://api.github.com/repos/BerriAI/litellm/contents/.github/workflows/create-release.yml?ref=11a0c0abf03b036357e4997fe76cf4eb2f04941f",
+          "started_at": "2026-09-08T21:44:27.324215+00:00",
+          "method": "GET",
+          "http_status": 200,
+          "exit_code": 0,
+          "error": null,
+          "finished_at": "2026-09-08T21:44:28.289211+00:00",
+          "body_bytes": 11292,
+          "body_sha256": "31784bb69acb4b3dcad8ec5893f179c0239c196958c60acbaf50a8f3bd3283a3"
+        }
+      }
+    },
+    {
+      "path": ".github/workflows/create-release-branch.yml",
+      "commit": "eeb7732fc11fd47762ca84cc3fb7cc74235d7097",
+      "blob_sha": "1d145184b6f6bb4ea6f6b6a3793f5ce03b4268f3",
+      "sha256": "3ba8b2af836895cd87b04eb9789d7cc180dafc820cc0d49aa32250dc08d62299",
+      "bytes": 3109,
+      "source": "https://api.github.com/repos/BerriAI/litellm/git/blobs/1d145184b6f6bb4ea6f6b6a3793f5ce03b4268f3",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/.github/workflows/create-release-branch.yml",
+      "observation": {
+        "source": "https://api.github.com/repos/BerriAI/litellm/git/blobs/1d145184b6f6bb4ea6f6b6a3793f5ce03b4268f3",
+        "started_at": "2026-09-08T21:42:53.278448+00:00",
+        "method": "GET",
+        "http_status": 200,
+        "exit_code": 0,
+        "error": null,
+        "finished_at": "2026-09-08T21:42:54.068989+00:00",
+        "body_bytes": 4569,
+        "body_sha256": "e3527b3fbee296e71733152e83199ae31f01c203d5a1d3f4f6a59861fb153d87"
+      },
+      "run_head_comparison": {
+        "commit": "11a0c0abf03b036357e4997fe76cf4eb2f04941f",
+        "blob_sha": "1d145184b6f6bb4ea6f6b6a3793f5ce03b4268f3",
+        "matches_tag_blob": true,
+        "observation": {
+          "source": "https://api.github.com/repos/BerriAI/litellm/contents/.github/workflows/create-release-branch.yml?ref=11a0c0abf03b036357e4997fe76cf4eb2f04941f",
+          "started_at": "2026-09-08T21:44:27.324189+00:00",
+          "method": "GET",
+          "http_status": 200,
+          "exit_code": 0,
+          "error": null,
+          "finished_at": "2026-09-08T21:44:28.553039+00:00",
+          "body_bytes": 5435,
+          "body_sha256": "c39f0e0c01a10a5789921e520c46d2c6009a436542c7890e09eedc8d9b07bacc"
+        }
+      }
+    },
+    {
+      "path": ".github/workflows/report-rust-release-wheel.yml",
+      "commit": "eeb7732fc11fd47762ca84cc3fb7cc74235d7097",
+      "blob_sha": "74e6be696044a362ff00e3689b7b11fad79405f8",
+      "sha256": "df0c0e314c0e784f5b11ff58c05c2324099ae94c21ebf33e244738cc75990caa",
+      "bytes": 4806,
+      "source": "https://api.github.com/repos/BerriAI/litellm/git/blobs/74e6be696044a362ff00e3689b7b11fad79405f8",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/.github/workflows/report-rust-release-wheel.yml",
+      "observation": {
+        "source": "https://api.github.com/repos/BerriAI/litellm/git/blobs/74e6be696044a362ff00e3689b7b11fad79405f8",
+        "started_at": "2026-09-08T21:42:53.278695+00:00",
+        "method": "GET",
+        "http_status": 200,
+        "exit_code": 0,
+        "error": null,
+        "finished_at": "2026-09-08T21:42:54.059667+00:00",
+        "body_bytes": 6903,
+        "body_sha256": "8b94e043d2074a9df7354405ce2c42ec10639ca0908aa6fbdf7555d71b544455"
+      }
+    },
+    {
+      "path": ".github/workflows/test-rust.yml",
+      "commit": "eeb7732fc11fd47762ca84cc3fb7cc74235d7097",
+      "blob_sha": "9b8b132df62101786ab1ac6ccd49abaf7f9afd01",
+      "sha256": "4a62daa34b53e371c756ab94d00181b4525dc2f33cb52e1f4998dc83d43c69b4",
+      "bytes": 4183,
+      "source": "https://api.github.com/repos/BerriAI/litellm/git/blobs/9b8b132df62101786ab1ac6ccd49abaf7f9afd01",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/.github/workflows/test-rust.yml",
+      "observation": {
+        "source": "https://api.github.com/repos/BerriAI/litellm/git/blobs/9b8b132df62101786ab1ac6ccd49abaf7f9afd01",
+        "started_at": "2026-09-08T21:42:54.123466+00:00",
+        "method": "GET",
+        "http_status": 200,
+        "exit_code": 0,
+        "error": null,
+        "finished_at": "2026-09-08T21:42:54.883440+00:00",
+        "body_bytes": 6047,
+        "body_sha256": "e97caad030d6b7e28da32310b8727017ba693ddd33b50cc3c4b48183a94dd1b3"
+      }
+    }
+  ],
+  "scope": "Four selected public workflows at fixed tag; two release workflows also compared at actual public run head. No private repository probed. None of these four files uploads to PyPI or binds the eight published artifact digests."
+}

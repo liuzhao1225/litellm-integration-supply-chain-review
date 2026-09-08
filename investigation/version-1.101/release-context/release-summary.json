@@ -1,0 +1,289 @@
+{
+  "release": {
+    "id": 383451661,
+    "html_url": "https://github.com/BerriAI/litellm/releases/tag/v1.101.0-rc.1",
+    "tag_name": "v1.101.0-rc.1",
+    "target_commitish": "litellm_internal_staging",
+    "created_at": "2026-09-06T01:12:56Z",
+    "published_at": "2026-09-06T03:20:59Z",
+    "prerelease": true,
+    "immutable": false,
+    "author_login": "github-actions[bot]",
+    "asset_count": 0,
+    "observation": {
+      "source": "https://api.github.com/repos/BerriAI/litellm/releases/tags/v1.101.0-rc.1",
+      "started_at": "2026-09-08T21:41:47.402594+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "exit_code": 0,
+      "error": null,
+      "finished_at": "2026-09-08T21:41:48.383855+00:00",
+      "body_bytes": 29024,
+      "body_sha256": "a20f652ffef3b974f2205301f859cc8b76033c0d5d103214ad640f83a6816b3a"
+    }
+  },
+  "tag_ref": {
+    "ref": "refs/tags/v1.101.0-rc.1",
+    "node_id": "REF_kwDOKALCgbdyZWZzL3RhZ3MvdjEuMTAxLjAtcmMuMQ",
+    "url": "https://api.github.com/repos/BerriAI/litellm/git/refs/tags/v1.101.0-rc.1",
+    "object": {
+      "sha": "eeb7732fc11fd47762ca84cc3fb7cc74235d7097",
+      "type": "commit",
+      "url": "https://api.github.com/repos/BerriAI/litellm/git/commits/eeb7732fc11fd47762ca84cc3fb7cc74235d7097"
+    },
+    "observation": {
+      "source": "https://api.github.com/repos/BerriAI/litellm/git/ref/tags/v1.101.0-rc.1",
+      "started_at": "2026-09-08T21:41:47.402590+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "exit_code": 0,
+      "error": null,
+      "finished_at": "2026-09-08T21:41:48.141945+00:00",
+      "body_bytes": 355,
+      "body_sha256": "f554f2902a6418736d3b21509f9e3c39347939dc778680fc3475891b8e8006a0"
+    }
+  },
+  "tag_commit": {
+    "sha": "eeb7732fc11fd47762ca84cc3fb7cc74235d7097",
+    "tree": "502d9ab4cdfaade8c91f78ef81096724c6c68000",
+    "author_login": "ryan-crabbe-berri",
+    "committer_login": "web-flow",
+    "committer_date": "2026-09-06T01:12:56Z",
+    "message_title": "Merge pull request #39994 from BerriAI/litellm_hotfix_mongodb_extra_docker_images",
+    "github_verification": {
+      "verified": true,
+      "reason": "valid"
+    },
+    "parents": [
+      "e56b26c255c1c059b62107be784fbe3c827db2a0",
+      "16fd14f53705dab68ee8c4b0fd2c9093c8e3cdac"
+    ],
+    "observation": {
+      "source": "https://api.github.com/repos/BerriAI/litellm/commits/eeb7732fc11fd47762ca84cc3fb7cc74235d7097",
+      "started_at": "2026-09-08T21:42:17.494403+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "exit_code": 0,
+      "error": null,
+      "finished_at": "2026-09-08T21:42:18.350889+00:00",
+      "body_bytes": 9790,
+      "body_sha256": "820198a9df028c2a4a2db12dba627180d5ffcfc50b3efbcc3926a695b828f013"
+    }
+  },
+  "directly_verified_prs": [
+    {
+      "number": 39994,
+      "html_url": "https://github.com/BerriAI/litellm/pull/39994",
+      "title": "fix(docker): ship pymongo in the proxy images for the MongoDB vector store",
+      "created_at": "2026-09-06T01:10:36Z",
+      "merged_at": "2026-09-06T01:12:56Z",
+      "merge_commit_sha": "eeb7732fc11fd47762ca84cc3fb7cc74235d7097",
+      "author_login": "yuneng-berri",
+      "head": "16fd14f53705dab68ee8c4b0fd2c9093c8e3cdac",
+      "files": [
+        {
+          "filename": "Dockerfile",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0
+        },
+        {
+          "filename": "docker/Dockerfile.database",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0
+        },
+        {
+          "filename": "docker/Dockerfile.non_root",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 0
+        },
+        {
+          "filename": "gateway/Dockerfile",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0
+        }
+      ],
+      "verification": "Exact tag commit equals PR merge_commit_sha; four Dockerfile patches add --extra mongodb."
+    },
+    {
+      "number": 39922,
+      "html_url": "https://github.com/BerriAI/litellm/pull/39922",
+      "title": "fix(ci): grant pull_requests write for release wheel reporter",
+      "created_at": "2026-09-05T18:06:26Z",
+      "merged_at": "2026-09-05T20:04:32Z",
+      "merge_commit_sha": "8544faec91c398519b305dbf7850de87ec999486",
+      "author_login": "cursor[bot]",
+      "head": "650e74f5dd101b10fb435dba5900d66337c00483",
+      "base": "7672399c26348bbb7dd3e2aa9914fc3d72e7addd",
+      "files": [
+        {
+          "filename": ".github/workflows/report-rust-release-wheel.yml",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 2
+        }
+      ],
+      "verification": "Fixed base/head compare: issues:write and pull-requests:read replaced by pull-requests:write in reporter only."
+    }
+  ],
+  "release_body_claims": {
+    "claimed_pr_count": 173,
+    "changelog_base": "v1.101.0-dev.2",
+    "changelog_head": "v1.101.0-rc.1",
+    "changelog_url": "https://github.com/BerriAI/litellm/compare/v1.101.0-dev.2...v1.101.0-rc.1",
+    "image": "ghcr.io/berriai/litellm:v1.101.0-rc.1",
+    "signing_key_commit": "0112e53046018d726492c814b3644b7d376029d0",
+    "tag_protection_claim_independently_checked": false,
+    "all_173_pr_diffs_checked": false
+  },
+  "public_run": {
+    "id": 34008764140,
+    "name": "Create Release",
+    "html_url": "https://github.com/BerriAI/litellm/actions/runs/34008764140",
+    "head_branch": "litellm_internal_staging",
+    "head_sha": "11a0c0abf03b036357e4997fe76cf4eb2f04941f",
+    "path": ".github/workflows/create-release.yml",
+    "event": "workflow_dispatch",
+    "status": "completed",
+    "conclusion": "success",
+    "created_at": "2026-09-06T03:20:49Z",
+    "updated_at": "2026-09-06T03:21:08Z",
+    "run_started_at": "2026-09-06T03:20:49Z",
+    "run_attempt": 1,
+    "referenced_workflows": [
+      {
+        "path": "BerriAI/litellm/.github/workflows/create-release-branch.yml@11a0c0abf03b036357e4997fe76cf4eb2f04941f",
+        "sha": "11a0c0abf03b036357e4997fe76cf4eb2f04941f",
+        "ref": "refs/heads/litellm_internal_staging"
+      }
+    ],
+    "actor_login": "litellm-dispatcher[bot]",
+    "triggering_actor_login": "litellm-dispatcher[bot]",
+    "observation": {
+      "source": "https://api.github.com/repos/BerriAI/litellm/actions/workflows/create-release.yml/runs?event=workflow_dispatch&created=2026-09-06T03%3A15%3A00Z..2026-09-06T03%3A30%3A00Z&per_page=100",
+      "started_at": "2026-09-08T21:43:45.053423+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "exit_code": 0,
+      "error": null,
+      "finished_at": "2026-09-08T21:43:46.134766+00:00",
+      "body_bytes": 13777,
+      "body_sha256": "8b200929162480beae62ab368127d6cf875cb1c0510b144b17479fc019c982f8"
+    },
+    "jobs": [
+      {
+        "id": 101420704838,
+        "name": "Create Release",
+        "html_url": "https://github.com/BerriAI/litellm/actions/runs/34008764140/job/101420704838",
+        "conclusion": "success",
+        "started_at": "2026-09-06T03:20:54Z",
+        "completed_at": "2026-09-06T03:21:01Z",
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1,
+            "started_at": "2026-09-06T03:20:55Z",
+            "completed_at": "2026-09-06T03:20:56Z"
+          },
+          {
+            "name": "Validate inputs",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2,
+            "started_at": "2026-09-06T03:20:56Z",
+            "completed_at": "2026-09-06T03:20:56Z"
+          },
+          {
+            "name": "Create release",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3,
+            "started_at": "2026-09-06T03:20:56Z",
+            "completed_at": "2026-09-06T03:20:59Z"
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4,
+            "started_at": "2026-09-06T03:20:59Z",
+            "completed_at": "2026-09-06T03:20:59Z"
+          }
+        ]
+      },
+      {
+        "id": 101420724290,
+        "name": "Create Release Branch / Create Release Branch",
+        "html_url": "https://github.com/BerriAI/litellm/actions/runs/34008764140/job/101420724290",
+        "conclusion": "success",
+        "started_at": "2026-09-06T03:21:04Z",
+        "completed_at": "2026-09-06T03:21:08Z",
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1,
+            "started_at": "2026-09-06T03:21:04Z",
+            "completed_at": "2026-09-06T03:21:05Z"
+          },
+          {
+            "name": "Validate inputs",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2,
+            "started_at": "2026-09-06T03:21:05Z",
+            "completed_at": "2026-09-06T03:21:05Z"
+          },
+          {
+            "name": "Create release branch",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3,
+            "started_at": "2026-09-06T03:21:05Z",
+            "completed_at": "2026-09-06T03:21:06Z"
+          },
+          {
+            "name": "Create stable line branch",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4,
+            "started_at": "2026-09-06T03:21:06Z",
+            "completed_at": "2026-09-06T03:21:06Z"
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 5,
+            "started_at": "2026-09-06T03:21:06Z",
+            "completed_at": "2026-09-06T03:21:06Z"
+          }
+        ]
+      }
+    ],
+    "binding_limit": "Run timing and workflow match release creation; dispatched tag and commit inputs not read because job log retrieval failed."
+  },
+  "job_log_error": {
+    "source": "https://api.github.com/repos/BerriAI/litellm/actions/jobs/101420704838/logs",
+    "started_at": "2026-09-08T21:44:55.603966+00:00",
+    "method": "GET",
+    "http_status": 200,
+    "exit_code": 1,
+    "error": "the response contains terminal escape sequences; pass --allow-escape-sequences to output it anyway",
+    "finished_at": "2026-09-08T21:44:58.262579+00:00",
+    "body_bytes": 0,
+    "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "commit_association_scope": {
+    "returned_prs": 13,
+    "direct_merge_match_pr": 39994,
+    "other_results": "Twelve fork/sync PR associations were not treated as twelve release contributors."
+  },
+  "pypi_binding": "Eight artifact hashes are identified by PyPI metadata; no obtained public provenance binds these hashes to the candidate tag, public run, or reviewed workflows."
+}

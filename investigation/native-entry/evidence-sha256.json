@@ -1,0 +1,721 @@
+{
+  "created_at_utc": "2026-09-08T21:13:54.974474+00:00",
+  "scope": "Public files in investigation/native-entry only; excludes .inputs, __pycache__, and this self-referential manifest.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 22,
+      "sha256": "7655cc076d0db24ed5d11483f1c114fe617988703202a2bfb35b94c570240507"
+    },
+    {
+      "path": "1.100.0/PyInit__native.asm",
+      "bytes": 270,
+      "sha256": "e1b7b4c45c6c4267ac110abfecbf9032df2d17b0deaf9ceda626fda111f7e7b6"
+    },
+    {
+      "path": "1.100.0/PyInit_pyo3_async_runtimes.asm",
+      "bytes": 282,
+      "sha256": "7d316e9198652b64c277d963a2bb53a9b4d54d0db8f0b7ff6d49a0091bd61f9a"
+    },
+    {
+      "path": "1.100.0/async-module-exec.asm",
+      "bytes": 12635,
+      "sha256": "e6cd081b3e30b0a7734e77e4339d05f04161273f1c9fd3aa39bb429d3f13f52e"
+    },
+    {
+      "path": "1.100.0/callee-records.json",
+      "bytes": 40373,
+      "sha256": "621bee193c84e25d328714f9aa85a124da3cb3b8e8374431b4e21785adf20f26"
+    },
+    {
+      "path": "1.100.0/cpu-callee-01.asm",
+      "bytes": 5543,
+      "sha256": "11a26afbb88dd1883ebaaa6f21fca24b69e23c7aa3b14b00b3e3a3a5591274cb"
+    },
+    {
+      "path": "1.100.0/crt-start.asm",
+      "bytes": 3165,
+      "sha256": "6033a817adb5fc94553e4be2af8edfcfdeb019151282c3caf21c5b618b341b42"
+    },
+    {
+      "path": "1.100.0/crypto-constructor.asm",
+      "bytes": 12185,
+      "sha256": "82f0bcd40ffb16d3bb6775ee6bdc1f7366e7134f7044908d7d0ebedbd8143ed8"
+    },
+    {
+      "path": "1.100.0/crypto-constructor.normalized.txt",
+      "bytes": 2740,
+      "sha256": "be6ee5c766b2b237c1a03ec144f594a75f0c78ace3ce6d816ad3fe30ed596286"
+    },
+    {
+      "path": "1.100.0/dynamic-loader-83d3e0.asm",
+      "bytes": 67246,
+      "sha256": "72ddd3f9643817ec49b3db2bdb2b2f6bf599dc9710475fb7f52a214f0dd39104"
+    },
+    {
+      "path": "1.100.0/elf.json",
+      "bytes": 2108950,
+      "sha256": "7bf2366f40b8eb2208df6f4f850f9148041f435e73470af3de36eb952d9bfd54"
+    },
+    {
+      "path": "1.100.0/fde-ranges.json",
+      "bytes": 211943,
+      "sha256": "9997cc3c2a1956c473877585ea813521b687d13c410527353319245ff1fb5dc3"
+    },
+    {
+      "path": "1.100.0/fini.asm",
+      "bytes": 306,
+      "sha256": "12270937e3ff0533dfe5ca6444ea1e7c70c6923202c70a1ed01c14f59bf18a3d"
+    },
+    {
+      "path": "1.100.0/fini_array-0.asm",
+      "bytes": 8851,
+      "sha256": "d42401f18fc1ee7eab34743919cd410c2e264eab3ab500cc4a67a72f73eb8a33"
+    },
+    {
+      "path": "1.100.0/fini_array-1.asm",
+      "bytes": 9236,
+      "sha256": "3c8d60f70261814dd04731db0fd03d88aaf2cf5f91f5a2552c999043e1315712"
+    },
+    {
+      "path": "1.100.0/fini_array-2.asm",
+      "bytes": 10640,
+      "sha256": "45943573582f296397465bb6012189e00cfc214dfbc38a1e871b548741b823a8"
+    },
+    {
+      "path": "1.100.0/init.asm",
+      "bytes": 560,
+      "sha256": "dd9c8965f4bfb2ad701a558a9afcde11c8f14e64e4e8c15aa31e7c2ab3cdb311"
+    },
+    {
+      "path": "1.100.0/init_array-0.asm",
+      "bytes": 9734,
+      "sha256": "c227f72996cbbe4335fc49c691c874d1133ff622a494c3619ebae0f2ac69df21"
+    },
+    {
+      "path": "1.100.0/init_array-1.asm",
+      "bytes": 8460,
+      "sha256": "ef71e701f320229ddb3c4a6f102a503b8611092f7e5ce755d25db8df94174740"
+    },
+    {
+      "path": "1.100.0/init_array-2.asm",
+      "bytes": 11923,
+      "sha256": "256c9a320aa9a78303a485b6b3c0cd7bba3e64e6b89a72eaf580e6eaa84ad99d"
+    },
+    {
+      "path": "1.100.0/module-callee-01.asm",
+      "bytes": 8871,
+      "sha256": "fe543439d5d58b90506429202a1484fb57262146304efc75574b9ea247e35b5d"
+    },
+    {
+      "path": "1.100.0/module-callee-01.normalized.txt",
+      "bytes": 1892,
+      "sha256": "df7e758aed850786aa2a7f84a7b02e120bd8567fa5b1c212ab5957b2b9cbbcf2"
+    },
+    {
+      "path": "1.100.0/module-callee-02.asm",
+      "bytes": 6137,
+      "sha256": "1b53cc8b8306408e1e366cf96952e71aea0243ce5b190a2ab21e41aa781fc8a0"
+    },
+    {
+      "path": "1.100.0/module-callee-02.normalized.txt",
+      "bytes": 1697,
+      "sha256": "d110d7bd0854dc651d5b2ecb168968317e91e001d9f31b6a0d242ef72d5dc8d9"
+    },
+    {
+      "path": "1.100.0/module-callee-03.asm",
+      "bytes": 8718,
+      "sha256": "4b6019636f6f250dbb755cf8baa98858b59ac43c6af710da94582104f7a52aa7"
+    },
+    {
+      "path": "1.100.0/module-callee-03.normalized.txt",
+      "bytes": 2191,
+      "sha256": "8bff6c3b274c5b4075bc269d1fe4959e37c5235afeb1ab45bb75ee368d12ba27"
+    },
+    {
+      "path": "1.100.0/module-callee-04.asm",
+      "bytes": 7120,
+      "sha256": "cfc374f96635e1daae3b6e4dd404e0620b017f42ff0884c976172fb9b0681563"
+    },
+    {
+      "path": "1.100.0/module-callee-04.normalized.txt",
+      "bytes": 1853,
+      "sha256": "00af3649b2c6694bca3c8a945aa9b41d07524b89907437ddaa2bb96a5ab74977"
+    },
+    {
+      "path": "1.100.0/module-callee-05.asm",
+      "bytes": 3557,
+      "sha256": "7e974122cac07084184d8538fc41fe0d440f6f14f2603fb7238e0278af6aa2cc"
+    },
+    {
+      "path": "1.100.0/module-callee-05.normalized.txt",
+      "bytes": 725,
+      "sha256": "780e5872849a7b330aaf76f68f3689f75a3d7a63b7720a5d4187e08169466745"
+    },
+    {
+      "path": "1.100.0/module-callee-06.asm",
+      "bytes": 3077,
+      "sha256": "66455be283065d45fd53c863617cee74e357ddc89dd0780b3e63611a5e43a393"
+    },
+    {
+      "path": "1.100.0/module-callee-06.normalized.txt",
+      "bytes": 662,
+      "sha256": "c1addbe7056d0767626c2ad70babfc1267a61082b8736604ac19b4e9f7e1414f"
+    },
+    {
+      "path": "1.100.0/module-callee-07.asm",
+      "bytes": 1538,
+      "sha256": "6a1d03927b0663cabe9dec4a8a99dc86925324aeb4c317fec95d10bbdc65de98"
+    },
+    {
+      "path": "1.100.0/module-callee-07.normalized.txt",
+      "bytes": 278,
+      "sha256": "51cb0720f1aa38ddba012fd79c98fa77d521b8f5e4f39baaeaf98dc5db117572"
+    },
+    {
+      "path": "1.100.0/module-callee-08.asm",
+      "bytes": 1706,
+      "sha256": "8c4f7379cdffe19cc893932c27c7e64e34964049ee3e0abf941aae5392d37800"
+    },
+    {
+      "path": "1.100.0/module-callee-08.normalized.txt",
+      "bytes": 381,
+      "sha256": "8023cd05b2a0b2f29b3e5b18cb403b9bc49216e7d972237f76e2762449e10ab0"
+    },
+    {
+      "path": "1.100.0/module-callee-09.asm",
+      "bytes": 478,
+      "sha256": "bfc5320813fe9a40fb0038908b3354c9498ac2417fbdc1c6834935791ecb285a"
+    },
+    {
+      "path": "1.100.0/module-callee-09.normalized.txt",
+      "bytes": 88,
+      "sha256": "fd9f436005b55208e618de18806cd5620d97ce1253d136094ef54747dfa4c89f"
+    },
+    {
+      "path": "1.100.0/module-callee-10.asm",
+      "bytes": 4032,
+      "sha256": "48fe5b1773be227f633161e4a7c7ef39ed226bdb9ed14ce525998ed26faa99f1"
+    },
+    {
+      "path": "1.100.0/module-callee-10.normalized.txt",
+      "bytes": 931,
+      "sha256": "2b74644fa9e28a5063f0aeea4cfe32c6afe62c8965627a2814f14841ea58e8c6"
+    },
+    {
+      "path": "1.100.0/module-callee-11.asm",
+      "bytes": 2754,
+      "sha256": "3f46db05bbf2203b523a7c56bf125d1f590cf98809d4fc233ed3f5ce72ba795e"
+    },
+    {
+      "path": "1.100.0/module-callee-11.normalized.txt",
+      "bytes": 596,
+      "sha256": "198e50b7d7dfcc158152416dbc6ef9c484bd1a409f04d08bf3fe9f1763bd7f99"
+    },
+    {
+      "path": "1.100.0/module-callee-12.asm",
+      "bytes": 2754,
+      "sha256": "63b37c04f05b2e447941482df635208174ca1da591782f871fdaeef367de4ad2"
+    },
+    {
+      "path": "1.100.0/module-callee-12.normalized.txt",
+      "bytes": 596,
+      "sha256": "198e50b7d7dfcc158152416dbc6ef9c484bd1a409f04d08bf3fe9f1763bd7f99"
+    },
+    {
+      "path": "1.100.0/module-callee-13.asm",
+      "bytes": 2358,
+      "sha256": "06a45fea968527603a8c5e877da04ef6f1a43769f4eec588ab2c77c107cd700c"
+    },
+    {
+      "path": "1.100.0/module-callee-13.normalized.txt",
+      "bytes": 485,
+      "sha256": "e7529e57cb182675603937ab89ee7d3e7fc9cbb85ce5397d7c57bb16d17ab767"
+    },
+    {
+      "path": "1.100.0/module-callee-14.asm",
+      "bytes": 2000,
+      "sha256": "ca6d1026b0b67e50f6245de9682115fc78af303757f97e4c7180fb533ab438ce"
+    },
+    {
+      "path": "1.100.0/module-callee-14.normalized.txt",
+      "bytes": 382,
+      "sha256": "c2cbedfef23ce1551bd649ef068daccb70e03369cc40326ec1706407729bac72"
+    },
+    {
+      "path": "1.100.0/module-callee-15.asm",
+      "bytes": 10524,
+      "sha256": "6786dc3f2e7897618998f71d8fd577960b239a7c0c3b6d13d96a738865463fcc"
+    },
+    {
+      "path": "1.100.0/module-callee-15.normalized.txt",
+      "bytes": 2375,
+      "sha256": "7e9819961ae9605950d3a52fe1333f835e3f15f7fec95bb632fa8f36392bbfef"
+    },
+    {
+      "path": "1.100.0/module-callee-16.asm",
+      "bytes": 298,
+      "sha256": "1151ee85b967ae75bc13c19cf66ad46f5ac371c58c92402472071f9bda0ffe1d"
+    },
+    {
+      "path": "1.100.0/module-callee-16.normalized.txt",
+      "bytes": 40,
+      "sha256": "b0cb24d3534141dcf6ecf29c81790962ad27b6e11e8a905839dee46eb271c382"
+    },
+    {
+      "path": "1.100.0/module-callee-17.asm",
+      "bytes": 748,
+      "sha256": "e8cbe5bbe8d264f74ce2492bf84527fdc710112e98a10206c1d0bf76d2fcbb67"
+    },
+    {
+      "path": "1.100.0/module-callee-17.normalized.txt",
+      "bytes": 157,
+      "sha256": "011d655746ada6059d24cbe928c3c2a6e181ee14ab7bed8f36dc9a9e60eb49cb"
+    },
+    {
+      "path": "1.100.0/module-exec.asm",
+      "bytes": 21504,
+      "sha256": "8c0e01645a15a99f9b4d038d538f39d3e83243f15c1efccc89e691960b1db47a"
+    },
+    {
+      "path": "1.100.0/module-exec.normalized.txt",
+      "bytes": 5312,
+      "sha256": "c2894181f230aaeae2f6252eebfee7e18544a2888e544243342b34ef48175fc3"
+    },
+    {
+      "path": "1.100.0/plt.asm",
+      "bytes": 12660,
+      "sha256": "140556c4510cca14c2bdc9fe1a56109b28bfd5eb767a89c45f825c17af9b2911"
+    },
+    {
+      "path": "1.100.0/sensitive-import-sites.json",
+      "bytes": 442,
+      "sha256": "6beb401f3ea004fb30b703ad145ade285438664448464a329c3c1b68474b5f9d"
+    },
+    {
+      "path": "1.99.0/PyInit__native.asm",
+      "bytes": 270,
+      "sha256": "6f47521c5cfe61e8d3ca83ca2eb1873ca80abdeb957838b4cd3ee6d7839956d6"
+    },
+    {
+      "path": "1.99.0/PyInit_pyo3_async_runtimes.asm",
+      "bytes": 282,
+      "sha256": "44acf494c4ff64eb10e940a4f29ffb8f07ec73c9a5859e7f99e3fdc2ec5cf258"
+    },
+    {
+      "path": "1.99.0/async-module-exec.asm",
+      "bytes": 12635,
+      "sha256": "25eb6392cf467e5936e661adb800de9a9342b2746401713fa3ae686af7ac7f8b"
+    },
+    {
+      "path": "1.99.0/callee-records.json",
+      "bytes": 40373,
+      "sha256": "21be6386142950d02fcb7c8c92a4b4401b42405bdd085ac9eb35cd83cd0b783b"
+    },
+    {
+      "path": "1.99.0/cpu-callee-01.asm",
+      "bytes": 5543,
+      "sha256": "60b8839ad5fb626988215e1dd2fe8f2d3e657d922bbf9d421bd90e7fc3466230"
+    },
+    {
+      "path": "1.99.0/crt-start.asm",
+      "bytes": 3165,
+      "sha256": "eb0c62e7289b8e78e7dbc51fabe73ca6d91cb057b0877a7a2a7ed535b9698d0e"
+    },
+    {
+      "path": "1.99.0/crypto-constructor.asm",
+      "bytes": 12185,
+      "sha256": "38fd96fb06afe5c00ed33241f2ffd0e5cb88e5c0ebea79daab837a7829604243"
+    },
+    {
+      "path": "1.99.0/crypto-constructor.normalized.txt",
+      "bytes": 2740,
+      "sha256": "be6ee5c766b2b237c1a03ec144f594a75f0c78ace3ce6d816ad3fe30ed596286"
+    },
+    {
+      "path": "1.99.0/dynamic-loader-835030.asm",
+      "bytes": 67280,
+      "sha256": "c0cf6eb9ba00c5d4b68aa562cbacd6e11a9644225ddd46fcfafb4b941f23fcd5"
+    },
+    {
+      "path": "1.99.0/elf.json",
+      "bytes": 2096659,
+      "sha256": "89000b81073c1c2e67f939ed43c8b56116f4f21dae991c84dd80b1dea5af361e"
+    },
+    {
+      "path": "1.99.0/fde-ranges.json",
+      "bytes": 211038,
+      "sha256": "fa0ed586f3ea13e75ec06df93f27bd6279587cfd144897be0c0f131dbb87b3f0"
+    },
+    {
+      "path": "1.99.0/fini.asm",
+      "bytes": 306,
+      "sha256": "dfe74b8fbb7f9e7696b8cb784b8fcce7ef42247f00f9d48c94409ff6f461c214"
+    },
+    {
+      "path": "1.99.0/fini_array-0.asm",
+      "bytes": 8612,
+      "sha256": "cdb3a417857c88c235500e4083274e42c77ce9b26c8c4648a544a1971325dfc4"
+    },
+    {
+      "path": "1.99.0/fini_array-1.asm",
+      "bytes": 9236,
+      "sha256": "cfe8a0f1c7b50474138c86646e398e2ded4860df55c633696f5f810bc060a2cd"
+    },
+    {
+      "path": "1.99.0/fini_array-2.asm",
+      "bytes": 10640,
+      "sha256": "20b8c64ba7bd7cfacbf881d75c281ccc8337e711c556b17fa7469d91dbbbf645"
+    },
+    {
+      "path": "1.99.0/init.asm",
+      "bytes": 560,
+      "sha256": "22680a61d4ab276affe514977982372648a1807cf5d8a46eca8d2b3e5490bd19"
+    },
+    {
+      "path": "1.99.0/init_array-0.asm",
+      "bytes": 9734,
+      "sha256": "20fda7db752b7b33e84189bb24490dd3ab3202c0d3f5e87cdb8f3cbcdc33f826"
+    },
+    {
+      "path": "1.99.0/init_array-1.asm",
+      "bytes": 8559,
+      "sha256": "14b59265ac5ee1538653c5dbc5b632dda748681d34060f6b3890f6f142e45691"
+    },
+    {
+      "path": "1.99.0/init_array-2.asm",
+      "bytes": 11923,
+      "sha256": "600ea379490d389e19560dfd474336965050e66a151214e105e69c099c4621ee"
+    },
+    {
+      "path": "1.99.0/module-callee-01.asm",
+      "bytes": 8871,
+      "sha256": "5324745bcdd6b085024248727887355e262e86e076a0fb3499fe5a74d6a55466"
+    },
+    {
+      "path": "1.99.0/module-callee-01.normalized.txt",
+      "bytes": 1892,
+      "sha256": "df7e758aed850786aa2a7f84a7b02e120bd8567fa5b1c212ab5957b2b9cbbcf2"
+    },
+    {
+      "path": "1.99.0/module-callee-02.asm",
+      "bytes": 6137,
+      "sha256": "6376a596c1afbd8104e51588e9cc6167525535049d95db5072761ac449776f8c"
+    },
+    {
+      "path": "1.99.0/module-callee-02.normalized.txt",
+      "bytes": 1697,
+      "sha256": "d110d7bd0854dc651d5b2ecb168968317e91e001d9f31b6a0d242ef72d5dc8d9"
+    },
+    {
+      "path": "1.99.0/module-callee-03.asm",
+      "bytes": 8718,
+      "sha256": "0081be538119ff1e8a00343deca63bb89eecfec512a9864656a72ca1e351585f"
+    },
+    {
+      "path": "1.99.0/module-callee-03.normalized.txt",
+      "bytes": 2191,
+      "sha256": "8bff6c3b274c5b4075bc269d1fe4959e37c5235afeb1ab45bb75ee368d12ba27"
+    },
+    {
+      "path": "1.99.0/module-callee-04.asm",
+      "bytes": 7120,
+      "sha256": "801cf96d48c8be027c6f3863cbb1711001f4868ba38e375276b2cca24adadf4e"
+    },
+    {
+      "path": "1.99.0/module-callee-04.normalized.txt",
+      "bytes": 1853,
+      "sha256": "00af3649b2c6694bca3c8a945aa9b41d07524b89907437ddaa2bb96a5ab74977"
+    },
+    {
+      "path": "1.99.0/module-callee-05.asm",
+      "bytes": 3557,
+      "sha256": "7c7b843572bac613f822c5c6e6e7f0651f5c924684b66e284fc42ff90551179d"
+    },
+    {
+      "path": "1.99.0/module-callee-05.normalized.txt",
+      "bytes": 725,
+      "sha256": "780e5872849a7b330aaf76f68f3689f75a3d7a63b7720a5d4187e08169466745"
+    },
+    {
+      "path": "1.99.0/module-callee-06.asm",
+      "bytes": 3077,
+      "sha256": "0ff7ee2fde18fa05a7c406ae446d1052d128fdba1b7a443aa3cbe2eb057a3fca"
+    },
+    {
+      "path": "1.99.0/module-callee-06.normalized.txt",
+      "bytes": 662,
+      "sha256": "c1addbe7056d0767626c2ad70babfc1267a61082b8736604ac19b4e9f7e1414f"
+    },
+    {
+      "path": "1.99.0/module-callee-07.asm",
+      "bytes": 1527,
+      "sha256": "a1a874502777d779cda265ac12f871e8fae7d18f3e6724b5ed486ac7eef14b84"
+    },
+    {
+      "path": "1.99.0/module-callee-07.normalized.txt",
+      "bytes": 278,
+      "sha256": "51cb0720f1aa38ddba012fd79c98fa77d521b8f5e4f39baaeaf98dc5db117572"
+    },
+    {
+      "path": "1.99.0/module-callee-08.asm",
+      "bytes": 1706,
+      "sha256": "51bc49053a9de74f59c114db8c9849b9b1d06b8f865f69ba709948d9f659bdfb"
+    },
+    {
+      "path": "1.99.0/module-callee-08.normalized.txt",
+      "bytes": 381,
+      "sha256": "8023cd05b2a0b2f29b3e5b18cb403b9bc49216e7d972237f76e2762449e10ab0"
+    },
+    {
+      "path": "1.99.0/module-callee-09.asm",
+      "bytes": 478,
+      "sha256": "353de8a4751837cf776edcf1b60ad660272909ade24905d341f63feb600a7c77"
+    },
+    {
+      "path": "1.99.0/module-callee-09.normalized.txt",
+      "bytes": 88,
+      "sha256": "fd9f436005b55208e618de18806cd5620d97ce1253d136094ef54747dfa4c89f"
+    },
+    {
+      "path": "1.99.0/module-callee-10.asm",
+      "bytes": 4032,
+      "sha256": "37c6b3263062e9f7a398e4072f33d5cf83f9c83ff4a815642a1ea01986ed4b51"
+    },
+    {
+      "path": "1.99.0/module-callee-10.normalized.txt",
+      "bytes": 931,
+      "sha256": "2b74644fa9e28a5063f0aeea4cfe32c6afe62c8965627a2814f14841ea58e8c6"
+    },
+    {
+      "path": "1.99.0/module-callee-11.asm",
+      "bytes": 2754,
+      "sha256": "f62b2c7ad6157b1d3d828847b10a403cd683c132dfe197228abc709c76f03969"
+    },
+    {
+      "path": "1.99.0/module-callee-11.normalized.txt",
+      "bytes": 596,
+      "sha256": "198e50b7d7dfcc158152416dbc6ef9c484bd1a409f04d08bf3fe9f1763bd7f99"
+    },
+    {
+      "path": "1.99.0/module-callee-12.asm",
+      "bytes": 2754,
+      "sha256": "081cbe8f0bdb851a23620bd1bdc4431712e73dbfb3be823a2b9239781a6898dd"
+    },
+    {
+      "path": "1.99.0/module-callee-12.normalized.txt",
+      "bytes": 596,
+      "sha256": "198e50b7d7dfcc158152416dbc6ef9c484bd1a409f04d08bf3fe9f1763bd7f99"
+    },
+    {
+      "path": "1.99.0/module-callee-13.asm",
+      "bytes": 2358,
+      "sha256": "7a18a865578ade756a2f387738fc02cd9e5cde0c426e3a970ef014f22ef7d82a"
+    },
+    {
+      "path": "1.99.0/module-callee-13.normalized.txt",
+      "bytes": 485,
+      "sha256": "e7529e57cb182675603937ab89ee7d3e7fc9cbb85ce5397d7c57bb16d17ab767"
+    },
+    {
+      "path": "1.99.0/module-callee-14.asm",
+      "bytes": 2000,
+      "sha256": "fde509f4da9eeea051798f9604c4dbd6c09c0d90661c0288848c1a341e03795a"
+    },
+    {
+      "path": "1.99.0/module-callee-14.normalized.txt",
+      "bytes": 382,
+      "sha256": "c2cbedfef23ce1551bd649ef068daccb70e03369cc40326ec1706407729bac72"
+    },
+    {
+      "path": "1.99.0/module-callee-15.asm",
+      "bytes": 10524,
+      "sha256": "843bd85c9953d9bc93ad28be2fd3b48269eba9569a1b77ee0c8ecc5fa31e53d0"
+    },
+    {
+      "path": "1.99.0/module-callee-15.normalized.txt",
+      "bytes": 2375,
+      "sha256": "7e9819961ae9605950d3a52fe1333f835e3f15f7fec95bb632fa8f36392bbfef"
+    },
+    {
+      "path": "1.99.0/module-callee-16.asm",
+      "bytes": 298,
+      "sha256": "9c06f8bc65e85e098e023f0a72c5dbc7db47c06fd2913f1deadee117ac556ccc"
+    },
+    {
+      "path": "1.99.0/module-callee-16.normalized.txt",
+      "bytes": 40,
+      "sha256": "b0cb24d3534141dcf6ecf29c81790962ad27b6e11e8a905839dee46eb271c382"
+    },
+    {
+      "path": "1.99.0/module-callee-17.asm",
+      "bytes": 737,
+      "sha256": "7203291beef489b5b4098a4601dfc3eba3fb737786871d3689caafcfa0412624"
+    },
+    {
+      "path": "1.99.0/module-callee-17.normalized.txt",
+      "bytes": 157,
+      "sha256": "011d655746ada6059d24cbe928c3c2a6e181ee14ab7bed8f36dc9a9e60eb49cb"
+    },
+    {
+      "path": "1.99.0/module-exec.asm",
+      "bytes": 21504,
+      "sha256": "0beedf0ddb185689cddf15bc2ddf6dc96f6c90f794c114c232dfdbf57f3bcb48"
+    },
+    {
+      "path": "1.99.0/module-exec.normalized.txt",
+      "bytes": 5312,
+      "sha256": "c2894181f230aaeae2f6252eebfee7e18544a2888e544243342b34ef48175fc3"
+    },
+    {
+      "path": "1.99.0/plt.asm",
+      "bytes": 12660,
+      "sha256": "480da5f1d8a2572ce6df3cd687b270b16f405fb7a83f3e170b1036bd148771a7"
+    },
+    {
+      "path": "1.99.0/sensitive-import-sites.json",
+      "bytes": 442,
+      "sha256": "9a83cf5635c1dd163c6bae4413d9b60b2f3edf98d3d774c5a0da2b47f72f2dc3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10378,
+      "sha256": "b37f80ece251acacd7f7a0bbf0496abe4f77a1c1d04b13952bc2f96cce3ad14f"
+    },
+    {
+      "path": "callee-normalized-comparison.json",
+      "bytes": 5326,
+      "sha256": "740871cdee7b92f79ccf87ce79152e6319883524b11728b61e96c61a5a369964"
+    },
+    {
+      "path": "direct-call-pairs.json",
+      "bytes": 723,
+      "sha256": "a594d8c407562bacc398d8e14447c12235f45b27905f330c9e9d229d15999a5c"
+    },
+    {
+      "path": "entry-summary.json",
+      "bytes": 2760,
+      "sha256": "5ceaad8844032485af995f8cb6bc093aab2e47e0b10c2e789ae72d87d2be12d4"
+    },
+    {
+      "path": "expand_trace.py",
+      "bytes": 5199,
+      "sha256": "ef08a5615378cc2738644df5fa9d5d2498745e50f95274a740149ee3fb21289f"
+    },
+    {
+      "path": "import-reference-comparison.json",
+      "bytes": 5347,
+      "sha256": "37db1b9c482f42784f0c147404f300d4a5421d59e4d67b12619ede18651e752a"
+    },
+    {
+      "path": "inspect_elf.py",
+      "bytes": 4955,
+      "sha256": "850f096a4bd7c899c7fcb2a24ac2cad6b94c1159a355b012c76f6492deb387d3"
+    },
+    {
+      "path": "litellm-source-files.json",
+      "bytes": 1665,
+      "sha256": "822755a5c26c0e15bc1c4df722e14ac64ccb88bf84d1a8e0e5bdabefa9170b53"
+    },
+    {
+      "path": "normalized-comparison.json",
+      "bytes": 5953,
+      "sha256": "7b558e5a92dd97163434cb14baada7d7030e9deb3fc04fff23e6149cfca19d91"
+    },
+    {
+      "path": "registration-and-hooks.json",
+      "bytes": 17768,
+      "sha256": "6253e46c9e408f123a5b35967cb4c7085adc7c6195af296fe4c0ff5482d15c0c"
+    },
+    {
+      "path": "resolved-entries.json",
+      "bytes": 16910,
+      "sha256": "7d6843d9c6912bf63439f3967d0eb8937e8a708b294288dbc0fa431ff03dc449"
+    },
+    {
+      "path": "rust-source-files.json",
+      "bytes": 629,
+      "sha256": "0529799bbb1a7f3903af9534a53e2b885d9bd9270b3e0280520d16469ead6795"
+    },
+    {
+      "path": "source-archives.json",
+      "bytes": 2324,
+      "sha256": "d29b8d46ed713f8b41efa64a7cda3a81b5c735e612ce970e72163ab63f1dcc9f"
+    },
+    {
+      "path": "sources/aws-lc-sys-0.43.0/aws-lc/crypto/crypto.c",
+      "bytes": 4422,
+      "sha256": "0b80584265be6c71d6ea474c2f495dfcdde963d0fffd32ee29c157e5bfdd1d22"
+    },
+    {
+      "path": "sources/aws-lc-sys-0.43.0/aws-lc/crypto/fipsmodule/cpucap/cpu_intel.c",
+      "bytes": 9992,
+      "sha256": "c48e87873debc9c15e159e4af280dcb5785942edf0bd1a8e39006799072e3ee3"
+    },
+    {
+      "path": "sources/litellm-1.100.0/Cargo.lock",
+      "bytes": 74582,
+      "sha256": "a9bbd9b2123c6aae1420aaf35fb79a5aa0be6bf782c4260110f7b5122342c05b"
+    },
+    {
+      "path": "sources/litellm-1.100.0/lib.rs",
+      "bytes": 21545,
+      "sha256": "310544b5c67ee161bcb0fea78d6d02b310394fe59e7f78e2e341533ca000b54b"
+    },
+    {
+      "path": "sources/litellm-1.99.0/Cargo.lock",
+      "bytes": 65922,
+      "sha256": "ef6ae9d1e34b0bf82d93f06a3ef62694a1489a2a890b3cadecdbd74120e2273d"
+    },
+    {
+      "path": "sources/litellm-1.99.0/lib.rs",
+      "bytes": 22338,
+      "sha256": "b26b735903651ebdec252c8277844f8340baf991abd660baba8f838cd411c3bf"
+    },
+    {
+      "path": "sources/pyo3-0.29.0/src/impl_/pymodule.rs",
+      "bytes": 21661,
+      "sha256": "f9eab8574c64de7202d66681ec0f4d6708fcdf725007b10a6abf539c0ee251b6"
+    },
+    {
+      "path": "sources/pyo3-0.29.0/src/impl_/trampoline.rs",
+      "bytes": 11870,
+      "sha256": "1acbcd292b1af905938669c11aab15bb271dab635fe24e7f4eb5090cabb21291"
+    },
+    {
+      "path": "sources/pyo3-0.29.0/src/internal/state.rs",
+      "bytes": 20581,
+      "sha256": "9bc1baee1c3f6ad86d860bc23297ad15aed5e7a6eeec19c93a3b78255789ec85"
+    },
+    {
+      "path": "sources/pyo3-async-runtimes-0.29.0/src/lib.rs",
+      "bytes": 25872,
+      "sha256": "6461191cf1f0c62d4bb42690305826a3d09731f1387c45dfc954c10bf381ead5"
+    },
+    {
+      "path": "sources/pyo3-ffi-0.29.0/src/moduleobject.rs",
+      "bytes": 5061,
+      "sha256": "7e8e9a3e2db84a18d7a951fd577232269d3224cb385a6589feb84b135bb4e5a4"
+    },
+    {
+      "path": "sources/pyo3-macros-backend-0.29.0/src/module.rs",
+      "bytes": 27343,
+      "sha256": "f7cdfb458595046739a609e93b30f493681b5f28c699d605f4d4d7871427fa0d"
+    },
+    {
+      "path": "sources/rust-48a229ceaefd4985c50990b14116b6d856af0985/thread-unix.rs",
+      "bytes": 39214,
+      "sha256": "6e10c6770d3f5e304da9a4fd86fb7a6ada3d6f1a727dafba94150d777db1a61e"
+    },
+    {
+      "path": "sources/rust-88d9e12ae178fab0fb5cc050a94da85685d449ea/thread-unix.rs",
+      "bytes": 39214,
+      "sha256": "6e10c6770d3f5e304da9a4fd86fb7a6ada3d6f1a727dafba94150d777db1a61e"
+    },
+    {
+      "path": "trace_entries.py",
+      "bytes": 3927,
+      "sha256": "7a3a3713741b706eb2e1f55fca1c89b9696fe80447e6af815ba88b3e074c36b7"
+    }
+  ]
+}

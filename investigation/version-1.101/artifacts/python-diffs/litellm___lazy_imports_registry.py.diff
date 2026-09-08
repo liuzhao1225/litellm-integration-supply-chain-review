@@ -1,0 +1,26 @@
+--- 1.100.0/litellm/_lazy_imports_registry.py
++++ 1.101.0rc1/litellm/_lazy_imports_registry.py
+@@ -310,6 +310,8 @@
+     "GigaChatConfig",
+     "GigaChatEmbeddingConfig",
+     "DashScopeChatConfig",
++    "QwenCloudChatConfig",
++    "QwenAIPlatformChatConfig",
+     "ModelScopeChatConfig",
+     "MoonshotChatConfig",
+     "DockerModelRunnerChatConfig",
+@@ -1172,6 +1174,14 @@
+         ".llms.dashscope.chat.transformation",
+         "DashScopeChatConfig",
+     ),
++    "QwenCloudChatConfig": (
++        ".llms.dashscope.qwencloud",
++        "QwenCloudChatConfig",
++    ),
++    "QwenAIPlatformChatConfig": (
++        ".llms.dashscope.qwen_ai_platform",
++        "QwenAIPlatformChatConfig",
++    ),
+     "GDCGeminiConfig": (
+         ".llms.gdc.chat.transformation",
+         "GDCGeminiConfig",

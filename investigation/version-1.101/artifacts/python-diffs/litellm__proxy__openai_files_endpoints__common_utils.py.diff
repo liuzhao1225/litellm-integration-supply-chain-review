@@ -1,0 +1,11 @@
+--- 1.100.0/litellm/proxy/openai_files_endpoints/common_utils.py
++++ 1.101.0rc1/litellm/proxy/openai_files_endpoints/common_utils.py
+@@ -36,6 +36,8 @@
+ MAX_FILE_LIST_LIMIT: Final = 10000
+ 
+ FILE_LIST_CONTINUATION_CHUNK_SIZE: Final = 500
++
++BATCH_CREATE_HIDDEN_PARAM: Final = "batch_create"
+ 
+ 
+ def validate_file_list_limit(limit: int | None) -> None:

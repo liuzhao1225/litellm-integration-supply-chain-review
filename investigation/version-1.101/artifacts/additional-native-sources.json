@@ -1,0 +1,32 @@
+[
+  {
+    "path": "sources/litellm-rust/crates/python-bridge/src/execution.rs",
+    "git_blob": "f3648158cf657c00116bc7555a05610e1c6e5945",
+    "sha256": "2e1aeec41f312fd1045a95a2d81feb4eb9c6f0655322b22931a3bea43c043f33",
+    "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm-rust/crates/python-bridge/src/execution.rs"
+  },
+  {
+    "path": "sources/litellm-rust/crates/python-bridge/src/routes/mod.rs",
+    "git_blob": "7e81f2ffe9b322dc340763ed07e1c35ff70d85f2",
+    "sha256": "c40ddcc16b03a97423b3bf243376252ff06d08266c1c7edb7cd55e77965b0e8a",
+    "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm-rust/crates/python-bridge/src/routes/mod.rs"
+  },
+  {
+    "path": "sources/litellm-rust/crates/python-bridge/src/errors.rs",
+    "git_blob": "76c298abf8949a6f1a4fd087cf1b24dbe6cc19e4",
+    "sha256": "6d47ae72297809830601533457715a6e0fc1974c80959f7e670c965e11eff52d",
+    "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm-rust/crates/python-bridge/src/errors.rs"
+  },
+  {
+    "path": "sources/litellm-rust/crates/python-bridge/src/diagnostics.rs",
+    "git_blob": "cc153a89b8ff8d81d924047751a417a00dd38592",
+    "sha256": "356b8478bfeb1bb181084b70138a22e0a0ef21e5635819437b04d89cf8de89e0",
+    "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm-rust/crates/python-bridge/src/diagnostics.rs"
+  },
+  {
+    "path": "sources/litellm-rust/crates/python-bridge/Cargo.toml",
+    "git_blob": "bda09a7d8408a148c24a8d188f540f5e7b60bc74",
+    "sha256": "160c752c74d634c9c1eabca0ff7f0b701c1e3fb76c9f9bc74e94a50c25df2836",
+    "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm-rust/crates/python-bridge/Cargo.toml"
+  }
+]

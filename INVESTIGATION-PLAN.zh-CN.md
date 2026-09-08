@@ -1,6 +1,6 @@
 # 调查方向与汇报标准
 
-本调查以 LiteLLM 的制品、发布链和供应链为主体。[YouDub #130](https://github.com/liuzhao1225/YouDub-webui/pull/130)的默认依赖变更和测试覆盖问题是发现入口及下游案例。已有[历史投毒事件](https://docs.litellm.ai/blog/security-update-march-2026)，当前[完整调查报告](REPORT.zh-CN.md)尚未确认 1.100.0 被投毒，也未确认集成贡献者参与攻击。调查保留能够支持或削弱怀疑的证据，随来源更新修正结论。
+本调查以 LiteLLM 的制品、发布链和供应链为主体。[YouDub #130](https://github.com/liuzhao1225/YouDub-webui/pull/130)的默认依赖变更和测试覆盖问题是发现入口及下游案例。已有[历史投毒事件](https://docs.litellm.ai/blog/security-update-march-2026)，当前[完整调查报告](REPORT.zh-CN.md)尚未确认 1.100.0 或 1.101.0rc1 被投毒，也未确认集成贡献者参与攻击。调查保留能够支持或削弱怀疑的证据，随来源更新修正结论。
 
 ## 职责分配
 
@@ -26,8 +26,11 @@
 
 ## 当前推进事项
 
-- 原生入口：沿 LiteLLM 1.99 与 1.100 Linux 扩展的 Python 初始化入口、构造器与动态加载路径定向比较，将新增行为对应到固定源码或明确二进制偏移。
-- 贡献样本：从尚未核对固定差异的记录中抽查最多五个项目，优先检查默认依赖、安装脚本、CI、锁定哈希及异常外联。
+- 1.101 已加入：[候选版定向结果](investigation/version-1.101/README.md)覆盖七平台 wheel、源码包与 Cargo、新增认证/诊断功能及镜像声明。正式版接口当前无记录。重点未决项为 wheel 自报 maturin 1.9.4 与源码要求 1.15.0 的差异、原始 PyPI 构建绑定，以及尚未逐项解释的原生与 Python 行为。
+
+- 原生入口：[构造器、初始化回调和一层调用核验](investigation/native-entry/README.md)以及 [111 个 Python C API 导入符号核对](investigation/abi-compatibility/README.md)已完成，未定位到新增入口载荷或高于 3.10 的符号要求。深层间接调用、布局和其他平台仍未完成全量审计。
+- 构建来源：[镜像声明](investigation/publishing-provenance/README.md)提供运行号和源码关联，但明确跳过 PyPI；[源码包构建审计](investigation/build-time/README.md)发现 ABI3 配置需要外部参数解释，追查原始 wheel 的构建输入。
+- 贡献样本：[五个固定样本](investigation/contributor-samples/README.md)及[历史索引对照](investigation/historical-resolution/README.md)已完成。现有 45 条中 27 条有固定比较，优先追查安装或执行差异，不按账号相似性无限扩展名单。
 - 公开沟通：核对依赖作者、后续维护者和发布维护者各自的陈述与固定证据；已在 #130 发布的问题沿同一讨论等待说明。[沟通与核验记录](investigation/author-clarifications/README.md)。
 - 钓鱼通知：已保存同模板 issue、共享跳转源码和两次提醒回执，作为调查期间发现的独立事件归档；目前没有与 LiteLLM 贡献者的控制关系证据。[证据与提醒记录](investigation/notification-analysis/README.md)。
 

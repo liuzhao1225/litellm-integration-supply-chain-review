@@ -1,0 +1,18 @@
+--- 1.100.0/litellm/responses/mcp/mcp_streaming_iterator.py
++++ 1.101.0rc1/litellm/responses/mcp/mcp_streaming_iterator.py
+@@ -781,10 +781,15 @@
+         try:
+             # Create follow-up input
+             if self.collected_response is not None:
++                persistence_disabled: Final = LiteLLM_Proxy_MCP_Handler._is_persistence_disabled(
++                    self.original_request_params
++                )
++
+                 follow_up_input: Final = LiteLLM_Proxy_MCP_Handler._create_follow_up_input(
+                     response=self.collected_response,
+                     tool_results=self.tool_results,
+                     original_input=self.original_request_params.get("input"),
++                    preserve_reasoning=persistence_disabled,
+                 )
+ 
+                 # Make follow-up call with streaming

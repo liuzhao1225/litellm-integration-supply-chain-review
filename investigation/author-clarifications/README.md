@@ -23,6 +23,10 @@ PyRIT 的[固定 pyproject](https://github.com/microsoft/PyRIT/blob/245f74c12a6a
 
 ## 供发布维护者核对的问题草稿
 
-> We are reviewing the provenance of LiteLLM 1.100.0. Our saved PyPI Integrity responses did not provide provenance for its eight published artifacts. This does not establish a compromise. Could you point us to public build records that bind those artifact SHA-256 values to the actual source commit, build run and publishing identity? The Docker build repair appears to have followed the PyPI upload, so we would like to identify the source and toolchain used for the original wheels and sdist, separately from the later image build.
+> We are reviewing the provenance of LiteLLM 1.100.0 and 1.101.0rc1. Our saved PyPI Integrity responses did not provide provenance for the eight published artifacts in each version. This does not establish a compromise. Could you point us to public build records that bind those artifact SHA-256 values to the actual source commit, build run and publishing identity? The Docker build repair appears to have followed the PyPI upload, so we would like to identify the source and toolchain used for the original wheels and sdist, separately from the later image build.
+
+候选版增加一条具体问题，仍为待发送草稿：[构建声明与实际 wheel 字段](../version-1.101/README.md)。
+
+> The 1.101.0rc1 sdist requires maturin 1.15.0, while all seven published wheels declare maturin 1.9.4 in WHEEL. Which builder version and command produced these exact wheels, and what effective PyO3 features were used? An external build command may explain this; an artifact-specific build record would let us verify that explanation.
 
 此草稿请求构建证据，不预设发布者恶意。公开讨论、技术归因与真实账号安全事件分别按各自证据处理。

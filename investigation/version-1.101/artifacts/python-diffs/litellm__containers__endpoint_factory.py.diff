@@ -1,0 +1,37 @@
+--- 1.100.0/litellm/containers/endpoint_factory.py
++++ 1.101.0rc1/litellm/containers/endpoint_factory.py
+@@ -11,7 +11,7 @@
+ from collections.abc import Callable
+ from functools import partial
+ from pathlib import Path
+-from typing import Any, Final, Literal
++from typing import Final, Literal
+ 
+ import litellm
+ from litellm.constants import request_timeout as DEFAULT_REQUEST_TIMEOUT
+@@ -56,9 +56,9 @@
+     def endpoint_func(
+         timeout: int = 600,
+         custom_llm_provider: Literal["openai", "azure", "azure_text"] = "openai",
+-        extra_headers: dict[str, Any] | None = None,
+-        extra_query: dict[str, Any] | None = None,
+-        extra_body: dict[str, Any] | None = None,
++        extra_headers: dict[str, object] | None = None,
++        extra_query: dict[str, object] | None = None,
++        extra_body: dict[str, object] | None = None,
+         **kwargs,
+     ):
+         local_vars: Final = locals()
+@@ -145,9 +145,9 @@
+     async def async_endpoint_func(
+         timeout: int = 600,
+         custom_llm_provider: Literal["openai", "azure", "azure_text"] = "openai",
+-        extra_headers: dict[str, Any] | None = None,
+-        extra_query: dict[str, Any] | None = None,
+-        extra_body: dict[str, Any] | None = None,
++        extra_headers: dict[str, object] | None = None,
++        extra_query: dict[str, object] | None = None,
++        extra_body: dict[str, object] | None = None,
+         **kwargs,
+     ):
+         local_vars: Final = locals()

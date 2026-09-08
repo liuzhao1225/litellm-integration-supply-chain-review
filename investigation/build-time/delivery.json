@@ -1,0 +1,45 @@
+{
+  "completed_at_utc": "2026-09-08T21:18:19.516481+00:00",
+  "report": "README.md",
+  "report_sha256": "3ff52db3c9c66e5a0d523468600f6497747864c6d902c6cab1ca1b34360882eb",
+  "publication_manifest_sha256": "07492bf3290461133b81862bb9bb46615fc1461adc3a62d8a1471d6708dd8b8e",
+  "publishable_file_count": 164,
+  "publishable_bytes": 3082849,
+  "checks": {
+    "control_snapshots": 14,
+    "crate_archive_hash_matches": 41,
+    "crate_saved_members_hash_checked": true,
+    "backend_fixed_commit_and_hash_checked": true,
+    "readme_local_links_checked": true,
+    "raw_archives_gitignored": true,
+    "build_system_and_maturin_unchanged": true
+  },
+  "findings": {
+    "cargo_packages": [
+      258,
+      295
+    ],
+    "new_registry_packages": 37,
+    "removed_registry_packages": 0,
+    "existing_registry_records_changed": 0,
+    "new_normal_dependency": "pythonize 0.29.0; build=false, no build-dependencies, no proc-macro",
+    "new_dev_tree_packages": 36,
+    "new_dev_tree_build_scripts": 9,
+    "own_build_rs": "unchanged, macOS linker directives only"
+  },
+  "unknowns": [
+    "Original PyPI publication effective ABI3 feature/CLI/environment configuration",
+    "Actual source build executions and host configurations",
+    "Behavioral audit of all unchanged third-party build dependencies and proc-macros",
+    "Identity/equivalence of backend binaries actually used; conditional puccinialin version and execution"
+  ],
+  "boundaries": [
+    "Archive/source reads only; no target installation, import, compilation or execution",
+    "No Cargo metadata/tree/build or PEP517 hook executed",
+    "No staging, commits, pushes or edits to other investigations"
+  ],
+  "tool_errors": [
+    "Default python3 lacked tomllib; stopped at import, corrected explicitly to installed Python3.14 -I -S",
+    "Other investigation preserved selected pyo3 sources only; missing build source reads failed, then this investigation fetched matching official crate archives"
+  ]
+}

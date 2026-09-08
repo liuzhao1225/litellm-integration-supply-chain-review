@@ -1,0 +1,121 @@
+{
+  "created_at_utc": "2026-09-08T21:26:52.264246+00:00",
+  "scope": "Public allowlist in investigation/abi-compatibility; this manifest is additional and excluded from its own hash list.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 7044,
+      "sha256": "fb2fb56e706fd202a0bb480bf4fb79982b562cb35c0bb183cf5e0885c9a38c3a"
+    },
+    {
+      "path": "added-symbols.md",
+      "bytes": 1863,
+      "sha256": "1c4b6569e5b64981e55ad79e135f353d9a4b1fd05eca853d5266df8eedca5e57"
+    },
+    {
+      "path": "check_abi.py",
+      "bytes": 4031,
+      "sha256": "8e9c86ab06ec2d8bd2c29b3243513cbc098f66c5e9a8038d5a8c9cf55e85b322"
+    },
+    {
+      "path": "configuration-sources.json",
+      "bytes": 2252,
+      "sha256": "955764c8573b8d82a2abf052bb50d4a079b83016ee543b75b469174cbfe4e026"
+    },
+    {
+      "path": "git-1.99.0-python-bridge-Cargo.toml",
+      "bytes": 483,
+      "sha256": "fe77f37f5d0781dc1e598a3552846f871e0f57caa70a561b1c0644aa302bc847"
+    },
+    {
+      "path": "git-vs-sdist-1.99.0-Cargo.diff",
+      "bytes": 464,
+      "sha256": "4c73377075b907b968698d03e2c3648d83d684e692a4b5c03060477a6cb4dc6f"
+    },
+    {
+      "path": "git-vs-sdist-1.99.0-Cargo.json",
+      "bytes": 1010,
+      "sha256": "f3ce887d9a4b938da628f94041a482a4331dee20381bbf9ba30fcd92917bac65"
+    },
+    {
+      "path": "litellm-1.100.0/litellm-rust/crates/python-bridge/Cargo.toml",
+      "bytes": 672,
+      "sha256": "071ccb6e2349d1a78e4180757024e18910835a092070600254014d545420ccb2"
+    },
+    {
+      "path": "litellm-1.100.0/pyproject.toml",
+      "bytes": 13216,
+      "sha256": "a65b83b54f2ae160ac7ffa06119588ac79ff5b08f7eda89e901f60063ff63bbb"
+    },
+    {
+      "path": "litellm-1.99.0/litellm-rust/crates/python-bridge/Cargo.toml",
+      "bytes": 497,
+      "sha256": "e97aac2f93f585ab40d2ae33b18add9b9d73b3ec64379c0e1c602fae5140aa98"
+    },
+    {
+      "path": "litellm-1.99.0/pyproject.toml",
+      "bytes": 13187,
+      "sha256": "efcf6b73f8b11116fa4a9e53e0aad26c5580ff904ec5c2c1bd6cb11193a471d3"
+    },
+    {
+      "path": "official-sources.json",
+      "bytes": 7488,
+      "sha256": "66e8c5ba2dc90359c7504d8710fe61a598e132d79b59084a5566b5d31655a25b"
+    },
+    {
+      "path": "symbol-audit.json",
+      "bytes": 127702,
+      "sha256": "d6ef36e3ba4cc857a170c64699e64fc93801b9519d2d42652180bbfaea8b0d6e"
+    },
+    {
+      "path": "v3.10.0/Include/object.h",
+      "bytes": 28343,
+      "sha256": "590e96204cc16a888a2f9736e0ceedea722479678962aa254435b968dffb648a"
+    },
+    {
+      "path": "v3.10.0/Misc/stable_abi.txt",
+      "bytes": 46322,
+      "sha256": "eb24799f63b0e86b0fcf01ad0340d425397f2074761de6fe6c1598cdda941b2c"
+    },
+    {
+      "path": "v3.10.0/PC/python3dll.c",
+      "bytes": 28014,
+      "sha256": "ed454afc018fa74ebcd4c4dfba476ed73bb9bdd3e0880aab7948aa112675d7d5"
+    },
+    {
+      "path": "v3.14.0/Include/object.h",
+      "bytes": 31002,
+      "sha256": "a5c8f054899db3bde7c6b53808fab3aa097a10347bb597d335c2e03572a99712"
+    },
+    {
+      "path": "v3.14.0/Misc/stable_abi.toml",
+      "bytes": 65379,
+      "sha256": "63bf4315950cbd246e3b41abf0092c606cbb066fc8c69d527d77583ffd5e3df0"
+    },
+    {
+      "path": "v3.14.0/PC/python3dll.c",
+      "bytes": 30762,
+      "sha256": "94815caf217d09c4f3881369efe471550c598425dc41023b15edf5afeb86d26b"
+    },
+    {
+      "path": "wheel-1.100.0.txt",
+      "bytes": 107,
+      "sha256": "59b90030d7d512d3fd2217806b958942ad199f5d35cb8f317e4c137cc0c108f5"
+    },
+    {
+      "path": "wheel-1.99.0.txt",
+      "bytes": 107,
+      "sha256": "59b90030d7d512d3fd2217806b958942ad199f5d35cb8f317e4c137cc0c108f5"
+    },
+    {
+      "path": "wheel-tags.json",
+      "bytes": 603,
+      "sha256": "eed2026d5749038170222d0a9cd406827a46db977b7be65792bdd4494845b4e2"
+    },
+    {
+      "path": "windows-export-crosscheck.json",
+      "bytes": 33975,
+      "sha256": "8a3b6b7bf1feea9c6a36dfb99a12b92657b0510c922ba55a99639e421458e1b7"
+    }
+  ]
+}

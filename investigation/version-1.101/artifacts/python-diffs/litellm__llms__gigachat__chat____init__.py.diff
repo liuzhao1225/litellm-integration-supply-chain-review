@@ -1,0 +1,13 @@
+--- 1.100.0/litellm/llms/gigachat/chat/__init__.py
++++ 1.101.0rc1/litellm/llms/gigachat/chat/__init__.py
+@@ -5,8 +5,8 @@
+ from .streaming import GigaChatModelResponseIterator
+ from .transformation import GigaChatConfig, GigaChatError
+ 
+-__all__ = [
++__all__ = (
+     "GigaChatConfig",
+     "GigaChatError",
+     "GigaChatModelResponseIterator",
+-]
++)

@@ -1,0 +1,14 @@
+[
+  {
+    "version": "1.99.0",
+    "wheel_sha256": "1c45097e426fed2ae7fbd38b5404c3addeb203d0e1148c0a59848aabd5fe83c6",
+    "member": "litellm-1.99.0.dist-info/WHEEL",
+    "content": "Wheel-Version: 1.0\nGenerator: maturin (1.9.4)\nRoot-Is-Purelib: false\nTag: cp310-abi3-manylinux_2_28_x86_64\n"
+  },
+  {
+    "version": "1.100.0",
+    "wheel_sha256": "8224c8eed9cab3319a88e6665d1275ad8faf21d353b1b22223a6d6115a302ea2",
+    "member": "litellm-1.100.0.dist-info/WHEEL",
+    "content": "Wheel-Version: 1.0\nGenerator: maturin (1.9.4)\nRoot-Is-Purelib: false\nTag: cp310-abi3-manylinux_2_28_x86_64\n"
+  }
+]

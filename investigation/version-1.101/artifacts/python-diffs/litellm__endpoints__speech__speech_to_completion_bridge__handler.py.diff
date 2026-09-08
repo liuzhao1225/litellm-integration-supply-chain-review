@@ -1,0 +1,14 @@
+--- 1.100.0/litellm/endpoints/speech/speech_to_completion_bridge/handler.py
++++ 1.101.0rc1/litellm/endpoints/speech/speech_to_completion_bridge/handler.py
+@@ -115,9 +115,11 @@
+             **request_data,
+         )
+ 
++        requested_response_format: Final = optional_params.get("response_format")
+         if isinstance(result, ModelResponse):
+             return self.transformation_handler.transform_response(
+                 model_response=result,
++                response_format=requested_response_format if isinstance(requested_response_format, str) else None,
+             )
+         else:
+             raise Exception(f"Unmapped response type. Got type: {type(result)}")

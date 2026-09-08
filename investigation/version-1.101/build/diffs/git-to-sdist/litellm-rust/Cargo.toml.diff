@@ -1,0 +1,15 @@
+--- git/litellm-rust/Cargo.toml
++++ sdist/litellm-rust/Cargo.toml
+@@ -1,11 +1,5 @@
+ [workspace]
+-members = [
+-    "crates/core",
+-    "crates/config",
+-    "crates/ai-gateway",
+-    "crates/python-interop",
+-    "crates/python-bridge",
+-]
++members = ["crates/core", "crates/config", "crates/ai-gateway", "crates/python-interop", "crates/python-bridge"]
+ resolver = "2"
+ 
+ [workspace.package]

@@ -1,0 +1,34 @@
+[
+  {
+    "version": "1.99.0",
+    "commit": "fa647f742d7baefe8eb1181899d9c81b41559772",
+    "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm-rust/crates/python-bridge/src/lib.rs",
+    "git_blob_sha1": "c6f81cf6916e248b5e14cc27869c7c47da1d2278",
+    "sha256": "b26b735903651ebdec252c8277844f8340baf991abd660baba8f838cd411c3bf",
+    "path": "sources/litellm-1.99.0/lib.rs"
+  },
+  {
+    "version": "1.99.0",
+    "commit": "fa647f742d7baefe8eb1181899d9c81b41559772",
+    "url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm-rust/Cargo.lock",
+    "git_blob_sha1": "ce28f73733461fd77ec446f6ea32c45a5be9e8cd",
+    "sha256": "ef6ae9d1e34b0bf82d93f06a3ef62694a1489a2a890b3cadecdbd74120e2273d",
+    "path": "sources/litellm-1.99.0/Cargo.lock"
+  },
+  {
+    "version": "1.100.0",
+    "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+    "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm-rust/crates/python-bridge/src/lib.rs",
+    "git_blob_sha1": "f9e75f45f7531e37e14cebb38c5cb712c446d6fb",
+    "sha256": "310544b5c67ee161bcb0fea78d6d02b310394fe59e7f78e2e341533ca000b54b",
+    "path": "sources/litellm-1.100.0/lib.rs"
+  },
+  {
+    "version": "1.100.0",
+    "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+    "url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm-rust/Cargo.lock",
+    "git_blob_sha1": "4388e5610262c26f4c56fabf7aced8898b33381b",
+    "sha256": "a9bbd9b2123c6aae1420aaf35fb79a5aa0be6bf782c4260110f7b5122342c05b",
+    "path": "sources/litellm-1.100.0/Cargo.lock"
+  }
+]

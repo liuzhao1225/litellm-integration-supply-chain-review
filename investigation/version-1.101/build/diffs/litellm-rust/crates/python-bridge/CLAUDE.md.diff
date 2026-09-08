@@ -1,0 +1,14 @@
+--- 1.100.0/litellm-rust/crates/python-bridge/CLAUDE.md
++++ 1.101.0rc1/litellm-rust/crates/python-bridge/CLAUDE.md
+@@ -5,8 +5,9 @@
+ ## Responsibility
+ 
+ `python-bridge` is the PyO3 boundary between Python LiteLLM and Rust transforms.
+-Keep this crate thin. It adapts Python objects to Rust payloads and returns
+-Python-compatible dictionaries.
++Keep this crate thin. It exposes LiteLLM Rust APIs, assembles domain requests,
++maps domain errors to Python exceptions, and delegates generic conversion and
++GIL handling to `litellm-python-interop`.
+ 
+ ## Bridge Shape
+ 

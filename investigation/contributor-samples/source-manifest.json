@@ -1,0 +1,303 @@
+{
+  "complete": false,
+  "failure": "GitHub API TLS handshake timeout at repos/zhayujie/bot-on-anything/git/blobs/3306c27cd7bb7dca09ad3d1f01d0e8bbf2220cc3; collection stopped with no retry. All saved blobs verified against fixed-head tree.",
+  "items": [
+    {
+      "slug": "pyrit",
+      "path": ".devcontainer/Dockerfile",
+      "head": "245f74c12a6a776a4acf024de909b6ecf7137f14",
+      "blob_sha": "b8807d7b586473396f88af9482b95350ad9bee6a",
+      "sha256": "58ca4b5d0dfa9e47521e65e7811df71dd289f1a8d95d22c7016a117af42333dc",
+      "bytes": 4043,
+      "url": "https://github.com/microsoft/PyRIT/blob/245f74c12a6a776a4acf024de909b6ecf7137f14/.devcontainer/Dockerfile",
+      "local_file_written_at_utc": "2026-09-08T21:00:23.015383+00:00",
+      "time_note": "Local write timestamp, not independently recorded HTTP query timestamp"
+    },
+    {
+      "slug": "pyrit",
+      "path": ".devcontainer/devcontainer_setup.sh",
+      "head": "245f74c12a6a776a4acf024de909b6ecf7137f14",
+      "blob_sha": "e0c26817317d6cc5e6e9a9a23fa366cd6cebc0d5",
+      "sha256": "7dc4a0303ff89efbe7f9a9243f13298cc58d9ecf81899484ffdf15d6ed9ccfb9",
+      "bytes": 2329,
+      "url": "https://github.com/microsoft/PyRIT/blob/245f74c12a6a776a4acf024de909b6ecf7137f14/.devcontainer/devcontainer_setup.sh",
+      "local_file_written_at_utc": "2026-09-08T21:00:23.134385+00:00",
+      "time_note": "Local write timestamp, not independently recorded HTTP query timestamp"
+    },
+    {
+      "slug": "pyrit",
+      "path": ".github/workflows/build_and_test.yml",
+      "head": "245f74c12a6a776a4acf024de909b6ecf7137f14",
+      "blob_sha": "c45993c78d8457875f8d44f72a6ef48830b77b6f",
+      "sha256": "c09da0556430ee9745cea11ebfe74616f18cd6dc4b740bb99c87617138ea5ab5",
+      "bytes": 4299,
+      "url": "https://github.com/microsoft/PyRIT/blob/245f74c12a6a776a4acf024de909b6ecf7137f14/.github/workflows/build_and_test.yml",
+      "local_file_written_at_utc": "2026-09-08T21:00:23.135919+00:00",
+      "time_note": "Local write timestamp, not independently recorded HTTP query timestamp"
+    },
+    {
+      "slug": "pyrit",
+      "path": "docker/Dockerfile",
+      "head": "245f74c12a6a776a4acf024de909b6ecf7137f14",
+      "blob_sha": "424640ae91f928de983256796820e9f9e2630305",
+      "sha256": "afffe86a7fc6c1570564588798e3ced901e3c3e2f0bae09d79bcb0d83b4ce797",
+      "bytes": 4712,
+      "url": "https://github.com/microsoft/PyRIT/blob/245f74c12a6a776a4acf024de909b6ecf7137f14/docker/Dockerfile",
+      "local_file_written_at_utc": "2026-09-08T21:00:23.847742+00:00",
+      "time_note": "Local write timestamp, not independently recorded HTTP query timestamp"
+    },
+    {
+      "slug": "pyrit",
+      "path": "pyproject.toml",
+      "head": "245f74c12a6a776a4acf024de909b6ecf7137f14",
+      "blob_sha": "a4a88c776fbb768ba3dc73eb4bffe00d09c6d766",
+      "sha256": "8c221b0370b3e64c516e37fc4d2f01cca8c48a2d9de927891aca9b6087746136",
+      "bytes": 15068,
+      "url": "https://github.com/microsoft/PyRIT/blob/245f74c12a6a776a4acf024de909b6ecf7137f14/pyproject.toml",
+      "local_file_written_at_utc": "2026-09-08T21:00:24.087615+00:00",
+      "time_note": "Local write timestamp, not independently recorded HTTP query timestamp"
+    },
+    {
+      "slug": "pyrit",
+      "path": "pyrit/models/__init__.py",
+      "head": "245f74c12a6a776a4acf024de909b6ecf7137f14",
+      "blob_sha": "2e964a6c48f27b84a5914f32e107a340460170fa",
+      "sha256": "cf6767c16cc82f85af51074a16e72e522dda16dd8db0b7633a1696b8129043a2",
+      "bytes": 6507,
+      "url": "https://github.com/microsoft/PyRIT/blob/245f74c12a6a776a4acf024de909b6ecf7137f14/pyrit/models/__init__.py",
+      "local_file_written_at_utc": "2026-09-08T21:00:24.052817+00:00",
+      "time_note": "Local write timestamp, not independently recorded HTTP query timestamp"
+    },
+    {
+      "slug": "pyrit",
+      "path": "pyrit/models/token_usage.py",
+      "head": "245f74c12a6a776a4acf024de909b6ecf7137f14",
+      "blob_sha": "32bc39ce1e0af996991a65ee4080d26220638498",
+      "sha256": "084f6566bdffe9482ccb533b08fccd03f265b108aaf5f4553331ad9781083b3d",
+      "bytes": 5264,
+      "url": "https://github.com/microsoft/PyRIT/blob/245f74c12a6a776a4acf024de909b6ecf7137f14/pyrit/models/token_usage.py",
+      "local_file_written_at_utc": "2026-09-08T21:00:24.611126+00:00",
+      "time_note": "Local write timestamp, not independently recorded HTTP query timestamp"
+    },
+    {
+      "slug": "pyrit",
+      "path": "pyrit/prompt_target/__init__.py",
+      "head": "245f74c12a6a776a4acf024de909b6ecf7137f14",
+      "blob_sha": "9f45cb4ee5dc5394ea916de803d2b4b2f9b60d3e",
+      "sha256": "07add41b99302a34681df3ea2a946f7521e333ccac1c39f5fbb82ec8d6c1770a",
+      "bytes": 4664,
+      "url": "https://github.com/microsoft/PyRIT/blob/245f74c12a6a776a4acf024de909b6ecf7137f14/pyrit/prompt_target/__init__.py",
+      "local_file_written_at_utc": "2026-09-08T21:00:24.815827+00:00",
+      "time_note": "Local write timestamp, not independently recorded HTTP query timestamp"
+    },
+    {
+      "slug": "pyrit",
+      "path": "pyrit/prompt_target/common/chat_completions_message_builder.py",
+      "head": "245f74c12a6a776a4acf024de909b6ecf7137f14",
+      "blob_sha": "8c30fd6a27c5f0489be62d0d96016427a09527df",
+      "sha256": "c9fc2bcfd2c0d756e28d629b94fe0cc88ded5046ba731cf72618fe0c8e55c68a",
+      "bytes": 10221,
+      "url": "https://github.com/microsoft/PyRIT/blob/245f74c12a6a776a4acf024de909b6ecf7137f14/pyrit/prompt_target/common/chat_completions_message_builder.py",
+      "local_file_written_at_utc": "2026-09-08T21:00:24.856235+00:00",
+      "time_note": "Local write timestamp, not independently recorded HTTP query timestamp"
+    },
+    {
+      "slug": "pyrit",
+      "path": "pyrit/prompt_target/common/chat_completions_response_parser.py",
+      "head": "245f74c12a6a776a4acf024de909b6ecf7137f14",
+      "blob_sha": "07d774cbe76e93484a3fd87e32ac69078a8acad6",
+      "sha256": "d72105d8cf059287386f7245bd7661dbd40e5c37d79c0b63f5e78545e3349cf9",
+      "bytes": 16422,
+      "url": "https://github.com/microsoft/PyRIT/blob/245f74c12a6a776a4acf024de909b6ecf7137f14/pyrit/prompt_target/common/chat_completions_response_parser.py",
+      "local_file_written_at_utc": "2026-09-08T21:00:26.011520+00:00",
+      "time_note": "Local write timestamp, not independently recorded HTTP query timestamp"
+    },
+    {
+      "slug": "pyrit",
+      "path": "pyrit/prompt_target/litellm_chat_target.py",
+      "head": "245f74c12a6a776a4acf024de909b6ecf7137f14",
+      "blob_sha": "870d89b2b2ac37852dc8cc22eca8828e49692f17",
+      "sha256": "d3709792889857de8fd51fb87f7f62f4c4c6b75d496483ea0a17293d589935ee",
+      "bytes": 26737,
+      "url": "https://github.com/microsoft/PyRIT/blob/245f74c12a6a776a4acf024de909b6ecf7137f14/pyrit/prompt_target/litellm_chat_target.py",
+      "local_file_written_at_utc": "2026-09-08T21:00:25.692334+00:00",
+      "time_note": "Local write timestamp, not independently recorded HTTP query timestamp"
+    },
+    {
+      "slug": "pyrit",
+      "path": "pyrit/prompt_target/openai/openai_chat_target.py",
+      "head": "245f74c12a6a776a4acf024de909b6ecf7137f14",
+      "blob_sha": "31790462463cb20cfe5199b80248b6541137f747",
+      "sha256": "6c43861f9ba958650f62c09d3330beff94dc2690b6c42814570be968c8ffb14d",
+      "bytes": 21430,
+      "url": "https://github.com/microsoft/PyRIT/blob/245f74c12a6a776a4acf024de909b6ecf7137f14/pyrit/prompt_target/openai/openai_chat_target.py",
+      "local_file_written_at_utc": "2026-09-08T21:00:25.724992+00:00",
+      "time_note": "Local write timestamp, not independently recorded HTTP query timestamp"
+    },
+    {
+      "slug": "pyrit",
+      "path": "uv.lock",
+      "head": "245f74c12a6a776a4acf024de909b6ecf7137f14",
+      "blob_sha": "edf456027aefe2c5d399f370721ee35429af07b4",
+      "sha256": "0fbc186d6c85f86a1d739f997edd1581a18cfec17411fd717ccd37961ce439ed",
+      "bytes": 1450415,
+      "url": "https://github.com/microsoft/PyRIT/blob/245f74c12a6a776a4acf024de909b6ecf7137f14/uv.lock",
+      "local_file_written_at_utc": "2026-09-08T21:00:28.199734+00:00",
+      "time_note": "Local write timestamp, not independently recorded HTTP query timestamp"
+    },
+    {
+      "slug": "memoryos",
+      "path": "Dockerfile",
+      "head": "aa78e1d7f5583bb57e9171f486bac9e995d0beed",
+      "blob_sha": "5400531c688b4cfe68dfb754147843bb95755d6c",
+      "sha256": "df56d9f56bf479cadba4a06f1f82617b50757a561267ee5d35834969aefe06ce",
+      "bytes": 235,
+      "url": "https://github.com/BAI-LAB/MemoryOS/blob/aa78e1d7f5583bb57e9171f486bac9e995d0beed/Dockerfile",
+      "local_file_written_at_utc": "2026-09-08T21:00:26.510033+00:00",
+      "time_note": "Local write timestamp, not independently recorded HTTP query timestamp"
+    },
+    {
+      "slug": "memoryos",
+      "path": "README.md",
+      "head": "aa78e1d7f5583bb57e9171f486bac9e995d0beed",
+      "blob_sha": "2c5467cb9af180993406619f9879504f820c242e",
+      "sha256": "1580d664129c9804fa59b1327952ec11bd504ec85672b214b76dc2a8fe1df151",
+      "bytes": 20378,
+      "url": "https://github.com/BAI-LAB/MemoryOS/blob/aa78e1d7f5583bb57e9171f486bac9e995d0beed/README.md",
+      "local_file_written_at_utc": "2026-09-08T21:00:26.863012+00:00",
+      "time_note": "Local write timestamp, not independently recorded HTTP query timestamp"
+    },
+    {
+      "slug": "memoryos",
+      "path": "memoryos-pypi/__init__.py",
+      "head": "aa78e1d7f5583bb57e9171f486bac9e995d0beed",
+      "blob_sha": "c7a78ca50c0136dbb85cecc7ba5b9b22d287983c",
+      "sha256": "657596c01a4a50313c163fbc9f02c80f59049e4b777aa68cb9149957d971dfff",
+      "bytes": 105,
+      "url": "https://github.com/BAI-LAB/MemoryOS/blob/aa78e1d7f5583bb57e9171f486bac9e995d0beed/memoryos-pypi/__init__.py",
+      "local_file_written_at_utc": "2026-09-08T21:00:27.228988+00:00",
+      "time_note": "Local write timestamp, not independently recorded HTTP query timestamp"
+    },
+    {
+      "slug": "memoryos",
+      "path": "memoryos-pypi/memoryos.py",
+      "head": "aa78e1d7f5583bb57e9171f486bac9e995d0beed",
+      "blob_sha": "f4ae5e3531fd5944d429c2b7ebe6126b2a217bec",
+      "sha256": "5313e11880a5ece45c5594007541484d1cff01f2b498ada04346fe4469fbebed",
+      "bytes": 21237,
+      "url": "https://github.com/BAI-LAB/MemoryOS/blob/aa78e1d7f5583bb57e9171f486bac9e995d0beed/memoryos-pypi/memoryos.py",
+      "local_file_written_at_utc": "2026-09-08T21:00:27.686717+00:00",
+      "time_note": "Local write timestamp, not independently recorded HTTP query timestamp"
+    },
+    {
+      "slug": "memoryos",
+      "path": "memoryos-pypi/requirements.txt",
+      "head": "aa78e1d7f5583bb57e9171f486bac9e995d0beed",
+      "blob_sha": "2140c9d49196583db830bc01436c96d89d7de777",
+      "sha256": "646d820fcf485e3ebe702922054768968ad56de118ef7647418b09d2c9ecf372",
+      "bytes": 644,
+      "url": "https://github.com/BAI-LAB/MemoryOS/blob/aa78e1d7f5583bb57e9171f486bac9e995d0beed/memoryos-pypi/requirements.txt",
+      "local_file_written_at_utc": "2026-09-08T21:00:27.945424+00:00",
+      "time_note": "Local write timestamp, not independently recorded HTTP query timestamp"
+    },
+    {
+      "slug": "memoryos",
+      "path": "memoryos-pypi/utils.py",
+      "head": "aa78e1d7f5583bb57e9171f486bac9e995d0beed",
+      "blob_sha": "410ccd28d62a18825adb1e88a6c29d364f360678",
+      "sha256": "7cba2e1e6f683c537e7fc34cd3c675a17c665f331e3213e7b38852df80136005",
+      "bytes": 21109,
+      "url": "https://github.com/BAI-LAB/MemoryOS/blob/aa78e1d7f5583bb57e9171f486bac9e995d0beed/memoryos-pypi/utils.py",
+      "local_file_written_at_utc": "2026-09-08T21:00:28.632233+00:00",
+      "time_note": "Local write timestamp, not independently recorded HTTP query timestamp"
+    },
+    {
+      "slug": "memoryos",
+      "path": "pytest.ini",
+      "head": "aa78e1d7f5583bb57e9171f486bac9e995d0beed",
+      "blob_sha": "7b001b97a186b994f5f5d8b0cf93dbf00fc53b0c",
+      "sha256": "ca4b82760538130959a0fbe25c21fc5d28cd46fb7a63b1209def6d19e2b40a62",
+      "bytes": 43,
+      "url": "https://github.com/BAI-LAB/MemoryOS/blob/aa78e1d7f5583bb57e9171f486bac9e995d0beed/pytest.ini",
+      "local_file_written_at_utc": "2026-09-08T21:00:29.093151+00:00",
+      "time_note": "Local write timestamp, not independently recorded HTTP query timestamp"
+    },
+    {
+      "slug": "memoryos",
+      "path": "readme_cn.md",
+      "head": "aa78e1d7f5583bb57e9171f486bac9e995d0beed",
+      "blob_sha": "d2124745832c51cfaa4065eb8f0555ea59d349dc",
+      "sha256": "5616b505053222c2fb3f3e0c76e1161e39f204b4a2987cd6a56d36f1a51414e4",
+      "bytes": 15607,
+      "url": "https://github.com/BAI-LAB/MemoryOS/blob/aa78e1d7f5583bb57e9171f486bac9e995d0beed/readme_cn.md",
+      "local_file_written_at_utc": "2026-09-08T21:00:29.129199+00:00",
+      "time_note": "Local write timestamp, not independently recorded HTTP query timestamp"
+    },
+    {
+      "slug": "bot-anything",
+      "path": "Dockerfile",
+      "head": "f469c228a06b50562ea1fd0f582da00896bdef4e",
+      "blob_sha": "b6b034dc8145830d3d03367247274b7cf9d8ed61",
+      "sha256": "ec40b9e2c5269a9c3388b7c4d3e4f90fe666fb60327d0691f9edb529b8fc8cab",
+      "bytes": 151,
+      "url": "https://github.com/zhayujie/bot-on-anything/blob/f469c228a06b50562ea1fd0f582da00896bdef4e/Dockerfile",
+      "local_file_written_at_utc": "2026-09-08T21:00:29.353092+00:00",
+      "time_note": "Local write timestamp, not independently recorded HTTP query timestamp"
+    },
+    {
+      "slug": "bot-anything",
+      "path": "common/const.py",
+      "head": "f469c228a06b50562ea1fd0f582da00896bdef4e",
+      "blob_sha": "69a268333b8a7ddc2feea754407f2c52e2a9ad96",
+      "sha256": "4a5bdb86ca5dc4d29b4331b73d3fca86cd4b2fa9ca8868ff4d3b85c11a2523a9",
+      "bytes": 408,
+      "url": "https://github.com/zhayujie/bot-on-anything/blob/f469c228a06b50562ea1fd0f582da00896bdef4e/common/const.py",
+      "local_file_written_at_utc": "2026-09-08T21:00:29.944991+00:00",
+      "time_note": "Local write timestamp, not independently recorded HTTP query timestamp"
+    },
+    {
+      "slug": "bot-anything",
+      "path": "config-template.json",
+      "head": "f469c228a06b50562ea1fd0f582da00896bdef4e",
+      "blob_sha": "70283fa9e1599cc8410147005fd03a08500290a2",
+      "sha256": "085b2f9d414bb4b21943cf558efc60f4b6a6f8cf576855a3d5558d6b866248a2",
+      "bytes": 4158,
+      "url": "https://github.com/zhayujie/bot-on-anything/blob/f469c228a06b50562ea1fd0f582da00896bdef4e/config-template.json",
+      "local_file_written_at_utc": "2026-09-08T21:00:30.069057+00:00",
+      "time_note": "Local write timestamp, not independently recorded HTTP query timestamp"
+    },
+    {
+      "slug": "bot-anything",
+      "path": "docs/README-CN.md",
+      "head": "f469c228a06b50562ea1fd0f582da00896bdef4e",
+      "blob_sha": "a6ab78c92412ca9fffc71cea30b8f050ae417ecc",
+      "sha256": "d52c3286c9c011ded6e6695cdac140e33317f3e7c81346f5de6cb097b9cf229f",
+      "bytes": 22443,
+      "url": "https://github.com/zhayujie/bot-on-anything/blob/f469c228a06b50562ea1fd0f582da00896bdef4e/docs/README-CN.md",
+      "local_file_written_at_utc": "2026-09-08T21:00:30.795598+00:00",
+      "time_note": "Local write timestamp, not independently recorded HTTP query timestamp"
+    },
+    {
+      "slug": "bot-anything",
+      "path": "model/litellm/__init__.py",
+      "head": "f469c228a06b50562ea1fd0f582da00896bdef4e",
+      "blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "url": "https://github.com/zhayujie/bot-on-anything/blob/f469c228a06b50562ea1fd0f582da00896bdef4e/model/litellm/__init__.py",
+      "local_file_written_at_utc": "2026-09-08T21:00:31.193454+00:00",
+      "time_note": "Local write timestamp, not independently recorded HTTP query timestamp"
+    },
+    {
+      "slug": "bot-anything",
+      "path": "model/litellm/litellm_model.py",
+      "head": "f469c228a06b50562ea1fd0f582da00896bdef4e",
+      "blob_sha": "c4d6f9407951d509d183fb3ff0a56b5212dfea1b",
+      "sha256": "9e5cbaa94bbc7dabfb326c17a1471ebf9cd8c91c0bab721fac3374c8f5598f21",
+      "bytes": 8131,
+      "url": "https://github.com/zhayujie/bot-on-anything/blob/f469c228a06b50562ea1fd0f582da00896bdef4e/model/litellm/litellm_model.py",
+      "local_file_written_at_utc": "2026-09-08T21:00:31.512029+00:00",
+      "time_note": "Local write timestamp, not independently recorded HTTP query timestamp"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+--- pyo30.29.0/src/impl_/pyclass/probes.rs
++++ pyo30.29.2/src/impl_/pyclass/probes.rs
+@@ -40,15 +40,6 @@
+ impl<'a, 'py, T: 'a> IsIntoPyObjectRef<T>
+ where
+     &'a T: IntoPyObject<'py>,
+-{
+-    pub const VALUE: bool = true;
+-}
+-
+-probe!(IsIntoPyObject);
+-
+-impl<'py, T> IsIntoPyObject<T>
+-where
+-    T: IntoPyObject<'py>,
+ {
+     pub const VALUE: bool = true;
+ }

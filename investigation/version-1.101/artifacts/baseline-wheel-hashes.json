@@ -1,0 +1,37 @@
+[
+  {
+    "filename": "litellm-1.100.0-cp310-abi3-macosx_10_12_x86_64.whl",
+    "sha256": "098a413e398e2220734cf9c8dd75fb34a38b65b64090619c2869af1fdeaf4ae5",
+    "bytes": 23899430
+  },
+  {
+    "filename": "litellm-1.100.0-cp310-abi3-macosx_11_0_arm64.whl",
+    "sha256": "0f87fae695edbca27e5cf970bea52fa405fa9910fdf7c29c963d6413db767299",
+    "bytes": 23552365
+  },
+  {
+    "filename": "litellm-1.100.0-cp310-abi3-manylinux_2_28_aarch64.whl",
+    "sha256": "a07370d116905485e9ac99679bac991a0a6c81e13c99ca3f007128fbdf2b0082",
+    "bytes": 23693340
+  },
+  {
+    "filename": "litellm-1.100.0-cp310-abi3-manylinux_2_28_x86_64.whl",
+    "sha256": "8224c8eed9cab3319a88e6665d1275ad8faf21d353b1b22223a6d6115a302ea2",
+    "bytes": 24063361
+  },
+  {
+    "filename": "litellm-1.100.0-cp310-abi3-musllinux_1_2_aarch64.whl",
+    "sha256": "e3787fb7ad1f20aebdde7686a85061880bba6550c9d62bfa1cf8df089fe7899b",
+    "bytes": 23766707
+  },
+  {
+    "filename": "litellm-1.100.0-cp310-abi3-musllinux_1_2_x86_64.whl",
+    "sha256": "0b7ec93013e18535481cd811b776ee95c6b957b3a9fb44dc53f7c459e7e60e38",
+    "bytes": 24163673
+  },
+  {
+    "filename": "litellm-1.100.0-cp310-abi3-win_amd64.whl",
+    "sha256": "c6f2f56808d05d8d2a7766129d958101eafb1a47e30ba5ddcfa900cdbc50af67",
+    "bytes": 23974360
+  }
+]

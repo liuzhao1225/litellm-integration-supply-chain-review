@@ -1,0 +1,70 @@
+[
+  {
+    "symbol": "PyErr_CheckSignals",
+    "instruction_va": "0x2d329a",
+    "function_va": "0x2d2fc0",
+    "function_bytes": 1527,
+    "instruction": "2d329a:      \tcallq\t*0x8214f0(%rip)         # 0xaf4790",
+    "context": "  2d3273:      \tmovabsq\t$-0x7fffffffffffffff, %rcx # imm = 0x8000000000000001\n  2d327d:      \tleaq\t0x1(%rcx), %rax\n  2d3281:      \tcmpq\t%rax, %r13\n  2d3284:      \tjge\t0x2d3422 <PyInit__native+0x548e2>\n  2d328a:      \tcmpq\t%rcx, %r13\n  2d328d:      \tje\t0x2d34fa <PyInit__native+0x549ba>\n  2d3293:      \tcallq\t0x6854c0 <PyInit__native+0x406980>\n  2d3298:      \tmovl\t%eax, %ebp\n  2d329a:      \tcallq\t*0x8214f0(%rip)         # 0xaf4790\n  2d32a0:      \tmovl\t%eax, %r13d\n  2d32a3:      \tcmpl\t$-0x1, %eax\n  2d32a6:      \tje\t0x2d3312 <PyInit__native+0x547d2>\n  2d32a8:      \tcmpl\t$0x2, %ebp\n  2d32ab:      \tje\t0x2d32b5 <PyInit__native+0x54775>\n  2d32ad:      \tmovl\t%ebp, %edi\n  2d32af:      \tcallq\t*0x82135b(%rip)         # 0xaf4610\n  2d32b5:      \tdecq\t0xd8(%r12)",
+    "rodata_arguments_in_context": []
+  },
+  {
+    "symbol": "PyErr_CheckSignals",
+    "instruction_va": "0x36e26d",
+    "function_va": "0x36df40",
+    "function_bytes": 1650,
+    "instruction": "36e26d:      \tcallq\t*0x78651d(%rip)         # 0xaf4790",
+    "context": "  36e249:      \tmovaps\t%xmm0, 0xd0(%rsp)\n  36e251:      \tcmpq\t$0x1, %r13\n  36e255:      \tmovq\t%r13, %rax\n  36e258:      \tadcq\t$-0x1, %rax\n  36e25c:      \tcmpq\t$0x1, %rax\n  36e260:      \tjne\t0x36e3a3 <PyInit__native+0xef863>\n  36e266:      \tcallq\t0x6854c0 <PyInit__native+0x406980>\n  36e26b:      \tmovl\t%eax, %ebp\n  36e26d:      \tcallq\t*0x78651d(%rip)         # 0xaf4790\n  36e273:      \tmovl\t%eax, %r13d\n  36e276:      \tcmpl\t$-0x1, %eax\n  36e279:      \tje\t0x36e2cc <PyInit__native+0xef78c>\n  36e27b:      \tcmpl\t$0x2, %ebp\n  36e27e:      \tje\t0x36e288 <PyInit__native+0xef748>\n  36e280:      \tmovl\t%ebp, %edi\n  36e282:      \tcallq\t*0x786388(%rip)         # 0xaf4610\n  36e288:      \tdecq\t0xd8(%r12)",
+    "rodata_arguments_in_context": []
+  },
+  {
+    "symbol": "PyErr_CheckSignals",
+    "instruction_va": "0x36e8f3",
+    "function_va": "0x36e5c0",
+    "function_bytes": 1662,
+    "instruction": "36e8f3:      \tcallq\t*0x785e97(%rip)         # 0xaf4790",
+    "context": "  36e8cf:      \tmovaps\t%xmm0, 0xd0(%rsp)\n  36e8d7:      \tcmpq\t$0x1, %r13\n  36e8db:      \tmovq\t%r13, %rax\n  36e8de:      \tadcq\t$-0x1, %rax\n  36e8e2:      \tcmpq\t$0x1, %rax\n  36e8e6:      \tjne\t0x36ea2f <PyInit__native+0xefeef>\n  36e8ec:      \tcallq\t0x6854c0 <PyInit__native+0x406980>\n  36e8f1:      \tmovl\t%eax, %ebp\n  36e8f3:      \tcallq\t*0x785e97(%rip)         # 0xaf4790\n  36e8f9:      \tmovl\t%eax, %r13d\n  36e8fc:      \tcmpl\t$-0x1, %eax\n  36e8ff:      \tje\t0x36e958 <PyInit__native+0xefe18>\n  36e901:      \tcmpl\t$0x2, %ebp\n  36e904:      \tje\t0x36e90e <PyInit__native+0xefdce>\n  36e906:      \tmovl\t%ebp, %edi\n  36e908:      \tcallq\t*0x785d02(%rip)         # 0xaf4610\n  36e90e:      \tdecq\t0xd8(%r12)",
+    "rodata_arguments_in_context": []
+  },
+  {
+    "symbol": "PyErr_CheckSignals",
+    "instruction_va": "0x36ef39",
+    "function_va": "0x36ec40",
+    "function_bytes": 1670,
+    "instruction": "36ef39:      \tcallq\t*0x785851(%rip)         # 0xaf4790",
+    "context": "  36ef17:      \torb\t$0x1, (%rbp)\n  36ef1b:      \tleaq\t0x1(%r12), %rax\n  36ef20:      \tcmpq\t%rax, %r13\n  36ef23:      \tjge\t0x36f0e1 <PyInit__native+0xf05a1>\n  36ef29:      \tcmpq\t%r12, %r13\n  36ef2c:      \tje\t0x36f205 <PyInit__native+0xf06c5>\n  36ef32:      \tcallq\t0x6854c0 <PyInit__native+0x406980>\n  36ef37:      \tmovl\t%eax, %ebp\n  36ef39:      \tcallq\t*0x785851(%rip)         # 0xaf4790\n  36ef3f:      \tmovl\t%eax, %r13d\n  36ef42:      \tcmpl\t$-0x1, %eax\n  36ef45:      \tje\t0x36efb8 <PyInit__native+0xf0478>\n  36ef47:      \tcmpl\t$0x2, %ebp\n  36ef4a:      \tje\t0x36ef54 <PyInit__native+0xf0414>\n  36ef4c:      \tmovl\t%ebp, %edi\n  36ef4e:      \tcallq\t*0x7856bc(%rip)         # 0xaf4610\n  36ef54:      \tmovq\t0x18(%rsp), %rax",
+    "rodata_arguments_in_context": []
+  },
+  {
+    "symbol": "getenv",
+    "instruction_va": "0x82e1ed",
+    "function_va": "0x82e1b0",
+    "function_bytes": 295,
+    "instruction": "82e1ed:      \tcallq\t*0x2c6f7d(%rip)         # 0xaf5170",
+    "context": "  82e1c7:      \tcmpl\t$0x3ffffffd, %eax       # imm = 0x3FFFFFFD\n  82e1cc:      \tja\t0x82e26b <PyInit_pyo3_async_runtimes+0x199feb>\n  82e1d2:      \tleal\t0x1(%rax), %ecx\n  82e1d5:      \tlock\n  82e1d6:      \tcmpxchgl\t%ecx, 0x2c997b(%rip)    # 0xaf7b58\n  82e1dd:      \tjne\t0x82e26b <PyInit_pyo3_async_runtimes+0x199feb>\n  82e1e3:      \tmovzbl\t0x2c9976(%rip), %eax    # 0xaf7b60\n  82e1ea:      \tmovq\t%r14, %rdi\n  82e1ed:      \tcallq\t*0x2c6f7d(%rip)         # 0xaf5170\n  82e1f3:      \ttestq\t%rax, %rax\n  82e1f6:      \tje\t0x82e22e <PyInit_pyo3_async_runtimes+0x199fae>\n  82e1f8:      \tmovq\t%rax, %r15\n  82e1fb:      \tmovq\t%rax, %rdi\n  82e1fe:      \tcallq\t*0x2c6994(%rip)         # 0xaf4b98\n  82e204:      \tmovq\t%rax, %r14\n  82e207:      \ttestq\t%rax, %rax\n  82e20a:      \tje\t0x82e237 <PyInit_pyo3_async_runtimes+0x199fb7>",
+    "rodata_arguments_in_context": []
+  },
+  {
+    "symbol": "dlsym",
+    "instruction_va": "0x83af97",
+    "function_va": "0x83a280",
+    "function_bytes": 4213,
+    "instruction": "83af97:      \tcallq\t*0x2ba293(%rip)         # 0xaf5230",
+    "context": "  83af74:      \tleaq\t0x2a8bc5(%rip), %r9     # 0xae3b40\n  83af7b:      \tleaq\t0x10(%rsp), %rsi\n  83af80:      \txorl\t%edi, %edi\n  83af82:      \txorl\t%ecx, %ecx\n  83af84:      \tcallq\t0x82e7b1 <PyInit_pyo3_async_runtimes+0x19a531>\n  83af89:      \tjmp\t0x83b0c0 <PyInit_pyo3_async_runtimes+0x1a6e40>\n  83af8e:      \tleaq\t-0x76cdbf(%rip), %rsi   # 0xce1d6\n  83af95:      \txorl\t%edi, %edi\n  83af97:      \tcallq\t*0x2ba293(%rip)         # 0xaf5230\n  83af9d:      \tmovl\t$0x4000, %ecx           # imm = 0x4000\n  83afa2:      \tmovq\t%rax, 0x2bca37(%rip)    # 0xaf79e0\n  83afa9:      \ttestq\t%rax, %rax\n  83afac:      \tjne\t0x83ab18 <PyInit_pyo3_async_runtimes+0x1a6898>\n  83afb2:      \tjmp\t0x83ab22 <PyInit_pyo3_async_runtimes+0x1a68a2>\n  83afb7:      \tcmpl\t$0x1, %eax\n  83afba:      \tjne\t0x83b059 <PyInit_pyo3_async_runtimes+0x1a6dd9>\n  83afc0:      \tleaq\t-0xa5c7(%rip), %rsi     # 0x830a00 <PyInit_pyo3_async_runtimes+0x19c780>",
+    "rodata_arguments_in_context": [
+      {
+        "address": "0xce1d6",
+        "text": "__pthread_get_minstack"
+      }
+    ]
+  },
+  {
+    "symbol": "getenv",
+    "instruction_va": "0xabb2e0",
+    "function_va": null,
+    "function_bytes": null,
+    "instruction": "abb2e0:      \tjmpq\t*0x3a1ca(%rip)          # 0xaf54b0",
+    "context": "  abb2cb:      \tjmp\t0xabb190 <.plt>\n\n0000000000abb2d0 <pthread_key_create@plt>:\n  abb2d0:      \tjmpq\t*0x3a1d2(%rip)          # 0xaf54a8\n  abb2d6:      \tpushq\t$0x13\n  abb2db:      \tjmp\t0xabb190 <.plt>\n\n0000000000abb2e0 <getenv@plt>:\n  abb2e0:      \tjmpq\t*0x3a1ca(%rip)          # 0xaf54b0\n  abb2e6:      \tpushq\t$0x14\n  abb2eb:      \tjmp\t0xabb190 <.plt>\n\n0000000000abb2f0 <abort@plt>:\n  abb2f0:      \tjmpq\t*0x3a1c2(%rip)          # 0xaf54b8\n  abb2f6:      \tpushq\t$0x15\n  abb2fb:      \tjmp\t0xabb190 <.plt>\n",
+    "rodata_arguments_in_context": []
+  }
+]

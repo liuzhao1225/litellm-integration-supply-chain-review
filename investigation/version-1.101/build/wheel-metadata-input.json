@@ -1,0 +1,100 @@
+{
+  "base_dependencies_1_100": [
+    "fastuuid>=0.14.0,<1.0",
+    "httpx>=0.28.0,<1.0",
+    "openai>=2.20.0,<3.0.0",
+    "python-dotenv>=1.0.0,<2.0",
+    "tiktoken>=0.8.0,<1.0",
+    "importlib-metadata>=8.0.0,<9.0",
+    "tokenizers>=0.21.0,<1.0",
+    "click>=8.0.0,<9.0",
+    "jinja2>=3.1.6,<4.0",
+    "aiohttp>=3.14.2,<4.0",
+    "pydantic>=2.10.0,<3.0.0",
+    "pydantic-settings>=2.14.1,<3.0",
+    "jsonschema>=4.0.0,<5.0",
+    "boto3>=1.43.1,<2.0"
+  ],
+  "base_dependencies_candidate": [
+    "fastuuid>=0.14.0,<1.0",
+    "httpx>=0.28.0,<1.0",
+    "openai>=2.20.0,<3.0.0",
+    "python-dotenv>=1.0.0,<2.0",
+    "tiktoken>=0.8.0,<1.0",
+    "importlib-metadata>=8.0.0,<9.0",
+    "tokenizers>=0.21.0,<1.0",
+    "click>=8.0.0,<9.0",
+    "jinja2>=3.1.6,<4.0",
+    "aiohttp>=3.14.2,<4.0",
+    "pydantic>=2.10.0,<3.0.0",
+    "pydantic-settings>=2.14.1,<3.0",
+    "jsonschema>=4.0.0,<5.0",
+    "boto3>=1.43.1,<2.0"
+  ],
+  "base_dependencies_identical": true,
+  "wheels": [
+    {
+      "filename": "litellm-1.101.0rc1-cp310-abi3-manylinux_2_28_x86_64.whl",
+      "metadata": {
+        "litellm-1.101.0rc1.dist-info/WHEEL": "Wheel-Version: 1.0\nGenerator: maturin (1.9.4)\nRoot-Is-Purelib: false\nTag: cp310-abi3-manylinux_2_28_x86_64\n",
+        "litellm-1.101.0rc1.dist-info/entry_points.txt": "[console_scripts]\nlitellm=litellm:run_server\nlite=litellm.proxy.client.cli:cli\nlitellm-proxy=litellm.proxy.client.cli:cli\n"
+      },
+      "data_scripts": [],
+      "entrypoints_unchanged": true
+    },
+    {
+      "filename": "litellm-1.101.0rc1-cp310-abi3-macosx_10_12_x86_64.whl",
+      "metadata": {
+        "litellm-1.101.0rc1.dist-info/WHEEL": "Wheel-Version: 1.0\nGenerator: maturin (1.9.4)\nRoot-Is-Purelib: false\nTag: cp310-abi3-macosx_10_12_x86_64\n",
+        "litellm-1.101.0rc1.dist-info/entry_points.txt": "[console_scripts]\nlitellm=litellm:run_server\nlite=litellm.proxy.client.cli:cli\nlitellm-proxy=litellm.proxy.client.cli:cli\n"
+      },
+      "data_scripts": [],
+      "entrypoints_unchanged": true
+    },
+    {
+      "filename": "litellm-1.101.0rc1-cp310-abi3-macosx_11_0_arm64.whl",
+      "metadata": {
+        "litellm-1.101.0rc1.dist-info/WHEEL": "Wheel-Version: 1.0\nGenerator: maturin (1.9.4)\nRoot-Is-Purelib: false\nTag: cp310-abi3-macosx_11_0_arm64\n",
+        "litellm-1.101.0rc1.dist-info/entry_points.txt": "[console_scripts]\nlitellm=litellm:run_server\nlite=litellm.proxy.client.cli:cli\nlitellm-proxy=litellm.proxy.client.cli:cli\n"
+      },
+      "data_scripts": [],
+      "entrypoints_unchanged": true
+    },
+    {
+      "filename": "litellm-1.101.0rc1-cp310-abi3-manylinux_2_28_aarch64.whl",
+      "metadata": {
+        "litellm-1.101.0rc1.dist-info/WHEEL": "Wheel-Version: 1.0\nGenerator: maturin (1.9.4)\nRoot-Is-Purelib: false\nTag: cp310-abi3-manylinux_2_28_aarch64\n",
+        "litellm-1.101.0rc1.dist-info/entry_points.txt": "[console_scripts]\nlitellm=litellm:run_server\nlite=litellm.proxy.client.cli:cli\nlitellm-proxy=litellm.proxy.client.cli:cli\n"
+      },
+      "data_scripts": [],
+      "entrypoints_unchanged": true
+    },
+    {
+      "filename": "litellm-1.101.0rc1-cp310-abi3-musllinux_1_2_aarch64.whl",
+      "metadata": {
+        "litellm-1.101.0rc1.dist-info/WHEEL": "Wheel-Version: 1.0\nGenerator: maturin (1.9.4)\nRoot-Is-Purelib: false\nTag: cp310-abi3-musllinux_1_2_aarch64\n",
+        "litellm-1.101.0rc1.dist-info/entry_points.txt": "[console_scripts]\nlitellm=litellm:run_server\nlite=litellm.proxy.client.cli:cli\nlitellm-proxy=litellm.proxy.client.cli:cli\n"
+      },
+      "data_scripts": [],
+      "entrypoints_unchanged": true
+    },
+    {
+      "filename": "litellm-1.101.0rc1-cp310-abi3-musllinux_1_2_x86_64.whl",
+      "metadata": {
+        "litellm-1.101.0rc1.dist-info/WHEEL": "Wheel-Version: 1.0\nGenerator: maturin (1.9.4)\nRoot-Is-Purelib: false\nTag: cp310-abi3-musllinux_1_2_x86_64\n",
+        "litellm-1.101.0rc1.dist-info/entry_points.txt": "[console_scripts]\nlitellm=litellm:run_server\nlite=litellm.proxy.client.cli:cli\nlitellm-proxy=litellm.proxy.client.cli:cli\n"
+      },
+      "data_scripts": [],
+      "entrypoints_unchanged": true
+    },
+    {
+      "filename": "litellm-1.101.0rc1-cp310-abi3-win_amd64.whl",
+      "metadata": {
+        "litellm-1.101.0rc1.dist-info/WHEEL": "Wheel-Version: 1.0\nGenerator: maturin (1.9.4)\nRoot-Is-Purelib: false\nTag: cp310-abi3-win_amd64\n",
+        "litellm-1.101.0rc1.dist-info/entry_points.txt": "[console_scripts]\nlitellm=litellm:run_server\nlite=litellm.proxy.client.cli:cli\nlitellm-proxy=litellm.proxy.client.cli:cli\n"
+      },
+      "data_scripts": [],
+      "entrypoints_unchanged": true
+    }
+  ]
+}

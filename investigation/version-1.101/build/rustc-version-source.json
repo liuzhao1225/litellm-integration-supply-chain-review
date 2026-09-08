@@ -1,0 +1,15 @@
+{
+  "url": "https://static.crates.io/crates/rustc_version/rustc_version-0.4.1.crate",
+  "sha256": "cfcb3a22ef46e85b45de6ee7e79d063319ebb6594faafcf1c225ea92ab6e9b92",
+  "matches_lock": true,
+  "files": [
+    {
+      "path": "crates/rustc_version-0.4.1/Cargo.toml.txt",
+      "sha256": "c7d1d07fcb4f604eac7c2f9ad1262f93c81f2e45c6be6031de2d83da5ab59ccb"
+    },
+    {
+      "path": "crates/rustc_version-0.4.1/src/lib.rs.txt",
+      "sha256": "6d0dbf7bd12ba7121e6767841a0cee23b8282cc4d7c4b778a1e33129abdd7d72"
+    }
+  ]
+}

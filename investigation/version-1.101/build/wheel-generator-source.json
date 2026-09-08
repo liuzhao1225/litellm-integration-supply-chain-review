@@ -1,0 +1,24 @@
+{
+  "checked_at_utc": "2026-09-08T21:50:49.303213+00:00",
+  "files": [
+    {
+      "member": "src/module_writer/mod.rs",
+      "path": "backend/1.15.0/src/module_writer/mod.rs.txt",
+      "sha256": "aa9db6ca071b34a31736bc97ede165cd5ca87abf9bd62e2c68886edbd22e1e14",
+      "hits": [
+        {
+          "line": 534,
+          "context": "    let name_matches = file_name.starts_with(extension_name)\n        || file_name.starts_with(&format!(\"lib{extension_name}\"));\n    (is_native_ext || is_debuginfo) && name_matches\n}\n\nfn wheel_file(tags: &[WheelTag]) -> Result<String> {\n    let mut wheel_file = format!(\n        \"Wheel-Version: 1.0\nGenerator: {name} ({version})\nRoot-Is-Purelib: false\n\",\n        name = env!(\"CARGO_PKG_NAME\"),\n        version = env!(\"CARGO_PKG_VERSION\"),\n    );\n\n    for tag in tags {\n        for expanded_tag in tag.expand() {\n            writeln!(wheel_file, \"Tag: {expanded_tag}\")?;"
+        },
+        {
+          "line": 615,
+          "context": "    use super::wheel_file;\n    use crate::Metadata24;\n    use crate::WheelTag;\n\n    #[test]\n    fn wheel_file_compressed_tags() -> Result<()> {\n        let expected = format!(\n            \"Wheel-Version: 1.0\nGenerator: {name} ({version})\nRoot-Is-Purelib: false\nTag: py2-none-any\nTag: py3-none-any\nTag: pre-expanded-tag\nTag: cp37-abi3-manylinux_2_17_x86_64\nTag: cp37-abi3-manylinux2014_x86_64\n\",\n            name = env!(\"CARGO_PKG_NAME\"),\n            version = env!(\"CARGO_PKG_VERSION\"),"
+        },
+        {
+          "line": 644,
+          "context": "    #[test]\n    fn wheel_file_abi3t_expands_to_abi3_and_abi3t() -> Result<()> {\n        // abi3t wheels declare a compressed `abi3.abi3t` ABI tag because a single\n        // abi3t shared object is importable on both abi3-capable (GIL-enabled\n        // 3.15+) and free-threaded interpreters. The WHEEL file must expand the\n        // compressed tag into one Tag line per ABI.\n        let expected = format!(\n            \"Wheel-Version: 1.0\nGenerator: {name} ({version})\nRoot-Is-Purelib: false\nTag: cp315-abi3-manylinux_2_17_x86_64\nTag: cp315-abi3t-manylinux_2_17_x86_64\n\",\n            name = env!(\"CARGO_PKG_NAME\"),\n            version = env!(\"CARGO_PKG_VERSION\"),\n        );\n        let actual = wheel_file(&[WheelTag::new(\n            \"cp315\","
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+--- 1.100.0/litellm/types/caching.py
++++ 1.101.0rc1/litellm/types/caching.py
+@@ -16,6 +16,11 @@
+     QDRANT_SEMANTIC = "qdrant-semantic"
+     AZURE_BLOB = "azure-blob"
+     GCS = "gcs"
++
++
++class SemanticCacheScope(str, Enum):
++    KEY = "key"
++    END_USER = "end_user"
+ 
+ 
+ CachingSupportedCallTypes = Literal[

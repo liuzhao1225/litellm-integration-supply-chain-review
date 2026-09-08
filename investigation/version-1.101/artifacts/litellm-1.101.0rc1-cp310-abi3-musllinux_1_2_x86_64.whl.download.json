@@ -1,0 +1,10 @@
+{
+  "filename": "litellm-1.101.0rc1-cp310-abi3-musllinux_1_2_x86_64.whl",
+  "sha256": "573710517a0436a506d614ea55e85f7fdcf3de526667f0ba0dfe6913e1f680ef",
+  "upload_time": "2026-09-06T03:06:15.009652Z",
+  "yanked": false,
+  "url": "https://files.pythonhosted.org/packages/f4/0a/7b61c3755252288a1e30b06067425ef62c33f5de8eb45978a1a29e6acbd0/litellm-1.101.0rc1-cp310-abi3-musllinux_1_2_x86_64.whl",
+  "size": 24674627,
+  "checked_at_utc": "2026-09-08T21:42:04.646557+00:00",
+  "actual_sha256": "573710517a0436a506d614ea55e85f7fdcf3de526667f0ba0dfe6913e1f680ef"
+}

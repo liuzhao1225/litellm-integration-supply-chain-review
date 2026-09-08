@@ -1,0 +1,128 @@
+[
+  {
+    "crate": "alloca",
+    "version": "0.4.0",
+    "member": "alloca.c",
+    "path": "crates/alloca-0.4.0/alloca.c.txt",
+    "sha256": "419a518443ce296c9087de5aae62637d82438dacdb2d46240184cb1fe2703f24"
+  },
+  {
+    "crate": "alloca",
+    "version": "0.4.0",
+    "member": "build.rs",
+    "path": "crates/alloca-0.4.0/build.rs.txt",
+    "sha256": "6a2de22ffae12c820353fe06fe02e7f8942aae9a53cd2356df0c2caabd63a7fd"
+  },
+  {
+    "crate": "crossbeam-deque",
+    "version": "0.8.7",
+    "member": "build.rs",
+    "path": "crates/crossbeam-deque-0.8.7/build.rs.txt",
+    "sha256": "e40cf96d7d7b1650f9f53a3f578633a178324dbea1d905b3f71a75b45d3982a1"
+  },
+  {
+    "crate": "crossbeam-epoch",
+    "version": "0.9.20",
+    "member": "build.rs",
+    "path": "crates/crossbeam-epoch-0.9.20/build.rs.txt",
+    "sha256": "e40cf96d7d7b1650f9f53a3f578633a178324dbea1d905b3f71a75b45d3982a1"
+  },
+  {
+    "crate": "crossbeam-utils",
+    "version": "0.8.22",
+    "member": "build-common.rs",
+    "path": "crates/crossbeam-utils-0.8.22/build-common.rs.txt",
+    "sha256": "502cb7494549bed6fa10ac7bea36e880eeb60290dc69b679ac5c92b376469562"
+  },
+  {
+    "crate": "crossbeam-utils",
+    "version": "0.8.22",
+    "member": "build.rs",
+    "path": "crates/crossbeam-utils-0.8.22/build.rs.txt",
+    "sha256": "7a7f9e56ea7fb4f78c4e532b84b9d27be719d600e85eaeb3a2f4b79a4f0b419c"
+  },
+  {
+    "crate": "crossbeam-utils",
+    "version": "0.8.22",
+    "member": "no_atomic.rs",
+    "path": "crates/crossbeam-utils-0.8.22/no_atomic.rs.txt",
+    "sha256": "56db0a11d33cdf136df6f3943ddb554c70aa236d0a5515dab7ffb91fac595ec3"
+  },
+  {
+    "crate": "crunchy",
+    "version": "0.2.4",
+    "member": "build.rs",
+    "path": "crates/crunchy-0.2.4/build.rs.txt",
+    "sha256": "08bfcfa380ded6870ed262baa4b6e87ec54482306aebffabefbd19c83ad4b6ba"
+  },
+  {
+    "crate": "pythonize",
+    "version": "0.29.0",
+    "member": "src/de.rs",
+    "path": "crates/pythonize-0.29.0/src/de.rs.txt",
+    "sha256": "24c905ed53e9f60ed83588d8c67275ad2fb5cdd40c374200d1cadff045ec6ddf"
+  },
+  {
+    "crate": "pythonize",
+    "version": "0.29.0",
+    "member": "src/error.rs",
+    "path": "crates/pythonize-0.29.0/src/error.rs.txt",
+    "sha256": "9d27b71ebd397c44c504dc71acddf92090205e3c7c809a69ec9b7751abab0c27"
+  },
+  {
+    "crate": "pythonize",
+    "version": "0.29.0",
+    "member": "src/lib.rs",
+    "path": "crates/pythonize-0.29.0/src/lib.rs.txt",
+    "sha256": "bf65bccfa983be5873430089df19287d2bcc679cead190f5545895ff210e5f22"
+  },
+  {
+    "crate": "pythonize",
+    "version": "0.29.0",
+    "member": "src/ser.rs",
+    "path": "crates/pythonize-0.29.0/src/ser.rs.txt",
+    "sha256": "40f0d55f5563967c57a7d67d6efca793f5102e3e063c2546ed1fe009fb09a660"
+  },
+  {
+    "crate": "rayon-core",
+    "version": "1.13.0",
+    "member": "build.rs",
+    "path": "crates/rayon-core-1.13.0/build.rs.txt",
+    "sha256": "fa31cb198b772600d100a7c403ddedccef637d2e6b2da431fa7f02ca41307fc6"
+  },
+  {
+    "crate": "winapi",
+    "version": "0.3.9",
+    "member": "build.rs",
+    "path": "crates/winapi-0.3.9/build.rs.txt",
+    "sha256": "fa1782968d33345772093666220c7841c2fb4f6dd32fa47951c68a3a400a1a98"
+  },
+  {
+    "crate": "winapi-i686-pc-windows-gnu",
+    "version": "0.4.0",
+    "member": "build.rs",
+    "path": "crates/winapi-i686-pc-windows-gnu-0.4.0/build.rs.txt",
+    "sha256": "4344ce95f51197e1377429cd9ef7a8e3f97d39546776705857991f2f9416f545"
+  },
+  {
+    "crate": "winapi-x86_64-pc-windows-gnu",
+    "version": "0.4.0",
+    "member": "build.rs",
+    "path": "crates/winapi-x86_64-pc-windows-gnu-0.4.0/build.rs.txt",
+    "sha256": "b4ab421e1dc98159dd4440813cdaf7d9ea98278324bc6118d0f7cf378933f371"
+  },
+  {
+    "crate": "pyo3",
+    "version": "0.29.0",
+    "member": "build.rs",
+    "path": "crates/pyo3-0.29.0/build.rs.txt",
+    "sha256": "6a7a6776a428a6f5bc3310d2a84415c6ac2cffe82c4a6ae8aba09f4feb2a6ec4"
+  },
+  {
+    "crate": "pyo3-ffi",
+    "version": "0.29.0",
+    "member": "build.rs",
+    "path": "crates/pyo3-ffi-0.29.0/build.rs.txt",
+    "sha256": "b5ab7cde4e1ac2b3180c775444fbf2d749dec5ab412ffe1be09207b4febd88e6"
+  }
+]

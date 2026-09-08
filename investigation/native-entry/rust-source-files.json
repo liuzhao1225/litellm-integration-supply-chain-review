@@ -1,0 +1,12 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/rust-lang/rust/88d9e12ae178fab0fb5cc050a94da85685d449ea/library/std/src/sys/thread/unix.rs",
+    "sha256": "6e10c6770d3f5e304da9a4fd86fb7a6ada3d6f1a727dafba94150d777db1a61e",
+    "path": "sources/rust-88d9e12ae178fab0fb5cc050a94da85685d449ea/thread-unix.rs"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/rust-lang/rust/48a229ceaefd4985c50990b14116b6d856af0985/library/std/src/sys/thread/unix.rs",
+    "sha256": "6e10c6770d3f5e304da9a4fd86fb7a6ada3d6f1a727dafba94150d777db1a61e",
+    "path": "sources/rust-48a229ceaefd4985c50990b14116b6d856af0985/thread-unix.rs"
+  }
+]

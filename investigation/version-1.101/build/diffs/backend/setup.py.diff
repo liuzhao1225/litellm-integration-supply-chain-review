@@ -1,0 +1,10 @@
+--- 1.9.4/setup.py
++++ 1.15.0/setup.py
+@@ -18,7 +18,6 @@
+ except ModuleNotFoundError:
+     import tomli as tomllib
+ from setuptools import setup
+-
+ from setuptools_rust import RustBin
+ 
+ # Force the wheel to be platform specific

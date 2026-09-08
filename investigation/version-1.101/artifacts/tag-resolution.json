@@ -1,0 +1,64 @@
+{
+  "checked_at_utc": "2026-09-08T21:41:00.120044+00:00",
+  "tag": "v1.101.0-rc.1",
+  "commit": "eeb7732fc11fd47762ca84cc3fb7cc74235d7097",
+  "tree": "502d9ab4cdfaade8c91f78ef81096724c6c68000",
+  "chain": [
+    {
+      "url": "https://api.github.com/repos/BerriAI/litellm/git/ref/tags/v1.101.0-rc.1",
+      "response": {
+        "ref": "refs/tags/v1.101.0-rc.1",
+        "node_id": "REF_kwDOKALCgbdyZWZzL3RhZ3MvdjEuMTAxLjAtcmMuMQ",
+        "url": "https://api.github.com/repos/BerriAI/litellm/git/refs/tags/v1.101.0-rc.1",
+        "object": {
+          "sha": "eeb7732fc11fd47762ca84cc3fb7cc74235d7097",
+          "type": "commit",
+          "url": "https://api.github.com/repos/BerriAI/litellm/git/commits/eeb7732fc11fd47762ca84cc3fb7cc74235d7097"
+        }
+      }
+    },
+    {
+      "url": "https://api.github.com/repos/BerriAI/litellm/git/commits/eeb7732fc11fd47762ca84cc3fb7cc74235d7097",
+      "response": {
+        "sha": "eeb7732fc11fd47762ca84cc3fb7cc74235d7097",
+        "node_id": "C_kwDOKALCgdoAKGVlYjc3MzJmYzExZmQ0Nzc2MmNhODRjYzNmYjdjYzc0MjM1ZDcwOTc",
+        "url": "https://api.github.com/repos/BerriAI/litellm/git/commits/eeb7732fc11fd47762ca84cc3fb7cc74235d7097",
+        "html_url": "https://github.com/BerriAI/litellm/commit/eeb7732fc11fd47762ca84cc3fb7cc74235d7097",
+        "author": {
+          "name": "ryan-crabbe-berri",
+          "email": "ryan@berri.ai",
+          "date": "2026-09-06T01:12:56Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2026-09-06T01:12:56Z"
+        },
+        "tree": {
+          "sha": "502d9ab4cdfaade8c91f78ef81096724c6c68000",
+          "url": "https://api.github.com/repos/BerriAI/litellm/git/trees/502d9ab4cdfaade8c91f78ef81096724c6c68000"
+        },
+        "message": "Merge pull request #39994 from BerriAI/litellm_hotfix_mongodb_extra_docker_images\n\nfix(docker): ship pymongo in the proxy images for the MongoDB vector store",
+        "parents": [
+          {
+            "sha": "e56b26c255c1c059b62107be784fbe3c827db2a0",
+            "url": "https://api.github.com/repos/BerriAI/litellm/git/commits/e56b26c255c1c059b62107be784fbe3c827db2a0",
+            "html_url": "https://github.com/BerriAI/litellm/commit/e56b26c255c1c059b62107be784fbe3c827db2a0"
+          },
+          {
+            "sha": "16fd14f53705dab68ee8c4b0fd2c9093c8e3cdac",
+            "url": "https://api.github.com/repos/BerriAI/litellm/git/commits/16fd14f53705dab68ee8c4b0fd2c9093c8e3cdac",
+            "html_url": "https://github.com/BerriAI/litellm/commit/16fd14f53705dab68ee8c4b0fd2c9093c8e3cdac"
+          }
+        ],
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqnL4YCRC1aQ7uu5UhlAAAeEEQAC7Wz6HqH3CMMFKXT/uW0apr\nCtIoX/PWJfYFg1k7FIXjSaMDE4E91slSX1UmMvYA7Y3p7HlMf7IM71x5/7jjUwJJ\nz1ZeC87Gw+iNpk2jUbM1JgQ0Y8ccRfUQbKckY/9nAGnsyC/mpJ/0GiHrr3bZoxqs\nCkmOffbQnI+MoYdrwXSolVNnuI5oa3zrEdRuJyPg4KtsihHwpUqLoCxSWGH/ezxi\nfvLcalDz5AcKU2PQLgVNkN28KLithfjZnMQq66dkL7jK94S0GaLKsG9j6dixbExq\nJKS8ErjUct/UUFvr9m4IZvOyOkbSKY2lRAhI5dMRnHkiyVT5OW0MCKJ9gpk8XyM2\nDEIQTofEoR1IUam0J+VZF/E8ktR07VhDAIC/j+L9hU1KPA2LO1bl/s3XPU7dW/Z6\n1QO0xmm9G1oMcyFXYE+d3Nsgg6aCztFEYIgQRC/5r9RaxD/j9uZIkLxicEJbTK1m\niDlt0PV5YWb4sp7v3+WhDDgvYQAgYJOjA7gWPfPROPBoP/a/ZnR9Pl8Wgfpk9WFI\noI8ZMVgjV5GDcXVsrPbZw44BbC4knNzfdwS2KpvJLDGjPSq+5v/dTNiggAW20QTH\nWhRBV/1zGskP81S4UMQxb8EhubrhssrdlA/nAz8V+pXdYLb/8QVt7B4ayNn7odch\nJc0iQbqC6GPo/r8cJJRQ\n=j6b4\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 502d9ab4cdfaade8c91f78ef81096724c6c68000\nparent e56b26c255c1c059b62107be784fbe3c827db2a0\nparent 16fd14f53705dab68ee8c4b0fd2c9093c8e3cdac\nauthor ryan-crabbe-berri <ryan@berri.ai> 1788657176 -0700\ncommitter GitHub <noreply@github.com> 1788657176 -0700\n\nMerge pull request #39994 from BerriAI/litellm_hotfix_mongodb_extra_docker_images\n\nfix(docker): ship pymongo in the proxy images for the MongoDB vector store",
+          "verified_at": "2026-09-06T01:12:56Z"
+        }
+      }
+    }
+  ]
+}

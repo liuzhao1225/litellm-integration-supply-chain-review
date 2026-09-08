@@ -1,0 +1,31 @@
+{
+  "created_at_utc": "2026-09-08T21:47:04.969761+00:00",
+  "scope": "Selected public metadata and verification code; full statements remain local.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 6,
+      "sha256": "76d85fdeebbafa100a6147afff7d0dfe6b0a5112ca5bb9c8aeaf65de311a9982"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3318,
+      "sha256": "f525c9bf1dfce140f9b6f5b1fb410c00a9aac27fc21157596bafac45891abccb"
+    },
+    {
+      "path": "collect.py",
+      "bytes": 7569,
+      "sha256": "fb20e8d90f9995a6bbd879247142b485fb6b03b1bc40761c47a2cf29e67a98b5"
+    },
+    {
+      "path": "index.json",
+      "bytes": 1609,
+      "sha256": "32c04b00bc1a720e6d5eeb56a7e72f4e1e7d1e538e779c59b990cbddfd5e27da"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 12188,
+      "sha256": "cd6300bd0901c1a2cc172e7f447a5e5e9c0ff8e0d281e2bd88423ebe1a68fe13"
+    }
+  ]
+}

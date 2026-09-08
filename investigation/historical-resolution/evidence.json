@@ -1,0 +1,136 @@
+{
+  "scope": "Only current index candidate availability for exact LiteLLM 1.82.7 and 1.82.8, official retrospective removal statement, and previously fixed PR metadata. No package download, execution, or resolver run.",
+  "observations": [
+    {
+      "source": "https://pypi.org/pypi/litellm/1.82.7/json",
+      "started_at": "2026-09-08T21:09:51.886437+00:00",
+      "method": "GET",
+      "request_headers": {
+        "User-Agent": "LiteLLM-static-supply-chain-review/1.0"
+      },
+      "package_files_downloaded": false,
+      "http_status": 404,
+      "final_url": "https://pypi.org/pypi/litellm/1.82.7/json",
+      "error": "HTTP Error 404: Not Found",
+      "body_sha256": "b82014934f66beeb9e05a37f65357c4b50db0349d25d68d818ed0319dd4feb40",
+      "body_bytes": 24,
+      "error_body": "{\"message\": \"Not Found\"}",
+      "finished_at": "2026-09-08T21:09:52.539786+00:00"
+    },
+    {
+      "source": "https://pypi.org/pypi/litellm/1.82.8/json",
+      "started_at": "2026-09-08T21:09:51.886369+00:00",
+      "method": "GET",
+      "request_headers": {
+        "User-Agent": "LiteLLM-static-supply-chain-review/1.0"
+      },
+      "package_files_downloaded": false,
+      "http_status": 404,
+      "final_url": "https://pypi.org/pypi/litellm/1.82.8/json",
+      "error": "HTTP Error 404: Not Found",
+      "body_sha256": "b82014934f66beeb9e05a37f65357c4b50db0349d25d68d818ed0319dd4feb40",
+      "body_bytes": 24,
+      "error_body": "{\"message\": \"Not Found\"}",
+      "finished_at": "2026-09-08T21:09:52.539661+00:00"
+    },
+    {
+      "source": "https://pypi.org/simple/litellm/",
+      "started_at": "2026-09-08T21:09:51.886422+00:00",
+      "method": "GET",
+      "request_headers": {
+        "User-Agent": "LiteLLM-static-supply-chain-review/1.0",
+        "Accept": "application/vnd.pypi.simple.v1+json"
+      },
+      "package_files_downloaded": false,
+      "http_status": 200,
+      "final_url": "https://pypi.org/simple/litellm/",
+      "content_type": "application/vnd.pypi.simple.v1+json",
+      "server_date": "Tue, 08 Sep 2026 21:09:52 GMT",
+      "body_sha256": "8dcd1554ecce92c16a4e7e8ae866dbdf7f7dc059e7ede96d032b0fa26aa11864",
+      "body_bytes": 1460183,
+      "finished_at": "2026-09-08T21:09:52.932168+00:00",
+      "index_meta": {
+        "_last-serial": 40778583,
+        "api-version": "1.4"
+      },
+      "index_name": "litellm",
+      "exact_version_candidates": {
+        "1.82.7": [],
+        "1.82.8": []
+      }
+    },
+    {
+      "source": "https://mirrors.aliyun.com/pypi/simple/litellm/",
+      "started_at": "2026-09-08T21:09:51.892015+00:00",
+      "method": "GET",
+      "request_headers": {
+        "User-Agent": "LiteLLM-static-supply-chain-review/1.0"
+      },
+      "package_files_downloaded": false,
+      "http_status": 200,
+      "final_url": "https://mirrors.aliyun.com/pypi/simple/litellm/",
+      "content_type": "text/html; charset=utf-8",
+      "server_date": "Tue, 08 Sep 2026 21:09:53 GMT",
+      "body_sha256": "6de9cf1121ca7440c198debaddcf9f923efdac609b8bf1a96c3a92b34faef45b",
+      "body_bytes": 765487,
+      "finished_at": "2026-09-08T21:09:53.534010+00:00",
+      "exact_version_candidates": {
+        "1.82.7": [],
+        "1.82.8": []
+      }
+    },
+    {
+      "source": "https://docs.litellm.ai/blog/security-update-march-2026",
+      "started_at": "2026-09-08T21:09:51.902282+00:00",
+      "method": "GET",
+      "request_headers": {
+        "User-Agent": "LiteLLM-static-supply-chain-review/1.0"
+      },
+      "package_files_downloaded": false,
+      "http_status": 200,
+      "final_url": "https://docs.litellm.ai/blog/security-update-march-2026",
+      "content_type": "text/html; charset=utf-8",
+      "server_date": "Tue, 08 Sep 2026 21:09:53 GMT",
+      "body_sha256": "2069debcf30ef45c257756c5cb100e7553648326dc994e7911bd2aaa8e9b7476",
+      "body_bytes": 325515,
+      "finished_at": "2026-09-08T21:09:53.649146+00:00",
+      "contains_removal_sentence": true,
+      "contains_quarantine_text": true,
+      "contains_incident_date": true,
+      "contains_march30_update": true
+    }
+  ],
+  "prs": [
+    {
+      "slug": "memoryos",
+      "url": "https://github.com/BAI-LAB/MemoryOS/pull/74",
+      "created_at": "2026-07-08T16:55:43Z",
+      "head": "aa78e1d7f5583bb57e9171f486bac9e995d0beed",
+      "constraint": ">=1.80.0",
+      "both_versions_satisfy_numeric_bounds": true,
+      "days_after_2026_03_24_calendar_date": 106,
+      "state": "open",
+      "merged_at": null,
+      "source": "https://api.github.com/repos/BAI-LAB/MemoryOS/pulls/74",
+      "original_observed_at": "2026-09-08T20:58:17.815Z",
+      "original_response_sha256": "1ca68e425f6e903e91ac71a0e15f94f210b9a5af725ee6f4c59458c6095938e3",
+      "evidence_reused": true
+    },
+    {
+      "slug": "ha-llmvision",
+      "url": "https://github.com/valentinfrlch/ha-llmvision/pull/685",
+      "created_at": "2026-06-30T20:38:52Z",
+      "head": "9aeaeb78816aad92b1af7df174f97c23eadd7cfa",
+      "constraint": ">=1.80,<1.88",
+      "both_versions_satisfy_numeric_bounds": true,
+      "days_after_2026_03_24_calendar_date": 98,
+      "state": "open",
+      "merged_at": null,
+      "source": "https://api.github.com/repos/valentinfrlch/ha-llmvision/pulls/685",
+      "original_observed_at": "2026-09-08T20:58:17.046Z",
+      "original_response_sha256": "6a07ba6546b0fb6f1302ee2290589dfe07cfc688d06fa61cadc000d57b6ea601",
+      "evidence_reused": true
+    }
+  ],
+  "conclusion": "Both versions satisfy both fixed constraints, but neither version is listed in the two currently fetched indexes. Release metadata endpoints return 404. Current observations cannot reconstruct historical resolver candidates, mirror state, cache, private indexes, installed environments, or artifact direct-URL availability. No evidence here establishes that either PR installed a malicious version."
+}

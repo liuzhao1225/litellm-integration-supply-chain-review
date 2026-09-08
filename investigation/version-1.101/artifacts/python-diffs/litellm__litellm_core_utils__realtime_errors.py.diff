@@ -1,0 +1,14 @@
+--- 1.100.0/litellm/litellm_core_utils/realtime_errors.py
++++ 1.101.0rc1/litellm/litellm_core_utils/realtime_errors.py
+@@ -29,3 +29,11 @@
+     if len(encoded) <= WEBSOCKET_CLOSE_REASON_MAX_BYTES:
+         return message
+     return encoded[:WEBSOCKET_CLOSE_REASON_MAX_BYTES].decode("utf-8", errors="ignore")
++
++
++def client_close_code(upstream_code: int) -> int:
++    from websockets.frames import EXTERNAL_CLOSE_CODES, CloseCode
++
++    if upstream_code in EXTERNAL_CLOSE_CODES or 3000 <= upstream_code < 5000:
++        return upstream_code
++    return int(CloseCode.INTERNAL_ERROR)

@@ -1,0 +1,6 @@
+--- 1.100.0/litellm/llms/cohere/ocr/__init__.py
++++ 1.101.0rc1/litellm/llms/cohere/ocr/__init__.py
+@@ -0,0 +1,3 @@
++from litellm.llms.cohere.ocr.transformation import CohereParseConfig
++
++__all__ = ("CohereParseConfig",)

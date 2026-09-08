@@ -1,0 +1,154 @@
+[
+  {
+    "file": "module-exec.asm",
+    "instructions_equal_ignoring_pc_relative_addresses": true,
+    "sha256_a": "c2894181f230aaeae2f6252eebfee7e18544a2888e544243342b34ef48175fc3",
+    "sha256_b": "c2894181f230aaeae2f6252eebfee7e18544a2888e544243342b34ef48175fc3",
+    "lines_a": 303,
+    "lines_b": 303
+  },
+  {
+    "file": "crypto-constructor.asm",
+    "instructions_equal_ignoring_pc_relative_addresses": true,
+    "sha256_a": "be6ee5c766b2b237c1a03ec144f594a75f0c78ace3ce6d816ad3fe30ed596286",
+    "sha256_b": "be6ee5c766b2b237c1a03ec144f594a75f0c78ace3ce6d816ad3fe30ed596286",
+    "lines_a": 180,
+    "lines_b": 180
+  },
+  {
+    "file": "module-callee-01.asm",
+    "instructions_equal_ignoring_pc_relative_addresses": true,
+    "sha256_a": "df7e758aed850786aa2a7f84a7b02e120bd8567fa5b1c212ab5957b2b9cbbcf2",
+    "sha256_b": "df7e758aed850786aa2a7f84a7b02e120bd8567fa5b1c212ab5957b2b9cbbcf2",
+    "lines_a": 126,
+    "lines_b": 126
+  },
+  {
+    "file": "module-callee-02.asm",
+    "instructions_equal_ignoring_pc_relative_addresses": true,
+    "sha256_a": "d110d7bd0854dc651d5b2ecb168968317e91e001d9f31b6a0d242ef72d5dc8d9",
+    "sha256_b": "d110d7bd0854dc651d5b2ecb168968317e91e001d9f31b6a0d242ef72d5dc8d9",
+    "lines_a": 95,
+    "lines_b": 95
+  },
+  {
+    "file": "module-callee-03.asm",
+    "instructions_equal_ignoring_pc_relative_addresses": true,
+    "sha256_a": "8bff6c3b274c5b4075bc269d1fe4959e37c5235afeb1ab45bb75ee368d12ba27",
+    "sha256_b": "8bff6c3b274c5b4075bc269d1fe4959e37c5235afeb1ab45bb75ee368d12ba27",
+    "lines_a": 126,
+    "lines_b": 126
+  },
+  {
+    "file": "module-callee-04.asm",
+    "instructions_equal_ignoring_pc_relative_addresses": true,
+    "sha256_a": "00af3649b2c6694bca3c8a945aa9b41d07524b89907437ddaa2bb96a5ab74977",
+    "sha256_b": "00af3649b2c6694bca3c8a945aa9b41d07524b89907437ddaa2bb96a5ab74977",
+    "lines_a": 103,
+    "lines_b": 103
+  },
+  {
+    "file": "module-callee-05.asm",
+    "instructions_equal_ignoring_pc_relative_addresses": true,
+    "sha256_a": "780e5872849a7b330aaf76f68f3689f75a3d7a63b7720a5d4187e08169466745",
+    "sha256_b": "780e5872849a7b330aaf76f68f3689f75a3d7a63b7720a5d4187e08169466745",
+    "lines_a": 44,
+    "lines_b": 44
+  },
+  {
+    "file": "module-callee-06.asm",
+    "instructions_equal_ignoring_pc_relative_addresses": true,
+    "sha256_a": "c1addbe7056d0767626c2ad70babfc1267a61082b8736604ac19b4e9f7e1414f",
+    "sha256_b": "c1addbe7056d0767626c2ad70babfc1267a61082b8736604ac19b4e9f7e1414f",
+    "lines_a": 46,
+    "lines_b": 46
+  },
+  {
+    "file": "module-callee-07.asm",
+    "instructions_equal_ignoring_pc_relative_addresses": true,
+    "sha256_a": "51cb0720f1aa38ddba012fd79c98fa77d521b8f5e4f39baaeaf98dc5db117572",
+    "sha256_b": "51cb0720f1aa38ddba012fd79c98fa77d521b8f5e4f39baaeaf98dc5db117572",
+    "lines_a": 15,
+    "lines_b": 15
+  },
+  {
+    "file": "module-callee-08.asm",
+    "instructions_equal_ignoring_pc_relative_addresses": true,
+    "sha256_a": "8023cd05b2a0b2f29b3e5b18cb403b9bc49216e7d972237f76e2762449e10ab0",
+    "sha256_b": "8023cd05b2a0b2f29b3e5b18cb403b9bc49216e7d972237f76e2762449e10ab0",
+    "lines_a": 22,
+    "lines_b": 22
+  },
+  {
+    "file": "module-callee-09.asm",
+    "instructions_equal_ignoring_pc_relative_addresses": true,
+    "sha256_a": "fd9f436005b55208e618de18806cd5620d97ce1253d136094ef54747dfa4c89f",
+    "sha256_b": "fd9f436005b55208e618de18806cd5620d97ce1253d136094ef54747dfa4c89f",
+    "lines_a": 6,
+    "lines_b": 6
+  },
+  {
+    "file": "module-callee-10.asm",
+    "instructions_equal_ignoring_pc_relative_addresses": true,
+    "sha256_a": "2b74644fa9e28a5063f0aeea4cfe32c6afe62c8965627a2814f14841ea58e8c6",
+    "sha256_b": "2b74644fa9e28a5063f0aeea4cfe32c6afe62c8965627a2814f14841ea58e8c6",
+    "lines_a": 58,
+    "lines_b": 58
+  },
+  {
+    "file": "module-callee-11.asm",
+    "instructions_equal_ignoring_pc_relative_addresses": true,
+    "sha256_a": "198e50b7d7dfcc158152416dbc6ef9c484bd1a409f04d08bf3fe9f1763bd7f99",
+    "sha256_b": "198e50b7d7dfcc158152416dbc6ef9c484bd1a409f04d08bf3fe9f1763bd7f99",
+    "lines_a": 40,
+    "lines_b": 40
+  },
+  {
+    "file": "module-callee-12.asm",
+    "instructions_equal_ignoring_pc_relative_addresses": true,
+    "sha256_a": "198e50b7d7dfcc158152416dbc6ef9c484bd1a409f04d08bf3fe9f1763bd7f99",
+    "sha256_b": "198e50b7d7dfcc158152416dbc6ef9c484bd1a409f04d08bf3fe9f1763bd7f99",
+    "lines_a": 40,
+    "lines_b": 40
+  },
+  {
+    "file": "module-callee-13.asm",
+    "instructions_equal_ignoring_pc_relative_addresses": true,
+    "sha256_a": "e7529e57cb182675603937ab89ee7d3e7fc9cbb85ce5397d7c57bb16d17ab767",
+    "sha256_b": "e7529e57cb182675603937ab89ee7d3e7fc9cbb85ce5397d7c57bb16d17ab767",
+    "lines_a": 34,
+    "lines_b": 34
+  },
+  {
+    "file": "module-callee-14.asm",
+    "instructions_equal_ignoring_pc_relative_addresses": true,
+    "sha256_a": "c2cbedfef23ce1551bd649ef068daccb70e03369cc40326ec1706407729bac72",
+    "sha256_b": "c2cbedfef23ce1551bd649ef068daccb70e03369cc40326ec1706407729bac72",
+    "lines_a": 26,
+    "lines_b": 26
+  },
+  {
+    "file": "module-callee-15.asm",
+    "instructions_equal_ignoring_pc_relative_addresses": true,
+    "sha256_a": "7e9819961ae9605950d3a52fe1333f835e3f15f7fec95bb632fa8f36392bbfef",
+    "sha256_b": "7e9819961ae9605950d3a52fe1333f835e3f15f7fec95bb632fa8f36392bbfef",
+    "lines_a": 153,
+    "lines_b": 153
+  },
+  {
+    "file": "module-callee-16.asm",
+    "instructions_equal_ignoring_pc_relative_addresses": true,
+    "sha256_a": "b0cb24d3534141dcf6ecf29c81790962ad27b6e11e8a905839dee46eb271c382",
+    "sha256_b": "b0cb24d3534141dcf6ecf29c81790962ad27b6e11e8a905839dee46eb271c382",
+    "lines_a": 3,
+    "lines_b": 3
+  },
+  {
+    "file": "module-callee-17.asm",
+    "instructions_equal_ignoring_pc_relative_addresses": true,
+    "sha256_a": "011d655746ada6059d24cbe928c3c2a6e181ee14ab7bed8f36dc9a9e60eb49cb",
+    "sha256_b": "011d655746ada6059d24cbe928c3c2a6e181ee14ab7bed8f36dc9a9e60eb49cb",
+    "lines_a": 8,
+    "lines_b": 8
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "pr": "https://github.com/microsoft/PyRIT/pull/2154",
+  "head": "245f74c12a6a776a4acf024de909b6ecf7137f14",
+  "path": "uv.lock",
+  "package": "litellm",
+  "version": "1.91.3",
+  "registry": "https://pypi.org/simple",
+  "artifacts": [
+    {
+      "url": "https://files.pythonhosted.org/packages/36/33/879369fe202498a307e1130bae1f59c5f226362afc07829ba5a0279a563d/litellm-1.91.3.tar.gz",
+      "sha256": "096cee401dfd353f050422adc6ed9b25da0fc5e110fc923ce3f0ffa5bc5c2957"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/d6/3c/157c54c924f9e6025797545a0cd915a98e98ad8d3f9011502a575781d4b5/litellm-1.91.3-py3-none-any.whl",
+      "sha256": "5be4df2bdf5459f46a6224a75046f365dc979995a37a81f5aa3ce29f92f534cf"
+    }
+  ],
+  "index_correspondence": {
+    "source": "https://pypi.org/pypi/litellm/1.91.3/json",
+    "checked_on": "2026-09-09 Asia/Shanghai",
+    "method": "Web tool read/find of both exact artifact SHA-256 values and URLs",
+    "both_url_and_hash_match": true,
+    "artifact_download_or_execution": false
+  },
+  "scope": "Confirms current index correspondence only; no publisher attribution or full artifact safety review."
+}

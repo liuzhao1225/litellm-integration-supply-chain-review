@@ -1,0 +1,178 @@
+--- 1.100.0/litellm/vector_store_files/main.py
++++ 1.101.0rc1/litellm/vector_store_files/main.py
+@@ -2,7 +2,7 @@
+ 
+ import asyncio
+ import contextvars
+-from collections.abc import Coroutine
++from collections.abc import Coroutine, Mapping
+ from functools import partial
+ from typing import Any, Final
+ 
+@@ -39,7 +39,7 @@
+ def _prepare_registry_credentials(
+     *,
+     vector_store_id: str,
+-    kwargs: dict[str, Any],
++    kwargs: dict[str, object],
+ ) -> None:
+     if litellm.vector_store_registry is None:
+         return
+@@ -57,9 +57,9 @@
+     vector_store_id: str,
+     file_id: str,
+     attributes: VectorStoreFileAttributes | None = None,
+-    chunking_strategy: dict[str, Any] | None = None,
+-    extra_headers: dict[str, Any] | None = None,
+-    extra_query: dict[str, Any] | None = None,
++    chunking_strategy: Mapping[str, object] | None = None,
++    extra_headers: dict[str, str] | None = None,
++    extra_query: Mapping[str, object] | None = None,
+     extra_body: dict[str, Any] | None = None,
+     timeout: float | httpx.Timeout | None = None,
+     custom_llm_provider: str | None = None,
+@@ -109,14 +109,14 @@
+     vector_store_id: str,
+     file_id: str,
+     attributes: VectorStoreFileAttributes | None = None,
+-    chunking_strategy: dict[str, Any] | None = None,
+-    extra_headers: dict[str, Any] | None = None,
+-    extra_query: dict[str, Any] | None = None,
++    chunking_strategy: Mapping[str, object] | None = None,
++    extra_headers: dict[str, str] | None = None,
++    extra_query: Mapping[str, object] | None = None,
+     extra_body: dict[str, Any] | None = None,
+     timeout: float | httpx.Timeout | None = None,
+     custom_llm_provider: str | None = None,
+     **kwargs,
+-) -> VectorStoreFileObject | Coroutine[Any, Any, VectorStoreFileObject]:
++) -> VectorStoreFileObject | Coroutine[object, object, VectorStoreFileObject]:
+     local_vars: Final = locals()
+     try:
+         litellm_logging_obj: Final[LiteLLMLoggingObj] = kwargs.get("litellm_logging_obj")
+@@ -187,7 +187,7 @@
+     filter: str | None = None,
+     limit: int | None = None,
+     order: str | None = None,
+-    extra_headers: dict[str, Any] | None = None,
++    extra_headers: dict[str, str] | None = None,
+     extra_query: dict[str, Any] | None = None,
+     timeout: float | httpx.Timeout | None = None,
+     custom_llm_provider: str | None = None,
+@@ -240,12 +240,12 @@
+     filter: str | None = None,
+     limit: int | None = None,
+     order: str | None = None,
+-    extra_headers: dict[str, Any] | None = None,
++    extra_headers: dict[str, str] | None = None,
+     extra_query: dict[str, Any] | None = None,
+     timeout: float | httpx.Timeout | None = None,
+     custom_llm_provider: str | None = None,
+     **kwargs,
+-) -> VectorStoreFileListResponse | Coroutine[Any, Any, VectorStoreFileListResponse]:
++) -> VectorStoreFileListResponse | Coroutine[object, object, VectorStoreFileListResponse]:
+     local_vars: Final = locals()
+     try:
+         litellm_logging_obj: Final[LiteLLMLoggingObj] = kwargs.get("litellm_logging_obj")
+@@ -308,7 +308,7 @@
+     *,
+     vector_store_id: str,
+     file_id: str,
+-    extra_headers: dict[str, Any] | None = None,
++    extra_headers: dict[str, str] | None = None,
+     timeout: float | httpx.Timeout | None = None,
+     custom_llm_provider: str | None = None,
+     **kwargs,
+@@ -351,11 +351,11 @@
+     *,
+     vector_store_id: str,
+     file_id: str,
+-    extra_headers: dict[str, Any] | None = None,
+-    timeout: float | httpx.Timeout | None = None,
+-    custom_llm_provider: str | None = None,
+-    **kwargs,
+-) -> VectorStoreFileObject | Coroutine[Any, Any, VectorStoreFileObject]:
++    extra_headers: dict[str, str] | None = None,
++    timeout: float | httpx.Timeout | None = None,
++    custom_llm_provider: str | None = None,
++    **kwargs,
++) -> VectorStoreFileObject | Coroutine[object, object, VectorStoreFileObject]:
+     local_vars: Final = locals()
+     try:
+         litellm_logging_obj: Final[LiteLLMLoggingObj] = kwargs.get("litellm_logging_obj")
+@@ -417,7 +417,7 @@
+     *,
+     vector_store_id: str,
+     file_id: str,
+-    extra_headers: dict[str, Any] | None = None,
++    extra_headers: dict[str, str] | None = None,
+     timeout: float | httpx.Timeout | None = None,
+     custom_llm_provider: str | None = None,
+     **kwargs,
+@@ -459,11 +459,11 @@
+     *,
+     vector_store_id: str,
+     file_id: str,
+-    extra_headers: dict[str, Any] | None = None,
+-    timeout: float | httpx.Timeout | None = None,
+-    custom_llm_provider: str | None = None,
+-    **kwargs,
+-) -> VectorStoreFileContentResponse | Coroutine[Any, Any, VectorStoreFileContentResponse]:
++    extra_headers: dict[str, str] | None = None,
++    timeout: float | httpx.Timeout | None = None,
++    custom_llm_provider: str | None = None,
++    **kwargs,
++) -> VectorStoreFileContentResponse | Coroutine[object, object, VectorStoreFileContentResponse]:
+     local_vars: Final = locals()
+     try:
+         litellm_logging_obj: Final[LiteLLMLoggingObj] = kwargs.get("litellm_logging_obj")
+@@ -526,7 +526,7 @@
+     vector_store_id: str,
+     file_id: str,
+     attributes: VectorStoreFileAttributes,
+-    extra_headers: dict[str, Any] | None = None,
++    extra_headers: dict[str, str] | None = None,
+     extra_body: dict[str, Any] | None = None,
+     timeout: float | httpx.Timeout | None = None,
+     custom_llm_provider: str | None = None,
+@@ -572,12 +572,12 @@
+     vector_store_id: str,
+     file_id: str,
+     attributes: VectorStoreFileAttributes,
+-    extra_headers: dict[str, Any] | None = None,
++    extra_headers: dict[str, str] | None = None,
+     extra_body: dict[str, Any] | None = None,
+     timeout: float | httpx.Timeout | None = None,
+     custom_llm_provider: str | None = None,
+     **kwargs,
+-) -> VectorStoreFileObject | Coroutine[Any, Any, VectorStoreFileObject]:
++) -> VectorStoreFileObject | Coroutine[object, object, VectorStoreFileObject]:
+     local_vars: Final = locals()
+     try:
+         litellm_logging_obj: Final[LiteLLMLoggingObj] = kwargs.get("litellm_logging_obj")
+@@ -646,7 +646,7 @@
+     *,
+     vector_store_id: str,
+     file_id: str,
+-    extra_headers: dict[str, Any] | None = None,
++    extra_headers: dict[str, str] | None = None,
+     timeout: float | httpx.Timeout | None = None,
+     custom_llm_provider: str | None = None,
+     **kwargs,
+@@ -688,11 +688,11 @@
+     *,
+     vector_store_id: str,
+     file_id: str,
+-    extra_headers: dict[str, Any] | None = None,
+-    timeout: float | httpx.Timeout | None = None,
+-    custom_llm_provider: str | None = None,
+-    **kwargs,
+-) -> VectorStoreFileDeleteResponse | Coroutine[Any, Any, VectorStoreFileDeleteResponse]:
++    extra_headers: dict[str, str] | None = None,
++    timeout: float | httpx.Timeout | None = None,
++    custom_llm_provider: str | None = None,
++    **kwargs,
++) -> VectorStoreFileDeleteResponse | Coroutine[object, object, VectorStoreFileDeleteResponse]:
+     local_vars: Final = locals()
+     try:
+         litellm_logging_obj: Final[LiteLLMLoggingObj] = kwargs.get("litellm_logging_obj")

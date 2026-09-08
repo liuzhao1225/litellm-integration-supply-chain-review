@@ -1,0 +1,22 @@
+--- 1.100.0/litellm/repositories/table_repositories.py
++++ 1.101.0rc1/litellm/repositories/table_repositories.py
+@@ -21,7 +21,7 @@
+ 
+     table_name: str
+ 
+-    def __init__(self, prisma_client: Any):
++    def __init__(self, prisma_client: object):
+         self._prisma_client = prisma_client
+ 
+     @property
+@@ -176,6 +176,10 @@
+     table_name = "litellm_policyattachmenttable"
+ 
+ 
++class TeamRepository(PrismaTableRepository["prisma_models.LiteLLM_TeamTable"]):
++    table_name = "litellm_teamtable"
++
++
+ class DeletedTeamRepository(PrismaTableRepository["prisma_models.LiteLLM_DeletedTeamTable"]):
+     table_name = "litellm_deletedteamtable"
+ 

@@ -1,0 +1,118 @@
+[
+  {
+    "version": "1.99.0",
+    "checked_at_utc": "2026-09-08T21:01:46.034906+00:00",
+    "wheel_sha256": "1c45097e426fed2ae7fbd38b5404c3addeb203d0e1148c0a59848aabd5fe83c6",
+    "native_sha256": "2345a380bce52f040ff2ea0a7b1988e8f682a40e63bcb3b8ac822c53149e09a6",
+    "arrays": {
+      ".fini_array": [
+        {
+          "slot": "0xaeed08",
+          "target": "0x27aab0",
+          "file_offset": "0x279ab0"
+        },
+        {
+          "slot": "0xaeed10",
+          "target": "0x8c5490",
+          "file_offset": "0x8c4490"
+        },
+        {
+          "slot": "0xaeed18",
+          "target": "0x8c8c90",
+          "file_offset": "0x8c7c90"
+        }
+      ],
+      ".init_array": [
+        {
+          "slot": "0xaeed20",
+          "target": "0x829400",
+          "file_offset": "0x828400"
+        },
+        {
+          "slot": "0xaeed28",
+          "target": "0x27aaf0",
+          "file_offset": "0x279af0"
+        },
+        {
+          "slot": "0xaeed30",
+          "target": "0x879d40",
+          "file_offset": "0x878d40"
+        }
+      ]
+    },
+    "pyinit": [
+      {
+        "name": "PyInit__native",
+        "info": 18,
+        "section": 15,
+        "value": 2599680,
+        "size": 13
+      },
+      {
+        "name": "PyInit_pyo3_async_runtimes",
+        "info": 18,
+        "section": 15,
+        "value": 6919776,
+        "size": 13
+      }
+    ]
+  },
+  {
+    "version": "1.100.0",
+    "checked_at_utc": "2026-09-08T21:01:46.286874+00:00",
+    "wheel_sha256": "8224c8eed9cab3319a88e6665d1275ad8faf21d353b1b22223a6d6115a302ea2",
+    "native_sha256": "c6992e805578007dc61f872127fb164490751adc6556c6b37e58f550a0f23951",
+    "arrays": {
+      ".fini_array": [
+        {
+          "slot": "0xaf7628",
+          "target": "0x27c6b0",
+          "file_offset": "0x27b6b0"
+        },
+        {
+          "slot": "0xaf7630",
+          "target": "0x8cdbd0",
+          "file_offset": "0x8ccbd0"
+        },
+        {
+          "slot": "0xaf7638",
+          "target": "0x8d13d0",
+          "file_offset": "0x8d03d0"
+        }
+      ],
+      ".init_array": [
+        {
+          "slot": "0xaf7640",
+          "target": "0x8317b0",
+          "file_offset": "0x8307b0"
+        },
+        {
+          "slot": "0xaf7648",
+          "target": "0x27c6f0",
+          "file_offset": "0x27b6f0"
+        },
+        {
+          "slot": "0xaf7650",
+          "target": "0x882480",
+          "file_offset": "0x881480"
+        }
+      ]
+    },
+    "pyinit": [
+      {
+        "name": "PyInit__native",
+        "info": 18,
+        "section": 15,
+        "value": 2606848,
+        "size": 13
+      },
+      {
+        "name": "PyInit_pyo3_async_runtimes",
+        "info": 18,
+        "section": 15,
+        "value": 6944912,
+        "size": 13
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+--- 1.100.0/litellm/llms/openai/vector_stores/transformation.py
++++ 1.101.0rc1/litellm/llms/openai/vector_stores/transformation.py
+@@ -98,7 +98,7 @@
+         api_base: str,
+         litellm_logging_obj: LiteLLMLoggingObj,
+         litellm_params: dict,
+-        extra_body: dict[str, Any] | None = None,
++        extra_body: dict[str, object] | None = None,
+     ) -> tuple[str, dict]:
+         encoded_vector_store_id: Final = encode_url_path_segment(vector_store_id, field_name="vector_store_id")
+         url: Final = f"{api_base}/{encoded_vector_store_id}/search"

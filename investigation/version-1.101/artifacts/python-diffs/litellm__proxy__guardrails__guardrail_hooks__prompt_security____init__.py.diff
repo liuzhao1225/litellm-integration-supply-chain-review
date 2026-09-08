@@ -1,0 +1,10 @@
+--- 1.100.0/litellm/proxy/guardrails/guardrail_hooks/prompt_security/__init__.py
++++ 1.101.0rc1/litellm/proxy/guardrails/guardrail_hooks/prompt_security/__init__.py
+@@ -20,6 +20,7 @@
+         guardrail_name=guardrail.get("guardrail_name", ""),
+         event_hook=litellm_params.mode,
+         default_on=litellm_params.default_on,
++        file_sanitization_fail_open=getattr(litellm_params, "file_sanitization_fail_open", None),
+     )
+     litellm.logging_callback_manager.add_litellm_callback(_prompt_security_callback)
+ 

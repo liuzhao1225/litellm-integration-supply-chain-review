@@ -1,0 +1,17 @@
+[
+  {
+    "instruction": "828f9d:      \tcallq\t*0x2c6abd(%rip)         # 0xaefa60",
+    "import_symbol": "getenv",
+    "function_va": "0x828f60"
+  },
+  {
+    "instruction": "835d47:      \tcallq\t*0x2b9dd3(%rip)         # 0xaefb20",
+    "import_symbol": "dlsym",
+    "function_va": "0x835030"
+  },
+  {
+    "instruction": "ab57a0:      \tjmpq\t*0x3a5f2(%rip)          # 0xaefd98",
+    "import_symbol": "getenv",
+    "function_va": null
+  }
+]

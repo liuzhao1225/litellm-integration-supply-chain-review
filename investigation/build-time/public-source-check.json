@@ -1,0 +1,25 @@
+{
+  "maturin_commit": "52dc989a9b3f86ce040be9c9037ca34038367559",
+  "sdists": [
+    {
+      "api_url": "https://pypi.org/pypi/litellm/1.99.0/json",
+      "response_sha256": "ecd5055bc8c27214a5bfce29ff7c048320639e897eea6c6a5be14b4726ddbddf",
+      "checked_at_utc": "2026-09-08T21:14:18.480319+00:00",
+      "filename": "litellm-1.99.0.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/6c/1a/76b5f28ba9e07fa0cb807bbdefdf318c554f60623bff699e7b601d0d7b3a/litellm-1.99.0.tar.gz",
+      "sha256": "594bf4b6ff6b79c6aa3c3b78c0e939d4afd12687e076ba3fb608d38a5aa7f9c6",
+      "upload_time_iso_8601": "2026-09-01T00:43:07.434969Z",
+      "size": 16786386
+    },
+    {
+      "api_url": "https://pypi.org/pypi/litellm/1.100.0/json",
+      "response_sha256": "467583e4454d3c7cde89649295bdf5729bb1f885315cda39693ce22d1fe6b225",
+      "checked_at_utc": "2026-09-08T21:14:19.061932+00:00",
+      "filename": "litellm-1.100.0.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/03/ce/1e1ce2558f65244057c0c40c60ade4dfa3767da3522bf1dd8679507ad7ba/litellm-1.100.0.tar.gz",
+      "sha256": "ece94e817a453a5b3a9517c03547c428d501cea719edb728c1b260e53f78ea35",
+      "upload_time_iso_8601": "2026-09-06T00:22:46.023754Z",
+      "size": 17287857
+    }
+  ]
+}

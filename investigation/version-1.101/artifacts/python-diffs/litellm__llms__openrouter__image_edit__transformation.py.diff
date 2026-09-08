@@ -1,0 +1,20 @@
+--- 1.100.0/litellm/llms/openrouter/image_edit/transformation.py
++++ 1.101.0rc1/litellm/llms/openrouter/image_edit/transformation.py
+@@ -152,7 +152,7 @@
+         litellm_params: GenericLiteLLMParams,
+         headers: dict,
+     ) -> tuple[dict, RequestFiles]:
+-        content_parts: Final[list[dict[str, Any]]] = []
++        content_parts: Final[list[dict[str, object]]] = []
+ 
+         # Add source image(s) as base64 data URLs
+         if image is not None:
+@@ -174,7 +174,7 @@
+         if prompt:
+             content_parts.append({"type": "text", "text": prompt})
+ 
+-        request_body: Final[dict[str, Any]] = {
++        request_body: Final[dict[str, object]] = {
+             "model": model,
+             "messages": [
+                 {

@@ -1,0 +1,99 @@
+--- 1.100.0/litellm/llms/gigachat/file_handler.py
++++ 1.101.0rc1/litellm/llms/gigachat/file_handler.py
+@@ -9,6 +9,7 @@
+ import hashlib
+ import re
+ import uuid
++from collections.abc import Mapping
+ from typing import Final
+ 
+ from litellm._logging import verbose_logger
+@@ -16,12 +17,10 @@
+     _get_httpx_client,
+     get_async_httpx_client,
+ )
++from litellm.llms.gigachat.utils import get_api_base
+ from litellm.types.utils import LlmProviders
+ 
+ from .authenticator import get_access_token, get_access_token_async
+-
+-# GigaChat API endpoint
+-GIGACHAT_BASE_URL: Final = "https://gigachat.devices.sberbank.ru/api/v1"
+ 
+ # Simple in-memory cache for file IDs
+ _file_cache: Final[dict[str, str]] = {}
+@@ -49,6 +48,14 @@
+     ext: Final = content_type.split("/")[-1].split(";")[0] or "jpg"
+ 
+     return content_bytes, content_type, ext
++
++
++def _content_type_or_default(headers: Mapping[str, str]) -> str:
++    """Return the response's ``content-type`` header, falling back to ``image/jpeg`` when absent."""
++    try:
++        return headers["content-type"]
++    except KeyError:
++        return "image/jpeg"
+ 
+ 
+ def _download_image_sync(url: str) -> tuple[bytes, str, str]:
+@@ -57,7 +64,7 @@
+     response: Final = client.get(url)
+     response.raise_for_status()
+ 
+-    content_type: Final = response.headers.get("content-type", "image/jpeg")
++    content_type: Final = _content_type_or_default(response.headers)
+     ext: Final = content_type.split("/")[-1].split(";")[0] or "jpg"
+ 
+     return response.content, content_type, ext
+@@ -72,7 +79,7 @@
+     response: Final = await client.get(url)
+     response.raise_for_status()
+ 
+-    content_type: Final = response.headers.get("content-type", "image/jpeg")
++    content_type: Final = _content_type_or_default(response.headers)
+     ext: Final = content_type.split("/")[-1].split(";")[0] or "jpg"
+ 
+     return response.content, content_type, ext
+@@ -82,6 +89,7 @@
+     image_url: str,
+     credentials: str | None = None,
+     api_base: str | None = None,
++    litellm_params: Mapping[str, object] | None = None,
+ ) -> str | None:
+     """
+     Upload file to GigaChat and return file_id (sync).
+@@ -114,10 +122,10 @@
+         filename: Final = f"{uuid.uuid4()}.{ext}"
+ 
+         # Get access token
+-        access_token: Final = get_access_token(credentials)
++        access_token: Final = get_access_token(credentials=credentials, litellm_params=litellm_params)
+ 
+         # Upload to GigaChat
+-        base_url: Final = api_base or GIGACHAT_BASE_URL
++        base_url: Final = get_api_base(api_base)
+         upload_url: Final = f"{base_url}/files"
+ 
+         client: Final = _get_httpx_client(params={"ssl_verify": False})
+@@ -147,6 +155,7 @@
+     image_url: str,
+     credentials: str | None = None,
+     api_base: str | None = None,
++    litellm_params: Mapping[str, object] | None = None,
+ ) -> str | None:
+     """
+     Upload file to GigaChat and return file_id (async).
+@@ -179,10 +188,10 @@
+         filename: Final = f"{uuid.uuid4()}.{ext}"
+ 
+         # Get access token
+-        access_token: Final = await get_access_token_async(credentials)
++        access_token: Final = await get_access_token_async(credentials=credentials, litellm_params=litellm_params)
+ 
+         # Upload to GigaChat
+-        base_url: Final = api_base or GIGACHAT_BASE_URL
++        base_url: Final = get_api_base(api_base)
+         upload_url: Final = f"{base_url}/files"
+ 
+         client: Final = get_async_httpx_client(

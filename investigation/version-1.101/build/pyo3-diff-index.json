@@ -1,0 +1,327 @@
+[
+  {
+    "crate": "pyo3",
+    "path": "Cargo.toml",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3",
+    "path": "Cargo.toml.orig",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3",
+    "path": "src/conversions/std/osstr.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3",
+    "path": "src/conversions/time.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3",
+    "path": "src/exceptions.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3",
+    "path": "src/ffi_ptr_ext.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3",
+    "path": "src/impl_/introspection.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3",
+    "path": "src/impl_/pyclass.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3",
+    "path": "src/impl_/pyclass/lazy_type_object.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3",
+    "path": "src/impl_/pyclass/probes.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3",
+    "path": "src/impl_/pymethods.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3",
+    "path": "src/impl_/pymodule.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3",
+    "path": "src/impl_/trampoline.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3",
+    "path": "src/internal/macros.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3",
+    "path": "src/internal/pyclass_init.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3",
+    "path": "src/internal_tricks.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3",
+    "path": "src/lib.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3",
+    "path": "src/marker.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3",
+    "path": "src/platform.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3",
+    "path": "src/pycell/impl_.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3",
+    "path": "src/pyclass/create_type_object.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3",
+    "path": "src/pyclass/guard.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3",
+    "path": "src/pyclass_init.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3",
+    "path": "src/sync.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3",
+    "path": "src/sync/critical_section.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3",
+    "path": "src/types/mod.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3",
+    "path": "src/types/module.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3",
+    "path": "src/types/tuple.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3",
+    "path": "tests/test_class_basics.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3",
+    "path": "tests/test_gc.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3",
+    "path": "tests/test_getter_setter.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3",
+    "path": "tests/test_inheritance.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3",
+    "path": "tests/test_methods.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3",
+    "path": "tests/test_sequence.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3-build-config",
+    "path": "Cargo.toml",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3-build-config",
+    "path": "Cargo.toml.orig",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3-build-config",
+    "path": "src/impl_.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3-build-config",
+    "path": "src/lib.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3-ffi",
+    "path": "Cargo.toml",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3-ffi",
+    "path": "Cargo.toml.orig",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3-ffi",
+    "path": "build.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3-ffi",
+    "path": "src/cpython/bytearrayobject.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3-ffi",
+    "path": "src/cpython/dictobject.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3-ffi",
+    "path": "src/cpython/listobject.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3-ffi",
+    "path": "src/cpython/mod.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3-ffi",
+    "path": "src/cpython/object.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3-ffi",
+    "path": "src/cpython/objimpl.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3-ffi",
+    "path": "src/cpython/pyatomic.rs",
+    "status": "added"
+  },
+  {
+    "crate": "pyo3-ffi",
+    "path": "src/cpython/setobject.rs",
+    "status": "added"
+  },
+  {
+    "crate": "pyo3-ffi",
+    "path": "src/impl_/macros.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3-ffi",
+    "path": "src/object.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3-ffi",
+    "path": "src/setobject.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3-macros",
+    "path": "Cargo.toml",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3-macros",
+    "path": "Cargo.toml.orig",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3-macros-backend",
+    "path": "Cargo.toml",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3-macros-backend",
+    "path": "Cargo.toml.orig",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3-macros-backend",
+    "path": "src/introspection.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3-macros-backend",
+    "path": "src/method.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3-macros-backend",
+    "path": "src/module.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3-macros-backend",
+    "path": "src/py_expr.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3-macros-backend",
+    "path": "src/pyclass.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3-macros-backend",
+    "path": "src/pyfunction.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3-macros-backend",
+    "path": "src/pyfunction/signature.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3-macros-backend",
+    "path": "src/pyimpl.rs",
+    "status": "changed"
+  },
+  {
+    "crate": "pyo3-macros-backend",
+    "path": "src/pymethod.rs",
+    "status": "changed"
+  }
+]

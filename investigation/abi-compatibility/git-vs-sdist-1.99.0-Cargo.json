@@ -1,0 +1,9 @@
+{
+  "checked_at_utc": "2026-09-08T21:26:12.656147+00:00",
+  "source": "Previously downloaded fixed Git file; no network request needed",
+  "git_url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm-rust/crates/python-bridge/Cargo.toml",
+  "git_blob_sha1": "20a9ba789cee7a2f3b50d835d7b6712d221ab70c",
+  "git_sha256": "fe77f37f5d0781dc1e598a3552846f871e0f57caa70a561b1c0644aa302bc847",
+  "sdist_sha256": "e97aac2f93f585ab40d2ae33b18add9b9d73b3ec64379c0e1c602fae5140aa98",
+  "diff": "--- Git-fa647f742d7baefe8eb1181899d9c81b41559772\n+++ sdist-1.99.0\n@@ -12,7 +12,7 @@\n [dependencies]\n litellm-core = { workspace = true, features = [\"bedrock-auth\"] }\n litellm-ai-gateway = { workspace = true, default-features = false }\n-pyo3 = { workspace = true, features = [\"extension-module\"] }\n+pyo3 = { workspace = true, features = [\"extension-module\", \"abi3-py310\"] }\n pyo3-async-runtimes.workspace = true\n serde_json.workspace = true\n tokio.workspace = true\n"
+}

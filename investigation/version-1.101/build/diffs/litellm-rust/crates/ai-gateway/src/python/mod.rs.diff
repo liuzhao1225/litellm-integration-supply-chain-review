@@ -1,0 +1,7 @@
+--- 1.100.0/litellm-rust/crates/ai-gateway/src/python/mod.rs
++++ 1.101.0rc1/litellm-rust/crates/ai-gateway/src/python/mod.rs
+@@ -1,4 +0,0 @@
+-//! Python interop for the gateway. See `AGENTS.md`: **load-time / non-hot-path
+-//! only.** Compiled only under the `python-config` feature.
+-
+-pub mod config;

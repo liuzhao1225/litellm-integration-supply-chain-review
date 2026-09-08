@@ -1,0 +1,23 @@
+{
+  "verified_at_utc": "2026-09-08T21:24:56.301639+00:00",
+  "input_basis": "Previously archived official public key, signature, payload and image indexes; no mutable-tag refresh or image execution.",
+  "public_key_source": "https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub",
+  "public_key_sha256": "ff8869bf14ba9d10af7b64b9d479543b44daec0165e715753c43ff8a998f6dd3",
+  "results": [
+    {
+      "version": "1.99.0",
+      "index_digest": "sha256:570a872d2fde8f1bc4a147634810941103c14697270f0f2918c5aa7d8201cac5",
+      "signature_result": "Verified OK",
+      "payload_sha256": "6cc366f18f9f236e60e8b42f08fc807ecacf0ed075d8c69aa8dfc86954ce19ac",
+      "signature_bytes_sha256": "374daff239a62ba0adeb7ebfc7a8e856e07c1098977e3698eb01611b480b1778"
+    },
+    {
+      "version": "1.100.0",
+      "index_digest": "sha256:c8756e7b9a61fe45df2ccb5b781d388c3b2f3a21ef9e4956630caef20f9f03aa",
+      "signature_result": "Verified OK",
+      "payload_sha256": "b00c306eac4dc85c57d9a19c0234a35dea3523b85f511e08f23d2c6839d5666a",
+      "signature_bytes_sha256": "0eb9a08e87ca780815f6d625a57307bf95805f7e7ad4016b545e76721081cd72"
+    }
+  ],
+  "scope": "Cryptographic verification with pinned public key plus matching index digest. No separate keyless identity or transparency-log inclusion verification is claimed."
+}

@@ -1,0 +1,101 @@
+--- 1.100.0/litellm/proxy/openai_evals_endpoints/endpoints.py
++++ 1.101.0rc1/litellm/proxy/openai_evals_endpoints/endpoints.py
+@@ -35,7 +35,7 @@
+     request: Request,
+     custom_llm_provider: str | None = "openai",
+     user_api_key_dict: UserAPIKeyAuth = Depends(user_api_key_auth),
+-):
++) -> object:
+     """
+     Create a new evaluation.
+ 
+@@ -131,7 +131,7 @@
+     order_by: str | None = None,
+     custom_llm_provider: str | None = "openai",
+     user_api_key_dict: UserAPIKeyAuth = Depends(user_api_key_auth),
+-):
++) -> object:
+     """
+     List evaluations with pagination.
+ 
+@@ -228,7 +228,7 @@
+     request: Request,
+     custom_llm_provider: str | None = "openai",
+     user_api_key_dict: UserAPIKeyAuth = Depends(user_api_key_auth),
+-):
++) -> object:
+     """
+     Get a specific evaluation by ID.
+ 
+@@ -316,7 +316,7 @@
+     request: Request,
+     custom_llm_provider: str | None = "openai",
+     user_api_key_dict: UserAPIKeyAuth = Depends(user_api_key_auth),
+-):
++) -> object:
+     """
+     Update an evaluation.
+ 
+@@ -406,7 +406,7 @@
+     request: Request,
+     custom_llm_provider: str | None = "openai",
+     user_api_key_dict: UserAPIKeyAuth = Depends(user_api_key_auth),
+-):
++) -> object:
+     """
+     Delete an evaluation.
+ 
+@@ -494,7 +494,7 @@
+     request: Request,
+     custom_llm_provider: str | None = "openai",
+     user_api_key_dict: UserAPIKeyAuth = Depends(user_api_key_auth),
+-):
++) -> object:
+     """
+     Cancel a running evaluation.
+ 
+@@ -587,7 +587,7 @@
+     request: Request,
+     custom_llm_provider: str | None = "openai",
+     user_api_key_dict: UserAPIKeyAuth = Depends(user_api_key_auth),
+-):
++) -> object:
+     """
+     Create a new run for an evaluation.
+ 
+@@ -690,7 +690,7 @@
+     order: str | None = None,
+     custom_llm_provider: str | None = "openai",
+     user_api_key_dict: UserAPIKeyAuth = Depends(user_api_key_auth),
+-):
++) -> object:
+     """
+     List all runs for an evaluation with pagination.
+ 
+@@ -780,7 +780,7 @@
+     request: Request,
+     custom_llm_provider: str | None = "openai",
+     user_api_key_dict: UserAPIKeyAuth = Depends(user_api_key_auth),
+-):
++) -> object:
+     """
+     Get a specific run by ID.
+ 
+@@ -867,7 +867,7 @@
+     request: Request,
+     custom_llm_provider: str | None = "openai",
+     user_api_key_dict: UserAPIKeyAuth = Depends(user_api_key_auth),
+-):
++) -> object:
+     """
+     Cancel a running run.
+ 
+@@ -956,7 +956,7 @@
+     request: Request,
+     custom_llm_provider: str | None = "openai",
+     user_api_key_dict: UserAPIKeyAuth = Depends(user_api_key_auth),
+-):
++) -> object:
+     """
+     Delete a run.
+ 

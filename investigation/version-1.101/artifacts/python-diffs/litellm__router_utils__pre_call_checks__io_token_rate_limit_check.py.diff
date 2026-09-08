@@ -1,0 +1,42 @@
+--- 1.100.0/litellm/router_utils/pre_call_checks/io_token_rate_limit_check.py
++++ 1.101.0rc1/litellm/router_utils/pre_call_checks/io_token_rate_limit_check.py
+@@ -526,8 +526,8 @@
+ 
+ def io_token_reconcile_success(
+     dual_cache: DualCache,
+-    kwargs: Any,
+-    response_obj: Any,
++    kwargs: Mapping[str, object] | None,
++    response_obj: object,
+ ) -> None:
+     request_kwargs: Final[Mapping[str, object] | None] = kwargs
+     response: Final[object] = response_obj
+@@ -577,8 +577,8 @@
+ 
+ async def async_io_token_reconcile_success(
+     dual_cache: DualCache,
+-    kwargs: Any,
+-    response_obj: Any,
++    kwargs: Mapping[str, object] | None,
++    response_obj: object,
+     *,
+     parent_otel_span: Span | None = None,
+ ) -> None:
+@@ -638,7 +638,7 @@
+ 
+ def io_token_refund_failure(
+     dual_cache: DualCache,
+-    kwargs: Any,
++    kwargs: Mapping[str, object] | None,
+ ) -> None:
+     request_kwargs: Final[Mapping[str, object] | None] = kwargs
+     itpm_reserved, otpm_reserved, itpm_key, otpm_key = _read_reservation_from_kwargs(request_kwargs)
+@@ -689,7 +689,7 @@
+ 
+ async def async_io_token_refund_failure(
+     dual_cache: DualCache,
+-    kwargs: Any,
++    kwargs: Mapping[str, object] | None,
+     *,
+     parent_otel_span: Span | None = None,
+ ) -> None:

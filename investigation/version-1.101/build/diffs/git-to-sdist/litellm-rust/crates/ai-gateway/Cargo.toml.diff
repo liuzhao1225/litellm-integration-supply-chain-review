@@ -1,0 +1,10 @@
+--- git/litellm-rust/crates/ai-gateway/Cargo.toml
++++ sdist/litellm-rust/crates/ai-gateway/Cargo.toml
+@@ -4,6 +4,7 @@
+ edition.workspace = true
+ license.workspace = true
+ repository.workspace = true
++readme = "README.md"
+ 
+ [lib]
+ name = "litellm_ai_gateway"

@@ -1,0 +1,6 @@
+pushq	%rbp
+movq	%rsp, %rbp
+movq	%rdi, %rax
+movq	%rsi, %rdi
+movq	%rax, %rsi
+callq	TARGET

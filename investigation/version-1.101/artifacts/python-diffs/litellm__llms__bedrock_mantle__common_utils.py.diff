@@ -1,0 +1,11 @@
+--- 1.100.0/litellm/llms/bedrock_mantle/common_utils.py
++++ 1.101.0rc1/litellm/llms/bedrock_mantle/common_utils.py
+@@ -29,7 +29,7 @@
+ BEDROCK_MANTLE_DEFAULT_REGION: Final = "us-east-1"
+ 
+ # Standard Mantle host: https://bedrock-mantle.<region>.api.aws (group 1 = region).
+-MANTLE_HOST_RE: Final = re.compile(r"^https?://bedrock-mantle\.([^/.]+)\.api\.aws", re.IGNORECASE)
++MANTLE_HOST_RE: Final = re.compile(r"^https?://bedrock-mantle\.([^/.]+)\.api\.aws(?=/|$)", re.IGNORECASE)
+ 
+ 
+ def resolve_mantle_bearer_token(api_key: str | None) -> str | None:

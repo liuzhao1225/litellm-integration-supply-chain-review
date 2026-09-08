@@ -1,0 +1,661 @@
+[
+  {
+    "slug": "pyrit",
+    "url": "https://github.com/microsoft/PyRIT/pull/2154",
+    "author": "RheagalFire",
+    "created_at": "2026-07-09T19:23:47Z",
+    "state": "closed",
+    "merged_at": "2026-07-14T04:48:05Z",
+    "merged_by": "richlundeen",
+    "base": "566d4a3d4ad5b1c403a1ba18f3abfea386461b3c",
+    "head": "245f74c12a6a776a4acf024de909b6ecf7137f14",
+    "changed_files": 15,
+    "compare_file_count": 15,
+    "tree_truncated": false,
+    "changed_files_metadata": [
+      {
+        "path": "pyproject.toml",
+        "status": "modified",
+        "blob_sha": "a4a88c776fbb768ba3dc73eb4bffe00d09c6d766",
+        "additions": 9,
+        "deletions": 0,
+        "patch_present": true
+      },
+      {
+        "path": "pyrit/models/__init__.py",
+        "status": "modified",
+        "blob_sha": "2e964a6c48f27b84a5914f32e107a340460170fa",
+        "additions": 3,
+        "deletions": 0,
+        "patch_present": true
+      },
+      {
+        "path": "pyrit/models/token_usage.py",
+        "status": "added",
+        "blob_sha": "32bc39ce1e0af996991a65ee4080d26220638498",
+        "additions": 114,
+        "deletions": 0,
+        "patch_present": true
+      },
+      {
+        "path": "pyrit/prompt_target/__init__.py",
+        "status": "modified",
+        "blob_sha": "9f45cb4ee5dc5394ea916de803d2b4b2f9b60d3e",
+        "additions": 2,
+        "deletions": 0,
+        "patch_present": true
+      },
+      {
+        "path": "pyrit/prompt_target/common/chat_completions_message_builder.py",
+        "status": "added",
+        "blob_sha": "8c30fd6a27c5f0489be62d0d96016427a09527df",
+        "additions": 266,
+        "deletions": 0,
+        "patch_present": true
+      },
+      {
+        "path": "pyrit/prompt_target/common/chat_completions_response_parser.py",
+        "status": "added",
+        "blob_sha": "07d774cbe76e93484a3fd87e32ac69078a8acad6",
+        "additions": 445,
+        "deletions": 0,
+        "patch_present": true
+      },
+      {
+        "path": "pyrit/prompt_target/litellm_chat_target.py",
+        "status": "added",
+        "blob_sha": "870d89b2b2ac37852dc8cc22eca8828e49692f17",
+        "additions": 586,
+        "deletions": 0,
+        "patch_present": true
+      },
+      {
+        "path": "pyrit/prompt_target/openai/openai_chat_target.py",
+        "status": "modified",
+        "blob_sha": "31790462463cb20cfe5199b80248b6541137f747",
+        "additions": 41,
+        "deletions": 250,
+        "patch_present": true
+      },
+      {
+        "path": "tests/integration/targets/test_litellm_chat_target_integration.py",
+        "status": "added",
+        "blob_sha": "b0013a556ff13c8e48b5b364031fe35cd3f99d50",
+        "additions": 255,
+        "deletions": 0,
+        "patch_present": true
+      },
+      {
+        "path": "tests/integration/targets/test_openai_chat_target_integration.py",
+        "status": "modified",
+        "blob_sha": "4e631b5ad40e185918d5d4dc4fdc6b43cb6ad5e4",
+        "additions": 41,
+        "deletions": 36,
+        "patch_present": true
+      },
+      {
+        "path": "tests/unit/models/test_token_usage.py",
+        "status": "added",
+        "blob_sha": "439c92efd2b5a0de0053b19ea6d5a241d9eb3dd5",
+        "additions": 66,
+        "deletions": 0,
+        "patch_present": true
+      },
+      {
+        "path": "tests/unit/prompt_target/target/test_chat_completions_helpers.py",
+        "status": "added",
+        "blob_sha": "5502ae42861438255656bdc84eddc5edb7c0138c",
+        "additions": 441,
+        "deletions": 0,
+        "patch_present": true
+      },
+      {
+        "path": "tests/unit/prompt_target/target/test_litellm_chat_target.py",
+        "status": "added",
+        "blob_sha": "857c7b45a92949507676e17dff7e0d03342c5832",
+        "additions": 688,
+        "deletions": 0,
+        "patch_present": true
+      },
+      {
+        "path": "tests/unit/prompt_target/target/test_openai_chat_target.py",
+        "status": "modified",
+        "blob_sha": "189123ebbd40a2533885217c1763b15e9a9fffe9",
+        "additions": 21,
+        "deletions": 23,
+        "patch_present": true
+      },
+      {
+        "path": "uv.lock",
+        "status": "modified",
+        "blob_sha": "edf456027aefe2c5d399f370721ee35429af07b4",
+        "additions": 154,
+        "deletions": 1,
+        "patch_present": true
+      }
+    ],
+    "visible_lock_paths": [
+      "frontend/package-lock.json",
+      "uv.lock"
+    ],
+    "changed_ci_or_install_scripts": [],
+    "observations": {
+      "pr": {
+        "endpoint": "https://api.github.com/repos/microsoft/PyRIT/pulls/2154",
+        "started_at": "2026-09-08T20:58:15.852Z",
+        "observed_at": "2026-09-08T20:58:17.203Z",
+        "exit_code": 0,
+        "stderr": "",
+        "sha256": "960985592f77474afae12c5e992e58e862cf85dc9af699c7505186552f9aa180"
+      },
+      "compare": {
+        "endpoint": "https://api.github.com/repos/microsoft/PyRIT/compare/566d4a3d4ad5b1c403a1ba18f3abfea386461b3c...245f74c12a6a776a4acf024de909b6ecf7137f14",
+        "started_at": "2026-09-08T20:58:35.570Z",
+        "observed_at": "2026-09-08T20:58:36.901Z",
+        "exit_code": 0,
+        "stderr": "",
+        "sha256": "9e688f2d21cf3a7803e604d581df2349f4c8ea57c386e0eb9d5eb2836f7dfd3a"
+      },
+      "tree": {
+        "endpoint": "https://api.github.com/repos/microsoft/PyRIT/git/trees/245f74c12a6a776a4acf024de909b6ecf7137f14?recursive=1",
+        "started_at": "2026-09-08T20:58:35.570Z",
+        "observed_at": "2026-09-08T20:58:36.785Z",
+        "exit_code": 0,
+        "stderr": "",
+        "sha256": "bee30e73bf23e9bf2953e53dc7a120e90403c9c86b2eaa38e11b4e880d0e44e7"
+      }
+    },
+    "commits": [
+      {
+        "sha": "42d212b3d5483f2df9cc96ba59d9a3b072451421",
+        "author_login": "RheagalFire",
+        "committer_login": "RheagalFire",
+        "author_date": "2026-07-09T17:27:57Z",
+        "title": "feat: add LiteLLM as AI gateway prompt target",
+        "url": "https://github.com/microsoft/PyRIT/commit/42d212b3d5483f2df9cc96ba59d9a3b072451421"
+      },
+      {
+        "sha": "4d413a1c7b79dbf5bb22ce67f957746428142dc3",
+        "author_login": "richlundeen",
+        "committer_login": "richlundeen",
+        "author_date": "2026-07-10T21:00:14Z",
+        "title": "feat: harden LiteLLMChatTarget (multimodal, params, auth, capabilities, token usage)",
+        "url": "https://github.com/microsoft/PyRIT/commit/4d413a1c7b79dbf5bb22ce67f957746428142dc3"
+      },
+      {
+        "sha": "f3c68ba5557851918cf53a443ffcffe5e71fe16f",
+        "author_login": "richlundeen",
+        "committer_login": "richlundeen",
+        "author_date": "2026-07-10T21:19:31Z",
+        "title": "refactor: separate provider token-usage parsing from TokenUsage value object",
+        "url": "https://github.com/microsoft/PyRIT/commit/f3c68ba5557851918cf53a443ffcffe5e71fe16f"
+      },
+      {
+        "sha": "e27b6141b181d48cf5ae8906219946954f2c5466",
+        "author_login": "richlundeen",
+        "committer_login": "richlundeen",
+        "author_date": "2026-07-10T21:32:37Z",
+        "title": "test: drop .env_example test-model overrides; default integration tests to gpt-5.4",
+        "url": "https://github.com/microsoft/PyRIT/commit/e27b6141b181d48cf5ae8906219946954f2c5466"
+      },
+      {
+        "sha": "66bb2dbe8c0cc9be0268c55875ff7e33eaf772e7",
+        "author_login": "richlundeen",
+        "committer_login": "richlundeen",
+        "author_date": "2026-07-13T16:23:43Z",
+        "title": "test: wire chat/vision integration tests to Azure GPT-5.4 (Entra auth)",
+        "url": "https://github.com/microsoft/PyRIT/commit/66bb2dbe8c0cc9be0268c55875ff7e33eaf772e7"
+      },
+      {
+        "sha": "cddee45c441e8ad946caadecfdfe4c46183d7768",
+        "author_login": "richlundeen",
+        "committer_login": "richlundeen",
+        "author_date": "2026-07-13T16:58:05Z",
+        "title": "Merge origin/main into feat/add-litellm-provider",
+        "url": "https://github.com/microsoft/PyRIT/commit/cddee45c441e8ad946caadecfdfe4c46183d7768"
+      },
+      {
+        "sha": "05e2da30609010a65d1774e6504ba24560583a4c",
+        "author_login": "richlundeen",
+        "committer_login": "richlundeen",
+        "author_date": "2026-07-13T19:01:10Z",
+        "title": "feat: add drop_unsupported_params init arg to LiteLLMChatTarget",
+        "url": "https://github.com/microsoft/PyRIT/commit/05e2da30609010a65d1774e6504ba24560583a4c"
+      },
+      {
+        "sha": "8dd00355e50c74cbd9072a3b05cd989f577ce92d",
+        "author_login": "richlundeen",
+        "committer_login": "richlundeen",
+        "author_date": "2026-07-13T20:22:29Z",
+        "title": "feat: expose single max_tokens on LiteLLMChatTarget",
+        "url": "https://github.com/microsoft/PyRIT/commit/8dd00355e50c74cbd9072a3b05cd989f577ce92d"
+      },
+      {
+        "sha": "d268c2334de93c7c862c1ddecaf0d28ee96b31c0",
+        "author_login": "richlundeen",
+        "committer_login": "richlundeen",
+        "author_date": "2026-07-13T23:15:25Z",
+        "title": "fix: cap litellm below 1.92.0 to keep cross-platform install working",
+        "url": "https://github.com/microsoft/PyRIT/commit/d268c2334de93c7c862c1ddecaf0d28ee96b31c0"
+      },
+      {
+        "sha": "245f74c12a6a776a4acf024de909b6ecf7137f14",
+        "author_login": "richlundeen",
+        "committer_login": "richlundeen",
+        "author_date": "2026-07-14T04:10:44Z",
+        "title": "refactor: address review comments on shared chat-completion helpers",
+        "url": "https://github.com/microsoft/PyRIT/commit/245f74c12a6a776a4acf024de909b6ecf7137f14"
+      }
+    ]
+  },
+  {
+    "slug": "memoryos",
+    "url": "https://github.com/BAI-LAB/MemoryOS/pull/74",
+    "author": "RheagalFire",
+    "created_at": "2026-07-08T16:55:43Z",
+    "state": "open",
+    "merged_at": null,
+    "merged_by": null,
+    "base": "587ed7755c7aed179965792830ff1b5ad9a6fa92",
+    "head": "aa78e1d7f5583bb57e9171f486bac9e995d0beed",
+    "changed_files": 6,
+    "compare_file_count": 6,
+    "tree_truncated": false,
+    "changed_files_metadata": [
+      {
+        "path": "memoryos-pypi/__init__.py",
+        "status": "modified",
+        "blob_sha": "c7a78ca50c0136dbb85cecc7ba5b9b22d287983c",
+        "additions": 2,
+        "deletions": 1,
+        "patch_present": true
+      },
+      {
+        "path": "memoryos-pypi/memoryos.py",
+        "status": "modified",
+        "blob_sha": "f4ae5e3531fd5944d429c2b7ebe6126b2a217bec",
+        "additions": 25,
+        "deletions": 10,
+        "patch_present": true
+      },
+      {
+        "path": "memoryos-pypi/requirements.txt",
+        "status": "modified",
+        "blob_sha": "2140c9d49196583db830bc01436c96d89d7de777",
+        "additions": 1,
+        "deletions": 0,
+        "patch_present": true
+      },
+      {
+        "path": "memoryos-pypi/tests/test_litellm.py",
+        "status": "added",
+        "blob_sha": "00755258011880f60ebb394a9938e583cf0e05f5",
+        "additions": 268,
+        "deletions": 0,
+        "patch_present": true
+      },
+      {
+        "path": "memoryos-pypi/utils.py",
+        "status": "modified",
+        "blob_sha": "410ccd28d62a18825adb1e88a6c29d364f360678",
+        "additions": 113,
+        "deletions": 0,
+        "patch_present": true
+      },
+      {
+        "path": "pytest.ini",
+        "status": "added",
+        "blob_sha": "7b001b97a186b994f5f5d8b0cf93dbf00fc53b0c",
+        "additions": 2,
+        "deletions": 0,
+        "patch_present": true
+      }
+    ],
+    "visible_lock_paths": [],
+    "changed_ci_or_install_scripts": [],
+    "observations": {
+      "pr": {
+        "endpoint": "https://api.github.com/repos/BAI-LAB/MemoryOS/pulls/74",
+        "started_at": "2026-09-08T20:58:15.852Z",
+        "observed_at": "2026-09-08T20:58:17.815Z",
+        "exit_code": 0,
+        "stderr": "",
+        "sha256": "1ca68e425f6e903e91ac71a0e15f94f210b9a5af725ee6f4c59458c6095938e3"
+      },
+      "compare": {
+        "endpoint": "https://api.github.com/repos/BAI-LAB/MemoryOS/compare/587ed7755c7aed179965792830ff1b5ad9a6fa92...aa78e1d7f5583bb57e9171f486bac9e995d0beed",
+        "started_at": "2026-09-08T20:58:36.946Z",
+        "observed_at": "2026-09-08T20:58:37.938Z",
+        "exit_code": 0,
+        "stderr": "",
+        "sha256": "b1adc9ed7075cb59203d86c297ad5b61c2552bc15b0c0d0cb93b123986dd219a"
+      },
+      "tree": {
+        "endpoint": "https://api.github.com/repos/BAI-LAB/MemoryOS/git/trees/aa78e1d7f5583bb57e9171f486bac9e995d0beed?recursive=1",
+        "started_at": "2026-09-08T20:58:37.737Z",
+        "observed_at": "2026-09-08T20:58:38.549Z",
+        "exit_code": 0,
+        "stderr": "",
+        "sha256": "a08029a32ceb690b6086a7ff586902c5c437ae07bd69f7070af715c9956e9f55"
+      }
+    }
+  },
+  {
+    "slug": "bot-anything",
+    "url": "https://github.com/zhayujie/bot-on-anything/pull/469",
+    "author": "RheagalFire",
+    "created_at": "2026-07-08T17:23:53Z",
+    "state": "open",
+    "merged_at": null,
+    "merged_by": null,
+    "base": "61aa79da629c0278006eb71f772121bc6b6613af",
+    "head": "f469c228a06b50562ea1fd0f582da00896bdef4e",
+    "changed_files": 7,
+    "compare_file_count": 7,
+    "tree_truncated": false,
+    "changed_files_metadata": [
+      {
+        "path": "common/const.py",
+        "status": "modified",
+        "blob_sha": "69a268333b8a7ddc2feea754407f2c52e2a9ad96",
+        "additions": 1,
+        "deletions": 0,
+        "patch_present": true
+      },
+      {
+        "path": "config-template.json",
+        "status": "modified",
+        "blob_sha": "70283fa9e1599cc8410147005fd03a08500290a2",
+        "additions": 8,
+        "deletions": 0,
+        "patch_present": true
+      },
+      {
+        "path": "model/litellm/__init__.py",
+        "status": "added",
+        "blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "additions": 0,
+        "deletions": 0,
+        "patch_present": false
+      },
+      {
+        "path": "model/litellm/litellm_model.py",
+        "status": "added",
+        "blob_sha": "c4d6f9407951d509d183fb3ff0a56b5212dfea1b",
+        "additions": 207,
+        "deletions": 0,
+        "patch_present": true
+      },
+      {
+        "path": "model/model_factory.py",
+        "status": "modified",
+        "blob_sha": "6feee43b4719d21d2c04419362c775b914669be4",
+        "additions": 4,
+        "deletions": 0,
+        "patch_present": true
+      },
+      {
+        "path": "tests/__init__.py",
+        "status": "added",
+        "blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "additions": 0,
+        "deletions": 0,
+        "patch_present": false
+      },
+      {
+        "path": "tests/test_litellm_model.py",
+        "status": "added",
+        "blob_sha": "167f490ea07c0ce35bf8be396b19180caee7ed57",
+        "additions": 448,
+        "deletions": 0,
+        "patch_present": true
+      }
+    ],
+    "visible_lock_paths": [],
+    "changed_ci_or_install_scripts": [],
+    "observations": {
+      "pr": {
+        "endpoint": "https://api.github.com/repos/zhayujie/bot-on-anything/pulls/469",
+        "started_at": "2026-09-08T20:58:15.867Z",
+        "observed_at": "2026-09-08T20:58:17.235Z",
+        "exit_code": 0,
+        "stderr": "",
+        "sha256": "464142067e3444f04262f782a025fa37b23df33ed1a29898ac9d1d54f4c20d07"
+      },
+      "compare": {
+        "endpoint": "https://api.github.com/repos/zhayujie/bot-on-anything/compare/61aa79da629c0278006eb71f772121bc6b6613af...f469c228a06b50562ea1fd0f582da00896bdef4e",
+        "started_at": "2026-09-08T20:58:38.831Z",
+        "observed_at": "2026-09-08T20:58:39.804Z",
+        "exit_code": 0,
+        "stderr": "",
+        "sha256": "c7bee54f337004b52cbcf9872df436d5df8b16dc7ea43ce957d36b9664e24d92"
+      },
+      "tree": {
+        "endpoint": "https://api.github.com/repos/zhayujie/bot-on-anything/git/trees/f469c228a06b50562ea1fd0f582da00896bdef4e?recursive=1",
+        "started_at": "2026-09-08T20:58:39.325Z",
+        "observed_at": "2026-09-08T20:58:40.104Z",
+        "exit_code": 0,
+        "stderr": "",
+        "sha256": "2eed554f321ce5e409251f55b677698c8a632c3ab8b885b355f99fe88fe4089a"
+      }
+    }
+  },
+  {
+    "slug": "deep-research",
+    "url": "https://github.com/AnotiaWang/deep-research-web-ui/pull/88",
+    "author": "RheagalFire",
+    "created_at": "2026-07-06T14:29:31Z",
+    "state": "closed",
+    "merged_at": "2026-08-12T07:22:51Z",
+    "merged_by": "AnotiaWang",
+    "base": "26ca9d968cf78e5aecc66c6ec563977df8c94804",
+    "head": "d0b6eee8a7b3179b6b65350d046d82a0e034e7ca",
+    "changed_files": 8,
+    "compare_file_count": 8,
+    "tree_truncated": false,
+    "changed_files_metadata": [
+      {
+        "path": ".env.example",
+        "status": "modified",
+        "blob_sha": "eae338abfc625405fac2445c8a322833c120f991",
+        "additions": 2,
+        "deletions": 2,
+        "patch_present": true
+      },
+      {
+        "path": "README.md",
+        "status": "modified",
+        "blob_sha": "31f501d1b2d5cffa0a5be4d8ebdaf1c15153f853",
+        "additions": 2,
+        "deletions": 1,
+        "patch_present": true
+      },
+      {
+        "path": "README_zh.md",
+        "status": "modified",
+        "blob_sha": "cef00f1f73dbb372e6390010d3ce9d3b77b03729",
+        "additions": 2,
+        "deletions": 1,
+        "patch_present": true
+      },
+      {
+        "path": "app/components/ConfigManager.vue",
+        "status": "modified",
+        "blob_sha": "1cca5b11275b49a15ce4f9eea2188e1cb03a7b46",
+        "additions": 26,
+        "deletions": 6,
+        "patch_present": true
+      },
+      {
+        "path": "app/stores/config.ts",
+        "status": "modified",
+        "blob_sha": "2ede925a95aa5cc049754870451cdcc932b2c738",
+        "additions": 2,
+        "deletions": 2,
+        "patch_present": true
+      },
+      {
+        "path": "shared/types/config.ts",
+        "status": "modified",
+        "blob_sha": "dc9d8bc997ad597830a05897ac71ef7162a6458f",
+        "additions": 1,
+        "deletions": 0,
+        "patch_present": true
+      },
+      {
+        "path": "shared/utils/ai-model.ts",
+        "status": "modified",
+        "blob_sha": "22ca1c1d40f664db03109b21d33b6175db064d39",
+        "additions": 8,
+        "deletions": 1,
+        "patch_present": true
+      },
+      {
+        "path": "test/ai-model.test.ts",
+        "status": "added",
+        "blob_sha": "5df4cd415138bb64a4d071fa1cf6c4eff276da1d",
+        "additions": 39,
+        "deletions": 0,
+        "patch_present": true
+      }
+    ],
+    "visible_lock_paths": [
+      "pnpm-lock.yaml"
+    ],
+    "changed_ci_or_install_scripts": [],
+    "observations": {
+      "pr": {
+        "endpoint": "https://api.github.com/repos/AnotiaWang/deep-research-web-ui/pulls/88",
+        "started_at": "2026-09-08T20:58:15.855Z",
+        "observed_at": "2026-09-08T20:58:17.258Z",
+        "exit_code": 0,
+        "stderr": "",
+        "sha256": "ed0d75897225f4d54c0af4c88b3b838f4387c41fa36b72a3a2385b7ee1893eee"
+      },
+      "compare": {
+        "endpoint": "https://api.github.com/repos/AnotiaWang/deep-research-web-ui/compare/26ca9d968cf78e5aecc66c6ec563977df8c94804...d0b6eee8a7b3179b6b65350d046d82a0e034e7ca",
+        "started_at": "2026-09-08T20:58:40.207Z",
+        "observed_at": "2026-09-08T20:58:41.224Z",
+        "exit_code": 0,
+        "stderr": "",
+        "sha256": "27f54886e5d4b2704f42ddec8b869980b7aac575fe5174268b0ddcea9de4001a"
+      },
+      "tree": {
+        "endpoint": "https://api.github.com/repos/AnotiaWang/deep-research-web-ui/git/trees/d0b6eee8a7b3179b6b65350d046d82a0e034e7ca?recursive=1",
+        "started_at": "2026-09-08T20:58:40.717Z",
+        "observed_at": "2026-09-08T20:58:41.544Z",
+        "exit_code": 0,
+        "stderr": "",
+        "sha256": "096d2ee7bc966193da8e31b4b403f42cf50e632aad59eca3ac30f62f7faae62c"
+      }
+    }
+  },
+  {
+    "slug": "ha-llmvision",
+    "url": "https://github.com/valentinfrlch/ha-llmvision/pull/685",
+    "author": "RheagalFire",
+    "created_at": "2026-06-30T20:38:52Z",
+    "state": "open",
+    "merged_at": null,
+    "merged_by": null,
+    "base": "85fcb9832888c9f7e350f96b3a17f9c1a1aa7505",
+    "head": "9aeaeb78816aad92b1af7df174f97c23eadd7cfa",
+    "changed_files": 8,
+    "compare_file_count": 8,
+    "tree_truncated": false,
+    "changed_files_metadata": [
+      {
+        "path": "custom_components/llmvision/config_flow.py",
+        "status": "modified",
+        "blob_sha": "6a9cafc41c7a8c1ca5c78cacdc318df40f4b93b7",
+        "additions": 99,
+        "deletions": 0,
+        "patch_present": true
+      },
+      {
+        "path": "custom_components/llmvision/const.py",
+        "status": "modified",
+        "blob_sha": "91ef4201f4956502fc7db01cf57948c79f8aa04f",
+        "additions": 1,
+        "deletions": 0,
+        "patch_present": true
+      },
+      {
+        "path": "custom_components/llmvision/manifest.json",
+        "status": "modified",
+        "blob_sha": "2f8c5fa5d8cb19dc2205bbd9817aa1b240274fac",
+        "additions": 1,
+        "deletions": 1,
+        "patch_present": true
+      },
+      {
+        "path": "custom_components/llmvision/providers.py",
+        "status": "modified",
+        "blob_sha": "92bebe4cf71b8078ee57a47f5209674018b2c5ff",
+        "additions": 147,
+        "deletions": 0,
+        "patch_present": true
+      },
+      {
+        "path": "custom_components/llmvision/strings.json",
+        "status": "modified",
+        "blob_sha": "a35c7085728e367325e2d8b4cfa7cd8f490f2b3e",
+        "additions": 30,
+        "deletions": 0,
+        "patch_present": true
+      },
+      {
+        "path": "custom_components/llmvision/translations/en.json",
+        "status": "modified",
+        "blob_sha": "a35c7085728e367325e2d8b4cfa7cd8f490f2b3e",
+        "additions": 30,
+        "deletions": 0,
+        "patch_present": true
+      },
+      {
+        "path": "tests/test_config_flow.py",
+        "status": "modified",
+        "blob_sha": "a7718b4d54f15415d4cd4971c3302e989076120a",
+        "additions": 42,
+        "deletions": 0,
+        "patch_present": true
+      },
+      {
+        "path": "tests/test_providers.py",
+        "status": "modified",
+        "blob_sha": "e4e3aac2c8cafb09768084990b0d5559be5309f2",
+        "additions": 445,
+        "deletions": 0,
+        "patch_present": true
+      }
+    ],
+    "visible_lock_paths": [],
+    "changed_ci_or_install_scripts": [],
+    "observations": {
+      "pr": {
+        "endpoint": "https://api.github.com/repos/valentinfrlch/ha-llmvision/pulls/685",
+        "started_at": "2026-09-08T20:58:15.881Z",
+        "observed_at": "2026-09-08T20:58:17.046Z",
+        "exit_code": 0,
+        "stderr": "",
+        "sha256": "6a07ba6546b0fb6f1302ee2290589dfe07cfc688d06fa61cadc000d57b6ea601"
+      },
+      "compare": {
+        "endpoint": "https://api.github.com/repos/valentinfrlch/ha-llmvision/compare/85fcb9832888c9f7e350f96b3a17f9c1a1aa7505...9aeaeb78816aad92b1af7df174f97c23eadd7cfa",
+        "started_at": "2026-09-08T20:58:41.766Z",
+        "observed_at": "2026-09-08T20:58:42.785Z",
+        "exit_code": 0,
+        "stderr": "",
+        "sha256": "d1d5996cf7c618d0eff6e9d2f50baf294432592ccd573fd2ee00e799714eceac"
+      },
+      "tree": {
+        "endpoint": "https://api.github.com/repos/valentinfrlch/ha-llmvision/git/trees/9aeaeb78816aad92b1af7df174f97c23eadd7cfa?recursive=1",
+        "started_at": "2026-09-08T20:58:42.163Z",
+        "observed_at": "2026-09-08T20:58:42.878Z",
+        "exit_code": 0,
+        "stderr": "",
+        "sha256": "2424e3c00eba7370c3219659ded622d201e542b6ddb6e96fa51629ce93c7983a"
+      }
+    }
+  }
+]

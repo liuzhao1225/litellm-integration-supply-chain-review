@@ -1,0 +1,11 @@
+--- 1.100.0/litellm/proxy/response_polling/polling_handler.py
++++ 1.101.0rc1/litellm/proxy/response_polling/polling_handler.py
+@@ -89,7 +89,7 @@
+         error: dict | None = None,
+         incomplete_details: dict | None = None,
+         reasoning: dict | None = None,
+-        tool_choice: Any | None = None,
++        tool_choice: object | None = None,
+         tools: list | None = None,
+         output: list | None = None,
+         # Additional ResponsesAPIResponse fields

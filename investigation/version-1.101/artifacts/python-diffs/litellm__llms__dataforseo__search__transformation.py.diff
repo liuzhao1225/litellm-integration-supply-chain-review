@@ -1,0 +1,20 @@
+--- 1.100.0/litellm/llms/dataforseo/search/transformation.py
++++ 1.101.0rc1/litellm/llms/dataforseo/search/transformation.py
+@@ -4,7 +4,7 @@
+ DataForSEO API Reference: https://docs.dataforseo.com/v3/serp/google/organic/live/advanced/?bash
+ """
+ 
+-from typing import Any, Final, Literal
++from typing import Final, Literal
+ 
+ import httpx
+ 
+@@ -126,7 +126,7 @@
+             List[Dict]: Request body for DataForSEO API (array of task objects as required by API)
+         """
+         # DataForSEO expects an array of task objects
+-        task: Final[dict[str, Any]] = {}
++        task: Final[dict[str, object]] = {}
+ 
+         # Convert query to string if it's a list
+         if isinstance(query, list):

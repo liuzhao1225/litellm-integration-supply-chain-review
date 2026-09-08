@@ -1,0 +1,27 @@
+--- 1.100.0/litellm-rust/crates/core/Cargo.toml
++++ 1.101.0rc1/litellm-rust/crates/core/Cargo.toml
+@@ -6,11 +6,14 @@
+ repository.workspace = true
+ 
+ [dependencies]
++base64.workspace = true
+ rand.workspace = true
+ reqwest.workspace = true
+ serde.workspace = true
+ serde_json.workspace = true
+ thiserror.workspace = true
++tracing.workspace = true
++tracing-subscriber = { workspace = true, optional = true }
+ sha2.workspace = true
+ aws-config = { version = "1.9.0", default-features = false, features = ["rustls", "rt-tokio"], optional = true }
+ aws-credential-types = { version = "1.3.0", features = ["hardcoded-credentials"], optional = true }
+@@ -29,6 +32,9 @@
+     "dep:aws-types",
+     "dep:aws-smithy-runtime-api",
+ ]
++observability = ["dep:tracing-subscriber"]
+ 
+ [dev-dependencies]
++rstest.workspace = true
+ tokio = { workspace = true, features = ["macros", "rt-multi-thread"] }
++tracing-subscriber.workspace = true

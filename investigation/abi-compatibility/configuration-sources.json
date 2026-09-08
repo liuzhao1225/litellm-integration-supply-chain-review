@@ -1,0 +1,42 @@
+[
+  {
+    "version": "1.99.0",
+    "comparison_git_url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/pyproject.toml",
+    "commit": "fa647f742d7baefe8eb1181899d9c81b41559772",
+    "sdist_path": "litellm-1.99.0/pyproject.toml",
+    "sdist_sha256": "efcf6b73f8b11116fa4a9e53e0aad26c5580ff904ec5c2c1bd6cb11193a471d3",
+    "sdist_git_blob_sha1": "fca5c7da1e2d54e36df6aa94e3b9444d57c5487a",
+    "expected_git_blob_sha1": "fca5c7da1e2d54e36df6aa94e3b9444d57c5487a",
+    "sdist_matches_git": true
+  },
+  {
+    "version": "1.99.0",
+    "comparison_git_url": "https://github.com/BerriAI/litellm/blob/fa647f742d7baefe8eb1181899d9c81b41559772/litellm-rust/crates/python-bridge/Cargo.toml",
+    "commit": "fa647f742d7baefe8eb1181899d9c81b41559772",
+    "sdist_path": "litellm-1.99.0/litellm-rust/crates/python-bridge/Cargo.toml",
+    "sdist_sha256": "e97aac2f93f585ab40d2ae33b18add9b9d73b3ec64379c0e1c602fae5140aa98",
+    "sdist_git_blob_sha1": "10d58b5ede562e50d9a3f5bce2570aae5e08f112",
+    "expected_git_blob_sha1": "20a9ba789cee7a2f3b50d835d7b6712d221ab70c",
+    "sdist_matches_git": false
+  },
+  {
+    "version": "1.100.0",
+    "comparison_git_url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/pyproject.toml",
+    "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+    "sdist_path": "litellm-1.100.0/pyproject.toml",
+    "sdist_sha256": "a65b83b54f2ae160ac7ffa06119588ac79ff5b08f7eda89e901f60063ff63bbb",
+    "sdist_git_blob_sha1": "34c1fec1c117534ff52c7ee5d03ba1f5c124eead",
+    "expected_git_blob_sha1": "34c1fec1c117534ff52c7ee5d03ba1f5c124eead",
+    "sdist_matches_git": true
+  },
+  {
+    "version": "1.100.0",
+    "comparison_git_url": "https://github.com/BerriAI/litellm/blob/e4f25265704e2b2c6cf6e81be2e4c5cffff896f4/litellm-rust/crates/python-bridge/Cargo.toml",
+    "commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+    "sdist_path": "litellm-1.100.0/litellm-rust/crates/python-bridge/Cargo.toml",
+    "sdist_sha256": "071ccb6e2349d1a78e4180757024e18910835a092070600254014d545420ccb2",
+    "sdist_git_blob_sha1": "0c4a753f762f9e34d2e7ae27a97b54c56646c17a",
+    "expected_git_blob_sha1": "0c4a753f762f9e34d2e7ae27a97b54c56646c17a",
+    "sdist_matches_git": true
+  }
+]

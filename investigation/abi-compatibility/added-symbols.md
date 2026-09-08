@@ -1,0 +1,36 @@
+| 新增符号 | 种类 | Stable ABI 起始版本 | ABI-only | 3.10 清单行 |
+|---|---|---|---|---|
+| `PyBool_Type` | data | 3.2 | False | 312 |
+| `PyByteArray_Type` | data | 3.2 | False | 328 |
+| `PyBytes_Type` | data | 3.2 | False | 356 |
+| `PyDict_GetItemWithError` | function | 3.2 | False | 482 |
+| `PyDict_Keys` | function | 3.2 | False | 486 |
+| `PyDict_Type` | data | 3.2 | False | 502 |
+| `PyErr_Clear` | function | 3.2 | False | 518 |
+| `PyErr_ExceptionMatches` | function | 3.2 | False | 522 |
+| `PyErr_Occurred` | function | 3.2 | False | 538 |
+| `PyExc_KeyError` | data | 3.2 | False | 650 |
+| `PyFloat_FromDouble` | function | 3.2 | False | 732 |
+| `PyFloat_Type` | data | 3.2 | False | 742 |
+| `PyFrozenSet_Type` | data | 3.2 | False | 746 |
+| `PyIter_Next` | function | 3.2 | False | 794 |
+| `PyList_GetItem` | function | 3.2 | False | 804 |
+| `PyList_SetItem` | function | 3.2 | False | 814 |
+| `PyList_Size` | function | 3.2 | False | 818 |
+| `PyLong_AsLong` | function | 3.2 | False | 828 |
+| `PyLong_AsUnsignedLongLong` | function | 3.2 | False | 842 |
+| `PyLong_AsUnsignedLongLongMask` | function | 3.2 | False | 844 |
+| `PyLong_Type` | data | 3.2 | False | 870 |
+| `PyMapping_Keys` | function | 3.2 | False | 884 |
+| `PyMapping_Size` | function | 3.2 | False | 890 |
+| `PyMapping_Values` | function | 3.2 | False | 892 |
+| `PyNumber_Index` | function | 3.2 | False | 974 |
+| `PyNumber_Rshift` | function | 3.2 | False | 994 |
+| `PyObject_GetIter` | function | 3.2 | False | 1077 |
+| `PyObject_IsInstance` | function | 3.2 | False | 1091 |
+| `PyObject_Size` | function | 3.2 | False | 1119 |
+| `PySequence_GetItem` | function | 3.2 | False | 1151 |
+| `PySet_Type` | data | 3.2 | False | 1193 |
+| `Py_NewRef` | function | 3.10 | False | 2079 |
+| `_Py_FalseStruct` | data | 3.2 | True | 1632 |
+| `_Py_TrueStruct` | data | 3.2 | True | 1644 |

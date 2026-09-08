@@ -1,0 +1,17 @@
+--- 1.100.0/litellm-rust/crates/core/src/lib.rs
++++ 1.101.0rc1/litellm-rust/crates/core/src/lib.rs
+@@ -6,6 +6,8 @@
+ pub mod error;
+ pub mod http_utils;
+ pub mod messages;
++#[cfg(any(feature = "observability", test))]
++pub mod observability;
+ pub mod ocr;
+ pub mod providers;
+ pub mod realtime;
+@@ -13,4 +15,4 @@
+ pub mod router;
+ pub mod routing_utils;
+ 
+-pub use error::{CoreError, CoreResult};
++pub use error::Error;

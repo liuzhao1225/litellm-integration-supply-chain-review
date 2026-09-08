@@ -1,0 +1,14 @@
+--- 1.100.0/litellm-rust/crates/config/src/error.rs
++++ 1.101.0rc1/litellm-rust/crates/config/src/error.rs
+@@ -0,0 +1,11 @@
++use thiserror::Error as ThisError;
++
++#[derive(Debug, ThisError)]
++pub enum Error {
++    #[error("read_model_list failed: {0}")]
++    PythonLoading(String),
++    #[error("serializing model_list failed: {0}")]
++    Serialization(String),
++    #[error("parsing model_list failed: {0}")]
++    ModelListParsing(#[source] serde_json::Error),
++}

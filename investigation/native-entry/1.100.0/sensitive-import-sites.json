@@ -1,0 +1,17 @@
+[
+  {
+    "instruction": "83134d:      \tcallq\t*0x2c713d(%rip)         # 0xaf8490",
+    "import_symbol": "getenv",
+    "function_va": "0x831310"
+  },
+  {
+    "instruction": "83e0f7:      \tcallq\t*0x2ba453(%rip)         # 0xaf8550",
+    "import_symbol": "dlsym",
+    "function_va": "0x83d3e0"
+  },
+  {
+    "instruction": "abdee0:      \tjmpq\t*0x3a8e2(%rip)          # 0xaf87c8",
+    "import_symbol": "getenv",
+    "function_va": null
+  }
+]

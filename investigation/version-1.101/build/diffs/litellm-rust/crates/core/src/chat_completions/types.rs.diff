@@ -1,0 +1,20 @@
+--- 1.100.0/litellm-rust/crates/core/src/chat_completions/types.rs
++++ 1.101.0rc1/litellm-rust/crates/core/src/chat_completions/types.rs
+@@ -20,6 +20,17 @@
+     pub custom_llm_provider: Option<&'a str>,
+     pub extra_headers: Option<Map<String, Value>>,
+     pub timeout: Option<Duration>,
++}
++
++pub(super) struct ResolvedChatCompletionsRequest<'a> {
++    pub(super) model: String,
++    pub(super) config: &'static dyn ChatCompletionsProviderConfig,
++    pub(super) messages: Vec<ChatMessage>,
++    pub(super) optional_params: Map<String, Value>,
++    pub(super) api_key: Option<&'a str>,
++    pub(super) api_base: Option<&'a str>,
++    pub(super) extra_headers: Option<Map<String, Value>>,
++    pub(super) timeout: Option<Duration>,
+ }
+ 
+ pub(super) struct ProviderChatCompletionsRequest {

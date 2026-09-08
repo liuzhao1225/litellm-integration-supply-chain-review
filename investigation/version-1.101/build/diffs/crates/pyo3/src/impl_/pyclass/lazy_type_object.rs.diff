@@ -1,0 +1,11 @@
+--- pyo30.29.0/src/impl_/pyclass/lazy_type_object.rs
++++ pyo30.29.2/src/impl_/pyclass/lazy_type_object.rs
+@@ -244,7 +244,7 @@
+     // the POV of other threads.
+     for (key, val) in items {
+         crate::err::error_on_minusone(py, unsafe {
+-            ffi::PyObject_SetAttrString(type_object, key.as_ptr(), val.into_ptr())
++            ffi::PyObject_SetAttrString(type_object, key.as_ptr(), val.as_ptr())
+         })?;
+     }
+     Ok(())

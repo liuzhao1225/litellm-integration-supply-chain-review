@@ -1,0 +1,134 @@
+[
+  {
+    "tag": "v3.10.0",
+    "commit": "b494f5935c92951e75597bfe1c8b1f3112fec270",
+    "tag_resolution": [
+      {
+        "url": "https://api.github.com/repos/python/cpython/git/ref/tags/v3.10.0",
+        "data": {
+          "ref": "refs/tags/v3.10.0",
+          "node_id": "MDM6UmVmODE1OTg5NjE6cmVmcy90YWdzL3YzLjEwLjA=",
+          "url": "https://api.github.com/repos/python/cpython/git/refs/tags/v3.10.0",
+          "object": {
+            "sha": "bfb376ffcc4260feb9bf1b9a110559b1ff31da80",
+            "type": "tag",
+            "url": "https://api.github.com/repos/python/cpython/git/tags/bfb376ffcc4260feb9bf1b9a110559b1ff31da80"
+          }
+        }
+      },
+      {
+        "url": "https://api.github.com/repos/python/cpython/git/tags/bfb376ffcc4260feb9bf1b9a110559b1ff31da80",
+        "data": {
+          "node_id": "TA_kwDOBN0Z8doAKGJmYjM3NmZmY2M0MjYwZmViOWJmMWI5YTExMDU1OWIxZmYzMWRhODA",
+          "sha": "bfb376ffcc4260feb9bf1b9a110559b1ff31da80",
+          "url": "https://api.github.com/repos/python/cpython/git/tags/bfb376ffcc4260feb9bf1b9a110559b1ff31da80",
+          "tagger": {
+            "name": "Pablo Galindo",
+            "email": "pablogsal@gmail.com",
+            "date": "2021-10-04T17:40:47Z"
+          },
+          "object": {
+            "sha": "b494f5935c92951e75597bfe1c8b1f3112fec270",
+            "type": "commit",
+            "url": "https://api.github.com/repos/python/cpython/git/commits/b494f5935c92951e75597bfe1c8b1f3112fec270"
+          },
+          "tag": "v3.10.0",
+          "message": "Python 3.10.0\n-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCAAdFiEEz9yiRbEEPPKl+Xhl/+h0BBaL2EcFAmFbPJ8ACgkQ/+h0BBaL\n2EfHRRAAvS0Z8NNZXSzsyQ42kLtR6Sni7hxw5D1ChD0h4hSk+zyybUUnMlAiZhf+\nfGuoj3rTncE/J756EYlF9/tuNVgx/LAkLNzFAIBnCq/r1xaHBQ/E4QxxMoqNQ2Bq\nxfB0gyGScy1HtMF6thhv18udG0Npgu+eIbwtqtVdJeUkuTgTsUz7+EOu9FZdap4t\ns/PB7F29gw8UVVMz8kR6IyIE1Rq6cvSilvgaLkzHiG9A9qLdUDE6qAo2bmx87J20\n7m0IkjqSkIyuNQDCI+lhehCgYNcOqy5f/rwCF1363cCErIZMpo6JOM/Jn9EwGO2H\nUtttg3KghgHiI7Yf2IFTxL2iCgfDiQ871PgcySNeYdM8dCPH/hrWpX5mi6a5Px3f\n8in3QbEN1mCOQFo92b/WyD90L6wpkjjPhMMdvyxaxDH2hluKSa6RCi+0dcegx+qK\n59mJxiz1d52mfRbyq0m0fQXUDcWbtzUgNwa6FYfDoS8bPGT8Fzt5boeI+QxUlUMX\nE3Pqb0s8vt8+Vgyk8xmNK+SbK6JLhYw7p1QYomRI3nS2IgrbRdTL2KQYTwbpnkQV\nvjmEbzMCZRFI9wiozBm8t7PITydTSfcC7DSho31FK9yKd9g1sWjhY7Oclgabezx6\nPjLsg41K/tKLixDqpMAYpPU/1Kdp7i9QHiPckjGRWSqRy2whTwU=\n=A8if\n-----END PGP SIGNATURE-----\n",
+          "verification": {
+            "verified": true,
+            "reason": "valid",
+            "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCAAdFiEEz9yiRbEEPPKl+Xhl/+h0BBaL2EcFAmFbPJ8ACgkQ/+h0BBaL\n2EfHRRAAvS0Z8NNZXSzsyQ42kLtR6Sni7hxw5D1ChD0h4hSk+zyybUUnMlAiZhf+\nfGuoj3rTncE/J756EYlF9/tuNVgx/LAkLNzFAIBnCq/r1xaHBQ/E4QxxMoqNQ2Bq\nxfB0gyGScy1HtMF6thhv18udG0Npgu+eIbwtqtVdJeUkuTgTsUz7+EOu9FZdap4t\ns/PB7F29gw8UVVMz8kR6IyIE1Rq6cvSilvgaLkzHiG9A9qLdUDE6qAo2bmx87J20\n7m0IkjqSkIyuNQDCI+lhehCgYNcOqy5f/rwCF1363cCErIZMpo6JOM/Jn9EwGO2H\nUtttg3KghgHiI7Yf2IFTxL2iCgfDiQ871PgcySNeYdM8dCPH/hrWpX5mi6a5Px3f\n8in3QbEN1mCOQFo92b/WyD90L6wpkjjPhMMdvyxaxDH2hluKSa6RCi+0dcegx+qK\n59mJxiz1d52mfRbyq0m0fQXUDcWbtzUgNwa6FYfDoS8bPGT8Fzt5boeI+QxUlUMX\nE3Pqb0s8vt8+Vgyk8xmNK+SbK6JLhYw7p1QYomRI3nS2IgrbRdTL2KQYTwbpnkQV\nvjmEbzMCZRFI9wiozBm8t7PITydTSfcC7DSho31FK9yKd9g1sWjhY7Oclgabezx6\nPjLsg41K/tKLixDqpMAYpPU/1Kdp7i9QHiPckjGRWSqRy2whTwU=\n=A8if\n-----END PGP SIGNATURE-----\n",
+            "payload": "object b494f5935c92951e75597bfe1c8b1f3112fec270\ntype commit\ntag v3.10.0\ntagger Pablo Galindo <pablogsal@gmail.com> 1633369247 +0100\n\nPython 3.10.0\n",
+            "verified_at": "2024-11-06T17:07:15Z"
+          }
+        }
+      }
+    ],
+    "files": [
+      {
+        "path": "v3.10.0/Misc/stable_abi.txt",
+        "url": "https://raw.githubusercontent.com/python/cpython/b494f5935c92951e75597bfe1c8b1f3112fec270/Misc/stable_abi.txt",
+        "sha256": "eb24799f63b0e86b0fcf01ad0340d425397f2074761de6fe6c1598cdda941b2c",
+        "checked_at_utc": "2026-09-08T21:20:43.989895+00:00"
+      },
+      {
+        "path": "v3.10.0/Include/object.h",
+        "url": "https://raw.githubusercontent.com/python/cpython/b494f5935c92951e75597bfe1c8b1f3112fec270/Include/object.h",
+        "sha256": "590e96204cc16a888a2f9736e0ceedea722479678962aa254435b968dffb648a",
+        "checked_at_utc": "2026-09-08T21:20:44.710261+00:00"
+      },
+      {
+        "path": "v3.10.0/PC/python3dll.c",
+        "url": "https://raw.githubusercontent.com/python/cpython/b494f5935c92951e75597bfe1c8b1f3112fec270/PC/python3dll.c",
+        "sha256": "ed454afc018fa74ebcd4c4dfba476ed73bb9bdd3e0880aab7948aa112675d7d5",
+        "checked_at_utc": "2026-09-08T21:20:45.458293+00:00"
+      }
+    ]
+  },
+  {
+    "tag": "v3.14.0",
+    "commit": "ebf955df7a89ed0c7968f79faec1de49f61ed7cb",
+    "tag_resolution": [
+      {
+        "url": "https://api.github.com/repos/python/cpython/git/ref/tags/v3.14.0",
+        "data": {
+          "ref": "refs/tags/v3.14.0",
+          "node_id": "MDM6UmVmODE1OTg5NjE6cmVmcy90YWdzL3YzLjE0LjA=",
+          "url": "https://api.github.com/repos/python/cpython/git/refs/tags/v3.14.0",
+          "object": {
+            "sha": "ac991beb29b1783316c4016c99468c008568d08a",
+            "type": "tag",
+            "url": "https://api.github.com/repos/python/cpython/git/tags/ac991beb29b1783316c4016c99468c008568d08a"
+          }
+        }
+      },
+      {
+        "url": "https://api.github.com/repos/python/cpython/git/tags/ac991beb29b1783316c4016c99468c008568d08a",
+        "data": {
+          "node_id": "TA_kwDOBN0Z8doAKGFjOTkxYmViMjliMTc4MzMxNmM0MDE2Yzk5NDY4YzAwODU2OGQwOGE",
+          "sha": "ac991beb29b1783316c4016c99468c008568d08a",
+          "url": "https://api.github.com/repos/python/cpython/git/tags/ac991beb29b1783316c4016c99468c008568d08a",
+          "tagger": {
+            "name": "Hugo van Kemenade",
+            "email": "1324225+hugovk@users.noreply.github.com",
+            "date": "2025-10-07T09:34:52Z"
+          },
+          "object": {
+            "sha": "ebf955df7a89ed0c7968f79faec1de49f61ed7cb",
+            "type": "commit",
+            "url": "https://api.github.com/repos/python/cpython/git/commits/ebf955df7a89ed0c7968f79faec1de49f61ed7cb"
+          },
+          "tag": "v3.14.0",
+          "message": "Python 3.14.0\n",
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        }
+      }
+    ],
+    "files": [
+      {
+        "path": "v3.14.0/Misc/stable_abi.toml",
+        "url": "https://raw.githubusercontent.com/python/cpython/ebf955df7a89ed0c7968f79faec1de49f61ed7cb/Misc/stable_abi.toml",
+        "sha256": "63bf4315950cbd246e3b41abf0092c606cbb066fc8c69d527d77583ffd5e3df0",
+        "checked_at_utc": "2026-09-08T21:20:43.997670+00:00"
+      },
+      {
+        "path": "v3.14.0/Include/object.h",
+        "url": "https://raw.githubusercontent.com/python/cpython/ebf955df7a89ed0c7968f79faec1de49f61ed7cb/Include/object.h",
+        "sha256": "a5c8f054899db3bde7c6b53808fab3aa097a10347bb597d335c2e03572a99712",
+        "checked_at_utc": "2026-09-08T21:20:44.781899+00:00"
+      },
+      {
+        "path": "v3.14.0/PC/python3dll.c",
+        "url": "https://raw.githubusercontent.com/python/cpython/ebf955df7a89ed0c7968f79faec1de49f61ed7cb/PC/python3dll.c",
+        "sha256": "94815caf217d09c4f3881369efe471550c598425dc41023b15edf5afeb86d26b",
+        "checked_at_utc": "2026-09-08T21:20:45.547195+00:00"
+      }
+    ]
+  }
+]

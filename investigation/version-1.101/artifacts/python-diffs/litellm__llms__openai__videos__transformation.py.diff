@@ -1,0 +1,13 @@
+--- 1.100.0/litellm/llms/openai/videos/transformation.py
++++ 1.101.0rc1/litellm/llms/openai/videos/transformation.py
+@@ -571,8 +571,8 @@
+ 
+     def _add_image_to_files(
+         self,
+-        files_list: list[tuple[str, Any]],
+-        image: Any,
++        files_list: list[tuple[str, FileTypes]],
++        image: FileContent,
+         field_name: str,
+     ) -> None:
+         """Add an image to the files list with appropriate content type"""

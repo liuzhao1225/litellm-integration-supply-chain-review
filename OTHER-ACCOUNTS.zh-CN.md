@@ -7,7 +7,7 @@
 | 对象 | 记录范围 | 证据与限制 |
 | --- | --- | --- |
 | prodmanpd | 49 个不同项目的 49 个 LiteLLM 集成 PR；22 个 SDK 调用、27 个 proxy 接入 | [PR 索引](PR-INDEX.md)、[约束](data/version-constraint-audit.json)、[锁文件](data/lock-audit.json)。公开搜索不能穷尽私人、删除或未索引活动。 |
-| RheagalFire | 45 个不同上游仓库的 45 个已定位 PR；22 个有固定 base/head 差异，23 个仍仅有搜索元数据 | [45 项索引](investigation/identity-network/account-expansion/rheagal-pr-index.json)、[固定提交摘要](investigation/identity-network/account-expansion/pr-snapshot.json)、[深入安装分析](investigation/identity-network/README.md)。未核验的标题不能直接计为 SDK 安装。 |
+| RheagalFire | 45 个不同上游仓库的 45 个已定位 PR；27 个有固定 base/head 差异，18 个仍仅有搜索元数据 | [45 项索引](investigation/identity-network/account-expansion/rheagal-pr-index.json)、[固定提交摘要](investigation/identity-network/account-expansion/pr-snapshot.json)、[五个补充样本](investigation/contributor-samples/README.md)。未核验的标题不能直接计为 SDK 安装。 |
 
 [账号元数据](https://api.github.com/users/prodmanpd)记录 prodmanpd 创建于 2020-04-07T11:19:35Z；[RheagalFire 元数据](https://api.github.com/users/RheagalFire)记录创建于 2020-01-23T08:20:17Z。注册日期不同，注册也不等于开始贡献或证明控制权始终未变。
 
@@ -19,6 +19,8 @@
 - [上游 #23276](https://github.com/BerriAI/litellm/pull/23276)确立 RheagalFire 的 LiteLLM 上游参与经历。PR 作者和上游分支信息仍不足以证明 PyPI 发布权限、雇佣关系或攻击参与。
 
 ## 历史攻击关联
+
+[五个补充样本](investigation/contributor-samples/README.md)确认 MemoryOS 的基础安装与 optional 描述不一致，ha-llmvision 在集成清单中加入 SDK，PyRIT 的最终约束由后续维护者收紧。两个数值范围虽允许历史恶意版本，当前 PyPI/阿里云索引没有相应候选；[时间和索引核验](investigation/historical-resolution/README.md)保留历史安装状态未知。
 
 两个 LiteLLM 披露 issue 的 605 条现存评论中，115 个账号在攻击当天发布了 267 条匹配重复文案的评论。其登录名与此次候选集合无交集；两个集成账号在这些现存评论中也无发言。精确筛选、时间和限制见[评论模式](investigation/identity-network/account-expansion/incident-comment-patterns.json)及[交集记录](investigation/identity-network/account-expansion/summary.json)。这项阴性结果不能排除改名、删除、私有活动或控制权变化。
 

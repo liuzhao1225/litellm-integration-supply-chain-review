@@ -1,0 +1,10 @@
+{
+  "filename": "litellm-1.101.0rc1-cp310-abi3-macosx_11_0_arm64.whl",
+  "sha256": "0238c7f35f6ca972b931f8ad308b1f5d3b1639ee301910a4877ea00b45477a16",
+  "upload_time": "2026-09-06T03:06:04.733607Z",
+  "yanked": false,
+  "url": "https://files.pythonhosted.org/packages/f0/9d/3a6d15aeae66d2f3fba5bc369199c3df6ba988aa3b6fbe0057f92e97d229/litellm-1.101.0rc1-cp310-abi3-macosx_11_0_arm64.whl",
+  "size": 24066744,
+  "checked_at_utc": "2026-09-08T21:42:15.696724+00:00",
+  "actual_sha256": "0238c7f35f6ca972b931f8ad308b1f5d3b1639ee301910a4877ea00b45477a16"
+}

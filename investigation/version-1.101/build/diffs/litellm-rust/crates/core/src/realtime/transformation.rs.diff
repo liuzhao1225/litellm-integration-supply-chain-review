@@ -1,0 +1,23 @@
+--- 1.100.0/litellm-rust/crates/core/src/realtime/transformation.rs
++++ 1.101.0rc1/litellm-rust/crates/core/src/realtime/transformation.rs
+@@ -1,4 +1,4 @@
+-use crate::CoreResult;
++use crate::Error;
+ use crate::realtime::types::{RealtimeEvent, RealtimeTransformResult};
+ 
+ pub trait RealtimeProviderConfig {
+@@ -11,12 +11,12 @@
+         &self,
+         event: &RealtimeEvent,
+         model: &str,
+-    ) -> CoreResult<RealtimeTransformResult>;
++    ) -> Result<RealtimeTransformResult, Error>;
+ 
+     /// Transform a backend → client event before it is forwarded downstream.
+     fn transform_realtime_response(
+         &self,
+         event: &RealtimeEvent,
+         model: &str,
+-    ) -> CoreResult<RealtimeTransformResult>;
++    ) -> Result<RealtimeTransformResult, Error>;
+ }

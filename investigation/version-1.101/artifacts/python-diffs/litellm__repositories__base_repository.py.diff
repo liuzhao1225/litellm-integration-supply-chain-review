@@ -1,0 +1,11 @@
+--- 1.100.0/litellm/repositories/base_repository.py
++++ 1.101.0rc1/litellm/repositories/base_repository.py
+@@ -40,7 +40,7 @@
+ class BaseRepository(ABC, Generic[T]):
+     """Abstract base class for all repositories."""
+ 
+-    def __init__(self, prisma_client: Any):  # any-ok: PrismaClient is an untyped runtime wrapper
++    def __init__(self, prisma_client: object):
+         self._prisma_client = prisma_client
+ 
+     @property

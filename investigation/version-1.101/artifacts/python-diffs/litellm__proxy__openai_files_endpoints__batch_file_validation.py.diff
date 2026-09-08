@@ -1,0 +1,13 @@
+--- 1.100.0/litellm/proxy/openai_files_endpoints/batch_file_validation.py
++++ 1.101.0rc1/litellm/proxy/openai_files_endpoints/batch_file_validation.py
+@@ -2,7 +2,9 @@
+ from collections.abc import Iterator
+ from dataclasses import dataclass
+ from itertools import chain
+-from typing import BinaryIO, Final, NoReturn, assert_never
++from typing import BinaryIO, Final, NoReturn
++
++from typing_extensions import assert_never
+ 
+ from litellm.proxy._types import ProxyException
+ 

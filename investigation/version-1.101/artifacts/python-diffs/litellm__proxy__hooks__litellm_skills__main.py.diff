@@ -1,0 +1,39 @@
+--- 1.100.0/litellm/proxy/hooks/litellm_skills/main.py
++++ 1.101.0rc1/litellm/proxy/hooks/litellm_skills/main.py
+@@ -65,6 +65,24 @@
+ 
+     @property
+     def tool_calls(self) -> Sequence[_ChatToolCall] | None: ...
++
++
++class _ChatChoice(Protocol):
++    @property
++    def message(self) -> _ChatMessage: ...
++
++    @property
++    def finish_reason(self) -> str | None: ...
++
++
++class _ChatCompletion(Protocol):
++    @property
++    def choices(self) -> Sequence[_ChatChoice]: ...
++
++
++def _first_choice(response: _ChatCompletion) -> _ChatChoice:
++    """The first choice of an OpenAI shaped completion response."""
++    return response.choices[0]
+ 
+ 
+ class SkillsInjectionHook(CustomLogger):
+@@ -738,8 +756,9 @@
+ 
+         for iteration in range(self.max_iterations):
+             # OpenAI format response has choices[0].message
+-            assistant_message: _ChatMessage = current_response.choices[0].message
+-            stop_reason: str | None = current_response.choices[0].finish_reason
++            choice: _ChatChoice = _first_choice(current_response)
++            assistant_message: _ChatMessage = choice.message
++            stop_reason: str | None = choice.finish_reason
+ 
+             # Build assistant message for conversation history
+             assistant_msg_dict: dict[str, object] = {

@@ -1,12 +1,12 @@
-# LiteLLM 1.100 供应链疑虑：事件调查报告
+# LiteLLM 1.100 与 1.101 供应链疑虑：事件调查报告
 
-本报告持续维护同一条事件线索，按事实关系重排和修订。资料核查日期：2026-09-09；时间线统一使用 UTC，必要处另列北京时间。调查对象是 LiteLLM 1.100 的制品、发布链、运行行为和供应链关联。[YouDub #130](https://github.com/liuzhao1225/YouDub-webui/pull/130)是发现线索的入口，也是评估下游影响的一个案例。
+本报告持续维护同一条事件线索，按事实关系重排和修订。资料核查日期：2026-09-09；时间线统一使用 UTC，必要处另列北京时间。调查对象是 LiteLLM 1.100 与 1.101 的制品、发布链、运行行为和供应链关联。[YouDub #130](https://github.com/liuzhao1225/YouDub-webui/pull/130)是发现线索的入口，也是评估下游影响的一个案例。
 
 ## 当前判断
 
 已经确认三类需要处理的问题：YouDub 默认安装与“可选依赖”描述不一致；允许安装的版本超出作者声称测试的版本；特定配置切换可能保留并跨 provider 传递旧 API key。批量集成也有公开记录，值得要求作者说明使用场景及相关关系。[#130 代码与讨论](https://github.com/liuzhao1225/YouDub-webui/pull/130)、[49-PR 索引](PR-INDEX.md)。
 
-**现有证据尚未确认 LiteLLM 1.100.0 被投毒，也未确认两个受调查账号参与攻击。** 制品与源码的一致性检查、已验证的镜像签名和前端功能来源构成需要保留的反证；它们仍未闭合原生二进制和完整构建来源问题。[制品清单](investigation/artifact-records/README.md)、[构建与前端证据](investigation/release-chain/README.md)。
+**现有证据尚未确认 LiteLLM 1.100.0 或 1.101.0rc1 被投毒，也未确认两个受调查账号参与攻击。** 制品与源码的一致性检查、已验证的镜像签名和前端功能来源构成需要保留的反证；它们仍未闭合原生二进制和完整构建来源问题。[制品清单](investigation/artifact-records/README.md)、[构建与前端证据](investigation/release-chain/README.md)。
 
 #130 保持开放、未合并，调查没有修改该 PR 的代码。状态和固定 head 见[读取记录](investigation/youdub-state.json)。
 
@@ -51,6 +51,7 @@ Snyk 指出恶意 .pth 自身也在 wheel RECORD 中正确登记。**与索引�
 | 2026-09-01 00:42–00:43 | LiteLLM 1.99.0 PyPI 上传 | [PyPI 元数据](https://pypi.org/pypi/litellm/1.99.0/json) |
 | 2026-09-06 00:22 | LiteLLM 1.100.0 全部八个 PyPI 文件上传 | [带精确时间的制品记录](investigation/artifact-records/pypi-artifacts.json) |
 | 2026-09-06 01:45:39 后 | Docker 构建修复合入，镜像随后完成发布 | [#39992](https://github.com/BerriAI/litellm/pull/39992)、[签名与镜像时间](updates/litellm-1.100-evidence/registry-verification.json) |
+| 2026-09-06 03:06:01–03:06:20 / 03:20:59 | PyPI 上传 1.101.0rc1 八个文件，随后发布 GitHub v1.101.0-rc.1 | [准确版本与发布时间](investigation/version-1.101/availability.json)；GitHub 标为 prerelease |
 | 2026-09-08 18:46:05 | YouDub #130 创建，随后删除可选 requirements 并加入默认依赖 | [PR](https://github.com/liuzhao1225/YouDub-webui/pull/130)、[安装变更](https://github.com/liuzhao1225/YouDub-webui/commit/1add1b6d90795ddc222c3f5021305a2e8d953a17) |
 | 2026-09-08 19:42 | Webclaw 维护者解释风险并关闭 PR | [维护者回复](https://github.com/0xMassi/webclaw/pull/123#issuecomment-5590829715)、[状态快照](investigation/contribution-followup/snapshot.json) |
 
@@ -60,7 +61,7 @@ Snyk 指出恶意 .pth 自身也在 wheel RECORD 中正确登记。**与索引�
 
 prodmanpd 的公开记录覆盖 85 个仓库、435 条可见分支和 122 个唯一提交 SHA；fork 继承、merge 与 squash 会导致逻辑重复。这些数字描述采集范围，不能代表独立功能数。49 个已定位 PR 全部围绕 LiteLLM，其中 22 个含 Python SDK 调用，27 个为代理兼容接入。按 9 月 8 日 19:47–19:50 UTC 快照，状态为 28 开放、17 合并、4 关闭未合并。[仓库元数据](data/repositories.json)、[提交记录](data/commits.json)、[PR 索引](PR-INDEX.md)、[状态核对](investigation/contribution-followup/README.md)。
 
-[Chartbrew 作者回复](https://github.com/chartbrew/chartbrew/pull/365#issuecomment-5207856315)明确承认跨项目提交 LiteLLM 集成，解释用途是支持已有网关的团队。该回复不确立雇佣、委托或赞助关系。RheagalFire 已定位 45 个不同项目的 PR，22 个已有固定差异，23 个仅有搜索元数据待核验，并有可见 LiteLLM 上游参与经历。两个账号是否由同一方控制、是否存在商业关联，以及是否关联发布权限，仍待第一手证据。[其他账号样本](OTHER-ACCOUNTS.zh-CN.md)。
+[Chartbrew 作者回复](https://github.com/chartbrew/chartbrew/pull/365#issuecomment-5207856315)明确承认跨项目提交 LiteLLM 集成，解释用途是支持已有网关的团队。该回复不确立雇佣、委托或赞助关系。RheagalFire 已定位 45 个不同项目的 PR，27 个已有固定差异，18 个仅有搜索元数据待核验，并有可见 LiteLLM 上游参与经历。两个账号是否由同一方控制、是否存在商业关联，以及是否关联发布权限，仍待第一手证据。[其他账号样本](OTHER-ACCOUNTS.zh-CN.md)。
 
 责任归属还需沿具体提交核对。[PyRIT #2154](https://github.com/microsoft/PyRIT/pull/2154)的现有十条提交中，首条归属 RheagalFire，后续九条归属 richlundeen；后者[明确收紧版本上限](https://github.com/microsoft/PyRIT/commit/d268c2334de93c7c862c1ddecaf0d28ee96b31c0)，最终固定清单为 `>=1.83.0,<1.92.0`，PR 描述仍写 `<2.0.0`。维护者的接手说明与提交记录互相支持，最终差异不能全部归给初始贡献者。已有作者问询、说明核验和发布来源问题集中在[公开沟通记录](investigation/author-clarifications/README.md)。
 
@@ -95,6 +96,8 @@ prodmanpd 的公开记录覆盖 85 个仓库、435 条可见分支和 122 个唯
 
 六个已完整读取的锁文件固定了 1.80.0、1.97.0 或 1.98.0，42 条 LiteLLM 制品 URL/哈希与对应 PyPI 元数据一致。[锁文件记录](data/lock-audit.json)。OpenExecutive 后来的上游同步 head 则固定 1.100.0，八个文件记录同样一致，保留其[当前快照](updates/OpenExecutive-98.json)。这些锁定行为削弱“所有贡献都会自动安装最新版本”的说法；锁文件的存在仍需结合安装入口和锁文件是否实际使用判断。
 
+新增[五个固定贡献样本](investigation/contributor-samples/README.md)确认：MemoryOS 的基础 requirements 与已有 Docker 安装会安装 LiteLLM，虽然正文称 optional；ha-llmvision 将 SDK 放入集成级依赖。另外两个项目分别添加 SDK 调用和 JS proxy 接入，未在这些改动中识别到新增安装载荷或攻击者外传端点。MemoryOS 与 ha-llmvision 的范围数值上包含历史恶意版本，但两个 PR 均在 3 月事件后数月创建，当前官方和阿里云索引也没有那两个版本的候选。这些观察不能证明历史安装结果。[时间与候选核验](investigation/historical-resolution/README.md)。
+
 ## 1.100 制品与发布链：已经验证到哪里
 
 [六次基础 SDK 子图解析](investigation/dependency-exposure/resolution/sdk-subgraph/comparison.json)在指定 Python 3.12、Linux/macOS 平台和当前 Aliyun 索引下均包含 55 个包，宽范围选中 1.100.0；固定为 1.99.0 时，其余 54 包版本相同。88 个不同 wheel 候选的文件名/hash 与 PyPI 元数据一致；未检查所有候选实体或将结果外推到完整 YouDub 环境。
@@ -109,12 +112,37 @@ prodmanpd 的公开记录覆盖 85 个仓库、435 条可见分支和 122 个唯
 | GHCR 镜像签名 | 1.99/1.100 的官方固定公钥签名验证通过，镜像 revision 对应标签 | 验证摘要绑定；标签自述、签名和可复现构建证明仍有区别 |
 | 前端 JS | 七平台映射一致；9 个差异 chunk 拆出同样 383 组模块 ID，压缩绑定差异和 MCP API 包装已有解释，三个功能模块新增字符串及主要触发路径均映射到固定源码；14 组压缩差异无需导入排序即可归一 | 支持正常源码重建解释；两个大型 UI 模块的整体形式等价和构建复现仍未完成 |
 | PyPI 构建证明 | 1.100 全部 8 个文件的 Integrity API 均返回 No provenance available | 证明在本次查询中不可取，不证明从未存在或一定投毒 |
+| PyPI 发布认证 | 八个官方文件详情均显示 Trusted Publishing Yes；直接 HTTP 抓取遇到挑战，字段来自网页读取器 | 支持 OIDC 短期发布凭据路径，不能识别实际操作者或证明构建安全 |
 
 证据：[制品清单与脚本](investigation/artifact-records/README.md)、[Python 与 Rust 源码比较](investigation/artifact-records/source-comparison.json)、[镜像签名及前端来源](updates/litellm-1.100-deep-audit-20260909.md)、[原生与 JS 模块分析](investigation/release-chain/README.md)、[八文件 provenance 响应](investigation/release-chain/integrity-all8.json)。其中 [JS 源码映射](investigation/release-chain/ts-literal-mapping.json)覆盖三个功能模块的 3、49、27 项新增解码字符串；[行为映射](investigation/release-chain/ts-behavior-mapping.json)记录用户导入回调、管理员按钮及预算 query/mutation 等触发条件。没有据此证明整个 bundle 语义等价。静态未检出结论均限定在各自检查规则与样本。
 
 发布过程还有一项真实差异：[官方 #39992](https://github.com/BerriAI/litellm/pull/39992)记录 PyPI 成功后 Docker 构建失败，原因涉及基础镜像和 Python/uvloop 兼容性；维护者修改六个 Dockerfile 再构建，跳过已有 PyPI 上传。同一个 1.100.0 标签名不能代替分别记录 PyPI 文件 hash 和 Docker digest。现有解释未显示攻击载荷，来源证明仍按渠道核对。
 
 Proxy/SSO 的旧漏洞告警也需按当前代码判断：1.100 默认 UI 会话为 24h，数据库 key 与 JWT 都有期限；部分撤销和 debug 数据过滤路径仍未闭合。这些是 Proxy 服务的条件性风险，SDK completion 不会自动启动 SSO HTTP 路由。[SSO 固定代码分析](updates/litellm-1.100-deep-audit-20260909.md)。
+
+[原生入口定向核验](investigation/native-entry/README.md)进一步确认，两版 Linux x86_64 扩展的三个 ELF 构造器、Python 模块执行槽及十个方法注册名没有新增入口。初始化回调、CPU 探测和 17 个一层被调函数共 19 对，在地址归一化及可解析外部符号比较中一致；实际 getenv 参数为 OPENSSL_ia32cap，对应相同 AWS-LC CPU 探测源码。当前未定位到新增初始化窃密、执行进程或外联路径；地址归一化、深层间接调用和其他平台仍是限制。
+
+[镜像构建声明核验](investigation/publishing-provenance/README.md)从已验证签名的索引延伸至四份 SLSA v1 声明，逐层哈希及目标摘要均吻合。1.100 两平台声明指向同一构建任务 34006625974 和固定源码 e4f252…；输入明确跳过 pypi-litellm，且完整性字段为 false。它补充镜像来源，仍不闭合原始 PyPI wheel 的构建记录。PyPI 网页标注八文件使用 Trusted Publishing，与 Integrity API 没有公开证明可以同时成立。
+
+[源码包构建时审计](investigation/build-time/README.md)确认，两版 PEP 517 后端均固定 maturin 1.9.4，配置和包自身唯一 build.rs 相同。新增 37 个 Cargo 锁条目中，普通依赖只有 pythonize 0.29.0；另外 36 个属于 criterion 开发依赖树。取得的 41 个相关 crate 归档均与锁定 checksum 一致，新增脚本未呈现固定下载或 shell 载荷；标准编译器调用与配置读取不构成恶意证据。
+
+仍有一个可具体核对的配置缺口：1.100 源码归档删除了 pyo3 的 abi3-py310 feature，包内配置未补回，而公开 wheel 仍标记 cp310-abi3。发布方可以通过外部参数恢复该 feature，因此当前需要原始发布命令、有效 feature 集和对应制品记录，不能据此认定篡改。[完整差异及后端判定逻辑](investigation/build-time/README.md)。
+
+[实际 ABI 导入核验](investigation/abi-compatibility/README.md)确认，1.100 的 111 个 Python 动态导入符号全部出现在固定 CPython 3.10 Stable ABI 清单中，所要求的稳定版本均不高于 3.10；其中包括比 1.99 新增的 34 个符号。当前没有发现导入符号与 cp310 标记冲突。该结果仍不验证宏、内联、结构布局或所有调用行为，也不还原实际构建参数。进一步对照发现，1.99 的 sdist 比固定 Git 的 bridge Cargo.toml 精确多出一个 abi3-py310 feature，其余字节一致；哪个打包步骤添加尚未确定。因此，Git 与 sdist 配置差异已有前例，需要比较具体构建过程。[单行差异与来源核验](investigation/abi-compatibility/git-vs-sdist-1.99.0-Cargo.json)。
+
+## 1.101 候选版：新增审计对象及安装边界
+
+截至 9 月 8 日 21:27 UTC，PyPI `1.101.0` 与 GitHub `v1.101.0` Release 查询返回 404；实际取得的是 PyPI `1.101.0rc1` 和 GitHub `v1.101.0-rc.1`。候选版八个文件上传于 9 月 6 日 03:06 UTC，GitHub 自动化账号于 03:20:59 UTC 创建的发布标为 prerelease。404 仅说明当前接口未取得该正式版记录，不证明删除或从未存在。[版本记录与调查入口](investigation/version-1.101/README.md)。
+
+[候选制品审计](investigation/version-1.101/artifacts/README.md)已取得七平台 wheel 并核对实体哈希，24,236 项 RECORD 哈希通过；每个平台 2,323 个 Python 文件匹配固定源码，Windows 结合原文和换行归一化判断。与 1.100 相比有 43 个新增、597 个修改文件，基础 14 项依赖和三个命令入口相同；来源匹配不等于完成所有行为审计。
+
+[候选构建审计](investigation/version-1.101/build/README.md)核实源码包要求 maturin 1.15.0，PyO3 升为 0.29.2，并显式启用 ABI3；七个 wheel 的 WHEEL 生成器字段仍写 maturin 1.9.4。外部旧版 CLI 构建可以解释该差异，实际原因需要原始命令与运行记录。Linux x86 的 112 个 Python 动态符号均在 CPython 3.10 Stable ABI 清单内，新增项为 PyErr_CheckSignals；初始化代码变化单独记录，不据此宣布整体等价。
+
+[发布来源](investigation/version-1.101/release-context/README.md)确认候选八文件也显示 Trusted Publishing，八次 Integrity 查询均无 provenance。[候选镜像签名及声明](investigation/version-1.101/images/README.md)核验通过，两个平台对应固定源码 eeb7732…；其 subject 为镜像摘要，没有绑定原始 PyPI 文件。公开 GitHub Create Release 流程发生在 PyPI 上传之后，不能替代该来源证明。
+
+[两个新增功能的定向核验](investigation/version-1.101/runtime-boundaries/README.md)记录 OpenAI workload identity 的配置条件，以及 Claude 诊断日志和 slash-command 文件写入的命令触发边界。它们有明确功能用途及条件，尚未据此识别攻击者端点或真实泄漏。更深调用、第三方 SDK 与完整新增行为仍需具体检查。
+
+候选版的制品与触发条件单独记录，1.100 的检查结果不会直接外推。存在满足约束的正式版时，pip 默认不会仅因 `>=1.89,<2` 安装这个 RC；显式候选版要求、`--pre`、其他解析器和已有环境需单独核对。[pip 官方预发布规则](https://pip.pypa.io/en/stable/cli/pip_install/#pre-release-versions)。
 
 ## LiteLLM 供应链的完整验证链
 

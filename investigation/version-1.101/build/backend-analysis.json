@@ -1,0 +1,65 @@
+{
+  "checked_at_utc": "2026-09-08T21:44:32.430834+00:00",
+  "api_url": "https://pypi.org/pypi/maturin/1.15.0/json",
+  "api_response_sha256": "fc4a6bace60149d4db8fab29703c8a695a47268f6d206dd7440a0c0d4985406e",
+  "url": "https://files.pythonhosted.org/packages/b9/c8/22e5e21b2679c9bce6415ca578034ca2cc9316be0642ae21e051a2d5198c/maturin-1.15.0.tar.gz",
+  "archive_sha256": "94b26cc8e8aba61a5f2099715fe640e18c5f678e9a500408b38761263954228a",
+  "matches_pypi": true,
+  "files": [
+    {
+      "member": "maturin/__init__.py",
+      "path": "backend/1.15.0/maturin/__init__.py.txt",
+      "sha256": "15ffe176b260cf842dc82045cfeb5782dc0d3c398d779ad84788f7bb53261763"
+    },
+    {
+      "member": "src/compile.rs",
+      "path": "backend/1.15.0/src/compile.rs.txt",
+      "sha256": "a45d5f944a788091e2979c507cefb06d4fb2035d2ef16e4b4186bb3825e981b7"
+    },
+    {
+      "member": "src/build_options.rs",
+      "path": "backend/1.15.0/src/build_options.rs.txt",
+      "sha256": "a8fd50f4aa66064b19bbefb475421952e03d3b68355745f6a9e1c3d9c5663302"
+    },
+    {
+      "member": "src/build_context/mod.rs",
+      "path": "backend/1.15.0/src/build_context/mod.rs.txt",
+      "sha256": "45386ff4d2e3625cf7cdcb548bd19714ca92701f86fb151be6acf3e295f738dd"
+    },
+    {
+      "member": "src/build_context/builder.rs",
+      "path": "backend/1.15.0/src/build_context/builder.rs.txt",
+      "sha256": "c1eb153f18b5dfd93f32492bc4e793f189f5fdeea381e3b18b147c952c38a2fb"
+    },
+    {
+      "member": "src/build_context/repair.rs",
+      "path": "backend/1.15.0/src/build_context/repair.rs.txt",
+      "sha256": "4776577b4bd522c7ee9df10af46440ede89d4b70d784e29a363bd14f05db02b9"
+    },
+    {
+      "member": "src/commands/pep517.rs",
+      "path": "backend/1.15.0/src/commands/pep517.rs.txt",
+      "sha256": "b1ef4851252a011b02b7c819ee908be4d99da20400392b34ed203d933a5683ec"
+    },
+    {
+      "member": "src/cross_compile.rs",
+      "path": "backend/1.15.0/src/cross_compile.rs.txt",
+      "sha256": "a1e4efff3cf53ff3a9f1a937686be6573b7968da79c65142049f4a18d98532d2"
+    },
+    {
+      "member": "pyproject.toml",
+      "path": "backend/1.15.0/pyproject.toml.txt",
+      "sha256": "e9129952b16e0572d6fa444944ae000c699545b3f97258a307f114ffa3b12979"
+    },
+    {
+      "member": "Cargo.toml",
+      "path": "backend/1.15.0/Cargo.toml.txt",
+      "sha256": "f1f19b9295485b1f16568f3dc36fc8b0dbef6f3b2697d17c6e9f37c302c03caf"
+    },
+    {
+      "member": "Cargo.lock",
+      "path": "backend/1.15.0/Cargo.lock.txt",
+      "sha256": "55cd5302953baf66ef08c5552c2294944dfe65251bfa51370be83370848c6f56"
+    }
+  ]
+}

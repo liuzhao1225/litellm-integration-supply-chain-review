@@ -1,0 +1,9 @@
+--- 1.100.0/litellm-rust/crates/ai-gateway/ARCHITECTURE.md
++++ 1.101.0rc1/litellm-rust/crates/ai-gateway/ARCHITECTURE.md
+@@ -9,4 +9,6 @@
+   C[client] <--> G[Rust ai-gateway<br/>LLM inference]
+   G <--> O[OpenAI realtime]
+   G -. spend tracking callback .-> P[litellm proxy]
++  F[litellm-config<br/>load-time only] --> G
++  F -. Python backend .-> P
+ ```

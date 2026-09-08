@@ -1,0 +1,56 @@
+{
+  "completed_at_utc": "2026-09-08T21:52:26.605696+00:00",
+  "report_sha256": "d7634709acc1bafa70b5e23e098ec085c084210adc340de27292933bc87497d6",
+  "manifest_sha256": "f6b2e25cddd09200e77881f08eccf053316701989887e3e9f42f81a73d39a779",
+  "publishable_files": 1226,
+  "publishable_bytes": 12725450,
+  "candidate": "1.101.0rc1",
+  "candidate_sdist_sha256": "acb7a84fdc8f19fc79e73df29b5fec4e8a3de9a4e74f41cbc14bd2ef1e7e8aae",
+  "git_commit": "eeb7732fc11fd47762ca84cc3fb7cc74235d7097",
+  "checks": {
+    "crate_archives_matching_lock": 27,
+    "git_files_compared": 28,
+    "git_byte_identical": 25,
+    "all_recorded_snapshot_hashes_checked": true,
+    "readme_links_checked": true,
+    "raw_archive_gitignore_checked": true,
+    "candidate_pgo_command_absent": true
+  },
+  "findings": {
+    "maturin": [
+      "1.9.4",
+      "1.15.0"
+    ],
+    "pyo3": [
+      "0.29.0",
+      "0.29.2"
+    ],
+    "cargo_packages": [
+      295,
+      313
+    ],
+    "new_registry_names": 16,
+    "upgraded_pyo3_crates": 5,
+    "new_local_crates": 2,
+    "own_build_rs_unchanged": true,
+    "abi3": "candidate default abi3 -> pyo3/abi3-py310, explicit maturin extension-module",
+    "new_build_script_crates": [
+      "mime_guess 2.0.5 normal multipart dependency",
+      "rstest_macros 0.26.1 development dependency"
+    ],
+    "pgo": "New backend can install instrumentation dependencies and execute shell command only when enabled plus nonempty pgo-command; absent from candidate config",
+    "wheel_generator": "All 7 wheels self-report maturin1.9.4 per reused artifact evidence. Source build requirement1.15.0; source Generator uses compiled CARGO_PKG_VERSION; original publication command missing."
+  },
+  "limits": [
+    "No installation/import/compilation/execution of any target, Cargo resolver, test or PEP517 hook",
+    "No full runtime/whole-backend dependency audit or binary-to-source equivalence proof",
+    "No wheels downloaded by this task",
+    "No staging, commit, push, old-report or root-file edits",
+    "Formal1.101.0 unavailable in input snapshot; conclusions apply to rc1"
+  ],
+  "tool_errors": [
+    "Backend old src/build_context.rs absent in1.15; assertion stopped, corrected to observed split paths using same archive",
+    "One helper rg glob typo rejected by zsh, corrected to concrete source paths",
+    "Initial old-crate cache path one level too high, causing five baseline crate downloads from official source; hashes verified and script path corrected"
+  ]
+}

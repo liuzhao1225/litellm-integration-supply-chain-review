@@ -1,0 +1,277 @@
+{
+  "tag": "v1.101.0-rc.1",
+  "index_source": {
+    "url": "https://ghcr.io/v2/berriai/litellm/manifests/v1.101.0-rc.1",
+    "started_at_utc": "2026-09-08T21:45:09.647660+00:00",
+    "http_status": 200,
+    "response_date": "Tue, 08 Sep 2026 21:45:10 GMT",
+    "bytes": 1609,
+    "sha256": "32c04b00bc1a720e6d5eeb56a7e72f4e1e7d1e538e779c59b990cbddfd5e27da"
+  },
+  "digest": "sha256:32c04b00bc1a720e6d5eeb56a7e72f4e1e7d1e538e779c59b990cbddfd5e27da",
+  "key_source": {
+    "url": "https://raw.githubusercontent.com/BerriAI/litellm/0112e53046018d726492c814b3644b7d376029d0/cosign.pub",
+    "started_at_utc": "2026-09-08T21:45:08.227258+00:00",
+    "http_status": 200,
+    "response_date": "Tue, 08 Sep 2026 21:45:09 GMT",
+    "bytes": 178,
+    "sha256": "ff8869bf14ba9d10af7b64b9d479543b44daec0165e715753c43ff8a998f6dd3"
+  },
+  "signatures_manifest_source": {
+    "url": "https://ghcr.io/v2/berriai/litellm/manifests/sha256-32c04b00bc1a720e6d5eeb56a7e72f4e1e7d1e538e779c59b990cbddfd5e27da.sig",
+    "started_at_utc": "2026-09-08T21:45:10.426196+00:00",
+    "http_status": 200,
+    "response_date": "Tue, 08 Sep 2026 21:45:11 GMT",
+    "bytes": 1622,
+    "sha256": "572ec6a0f8d2dcdfd65ff31290993ac405ab9c7f1f7847bc8959bf83ad2a6798"
+  },
+  "signatures": [
+    {
+      "verified": "Verified OK",
+      "signed_digest": "sha256:32c04b00bc1a720e6d5eeb56a7e72f4e1e7d1e538e779c59b990cbddfd5e27da",
+      "payload": {
+        "critical": {
+          "identity": {
+            "docker-reference": "ghcr.io/berriai/litellm"
+          },
+          "image": {
+            "docker-manifest-digest": "sha256:32c04b00bc1a720e6d5eeb56a7e72f4e1e7d1e538e779c59b990cbddfd5e27da"
+          },
+          "type": "cosign container image signature"
+        },
+        "optional": null
+      },
+      "source": {
+        "url": "https://ghcr.io/v2/berriai/litellm/blobs/sha256:0b406e88155b005baaf56f6d5c9d137d566e277c0832afff29fc8bb58be1af68",
+        "started_at_utc": "2026-09-08T21:45:11.160791+00:00",
+        "http_status": 200,
+        "response_date": "Tue, 08 Sep 2026 21:45:12 GMT",
+        "bytes": 239,
+        "sha256": "0b406e88155b005baaf56f6d5c9d137d566e277c0832afff29fc8bb58be1af68"
+      },
+      "signature_base64": "MEQCIFR67wcJn07qVIV0VnK8K/0hcaLYykCs3yJTZ5sFDWtzAiB22d3BSesupmcLhz0aTug1Cea7pUATy7Om/GHnQr9v8w==",
+      "has_bundle": true,
+      "bundle_or_transparency_log_verified": false
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux"
+      },
+      "digest": "sha256:fd5bed16d5c3f2a586e19d8b148d02e0ed4a209e65a90cfaac5e11a8b451bf61",
+      "manifest_source": {
+        "url": "https://ghcr.io/v2/berriai/litellm/manifests/sha256:fd5bed16d5c3f2a586e19d8b148d02e0ed4a209e65a90cfaac5e11a8b451bf61",
+        "started_at_utc": "2026-09-08T21:45:12.581312+00:00",
+        "http_status": 200,
+        "response_date": "Tue, 08 Sep 2026 21:45:13 GMT",
+        "bytes": 4483,
+        "sha256": "fd5bed16d5c3f2a586e19d8b148d02e0ed4a209e65a90cfaac5e11a8b451bf61"
+      },
+      "config_source": {
+        "url": "https://ghcr.io/v2/berriai/litellm/blobs/sha256:462e148765e0cda08399e78019c608e5d83c891874a93f1a40b0185c0823b3cd",
+        "started_at_utc": "2026-09-08T21:45:13.288268+00:00",
+        "http_status": 200,
+        "response_date": "Tue, 08 Sep 2026 21:45:14 GMT",
+        "bytes": 7140,
+        "sha256": "462e148765e0cda08399e78019c608e5d83c891874a93f1a40b0185c0823b3cd"
+      },
+      "created_claim": "2026-09-06T03:11:52.62019535Z",
+      "source_claim": "https://github.com/BerriAI/litellm",
+      "revision_claim": "eeb7732fc11fd47762ca84cc3fb7cc74235d7097"
+    },
+    {
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux"
+      },
+      "digest": "sha256:093a3de819eb3835041cec884d66e9e57520a126d45f22be10b0b5bec83028da",
+      "manifest_source": {
+        "url": "https://ghcr.io/v2/berriai/litellm/manifests/sha256:093a3de819eb3835041cec884d66e9e57520a126d45f22be10b0b5bec83028da",
+        "started_at_utc": "2026-09-08T21:45:17.047912+00:00",
+        "http_status": 200,
+        "response_date": "Tue, 08 Sep 2026 21:45:17 GMT",
+        "bytes": 4484,
+        "sha256": "093a3de819eb3835041cec884d66e9e57520a126d45f22be10b0b5bec83028da"
+      },
+      "config_source": {
+        "url": "https://ghcr.io/v2/berriai/litellm/blobs/sha256:077bdbbb461e967b8666260e5c237034090e6bc6749ab102a60c843928c79f75",
+        "started_at_utc": "2026-09-08T21:45:17.768346+00:00",
+        "http_status": 200,
+        "response_date": "Tue, 08 Sep 2026 21:45:19 GMT",
+        "bytes": 7144,
+        "sha256": "077bdbbb461e967b8666260e5c237034090e6bc6749ab102a60c843928c79f75"
+      },
+      "created_claim": "2026-09-06T03:13:17.879192508Z",
+      "source_claim": "https://github.com/BerriAI/litellm",
+      "revision_claim": "eeb7732fc11fd47762ca84cc3fb7cc74235d7097"
+    }
+  ],
+  "attestations": [
+    {
+      "signed_index_digest": "sha256:32c04b00bc1a720e6d5eeb56a7e72f4e1e7d1e538e779c59b990cbddfd5e27da",
+      "target_manifest_digest": "sha256:fd5bed16d5c3f2a586e19d8b148d02e0ed4a209e65a90cfaac5e11a8b451bf61",
+      "attestation_manifest_digest": "sha256:4997b9f8cbbb22cc613549ced44b7645a64adb8e3abb9f4ff48d79f25c8b0e3d",
+      "manifest_source": {
+        "url": "https://ghcr.io/v2/berriai/litellm/manifests/sha256:4997b9f8cbbb22cc613549ced44b7645a64adb8e3abb9f4ff48d79f25c8b0e3d",
+        "started_at_utc": "2026-09-08T21:45:14.670243+00:00",
+        "http_status": 200,
+        "response_date": "Tue, 08 Sep 2026 21:45:15 GMT",
+        "bytes": 838,
+        "sha256": "4997b9f8cbbb22cc613549ced44b7645a64adb8e3abb9f4ff48d79f25c8b0e3d"
+      },
+      "statement_digest": "sha256:92c07a903e82b8879b1e53c6293190dd8297b1d2475b86d9433e2933116051ff",
+      "statement_source": {
+        "url": "https://ghcr.io/v2/berriai/litellm/blobs/sha256:92c07a903e82b8879b1e53c6293190dd8297b1d2475b86d9433e2933116051ff",
+        "started_at_utc": "2026-09-08T21:45:15.388989+00:00",
+        "http_status": 200,
+        "response_date": "Tue, 08 Sep 2026 21:45:17 GMT",
+        "bytes": 10894,
+        "sha256": "92c07a903e82b8879b1e53c6293190dd8297b1d2475b86d9433e2933116051ff"
+      },
+      "hash_chain_verified": true,
+      "predicate_type": "https://slsa.dev/provenance/v1",
+      "build_type": "https://github.com/moby/buildkit/blob/master/docs/attestations/slsa-definitions.md",
+      "builder_id": "https://github.com/BerriAI/project-releaser/actions/runs/34007455118/attempts/1",
+      "workflow_ref_claim": "BerriAI/project-releaser/.github/workflows/release.yml@refs/heads/main",
+      "workflow_sha_claim": "bf703759a46aa779d0ffb8d4e2a64dc8b9a11650",
+      "actor_claim": "yuneng-berri",
+      "event_claim": "workflow_dispatch",
+      "inputs_claim": {
+        "allow_republish": "false",
+        "dry_run": "false",
+        "registries": "both",
+        "release_type": "rc"
+      },
+      "vcs_claim": {
+        "localdir:context": ".",
+        "localdir:dockerfile": ".",
+        "revision": "eeb7732fc11fd47762ca84cc3fb7cc74235d7097",
+        "source": "https://github.com/BerriAI/litellm"
+      },
+      "started_on_claim": "2026-09-06T03:08:36.784244185Z",
+      "finished_on_claim": "2026-09-06T03:12:10.797247902Z",
+      "completeness": {
+        "request": false,
+        "resolvedDependencies": false
+      },
+      "resolved_dependencies": [
+        {
+          "uri": "pkg:docker/cgr.dev/chainguard/wolfi-base?digest=sha256:e624c5d5e42382ce7165ddafcbbf8e6769a24cbd02ea6114b880b05ae5ba2a8d&platform=linux%2Famd64",
+          "digest": {
+            "sha256": "e624c5d5e42382ce7165ddafcbbf8e6769a24cbd02ea6114b880b05ae5ba2a8d"
+          }
+        },
+        {
+          "uri": "pkg:docker/docker/dockerfile@1.7",
+          "digest": {
+            "sha256": "a57df69d0ea827fb7266491f2813635de6f17269be881f696fbfdf2d83dda33e"
+          }
+        },
+        {
+          "uri": "pkg:docker/ghcr.io/astral-sh/uv@0.11.7?digest=sha256:240fb85ab0f263ef12f492d8476aa3a2e4e1e333f7d67fbdd923d00a506a516a&platform=linux%2Famd64",
+          "digest": {
+            "sha256": "240fb85ab0f263ef12f492d8476aa3a2e4e1e333f7d67fbdd923d00a506a516a"
+          }
+        }
+      ],
+      "local_contexts": [
+        {
+          "name": "context"
+        },
+        {
+          "name": "dockerfile"
+        },
+        {
+          "name": "ui-builder"
+        }
+      ]
+    },
+    {
+      "signed_index_digest": "sha256:32c04b00bc1a720e6d5eeb56a7e72f4e1e7d1e538e779c59b990cbddfd5e27da",
+      "target_manifest_digest": "sha256:093a3de819eb3835041cec884d66e9e57520a126d45f22be10b0b5bec83028da",
+      "attestation_manifest_digest": "sha256:2abae68715a67c141cce3623bfde16c713b3b3d90cc86e9da2c4609d9c664c3d",
+      "manifest_source": {
+        "url": "https://ghcr.io/v2/berriai/litellm/manifests/sha256:2abae68715a67c141cce3623bfde16c713b3b3d90cc86e9da2c4609d9c664c3d",
+        "started_at_utc": "2026-09-08T21:45:19.157469+00:00",
+        "http_status": 200,
+        "response_date": "Tue, 08 Sep 2026 21:45:19 GMT",
+        "bytes": 838,
+        "sha256": "2abae68715a67c141cce3623bfde16c713b3b3d90cc86e9da2c4609d9c664c3d"
+      },
+      "statement_digest": "sha256:70b0e3520250a373a6d4592819307fefc580f14161ef8fde870ed406f76adadf",
+      "statement_source": {
+        "url": "https://ghcr.io/v2/berriai/litellm/blobs/sha256:70b0e3520250a373a6d4592819307fefc580f14161ef8fde870ed406f76adadf",
+        "started_at_utc": "2026-09-08T21:45:19.863555+00:00",
+        "http_status": 200,
+        "response_date": "Tue, 08 Sep 2026 21:45:21 GMT",
+        "bytes": 10895,
+        "sha256": "70b0e3520250a373a6d4592819307fefc580f14161ef8fde870ed406f76adadf"
+      },
+      "hash_chain_verified": true,
+      "predicate_type": "https://slsa.dev/provenance/v1",
+      "build_type": "https://github.com/moby/buildkit/blob/master/docs/attestations/slsa-definitions.md",
+      "builder_id": "https://github.com/BerriAI/project-releaser/actions/runs/34007455118/attempts/1",
+      "workflow_ref_claim": "BerriAI/project-releaser/.github/workflows/release.yml@refs/heads/main",
+      "workflow_sha_claim": "bf703759a46aa779d0ffb8d4e2a64dc8b9a11650",
+      "actor_claim": "yuneng-berri",
+      "event_claim": "workflow_dispatch",
+      "inputs_claim": {
+        "allow_republish": "false",
+        "dry_run": "false",
+        "registries": "both",
+        "release_type": "rc"
+      },
+      "vcs_claim": {
+        "localdir:context": ".",
+        "localdir:dockerfile": ".",
+        "revision": "eeb7732fc11fd47762ca84cc3fb7cc74235d7097",
+        "source": "https://github.com/BerriAI/litellm"
+      },
+      "started_on_claim": "2026-09-06T03:07:21.374106122Z",
+      "finished_on_claim": "2026-09-06T03:13:36.700336076Z",
+      "completeness": {
+        "request": false,
+        "resolvedDependencies": false
+      },
+      "resolved_dependencies": [
+        {
+          "uri": "pkg:docker/cgr.dev/chainguard/wolfi-base?digest=sha256:e624c5d5e42382ce7165ddafcbbf8e6769a24cbd02ea6114b880b05ae5ba2a8d&platform=linux%2Farm64",
+          "digest": {
+            "sha256": "e624c5d5e42382ce7165ddafcbbf8e6769a24cbd02ea6114b880b05ae5ba2a8d"
+          }
+        },
+        {
+          "uri": "pkg:docker/docker/dockerfile@1.7",
+          "digest": {
+            "sha256": "a57df69d0ea827fb7266491f2813635de6f17269be881f696fbfdf2d83dda33e"
+          }
+        },
+        {
+          "uri": "pkg:docker/ghcr.io/astral-sh/uv@0.11.7?digest=sha256:240fb85ab0f263ef12f492d8476aa3a2e4e1e333f7d67fbdd923d00a506a516a&platform=linux%2Farm64",
+          "digest": {
+            "sha256": "240fb85ab0f263ef12f492d8476aa3a2e4e1e333f7d67fbdd923d00a506a516a"
+          }
+        }
+      ],
+      "local_contexts": [
+        {
+          "name": "context"
+        },
+        {
+          "name": "dockerfile"
+        },
+        {
+          "name": "ui-builder"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "No image filesystem layers fetched or executed.",
+    "Publisher statements are hash-bound to the signed index; underlying CI execution is not independently verified.",
+    "The fixed key verifies signed bytes, not actual operator identity or absence of compromise.",
+    "No transparency log or certificate identity verification performed."
+  ]
+}

@@ -1,0 +1,11 @@
+--- pyo3-ffi0.29.0/src/cpython/object.rs
++++ pyo3-ffi0.29.2/src/cpython/object.rs
+@@ -321,7 +321,7 @@
+ #[cfg(not(Py_3_11))]
+ pub unsafe fn PyHeapType_GET_MEMBERS(etype: *mut PyHeapTypeObject) -> *mut PyMemberDef {
+     let py_type = object::Py_TYPE(etype as *mut object::PyObject);
+-    let ptr = etype.offset((*py_type).tp_basicsize);
++    let ptr = etype.byte_offset((*py_type).tp_basicsize);
+     ptr as *mut PyMemberDef
+ }
+ 

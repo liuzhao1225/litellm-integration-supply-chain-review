@@ -1,0 +1,34 @@
+pushq	%r15
+pushq	%r14
+pushq	%rbx
+movq	(%rdi), %r15
+movq	0x8(%rdi), %rbx
+leaq	RIP(%rip), %rdi
+callq	TARGET
+movq	%rax, %r14
+cmpq	$0x0, 0xd8(%rax)
+jle	TARGET
+movq	%r15, %rdi
+callq	*RIP(%rip)
+leaq	0xd8(%r14), %rax
+cmpq	$0x0, (%rax)
+jle	TARGET
+movq	%rbx, %rdi
+popq	%rbx
+popq	%r14
+popq	%r15
+jmpq	*RIP(%rip)
+movq	%r15, %rdi
+callq	TARGET
+jmp	TARGET
+movq	%rbx, %rdi
+popq	%rbx
+popq	%r14
+popq	%r15
+jmp	TARGET
+movq	%rax, %r14
+movq	%rbx, %rdi
+callq	TARGET
+movq	%r14, %rdi
+callq	TARGET
+callq	TARGET

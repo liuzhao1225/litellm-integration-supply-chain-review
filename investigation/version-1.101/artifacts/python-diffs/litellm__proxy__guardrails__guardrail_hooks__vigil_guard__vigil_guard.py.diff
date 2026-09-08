@@ -1,0 +1,11 @@
+--- 1.100.0/litellm/proxy/guardrails/guardrail_hooks/vigil_guard/vigil_guard.py
++++ 1.101.0rc1/litellm/proxy/guardrails/guardrail_hooks/vigil_guard/vigil_guard.py
+@@ -433,7 +433,7 @@
+         return collected
+ 
+     @staticmethod
+-    def _clamp_metadata_value(value: Any) -> _MetadataValue | None:
++    def _clamp_metadata_value(value: object) -> _MetadataValue | None:
+         if isinstance(value, bool):
+             return None
+         if isinstance(value, str):
