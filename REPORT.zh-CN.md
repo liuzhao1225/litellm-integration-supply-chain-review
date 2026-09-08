@@ -69,6 +69,8 @@ prodmanpd 的公开记录覆盖 85 个仓库、435 条可见分支和 122 个唯
 
 两个历史披露 issue 的 605 条现存评论已被核对；115 个账号在攻击当天发表了 267 条精确匹配的重复文案评论，与此次 416 个候选登录名无交集。该结果限定于现存用户名及评论，不证明私下无关联。[评论筛选与交叉记录](investigation/identity-network/account-expansion/summary.json)、[历史账号角色区分](investigation/identity-network/README.md)。
 
+针对批量集成、下游需求及关联披露的疑虑，维护者于 9 月 8 日 22:00:50 UTC 在上游发布 [LiteLLM #40308](https://github.com/BerriAI/litellm/issues/40308)，请求说明贡献是否独立、赞助或协调。正文保留代理接入与 SDK 的区别及作者已有解释，没有声称所有项目均无需求，也没有声称当前投毒已经成立。[正文与发布回执](investigation/author-clarifications/README.md)。
+
 ## YouDub #130：下游安装与凭据案例
 
 固定审查版本为 [1add1b6d90795ddc222c3f5021305a2e8d953a17](https://github.com/liuzhao1225/YouDub-webui/commit/1add1b6d90795ddc222c3f5021305a2e8d953a17)。

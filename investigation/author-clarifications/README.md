@@ -19,7 +19,15 @@ PyRIT 的[固定 pyproject](https://github.com/microsoft/PyRIT/blob/245f74c12a6a
 2. 让负责依赖改动、测试和发布的各方分别说明自己完成的工作，引用各自有权公开的记录。问题保持中性，不暗示已经掌握投毒证据。
 3. 比对说明与固定提交、锁文件、测试配置、构建时间和制品 hash。矛盾需要定位到具体字段；修改说明和正常工程原因同样保留。
 4. 只请求与争议有关的非敏感记录，例如准确版本与脱敏命令。无需 API key、登录 token、完整环境变量或私人联系信息。
-5. 需要发布来源说明时，先整理八个制品的准确身份与对应缺口，形成一条明确请求；本文中的发布方问题尚未对外发送。
+5. 需要发布来源说明时，先整理八个制品的准确身份与对应缺口，形成一条明确请求；下文关于制品构建的问题草稿尚未对外发送。
+
+## 已发布的上游澄清请求
+
+2026-09-08 **22:00:50 UTC**，liuzhao1225 在 LiteLLM 上游创建 [#40308：Concern about bulk integration PRs and affiliation disclosure](https://github.com/BerriAI/litellm/issues/40308)。发布后回读确认作者、标题和正文，状态为 open。[正文副本](upstream-integration-issue.md)、[发布与回读记录](upstream-integration-issue-receipt.json)。
+
+Issue 说明已保存的 49 个跨项目 PR 样本，区分 SDK 与 proxy 接入；引用 YouDub #130 默认安装和可选描述的矛盾，以及允许版本超出作者声称测试版本的问题。它要求 LiteLLM/BerriAI 澄清贡献是否独立、赞助或协调，并请贡献者说明下游需求、相关关系和安装测试边界。
+
+内容同时引用作者关于已有网关用户的合理解释和官方历史攻击通报，明确尚未证明当前版本投毒或贡献者参与攻击。没有声称全部项目都不需要 LiteLLM，也没有把跨项目贡献等同于恶意。发布前按 prodmanpd、YouDub、当前作者及 cross-project 检索上游 issue，未找到相同讨论；这是搜索结果的可见范围。
 
 ## 供发布维护者核对的问题草稿
 
