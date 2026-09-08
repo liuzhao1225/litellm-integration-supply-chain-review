@@ -62,6 +62,8 @@ prodmanpd 的公开记录覆盖 85 个仓库、435 条可见分支和 122 个唯
 
 [Chartbrew 作者回复](https://github.com/chartbrew/chartbrew/pull/365#issuecomment-5207856315)明确承认跨项目提交 LiteLLM 集成，解释用途是支持已有网关的团队。该回复不确立雇佣、委托或赞助关系。RheagalFire 已定位 45 个不同项目的 PR，22 个已有固定差异，23 个仅有搜索元数据待核验，并有可见 LiteLLM 上游参与经历。两个账号是否由同一方控制、是否存在商业关联，以及是否关联发布权限，仍待第一手证据。[其他账号样本](OTHER-ACCOUNTS.zh-CN.md)。
 
+责任归属还需沿具体提交核对。[PyRIT #2154](https://github.com/microsoft/PyRIT/pull/2154)的现有十条提交中，首条归属 RheagalFire，后续九条归属 richlundeen；后者[明确收紧版本上限](https://github.com/microsoft/PyRIT/commit/d268c2334de93c7c862c1ddecaf0d28ee96b31c0)，最终固定清单为 `>=1.83.0,<1.92.0`，PR 描述仍写 `<2.0.0`。维护者的接手说明与提交记录互相支持，最终差异不能全部归给初始贡献者。已有作者问询、说明核验和发布来源问题集中在[公开沟通记录](investigation/author-clarifications/README.md)。
+
 20 个出现明确数字依赖约束的 PR 都使用等价于 <2 的上限，8 个写成 <2.0.0；同时存在窄范围和锁文件反例。[约束核查](data/version-constraint-audit.json)。例如未提交 PR 的 [AI-Youtube-Shorts-Generator fork commit](https://github.com/prodmanpd/AI-Youtube-Shorts-Generator/commit/6bdf862985ea9bfad5cc4ddd14c89047067e12ce)使用 >=1.85,<1.96。版本兼容边界、常规测试替身和重复集成本身均不足以证明恶意。RheagalFire 的 [Haystack 集成](https://github.com/deepset-ai/haystack-core-integrations/blob/1af2c6606191a137ca924a8e72beeb8afb760131/integrations/litellm/pyproject.toml)还明确排除 1.82.7/1.82.8；[GuideLLM](investigation/identity-network/account-expansion/guidellm-lock-verification.json)锁定 1.95.0，16 个制品记录与 PyPI 一致。
 
 两个历史披露 issue 的 605 条现存评论已被核对；115 个账号在攻击当天发表了 267 条精确匹配的重复文案评论，与此次 416 个候选登录名无交集。该结果限定于现存用户名及评论，不证明私下无关联。[评论筛选与交叉记录](investigation/identity-network/account-expansion/summary.json)、[历史账号角色区分](investigation/identity-network/README.md)。
