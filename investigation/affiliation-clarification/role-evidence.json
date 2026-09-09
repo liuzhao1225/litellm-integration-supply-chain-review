@@ -1,0 +1,41 @@
+{
+  "profiles": [
+    {
+      "login": "prodmanpd",
+      "profile_url": "https://github.com/prodmanpd",
+      "company_self_declared": null,
+      "bio_self_declared": null,
+      "blog_self_declared": "",
+      "public_org_logins": [],
+      "limits": "Self-edited profile fields and public membership visibility do not establish or exclude employment, private membership, sponsorship, commissioning or PyPI roles."
+    },
+    {
+      "login": "RheagalFire",
+      "profile_url": "https://github.com/RheagalFire",
+      "company_self_declared": "ScaledFocus",
+      "bio_self_declared": null,
+      "blog_self_declared": "https://behavior.systems/",
+      "public_org_logins": [],
+      "limits": "Self-edited profile fields and public membership visibility do not establish or exclude employment, private membership, sponsorship, commissioning or PyPI roles."
+    }
+  ],
+  "known_upstream_pr": {
+    "url": "https://github.com/BerriAI/litellm/pull/23276",
+    "author": "RheagalFire",
+    "author_association": "CONTRIBUTOR",
+    "head_repository": "BerriAI/litellm",
+    "merged_by": "Sameerlite",
+    "merged_at": "2026-03-11T13:24:39Z",
+    "issue_comment_authors": [
+      "greptile-apps[bot]",
+      "vercel[bot]",
+      "CLAassistant"
+    ],
+    "submitted_review_authors": [
+      "greptile-apps[bot]"
+    ],
+    "limits": "Repository participation and a same-repository PR head do not identify precise historical permissions, current role, or PyPI publishing authority."
+  },
+  "conclusion": "No new first-party assignment/sponsorship/coordination or artifact publishing linkage established in the inspected surfaces. Prior upstream participation remains supported.",
+  "prior_bounded_negative_evidence": "../identity-network/publisher-query-summary.json"
+}

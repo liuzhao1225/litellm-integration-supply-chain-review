@@ -1,0 +1,502 @@
+[
+  {
+    "id": 4913982522,
+    "html_url": "https://github.com/yilewang/llm-for-zotero/pull/316",
+    "title": "Feat/add litellm provider",
+    "created_at": "2026-07-17T18:49:48Z",
+    "updated_at": "2026-09-08T19:32:32Z",
+    "state": "open",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 4914002967,
+    "html_url": "https://github.com/microsoft/TinyTroupe/pull/160",
+    "title": "Feat/add litellm provider",
+    "created_at": "2026-07-17T18:53:12Z",
+    "updated_at": "2026-09-08T19:32:36Z",
+    "state": "open",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 4914062516,
+    "html_url": "https://github.com/xunbu/docutranslate/pull/53",
+    "title": "Feat/add litellm provider",
+    "created_at": "2026-07-17T19:03:00Z",
+    "updated_at": "2026-09-08T19:32:40Z",
+    "state": "open",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 4914107131,
+    "html_url": "https://github.com/polyrabbit/hacker-news-digest/pull/47",
+    "title": "Feat/add litellm provider",
+    "created_at": "2026-07-17T19:10:01Z",
+    "updated_at": "2026-09-08T19:32:43Z",
+    "state": "open",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 4914155619,
+    "html_url": "https://github.com/modelscope/FunClip/pull/178",
+    "title": "Feat/add litellm provider",
+    "created_at": "2026-07-17T19:17:54Z",
+    "updated_at": "2026-09-08T19:32:46Z",
+    "state": "closed",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5043964024,
+    "html_url": "https://github.com/chartbrew/chartbrew/pull/365",
+    "title": "Feat/litellm OpenAI base url",
+    "created_at": "2026-08-02T18:48:47Z",
+    "updated_at": "2026-09-08T19:32:50Z",
+    "state": "open",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5044131603,
+    "html_url": "https://github.com/itsOwen/CyberScraper-2077/pull/50",
+    "title": "feat: support LiteLLM gateway",
+    "created_at": "2026-08-02T19:34:13Z",
+    "updated_at": "2026-09-08T19:32:54Z",
+    "state": "closed",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5044167717,
+    "html_url": "https://github.com/e2b-dev/surf/pull/40",
+    "title": "feat: support LiteLLM gateway",
+    "created_at": "2026-08-02T19:44:11Z",
+    "updated_at": "2026-09-08T19:33:03Z",
+    "state": "open",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5044256697,
+    "html_url": "https://github.com/cltk/cltk/pull/1332",
+    "title": "feat: add LiteLLM backend",
+    "created_at": "2026-08-02T20:08:30Z",
+    "updated_at": "2026-09-08T19:54:22Z",
+    "state": "closed",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5049338090,
+    "html_url": "https://github.com/Atmosphere/atmosphere/pull/2735",
+    "title": "feat(ai): add LiteLLM proxy quick factory to OpenAiCompatibleClient",
+    "created_at": "2026-08-03T11:36:38Z",
+    "updated_at": "2026-09-08T19:33:11Z",
+    "state": "closed",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5049383307,
+    "html_url": "https://github.com/inkeep/agents/pull/3492",
+    "title": "feat: add LiteLLM as an OpenAI-compatible model provider",
+    "created_at": "2026-08-03T11:42:18Z",
+    "updated_at": "2026-09-08T19:33:14Z",
+    "state": "open",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5050555848,
+    "html_url": "https://github.com/ShenSeanChen/waku-agent/pull/73",
+    "title": "feat: add LiteLLM proxy as a provider",
+    "created_at": "2026-08-03T13:53:08Z",
+    "updated_at": "2026-09-08T19:33:18Z",
+    "state": "closed",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5051498531,
+    "html_url": "https://github.com/Nutlope/notesGPT/pull/44",
+    "title": "feat: add LiteLLM gateway support for chat + embeddings",
+    "created_at": "2026-08-03T15:31:31Z",
+    "updated_at": "2026-09-08T19:33:22Z",
+    "state": "open",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5052050981,
+    "html_url": "https://github.com/k8sgpt-ai/k8sgpt/pull/1719",
+    "title": "feat: add LiteLLM backend",
+    "created_at": "2026-08-03T16:34:14Z",
+    "updated_at": "2026-09-08T19:33:26Z",
+    "state": "closed",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5112814226,
+    "html_url": "https://github.com/SciSharp/BotSharp/pull/1395",
+    "title": "feat: add LiteLLM as AI gateway provider",
+    "created_at": "2026-08-10T17:41:57Z",
+    "updated_at": "2026-09-08T19:33:29Z",
+    "state": "closed",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5113129673,
+    "html_url": "https://github.com/mnemox-ai/tradememory-protocol/pull/10",
+    "title": "feat: add LiteLLM provider for Evolution LLM client",
+    "created_at": "2026-08-10T18:23:20Z",
+    "updated_at": "2026-09-08T19:33:33Z",
+    "state": "open",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5113478029,
+    "html_url": "https://github.com/orneryd/NornicDB/pull/292",
+    "title": "feat: add LiteLLM as a Heimdall chat provider",
+    "created_at": "2026-08-10T19:08:10Z",
+    "updated_at": "2026-09-08T19:33:37Z",
+    "state": "closed",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5113720576,
+    "html_url": "https://github.com/VersusControl/versus-incident/pull/333",
+    "title": "feat: add LiteLLM as an AI gateway provider",
+    "created_at": "2026-08-10T19:39:56Z",
+    "updated_at": "2026-09-08T19:33:54Z",
+    "state": "open",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5113822663,
+    "html_url": "https://github.com/krishn404/Git-Friend/pull/15",
+    "title": "feat: add LiteLLM as AI gateway proxy",
+    "created_at": "2026-08-10T19:53:42Z",
+    "updated_at": "2026-09-08T19:33:58Z",
+    "state": "open",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5116478684,
+    "html_url": "https://github.com/MindWorkAI/AI-Studio/pull/909",
+    "title": "Add LiteLLM as a new LLM provider",
+    "created_at": "2026-08-11T03:50:23Z",
+    "updated_at": "2026-09-08T19:34:02Z",
+    "state": "closed",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5117058437,
+    "html_url": "https://github.com/nextai-translator/nextai-translator/pull/1905",
+    "title": "feat: add LiteLLM as AI gateway provider",
+    "created_at": "2026-08-11T05:45:55Z",
+    "updated_at": "2026-09-08T19:34:06Z",
+    "state": "closed",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5172760800,
+    "html_url": "https://github.com/StarTrail-org/LEANN/pull/395",
+    "title": "feat: add LiteLLM as an AI Gateway",
+    "created_at": "2026-08-17T14:22:18Z",
+    "updated_at": "2026-09-08T19:34:10Z",
+    "state": "closed",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5172818578,
+    "html_url": "https://github.com/SWE-bench/SWE-bench/pull/639",
+    "title": " feat: add LiteLLM as an AI Gateway",
+    "created_at": "2026-08-17T14:32:55Z",
+    "updated_at": "2026-09-08T19:34:14Z",
+    "state": "closed",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5172862167,
+    "html_url": "https://github.com/buxuku/SmartSub/pull/448",
+    "title": "feat: add LiteLLM as a first-class AI translation provider",
+    "created_at": "2026-08-17T14:40:59Z",
+    "updated_at": "2026-09-08T19:34:18Z",
+    "state": "open",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5173118175,
+    "html_url": "https://github.com/TIGER-AI-Lab/ClawBench/pull/288",
+    "title": "feat: add LiteLLM judge api_type",
+    "created_at": "2026-08-17T15:30:34Z",
+    "updated_at": "2026-09-08T19:39:51Z",
+    "state": "closed",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5173156903,
+    "html_url": "https://github.com/trpc-group/trpc-agent-go/pull/2484",
+    "title": "feat: add litellm as AI provider gateway",
+    "created_at": "2026-08-17T15:39:58Z",
+    "updated_at": "2026-09-08T19:34:26Z",
+    "state": "open",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5173202149,
+    "html_url": "https://github.com/jianchang512/pyvideotrans/pull/1181",
+    "title": "Feat/add litellm provider",
+    "created_at": "2026-08-17T15:49:53Z",
+    "updated_at": "2026-09-08T19:34:30Z",
+    "state": "closed",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5173236951,
+    "html_url": "https://github.com/lofcz/LLMTornado/pull/186",
+    "title": "feat: add LiteLLM as AI gateway provider",
+    "created_at": "2026-08-17T15:57:55Z",
+    "updated_at": "2026-09-08T19:34:45Z",
+    "state": "closed",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5173259995,
+    "html_url": "https://github.com/continuedev/continue/pull/13151",
+    "title": "feat: add litellm as AI provider gateway",
+    "created_at": "2026-08-17T16:03:09Z",
+    "updated_at": "2026-09-08T19:34:49Z",
+    "state": "open",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5237381446,
+    "html_url": "https://github.com/OpenBMB/UltraRAG/pull/496",
+    "title": "feat: add LiteLLM backend",
+    "created_at": "2026-08-24T17:03:47Z",
+    "updated_at": "2026-09-08T19:34:53Z",
+    "state": "closed",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5237570581,
+    "html_url": "https://github.com/OtterMind/Chat2DB/pull/2757",
+    "title": "feat: add LiteLLM as an AI provider",
+    "created_at": "2026-08-24T17:26:10Z",
+    "updated_at": "2026-09-08T19:34:57Z",
+    "state": "open",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5237627721,
+    "html_url": "https://github.com/zhayujie/CowAgent/pull/3075",
+    "title": "feat: add LiteLLM as a provider",
+    "created_at": "2026-08-24T17:32:23Z",
+    "updated_at": "2026-09-08T19:35:00Z",
+    "state": "closed",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5237687269,
+    "html_url": "https://github.com/StarTrail-org/PixelRAG/pull/145",
+    "title": "feat: add LiteLLM SDK backend to eval client",
+    "created_at": "2026-08-24T17:38:34Z",
+    "updated_at": "2026-09-08T19:35:04Z",
+    "state": "closed",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5237734019,
+    "html_url": "https://github.com/trailhq/Graft/pull/220",
+    "title": "feat: add LiteLLM provider with /v1/models discovery",
+    "created_at": "2026-08-24T17:43:44Z",
+    "updated_at": "2026-09-08T19:35:07Z",
+    "state": "closed",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5237778797,
+    "html_url": "https://github.com/Tencent/AI-Infra-Guard/pull/598",
+    "title": "feat: route scanners through LiteLLM SDK for multi-provider support",
+    "created_at": "2026-08-24T17:48:30Z",
+    "updated_at": "2026-09-08T19:35:11Z",
+    "state": "open",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5237844224,
+    "html_url": "https://github.com/trace-cortex/cortex-app/pull/9",
+    "title": "feat: route LLM calls through LiteLLM for multi-provider support",
+    "created_at": "2026-08-24T17:56:07Z",
+    "updated_at": "2026-09-08T19:35:16Z",
+    "state": "open",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5301854655,
+    "html_url": "https://github.com/datalab-to/marker/pull/1097",
+    "title": "feat: add litellm provider",
+    "created_at": "2026-08-31T15:23:05Z",
+    "updated_at": "2026-09-08T19:35:20Z",
+    "state": "open",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5301893631,
+    "html_url": "https://github.com/datajuicer/data-juicer/pull/1062",
+    "title": "feat: add litellm provider",
+    "created_at": "2026-08-31T15:27:02Z",
+    "updated_at": "2026-09-08T19:35:27Z",
+    "state": "closed",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5301929015,
+    "html_url": "https://github.com/TideDra/zotero-arxiv-daily/pull/294",
+    "title": "feat: add litellm provider",
+    "created_at": "2026-08-31T15:30:33Z",
+    "updated_at": "2026-09-08T19:35:31Z",
+    "state": "open",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5302247127,
+    "html_url": "https://github.com/Tencent/WeKnora/pull/2923",
+    "title": "feat: add LiteLLM as a model provider",
+    "created_at": "2026-08-31T16:03:29Z",
+    "updated_at": "2026-09-08T19:35:35Z",
+    "state": "closed",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5302284473,
+    "html_url": "https://github.com/0xMassi/webclaw/pull/123",
+    "title": "feat: add litellm provider",
+    "created_at": "2026-08-31T16:07:26Z",
+    "updated_at": "2026-09-08T19:42:52Z",
+    "state": "closed",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5302324441,
+    "html_url": "https://github.com/nageoffer/ragent/pull/126",
+    "title": "feat: add LiteLLM as AI gateway provider",
+    "created_at": "2026-08-31T16:11:39Z",
+    "updated_at": "2026-09-08T19:35:42Z",
+    "state": "open",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5302347107,
+    "html_url": "https://github.com/sdcb/chats/pull/142",
+    "title": "feat: add LiteLLM as AI gateway provider",
+    "created_at": "2026-08-31T16:14:05Z",
+    "updated_at": "2026-09-08T19:35:46Z",
+    "state": "open",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5390209506,
+    "html_url": "https://github.com/Awarexone/Agentic-Bug-Hunter/pull/129",
+    "title": "feat: add LiteLLM as a multi-provider gateway backend",
+    "created_at": "2026-09-08T18:03:34Z",
+    "updated_at": "2026-09-08T19:35:49Z",
+    "state": "open",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5390320384,
+    "html_url": "https://github.com/agentscope-ai/OpenJudge/pull/196",
+    "title": "feat: add LiteLLM as a first-class chat model provider",
+    "created_at": "2026-09-08T18:15:08Z",
+    "updated_at": "2026-09-08T19:35:53Z",
+    "state": "open",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5390405579,
+    "html_url": "https://github.com/jjyaoao/HelloAgents/pull/113",
+    "title": "feat: add litellm provider",
+    "created_at": "2026-09-08T18:23:49Z",
+    "updated_at": "2026-09-08T19:35:57Z",
+    "state": "open",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5390520111,
+    "html_url": "https://github.com/SenteLabsAI/OpenExecutive/pull/98",
+    "title": "feat: add LiteLLM as an LLM gateway provider",
+    "created_at": "2026-09-08T18:35:01Z",
+    "updated_at": "2026-09-08T20:06:23Z",
+    "state": "closed",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5390628991,
+    "html_url": "https://github.com/liuzhao1225/YouDub-webui/pull/130",
+    "title": "feat: add LiteLLM transport for translation",
+    "created_at": "2026-09-08T18:46:05Z",
+    "updated_at": "2026-09-08T19:32:28Z",
+    "state": "open",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5390773724,
+    "html_url": "https://github.com/ageerle/ruoyi-ai/pull/333",
+    "title": "feat: add LiteLLM as chat and embedding provider",
+    "created_at": "2026-09-08T19:01:44Z",
+    "updated_at": "2026-09-08T19:37:54Z",
+    "state": "open",
+    "author": "prodmanpd",
+    "previously_catalogued": true
+  },
+  {
+    "id": 5390857551,
+    "html_url": "https://github.com/control-theory/gonzo/pull/149",
+    "title": "feat: add LiteLLM as an AI provider",
+    "created_at": "2026-09-08T19:11:04Z",
+    "updated_at": "2026-09-08T19:11:48Z",
+    "state": "open",
+    "author": "prodmanpd",
+    "previously_catalogued": false
+  }
+]

@@ -2,6 +2,8 @@
 
 State snapshot: September 8, 2026, 19:47–19:50 UTC ([captured responses](investigation/contribution-followup/snapshot.json)). Totals: 28 open, 17 merged, 4 closed without merging. Created dates below are UTC. Original revisions remain preserved; the OpenExecutive synchronization is linked separately.
 
+The 49 entries below came from an author-only PR search without a LiteLLM keyword. A public author-only search on September 9, 2026, 02:16:36–02:16:38 UTC returned 50 entries and covered all original 49. The additional [Gonzo #149](https://github.com/control-theory/gonzo/pull/149) was created at September 8, 19:11:04 UTC, after the original search completed. Its metadata and author claims are recorded separately; its code and claimed tests have not been independently audited. The table's 22 SDK / 27 proxy classification and state totals retain their original scope. See [query methods and limits](investigation/affiliation-clarification/query-method.json) and [current metadata](investigation/affiliation-clarification/pr-metadata.json).
+
 | PR | Created at (UTC) | State | Integration | Snapshot |
 | --- | --- | --- | --- | --- |
 | [yilewang/llm-for-zotero #316](https://github.com/yilewang/llm-for-zotero/pull/316) | 2026-07-17T18:49:48Z | open | proxy-compatible | [head 49abae562f](prs/yilewang__llm-for-zotero__316.json) |

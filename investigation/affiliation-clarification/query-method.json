@@ -1,0 +1,55 @@
+{
+  "original": {
+    "command": "gh api 'search/issues?q=author%3Aprodmanpd+type%3Apr&per_page=100&sort=created&order=asc'",
+    "decoded_query": "author:prodmanpd type:pr",
+    "contains_litellm_keyword": false,
+    "page": 1,
+    "page_was_implicit": true,
+    "per_page": 100,
+    "paginate_flag": false,
+    "total_count": 49,
+    "returned_count": 49,
+    "incomplete_results": false,
+    "search_type": "lexical",
+    "capture_start_utc": "2026-09-08T19:10:14.824Z",
+    "capture_completion_observed_utc": "2026-09-08T19:10:24.967Z",
+    "time_basis": "Enclosing tool call and completed output from retained local session; not HTTP server timestamps.",
+    "session_id": "01a0825f-0ed4-70c0-abc1-5b03271efadd",
+    "session_lines": [
+      211,
+      215
+    ],
+    "response_bytes": 333552,
+    "response_sha256": "20da15de241b125dea4549282123f67481d057383663f2e7b17565be309d6f22",
+    "collector_sha256": "70679b7f4bf044149d19f1d7a60a3ab5bf465c43fe6913da604c73519550e684",
+    "urls_equal_published_49": true,
+    "followup_collector": "Reads all items directly, no LiteLLM filter; per-PR files/commits/comments/reviews/review-comments use gh api --paginate --slurp.",
+    "published_catalogue": {
+      "path": "data/prs.json",
+      "bytes": 133995,
+      "sha256": "ea0ddc88a71eee207088e46ec0309e27e62593deea75fd6ac9a32a0c9d74ff99",
+      "count": 49
+    }
+  },
+  "current": {
+    "decoded_query": "author:prodmanpd is:pr is:public",
+    "source": "https://api.github.com/search/issues?q=author%3Aprodmanpd%20is%3Apr%20is%3Apublic&per_page=100&page=1&sort=created&order=asc",
+    "contains_litellm_keyword": false,
+    "page": 1,
+    "per_page": 100,
+    "total_count": 50,
+    "returned_count": 50,
+    "incomplete_results": false,
+    "title_mentions_litellm_count": 50,
+    "old_urls_missing": [],
+    "new_urls": [
+      "https://github.com/control-theory/gonzo/pull/149"
+    ]
+  },
+  "limits": [
+    "Original query used authenticated visibility without explicit is:public; all 49 output URLs correspond to the reviewed public PR catalogue.",
+    "Current query explicitly restricts to public PRs. Search visibility/indexing/deletions constrain both snapshots.",
+    "A PR denominator does not cover issues, reviews, commits, private or deleted activity; it supplies no ecosystem baseline or motive probability.",
+    "No new project source fetched. The 50th PR remains metadata-only; do not change the 22 SDK/27 proxy verified counts."
+  ]
+}

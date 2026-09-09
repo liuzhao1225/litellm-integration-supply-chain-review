@@ -32,7 +32,7 @@
 | --- | --- | --- |
 | 制品与发布链 | 刷新准确 1.101 正式版/候选版状态；阅读[上游原生发行讨论 #31261](https://github.com/BerriAI/litellm/issues/31261)及直接关联的公开构建脚本；追 maturin 1.15.0 源码声明与 1.9.4 wheel 字段、ABI feature 处理的实际来源 | 按 wheel hash、源码、工具链、feature 和运行身份形成来源矩阵。取得可验证绑定，或明确具体已查来源与仍缺记录，并准备中性构建问询草稿。新材料写入 `investigation/wheel-build-origin/` |
 | 依赖与安装暴露 | 优先追候选新增 MCP outbound credentials 刷新与 SSO assertion 捕获的秘密来源、缓存/日志、发送目标和隔离条件；再沿 OpenAI workload identity 的实际调用者及 SDK 交接检查 | 给出文件/函数/行号、激活条件和反例，分别标注正常用途、真实风险及未闭合的数据流；发现具体问题再扩展相邻调用。新材料写入 `investigation/runtime-sensitive-delta/` |
-| 账号与贡献网络 | 读取[#40308](https://github.com/BerriAI/litellm/issues/40308)、[YouDub #130](https://github.com/liuzhao1225/YouDub-webui/pull/130)新增说明；核对既有两个账号的公开角色或贡献关系；复核49-PR采集查询与分母 | 提供可归属的一手陈述及交叉证据，区分贡献关系与发布权限；说明49条是全部可见结果还是筛选样本及遗漏边界。无新增证据也如实交付。新材料写入 `investigation/affiliation-clarification/` |
+| 账号与贡献网络 | 已完成原始49条与当前50条的无关键词查询核验；核对[#40308](https://github.com/BerriAI/litellm/issues/40308)、[YouDub #130](https://github.com/liuzhao1225/YouDub-webui/pull/130)、Chartbrew及两个账号的既有公开关系信息 | [有界交付](investigation/affiliation-clarification/README.md)：新增Gonzo #149仅存元数据，旧22 SDK/27 proxy分类保留；未取得新的委托、赞助或发布权限说明。当前不重复查询或扩大账号范围；有具体新答复时再核验 |
 
 总管负责交叉验证冲突、汇总证据、维护统一报告及对外沟通。构建说明由账号方向及时转给制品方向；其余工作目录独立，完成后主动向总管汇报。新建目录只有完成审查的公开文件清单才进入 Git。
 

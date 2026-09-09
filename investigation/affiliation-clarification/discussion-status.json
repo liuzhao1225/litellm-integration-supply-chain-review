@@ -1,0 +1,339 @@
+{
+  "threads": [
+    {
+      "html_url": "https://github.com/BerriAI/litellm/issues/40308",
+      "state": "open",
+      "created_at": "2026-09-08T22:00:50Z",
+      "updated_at": "2026-09-08T22:01:09Z",
+      "closed_at": null,
+      "merged_at": null,
+      "author_association": "NONE",
+      "author": "liuzhao1225",
+      "head_sha": null,
+      "surfaces": [
+        {
+          "collection": "upstream-comments",
+          "page": 1,
+          "per_page": 100,
+          "returned_count": 0,
+          "pagination_complete_by_short_page": true,
+          "items": []
+        }
+      ]
+    },
+    {
+      "html_url": "https://github.com/liuzhao1225/YouDub-webui/pull/130",
+      "state": "open",
+      "created_at": "2026-09-08T18:46:05Z",
+      "updated_at": "2026-09-08T19:32:28Z",
+      "closed_at": null,
+      "merged_at": null,
+      "author_association": "FIRST_TIME_CONTRIBUTOR",
+      "author": "prodmanpd",
+      "head_sha": "1add1b6d90795ddc222c3f5021305a2e8d953a17",
+      "surfaces": [
+        {
+          "collection": "youdub-comments",
+          "page": 1,
+          "per_page": 100,
+          "returned_count": 3,
+          "pagination_complete_by_short_page": true,
+          "items": [
+            {
+              "id": 5590328462,
+              "url": "https://github.com/liuzhao1225/YouDub-webui/pull/130#issuecomment-5590328462",
+              "author": "liuzhao1225",
+              "author_association": "OWNER",
+              "created_at": "2026-09-08T19:02:19Z",
+              "updated_at": "2026-09-08T19:02:19Z",
+              "body_sha256": "7bb7bc3ffc42b68c6764b4a5a29780f7d65b37b51b68f5660b9ada784d392c4e"
+            },
+            {
+              "id": 5590586641,
+              "url": "https://github.com/liuzhao1225/YouDub-webui/pull/130#issuecomment-5590586641",
+              "author": "liuzhao1225",
+              "author_association": "OWNER",
+              "created_at": "2026-09-08T19:23:45Z",
+              "updated_at": "2026-09-08T19:23:45Z",
+              "body_sha256": "563031b4a297496a0b61993ad9d12ffac0fb4679c96cedaf411a2bbb5131b3dc"
+            },
+            {
+              "id": 5590699738,
+              "url": "https://github.com/liuzhao1225/YouDub-webui/pull/130#issuecomment-5590699738",
+              "author": "liuzhao1225",
+              "author_association": "OWNER",
+              "created_at": "2026-09-08T19:32:28Z",
+              "updated_at": "2026-09-08T19:32:28Z",
+              "body_sha256": "30d7e46e990e5fd1ecc5231888464f5fbf34982d9dc1a98c91b2c732f2a3ffc8"
+            }
+          ],
+          "baseline_comparison": {
+            "baseline_sha256": "73d6a96b2c820a56df376ea1dd4454011be235f3bdd3bc92b4792b0fb88d22c2",
+            "new_ids": [
+              5590586641,
+              5590699738
+            ],
+            "missing_ids": [],
+            "changed_body_ids": []
+          }
+        },
+        {
+          "collection": "youdub-reviews",
+          "page": 1,
+          "per_page": 100,
+          "returned_count": 1,
+          "pagination_complete_by_short_page": true,
+          "items": [
+            {
+              "id": 5145856643,
+              "url": "https://github.com/liuzhao1225/YouDub-webui/pull/130#pullrequestreview-5145856643",
+              "author": "liuzhao1225",
+              "author_association": "OWNER",
+              "created_at": "2026-09-08T18:58:56Z",
+              "updated_at": null,
+              "body_sha256": "4ff725443a5477974ded410bcd5ae8b4cae795938889a84aa7c4e951d9448c1f"
+            }
+          ],
+          "baseline_comparison": {
+            "baseline_sha256": "51db0cb9191743c0b6413a69043510d4884c66593750dc889a460267011b3c12",
+            "new_ids": [],
+            "missing_ids": [],
+            "changed_body_ids": []
+          }
+        },
+        {
+          "collection": "youdub-inline",
+          "page": 1,
+          "per_page": 100,
+          "returned_count": 1,
+          "pagination_complete_by_short_page": true,
+          "items": [
+            {
+              "id": 3961261334,
+              "url": "https://github.com/liuzhao1225/YouDub-webui/pull/130#discussion_r3961261334",
+              "author": "liuzhao1225",
+              "author_association": "OWNER",
+              "created_at": "2026-09-08T18:58:56Z",
+              "updated_at": "2026-09-08T18:58:56Z",
+              "body_sha256": "9714dea63cd3a3ebf77d8bc87f0efb0b6c41f28d3b6e163ca2bdbad477fa7e3c"
+            }
+          ],
+          "baseline_comparison": {
+            "baseline_sha256": "72d0bf4bc13d20e1515d1986b1bbcbaa2f9e1cfb7d22ac0d05f667c372c67109",
+            "new_ids": [],
+            "missing_ids": [],
+            "changed_body_ids": []
+          }
+        }
+      ]
+    },
+    {
+      "html_url": "https://github.com/chartbrew/chartbrew/pull/365",
+      "state": "open",
+      "created_at": "2026-08-02T18:48:47Z",
+      "updated_at": "2026-09-08T19:32:50Z",
+      "closed_at": null,
+      "merged_at": null,
+      "author_association": "NONE",
+      "author": "prodmanpd",
+      "head_sha": "0fefa20573e9b0c732deea7e93541a686aa83853",
+      "surfaces": [
+        {
+          "collection": "chartbrew-comments",
+          "page": 1,
+          "per_page": 100,
+          "returned_count": 5,
+          "pagination_complete_by_short_page": true,
+          "items": [
+            {
+              "id": 5159824255,
+              "url": "https://github.com/chartbrew/chartbrew/pull/365#issuecomment-5159824255",
+              "author": "github-actions[bot]",
+              "author_association": "CONTRIBUTOR",
+              "created_at": "2026-08-02T18:48:59Z",
+              "updated_at": "2026-08-02T18:56:49Z",
+              "body_sha256": "05d951e764d8c57c0cd488a0e17bf2ba0745d3ceb8c130fa34da60cd37599335"
+            },
+            {
+              "id": 5159852371,
+              "url": "https://github.com/chartbrew/chartbrew/pull/365#issuecomment-5159852371",
+              "author": "prodmanpd",
+              "author_association": "NONE",
+              "created_at": "2026-08-02T18:56:42Z",
+              "updated_at": "2026-08-02T18:56:42Z",
+              "body_sha256": "367d6d75e69dd367ebf5c775a59bf4285f771ffa0d208c39bd676a060a586068"
+            },
+            {
+              "id": 5162631959,
+              "url": "https://github.com/chartbrew/chartbrew/pull/365#issuecomment-5162631959",
+              "author": "razvanilin",
+              "author_association": "MEMBER",
+              "created_at": "2026-08-03T05:25:48Z",
+              "updated_at": "2026-08-03T05:25:48Z",
+              "body_sha256": "e288b1e8dce629577f57dee56fa049cb9a20afb8bfdf868d2dcbc773c4ed96b5"
+            },
+            {
+              "id": 5207856315,
+              "url": "https://github.com/chartbrew/chartbrew/pull/365#issuecomment-5207856315",
+              "author": "prodmanpd",
+              "author_association": "NONE",
+              "created_at": "2026-08-06T17:34:09Z",
+              "updated_at": "2026-08-06T17:39:56Z",
+              "body_sha256": "817d938472cfce42724fdcb51b2d45260058b5a6b192551063855d82c0125e01"
+            },
+            {
+              "id": 5590704021,
+              "url": "https://github.com/chartbrew/chartbrew/pull/365#issuecomment-5590704021",
+              "author": "liuzhao1225",
+              "author_association": "NONE",
+              "created_at": "2026-09-08T19:32:50Z",
+              "updated_at": "2026-09-08T19:32:50Z",
+              "body_sha256": "059a2488c16facfd2a788c7f42f504f64998de812a9747838c2ef8739601a1e5"
+            }
+          ],
+          "baseline_comparison": {
+            "baseline_sha256": "c3215576e120717644cd14b98f504677740f10d4c9ef86bf28eb700fec925c3d",
+            "new_ids": [
+              5590704021
+            ],
+            "missing_ids": [],
+            "changed_body_ids": []
+          }
+        },
+        {
+          "collection": "chartbrew-reviews",
+          "page": 1,
+          "per_page": 100,
+          "returned_count": 0,
+          "pagination_complete_by_short_page": true,
+          "items": [],
+          "baseline_comparison": {
+            "baseline_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "new_ids": [],
+            "missing_ids": [],
+            "changed_body_ids": []
+          }
+        },
+        {
+          "collection": "chartbrew-inline",
+          "page": 1,
+          "per_page": 100,
+          "returned_count": 0,
+          "pagination_complete_by_short_page": true,
+          "items": [],
+          "baseline_comparison": {
+            "baseline_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "new_ids": [],
+            "missing_ids": [],
+            "changed_body_ids": []
+          }
+        }
+      ]
+    },
+    {
+      "html_url": "https://github.com/BerriAI/litellm/pull/23276",
+      "state": "closed",
+      "created_at": "2026-03-10T15:58:04Z",
+      "updated_at": "2026-08-27T07:14:55Z",
+      "closed_at": "2026-03-11T13:24:39Z",
+      "merged_at": "2026-03-11T13:24:39Z",
+      "author_association": "CONTRIBUTOR",
+      "author": "RheagalFire",
+      "head_sha": "f243e5615f7e614dc154818e103e5138b6554b10",
+      "surfaces": [
+        {
+          "collection": "rheagal-upstream-comments",
+          "page": 1,
+          "per_page": 100,
+          "returned_count": 3,
+          "pagination_complete_by_short_page": true,
+          "items": [
+            {
+              "id": 4032612318,
+              "url": "https://github.com/BerriAI/litellm/pull/23276#issuecomment-4032612318",
+              "author": "greptile-apps[bot]",
+              "author_association": "CONTRIBUTOR",
+              "created_at": "2026-03-10T16:01:32Z",
+              "updated_at": "2026-03-11T13:27:33Z",
+              "body_sha256": "53538167702638e66b0cd88b69453a7f407d736d78019936bd34a1348fe780ee"
+            },
+            {
+              "id": 4033923045,
+              "url": "https://github.com/BerriAI/litellm/pull/23276#issuecomment-4033923045",
+              "author": "vercel[bot]",
+              "author_association": "NONE",
+              "created_at": "2026-03-10T19:31:37Z",
+              "updated_at": "2026-03-11T13:22:11Z",
+              "body_sha256": "383070cef3bfd5eae6b8a4a68d46af44fb5816b920c1f44b58cc700736e17d11"
+            },
+            {
+              "id": 4034474273,
+              "url": "https://github.com/BerriAI/litellm/pull/23276#issuecomment-4034474273",
+              "author": "CLAassistant",
+              "author_association": "NONE",
+              "created_at": "2026-03-10T21:06:57Z",
+              "updated_at": "2026-08-27T07:14:55Z",
+              "body_sha256": "7399ac4c0781437f253eda8f5041752ad9326087c99fa7af0fda144cab857640"
+            }
+          ]
+        },
+        {
+          "collection": "rheagal-upstream-reviews",
+          "page": 1,
+          "per_page": 100,
+          "returned_count": 1,
+          "pagination_complete_by_short_page": true,
+          "items": [
+            {
+              "id": 3923593281,
+              "url": "https://github.com/BerriAI/litellm/pull/23276#pullrequestreview-3923593281",
+              "author": "greptile-apps[bot]",
+              "author_association": "CONTRIBUTOR",
+              "created_at": "2026-03-10T16:01:40Z",
+              "updated_at": null,
+              "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            }
+          ]
+        },
+        {
+          "collection": "rheagal-upstream-inline",
+          "page": 1,
+          "per_page": 100,
+          "returned_count": 1,
+          "pagination_complete_by_short_page": true,
+          "items": [
+            {
+              "id": 2912818553,
+              "url": "https://github.com/BerriAI/litellm/pull/23276#discussion_r2912818553",
+              "author": "greptile-apps[bot]",
+              "author_association": "CONTRIBUTOR",
+              "created_at": "2026-03-10T16:01:39Z",
+              "updated_at": "2026-03-10T16:01:40Z",
+              "body_sha256": "67526c9ca00165426e0f659e4cf18b343622b9ca675ec86247c2e9ad082e9f27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "author_explanation": {
+    "id": 5207856315,
+    "url": "https://github.com/chartbrew/chartbrew/pull/365#issuecomment-5207856315",
+    "author": "prodmanpd",
+    "author_association": "NONE",
+    "created_at": "2026-08-06T17:34:09Z",
+    "updated_at": "2026-08-06T17:39:56Z",
+    "body_sha256": "817d938472cfce42724fdcb51b2d45260058b5a6b192551063855d82c0125e01",
+    "quote": "Yes, I have been submitting LiteLLM integrations to open-source projects.",
+    "paraphrase_zh": "作者称接入面向已有模型网关的团队，并表示自己并非日常 Chartbrew 用户。",
+    "verified_fact": "The named account posted this explanation; wording and created/updated timestamps are recorded.",
+    "unverified_claims": [
+      "Specific downstream demand and actual team use",
+      "Independent, paid, sponsored or commissioned status",
+      "Employment, shared control or publishing permission"
+    ]
+  },
+  "new_build_origin_explanation_found": false,
+  "new_affiliation_disclosure_found": false,
+  "baseline_note": "Per-surface comparisons use the original approximately 19:10 UTC collection. The three later liuzhao1225 issue comments are already recorded in contribution-followup and author-clarifications; they are not new author replies from this refresh."
+}

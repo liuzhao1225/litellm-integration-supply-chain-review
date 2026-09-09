@@ -24,7 +24,7 @@
 
 对应证据：[固定贡献与维护者改动](investigation/contributor-samples/README.md)、[制品与原生检查](investigation/version-1.101/artifacts/README.md)、[钓鱼分支](investigation/notification-analysis/README.md)。
 
-**证据数量需要按来源和因果关系去重。** 49 个 PR 可以来自同一套贡献策略，因此不能按 49 次独立观察叠加“攻击概率”。宽版本范围、复制的说明和类似测试也可能共享一个模板原因。同一套发布流程生成的多平台文件，以及 RECORD 与索引哈希相符，同样不能当成多次独立安全认证。样本中出现多少 LiteLLM 贡献，还需要与账号全部可见活动及其他集成贡献者的基线区别；不能仅从关键词定位样本推断所有活动或异常发生率。
+**证据数量需要按来源和因果关系去重。** 当前搜索定位的 50 个 PR 可以来自同一套贡献策略，因此不能按 50 次独立观察叠加“攻击概率”。宽版本范围、复制的说明和类似测试也可能共享一个模板原因。同一套发布流程生成的多平台文件，以及 RECORD 与索引哈希相符，同样不能当成多次独立安全认证。已核实原始 49 条查询和当前 50 条查询均未使用 LiteLLM 关键词筛选；当前结果的标题均提到 LiteLLM，支持该账号可见 PR 活动高度集中于这一集成。PR 搜索仍不覆盖全部提交、issue、私有或已删除活动，也没有提供其他贡献者的基线或恶意动机概率。[查询方法与可见性范围](investigation/affiliation-clarification/query-method.json)。
 
 已得到正常解释的细节应降低对应假说的权重：CPU 探测读取 OPENSSL_ia32cap、Rust 查询线程栈、候选 PyErr_CheckSignals 的同步等待用途，都已有可核对来源。源码匹配对“发行文件单独追加 Python 载荷”的解释有区分力，对“公开源码本身有恶意逻辑”或“构建过程改变原生机器码”则覆盖有限。检查结果的范围决定它能排除什么；当前没有检测覆盖率，不能给出可靠的百分比。[原生入口](investigation/native-entry/README.md)、[候选原生与来源限定](investigation/version-1.101/artifacts/README.md)。
 
@@ -83,6 +83,8 @@ Snyk 指出恶意 .pth 自身也在 wheel RECORD 中正确登记。**与索引�
 | 2026-09-06 01:45:39 后 | Docker 构建修复合入，镜像随后完成发布 | [#39992](https://github.com/BerriAI/litellm/pull/39992)、[签名与镜像时间](updates/litellm-1.100-evidence/registry-verification.json) |
 | 2026-09-06 03:06:01–03:06:20 / 03:20:59 | PyPI 上传 1.101.0rc1 八个文件，随后发布 GitHub v1.101.0-rc.1 | [准确版本与发布时间](investigation/version-1.101/availability.json)；GitHub 标为 prerelease |
 | 2026-09-08 18:46:05 | YouDub #130 创建，随后删除可选 requirements 并加入默认依赖 | [PR](https://github.com/liuzhao1225/YouDub-webui/pull/130)、[安装变更](https://github.com/liuzhao1225/YouDub-webui/commit/1add1b6d90795ddc222c3f5021305a2e8d953a17) |
+| 2026-09-08 19:10:14–19:10:24 | 无 LiteLLM 关键词的作者 PR 查询返回 49 条 | [原始查询方法](investigation/affiliation-clarification/query-method.json)；时间来自本地执行记录，返回集合与原始公开索引一致 |
+| 2026-09-08 19:11:04 | prodmanpd 创建 Gonzo #149，晚于上述查询完成 | [PR](https://github.com/control-theory/gonzo/pull/149)；新增条目仅核对元数据和作者说明，未扩展源码审计 |
 | 2026-09-08 19:42 | Webclaw 维护者解释风险并关闭 PR | [维护者回复](https://github.com/0xMassi/webclaw/pull/123#issuecomment-5590829715)、[状态快照](investigation/contribution-followup/snapshot.json) |
 
 隔离时间存在公开口径差异：LiteLLM 官方摘要称恶意版本从 10:39 UTC 起在线约 40 分钟；Snyk 记为约 3 小时，官方影响排查段落又使用更宽的窗口。本报告保留差异，排查应依据准确版本、制品和安装记录，不单凭某个分钟界限排除影响。[官方通报](https://docs.litellm.ai/blog/security-update-march-2026)、[Snyk](https://snyk.io/fr/blog/poisoned-security-scanner-backdooring-litellm/)。
@@ -90,6 +92,10 @@ Snyk 指出恶意 .pth 自身也在 wheel RECORD 中正确登记。**与索引�
 ## 账号与贡献行为：哪些关联已经成立
 
 prodmanpd 的公开记录覆盖 85 个仓库、435 条可见分支和 122 个唯一提交 SHA；fork 继承、merge 与 squash 会导致逻辑重复。这些数字描述采集范围，不能代表独立功能数。49 个已定位 PR 全部围绕 LiteLLM，其中 22 个含 Python SDK 调用，27 个为代理兼容接入。按 9 月 8 日 19:47–19:50 UTC 快照，状态为 28 开放、17 合并、4 关闭未合并。[仓库元数据](data/repositories.json)、[提交记录](data/commits.json)、[PR 索引](PR-INDEX.md)、[状态核对](investigation/contribution-followup/README.md)。
+
+**查询分母已经核实，并保留两个时间快照。** 原始查询为 `author:prodmanpd type:pr`，每页 100 条，实际返回 49 条，`total_count=49`、`incomplete_results=false`；未使用 LiteLLM 关键词，返回 URL 集合与 `data/prs.json` 完全一致。2026-09-09 02:16:36–02:16:38 UTC 的 `author:prodmanpd is:pr is:public` 查询返回 50 条，`total_count=50`、`incomplete_results=false`，旧 49 条全部包含在内。原始查询使用已登录账号的可见范围；当前查询显式限定公开 PR。搜索索引时效、删除及访问权限仍限制历史完整性。[方法记录](investigation/affiliation-clarification/query-method.json)、[采集来源与哈希](investigation/affiliation-clarification/source-manifest.json)。
+
+唯一新增项为 [Gonzo #149](https://github.com/control-theory/gonzo/pull/149)，创建于 9 月 8 日 19:11:04 UTC，核验 head 为 `0d2c8b7cd71d32f57fef708c60283f28a47379c4`，开放且未合并。作者称该 Go 项目复用现有 OpenAI 客户端连接 LiteLLM proxy，没有新增依赖，并声称执行了单元及 live 测试。这里记录的是元数据和作者陈述，尚未独立验证代码或执行结果；原始 22 SDK / 27 proxy 的代码分类与状态统计保持原快照范围。[50 条 PR 元数据](investigation/affiliation-clarification/pr-metadata.json)。
 
 [Chartbrew 作者回复](https://github.com/chartbrew/chartbrew/pull/365#issuecomment-5207856315)明确承认跨项目提交 LiteLLM 集成，解释用途是支持已有网关的团队。该回复不确立雇佣、委托或赞助关系。RheagalFire 已定位 45 个不同项目的 PR，27 个已有固定差异，18 个仅有搜索元数据待核验，并有可见 LiteLLM 上游参与经历。两个账号是否由同一方控制、是否存在商业关联，以及是否关联发布权限，仍待第一手证据。[其他账号样本](OTHER-ACCOUNTS.zh-CN.md)。
 
@@ -100,6 +106,8 @@ prodmanpd 的公开记录覆盖 85 个仓库、435 条可见分支和 122 个唯
 两个历史披露 issue 的 605 条现存评论已被核对；115 个账号在攻击当天发表了 267 条精确匹配的重复文案评论，与此次 416 个候选登录名无交集。该结果限定于现存用户名及评论，不证明私下无关联。[评论筛选与交叉记录](investigation/identity-network/account-expansion/summary.json)、[历史账号角色区分](investigation/identity-network/README.md)。
 
 针对批量集成、下游需求及关联披露的疑虑，维护者于 9 月 8 日 22:00:50 UTC 在上游发布 [LiteLLM #40308](https://github.com/BerriAI/litellm/issues/40308)，请求说明贡献是否独立、赞助或协调。正文保留代理接入与 SDK 的区别及作者已有解释，没有声称所有项目均无需求，也没有声称当前投毒已经成立。[正文与发布回执](investigation/author-clarifications/README.md)。
+
+9 月 9 日 02:16:36–02:18:02 UTC 的[讨论与公开关系复核](investigation/affiliation-clarification/README.md)中，上游 #40308 仍为开放、0 条评论；YouDub #130 和 Chartbrew 最后留言均为此前已有的维护者问询。未取得新的委托、赞助、协调、构建来源或发布权限说明。公开资料的空字段和没有回复均不能证明不存在关联，也不能据此推断恶意。
 
 ## YouDub #130：下游安装与凭据案例
 
