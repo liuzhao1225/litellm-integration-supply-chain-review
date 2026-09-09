@@ -17,7 +17,7 @@
 
 | 问题 | 已有证据 | 下一项判别性检查 |
 | --- | --- | --- |
-| 1.100 是否包含恶意载荷？ | [制品清单](investigation/artifact-records/README.md)内部一致，[发布与前端核查](updates/litellm-1.100-deep-audit-20260909.md)有来源证据；原生与完整构建证明仍不充分 | 精确定位未解释的代码/二进制行为，或异常发布身份及可信执行证据 |
+| 1.100 / 1.101 候选是否包含恶意载荷？ | [制品清单](investigation/artifact-records/README.md)内部一致，[发布与前端核查](updates/litellm-1.100-deep-audit-20260909.md)有来源证据；原生与完整构建证明仍不充分 | 精确定位未解释的代码/二进制行为，或异常发布身份及可信执行证据 |
 | 默认安装是否扩大风险？ | [#130 安装与测试审查](README.md#specific-concerns-in-youdub-130)确认默认 requirements 和可选描述不一致、允许版本超出声称测试版本 | 固定 head 下从依赖声明到安装结果再到凭据调用的完整条件，区分 SDK 与 proxy |
 | 批量贡献是否与上游存在联系？ | [49-PR 记录](PR-INDEX.md)、[作者公开说明](https://github.com/chartbrew/chartbrew/pull/365#issuecomment-5207856315)、[其他账号样本](OTHER-ACCOUNTS.zh-CN.md) | 第一手公开互动、身份披露、账号归属明确的提交/发布活动；相似模板不单独证明同一控制者 |
 | 下游是否已受影响？ | [Webclaw](investigation/contribution-followup/README.md)存在用户配置远程 HTTP 时的凭据传输风险；未证明实际泄漏 | 环境特定的安装或运行证据。PR 已合并数不能直接当作受害环境数 |
@@ -26,15 +26,19 @@
 
 ## 当前推进事项
 
-优先级依据[综合判断与证据权重](REPORT.zh-CN.md)：先追原始 PyPI 构建绑定和可能改变秘密访问、外联或执行的未解释差异；贡献关系说明并行核对。已充分重复的模板行为不继续按数量累加攻击证据，钓鱼分支维持独立归档。
+2026-09-09 UTC，三个现有调查任务均已确认接收新的具体检查范围。优先级依据[综合判断与证据权重](REPORT.zh-CN.md)：追原始 PyPI 构建绑定、可能改变秘密访问与发送行为的代码路径，以及可核验的贡献关系。已有基线复用，原始观测保留准确时间。
 
-- 1.101 已加入：[候选版定向结果](investigation/version-1.101/README.md)覆盖七平台 wheel、源码包与 Cargo、新增认证/诊断功能及镜像声明。正式版接口当前无记录。重点未决项为 wheel 自报 maturin 1.9.4 与源码要求 1.15.0 的差异、原始 PyPI 构建绑定，以及尚未逐项解释的原生与 Python 行为。
+| 负责方向 | 已派发的检查 | 交付与收束条件 |
+| --- | --- | --- |
+| 制品与发布链 | 刷新准确 1.101 正式版/候选版状态；阅读[上游原生发行讨论 #31261](https://github.com/BerriAI/litellm/issues/31261)及直接关联的公开构建脚本；追 maturin 1.15.0 源码声明与 1.9.4 wheel 字段、ABI feature 处理的实际来源 | 按 wheel hash、源码、工具链、feature 和运行身份形成来源矩阵。取得可验证绑定，或明确具体已查来源与仍缺记录，并准备中性构建问询草稿。新材料写入 `investigation/wheel-build-origin/` |
+| 依赖与安装暴露 | 优先追候选新增 MCP outbound credentials 刷新与 SSO assertion 捕获的秘密来源、缓存/日志、发送目标和隔离条件；再沿 OpenAI workload identity 的实际调用者及 SDK 交接检查 | 给出文件/函数/行号、激活条件和反例，分别标注正常用途、真实风险及未闭合的数据流；发现具体问题再扩展相邻调用。新材料写入 `investigation/runtime-sensitive-delta/` |
+| 账号与贡献网络 | 读取[#40308](https://github.com/BerriAI/litellm/issues/40308)、[YouDub #130](https://github.com/liuzhao1225/YouDub-webui/pull/130)新增说明；核对既有两个账号的公开角色或贡献关系；复核49-PR采集查询与分母 | 提供可归属的一手陈述及交叉证据，区分贡献关系与发布权限；说明49条是全部可见结果还是筛选样本及遗漏边界。无新增证据也如实交付。新材料写入 `investigation/affiliation-clarification/` |
 
-- 原生入口：[构造器、初始化回调和一层调用核验](investigation/native-entry/README.md)以及 [111 个 Python C API 导入符号核对](investigation/abi-compatibility/README.md)已完成，未定位到新增入口载荷或高于 3.10 的符号要求。深层间接调用、布局和其他平台仍未完成全量审计。
-- 构建来源：[镜像声明](investigation/publishing-provenance/README.md)提供运行号和源码关联，但明确跳过 PyPI；[源码包构建审计](investigation/build-time/README.md)发现 ABI3 配置需要外部参数解释，追查原始 wheel 的构建输入。
-- 贡献样本：[五个固定样本](investigation/contributor-samples/README.md)及[历史索引对照](investigation/historical-resolution/README.md)已完成。现有 45 条中 27 条有固定比较，优先追查安装或执行差异，不按账号相似性无限扩展名单。
-- 公开沟通：核对依赖作者、后续维护者和发布维护者各自的陈述与固定证据；已在 #130 发布的问题沿同一讨论等待说明。[沟通与核验记录](investigation/author-clarifications/README.md)。
-- 钓鱼通知：已保存同模板 issue、共享跳转源码和两次提醒回执，作为调查期间发现的独立事件归档；目前没有与 LiteLLM 贡献者的控制关系证据。[证据与提醒记录](investigation/notification-analysis/README.md)。
+总管负责交叉验证冲突、汇总证据、维护统一报告及对外沟通。构建说明由账号方向及时转给制品方向；其余工作目录独立，完成后主动向总管汇报。新建目录只有完成审查的公开文件清单才进入 Git。
+
+已完成的[七平台候选制品检查](investigation/version-1.101/artifacts/README.md)、[源码包构建对照](investigation/version-1.101/build/README.md)、[公开发布上下文](investigation/version-1.101/release-context/README.md)、[镜像声明](investigation/version-1.101/images/README.md)和[五文件功能边界](investigation/version-1.101/runtime-boundaries/README.md)作为基线。避免重复下载制品、重复完整 RECORD 检查或将同类 PR 数量累加成独立攻击证据。钓鱼分支维持[独立归档](investigation/notification-analysis/README.md)。
+
+本次派单继续采用静态读取，不安装或执行被调查代码，不使用真实秘密。调查任务不自行修改或合并 #130、不自行发帖或评论，也不覆盖已封存的证据清单。错误与不可访问状态保留原义；未发现异常时也提交清楚的覆盖范围。
 
 ## 每项发现的记录要求
 
