@@ -1,0 +1,85 @@
+{
+  "claims": [
+    {
+      "id": "count-123",
+      "claim": "恰好123个账号参与LiteLLM刷屏",
+      "level": "未证实",
+      "evidence": [
+        "ramimac-timeline",
+        "openhack",
+        "sample-comparison.json"
+      ],
+      "reason": "有界精确检索无123原始出处；现有原文分别为73和约125，不可替换为123。"
+    },
+    {
+      "id": "all-compromised",
+      "claim": "全部123个均为真实被盗开发者账号",
+      "level": "未证实；所查研究明确给出混合来源限定",
+      "evidence": [
+        "ramimac-timeline",
+        "openhack",
+        "maintainer-confirmation",
+        "victim-x-unreadable"
+      ],
+      "reason": "OpenHack有概括说法但缺逐账号证据；Rami记录混合类型；维护者自述仅证明其作出受害说明，镜像自述也不外推全体。未取得GitHub对全体账户的确认。"
+    },
+    {
+      "id": "teampcp-operator",
+      "claim": "这批刷屏由TeamPCP操纵",
+      "level": "研究归因支持；逐账号操作者独立核验未闭合",
+      "evidence": [
+        "ramimac-timeline",
+        "datadog"
+      ],
+      "reason": "研究者依据与Trivy刷屏账号重叠和事件关联作出归因；恶意制品攻击链的技术联系不能独立认证每条评论操作者。原样本/交集名单未在所查事件记录给出。"
+    },
+    {
+      "id": "cover-intent",
+      "claim": "刷屏意图掩护攻击或压制披露",
+      "level": "可见行为支持的合理推断",
+      "evidence": [
+        "futuresearch",
+        "stepsecurity",
+        "ramimac-timeline",
+        "sample-comparison.json"
+      ],
+      "reason": "安全披露issue中短时密集无关感谢语可直接观察；淹没讨论的效果及掩护解释获同期观察者和研究者支持，未取得独立任务指令或操作者供述。"
+    }
+  ],
+  "boundary": "攻击披露中的灌水与正常跨项目集成贡献是不同的可观察行为；未建立prodmanpd或RheagalFire参与本次历史刷屏或恶意发布的联系。",
+  "search_limits": {
+    "queries": [
+      "LiteLLM \"123\" \"accounts\"",
+      "\"litellm\" \"123\" spam",
+      "\"TeamPCP\" \"123\"",
+      "\"LiteLLM\" \"123\" \"刷\"",
+      "\"litellm\" \"123\" \"botnet\"",
+      "\"litellm\" \"123\" \"hijacked\"",
+      "\"litellm\" \"123\" \"被盗\"",
+      "site:github.blog litellm spam accounts March 2026",
+      "\"litellm\" \"my account\" \"spam\" hacked"
+    ],
+    "outcome": "No primary source for precise 123 or GitHub confirmation of all accounts located; search coverage is not exhaustive.",
+    "no_account_expansion": true
+  },
+  "errors": [
+    {
+      "operation": "web click The Register link81",
+      "result": "invalid arguments; no source obtained by that call",
+      "action": "No retry; known researcher homepage was separately already read."
+    },
+    {
+      "operation": "Optional gap calculation on old comment timestamps",
+      "result": "Python ValueError for ISO8601 trailing Z",
+      "action": "No gap result used; sample comparison above uses direct timestamp strings and exact phrase matching."
+    },
+    {
+      "operation": "Original X post read",
+      "result": "0 lines; no authenticated body verification"
+    },
+    {
+      "operation": "Mirror direct HTTP archive",
+      "result": "403 Forbidden; no bypass or retry"
+    }
+  ]
+}

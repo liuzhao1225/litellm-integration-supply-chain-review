@@ -1,0 +1,39 @@
+[
+  {
+    "source": "https://raw.githubusercontent.com/BerriAI/litellm/9343aeefca37aa49a6ea54397d7615adae5c72c9/ci_cd/security_scans.sh",
+    "reference_commit": "9343aeefca37aa49a6ea54397d7615adae5c72c9",
+    "repository_path": "ci_cd/security_scans.sh",
+    "full_source_bytes": 13333,
+    "full_source_sha256": "02617fc8f6452feb176ff38a65c8b854f1077cf322e89257ae70ba5f3dcae79e",
+    "computed_git_blob_sha1": "801b700f64f11485307ae64b2b779fc37dce5bc3",
+    "independent_api_blob_comparison": "Not completed: supplemental contents API returned 403 rate limit exceeded.",
+    "excerpts": [
+      {
+        "start_line": 10,
+        "end_line": 20,
+        "text": "# Function to install Trivy and required tools\ninstall_trivy() {\n    echo \"Installing Trivy and required tools...\"\n    sudo apt-get update\n    sudo apt-get install -y wget apt-transport-https gnupg lsb-release jq curl bsdmainutils\n    wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | sudo apt-key add -\n    echo \"deb https://aquasecurity.github.io/trivy-repo/deb $(lsb_release -sc) main\" | sudo tee -a /etc/apt/sources.list.d/trivy.list\n    sudo apt-get update\n    sudo apt-get install trivy\n    echo \"Trivy and required tools installed successfully\"\n}"
+      },
+      {
+        "start_line": 242,
+        "end_line": 249,
+        "text": "\n# Main execution\nmain() {\n    echo \"Installing security scanning tools...\"\n    install_trivy\n    install_grype\n    \n    # echo \"Running secret detection scans...\""
+      }
+    ]
+  },
+  {
+    "source": "https://raw.githubusercontent.com/BerriAI/litellm/9343aeefca37aa49a6ea54397d7615adae5c72c9/.circleci/config.yml",
+    "reference_commit": "9343aeefca37aa49a6ea54397d7615adae5c72c9",
+    "repository_path": ".circleci/config.yml",
+    "full_source_bytes": 166167,
+    "full_source_sha256": "6438b1c2e20041cabdcc01bb49ffe1f64c315977d66409c8f4ec59595a3f2fd5",
+    "computed_git_blob_sha1": "790efc79862d3e89d5632fd37520a9c9a89d2057",
+    "independent_api_blob_comparison": "Not completed: supplemental contents API returned 403 rate limit exceeded.",
+    "excerpts": [
+      {
+        "start_line": 715,
+        "end_line": 721,
+        "text": "          command: dockerize -wait tcp://localhost:5432 -timeout 1m\n      - run:\n          name: Run Security Scans\n          command: |\n            chmod +x ci_cd/security_scans.sh\n            ./ci_cd/security_scans.sh\n      - run:"
+      }
+    ]
+  }
+]

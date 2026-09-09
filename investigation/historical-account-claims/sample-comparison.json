@@ -1,0 +1,137 @@
+{
+  "reuse_note": "Recomputed from existing September snapshots; no current full comment re-fetch or account expansion.",
+  "counts": {
+    "all_comments": 605,
+    "issues": [
+      {
+        "issue": 24512,
+        "all": 487,
+        "matched": 267
+      },
+      {
+        "issue": 24518,
+        "all": 118,
+        "matched": 0
+      }
+    ],
+    "exact_phrase_comments": 267,
+    "unique_matching_logins_case_insensitive": 115,
+    "phrase_count": 8
+  },
+  "sampling_started_utc": "2026-09-08T20:23:15.342Z",
+  "sampling_completed_utc": "2026-09-08T20:23:31.096Z",
+  "matched_comment_time_range": [
+    "2026-03-24T12:44:41Z",
+    "2026-03-24T13:53:54Z"
+  ],
+  "pages": [
+    {
+      "source": "https://api.github.com/repos/BerriAI/litellm/issues/24512/comments?per_page=100&page=1",
+      "started_at": "2026-09-08T20:23:15.342Z",
+      "observed_at": "2026-09-08T20:23:16.847Z",
+      "count": 100,
+      "bytes": 166701,
+      "sha256": "3d15cbab3744d665541c9eec6b033a39530f604396e3ec0aa6a568549b11e97e",
+      "exit_code": 0
+    },
+    {
+      "source": "https://api.github.com/repos/BerriAI/litellm/issues/24512/comments?per_page=100&page=2",
+      "started_at": "2026-09-08T20:23:18.394Z",
+      "observed_at": "2026-09-08T20:23:19.505Z",
+      "count": 100,
+      "bytes": 169570,
+      "sha256": "41ca8feced27d27054d71a28a01ccc411637b4fb64cd443ee544a8e2b6aadbd5",
+      "exit_code": 0
+    },
+    {
+      "source": "https://api.github.com/repos/BerriAI/litellm/issues/24512/comments?per_page=100&page=3",
+      "started_at": "2026-09-08T20:23:21.055Z",
+      "observed_at": "2026-09-08T20:23:22.131Z",
+      "count": 100,
+      "bytes": 169090,
+      "sha256": "30e08e809cfb8d88bd2dbb25f7ed54a39fc876d8aa24593103bb4b491a09bb88",
+      "exit_code": 0
+    },
+    {
+      "source": "https://api.github.com/repos/BerriAI/litellm/issues/24512/comments?per_page=100&page=4",
+      "started_at": "2026-09-08T20:23:23.676Z",
+      "observed_at": "2026-09-08T20:23:24.858Z",
+      "count": 100,
+      "bytes": 208705,
+      "sha256": "9e937f0aa577e74ae468c89fc2578b711cf68fe01cd6df75d6969a5ce1dbf573",
+      "exit_code": 0
+    },
+    {
+      "source": "https://api.github.com/repos/BerriAI/litellm/issues/24512/comments?per_page=100&page=5",
+      "started_at": "2026-09-08T20:23:26.404Z",
+      "observed_at": "2026-09-08T20:23:27.435Z",
+      "count": 87,
+      "bytes": 184206,
+      "sha256": "ca9f0a8a01c43c00b9590f34f804393efaa623ad00265ead528b642c9b4918d4",
+      "exit_code": 0
+    },
+    {
+      "source": "https://api.github.com/repos/BerriAI/litellm/issues/24518/comments?per_page=100&page=1",
+      "started_at": "2026-09-08T20:23:27.479Z",
+      "observed_at": "2026-09-08T20:23:28.624Z",
+      "count": 100,
+      "bytes": 208519,
+      "sha256": "30266b3bc5fcdbeab97d0660b8cc577a1b93227b8deaa0d205ecff80a63387a6",
+      "exit_code": 0
+    },
+    {
+      "source": "https://api.github.com/repos/BerriAI/litellm/issues/24518/comments?per_page=100&page=2",
+      "started_at": "2026-09-08T20:23:30.173Z",
+      "observed_at": "2026-09-08T20:23:31.096Z",
+      "count": 18,
+      "bytes": 44081,
+      "sha256": "3b89f98c61d2a9bea971c5f9aed9af08cff9f73dda76964a9af77ebb772a0ea4",
+      "exit_code": 0
+    }
+  ],
+  "previous_comparison": {
+    "searched_author_count": 416,
+    "pattern_overlaps": [],
+    "known_actors_in_all_comments": [
+      {
+        "login": "prodmanpd",
+        "count": 0
+      },
+      {
+        "login": "RheagalFire",
+        "count": 0
+      }
+    ]
+  },
+  "previous_summary_observed_at": "2026-09-08T20:28:46.490Z",
+  "input_summaries": [
+    {
+      "path": "investigation/identity-network/account-expansion/incident-comment-patterns.json",
+      "bytes": 73455,
+      "sha256": "e77d0f21f7009f07846285f46357dc7b8c57aed1ff0fbc6a939276561cf8ee52"
+    },
+    {
+      "path": "investigation/identity-network/account-expansion/summary.json",
+      "bytes": 4727,
+      "sha256": "f9afc2f0dc2847dc385d88aa53aa440fe49b173fc1dd419c23ea5df16829c4db"
+    }
+  ],
+  "comparability": [
+    "73/88/102 seconds: OpenHack narrow early burst reported; original exact sample window and full membership not supplied.",
+    "~125/~300/~6 hours: Rami current retrospective aggregate with approximate counts and mixed account types.",
+    "115/267: exact eight-phrase matching across March 24 comments still visible in September; includes multiple bursts.",
+    "605: all comments of two issues across dates, including ordinary technical replies; not 605 spam messages or accounts.",
+    "416: separate integration-candidate login set used for prior intersection; zero exact-login overlap does not establish absence of private/control relationships.",
+    "123 source not located. No subtraction may estimate deleted/compromised accounts from these unlike denominators."
+  ],
+  "phrase_sha256": [
+    "fe8a228a213b34b1ca729fe28bcf39d1ca8877a09e0425165a769d7ad1ce78fe",
+    "a27f44d9fb86f53f1ac4a55438b52b4437bf40f252d26d99a918e19c843448b2",
+    "5b750b52671f589e181ff9894e1b9dabca0962f03a82fda934986204a5c8bb4b",
+    "94ad37dc4951301fe08b6f12b1519fc131bd26a218042d3b56fe47c151b04e7c",
+    "007cdd4e3d250fd305285b07ab773ba465cc3e2270c09a84499bdad4055260b1",
+    "55995e68d4dc6b960b7136502f883ef0b306268da955c94afe7fb391b5033341",
+    "542f4ced82ea4949039910250d4a8390a0ff5ed4b1ee4a61de2d17c3d53bbbc9",
+    "521bbe9cda40c91dc8f81eef5bb0e41275a35981fe701b93e54ed0e3b0541598"
+  ]
+}

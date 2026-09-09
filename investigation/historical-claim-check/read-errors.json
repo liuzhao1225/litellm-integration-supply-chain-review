@@ -1,0 +1,30 @@
+{
+  "checked_date_utc": "2026-09-09",
+  "observations": [
+    {
+      "source": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "tool": "web.run",
+      "result": "HTTP 403 Forbidden",
+      "content_obtained": false
+    },
+    {
+      "source": "https://nvd.nist.gov/vuln/detail/CVE-2026-33634",
+      "tool": "web.run",
+      "result": "Redirected to lowercase URL; zero readable lines",
+      "content_obtained": false
+    },
+    {
+      "source": "https://cveawg.mitre.org/api/cve/CVE-2026-33634",
+      "tool": "web.run",
+      "result": "Tool reported not safe to open (non-retryable error); no body obtained",
+      "content_obtained": false
+    },
+    {
+      "source": "https://services.nvd.nist.gov/rest/json/cves/2.0?cveId=CVE-2026-33634",
+      "tool": "web.run",
+      "result": "Tool reported not safe to open (non-retryable error); no body obtained",
+      "content_obtained": false
+    }
+  ],
+  "interpretation": "These are access or rendering outcomes, not evidence that the CVE or KEV entry is absent. Successful independent official repository reads are recorded in source-records.json."
+}

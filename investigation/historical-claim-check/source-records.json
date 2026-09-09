@@ -1,0 +1,18 @@
+[
+  {
+    "label": "cisa-kev",
+    "source_url": "https://api.github.com/repos/cisagov/kev-data/git/blobs/d7f8bcde61208543956d1634c29fe4551655839e",
+    "fetched_at_utc": "2026-09-09T03:49:35.731741+00:00",
+    "git_blob_sha1": "d7f8bcde61208543956d1634c29fe4551655839e",
+    "bytes": 1703459,
+    "sha256": "431304df5857a5a7517b00993fdafebbd2158577b6854bd51910bb7d8752b1fa"
+  },
+  {
+    "label": "cve-2026-33634",
+    "source_url": "https://api.github.com/repos/CVEProject/cvelistV5/git/blobs/0fb774eec0d4c9cef5b0615008c10d45e53848bb",
+    "fetched_at_utc": "2026-09-09T03:49:37.234842+00:00",
+    "git_blob_sha1": "0fb774eec0d4c9cef5b0615008c10d45e53848bb",
+    "bytes": 13213,
+    "sha256": "bcd925b8720dfc630956f5dc2c555531631c587f4204f32825232cdb3b2ee23b"
+  }
+]

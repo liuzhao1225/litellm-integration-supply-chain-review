@@ -1,0 +1,47 @@
+{
+  "scope": "Public files relative to investigation/historical-release-claims; excludes .raw and this manifest itself.",
+  "file_count": 8,
+  "total_bytes": 31360,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 19,
+      "sha256": "dc7e60ffe0b4d12987b3e75c35a41e1f4778689f019d03181e58a9ea1d811d2b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6436,
+      "sha256": "925d66496c3cbfb68b1aae02224cb31b67a6c20dcc94d85f4e92533a6f540bf8"
+    },
+    {
+      "path": "assemble.py",
+      "bytes": 7960,
+      "sha256": "ed90c09304d37227691c41e3bbee35ce6bb1e4f6de8165b9a154d26131d823dd"
+    },
+    {
+      "path": "claims.json",
+      "bytes": 2732,
+      "sha256": "cbca9824d1b2790e17be63b68766af60005f87d6ea0d6a47387bf6c1c89f615c"
+    },
+    {
+      "path": "fetch_public.py",
+      "bytes": 1395,
+      "sha256": "0dded43d746ed98c30b339ec42d5cde8bc39ef3bbf1d0e1ff62e64b8d39cbdfb"
+    },
+    {
+      "path": "fixed-source-excerpts.json",
+      "bytes": 2459,
+      "sha256": "2d31dbfaff2a58ab653e2c8b497291543d07e06ee09e68c9db863532e85acfa1"
+    },
+    {
+      "path": "read-errors.json",
+      "bytes": 1308,
+      "sha256": "79ec894baabe9769e2950446f21a910d4fb6b0f6a7c750e9b93985f2a21b18ec"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 9051,
+      "sha256": "427e2c0f364e56c31a8af67f48e95eaa4f857f071d379124f1a285ab85a177e4"
+    }
+  ]
+}

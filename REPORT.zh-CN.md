@@ -58,11 +58,21 @@ flowchart TD
 
 **进入 LiteLLM 发布链。** LiteLLM 官方将事件关联到 CI/CD 中的 Trivy 扫描依赖，认为攻击者获得发布凭据后绕过正常发布流程直接上传 PyPI。官方称 GitHub main 未被植入恶意代码，官方 Proxy 镜像因固定依赖而未包含这两个恶意包。维护者还在[3 月 24 日原始回复](https://github.com/BerriAI/litellm/issues/24518#issuecomment-4119972374)中明确描述 CircleCI 凭据泄漏包括 PyPI publish token 与 GitHub PAT。该回复为维护者自述，完整入侵细节仍应按各来源的证据程度表达。[LiteLLM 官方通报](https://docs.litellm.ai/blog/security-update-march-2026)。
 
+[LiteLLM 3 月 27 日官方说明](https://docs.litellm.ai/blog/security-townhall-updates)进一步描述 CircleCI 共用环境、静态发布凭据，以及未固定版本的 Trivy package 在扫描时执行。整场攻击确实涉及 Trivy GitHub Actions 标签被篡改；LiteLLM 的具体入口应按自身 CircleCI/扫描器记录表述。固定历史扫描脚本中的 apt 安装和调用证据见[发布入口核查](investigation/historical-release-claims/README.md)。
+
+发现者在 [3 月 25 日后续分析](https://futuresearch.ai/blog/litellm-hack-were-you-one-of-the-47000/)中报告两个恶意 PyPI 版本没有对应 GitHub tag/release。该陈述按发现者的历史观察引用；尚未取得完整历史 tag 日志，当前 404 不能替代当时状态证据。[来源日期与限制](investigation/historical-release-claims/README.md)。
+
 **两个触发方式。** 1.82.7 在 proxy_server.py 内带有载荷；1.82.8 另外加入 litellm_init.pth。在通常加载 site 的 Python 启动过程中，后者可自动执行，无需业务代码 import LiteLLM。载荷收集环境和文件中的凭据，加密后发往 models.litellm[.]cloud，尝试建立 sysmon 持久化并从 checkmarx[.]zone 获取后续载荷；具备相应 Kubernetes 权限时还可创建特权 pod 扩散。这些行为均有触发或权限条件。[Datadog 载荷分析](https://securitylabs.datadoghq.com/articles/litellm-compromised-pypi-teampcp-supply-chain-campaign/)。
+
+`.pth` 的执行需要文件位于当前解释器实际处理的 site 路径，并发生相应启动处理；Python `-S` 会抑制通常的自动 `site` 加载。因此下载、安装、触发执行和成功窃密不能混为同一事实；功能关闭或延迟导入 LiteLLM 仍无法覆盖通常启动时的 `.pth` 路径。[Python 官方机制](https://docs.python.org/3/library/site.html)、[执行条件与证据范围](investigation/historical-claim-check/README.md)。
 
 **为何被发现。** FutureSearch 的 Callum McMahon 报告，其 Cursor MCP 插件间接安装 1.82.8 后，恶意 .pth 反复启动 Python 子进程，又触发自身，造成内存耗尽。调查由此定位到恶意文件。其记录也提到披露 issue 被关闭并遭大量灌水；这些现象本身不确定评论或关闭操作的实际控制者。[发现者记录](https://futuresearch.ai/blog/litellm-pypi-supply-chain-attack/)。
 
 **处置与遗留风险。** 恶意版本被隔离、下架；维护者轮换凭据并引入 Mandiant。3 月 30 日官方发布通过新 CI/CD 流程构建的 1.83.0。受影响环境需要排查可达凭据、持久化与下游发布，单纯替换依赖无法清除已建立的后门。[官方处置](https://docs.litellm.ai/blog/security-update-march-2026)、[事件响应分析](https://securitylabs.datadoghq.com/articles/litellm-compromised-pypi-teampcp-supply-chain-campaign/)。
+
+**下载量和暴露窗口采用较晚的平台复盘。** [PyPI 4 月 2 日官方报告](https://blog.pypi.org/posts/2026-04-02-incident-report-litellm-telnyx-supply-chain-attack/)记载，恶意 LiteLLM 版本在攻击窗口内下载**超过 119,000 次**，从上传至隔离为 **2 小时 32 分钟**；上传至首报约 1 小时 19 分钟，首报至隔离约 1 小时 12 分钟。早期 FutureSearch 分析给出 46,996 次及 46 分钟，应保留来源日期与统计差异，不再用它代表完整最终下载规模。两者都不能转换为独立受害者或成功执行次数。[原始统计与方法对账](investigation/historical-release-claims/README.md)。
+
+**CISA/CVE 编号可以确认，范围需要准确。** CVE-2026-33634 于 3 月 26 日加入 KEV，CISA 条目以 Aquasecurity/Trivy 嵌入恶意代码命名；CVE 原始受影响列表同时列出 LiteLLM 1.82.7/1.82.8。该编号涵盖有关供应链事件，不是当前 1.100/1.101 被投毒的判定。[CVE 官方记录](https://github.com/CVEProject/cvelistV5/blob/main/cves/2026/33xxx/CVE-2026-33634.json)、[CISA 目录提取与固定来源](investigation/historical-claim-check/README.md)。
 
 Snyk 指出恶意 .pth 自身也在 wheel RECORD 中正确登记。**与索引和 RECORD 的哈希一致，只能证明拿到了登记的文件；审查和固定已验证的内容仍然必要。**[Snyk 技术分析](https://snyk.io/fr/blog/poisoned-security-scanner-backdooring-litellm/)。
 
@@ -75,7 +85,9 @@ Snyk 指出恶意 .pth 自身也在 wheel RECORD 中正确登记。**与索引�
 | 2026-03-10 至 03-11 | RheagalFire 发起的上游 staging PR 被合并 | [LiteLLM #23276](https://github.com/BerriAI/litellm/pull/23276)；多作者提交不能全部计为其原创，更不能据此认定参与后来攻击 |
 | 2026-03-19 | Trivy 恶意发布及 Action 标签重写 | [Aqua 复盘](https://www.aquasec.com/blog/trivy-supply-chain-attack-what-you-need-to-know/) |
 | 2026-03-24 10:39 / 10:52 | 恶意 LiteLLM 1.82.7 / 1.82.8 发布 | [Snyk 时间线](https://snyk.io/fr/blog/poisoned-security-scanner-backdooring-litellm/)、[发现者对 1.82.8 的记录](https://futuresearch.ai/blog/litellm-pypi-supply-chain-attack/) |
+| 2026-03-26 | CVE-2026-33634 加入 CISA KEV | [固定目录与 CVE 记录](investigation/historical-claim-check/README.md)；KEV 名称为 Trivy，CVE affected 同时列出恶意 LiteLLM 版本 |
 | 2026-03-30 | 官方宣布通过新流程发布 1.83.0 | [官方更新](https://docs.litellm.ai/blog/security-update-march-2026) |
+| 2026-04-02 | PyPI 发布平台复盘：恶意版本下载超过 119,000 次，暴露 2 小时 32 分钟 | [PyPI 官方报告](https://blog.pypi.org/posts/2026-04-02-incident-report-litellm-telnyx-supply-chain-attack/)；下载数不等于独立受害者数 |
 | 2026-04-20 起 | 已定位 RheagalFire 下游 LiteLLM 集成样本 | [跨项目 PR 样本](OTHER-ACCOUNTS.zh-CN.md)；这是可见样本下限 |
 | 2026-07-17 18:49:48 | prodmanpd 最早被本次检索定位的下游 PR 创建 | [llm-for-zotero #316](https://github.com/yilewang/llm-for-zotero/pull/316)，北京时间 7 月 18 日 02:49:48；28 分 6 秒内另有 4 个项目 |
 | 2026-09-01 00:42–00:43 | LiteLLM 1.99.0 PyPI 上传 | [PyPI 元数据](https://pypi.org/pypi/litellm/1.99.0/json) |
@@ -87,7 +99,7 @@ Snyk 指出恶意 .pth 自身也在 wheel RECORD 中正确登记。**与索引�
 | 2026-09-08 19:11:04 | prodmanpd 创建 Gonzo #149，晚于上述查询完成 | [PR](https://github.com/control-theory/gonzo/pull/149)；新增条目仅核对元数据和作者说明，未扩展源码审计 |
 | 2026-09-08 19:42 | Webclaw 维护者解释风险并关闭 PR | [维护者回复](https://github.com/0xMassi/webclaw/pull/123#issuecomment-5590829715)、[状态快照](investigation/contribution-followup/snapshot.json) |
 
-隔离时间存在公开口径差异：LiteLLM 官方摘要称恶意版本从 10:39 UTC 起在线约 40 分钟；Snyk 记为约 3 小时，官方影响排查段落又使用更宽的窗口。本报告保留差异，排查应依据准确版本、制品和安装记录，不单凭某个分钟界限排除影响。[官方通报](https://docs.litellm.ai/blog/security-update-march-2026)、[Snyk](https://snyk.io/fr/blog/poisoned-security-scanner-backdooring-litellm/)。
+历史窗口存在公开口径差异：LiteLLM 官方摘要仍称约 40 分钟，早期 FutureSearch 使用 46 分钟，Snyk 写约 3 小时；较晚的 PyPI 平台复盘明确从上传至隔离为 2 小时 32 分钟。本报告采用该平台记录描述总暴露时长，同时保留早期来源及差异；隔离、删除、搜索不可见和镜像/缓存可取得时间也需区别。排查依据准确制品、安装与执行记录，不单凭某个分钟界限排除影响。[各来源及方法](investigation/historical-release-claims/README.md)。
 
 ## 账号与贡献行为：哪些关联已经成立
 
@@ -104,6 +116,10 @@ prodmanpd 的公开记录覆盖 85 个仓库、435 条可见分支和 122 个唯
 20 个出现明确数字依赖约束的 PR 都使用等价于 <2 的上限，8 个写成 <2.0.0；同时存在窄范围和锁文件反例。[约束核查](data/version-constraint-audit.json)。例如未提交 PR 的 [AI-Youtube-Shorts-Generator fork commit](https://github.com/prodmanpd/AI-Youtube-Shorts-Generator/commit/6bdf862985ea9bfad5cc4ddd14c89047067e12ce)使用 >=1.85,<1.96。版本兼容边界、常规测试替身和重复集成本身均不足以证明恶意。RheagalFire 的 [Haystack 集成](https://github.com/deepset-ai/haystack-core-integrations/blob/1af2c6606191a137ca924a8e72beeb8afb760131/integrations/litellm/pyproject.toml)还明确排除 1.82.7/1.82.8；[GuideLLM](investigation/identity-network/account-expansion/guidellm-lock-verification.json)锁定 1.95.0，16 个制品记录与 PyPI 一致。
 
 两个历史披露 issue 的 605 条现存评论已被核对；115 个账号在攻击当天发表了 267 条精确匹配的重复文案评论，与此次 416 个候选登录名无交集。该结果限定于现存用户名及评论，不证明私下无关联。[评论筛选与交叉记录](investigation/identity-network/account-expansion/summary.json)、[历史账号角色区分](investigation/identity-network/README.md)。
+
+**历史刷屏可以确认，“123 个全部被盗开发者账号”尚无对应一手证明。** 同期研究的统计口径不同：OpenHack 写 102 秒内 73 个账号、88 条评论；Rami McCarthy 当前[原始时间线数据](https://ramimac.me/teampcp/timeline.json)写约 6 小时内约 125 个账号、约 300 条评论，并将来源描述为被盗凭据、购买的休眠账号以及新建/虚假/商业账号的混合。后者对同一操作者的归因是研究判断，现有条目没有附全体账号的控制权证明。数字与本地现存 115 个重复文案账号不可直接相减来推算删除或被盗数量。[原文数字、时间及证据等级](investigation/historical-account-claims/README.md)。
+
+密集无关评论和技术讨论被淹没支持“干扰安全披露”的解释；账号年龄或既有开发记录无法保证控制权未被盗用。调查应保留这种可能性，同时核对具体账号、时间、共同控制和恶意行为。历史披露 issue 的灌水记录没有建立 prodmanpd、RheagalFire 的跨项目集成与该操作者之间的联系，也不能把一般功能推广直接列为已证实的 TeamPCP 掩护活动。
 
 针对批量集成、下游需求及关联披露的疑虑，维护者于 9 月 8 日 22:00:50 UTC 在上游发布 [LiteLLM #40308](https://github.com/BerriAI/litellm/issues/40308)，请求说明贡献是否独立、赞助或协调。正文保留代理接入与 SDK 的区别及作者已有解释，没有声称所有项目均无需求，也没有声称当前投毒已经成立。[正文与发布回执](investigation/author-clarifications/README.md)。
 

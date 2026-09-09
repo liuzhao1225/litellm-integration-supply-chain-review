@@ -1,0 +1,28 @@
+{
+  "failed_requests": [
+    {
+      "label": "fixed-circleci-api",
+      "url": "https://api.github.com/repos/BerriAI/litellm/contents/.circleci/config.yml?ref=9343aeefca37aa49a6ea54397d7615adae5c72c9",
+      "checked_at_utc": "2026-09-09T03:49:49.287777+00:00",
+      "http_status": 403,
+      "error": "HTTP Error 403: rate limit exceeded",
+      "raw_path": ".raw/fixed-circleci-api.body",
+      "bytes": 279,
+      "sha256": "99e9cdb9fbd6ea78deeda6afa7d27e6b1d9cd21322c1cc046fa1132887624758"
+    },
+    {
+      "label": "fixed-security-scans-api",
+      "url": "https://api.github.com/repos/BerriAI/litellm/contents/ci_cd/security_scans.sh?ref=9343aeefca37aa49a6ea54397d7615adae5c72c9",
+      "checked_at_utc": "2026-09-09T03:49:49.287008+00:00",
+      "http_status": 403,
+      "error": "HTTP Error 403: rate limit exceeded",
+      "raw_path": ".raw/fixed-security-scans-api.body",
+      "bytes": 279,
+      "sha256": "99e9cdb9fbd6ea78deeda6afa7d27e6b1d9cd21322c1cc046fa1132887624758"
+    }
+  ],
+  "action": "Stopped supplemental GitHub contents API checks after rate-limit errors; no retry or alternative credential used. Existing successful raw reads remain explicitly distinguished from independent blob verification.",
+  "package_downloads": 0,
+  "target_execution": false,
+  "tag_404_checks": 0
+}

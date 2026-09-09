@@ -36,6 +36,8 @@
 
 总管负责交叉验证冲突、汇总证据、维护统一报告及对外沟通。构建说明由账号方向及时转给制品方向；其余工作目录独立，完成后主动向总管汇报。新建目录只有完成审查的公开文件清单才进入 Git。
 
+历史对照现补充三项[已核验材料](investigation/historical-claim-check/README.md)：总管确认 CVE/KEV 编号及 `.pth` 触发条件；制品方向对账 CircleCI/Trivy 入口、较晚 PyPI 下载统计及历史 tag 说法；账号方向区分刷屏计数、被盗证据和研究归因。下载量采用 PyPI 4 月 2 日的超过 119,000 次，保留早期 46,996 次的来源；“123 个全部被盗账号”维持未证实。这些材料用于校正历史背景，后续当前版本调查仍以具体制品和可达数据流为重点。
+
 已完成的[七平台候选制品检查](investigation/version-1.101/artifacts/README.md)、[源码包构建对照](investigation/version-1.101/build/README.md)、[公开发布上下文](investigation/version-1.101/release-context/README.md)、[镜像声明](investigation/version-1.101/images/README.md)和[五文件功能边界](investigation/version-1.101/runtime-boundaries/README.md)作为基线。避免重复下载制品、重复完整 RECORD 检查或将同类 PR 数量累加成独立攻击证据。钓鱼分支维持[独立归档](investigation/notification-analysis/README.md)。
 
 本次派单继续采用静态读取，不安装或执行被调查代码，不使用真实秘密。调查任务不自行修改或合并 #130、不自行发帖或评论，也不覆盖已封存的证据清单。错误与不可访问状态保留原义；未发现异常时也提交清楚的覆盖范围。

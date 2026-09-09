@@ -1,0 +1,60 @@
+{
+  "litellm_entry": {
+    "assessment": "Best-supported public reconstruction: CircleCI invokes ci_cd/security_scans.sh, which installs an unpinned Trivy scanner via apt.",
+    "source_labels": [
+      "maintainer-comment",
+      "litellm-townhall",
+      "jfrog-analysis",
+      "fixed-security-scans",
+      "fixed-circleci"
+    ],
+    "boundary": "Official prose retains attribution qualifiers; no original compromised CircleCI run logs or downloaded scanner hash independently reviewed. A GitHub Action is not established as LiteLLM specific ingress."
+  },
+  "broader_chain": {
+    "source_labels": [
+      "trivy-conclusion",
+      "aqua-official"
+    ],
+    "assessment": "Trivy own GitHub Actions and distribution channels were compromised; that fact does not identify the integration mechanism used by a downstream project."
+  },
+  "download_counts": [
+    {
+      "source": "futuresearch-count",
+      "date": "2026-03-25",
+      "reported_total": 46996,
+      "reported_start_utc": "2026-03-24T10:39:00Z",
+      "reported_end_utc": "2026-03-24T11:25:00Z",
+      "reported_duration_minutes": 46,
+      "breakdown": {
+        "1.82.7": 14532,
+        "1.82.8": 32464,
+        "1.82.8_pip": 23142,
+        "1.82.8_uv": 8901
+      },
+      "boundary": "Early author-reported result, not independently reproduced; full-window interpretation contradicted by later platform report."
+    },
+    {
+      "source": "pypi-incident",
+      "date": "2026-04-02",
+      "reported_total_lower_bound_exclusive": 119000,
+      "reported_duration_minutes": 152,
+      "reported_upload_to_first_report_minutes": 79,
+      "reported_first_report_to_quarantine_minutes": 72,
+      "boundary": "Published platform download statistic, not unique victim count. No exact total or precise window endpoints asserted here."
+    }
+  ],
+  "quarantine_vs_deletion": {
+    "source": "litellm-townhall",
+    "reported_deleted_by_utc": "2026-03-24T16:00:00Z",
+    "boundary": "Deletion by 16:00 differs from quarantine time. Do not use deletion as end of the active installation window. Its about-40-minute quarantine statement conflicts with the later PyPI report."
+  },
+  "tags": {
+    "source_labels": [
+      "futuresearch-disclosure",
+      "futuresearch-count"
+    ],
+    "assessment": "Discoverer contemporaneous reporting says no matching tags/releases for the malicious PyPI versions; current disclosure page was edited March 30.",
+    "boundary": "No complete historical tag-event audit or archived immutable snapshot obtained; no present-day 404 used to prove historical nonexistence."
+  },
+  "relation_to_current_versions": "These findings concern malicious 1.82.7/1.82.8 in March. They do not establish poisoning of 1.100.0 or 1.101.0rc1."
+}

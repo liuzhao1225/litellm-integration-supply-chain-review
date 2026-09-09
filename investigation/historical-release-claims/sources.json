@@ -1,0 +1,180 @@
+[
+  {
+    "label": "aqua-official",
+    "url": "https://www.aquasec.com/blog/trivy-supply-chain-attack-what-you-need-to-know/",
+    "checked_at_utc": "2026-09-09T03:49:14.242390+00:00",
+    "http_status": 200,
+    "raw_path": ".raw/aqua-official.body",
+    "bytes": 290077,
+    "sha256": "5fed5ec1a240fda113836e83a0a23bac4a846055ab7eb66d3c5a144ad7a1df4a",
+    "visible_page_date": "2026-04-01",
+    "html_datePublished": "2026-04-01T07:00:11+00:00",
+    "html_dateModified": "2026-04-03T21:30:14+00:00",
+    "source_type": "upstream vendor incident updates",
+    "supports": "Broader campaign included Trivy binaries and trivy-action/setup-trivy tag compromise. Different surfaces must remain distinct."
+  },
+  {
+    "label": "fixed-circleci-api",
+    "url": "https://api.github.com/repos/BerriAI/litellm/contents/.circleci/config.yml?ref=9343aeefca37aa49a6ea54397d7615adae5c72c9",
+    "checked_at_utc": "2026-09-09T03:49:49.287777+00:00",
+    "http_status": 403,
+    "error": "HTTP Error 403: rate limit exceeded",
+    "raw_path": ".raw/fixed-circleci-api.body",
+    "bytes": 279,
+    "sha256": "99e9cdb9fbd6ea78deeda6afa7d27e6b1d9cd21322c1cc046fa1132887624758"
+  },
+  {
+    "label": "fixed-circleci",
+    "url": "https://raw.githubusercontent.com/BerriAI/litellm/9343aeefca37aa49a6ea54397d7615adae5c72c9/.circleci/config.yml",
+    "checked_at_utc": "2026-09-09T03:49:14.242264+00:00",
+    "http_status": 200,
+    "raw_path": ".raw/fixed-circleci.body",
+    "bytes": 166167,
+    "sha256": "6438b1c2e20041cabdcc01bb49ffe1f64c315977d66409c8f4ec59595a3f2fd5"
+  },
+  {
+    "label": "fixed-security-scans-api",
+    "url": "https://api.github.com/repos/BerriAI/litellm/contents/ci_cd/security_scans.sh?ref=9343aeefca37aa49a6ea54397d7615adae5c72c9",
+    "checked_at_utc": "2026-09-09T03:49:49.287008+00:00",
+    "http_status": 403,
+    "error": "HTTP Error 403: rate limit exceeded",
+    "raw_path": ".raw/fixed-security-scans-api.body",
+    "bytes": 279,
+    "sha256": "99e9cdb9fbd6ea78deeda6afa7d27e6b1d9cd21322c1cc046fa1132887624758"
+  },
+  {
+    "label": "fixed-security-scans",
+    "url": "https://raw.githubusercontent.com/BerriAI/litellm/9343aeefca37aa49a6ea54397d7615adae5c72c9/ci_cd/security_scans.sh",
+    "checked_at_utc": "2026-09-09T03:49:14.241678+00:00",
+    "http_status": 200,
+    "raw_path": ".raw/fixed-security-scans.body",
+    "bytes": 13333,
+    "sha256": "02617fc8f6452feb176ff38a65c8b854f1077cf322e89257ae70ba5f3dcae79e"
+  },
+  {
+    "label": "futuresearch-count",
+    "url": "https://futuresearch.ai/blog/litellm-hack-were-you-one-of-the-47000/",
+    "checked_at_utc": "2026-09-09T03:48:06.275286+00:00",
+    "http_status": 200,
+    "raw_path": ".raw/futuresearch-count.body",
+    "bytes": 100508,
+    "sha256": "807de64f2e3b240121995b0a5326a7cfd42b4818ce529068407c3b01ccc0aa80",
+    "publication_date": "2026-03-25",
+    "html_dateModified": "2026-03-25",
+    "author": "Daniel Hnyk",
+    "source_type": "original researcher download analysis",
+    "supports": "Reports 46,996 downloads in a claimed 10:39–11:25 UTC March 24 window. States both malicious versions lacked corresponding tags/releases. Earliest exact-count source located in this bounded search.",
+    "method": "Author reports querying BigQuery PyPI download logs; article also uses PyPI JSON and deps.dev for dependency analysis. No full download SQL or raw event table located in the article; query execution time not given."
+  },
+  {
+    "label": "futuresearch-disclosure",
+    "url": "https://futuresearch.ai/blog/litellm-pypi-supply-chain-attack/",
+    "checked_at_utc": "2026-09-09T03:49:14.242539+00:00",
+    "http_status": 200,
+    "raw_path": ".raw/futuresearch-disclosure.body",
+    "bytes": 61176,
+    "sha256": "c24848c4bd1071b462a056cbe7cf76831faa5550fd698e31fbf976edd0947860",
+    "publication_date": "2026-03-24",
+    "html_dateModified": "March 30, 2026",
+    "source_type": "original discoverer disclosure",
+    "supports": "States 1.82.8 lacked matching GitHub tag/release; current page was subsequently edited. Exact first appearance of this sentence is not established."
+  },
+  {
+    "label": "jfrog-analysis",
+    "url": "https://research.jfrog.com/post/litellm-compromised-teampcp/",
+    "checked_at_utc": "2026-09-09T03:48:06.275716+00:00",
+    "http_status": 200,
+    "raw_path": ".raw/jfrog-analysis.body",
+    "bytes": 58136,
+    "sha256": "1730eed13c9e32f5558a54e537f6ab6c7efb4b655ab2d447db9c0d0b95dc9098",
+    "publication_date": "2026-03-24",
+    "authors": [
+      "Guy Korolevski",
+      "Andrii Polkovnychenko"
+    ],
+    "source_type": "original security research with fixed source link",
+    "supports": "Apt-installed Trivy scanner; points to commit 9343aeefca37aa49a6ea54397d7615adae5c72c9."
+  },
+  {
+    "label": "litellm-official",
+    "url": "https://docs.litellm.ai/blog/security-update-march-2026",
+    "checked_at_utc": "2026-09-09T03:48:06.275160+00:00",
+    "http_status": 200,
+    "raw_path": ".raw/litellm-official.body",
+    "bytes": 325832,
+    "sha256": "13561ee6ece826b7cd1a546fa1daa49f9090bcecf56bcfa240071b759e5df086",
+    "publication_date": "2026-03-24",
+    "visible_updates_through": "2026-03-30",
+    "source_type": "project official incident page",
+    "supports": "Trivy scanning dependency attribution remains qualified; direct PyPI uploads; still says about 40 minutes. That duration conflicts with the later PyPI platform report."
+  },
+  {
+    "label": "litellm-townhall",
+    "url": "https://docs.litellm.ai/blog/security-townhall-updates",
+    "checked_at_utc": "2026-09-09T03:49:49.286769+00:00",
+    "http_status": 200,
+    "raw_path": ".raw/litellm-townhall.body",
+    "bytes": 52467,
+    "sha256": "51eb1c7f47b6c0cd4999ca5ea2697a8954328d8d34a7c0b3da09c56f186d8722",
+    "publication_date": "2026-03-27",
+    "source_type": "project official incident explanation",
+    "supports": "CircleCI shared environment, static release credentials, and unpinned Trivy package running in a scan; incident attribution is framed as present understanding."
+  },
+  {
+    "label": "maintainer-comment",
+    "url": "https://api.github.com/repos/BerriAI/litellm/issues/comments/4119972374",
+    "checked_at_utc": "2026-09-09T03:48:06.274694+00:00",
+    "http_status": 200,
+    "raw_path": ".raw/maintainer-comment.body",
+    "bytes": 2509,
+    "sha256": "fee5988add849e68df6b2a22923e67bf6992aa38f3ad515771a0e4c77c4d97ea",
+    "publication_utc": "2026-03-24T17:16:19Z",
+    "updated_utc": "2026-03-24T17:20:39Z",
+    "author": "krrish-berri-2",
+    "source_type": "maintainer first-person statement",
+    "supports": "CircleCI credentials leaked, including PyPI publish token and GitHub PAT. Does not identify apt or a GitHub Action."
+  },
+  {
+    "label": "pypa-download-guide",
+    "url": "https://packaging.python.org/en/latest/guides/analyzing-pypi-package-downloads/",
+    "checked_at_utc": "2026-09-09T03:51:09.832013+00:00",
+    "http_status": 200,
+    "raw_path": ".raw/pypa-download-guide.body",
+    "bytes": 63027,
+    "sha256": "e9c95ffa65fc7dfc1b0e0104cb1ee9580126ee1ca6fb2172868e171716bcce18",
+    "source_type": "official packaging data documentation",
+    "supports": "Linehaul file_downloads stores download events; cache, mirrors and repeated/scripted downloads complicate interpretation. Counts do not establish distinct victims or execution."
+  },
+  {
+    "label": "pypi-incident",
+    "url": "https://blog.pypi.org/posts/2026-04-02-incident-report-litellm-telnyx-supply-chain-attack/",
+    "checked_at_utc": "2026-09-09T03:48:06.275468+00:00",
+    "http_status": 200,
+    "raw_path": ".raw/pypi-incident.body",
+    "bytes": 55197,
+    "sha256": "88e6e53f76273b75a529972b10c38b25607380f4a24d58c51af8a05a705575a9",
+    "publication_date": "2026-04-02",
+    "authors": [
+      "Seth Larson",
+      "Mike Fiedler"
+    ],
+    "source_type": "registry operator incident report",
+    "supports": "Over 119k downloads; total exposure from upload to quarantine 2h32m. Prefer as later platform report, without inventing exact count or per-version split.",
+    "method_limit": "Article provides a timeline chart and rounded durations, not complete event SQL. 1h19m plus 1h12m is 2h31m; retain published 2h32m total without forcing rounded fields to sum."
+  },
+  {
+    "label": "trivy-conclusion",
+    "url": "https://github.com/aquasecurity/trivy/discussions/10462",
+    "checked_at_utc": "2026-09-09T03:49:49.284071+00:00",
+    "http_status": 200,
+    "raw_path": ".raw/trivy-conclusion.body",
+    "bytes": 419377,
+    "sha256": "9e8be3bc02a50beffbf9dba92f7eb2128ebb3dfc80dfee0050fc56fa47d9c7a5",
+    "publication_utc": "2026-03-30T15:12:53Z",
+    "author": "itaysk",
+    "source_type": "upstream official incident conclusion",
+    "updated_utc": null,
+    "date_limit": "Publication time appears in HTML relative-time; no independently verified body edit timestamp. Current text is not an archived March 30 snapshot.",
+    "supports": "Trivy initial pull_request_target compromise, cross-account persistence, March 19 release workflow abuse; does not name a LiteLLM-specific GitHub Action ingress."
+  }
+]
