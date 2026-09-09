@@ -26,6 +26,8 @@
 
 ## 当前推进事项
 
+优先级依据[综合判断与证据权重](REPORT.zh-CN.md)：先追原始 PyPI 构建绑定和可能改变秘密访问、外联或执行的未解释差异；贡献关系说明并行核对。已充分重复的模板行为不继续按数量累加攻击证据，钓鱼分支维持独立归档。
+
 - 1.101 已加入：[候选版定向结果](investigation/version-1.101/README.md)覆盖七平台 wheel、源码包与 Cargo、新增认证/诊断功能及镜像声明。正式版接口当前无记录。重点未决项为 wheel 自报 maturin 1.9.4 与源码要求 1.15.0 的差异、原始 PyPI 构建绑定，以及尚未逐项解释的原生与 Python 行为。
 
 - 原生入口：[构造器、初始化回调和一层调用核验](investigation/native-entry/README.md)以及 [111 个 Python C API 导入符号核对](investigation/abi-compatibility/README.md)已完成，未定位到新增入口载荷或高于 3.10 的符号要求。深层间接调用、布局和其他平台仍未完成全量审计。
