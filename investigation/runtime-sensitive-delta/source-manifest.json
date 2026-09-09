@@ -1,0 +1,5852 @@
+{
+  "candidate_archive": "litellm-1.101.0rc1-cp310-abi3-manylinux_2_28_x86_64.whl",
+  "candidate_sha256": "38273b92727303fd6e759fa9306b47c43e52a57c3ce583b239457c7dd5b8e598",
+  "base_archive": "litellm-1.100.0-cp310-abi3-manylinux_2_28_x86_64.whl",
+  "base_sha256": "8224c8eed9cab3319a88e6665d1275ad8faf21d353b1b22223a6d6115a302ea2",
+  "candidate_commit": "eeb7732fc11fd47762ca84cc3fb7cc74235d7097",
+  "files": [
+    {
+      "path": "litellm/proxy/_experimental/mcp_server/outbound_credentials/runtime_refresh_coordinator.py",
+      "sha256": "a5e1e3ac5c8cddd39d2f613df663757bd00a9056c7441bccc9389ffc3ce38724",
+      "old_sha256": null,
+      "status": "new",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/_experimental/mcp_server/outbound_credentials/runtime_refresh_coordinator.py",
+      "captured_at_utc": "2026-09-09T02:13:44.620843+00:00",
+      "functions": [
+        {
+          "name": "runtime_refresh_coordinator",
+          "start": 28,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "path": "litellm/proxy/_experimental/mcp_server/outbound_credentials/__init__.py",
+      "sha256": "b81d2eb781942c9fd47110825bcfad5dd3d05a13402afd27f9d9b52fbe6e7e49",
+      "old_sha256": "b81d2eb781942c9fd47110825bcfad5dd3d05a13402afd27f9d9b52fbe6e7e49",
+      "status": "unchanged",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/_experimental/mcp_server/outbound_credentials/__init__.py",
+      "captured_at_utc": "2026-09-09T02:13:44.622571+00:00",
+      "functions": []
+    },
+    {
+      "path": "litellm/proxy/_experimental/mcp_server/outbound_credentials/client_credentials.py",
+      "sha256": "d4b0a0ae67a7a89bc14f6d352f8eca11e48262f88a2d77ae4bbf3c38003a2ddc",
+      "old_sha256": "981eb4e38633ba6de82a77f5edd046139b2de2b50ff0bda7f6a59f439e1c546a",
+      "status": "changed",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/_experimental/mcp_server/outbound_credentials/client_credentials.py",
+      "captured_at_utc": "2026-09-09T02:13:44.625351+00:00",
+      "functions": [
+        {
+          "name": "post_client_credentials_grant",
+          "start": 93,
+          "end": 122
+        },
+        {
+          "name": "_parse_expires_in",
+          "start": 125,
+          "end": 135
+        },
+        {
+          "name": "_parse_granted_scopes",
+          "start": 138,
+          "end": 139
+        },
+        {
+          "name": "_prepare_grant",
+          "start": 266,
+          "end": 302
+        },
+        {
+          "name": "_identity_key",
+          "start": 305,
+          "end": 318
+        },
+        {
+          "name": "__init__",
+          "start": 161,
+          "end": 179
+        },
+        {
+          "name": "_lock",
+          "start": 181,
+          "end": 189
+        },
+        {
+          "name": "get",
+          "start": 191,
+          "end": 203
+        },
+        {
+          "name": "refetch",
+          "start": 205,
+          "end": 226
+        },
+        {
+          "name": "_fetch_and_cache",
+          "start": 228,
+          "end": 239
+        },
+        {
+          "name": "_cache_token",
+          "start": 241,
+          "end": 263
+        },
+        {
+          "name": "__init__",
+          "start": 329,
+          "end": 338
+        },
+        {
+          "name": "async_auth_flow",
+          "start": 340,
+          "end": 353
+        },
+        {
+          "name": "sync_auth_flow",
+          "start": 355,
+          "end": 356
+        }
+      ]
+    },
+    {
+      "path": "litellm/proxy/_experimental/mcp_server/outbound_credentials/v2_token_store.py",
+      "sha256": "3ddd05d9e4c63881dfaf48b96b2ec58a96e079190871a9fd7261bad2fb46b212",
+      "old_sha256": "3ddd05d9e4c63881dfaf48b96b2ec58a96e079190871a9fd7261bad2fb46b212",
+      "status": "unchanged",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/_experimental/mcp_server/outbound_credentials/v2_token_store.py",
+      "captured_at_utc": "2026-09-09T02:13:44.626561+00:00",
+      "functions": [
+        {
+          "name": "_iso_to_epoch",
+          "start": 24,
+          "end": 34
+        },
+        {
+          "name": "_to_scopes",
+          "start": 37,
+          "end": 40
+        },
+        {
+          "name": "_to_oauth_token",
+          "start": 43,
+          "end": 54
+        },
+        {
+          "name": "__init__",
+          "start": 67,
+          "end": 68
+        },
+        {
+          "name": "fetch",
+          "start": 70,
+          "end": 76
+        }
+      ]
+    },
+    {
+      "path": "litellm/proxy/_experimental/mcp_server/outbound_credentials/httpx_auth.py",
+      "sha256": "8318613948ce83612f4ed51c31aeb394630d8d559a4d4e10b70acb7fe0afaeca",
+      "old_sha256": "8318613948ce83612f4ed51c31aeb394630d8d559a4d4e10b70acb7fe0afaeca",
+      "status": "unchanged",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/_experimental/mcp_server/outbound_credentials/httpx_auth.py",
+      "captured_at_utc": "2026-09-09T02:13:44.627310+00:00",
+      "functions": [
+        {
+          "name": "auth_flow",
+          "start": 22,
+          "end": 23
+        },
+        {
+          "name": "__init__",
+          "start": 35,
+          "end": 37
+        },
+        {
+          "name": "auth_flow",
+          "start": 39,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "path": "litellm/proxy/_experimental/mcp_server/outbound_credentials/redis_distributed_lock.py",
+      "sha256": "bb65e6412f419967c1de6a7eb1800c01d2669b6246857056c2c65fbcedd62769",
+      "old_sha256": "bb65e6412f419967c1de6a7eb1800c01d2669b6246857056c2c65fbcedd62769",
+      "status": "unchanged",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/_experimental/mcp_server/outbound_credentials/redis_distributed_lock.py",
+      "captured_at_utc": "2026-09-09T02:13:44.628330+00:00",
+      "functions": [
+        {
+          "name": "set",
+          "start": 39,
+          "end": 39
+        },
+        {
+          "name": "eval",
+          "start": 41,
+          "end": 41
+        },
+        {
+          "name": "exists",
+          "start": 43,
+          "end": 43
+        },
+        {
+          "name": "acquire",
+          "start": 52,
+          "end": 60
+        },
+        {
+          "name": "extend",
+          "start": 62,
+          "end": 76
+        },
+        {
+          "name": "release",
+          "start": 78,
+          "end": 84
+        },
+        {
+          "name": "is_held",
+          "start": 86,
+          "end": 94
+        }
+      ]
+    },
+    {
+      "path": "litellm/proxy/_experimental/mcp_server/outbound_credentials/bridge_credentials.py",
+      "sha256": "d6ae52ce152419676ad370c532fccb4b48173b4492ebb087752e1333fc9c7755",
+      "old_sha256": "d6ae52ce152419676ad370c532fccb4b48173b4492ebb087752e1333fc9c7755",
+      "status": "unchanged",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/_experimental/mcp_server/outbound_credentials/bridge_credentials.py",
+      "captured_at_utc": "2026-09-09T02:13:44.629742+00:00",
+      "functions": [
+        {
+          "name": "envelope_keys_from_master_key",
+          "start": 51,
+          "end": 82
+        },
+        {
+          "name": "build_bridge_token_response",
+          "start": 85,
+          "end": 97
+        },
+        {
+          "name": "build_bridge_refresh_token_response",
+          "start": 100,
+          "end": 110
+        },
+        {
+          "name": "open_bridge_refresh_envelope",
+          "start": 134,
+          "end": 158
+        },
+        {
+          "name": "_strip_bearer",
+          "start": 189,
+          "end": 193
+        },
+        {
+          "name": "is_bridge_envelope_shaped",
+          "start": 196,
+          "end": 202
+        },
+        {
+          "name": "resolve_bridge_envelope",
+          "start": 205,
+          "end": 244
+        }
+      ]
+    },
+    {
+      "path": "litellm/proxy/_experimental/mcp_server/outbound_credentials/presented_token_store.py",
+      "sha256": "ca005549a36c7478c3bd843d4905f2c7a539eb754f6c47e193f9e22a7fa15f23",
+      "old_sha256": "ca005549a36c7478c3bd843d4905f2c7a539eb754f6c47e193f9e22a7fa15f23",
+      "status": "unchanged",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/_experimental/mcp_server/outbound_credentials/presented_token_store.py",
+      "captured_at_utc": "2026-09-09T02:13:44.630349+00:00",
+      "functions": [
+        {
+          "name": "fetch",
+          "start": 25,
+          "end": 26
+        }
+      ]
+    },
+    {
+      "path": "litellm/proxy/_experimental/mcp_server/outbound_credentials/token_endpoint.py",
+      "sha256": "7fe21e2710125d742bc2a282d1fd356318d5aa9e69d0306e5fe03d2492590647",
+      "old_sha256": "19ecb1ef91c93ea62b172fe1dc3dbf320fa39e6210df7281ec4118d9845fc530",
+      "status": "changed",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/_experimental/mcp_server/outbound_credentials/token_endpoint.py",
+      "captured_at_utc": "2026-09-09T02:13:44.632052+00:00",
+      "functions": [
+        {
+          "name": "_cache_ttl_seconds",
+          "start": 230,
+          "end": 235
+        },
+        {
+          "name": "_post_form",
+          "start": 238,
+          "end": 248
+        },
+        {
+          "name": "_client_auth_params",
+          "start": 251,
+          "end": 264
+        },
+        {
+          "name": "_client_assertion",
+          "start": 267,
+          "end": 281
+        },
+        {
+          "name": "fetch",
+          "start": 76,
+          "end": 121
+        },
+        {
+          "name": "__init__",
+          "start": 136,
+          "end": 138
+        },
+        {
+          "name": "__init__",
+          "start": 144,
+          "end": 149
+        },
+        {
+          "name": "get_or_compute",
+          "start": 151,
+          "end": 185
+        },
+        {
+          "name": "invalidate",
+          "start": 187,
+          "end": 200
+        },
+        {
+          "name": "_store",
+          "start": 202,
+          "end": 207
+        },
+        {
+          "name": "_get",
+          "start": 209,
+          "end": 220
+        },
+        {
+          "name": "_guard",
+          "start": 222,
+          "end": 227
+        }
+      ]
+    },
+    {
+      "path": "litellm/proxy/_experimental/mcp_server/outbound_credentials/oauth_token_store.py",
+      "sha256": "10e23c73f12afdde1cae661c57740e84d8309b269037163dc551b7aab50d1d3a",
+      "old_sha256": "10e23c73f12afdde1cae661c57740e84d8309b269037163dc551b7aab50d1d3a",
+      "status": "unchanged",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/_experimental/mcp_server/outbound_credentials/oauth_token_store.py",
+      "captured_at_utc": "2026-09-09T02:13:44.634515+00:00",
+      "functions": [
+        {
+          "name": "__repr__",
+          "start": 45,
+          "end": 47
+        },
+        {
+          "name": "fetch",
+          "start": 69,
+          "end": 69
+        },
+        {
+          "name": "invalidate",
+          "start": 80,
+          "end": 80
+        },
+        {
+          "name": "refresh",
+          "start": 96,
+          "end": 96
+        },
+        {
+          "name": "get",
+          "start": 106,
+          "end": 106
+        },
+        {
+          "name": "set",
+          "start": 108,
+          "end": 108
+        },
+        {
+          "name": "delete",
+          "start": 110,
+          "end": 110
+        },
+        {
+          "name": "__init__",
+          "start": 116,
+          "end": 119
+        },
+        {
+          "name": "get",
+          "start": 121,
+          "end": 130
+        },
+        {
+          "name": "set",
+          "start": 132,
+          "end": 138
+        },
+        {
+          "name": "delete",
+          "start": 140,
+          "end": 141
+        },
+        {
+          "name": "__init__",
+          "start": 156,
+          "end": 170
+        },
+        {
+          "name": "_ttl",
+          "start": 172,
+          "end": 175
+        },
+        {
+          "name": "fetch",
+          "start": 177,
+          "end": 189
+        },
+        {
+          "name": "invalidate",
+          "start": 191,
+          "end": 194
+        },
+        {
+          "name": "run",
+          "start": 204,
+          "end": 210
+        },
+        {
+          "name": "__init__",
+          "start": 220,
+          "end": 223
+        },
+        {
+          "name": "run",
+          "start": 225,
+          "end": 239
+        },
+        {
+          "name": "__init__",
+          "start": 257,
+          "end": 270
+        },
+        {
+          "name": "_is_expired",
+          "start": 272,
+          "end": 273
+        },
+        {
+          "name": "fetch",
+          "start": 275,
+          "end": 300
+        },
+        {
+          "name": "refresh_latest_token",
+          "start": 280,
+          "end": 284
+        },
+        {
+          "name": "reread_fresh_token",
+          "start": 286,
+          "end": 293
+        }
+      ]
+    },
+    {
+      "path": "litellm/proxy/_experimental/mcp_server/outbound_credentials/authz_code_refresher.py",
+      "sha256": "9894f604d10b8a6e4bf0b754575d64be43725057df6133597ef4f0b8d4b8b834",
+      "old_sha256": "9894f604d10b8a6e4bf0b754575d64be43725057df6133597ef4f0b8d4b8b834",
+      "status": "unchanged",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/_experimental/mcp_server/outbound_credentials/authz_code_refresher.py",
+      "captured_at_utc": "2026-09-09T02:13:44.636056+00:00",
+      "functions": [
+        {
+          "name": "_parse_expires_in",
+          "start": 45,
+          "end": 55
+        },
+        {
+          "name": "_parse_scopes",
+          "start": 58,
+          "end": 59
+        },
+        {
+          "name": "__call__",
+          "start": 34,
+          "end": 42
+        },
+        {
+          "name": "__init__",
+          "start": 74,
+          "end": 85
+        },
+        {
+          "name": "refresh",
+          "start": 87,
+          "end": 130
+        }
+      ]
+    },
+    {
+      "path": "litellm/proxy/_experimental/mcp_server/outbound_credentials/session_token.py",
+      "sha256": "b8fce90da59d7c5d2c1201041235bdf2ff82944e9624ad058bc6bea0a491706b",
+      "old_sha256": "b8fce90da59d7c5d2c1201041235bdf2ff82944e9624ad058bc6bea0a491706b",
+      "status": "unchanged",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/_experimental/mcp_server/outbound_credentials/session_token.py",
+      "captured_at_utc": "2026-09-09T02:13:44.638937+00:00",
+      "functions": [
+        {
+          "name": "_public_key_pem_from_private",
+          "start": 200,
+          "end": 206
+        },
+        {
+          "name": "session_public_key_pem",
+          "start": 209,
+          "end": 212
+        },
+        {
+          "name": "is_session_token",
+          "start": 307,
+          "end": 310
+        },
+        {
+          "name": "is_session_refresh_token",
+          "start": 313,
+          "end": 316
+        },
+        {
+          "name": "mint_session_token",
+          "start": 319,
+          "end": 336
+        },
+        {
+          "name": "mint_session_refresh_token",
+          "start": 339,
+          "end": 357
+        },
+        {
+          "name": "open_session_token",
+          "start": 360,
+          "end": 370
+        },
+        {
+          "name": "open_session_refresh_token",
+          "start": 373,
+          "end": 384
+        },
+        {
+          "name": "_mint",
+          "start": 387,
+          "end": 413
+        },
+        {
+          "name": "_sign_claims",
+          "start": 416,
+          "end": 428
+        },
+        {
+          "name": "_open",
+          "start": 431,
+          "end": 469
+        },
+        {
+          "name": "_verification_material",
+          "start": 478,
+          "end": 503
+        },
+        {
+          "name": "_decode_claims",
+          "start": 506,
+          "end": 547
+        },
+        {
+          "name": "_pem_is_an_rsa_public_key",
+          "start": 146,
+          "end": 155
+        },
+        {
+          "name": "_pem_is_a_strong_rsa_private_key",
+          "start": 172,
+          "end": 181
+        },
+        {
+          "name": "_kids_are_unique",
+          "start": 184,
+          "end": 191
+        }
+      ]
+    },
+    {
+      "path": "litellm/proxy/_experimental/mcp_server/outbound_credentials/sso_assertion_store.py",
+      "sha256": "37f2d157bddea21f036f726830a342fa37878274aff42730e3715663315eabf8",
+      "old_sha256": "38f99effaeb045d5ddfc3dfd04323a55328c38fe407cb3294daa40626015e25c",
+      "status": "changed",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/_experimental/mcp_server/outbound_credentials/sso_assertion_store.py",
+      "captured_at_utc": "2026-09-09T02:13:44.642789+00:00",
+      "functions": [
+        {
+          "name": "assertion_from_sso_login",
+          "start": 103,
+          "end": 127
+        },
+        {
+          "name": "assertion_expired",
+          "start": 130,
+          "end": 144
+        },
+        {
+          "name": "ema_assertion_retention_enabled",
+          "start": 147,
+          "end": 169
+        },
+        {
+          "name": "persist_sso_identity_assertion",
+          "start": 172,
+          "end": 194
+        },
+        {
+          "name": "_read_assertion_from_db",
+          "start": 197,
+          "end": 223
+        },
+        {
+          "name": "fetch_sso_identity_assertion",
+          "start": 226,
+          "end": 238
+        },
+        {
+          "name": "rotate_sso_identity_assertions_master_key",
+          "start": 288,
+          "end": 325
+        },
+        {
+          "name": "retain_sso_identity_assertion_for_ema",
+          "start": 328,
+          "end": 341
+        },
+        {
+          "name": "__init__",
+          "start": 55,
+          "end": 60
+        },
+        {
+          "name": "epoch",
+          "start": 62,
+          "end": 63
+        },
+        {
+          "name": "get",
+          "start": 65,
+          "end": 69
+        },
+        {
+          "name": "set_if_unchanged",
+          "start": 71,
+          "end": 76
+        },
+        {
+          "name": "invalidate",
+          "start": 78,
+          "end": 82
+        },
+        {
+          "name": "flush",
+          "start": 84,
+          "end": 85
+        },
+        {
+          "name": "fetch",
+          "start": 261,
+          "end": 261
+        },
+        {
+          "name": "__init__",
+          "start": 272,
+          "end": 273
+        },
+        {
+          "name": "fetch",
+          "start": 275,
+          "end": 279
+        },
+        {
+          "name": "fetch_uncached",
+          "start": 281,
+          "end": 285
+        },
+        {
+          "name": "_rotate_row",
+          "start": 300,
+          "end": 317
+        }
+      ]
+    },
+    {
+      "path": "litellm/proxy/_experimental/mcp_server/outbound_credentials/dual_cache_token_backend.py",
+      "sha256": "8db257ea12fc810cee09355f8ae9b7f58ef5fe3cb858f2d01e76dcef86d366df",
+      "old_sha256": "8db257ea12fc810cee09355f8ae9b7f58ef5fe3cb858f2d01e76dcef86d366df",
+      "status": "unchanged",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/_experimental/mcp_server/outbound_credentials/dual_cache_token_backend.py",
+      "captured_at_utc": "2026-09-09T02:13:44.644110+00:00",
+      "functions": [
+        {
+          "name": "async_get_cache",
+          "start": 27,
+          "end": 27
+        },
+        {
+          "name": "async_set_cache",
+          "start": 29,
+          "end": 29
+        },
+        {
+          "name": "async_delete_cache",
+          "start": 31,
+          "end": 31
+        },
+        {
+          "name": "_key",
+          "start": 47,
+          "end": 48
+        },
+        {
+          "name": "get",
+          "start": 50,
+          "end": 56
+        },
+        {
+          "name": "set",
+          "start": 58,
+          "end": 68
+        },
+        {
+          "name": "delete",
+          "start": 70,
+          "end": 74
+        }
+      ]
+    },
+    {
+      "path": "litellm/proxy/_experimental/mcp_server/outbound_credentials/token_cache_codec.py",
+      "sha256": "1421c206b4e764de1b656030a71b6b7fa248ba2a41a58a478fdf82cd721f8a5a",
+      "old_sha256": "1421c206b4e764de1b656030a71b6b7fa248ba2a41a58a478fdf82cd721f8a5a",
+      "status": "unchanged",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/_experimental/mcp_server/outbound_credentials/token_cache_codec.py",
+      "captured_at_utc": "2026-09-09T02:13:44.644695+00:00",
+      "functions": [
+        {
+          "name": "encode",
+          "start": 28,
+          "end": 29
+        },
+        {
+          "name": "decode",
+          "start": 31,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "path": "litellm/proxy/_experimental/mcp_server/outbound_credentials/types.py",
+      "sha256": "120633043d9a10db53eb3153517192fd5fbe9e6938b79dd8629f0477e2e8aaba",
+      "old_sha256": "8fa80d01f53123254e48aaf6de478b61954b35ffa6840b64a036f38edb73de7d",
+      "status": "changed",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/_experimental/mcp_server/outbound_credentials/types.py",
+      "captured_at_utc": "2026-09-09T02:13:44.646932+00:00",
+      "functions": [
+        {
+          "name": "validate_header_name",
+          "start": 180,
+          "end": 189
+        },
+        {
+          "name": "parse_auth_spec_kind",
+          "start": 467,
+          "end": 476
+        },
+        {
+          "name": "of_unauthorized",
+          "start": 114,
+          "end": 128
+        },
+        {
+          "name": "of_misconfigured",
+          "start": 131,
+          "end": 132
+        },
+        {
+          "name": "of_url_credentials_not_allowed",
+          "start": 135,
+          "end": 136
+        },
+        {
+          "name": "of_upstream_unavailable",
+          "start": 139,
+          "end": 140
+        },
+        {
+          "name": "of_unsupported_mode",
+          "start": 143,
+          "end": 144
+        },
+        {
+          "name": "of_precondition_required",
+          "start": 147,
+          "end": 148
+        },
+        {
+          "name": "of_not_implemented",
+          "start": 151,
+          "end": 152
+        },
+        {
+          "name": "summary",
+          "start": 155,
+          "end": 177
+        },
+        {
+          "name": "_check_header_name",
+          "start": 213,
+          "end": 218
+        },
+        {
+          "name": "header",
+          "start": 220,
+          "end": 222
+        },
+        {
+          "name": "auth_spec_kind",
+          "start": 463,
+          "end": 464
+        }
+      ]
+    },
+    {
+      "path": "litellm/proxy/_experimental/mcp_server/outbound_credentials/redis_refresh_coordinator.py",
+      "sha256": "fe2b1bdf3b1f37df6895cc9c034f478b1ca1b1eed44ef82e61b834b1c8f56b28",
+      "old_sha256": "fe2b1bdf3b1f37df6895cc9c034f478b1ca1b1eed44ef82e61b834b1c8f56b28",
+      "status": "unchanged",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/_experimental/mcp_server/outbound_credentials/redis_refresh_coordinator.py",
+      "captured_at_utc": "2026-09-09T02:13:44.648639+00:00",
+      "functions": [
+        {
+          "name": "acquire",
+          "start": 53,
+          "end": 53
+        },
+        {
+          "name": "extend",
+          "start": 55,
+          "end": 55
+        },
+        {
+          "name": "release",
+          "start": 57,
+          "end": 57
+        },
+        {
+          "name": "is_held",
+          "start": 59,
+          "end": 59
+        },
+        {
+          "name": "_key",
+          "start": 82,
+          "end": 83
+        },
+        {
+          "name": "run",
+          "start": 85,
+          "end": 108
+        },
+        {
+          "name": "_refresh_with_lease_renewal",
+          "start": 110,
+          "end": 124
+        },
+        {
+          "name": "_renew_lease_until_done",
+          "start": 126,
+          "end": 136
+        }
+      ]
+    },
+    {
+      "path": "litellm/proxy/_experimental/mcp_server/outbound_credentials/per_user_oauth_store.py",
+      "sha256": "bcdfa08243adf0c225b3640247b32c62b25967ed6fe5a4b95690c3eaeaae99a4",
+      "old_sha256": "26b42876bd70b58cdbf806db73d015463b78a21ded5f76f4d7eecb15c5736aa7",
+      "status": "changed",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/_experimental/mcp_server/outbound_credentials/per_user_oauth_store.py",
+      "captured_at_utc": "2026-09-09T02:13:44.650630+00:00",
+      "functions": [
+        {
+          "name": "_read_credential",
+          "start": 54,
+          "end": 62
+        },
+        {
+          "name": "_persist_credential",
+          "start": 65,
+          "end": 89
+        },
+        {
+          "name": "_post_token_endpoint",
+          "start": 92,
+          "end": 112
+        },
+        {
+          "name": "_redis_cache_is_available",
+          "start": 115,
+          "end": 118
+        },
+        {
+          "name": "_runtime_backend_and_coordinator",
+          "start": 121,
+          "end": 142
+        },
+        {
+          "name": "_build_per_user_oauth_token_store",
+          "start": 145,
+          "end": 151
+        },
+        {
+          "name": "build_per_user_oauth_token_store",
+          "start": 154,
+          "end": 158
+        },
+        {
+          "name": "__init__",
+          "start": 169,
+          "end": 182
+        },
+        {
+          "name": "fetch",
+          "start": 184,
+          "end": 195
+        },
+        {
+          "name": "invalidate",
+          "start": 197,
+          "end": 214
+        },
+        {
+          "name": "_store_for_fetch",
+          "start": 216,
+          "end": 229
+        },
+        {
+          "name": "_finish_local_fetch",
+          "start": 231,
+          "end": 235
+        }
+      ]
+    },
+    {
+      "path": "litellm/proxy/_experimental/mcp_server/outbound_credentials/adapter.py",
+      "sha256": "a8e2341135f2a9436e9efa2f2d14dabd89be3676d521b9821fa84879d31dadd1",
+      "old_sha256": "9037c5de8c7d68756adabbfc8134daf92cc507455fc93a90f9b0742de3bdbd70",
+      "status": "changed",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/_experimental/mcp_server/outbound_credentials/adapter.py",
+      "captured_at_utc": "2026-09-09T02:13:44.652977+00:00",
+      "functions": [
+        {
+          "name": "token_header",
+          "start": 51,
+          "end": 57
+        },
+        {
+          "name": "to_subject",
+          "start": 60,
+          "end": 73
+        },
+        {
+          "name": "to_server_spec",
+          "start": 76,
+          "end": 121
+        },
+        {
+          "name": "_oauth2_spec",
+          "start": 124,
+          "end": 139
+        },
+        {
+          "name": "_client_credentials_spec",
+          "start": 142,
+          "end": 164
+        },
+        {
+          "name": "_token_exchange_spec",
+          "start": 167,
+          "end": 199
+        },
+        {
+          "name": "_shared_key_spec",
+          "start": 202,
+          "end": 229
+        },
+        {
+          "name": "_id_jag_spec",
+          "start": 232,
+          "end": 260
+        },
+        {
+          "name": "_id_jag_client_auth",
+          "start": 263,
+          "end": 273
+        },
+        {
+          "name": "_id_jag_subject_token_type",
+          "start": 276,
+          "end": 282
+        },
+        {
+          "name": "raise_public",
+          "start": 285,
+          "end": 307
+        },
+        {
+          "name": "oauth_protected_resource_path",
+          "start": 310,
+          "end": 319
+        },
+        {
+          "name": "raise_user_oauth_challenge",
+          "start": 322,
+          "end": 335
+        },
+        {
+          "name": "raise_token_exchange_challenge",
+          "start": 338,
+          "end": 381
+        }
+      ]
+    },
+    {
+      "path": "litellm/proxy/_experimental/mcp_server/outbound_credentials/resolver.py",
+      "sha256": "8d4a27834b08ce80611d4b32cdf45ddac09328283e53b21da2e11e1b52fc0cd0",
+      "old_sha256": "3b45c971c7af05d568cc9b3e56e3e3a99efc657cc669dfb098a8e319e21db84a",
+      "status": "changed",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/_experimental/mcp_server/outbound_credentials/resolver.py",
+      "captured_at_utc": "2026-09-09T02:13:44.656112+00:00",
+      "functions": [
+        {
+          "name": "_id_jag_slot_key",
+          "start": 397,
+          "end": 407
+        },
+        {
+          "name": "_id_jag_fingerprint",
+          "start": 410,
+          "end": 435
+        },
+        {
+          "name": "_client_auth_fingerprint",
+          "start": 438,
+          "end": 446
+        },
+        {
+          "name": "_not_implemented",
+          "start": 449,
+          "end": 450
+        },
+        {
+          "name": "fetch",
+          "start": 93,
+          "end": 94
+        },
+        {
+          "name": "exchange",
+          "start": 100,
+          "end": 103
+        },
+        {
+          "name": "invalidate",
+          "start": 105,
+          "end": 108
+        },
+        {
+          "name": "__init__",
+          "start": 120,
+          "end": 134
+        },
+        {
+          "name": "resolve_credentials",
+          "start": 136,
+          "end": 154
+        },
+        {
+          "name": "_none",
+          "start": 156,
+          "end": 163
+        },
+        {
+          "name": "has_user_token",
+          "start": 165,
+          "end": 173
+        },
+        {
+          "name": "_passthrough",
+          "start": 175,
+          "end": 185
+        },
+        {
+          "name": "_api_key",
+          "start": 187,
+          "end": 195
+        },
+        {
+          "name": "_id_jag",
+          "start": 197,
+          "end": 202
+        },
+        {
+          "name": "_id_jag_subject_token",
+          "start": 204,
+          "end": 258
+        },
+        {
+          "name": "_id_jag_exchange",
+          "start": 260,
+          "end": 301
+        },
+        {
+          "name": "_authorization_code",
+          "start": 303,
+          "end": 310
+        },
+        {
+          "name": "_client_credentials",
+          "start": 312,
+          "end": 327
+        },
+        {
+          "name": "_token_exchange",
+          "start": 329,
+          "end": 353
+        },
+        {
+          "name": "invalidate_credentials",
+          "start": 355,
+          "end": 373
+        },
+        {
+          "name": "_invalidate_id_jag",
+          "start": 375,
+          "end": 383
+        },
+        {
+          "name": "_authz_token",
+          "start": 385,
+          "end": 394
+        },
+        {
+          "name": "_exchange",
+          "start": 266,
+          "end": 294
+        }
+      ]
+    },
+    {
+      "path": "litellm/proxy/_experimental/mcp_server/outbound_credentials/session_credentials.py",
+      "sha256": "f8648c8fa1ec699f6fa8c730284e005683dd4e119b77ee2686c39cf5ca29b2f1",
+      "old_sha256": "f8648c8fa1ec699f6fa8c730284e005683dd4e119b77ee2686c39cf5ca29b2f1",
+      "status": "unchanged",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/_experimental/mcp_server/outbound_credentials/session_credentials.py",
+      "captured_at_utc": "2026-09-09T02:13:44.658222+00:00",
+      "functions": [
+        {
+          "name": "session_keys_from_master_key",
+          "start": 51,
+          "end": 71
+        },
+        {
+          "name": "_resolve_key_material",
+          "start": 106,
+          "end": 111
+        },
+        {
+          "name": "resolve_session_signing_keys",
+          "start": 114,
+          "end": 155
+        },
+        {
+          "name": "active_session_signing_keys",
+          "start": 158,
+          "end": 164
+        },
+        {
+          "name": "_strip_bearer",
+          "start": 196,
+          "end": 200
+        },
+        {
+          "name": "is_session_bearer_shaped",
+          "start": 203,
+          "end": 210
+        },
+        {
+          "name": "resolve_session_bearer",
+          "start": 213,
+          "end": 238
+        },
+        {
+          "name": "open_session_refresh_bearer",
+          "start": 263,
+          "end": 287
+        }
+      ]
+    },
+    {
+      "path": "litellm/proxy/_experimental/mcp_server/outbound_credentials/result.py",
+      "sha256": "378ed7052b24ed7810d0938eb4eba56a7948ba9020fd5984e7b6de17b67904ff",
+      "old_sha256": "378ed7052b24ed7810d0938eb4eba56a7948ba9020fd5984e7b6de17b67904ff",
+      "status": "unchanged",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/_experimental/mcp_server/outbound_credentials/result.py",
+      "captured_at_utc": "2026-09-09T02:13:44.658977+00:00",
+      "functions": [
+        {
+          "name": "is_ok",
+          "start": 36,
+          "end": 37
+        },
+        {
+          "name": "is_error",
+          "start": 39,
+          "end": 40
+        },
+        {
+          "name": "is_ok",
+          "start": 47,
+          "end": 48
+        },
+        {
+          "name": "is_error",
+          "start": 50,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "path": "litellm/proxy/_experimental/mcp_server/outbound_credentials/token_exchanger.py",
+      "sha256": "0a637788feb5866892e3a8149a9a82f9329b2f44bfaa3f5c8a5c47498138d4f6",
+      "old_sha256": "0a637788feb5866892e3a8149a9a82f9329b2f44bfaa3f5c8a5c47498138d4f6",
+      "status": "unchanged",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/_experimental/mcp_server/outbound_credentials/token_exchanger.py",
+      "captured_at_utc": "2026-09-09T02:13:44.661257+00:00",
+      "functions": [
+        {
+          "name": "_cache_key",
+          "start": 122,
+          "end": 146
+        },
+        {
+          "name": "_parse_expires_in",
+          "start": 149,
+          "end": 159
+        },
+        {
+          "name": "_rfc8693_form",
+          "start": 162,
+          "end": 175
+        },
+        {
+          "name": "_entra_obo_form",
+          "start": 178,
+          "end": 196
+        },
+        {
+          "name": "_build_exchange_form",
+          "start": 199,
+          "end": 220
+        },
+        {
+          "name": "__init__",
+          "start": 94,
+          "end": 96
+        },
+        {
+          "name": "exchange",
+          "start": 113,
+          "end": 115
+        },
+        {
+          "name": "invalidate",
+          "start": 117,
+          "end": 119
+        },
+        {
+          "name": "__init__",
+          "start": 232,
+          "end": 249
+        },
+        {
+          "name": "exchange",
+          "start": 251,
+          "end": 341
+        },
+        {
+          "name": "invalidate",
+          "start": 343,
+          "end": 347
+        },
+        {
+          "name": "_token_from_body",
+          "start": 349,
+          "end": 368
+        },
+        {
+          "name": "_ttl_seconds",
+          "start": 370,
+          "end": 376
+        },
+        {
+          "name": "run_exchange",
+          "start": 296,
+          "end": 311
+        },
+        {
+          "name": "reread",
+          "start": 313,
+          "end": 314
+        }
+      ]
+    },
+    {
+      "path": "litellm/proxy/_experimental/mcp_server/outbound_credentials/sso_assertion_refresher.py",
+      "sha256": "72bbe220e02a56b9cba41de5ce6e6aca7ace095ce221c8aa6084f2126c2bee99",
+      "old_sha256": null,
+      "status": "new",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/_experimental/mcp_server/outbound_credentials/sso_assertion_refresher.py",
+      "captured_at_utc": "2026-09-09T02:13:44.664339+00:00",
+      "functions": [
+        {
+          "name": "sso_client_config",
+          "start": 133,
+          "end": 160
+        },
+        {
+          "name": "post_form",
+          "start": 200,
+          "end": 204
+        },
+        {
+          "name": "default_sso_assertion_store",
+          "start": 461,
+          "end": 469
+        },
+        {
+          "name": "__call__",
+          "start": 100,
+          "end": 100
+        },
+        {
+          "name": "__call__",
+          "start": 106,
+          "end": 106
+        },
+        {
+          "name": "__call__",
+          "start": 112,
+          "end": 112
+        },
+        {
+          "name": "__call__",
+          "start": 118,
+          "end": 120
+        },
+        {
+          "name": "of_rejected",
+          "start": 178,
+          "end": 179
+        },
+        {
+          "name": "of_unavailable",
+          "start": 182,
+          "end": 183
+        },
+        {
+          "name": "post",
+          "start": 195,
+          "end": 197
+        },
+        {
+          "name": "__init__",
+          "start": 214,
+          "end": 215
+        },
+        {
+          "name": "post",
+          "start": 217,
+          "end": 237
+        },
+        {
+          "name": "__init__",
+          "start": 247,
+          "end": 258
+        },
+        {
+          "name": "refresh",
+          "start": 260,
+          "end": 299
+        },
+        {
+          "name": "_renewed_from",
+          "start": 301,
+          "end": 329
+        },
+        {
+          "name": "_store_renewal",
+          "start": 331,
+          "end": 363
+        },
+        {
+          "name": "__init__",
+          "start": 385,
+          "end": 402
+        },
+        {
+          "name": "fetch",
+          "start": 404,
+          "end": 414
+        },
+        {
+          "name": "_expiring",
+          "start": 416,
+          "end": 417
+        },
+        {
+          "name": "_coordinator",
+          "start": 419,
+          "end": 427
+        },
+        {
+          "name": "_renew",
+          "start": 429,
+          "end": 445
+        },
+        {
+          "name": "_reread_renewed",
+          "start": 447,
+          "end": 458
+        }
+      ]
+    },
+    {
+      "path": "litellm/proxy/_experimental/mcp_server/outbound_credentials/envelope.py",
+      "sha256": "96e7cb8e458077918a5a33fb02042817906d410a64cd5e72a1a1d2a284a074b1",
+      "old_sha256": "96e7cb8e458077918a5a33fb02042817906d410a64cd5e72a1a1d2a284a074b1",
+      "status": "unchanged",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/_experimental/mcp_server/outbound_credentials/envelope.py",
+      "captured_at_utc": "2026-09-09T02:13:44.667399+00:00",
+      "functions": [
+        {
+          "name": "key_hash_identity",
+          "start": 118,
+          "end": 120
+        },
+        {
+          "name": "user_identity",
+          "start": 123,
+          "end": 125
+        },
+        {
+          "name": "is_envelope",
+          "start": 298,
+          "end": 301
+        },
+        {
+          "name": "is_refresh_envelope",
+          "start": 304,
+          "end": 307
+        },
+        {
+          "name": "mint_envelope",
+          "start": 310,
+          "end": 337
+        },
+        {
+          "name": "open_envelope",
+          "start": 340,
+          "end": 362
+        },
+        {
+          "name": "mint_refresh_envelope",
+          "start": 365,
+          "end": 387
+        },
+        {
+          "name": "open_refresh_envelope",
+          "start": 390,
+          "end": 411
+        },
+        {
+          "name": "_seal",
+          "start": 414,
+          "end": 439
+        },
+        {
+          "name": "_open_claims",
+          "start": 442,
+          "end": 468
+        },
+        {
+          "name": "_envelope_ttl_seconds",
+          "start": 471,
+          "end": 474
+        },
+        {
+          "name": "_refresh_ttl_seconds",
+          "start": 477,
+          "end": 480
+        },
+        {
+          "name": "_grant_plaintext",
+          "start": 483,
+          "end": 491
+        },
+        {
+          "name": "_refresh_plaintext",
+          "start": 494,
+          "end": 500
+        },
+        {
+          "name": "_decode_claims",
+          "start": 503,
+          "end": 539
+        },
+        {
+          "name": "_encrypt_grant_blob",
+          "start": 542,
+          "end": 544
+        },
+        {
+          "name": "_decrypt_grant",
+          "start": 547,
+          "end": 563
+        },
+        {
+          "name": "_decrypt_refresh",
+          "start": 566,
+          "end": 582
+        }
+      ]
+    },
+    {
+      "path": "litellm/proxy/_experimental/mcp_server/outbound_credentials/token_exchange_provider.py",
+      "sha256": "9200a3292355febe53bd3bab83ed523a1d6c34a0f867e4d3901f1b0131cf0f9e",
+      "old_sha256": "9200a3292355febe53bd3bab83ed523a1d6c34a0f867e4d3901f1b0131cf0f9e",
+      "status": "unchanged",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/_experimental/mcp_server/outbound_credentials/token_exchange_provider.py",
+      "captured_at_utc": "2026-09-09T02:13:44.669085+00:00",
+      "functions": [
+        {
+          "name": "_oauth_error_fields",
+          "start": 39,
+          "end": 59
+        },
+        {
+          "name": "_post_exchange_endpoint",
+          "start": 62,
+          "end": 106
+        },
+        {
+          "name": "build_token_exchanger",
+          "start": 109,
+          "end": 116
+        }
+      ]
+    },
+    {
+      "path": "litellm/proxy/management_endpoints/sso/id_jag_assertion_capture.py",
+      "sha256": "1230c221869b4b7645e6b9e3b0855b8d1148a64e95be4f0d5d5cb6ab501ba484",
+      "old_sha256": null,
+      "status": "new",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/management_endpoints/sso/id_jag_assertion_capture.py",
+      "captured_at_utc": "2026-09-09T02:13:44.669898+00:00",
+      "functions": [
+        {
+          "name": "active_sso_provider",
+          "start": 34,
+          "end": 50
+        },
+        {
+          "name": "id_jag_assertion_capture_gap",
+          "start": 53,
+          "end": 72
+        },
+        {
+          "name": "id_jag_assertion_capture_gap_at_startup",
+          "start": 75,
+          "end": 81
+        }
+      ]
+    },
+    {
+      "path": "litellm/llms/openai/workload_identity.py",
+      "sha256": "dfe21ee67922cdfc476d0f7870d72c63396fba43482c1d4588e0adf2b0970622",
+      "old_sha256": null,
+      "status": "new",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/llms/openai/workload_identity.py",
+      "captured_at_utc": "2026-09-09T02:13:44.670954+00:00",
+      "functions": [
+        {
+          "name": "resolve_openai_workload_identity_config",
+          "start": 43,
+          "end": 66
+        },
+        {
+          "name": "get_workload_identity_bearer_token",
+          "start": 69,
+          "end": 70
+        },
+        {
+          "name": "_targets_openai_api",
+          "start": 73,
+          "end": 77
+        },
+        {
+          "name": "_workload_identity_auth",
+          "start": 81,
+          "end": 83
+        },
+        {
+          "name": "_load_sdk_workload_identity_auth",
+          "start": 86,
+          "end": 91
+        },
+        {
+          "name": "_load_sdk_k8s_token_provider",
+          "start": 94,
+          "end": 99
+        },
+        {
+          "name": "to_sdk_workload_identity",
+          "start": 32,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "path": "litellm/proxy/management_endpoints/ui_sso.py",
+      "sha256": "2940187c386460b24e339d165934fe11744d99ed0d79af8f9fe5f3a867a6a7c6",
+      "old_sha256": "8257283cff2b99ba6b88592078d5f793c891b9fbf03ebe562af4ebeea6ed4d0c",
+      "status": "changed",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/management_endpoints/ui_sso.py",
+      "captured_at_utc": "2026-09-09T03:51:27.502904+00:00",
+      "functions": [
+        {
+          "name": "_user_meta_db",
+          "start": 187,
+          "end": 190
+        },
+        {
+          "name": "_sso_config_db",
+          "start": 198,
+          "end": 201
+        },
+        {
+          "name": "_team_detail_db",
+          "start": 208,
+          "end": 209
+        },
+        {
+          "name": "_decode_model_aliases",
+          "start": 216,
+          "end": 223
+        },
+        {
+          "name": "_as_object",
+          "start": 272,
+          "end": 273
+        },
+        {
+          "name": "_hash_cli_sso_secret",
+          "start": 276,
+          "end": 277
+        },
+        {
+          "name": "_normalize_cli_sso_user_code",
+          "start": 280,
+          "end": 281
+        },
+        {
+          "name": "_generate_cli_sso_user_code",
+          "start": 284,
+          "end": 286
+        },
+        {
+          "name": "_get_cli_sso_flow_cache_key",
+          "start": 289,
+          "end": 290
+        },
+        {
+          "name": "_is_valid_cli_sso_login_id",
+          "start": 293,
+          "end": 294
+        },
+        {
+          "name": "_is_valid_cli_sso_user_code",
+          "start": 297,
+          "end": 298
+        },
+        {
+          "name": "_cli_sso_verification_uri_complete_enabled",
+          "start": 301,
+          "end": 304
+        },
+        {
+          "name": "_cli_sso_start_response_body",
+          "start": 307,
+          "end": 327
+        },
+        {
+          "name": "_get_cli_sso_start_rate_limit_cache_key",
+          "start": 330,
+          "end": 333
+        },
+        {
+          "name": "_check_cli_sso_start_rate_limit",
+          "start": 336,
+          "end": 353
+        },
+        {
+          "name": "_get_cli_sso_flow_or_raise",
+          "start": 356,
+          "end": 394
+        },
+        {
+          "name": "_set_cli_sso_flow",
+          "start": 397,
+          "end": 403
+        },
+        {
+          "name": "_verify_cli_sso_poll_secret",
+          "start": 406,
+          "end": 411
+        },
+        {
+          "name": "_parse_cli_sso_claim_map",
+          "start": 414,
+          "end": 438
+        },
+        {
+          "name": "_is_safe_cli_sso_metadata_dest_key",
+          "start": 441,
+          "end": 445
+        },
+        {
+          "name": "_is_safe_cli_sso_scalar_claim_value",
+          "start": 448,
+          "end": 456
+        },
+        {
+          "name": "_sso_result_to_dict",
+          "start": 459,
+          "end": 466
+        },
+        {
+          "name": "_get_nested_claim_value",
+          "start": 469,
+          "end": 489
+        },
+        {
+          "name": "_extract_sso_claim_value",
+          "start": 492,
+          "end": 505
+        },
+        {
+          "name": "_set_nested_metadata_value",
+          "start": 508,
+          "end": 519
+        },
+        {
+          "name": "_flatten_cli_sso_metadata_for_poll",
+          "start": 522,
+          "end": 537
+        },
+        {
+          "name": "build_cli_sso_attribution_metadata",
+          "start": 540,
+          "end": 565
+        },
+        {
+          "name": "_merge_cli_sso_attribution_metadata",
+          "start": 568,
+          "end": 589
+        },
+        {
+          "name": "_persist_cli_sso_user_metadata",
+          "start": 592,
+          "end": 622
+        },
+        {
+          "name": "_cli_poll_attribution_metadata_from_session",
+          "start": 625,
+          "end": 631
+        },
+        {
+          "name": "_render_cli_sso_verification_page",
+          "start": 634,
+          "end": 710
+        },
+        {
+          "name": "cli_sso_start",
+          "start": 714,
+          "end": 756
+        },
+        {
+          "name": "cli_sso_complete",
+          "start": 760,
+          "end": 795
+        },
+        {
+          "name": "normalize_email",
+          "start": 798,
+          "end": 815
+        },
+        {
+          "name": "determine_role_from_groups",
+          "start": 818,
+          "end": 861
+        },
+        {
+          "name": "process_sso_jwt_access_token",
+          "start": 864,
+          "end": 960
+        },
+        {
+          "name": "_decode_sso_token_claims",
+          "start": 963,
+          "end": 972
+        },
+        {
+          "name": "_merge_sso_token_claims",
+          "start": 975,
+          "end": 984
+        },
+        {
+          "name": "_raise_if_sso_exceeds_free_user_limit",
+          "start": 987,
+          "end": 1005
+        },
+        {
+          "name": "google_login",
+          "start": 1009,
+          "end": 1140
+        },
+        {
+          "name": "generic_response_convertor",
+          "start": 1143,
+          "end": 1260
+        },
+        {
+          "name": "_setup_generic_sso_env_vars",
+          "start": 1263,
+          "end": 1319
+        },
+        {
+          "name": "_setup_team_mappings",
+          "start": 1322,
+          "end": 1355
+        },
+        {
+          "name": "_setup_role_mappings",
+          "start": 1358,
+          "end": 1413
+        },
+        {
+          "name": "_parse_generic_sso_headers",
+          "start": 1416,
+          "end": 1427
+        },
+        {
+          "name": "_handle_generic_sso_error",
+          "start": 1430,
+          "end": 1482
+        },
+        {
+          "name": "get_generic_sso_response",
+          "start": 1485,
+          "end": 1682
+        },
+        {
+          "name": "warn_if_id_jag_assertion_uncaptured",
+          "start": 1688,
+          "end": 1708
+        },
+        {
+          "name": "warn_if_id_jag_capture_gap",
+          "start": 1711,
+          "end": 1722
+        },
+        {
+          "name": "create_team_member_add_task",
+          "start": 1725,
+          "end": 1738
+        },
+        {
+          "name": "add_missing_team_member",
+          "start": 1741,
+          "end": 1756
+        },
+        {
+          "name": "get_disabled_non_admin_personal_key_creation",
+          "start": 1759,
+          "end": 1765
+        },
+        {
+          "name": "get_existing_user_info_from_db",
+          "start": 1768,
+          "end": 1790
+        },
+        {
+          "name": "get_user_info_from_db",
+          "start": 1793,
+          "end": 1854
+        },
+        {
+          "name": "_should_use_role_from_sso_response",
+          "start": 1857,
+          "end": 1868
+        },
+        {
+          "name": "_build_sso_user_update_data",
+          "start": 1871,
+          "end": 1900
+        },
+        {
+          "name": "_sync_user_role_from_jwt_role_map",
+          "start": 1903,
+          "end": 1947
+        },
+        {
+          "name": "apply_user_info_values_to_sso_user_defined_values",
+          "start": 1950,
+          "end": 1980
+        },
+        {
+          "name": "check_and_update_if_proxy_admin_id",
+          "start": 1983,
+          "end": 2001
+        },
+        {
+          "name": "auth_callback",
+          "start": 2005,
+          "end": 2130
+        },
+        {
+          "name": "saml_login",
+          "start": 2134,
+          "end": 2142
+        },
+        {
+          "name": "saml_metadata",
+          "start": 2146,
+          "end": 2151
+        },
+        {
+          "name": "saml_callback",
+          "start": 2155,
+          "end": 2205
+        },
+        {
+          "name": "_build_cli_sso_user_defined_values",
+          "start": 2208,
+          "end": 2229
+        },
+        {
+          "name": "_cli_sso_team_detail",
+          "start": 2232,
+          "end": 2240
+        },
+        {
+          "name": "fetch_cli_sso_team_details",
+          "start": 2243,
+          "end": 2258
+        },
+        {
+          "name": "_cli_sso_session_teams",
+          "start": 2261,
+          "end": 2268
+        },
+        {
+          "name": "selected_cli_sso_team_detail",
+          "start": 2271,
+          "end": 2280
+        },
+        {
+          "name": "_complete_cli_sso_callback_session",
+          "start": 2283,
+          "end": 2369
+        },
+        {
+          "name": "cli_sso_callback",
+          "start": 2372,
+          "end": 2442
+        },
+        {
+          "name": "cli_poll_key",
+          "start": 2446,
+          "end": 2574
+        },
+        {
+          "name": "insert_sso_user",
+          "start": 2577,
+          "end": 2644
+        },
+        {
+          "name": "get_ui_settings",
+          "start": 2653,
+          "end": 2676
+        },
+        {
+          "name": "sso_readiness",
+          "start": 2684,
+          "end": 2759
+        },
+        {
+          "name": "_is_same_origin_return_path",
+          "start": 2762,
+          "end": 2775
+        },
+        {
+          "name": "_sso_return_to_redirect",
+          "start": 2778,
+          "end": 2822
+        },
+        {
+          "name": "set_session_token_cookie",
+          "start": 2825,
+          "end": 2840
+        },
+        {
+          "name": "_persist_return_to_cookie",
+          "start": 2843,
+          "end": 2865
+        },
+        {
+          "name": "debug_sso_login",
+          "start": 4633,
+          "end": 4676
+        },
+        {
+          "name": "debug_sso_callback",
+          "start": 4680,
+          "end": 4797
+        },
+        {
+          "name": "metadata",
+          "start": 184,
+          "end": 184
+        },
+        {
+          "name": "sso_settings",
+          "start": 195,
+          "end": 195
+        },
+        {
+          "name": "model_dump",
+          "start": 205,
+          "end": 205
+        },
+        {
+          "name": "__call__",
+          "start": 253,
+          "end": 253
+        },
+        {
+          "name": "get",
+          "start": 257,
+          "end": 257
+        },
+        {
+          "name": "get",
+          "start": 262,
+          "end": 266
+        },
+        {
+          "name": "get",
+          "start": 269,
+          "end": 269
+        },
+        {
+          "name": "response_convertor",
+          "start": 1521,
+          "end": 1551
+        },
+        {
+          "name": "_validate_return_to",
+          "start": 2874,
+          "end": 2902
+        },
+        {
+          "name": "get_sso_login_redirect",
+          "start": 2905,
+          "end": 3038
+        },
+        {
+          "name": "get_generic_sso_redirect_response",
+          "start": 3041,
+          "end": 3154
+        },
+        {
+          "name": "_get_generic_sso_redirect_params",
+          "start": 3157,
+          "end": 3207
+        },
+        {
+          "name": "should_use_sso_handler",
+          "start": 3210,
+          "end": 3217
+        },
+        {
+          "name": "get_redirect_url_for_sso",
+          "start": 3220,
+          "end": 3239
+        },
+        {
+          "name": "upsert_sso_user",
+          "start": 3242,
+          "end": 3277
+        },
+        {
+          "name": "add_user_to_teams_from_sso_response",
+          "start": 3280,
+          "end": 3294
+        },
+        {
+          "name": "verify_user_in_restricted_sso_group",
+          "start": 3297,
+          "end": 3330
+        },
+        {
+          "name": "create_litellm_team_from_sso_group",
+          "start": 3333,
+          "end": 3390
+        },
+        {
+          "name": "_cast_and_deepcopy_litellm_default_team_params",
+          "start": 3393,
+          "end": 3416
+        },
+        {
+          "name": "_get_cli_state",
+          "start": 3419,
+          "end": 3443
+        },
+        {
+          "name": "_get_user_email_and_id_from_result",
+          "start": 3446,
+          "end": 3501
+        },
+        {
+          "name": "get_redirect_response_from_openid",
+          "start": 3504,
+          "end": 3704
+        },
+        {
+          "name": "prepare_token_exchange_parameters",
+          "start": 3707,
+          "end": 3801
+        },
+        {
+          "name": "_handle_missing_pkce_verifier",
+          "start": 3804,
+          "end": 3883
+        },
+        {
+          "name": "_delete_pkce_verifier",
+          "start": 3886,
+          "end": 3904
+        },
+        {
+          "name": "generate_pkce_params",
+          "start": 3907,
+          "end": 3926
+        },
+        {
+          "name": "_validate_token_response",
+          "start": 3929,
+          "end": 3987
+        },
+        {
+          "name": "_pkce_token_exchange",
+          "start": 3990,
+          "end": 4114
+        },
+        {
+          "name": "_get_pkce_userinfo",
+          "start": 4117,
+          "end": 4220
+        },
+        {
+          "name": "get_graph_api_base_url",
+          "start": 4239,
+          "end": 4245
+        },
+        {
+          "name": "get_graph_api_user_groups_endpoint",
+          "start": 4248,
+          "end": 4249
+        },
+        {
+          "name": "get_microsoft_callback_response",
+          "start": 4252,
+          "end": 4319
+        },
+        {
+          "name": "openid_from_response",
+          "start": 4322,
+          "end": 4340
+        },
+        {
+          "name": "get_user_role_from_app_roles",
+          "start": 4343,
+          "end": 4354
+        },
+        {
+          "name": "get_app_roles_from_id_token",
+          "start": 4357,
+          "end": 4394
+        },
+        {
+          "name": "get_user_groups_from_graph_api",
+          "start": 4397,
+          "end": 4458
+        },
+        {
+          "name": "fetch_and_parse_groups",
+          "start": 4461,
+          "end": 4469
+        },
+        {
+          "name": "_get_group_ids_from_graph_api_response",
+          "start": 4472,
+          "end": 4480
+        },
+        {
+          "name": "_cast_graph_api_response_dict",
+          "start": 4483,
+          "end": 4502
+        },
+        {
+          "name": "get_group_ids_from_service_principal",
+          "start": 4505,
+          "end": 4557
+        },
+        {
+          "name": "create_litellm_teams_from_service_principal_team_ids",
+          "start": 4560,
+          "end": 4581
+        },
+        {
+          "name": "get_google_callback_response",
+          "start": 4590,
+          "end": 4629
+        },
+        {
+          "name": "_origin",
+          "start": 2888,
+          "end": 2894
+        }
+      ]
+    },
+    {
+      "path": "litellm/proxy/management_endpoints/mcp_management_endpoints.py",
+      "sha256": "d34b895333e83d4f2e3704e2267aa2b16e80e200d93e73aa60e267e57adfcd8e",
+      "old_sha256": "0a93dc8561b55b3c2e4a88ae020aed3cf1216105a2615b9ce1a42d81212c1645",
+      "status": "changed",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/management_endpoints/mcp_management_endpoints.py",
+      "captured_at_utc": "2026-09-09T03:51:27.547312+00:00",
+      "functions": [
+        {
+          "name": "does_mcp_server_exist",
+          "start": 91,
+          "end": 101
+        },
+        {
+          "name": "_validate_mcp_server_name_fields",
+          "start": 230,
+          "end": 255
+        },
+        {
+          "name": "_validate_upstream_token_header",
+          "start": 257,
+          "end": 271
+        },
+        {
+          "name": "validate_and_normalize_mcp_server_payload",
+          "start": 273,
+          "end": 276
+        },
+        {
+          "name": "warn_if_id_jag_server_outruns_sso",
+          "start": 278,
+          "end": 292
+        },
+        {
+          "name": "stamp_omitted_oauth2_flow",
+          "start": 294,
+          "end": 320
+        },
+        {
+          "name": "_validate_mcp_required_fields",
+          "start": 324,
+          "end": 369
+        },
+        {
+          "name": "_is_public_registry_enabled",
+          "start": 371,
+          "end": 376
+        },
+        {
+          "name": "_build_registry_remote_url",
+          "start": 378,
+          "end": 381
+        },
+        {
+          "name": "_build_mcp_registry_server_name",
+          "start": 383,
+          "end": 388
+        },
+        {
+          "name": "_build_mcp_registry_entry_for_server",
+          "start": 401,
+          "end": 423
+        },
+        {
+          "name": "_build_builtin_registry_entry",
+          "start": 425,
+          "end": 438
+        },
+        {
+          "name": "_prune_expired_temporary_mcp_servers",
+          "start": 442,
+          "end": 449
+        },
+        {
+          "name": "_cache_temporary_mcp_server",
+          "start": 451,
+          "end": 459
+        },
+        {
+          "name": "_cache_temporary_mcp_server_in_redis",
+          "start": 461,
+          "end": 491
+        },
+        {
+          "name": "_get_temporary_mcp_server_from_redis",
+          "start": 493,
+          "end": 542
+        },
+        {
+          "name": "_get_prisma_client_or_none",
+          "start": 544,
+          "end": 549
+        },
+        {
+          "name": "_persist_draft_mcp_server",
+          "start": 551,
+          "end": 570
+        },
+        {
+          "name": "_get_draft_mcp_server_as_mcp_server",
+          "start": 572,
+          "end": 582
+        },
+        {
+          "name": "get_cached_temporary_mcp_server",
+          "start": 584,
+          "end": 605
+        },
+        {
+          "name": "_redact_mcp_credentials",
+          "start": 607,
+          "end": 621
+        },
+        {
+          "name": "_preserved_admin_config_credentials",
+          "start": 623,
+          "end": 646
+        },
+        {
+          "name": "_redact_mcp_credentials_list",
+          "start": 648,
+          "end": 651
+        },
+        {
+          "name": "_user_is_full_admin",
+          "start": 653,
+          "end": 660
+        },
+        {
+          "name": "_is_restricted_virtual_key_request",
+          "start": 662,
+          "end": 671
+        },
+        {
+          "name": "_sanitize_mcp_server_for_non_admin",
+          "start": 673,
+          "end": 713
+        },
+        {
+          "name": "_sanitize_mcp_server_list_for_non_admin",
+          "start": 715,
+          "end": 718
+        },
+        {
+          "name": "_sanitize_mcp_server_for_virtual_key",
+          "start": 720,
+          "end": 770
+        },
+        {
+          "name": "_sanitize_mcp_server_list_for_virtual_key",
+          "start": 772,
+          "end": 775
+        },
+        {
+          "name": "_has_non_admin_config_credentials",
+          "start": 793,
+          "end": 799
+        },
+        {
+          "name": "_inherit_credentials_from_existing_server",
+          "start": 801,
+          "end": 834
+        },
+        {
+          "name": "_resolve_session_server_id",
+          "start": 836,
+          "end": 858
+        },
+        {
+          "name": "_build_temporary_mcp_server_record",
+          "start": 860,
+          "end": 897
+        },
+        {
+          "name": "get_prisma_client_or_throw",
+          "start": 899,
+          "end": 907
+        },
+        {
+          "name": "get_mcp_tools",
+          "start": 916,
+          "end": 933
+        },
+        {
+          "name": "get_mcp_access_groups",
+          "start": 940,
+          "end": 972
+        },
+        {
+          "name": "get_client_ip",
+          "start": 980,
+          "end": 984
+        },
+        {
+          "name": "get_mcp_registry",
+          "start": 991,
+          "end": 1023
+        },
+        {
+          "name": "_get_user_mcp_management_mode",
+          "start": 1026,
+          "end": 1034
+        },
+        {
+          "name": "_get_team_scoped_mcp_server_list",
+          "start": 1036,
+          "end": 1072
+        },
+        {
+          "name": "_resolve_accessible_mcp_servers",
+          "start": 1074,
+          "end": 1093
+        },
+        {
+          "name": "_connected_app_reachable_server_ids",
+          "start": 1095,
+          "end": 1103
+        },
+        {
+          "name": "fetch_all_mcp_servers",
+          "start": 1111,
+          "end": 1220
+        },
+        {
+          "name": "health_check_servers",
+          "start": 1227,
+          "end": 1271
+        },
+        {
+          "name": "register_mcp_server",
+          "start": 1281,
+          "end": 1345
+        },
+        {
+          "name": "get_mcp_server_submissions",
+          "start": 1354,
+          "end": 1375
+        },
+        {
+          "name": "approve_mcp_server_submission",
+          "start": 1384,
+          "end": 1419
+        },
+        {
+          "name": "reject_mcp_server_submission",
+          "start": 1428,
+          "end": 1466
+        },
+        {
+          "name": "fetch_mcp_server",
+          "start": 1474,
+          "end": 1566
+        },
+        {
+          "name": "add_mcp_server",
+          "start": 1576,
+          "end": 1659
+        },
+        {
+          "name": "import_mcp_servers",
+          "start": 1669,
+          "end": 1769
+        },
+        {
+          "name": "add_session_mcp_server",
+          "start": 1778,
+          "end": 1839
+        },
+        {
+          "name": "_mcp_oauth_user_api_key_auth",
+          "start": 1841,
+          "end": 1939
+        },
+        {
+          "name": "_get_cached_temporary_mcp_server_or_404",
+          "start": 1941,
+          "end": 1982
+        },
+        {
+          "name": "mcp_authorize",
+          "start": 1989,
+          "end": 2041
+        },
+        {
+          "name": "mcp_token",
+          "start": 2048,
+          "end": 2101
+        },
+        {
+          "name": "mcp_register",
+          "start": 2108,
+          "end": 2128
+        },
+        {
+          "name": "remove_mcp_server",
+          "start": 2138,
+          "end": 2194
+        },
+        {
+          "name": "store_mcp_user_credential",
+          "start": 2203,
+          "end": 2231
+        },
+        {
+          "name": "delete_mcp_user_credential",
+          "start": 2240,
+          "end": 2261
+        },
+        {
+          "name": "store_mcp_oauth_user_credential",
+          "start": 2272,
+          "end": 2310
+        },
+        {
+          "name": "delete_mcp_oauth_user_credential",
+          "start": 2319,
+          "end": 2349
+        },
+        {
+          "name": "get_mcp_oauth_user_credential_status",
+          "start": 2358,
+          "end": 2387
+        },
+        {
+          "name": "list_mcp_user_credentials",
+          "start": 2396,
+          "end": 2431
+        },
+        {
+          "name": "_authorize_and_fetch_mcp_server",
+          "start": 2435,
+          "end": 2476
+        },
+        {
+          "name": "_compute_user_env_var_status",
+          "start": 2478,
+          "end": 2535
+        },
+        {
+          "name": "get_mcp_user_env_vars",
+          "start": 2544,
+          "end": 2557
+        },
+        {
+          "name": "store_mcp_user_env_vars",
+          "start": 2572,
+          "end": 2599
+        },
+        {
+          "name": "clear_mcp_user_env_vars",
+          "start": 2608,
+          "end": 2626
+        },
+        {
+          "name": "list_mcp_user_env_var_status",
+          "start": 2636,
+          "end": 2654
+        },
+        {
+          "name": "edit_mcp_server",
+          "start": 2664,
+          "end": 2784
+        },
+        {
+          "name": "make_mcp_servers_public",
+          "start": 2792,
+          "end": 2853
+        },
+        {
+          "name": "_load_mcp_registry",
+          "start": 2864,
+          "end": 2876
+        },
+        {
+          "name": "discover_mcp_servers",
+          "start": 2883,
+          "end": 2927
+        },
+        {
+          "name": "_load_openapi_registry",
+          "start": 2937,
+          "end": 2940
+        },
+        {
+          "name": "get_openapi_registry",
+          "start": 2946,
+          "end": 2961
+        },
+        {
+          "name": "add_mcp_toolset",
+          "start": 2985,
+          "end": 3017
+        },
+        {
+          "name": "fetch_mcp_toolsets",
+          "start": 3024,
+          "end": 3040
+        },
+        {
+          "name": "fetch_mcp_toolset",
+          "start": 3047,
+          "end": 3067
+        },
+        {
+          "name": "edit_mcp_toolset",
+          "start": 3074,
+          "end": 3116
+        },
+        {
+          "name": "remove_mcp_toolset",
+          "start": 3124,
+          "end": 3146
+        },
+        {
+          "name": "_field_present",
+          "start": 350,
+          "end": 359
+        },
+        {
+          "name": "_classify",
+          "start": 1695,
+          "end": 1714
+        },
+        {
+          "name": "_create",
+          "start": 1716,
+          "end": 1743
+        },
+        {
+          "name": "validate_tool_name",
+          "start": 129,
+          "end": 130
+        }
+      ]
+    },
+    {
+      "path": "litellm/proxy/_experimental/mcp_server/auth/user_api_key_auth_mcp.py",
+      "sha256": "75a8845d41ce8b863922673520043879e37c5fb7d4574a0aea48a2d8e2b580d3",
+      "old_sha256": "fa8986dacca4f69508ee482d2fa2951082f9f9cf00a48879d78af516e703a9ba",
+      "status": "changed",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/_experimental/mcp_server/auth/user_api_key_auth_mcp.py",
+      "captured_at_utc": "2026-09-09T03:51:27.569835+00:00",
+      "functions": [
+        {
+          "name": "_as_list",
+          "start": 73,
+          "end": 76
+        },
+        {
+          "name": "_parse_mcp_server_names_from_path",
+          "start": 91,
+          "end": 122
+        },
+        {
+          "name": "_is_mcp_passthrough_cold_start",
+          "start": 125,
+          "end": 146
+        },
+        {
+          "name": "_is_litellm_auth_admission_error",
+          "start": 149,
+          "end": 157
+        },
+        {
+          "name": "_has_client_supplied_mcp_auth",
+          "start": 160,
+          "end": 164
+        },
+        {
+          "name": "_is_mcp_admitted_user_subject",
+          "start": 167,
+          "end": 174
+        },
+        {
+          "name": "_gateway_dcr_challenge_target",
+          "start": 177,
+          "end": 202
+        },
+        {
+          "name": "_is_gateway_dcr_challenge_scope",
+          "start": 205,
+          "end": 228
+        },
+        {
+          "name": "_gateway_dcr_challenge",
+          "start": 231,
+          "end": 261
+        },
+        {
+          "name": "_admission_failure_fallback",
+          "start": 264,
+          "end": 305
+        },
+        {
+          "name": "process_mcp_request",
+          "start": 361,
+          "end": 565
+        },
+        {
+          "name": "_is_gateway_admission_credential",
+          "start": 568,
+          "end": 572
+        },
+        {
+          "name": "_scrub_gateway_admission_credentials",
+          "start": 575,
+          "end": 612
+        },
+        {
+          "name": "extract_target_server_names_from_path",
+          "start": 615,
+          "end": 670
+        },
+        {
+          "name": "_target_servers_delegate_auth_to_upstream",
+          "start": 673,
+          "end": 728
+        },
+        {
+          "name": "_target_servers_are_true_passthrough",
+          "start": 731,
+          "end": 753
+        },
+        {
+          "name": "_single_dcr_bridge_delegate_target",
+          "start": 756,
+          "end": 784
+        },
+        {
+          "name": "_admit_dcr_bridge_delegate",
+          "start": 787,
+          "end": 841
+        },
+        {
+          "name": "_admit_dcr_bridge_authorization",
+          "start": 844,
+          "end": 870
+        },
+        {
+          "name": "_dcr_bridge_invalid_token_challenge",
+          "start": 873,
+          "end": 891
+        },
+        {
+          "name": "_admit_gateway_session",
+          "start": 894,
+          "end": 953
+        },
+        {
+          "name": "_run_pre_db_read_auth_checks",
+          "start": 956,
+          "end": 972
+        },
+        {
+          "name": "_reload_admitted_principal",
+          "start": 975,
+          "end": 991
+        },
+        {
+          "name": "reload_admitted_user",
+          "start": 994,
+          "end": 1059
+        },
+        {
+          "name": "_admitted_subject_team_rpm_limits",
+          "start": 1062,
+          "end": 1106
+        },
+        {
+          "name": "_reload_admitted_key",
+          "start": 1109,
+          "end": 1144
+        },
+        {
+          "name": "_raise_503_if_db_unavailable",
+          "start": 1147,
+          "end": 1163
+        },
+        {
+          "name": "_reject_if_admitted_owner_scim_deactivated",
+          "start": 1166,
+          "end": 1194
+        },
+        {
+          "name": "_enforce_admitted_live_policy",
+          "start": 1197,
+          "end": 1236
+        },
+        {
+          "name": "_admitted_key_is_active",
+          "start": 1239,
+          "end": 1251
+        },
+        {
+          "name": "_resolve_target_server_names",
+          "start": 1254,
+          "end": 1271
+        },
+        {
+          "name": "_get_mcp_auth_header_from_headers",
+          "start": 1274,
+          "end": 1295
+        },
+        {
+          "name": "_get_mcp_server_auth_headers_from_headers",
+          "start": 1298,
+          "end": 1349
+        },
+        {
+          "name": "_get_oauth2_headers_from_headers",
+          "start": 1352,
+          "end": 1360
+        },
+        {
+          "name": "get_mcp_client_side_auth_header_name",
+          "start": 1363,
+          "end": 1383
+        },
+        {
+          "name": "get_litellm_api_key_from_headers",
+          "start": 1386,
+          "end": 1405
+        },
+        {
+          "name": "_safe_get_headers_from_scope",
+          "start": 1408,
+          "end": 1434
+        },
+        {
+          "name": "_reject_duplicate_authorization",
+          "start": 1437,
+          "end": 1457
+        },
+        {
+          "name": "get_allowed_mcp_servers",
+          "start": 1460,
+          "end": 1469
+        },
+        {
+          "name": "get_mcp_server_access",
+          "start": 1472,
+          "end": 1652
+        },
+        {
+          "name": "_apply_primary_org_ceiling",
+          "start": 1655,
+          "end": 1693
+        },
+        {
+          "name": "_scoped_source_auth",
+          "start": 1696,
+          "end": 1723
+        },
+        {
+          "name": "_admitted_subject_sources",
+          "start": 1726,
+          "end": 1754
+        },
+        {
+          "name": "_roster_team_object",
+          "start": 1757,
+          "end": 1823
+        },
+        {
+          "name": "admitted_source_grants",
+          "start": 1826,
+          "end": 1836
+        },
+        {
+          "name": "_resolve_admitted_subject_servers",
+          "start": 1839,
+          "end": 1845
+        },
+        {
+          "name": "billing_auth_for_tool_call",
+          "start": 1848,
+          "end": 1875
+        },
+        {
+          "name": "attributing_source_for_server",
+          "start": 1878,
+          "end": 1898
+        },
+        {
+          "name": "_resolve_admitted_subject_tools",
+          "start": 1901,
+          "end": 1932
+        },
+        {
+          "name": "_get_key_object_permission",
+          "start": 1935,
+          "end": 1947
+        },
+        {
+          "name": "_get_team_object_permission",
+          "start": 1950,
+          "end": 1987
+        },
+        {
+          "name": "_toolset_tool_permissions",
+          "start": 1990,
+          "end": 2014
+        },
+        {
+          "name": "_toolset_tools_for_server",
+          "start": 2017,
+          "end": 2023
+        },
+        {
+          "name": "_union_tool_grants",
+          "start": 2026,
+          "end": 2034
+        },
+        {
+          "name": "_key_object_permission_hydrated",
+          "start": 2037,
+          "end": 2061
+        },
+        {
+          "name": "_key_or_team_declares_toolsets",
+          "start": 2064,
+          "end": 2086
+        },
+        {
+          "name": "get_allowed_tools_for_server",
+          "start": 2089,
+          "end": 2197
+        },
+        {
+          "name": "_apply_agent_and_org_tool_ceilings",
+          "start": 2200,
+          "end": 2258
+        },
+        {
+          "name": "tool_is_granted",
+          "start": 2261,
+          "end": 2270
+        },
+        {
+          "name": "is_tool_allowed_for_server",
+          "start": 2273,
+          "end": 2293
+        },
+        {
+          "name": "is_tool_allowed",
+          "start": 2296,
+          "end": 2307
+        },
+        {
+          "name": "_get_key_access_group_mcp_server_extras",
+          "start": 2310,
+          "end": 2349
+        },
+        {
+          "name": "_get_allowed_mcp_servers_for_key",
+          "start": 2352,
+          "end": 2427
+        },
+        {
+          "name": "_get_allowed_mcp_servers_for_team",
+          "start": 2430,
+          "end": 2443
+        },
+        {
+          "name": "_team_ids_for_mcp_grant",
+          "start": 2446,
+          "end": 2458
+        },
+        {
+          "name": "_resolve_user_team_ids",
+          "start": 2461,
+          "end": 2488
+        },
+        {
+          "name": "_team_granted_servers",
+          "start": 2491,
+          "end": 2514
+        },
+        {
+          "name": "_allowed_mcp_servers_for_single_team",
+          "start": 2517,
+          "end": 2574
+        },
+        {
+          "name": "_load_named_object_permission",
+          "start": 2577,
+          "end": 2607
+        },
+        {
+          "name": "_get_org_object_permission",
+          "start": 2610,
+          "end": 2666
+        },
+        {
+          "name": "_get_allowed_mcp_servers_for_org",
+          "start": 2669,
+          "end": 2719
+        },
+        {
+          "name": "_get_end_user_object_permission",
+          "start": 2722,
+          "end": 2762
+        },
+        {
+          "name": "_get_allowed_mcp_servers_for_end_user",
+          "start": 2765,
+          "end": 2811
+        },
+        {
+          "name": "_get_user_object_permission",
+          "start": 2814,
+          "end": 2862
+        },
+        {
+          "name": "_user_object_permission_id",
+          "start": 2865,
+          "end": 2894
+        },
+        {
+          "name": "_get_allowed_mcp_servers_for_user",
+          "start": 2897,
+          "end": 2927
+        },
+        {
+          "name": "_apply_user_server_ceiling",
+          "start": 2930,
+          "end": 2958
+        },
+        {
+          "name": "_user_places_mcp_ceiling",
+          "start": 2961,
+          "end": 2969
+        },
+        {
+          "name": "admin_view_unscoped",
+          "start": 2972,
+          "end": 2995
+        },
+        {
+          "name": "_apply_user_tool_ceiling",
+          "start": 2998,
+          "end": 3037
+        },
+        {
+          "name": "_agent_object_permission_id",
+          "start": 3044,
+          "end": 3071
+        },
+        {
+          "name": "_get_agent_object_permission",
+          "start": 3074,
+          "end": 3106
+        },
+        {
+          "name": "_get_allowed_mcp_servers_for_agent",
+          "start": 3109,
+          "end": 3155
+        },
+        {
+          "name": "_get_agent_tool_permissions_for_server",
+          "start": 3158,
+          "end": 3197
+        },
+        {
+          "name": "_get_config_server_ids_for_access_groups",
+          "start": 3200,
+          "end": 3209
+        },
+        {
+          "name": "_get_db_server_ids_for_access_groups",
+          "start": 3212,
+          "end": 3226
+        },
+        {
+          "name": "_get_mcp_servers_from_access_groups",
+          "start": 3229,
+          "end": 3255
+        },
+        {
+          "name": "get_mcp_access_groups",
+          "start": 3258,
+          "end": 3278
+        },
+        {
+          "name": "_get_mcp_access_groups_for_key",
+          "start": 3281,
+          "end": 3315
+        },
+        {
+          "name": "_get_mcp_access_groups_for_team",
+          "start": 3318,
+          "end": 3363
+        },
+        {
+          "name": "get_mcp_access_groups_from_headers",
+          "start": 3366,
+          "end": 3376
+        },
+        {
+          "name": "get_mcp_access_groups_from_scope",
+          "start": 3379,
+          "end": 3384
+        },
+        {
+          "name": "mock_body",
+          "start": 425,
+          "end": 426
+        }
+      ]
+    },
+    {
+      "path": "litellm/proxy/_experimental/mcp_server/server.py",
+      "sha256": "dbfb7da5713660cf552449dcdf93fc4e6431009043cc7ee9e53f20c76a068c46",
+      "old_sha256": "27eb514bba7d4f56edae196b5d17f1df4b4bf1c47f4368aa041d13ba49571410",
+      "status": "changed",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/_experimental/mcp_server/server.py",
+      "captured_at_utc": "2026-09-09T03:51:27.602612+00:00",
+      "functions": [
+        {
+          "name": "_invalidate_byok_cred_cache",
+          "start": 115,
+          "end": 121
+        },
+        {
+          "name": "_write_byok_cred_cache",
+          "start": 124,
+          "end": 128
+        },
+        {
+          "name": "_mcp_session_id_from_headers",
+          "start": 178,
+          "end": 188
+        },
+        {
+          "name": "_jsonrpc_text_has_top_level_method",
+          "start": 191,
+          "end": 242
+        },
+        {
+          "name": "_mcp_meta_trace_carrier",
+          "start": 245,
+          "end": 266
+        },
+        {
+          "name": "_otel_set_mcp_trace_carrier",
+          "start": 269,
+          "end": 280
+        },
+        {
+          "name": "_otel_reset_mcp_trace_carrier",
+          "start": 283,
+          "end": 295
+        },
+        {
+          "name": "_otel_publish_transport_span_on_scope",
+          "start": 298,
+          "end": 327
+        },
+        {
+          "name": "_otel_transport_span_from_message",
+          "start": 330,
+          "end": 341
+        },
+        {
+          "name": "_otel_set_mcp_transport_span",
+          "start": 344,
+          "end": 357
+        },
+        {
+          "name": "_otel_reset_mcp_transport_span",
+          "start": 360,
+          "end": 371
+        },
+        {
+          "name": "_proxy_exception_to_http_exception",
+          "start": 374,
+          "end": 393
+        },
+        {
+          "name": "_normalize_resource_contents",
+          "start": 469,
+          "end": 495
+        },
+        {
+          "name": "_gateway_create_initialization_options",
+          "start": 497,
+          "end": 514
+        },
+        {
+          "name": "_stateful_server_instances",
+          "start": 564,
+          "end": 565
+        },
+        {
+          "name": "_remove_stateful_session_tracking",
+          "start": 567,
+          "end": 572
+        },
+        {
+          "name": "_purge_expired_stateful_session_auth_contexts",
+          "start": 591,
+          "end": 624
+        },
+        {
+          "name": "_enforce_stateful_session_cap_for_owner",
+          "start": 626,
+          "end": 663
+        },
+        {
+          "name": "_cleanup_expired_stateful_session_auth_contexts",
+          "start": 665,
+          "end": 671
+        },
+        {
+          "name": "initialize_session_managers",
+          "start": 673,
+          "end": 701
+        },
+        {
+          "name": "shutdown_session_managers",
+          "start": 703,
+          "end": 733
+        },
+        {
+          "name": "lifespan",
+          "start": 736,
+          "end": 742
+        },
+        {
+          "name": "handle_list_tools",
+          "start": 749,
+          "end": 828
+        },
+        {
+          "name": "_capture_host_progress_callback",
+          "start": 830,
+          "end": 861
+        },
+        {
+          "name": "_build_virtual_call_logging_obj",
+          "start": 863,
+          "end": 896
+        },
+        {
+          "name": "_dispatch_virtual_mcp_tool",
+          "start": 898,
+          "end": 982
+        },
+        {
+          "name": "mcp_server_tool_call",
+          "start": 985,
+          "end": 1153
+        },
+        {
+          "name": "list_prompts",
+          "start": 1156,
+          "end": 1203
+        },
+        {
+          "name": "get_prompt",
+          "start": 1206,
+          "end": 1250
+        },
+        {
+          "name": "list_resources",
+          "start": 1253,
+          "end": 1294
+        },
+        {
+          "name": "list_resource_templates",
+          "start": 1297,
+          "end": 1340
+        },
+        {
+          "name": "read_resource",
+          "start": 1343,
+          "end": 1375
+        },
+        {
+          "name": "_get_allowed_mcp_servers_from_mcp_server_names",
+          "start": 1385,
+          "end": 1441
+        },
+        {
+          "name": "_tool_name_matches",
+          "start": 1443,
+          "end": 1453
+        },
+        {
+          "name": "filter_tools_by_allowed_tools",
+          "start": 1455,
+          "end": 1495
+        },
+        {
+          "name": "apply_tool_overrides",
+          "start": 1497,
+          "end": 1518
+        },
+        {
+          "name": "_get_client_ip_from_context",
+          "start": 1520,
+          "end": 1531
+        },
+        {
+          "name": "_get_allowed_mcp_servers",
+          "start": 1533,
+          "end": 1592
+        },
+        {
+          "name": "_client_has_per_server_auth_header",
+          "start": 1594,
+          "end": 1624
+        },
+        {
+          "name": "_client_has_passthrough_authorization",
+          "start": 1626,
+          "end": 1643
+        },
+        {
+          "name": "_get_user_oauth_extra_headers_from_db",
+          "start": 1645,
+          "end": 1664
+        },
+        {
+          "name": "_prefetch_oauth_creds_for_user",
+          "start": 1666,
+          "end": 1689
+        },
+        {
+          "name": "_prepare_mcp_server_headers",
+          "start": 1691,
+          "end": 1794
+        },
+        {
+          "name": "_merge_gateway_initialize_instructions",
+          "start": 1796,
+          "end": 1819
+        },
+        {
+          "name": "_gateway_initialize_instructions_request_scope",
+          "start": 1822,
+          "end": 1858
+        },
+        {
+          "name": "_aggregate_server_key",
+          "start": 1860,
+          "end": 1865
+        },
+        {
+          "name": "_get_tools_from_mcp_servers",
+          "start": 1867,
+          "end": 2146
+        },
+        {
+          "name": "_get_prompts_from_mcp_servers",
+          "start": 2148,
+          "end": 2212
+        },
+        {
+          "name": "_get_resources_from_mcp_servers",
+          "start": 2214,
+          "end": 2264
+        },
+        {
+          "name": "_get_resource_templates_from_mcp_servers",
+          "start": 2266,
+          "end": 2326
+        },
+        {
+          "name": "filter_tools_by_key_team_permissions",
+          "start": 2328,
+          "end": 2354
+        },
+        {
+          "name": "_list_mcp_tools",
+          "start": 2356,
+          "end": 2401
+        },
+        {
+          "name": "_list_mcp_prompts",
+          "start": 2403,
+          "end": 2441
+        },
+        {
+          "name": "_list_mcp_resources",
+          "start": 2443,
+          "end": 2470
+        },
+        {
+          "name": "_list_mcp_resource_templates",
+          "start": 2472,
+          "end": 2505
+        },
+        {
+          "name": "_resolve_display_name_to_original",
+          "start": 2507,
+          "end": 2523
+        },
+        {
+          "name": "_get_byok_credential",
+          "start": 2525,
+          "end": 2558
+        },
+        {
+          "name": "_check_byok_credential",
+          "start": 2560,
+          "end": 2646
+        },
+        {
+          "name": "execute_mcp_tool",
+          "start": 2648,
+          "end": 2966
+        },
+        {
+          "name": "_run_post_mcp_call_guardrails",
+          "start": 2968,
+          "end": 2992
+        },
+        {
+          "name": "_fire_mcp_tool_call_logging",
+          "start": 3004,
+          "end": 3068
+        },
+        {
+          "name": "call_mcp_tool",
+          "start": 3071,
+          "end": 3174
+        },
+        {
+          "name": "mcp_get_prompt",
+          "start": 3176,
+          "end": 3227
+        },
+        {
+          "name": "mcp_read_resource",
+          "start": 3229,
+          "end": 3277
+        },
+        {
+          "name": "_get_standard_logging_mcp_tool_call",
+          "start": 3279,
+          "end": 3305
+        },
+        {
+          "name": "_handle_managed_mcp_tool",
+          "start": 3307,
+          "end": 3337
+        },
+        {
+          "name": "_handle_local_mcp_tool",
+          "start": 3339,
+          "end": 3369
+        },
+        {
+          "name": "_get_mcp_servers_in_path",
+          "start": 3371,
+          "end": 3413
+        },
+        {
+          "name": "extract_mcp_auth_context",
+          "start": 3415,
+          "end": 3447
+        },
+        {
+          "name": "_get_session_id_from_scope",
+          "start": 3449,
+          "end": 3459
+        },
+        {
+          "name": "_owner_fingerprint_for",
+          "start": 3461,
+          "end": 3515
+        },
+        {
+          "name": "_is_initialize_request",
+          "start": 3517,
+          "end": 3528
+        },
+        {
+          "name": "_read_request_body_for_routing",
+          "start": 3530,
+          "end": 3578
+        },
+        {
+          "name": "_handle_stale_mcp_session",
+          "start": 3580,
+          "end": 3661
+        },
+        {
+          "name": "_apply_toolset_scope",
+          "start": 3663,
+          "end": 3725
+        },
+        {
+          "name": "_raise_preemptive_401_for_unauthenticated_servers",
+          "start": 3727,
+          "end": 3945
+        },
+        {
+          "name": "_get_authorization_header_from_scope",
+          "start": 3947,
+          "end": 3953
+        },
+        {
+          "name": "_scope_has_authorization_header",
+          "start": 3955,
+          "end": 3956
+        },
+        {
+          "name": "_get_forwarded_auth_from_scope",
+          "start": 3958,
+          "end": 3973
+        },
+        {
+          "name": "_is_delegate_upstream_probe_target",
+          "start": 3975,
+          "end": 3987
+        },
+        {
+          "name": "_probe_upstream_auth",
+          "start": 3989,
+          "end": 4041
+        },
+        {
+          "name": "_check_passthrough_upstream_auth",
+          "start": 4043,
+          "end": 4159
+        },
+        {
+          "name": "handle_streamable_http_mcp",
+          "start": 4161,
+          "end": 4482
+        },
+        {
+          "name": "handle_sse_mcp",
+          "start": 4484,
+          "end": 4597
+        },
+        {
+          "name": "get_mcp_server_enabled",
+          "start": 4611,
+          "end": 4615
+        },
+        {
+          "name": "_update_auth_context",
+          "start": 4628,
+          "end": 4644
+        },
+        {
+          "name": "set_auth_context",
+          "start": 4646,
+          "end": 4675
+        },
+        {
+          "name": "_set_or_update_auth_context",
+          "start": 4677,
+          "end": 4723
+        },
+        {
+          "name": "_wrap_send_with_stateful_session_auth_context",
+          "start": 4725,
+          "end": 4747
+        },
+        {
+          "name": "get_auth_context",
+          "start": 4749,
+          "end": 4776
+        },
+        {
+          "name": "_get_current_session",
+          "start": 4778,
+          "end": 4784
+        },
+        {
+          "name": "_cache_auth_context_lazily",
+          "start": 4786,
+          "end": 4808
+        },
+        {
+          "name": "_recover_auth_from_session",
+          "start": 4810,
+          "end": 4825
+        },
+        {
+          "name": "get_or_extract_auth_context",
+          "start": 4827,
+          "end": 4871
+        },
+        {
+          "name": "get_active_mcp_session",
+          "start": 4873,
+          "end": 4878
+        },
+        {
+          "name": "get_active_auth_context",
+          "start": 4880,
+          "end": 4889
+        },
+        {
+          "name": "terminate",
+          "start": 557,
+          "end": 557
+        },
+        {
+          "name": "__contains__",
+          "start": 560,
+          "end": 560
+        },
+        {
+          "name": "pop",
+          "start": 562,
+          "end": 562
+        },
+        {
+          "name": "_owned_live_session_ids",
+          "start": 639,
+          "end": 644
+        },
+        {
+          "name": "forward_progress",
+          "start": 848,
+          "end": 858
+        },
+        {
+          "name": "_bytes_for_hash",
+          "start": 3489,
+          "end": 3497
+        },
+        {
+          "name": "_normalize_header_name",
+          "start": 3602,
+          "end": 3607
+        },
+        {
+          "name": "wrapped_send",
+          "start": 4731,
+          "end": 4745
+        },
+        {
+          "name": "_fetch_and_filter_server_tools",
+          "start": 1979,
+          "end": 2074
+        },
+        {
+          "name": "_increment_active_request_session",
+          "start": 4382,
+          "end": 4388
+        },
+        {
+          "name": "_track_initialized_stateful_session",
+          "start": 4393,
+          "end": 4396
+        },
+        {
+          "name": "_dispatch",
+          "start": 4398,
+          "end": 4429
+        },
+        {
+          "name": "wrapped_receive",
+          "start": 4317,
+          "end": 4320
+        }
+      ]
+    },
+    {
+      "path": "litellm/proxy/_experimental/mcp_server/mcp_server_manager.py",
+      "sha256": "9d6576b221b00ac9b69424694ca34a731619a20b2f380271fc1faf66f67299f9",
+      "old_sha256": "2140ba1b37a870fb175624d1fec7bf77ff84eaf43680e661d3f8efcccab98998",
+      "status": "changed",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/_experimental/mcp_server/mcp_server_manager.py",
+      "captured_at_utc": "2026-09-09T03:51:27.656025+00:00",
+      "functions": [
+        {
+          "name": "_oauth_discovery_now",
+          "start": 252,
+          "end": 253
+        },
+        {
+          "name": "_oauth_discovery_retry_delay",
+          "start": 256,
+          "end": 261
+        },
+        {
+          "name": "_mcp_oauth_discovery_on_startup_enabled",
+          "start": 264,
+          "end": 271
+        },
+        {
+          "name": "_requires_oauth_discovery",
+          "start": 274,
+          "end": 279
+        },
+        {
+          "name": "_blank_to_none",
+          "start": 402,
+          "end": 414
+        },
+        {
+          "name": "_pinned_config_server_id",
+          "start": 417,
+          "end": 436
+        },
+        {
+          "name": "_first_mapped_alias",
+          "start": 439,
+          "end": 450
+        },
+        {
+          "name": "_assigned_alias",
+          "start": 453,
+          "end": 462
+        },
+        {
+          "name": "_validate_config_server_names",
+          "start": 465,
+          "end": 472
+        },
+        {
+          "name": "_config_identifier_owners",
+          "start": 475,
+          "end": 504
+        },
+        {
+          "name": "_config_ids_capturing_db_identifiers",
+          "start": 507,
+          "end": 529
+        },
+        {
+          "name": "_reject_config_server_id_collision",
+          "start": 532,
+          "end": 572
+        },
+        {
+          "name": "_uses_issuer_anchor",
+          "start": 575,
+          "end": 584
+        },
+        {
+          "name": "_has_oauth_discovery_source",
+          "start": 587,
+          "end": 598
+        },
+        {
+          "name": "_endpoints_yield_to_issuer",
+          "start": 601,
+          "end": 639
+        },
+        {
+          "name": "_normalized_authorize_endpoint",
+          "start": 642,
+          "end": 647
+        },
+        {
+          "name": "_issuer_matches",
+          "start": 650,
+          "end": 658
+        },
+        {
+          "name": "_flow_endpoints_missing",
+          "start": 661,
+          "end": 685
+        },
+        {
+          "name": "_oauth_endpoints_unresolved",
+          "start": 688,
+          "end": 720
+        },
+        {
+          "name": "_endpoints_corroborate_authorization_url",
+          "start": 723,
+          "end": 744
+        },
+        {
+          "name": "_carry_forward_resolved_oauth_endpoints",
+          "start": 747,
+          "end": 796
+        },
+        {
+          "name": "_restrict_discovery_to_corroborated_authorization_server",
+          "start": 799,
+          "end": 842
+        },
+        {
+          "name": "_redacted_origin_list",
+          "start": 845,
+          "end": 846
+        },
+        {
+          "name": "_sanitized_error_text",
+          "start": 849,
+          "end": 850
+        },
+        {
+          "name": "_discovery_failure_leaves_needs_unresolved",
+          "start": 853,
+          "end": 860
+        },
+        {
+          "name": "_warn_oauth_endpoints_unresolved",
+          "start": 863,
+          "end": 925
+        },
+        {
+          "name": "invalidate_user_env_vars_cache",
+          "start": 928,
+          "end": 931
+        },
+        {
+          "name": "_write_user_env_vars_cache",
+          "start": 934,
+          "end": 942
+        },
+        {
+          "name": "_should_strip_caller_authorization",
+          "start": 945,
+          "end": 1001
+        },
+        {
+          "name": "_raw_header_value",
+          "start": 1007,
+          "end": 1008
+        },
+        {
+          "name": "_has_explicit_litellm_admission_header",
+          "start": 1011,
+          "end": 1013
+        },
+        {
+          "name": "_authorization_is_litellm_admission_credential",
+          "start": 1016,
+          "end": 1033
+        },
+        {
+          "name": "_format_byok_openapi_auth_header",
+          "start": 1036,
+          "end": 1047
+        },
+        {
+          "name": "_openapi_forwarded_extra_headers",
+          "start": 1050,
+          "end": 1072
+        },
+        {
+          "name": "_resolve_openapi_tool_auth",
+          "start": 1075,
+          "end": 1122
+        },
+        {
+          "name": "_resolve_byok_mcp_auth_header",
+          "start": 1125,
+          "end": 1158
+        },
+        {
+          "name": "_client_forwarded_authorization_headers",
+          "start": 1161,
+          "end": 1181
+        },
+        {
+          "name": "_take_forwarded_authorization",
+          "start": 1184,
+          "end": 1193
+        },
+        {
+          "name": "_passthrough_token_from_mcp_auth_header",
+          "start": 1196,
+          "end": 1210
+        },
+        {
+          "name": "_materialize_auth_headers",
+          "start": 1213,
+          "end": 1238
+        },
+        {
+          "name": "_consumes_caller_authorization",
+          "start": 1241,
+          "end": 1252
+        },
+        {
+          "name": "_redacted_registry_dump",
+          "start": 1260,
+          "end": 1274
+        },
+        {
+          "name": "_to_server_spec_fail_closed",
+          "start": 1277,
+          "end": 1293
+        },
+        {
+          "name": "_caller_authorization_fans_out",
+          "start": 1296,
+          "end": 1310
+        },
+        {
+          "name": "_extract_upstream_auth_failure",
+          "start": 1313,
+          "end": 1323
+        },
+        {
+          "name": "_obo_retry_applies",
+          "start": 1326,
+          "end": 1337
+        },
+        {
+          "name": "_warn_on_server_name_fields",
+          "start": 1340,
+          "end": 1363
+        },
+        {
+          "name": "_warn_internal_delegate_pkce_if_applicable",
+          "start": 1366,
+          "end": 1385
+        },
+        {
+          "name": "_warn_config_id_jag_server_outruns_sso",
+          "start": 1388,
+          "end": 1399
+        },
+        {
+          "name": "_deserialize_json_dict",
+          "start": 1402,
+          "end": 1420
+        },
+        {
+          "name": "_deserialize_json_list",
+          "start": 1423,
+          "end": 1442
+        },
+        {
+          "name": "_normalize_mcp_server_cost_info",
+          "start": 1445,
+          "end": 1488
+        },
+        {
+          "name": "_create_sampling_callback",
+          "start": 1491,
+          "end": 1530
+        },
+        {
+          "name": "_create_elicitation_callback",
+          "start": 1533,
+          "end": 1561
+        },
+        {
+          "name": "_record_mcp_guardrail_evaluations",
+          "start": 1564,
+          "end": 1590
+        },
+        {
+          "name": "_warn",
+          "start": 1346,
+          "end": 1360
+        },
+        {
+          "name": "_sampling_callback",
+          "start": 1500,
+          "end": 1528
+        },
+        {
+          "name": "_elicitation_callback",
+          "start": 1543,
+          "end": 1559
+        },
+        {
+          "name": "_explicit_oauth2_flow",
+          "start": 1597,
+          "end": 1609
+        },
+        {
+          "name": "_resolve_oauth2_flow",
+          "start": 1612,
+          "end": 1645
+        },
+        {
+          "name": "effective_oauth2_flow",
+          "start": 1648,
+          "end": 1665
+        },
+        {
+          "name": "resolve_oauth2_flow_for_request",
+          "start": 1668,
+          "end": 1690
+        },
+        {
+          "name": "_obo_needs_endpoint_discovery",
+          "start": 1693,
+          "end": 1702
+        },
+        {
+          "name": "__init__",
+          "start": 1704,
+          "end": 1761
+        },
+        {
+          "name": "_oauth_discovery_slot",
+          "start": 1763,
+          "end": 1764
+        },
+        {
+          "name": "_remove_oauth_discovery_slot",
+          "start": 1766,
+          "end": 1767
+        },
+        {
+          "name": "_store_oauth_discovery_slot",
+          "start": 1769,
+          "end": 1773
+        },
+        {
+          "name": "_set_oauth_discovery_deferred",
+          "start": 1775,
+          "end": 1787
+        },
+        {
+          "name": "_invalidate_oauth_discovery_state",
+          "start": 1789,
+          "end": 1793
+        },
+        {
+          "name": "_registered_server",
+          "start": 1795,
+          "end": 1796
+        },
+        {
+          "name": "_discover_oauth_metadata_for_server",
+          "start": 1798,
+          "end": 1849
+        },
+        {
+          "name": "_merge_discovered_oauth_metadata",
+          "start": 1852,
+          "end": 1862
+        },
+        {
+          "name": "_oauth_discovery_slot_is_current",
+          "start": 1864,
+          "end": 1866
+        },
+        {
+          "name": "_publish_resolved_oauth_server",
+          "start": 1868,
+          "end": 1882
+        },
+        {
+          "name": "_attempt_oauth_metadata_once",
+          "start": 1884,
+          "end": 1910
+        },
+        {
+          "name": "_attempt_oauth_metadata_resolution",
+          "start": 1912,
+          "end": 1924
+        },
+        {
+          "name": "_run_oauth_metadata_resolution",
+          "start": 1926,
+          "end": 1947
+        },
+        {
+          "name": "_record_oauth_discovery_failure",
+          "start": 1949,
+          "end": 1960
+        },
+        {
+          "name": "_get_or_start_oauth_discovery_task",
+          "start": 1962,
+          "end": 1976
+        },
+        {
+          "name": "prime_oauth_metadata_discovery",
+          "start": 1978,
+          "end": 1987
+        },
+        {
+          "name": "_prime_oauth_metadata_discovery_for_servers",
+          "start": 1989,
+          "end": 1991
+        },
+        {
+          "name": "_reconcile_oauth_discovery_slots_for_servers",
+          "start": 1993,
+          "end": 1999
+        },
+        {
+          "name": "ensure_oauth_metadata_discovered",
+          "start": 2001,
+          "end": 2044
+        },
+        {
+          "name": "_remember_upstream_initialize_instructions",
+          "start": 2046,
+          "end": 2049
+        },
+        {
+          "name": "_ensure_upstream_initialize_instructions_cached",
+          "start": 2051,
+          "end": 2118
+        },
+        {
+          "name": "get_registry",
+          "start": 2120,
+          "end": 2124
+        },
+        {
+          "name": "is_config_declared_server",
+          "start": 2126,
+          "end": 2132
+        },
+        {
+          "name": "load_servers_from_config",
+          "start": 2134,
+          "end": 2438
+        },
+        {
+          "name": "_hydrate_config_servers_dcr_clients",
+          "start": 2440,
+          "end": 2460
+        },
+        {
+          "name": "_register_openapi_tools",
+          "start": 2462,
+          "end": 2600
+        },
+        {
+          "name": "_cleanup_server_tool_routing_artifacts",
+          "start": 2602,
+          "end": 2629
+        },
+        {
+          "name": "_owned_mapping_values",
+          "start": 2631,
+          "end": 2634
+        },
+        {
+          "name": "_server_exposes_tool",
+          "start": 2636,
+          "end": 2642
+        },
+        {
+          "name": "remove_server",
+          "start": 2644,
+          "end": 2656
+        },
+        {
+          "name": "_resolve_env_vars_list",
+          "start": 2658,
+          "end": 2671
+        },
+        {
+          "name": "_resolve_table_oauth_metadata",
+          "start": 2673,
+          "end": 2737
+        },
+        {
+          "name": "build_mcp_server_from_table",
+          "start": 2739,
+          "end": 2959
+        },
+        {
+          "name": "_maybe_register_openapi_tools",
+          "start": 2961,
+          "end": 2971
+        },
+        {
+          "name": "add_server",
+          "start": 2973,
+          "end": 2997
+        },
+        {
+          "name": "update_server",
+          "start": 2999,
+          "end": 3033
+        },
+        {
+          "name": "get_all_mcp_server_ids",
+          "start": 3035,
+          "end": 3040
+        },
+        {
+          "name": "get_allow_all_keys_server_ids",
+          "start": 3042,
+          "end": 3044
+        },
+        {
+          "name": "get_byom_submitted_servers_cache_key",
+          "start": 3047,
+          "end": 3048
+        },
+        {
+          "name": "invalidate_byom_submitted_servers_cache",
+          "start": 3050,
+          "end": 3058
+        },
+        {
+          "name": "_get_active_submitted_mcp_server_ids_for_user",
+          "start": 3060,
+          "end": 3105
+        },
+        {
+          "name": "operator_open_server_ids",
+          "start": 3107,
+          "end": 3155
+        },
+        {
+          "name": "_admitted_session_resource_scope",
+          "start": 3158,
+          "end": 3167
+        },
+        {
+          "name": "get_allowed_mcp_servers",
+          "start": 3169,
+          "end": 3303
+        },
+        {
+          "name": "resolve_toolset_tool_permissions",
+          "start": 3305,
+          "end": 3351
+        },
+        {
+          "name": "invalidate_toolset_cache",
+          "start": 3353,
+          "end": 3385
+        },
+        {
+          "name": "get_toolset_by_name_cached",
+          "start": 3387,
+          "end": 3425
+        },
+        {
+          "name": "filter_server_ids_by_ip",
+          "start": 3427,
+          "end": 3434
+        },
+        {
+          "name": "filter_server_ids_by_ip_with_info",
+          "start": 3436,
+          "end": 3454
+        },
+        {
+          "name": "get_tools_for_server",
+          "start": 3456,
+          "end": 3468
+        },
+        {
+          "name": "list_tools",
+          "start": 3470,
+          "end": 3534
+        },
+        {
+          "name": "_extract_bearer_token",
+          "start": 3540,
+          "end": 3558
+        },
+        {
+          "name": "_extract_subject_token",
+          "start": 3561,
+          "end": 3576
+        },
+        {
+          "name": "_obo_subject_token",
+          "start": 3578,
+          "end": 3592
+        },
+        {
+          "name": "_build_stdio_env",
+          "start": 3594,
+          "end": 3619
+        },
+        {
+          "name": "_references_per_user_env_var",
+          "start": 3621,
+          "end": 3638
+        },
+        {
+          "name": "_resolve_static_headers_with_env_vars",
+          "start": 3640,
+          "end": 3731
+        },
+        {
+          "name": "_load_user_env_vars",
+          "start": 3733,
+          "end": 3782
+        },
+        {
+          "name": "_resolve_v2_auth",
+          "start": 3784,
+          "end": 3840
+        },
+        {
+          "name": "preflight_token_exchange",
+          "start": 3842,
+          "end": 3896
+        },
+        {
+          "name": "_create_mcp_client",
+          "start": 3898,
+          "end": 4065
+        },
+        {
+          "name": "_get_tools_from_server",
+          "start": 4067,
+          "end": 4228
+        },
+        {
+          "name": "get_prompts_from_server",
+          "start": 4230,
+          "end": 4280
+        },
+        {
+          "name": "get_resources_from_server",
+          "start": 4282,
+          "end": 4323
+        },
+        {
+          "name": "get_resource_templates_from_server",
+          "start": 4325,
+          "end": 4368
+        },
+        {
+          "name": "read_resource_from_server",
+          "start": 4370,
+          "end": 4400
+        },
+        {
+          "name": "get_prompt_from_server",
+          "start": 4402,
+          "end": 4437
+        },
+        {
+          "name": "_is_same_authority_metadata_url",
+          "start": 4440,
+          "end": 4465
+        },
+        {
+          "name": "_fetch_oauth_discovery_url",
+          "start": 4467,
+          "end": 4478
+        },
+        {
+          "name": "_descovery_metadata",
+          "start": 4480,
+          "end": 4511
+        },
+        {
+          "name": "_discover_metadata_recording_attempts",
+          "start": 4513,
+          "end": 4559
+        },
+        {
+          "name": "_discover_after_status_error",
+          "start": 4561,
+          "end": 4640
+        },
+        {
+          "name": "_parse_www_authenticate_header",
+          "start": 4642,
+          "end": 4660
+        },
+        {
+          "name": "_fetch_oauth_metadata_from_resource",
+          "start": 4662,
+          "end": 4697
+        },
+        {
+          "name": "_attempt_well_known_discovery",
+          "start": 4699,
+          "end": 4725
+        },
+        {
+          "name": "_fetch_authorization_server_metadata",
+          "start": 4727,
+          "end": 4734
+        },
+        {
+          "name": "_fetch_issuer_anchored_oauth_metadata",
+          "start": 4736,
+          "end": 4767
+        },
+        {
+          "name": "_fetch_single_authorization_server_metadata",
+          "start": 4769,
+          "end": 4853
+        },
+        {
+          "name": "_build_azure_authorization_server_metadata",
+          "start": 4856,
+          "end": 4868
+        },
+        {
+          "name": "_decrypt_credential_field",
+          "start": 4871,
+          "end": 4886
+        },
+        {
+          "name": "_extract_aws_credentials",
+          "start": 4888,
+          "end": 4916
+        },
+        {
+          "name": "_extract_scopes",
+          "start": 4918,
+          "end": 4925
+        },
+        {
+          "name": "_fetch_tools_with_timeout",
+          "start": 4927,
+          "end": 4973
+        },
+        {
+          "name": "_assign_unique_short_prefix",
+          "start": 4977,
+          "end": 5035
+        },
+        {
+          "name": "_create_prefixed_tools",
+          "start": 5037,
+          "end": 5070
+        },
+        {
+          "name": "_create_prefixed_prompts",
+          "start": 5072,
+          "end": 5097
+        },
+        {
+          "name": "_create_prefixed_resources",
+          "start": 5099,
+          "end": 5113
+        },
+        {
+          "name": "_create_prefixed_resource_templates",
+          "start": 5115,
+          "end": 5136
+        },
+        {
+          "name": "check_allowed_or_banned_tools",
+          "start": 5138,
+          "end": 5154
+        },
+        {
+          "name": "validate_allowed_params",
+          "start": 5156,
+          "end": 5190
+        },
+        {
+          "name": "check_tool_permission_for_key_team",
+          "start": 5192,
+          "end": 5231
+        },
+        {
+          "name": "_call_openapi_tool_handler",
+          "start": 5233,
+          "end": 5298
+        },
+        {
+          "name": "pre_call_tool_check",
+          "start": 5300,
+          "end": 5419
+        },
+        {
+          "name": "_create_during_hook_task",
+          "start": 5421,
+          "end": 5471
+        },
+        {
+          "name": "_get_call_semaphore",
+          "start": 5473,
+          "end": 5482
+        },
+        {
+          "name": "_limit_outbound_concurrency",
+          "start": 5485,
+          "end": 5491
+        },
+        {
+          "name": "_obo_call_tool_with_retry",
+          "start": 5493,
+          "end": 5531
+        },
+        {
+          "name": "_call_regular_mcp_tool",
+          "start": 5533,
+          "end": 5792
+        },
+        {
+          "name": "_resolve_mcp_server_for_tool_call",
+          "start": 5794,
+          "end": 5831
+        },
+        {
+          "name": "has_user_oauth_token",
+          "start": 5833,
+          "end": 5843
+        },
+        {
+          "name": "invalidate_user_oauth_token_cache",
+          "start": 5845,
+          "end": 5865
+        },
+        {
+          "name": "_resolve_oauth2_headers_for_tool_call",
+          "start": 5867,
+          "end": 5905
+        },
+        {
+          "name": "resolve_openapi_upstream_auth",
+          "start": 5907,
+          "end": 5960
+        },
+        {
+          "name": "_gather_openapi_tool_tasks",
+          "start": 5962,
+          "end": 5978
+        },
+        {
+          "name": "call_tool",
+          "start": 5980,
+          "end": 6123
+        },
+        {
+          "name": "initialize_tool_name_to_mcp_server_name_mapping",
+          "start": 6129,
+          "end": 6139
+        },
+        {
+          "name": "_initialize_tool_name_to_mcp_server_name_mapping",
+          "start": 6141,
+          "end": 6172
+        },
+        {
+          "name": "_get_mcp_server_from_tool_name",
+          "start": 6174,
+          "end": 6214
+        },
+        {
+          "name": "reload_servers_from_database",
+          "start": 6216,
+          "end": 6359
+        },
+        {
+          "name": "get_mcp_servers_from_ids",
+          "start": 6361,
+          "end": 6367
+        },
+        {
+          "name": "_get_general_settings",
+          "start": 6369,
+          "end": 6379
+        },
+        {
+          "name": "_is_server_accessible_from_ip",
+          "start": 6381,
+          "end": 6400
+        },
+        {
+          "name": "get_mcp_server_by_id",
+          "start": 6402,
+          "end": 6410
+        },
+        {
+          "name": "get_public_mcp_servers",
+          "start": 6412,
+          "end": 6440
+        },
+        {
+          "name": "expand_permission_list",
+          "start": 6442,
+          "end": 6480
+        },
+        {
+          "name": "expand_tool_permissions",
+          "start": 6482,
+          "end": 6504
+        },
+        {
+          "name": "get_mcp_server_by_name",
+          "start": 6506,
+          "end": 6539
+        },
+        {
+          "name": "get_filtered_registry",
+          "start": 6541,
+          "end": 6552
+        },
+        {
+          "name": "_generate_stable_server_id",
+          "start": 6554,
+          "end": 6588
+        },
+        {
+          "name": "health_check_server",
+          "start": 6590,
+          "end": 6703
+        },
+        {
+          "name": "get_all_mcp_servers_with_health_and_teams",
+          "start": 6705,
+          "end": 6733
+        },
+        {
+          "name": "get_all_allowed_mcp_servers",
+          "start": 6735,
+          "end": 6762
+        },
+        {
+          "name": "_env_vars_to_models",
+          "start": 6765,
+          "end": 6770
+        },
+        {
+          "name": "_build_mcp_server_table",
+          "start": 6772,
+          "end": 6820
+        },
+        {
+          "name": "get_all_mcp_servers_unfiltered",
+          "start": 6822,
+          "end": 6832
+        },
+        {
+          "name": "get_all_mcp_servers_with_health_unfiltered",
+          "start": 6834,
+          "end": 6851
+        },
+        {
+          "name": "_run_health_checks",
+          "start": 6853,
+          "end": 6859
+        },
+        {
+          "name": "validate_tool_name",
+          "start": 206,
+          "end": 207
+        },
+        {
+          "name": "_fetch_server_tools",
+          "start": 3492,
+          "end": 3524
+        },
+        {
+          "name": "_run_during_call_hook",
+          "start": 5461,
+          "end": 5469
+        },
+        {
+          "name": "_candidate_matches_server_name",
+          "start": 5805,
+          "end": 5813
+        },
+        {
+          "name": "_noop",
+          "start": 2108,
+          "end": 2109
+        },
+        {
+          "name": "_obo_call_tool_limited",
+          "start": 5702,
+          "end": 5714
+        },
+        {
+          "name": "_call_tool_via_client",
+          "start": 5724,
+          "end": 5761
+        },
+        {
+          "name": "_call_openapi_via_handler",
+          "start": 6088,
+          "end": 6104
+        },
+        {
+          "name": "_noop",
+          "start": 6649,
+          "end": 6650
+        }
+      ]
+    },
+    {
+      "path": "litellm/llms/openai/openai.py",
+      "sha256": "26287593e7fc7f89db5605a684827165c23d111d66adf6af9b8d9cbfc67a601f",
+      "old_sha256": "1ab1b8902e6011ed0ea0bdab4f4e1aa61ac7833427c0663487d41841c7e9d74c",
+      "status": "changed",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/llms/openai/openai.py",
+      "captured_at_utc": "2026-09-09T03:51:27.696083+00:00",
+      "functions": [
+        {
+          "name": "_embedding_request_without_sdk_defaults",
+          "start": 343,
+          "end": 356
+        },
+        {
+          "name": "__init__",
+          "start": 71,
+          "end": 77
+        },
+        {
+          "name": "get_config",
+          "start": 80,
+          "end": 96
+        },
+        {
+          "name": "get_supported_openai_params",
+          "start": 98,
+          "end": 101
+        },
+        {
+          "name": "map_openai_params",
+          "start": 103,
+          "end": 107
+        },
+        {
+          "name": "__init__",
+          "start": 152,
+          "end": 170
+        },
+        {
+          "name": "get_config",
+          "start": 173,
+          "end": 174
+        },
+        {
+          "name": "get_supported_openai_params",
+          "start": 176,
+          "end": 198
+        },
+        {
+          "name": "_gpt_config_for_model",
+          "start": 200,
+          "end": 203
+        },
+        {
+          "name": "_map_openai_params",
+          "start": 205,
+          "end": 210
+        },
+        {
+          "name": "_transform_messages",
+          "start": 212,
+          "end": 213
+        },
+        {
+          "name": "map_openai_params",
+          "start": 215,
+          "end": 250
+        },
+        {
+          "name": "get_error_class",
+          "start": 252,
+          "end": 257
+        },
+        {
+          "name": "transform_request",
+          "start": 259,
+          "end": 268
+        },
+        {
+          "name": "transform_response",
+          "start": 270,
+          "end": 296
+        },
+        {
+          "name": "validate_environment",
+          "start": 298,
+          "end": 311
+        },
+        {
+          "name": "get_model_response_iterator",
+          "start": 313,
+          "end": 323
+        },
+        {
+          "name": "chunk_parser",
+          "start": 327,
+          "end": 334
+        },
+        {
+          "name": "__init__",
+          "start": 360,
+          "end": 361
+        },
+        {
+          "name": "_set_dynamic_params_on_client",
+          "start": 363,
+          "end": 372
+        },
+        {
+          "name": "_get_openai_client",
+          "start": 374,
+          "end": 462
+        },
+        {
+          "name": "make_openai_chat_completion_request",
+          "start": 465,
+          "end": 503
+        },
+        {
+          "name": "make_sync_openai_chat_completion_request",
+          "start": 506,
+          "end": 545
+        },
+        {
+          "name": "_call_agentic_completion_hooks_openai",
+          "start": 547,
+          "end": 625
+        },
+        {
+          "name": "mock_streaming",
+          "start": 627,
+          "end": 643
+        },
+        {
+          "name": "completion",
+          "start": 645,
+          "end": 886
+        },
+        {
+          "name": "acompletion",
+          "start": 888,
+          "end": 1009
+        },
+        {
+          "name": "streaming",
+          "start": 1011,
+          "end": 1066
+        },
+        {
+          "name": "async_streaming",
+          "start": 1068,
+          "end": 1185
+        },
+        {
+          "name": "get_stream_options",
+          "start": 1187,
+          "end": 1195
+        },
+        {
+          "name": "make_openai_embedding_request",
+          "start": 1199,
+          "end": 1213
+        },
+        {
+          "name": "make_sync_openai_embedding_request",
+          "start": 1216,
+          "end": 1230
+        },
+        {
+          "name": "aembedding",
+          "start": 1232,
+          "end": 1301
+        },
+        {
+          "name": "embedding",
+          "start": 1303,
+          "end": 1388
+        },
+        {
+          "name": "aimage_generation",
+          "start": 1390,
+          "end": 1451
+        },
+        {
+          "name": "image_generation",
+          "start": 1453,
+          "end": 1551
+        },
+        {
+          "name": "audio_speech",
+          "start": 1553,
+          "end": 1613
+        },
+        {
+          "name": "async_audio_speech",
+          "start": 1615,
+          "end": 1660
+        },
+        {
+          "name": "__init__",
+          "start": 1674,
+          "end": 1675
+        },
+        {
+          "name": "get_openai_client",
+          "start": 1677,
+          "end": 1705
+        },
+        {
+          "name": "acreate_file",
+          "start": 1707,
+          "end": 1713
+        },
+        {
+          "name": "create_file",
+          "start": 1715,
+          "end": 1747
+        },
+        {
+          "name": "afile_content",
+          "start": 1749,
+          "end": 1755
+        },
+        {
+          "name": "file_content",
+          "start": 1757,
+          "end": 1793
+        },
+        {
+          "name": "afile_content_streaming",
+          "start": 1795,
+          "end": 1819
+        },
+        {
+          "name": "file_content_streaming",
+          "start": 1821,
+          "end": 1875
+        },
+        {
+          "name": "aretrieve_file",
+          "start": 1877,
+          "end": 1883
+        },
+        {
+          "name": "retrieve_file",
+          "start": 1885,
+          "end": 1921
+        },
+        {
+          "name": "adelete_file",
+          "start": 1923,
+          "end": 1929
+        },
+        {
+          "name": "delete_file",
+          "start": 1931,
+          "end": 1967
+        },
+        {
+          "name": "alist_files",
+          "start": 1969,
+          "end": 1978
+        },
+        {
+          "name": "list_files",
+          "start": 1980,
+          "end": 2020
+        },
+        {
+          "name": "__init__",
+          "start": 2032,
+          "end": 2033
+        },
+        {
+          "name": "get_openai_client",
+          "start": 2035,
+          "end": 2063
+        },
+        {
+          "name": "acreate_batch",
+          "start": 2065,
+          "end": 2071
+        },
+        {
+          "name": "create_batch",
+          "start": 2073,
+          "end": 2106
+        },
+        {
+          "name": "aretrieve_batch",
+          "start": 2108,
+          "end": 2115
+        },
+        {
+          "name": "retrieve_batch",
+          "start": 2117,
+          "end": 2149
+        },
+        {
+          "name": "acancel_batch",
+          "start": 2151,
+          "end": 2158
+        },
+        {
+          "name": "cancel_batch",
+          "start": 2160,
+          "end": 2196
+        },
+        {
+          "name": "alist_batches",
+          "start": 2198,
+          "end": 2206
+        },
+        {
+          "name": "list_batches",
+          "start": 2208,
+          "end": 2241
+        },
+        {
+          "name": "__init__",
+          "start": 2245,
+          "end": 2246
+        },
+        {
+          "name": "get_openai_client",
+          "start": 2248,
+          "end": 2271
+        },
+        {
+          "name": "async_get_openai_client",
+          "start": 2273,
+          "end": 2296
+        },
+        {
+          "name": "async_get_assistants",
+          "start": 2300,
+          "end": 2332
+        },
+        {
+          "name": "get_assistants",
+          "start": 2337,
+          "end": 2347
+        },
+        {
+          "name": "get_assistants",
+          "start": 2350,
+          "end": 2360
+        },
+        {
+          "name": "get_assistants",
+          "start": 2364,
+          "end": 2408
+        },
+        {
+          "name": "async_create_assistants",
+          "start": 2411,
+          "end": 2432
+        },
+        {
+          "name": "create_assistants",
+          "start": 2434,
+          "end": 2465
+        },
+        {
+          "name": "async_delete_assistant",
+          "start": 2468,
+          "end": 2489
+        },
+        {
+          "name": "delete_assistant",
+          "start": 2491,
+          "end": 2522
+        },
+        {
+          "name": "a_add_message",
+          "start": 2526,
+          "end": 2557
+        },
+        {
+          "name": "add_message",
+          "start": 2562,
+          "end": 2574
+        },
+        {
+          "name": "add_message",
+          "start": 2577,
+          "end": 2589
+        },
+        {
+          "name": "add_message",
+          "start": 2593,
+          "end": 2636
+        },
+        {
+          "name": "async_get_messages",
+          "start": 2638,
+          "end": 2659
+        },
+        {
+          "name": "get_messages",
+          "start": 2664,
+          "end": 2675
+        },
+        {
+          "name": "get_messages",
+          "start": 2678,
+          "end": 2689
+        },
+        {
+          "name": "get_messages",
+          "start": 2693,
+          "end": 2725
+        },
+        {
+          "name": "async_create_thread",
+          "start": 2729,
+          "end": 2757
+        },
+        {
+          "name": "create_thread",
+          "start": 2762,
+          "end": 2774
+        },
+        {
+          "name": "create_thread",
+          "start": 2777,
+          "end": 2789
+        },
+        {
+          "name": "create_thread",
+          "start": 2793,
+          "end": 2843
+        },
+        {
+          "name": "async_get_thread",
+          "start": 2845,
+          "end": 2866
+        },
+        {
+          "name": "get_thread",
+          "start": 2871,
+          "end": 2882
+        },
+        {
+          "name": "get_thread",
+          "start": 2885,
+          "end": 2896
+        },
+        {
+          "name": "get_thread",
+          "start": 2900,
+          "end": 2932
+        },
+        {
+          "name": "delete_thread",
+          "start": 2934,
+          "end": 2935
+        },
+        {
+          "name": "arun_thread",
+          "start": 2939,
+          "end": 2975
+        },
+        {
+          "name": "async_run_thread_stream",
+          "start": 2977,
+          "end": 3000
+        },
+        {
+          "name": "run_thread_stream",
+          "start": 3002,
+          "end": 3034
+        },
+        {
+          "name": "run_thread",
+          "start": 3039,
+          "end": 3058
+        },
+        {
+          "name": "run_thread",
+          "start": 3061,
+          "end": 3080
+        },
+        {
+          "name": "run_thread",
+          "start": 3084,
+          "end": 3172
+        },
+        {
+          "name": "_stream",
+          "start": 1805,
+          "end": 1817
+        },
+        {
+          "name": "_stream",
+          "start": 1862,
+          "end": 1873
+        }
+      ]
+    },
+    {
+      "path": "litellm/llms/openai/responses/transformation.py",
+      "sha256": "ae09dc55a0f3006b73252577d355b0d5f5e4fe14e1273052765f476337061443",
+      "old_sha256": "af64b9f77a1169426ae57c58cfd4ae4c66faa09b8e89c3ac917c38e67d32ffab",
+      "status": "changed",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/llms/openai/responses/transformation.py",
+      "captured_at_utc": "2026-09-09T03:51:27.710707+00:00",
+      "functions": [
+        {
+          "name": "_delete_response_body",
+          "start": 65,
+          "end": 67
+        },
+        {
+          "name": "_json_object_body",
+          "start": 70,
+          "end": 72
+        },
+        {
+          "name": "json",
+          "start": 56,
+          "end": 56
+        },
+        {
+          "name": "json",
+          "start": 62,
+          "end": 62
+        },
+        {
+          "name": "custom_llm_provider",
+          "start": 77,
+          "end": 78
+        },
+        {
+          "name": "supports_native_file_search",
+          "start": 80,
+          "end": 81
+        },
+        {
+          "name": "_is_gpt_5_model",
+          "start": 84,
+          "end": 93
+        },
+        {
+          "name": "_supports_reasoning_effort_none",
+          "start": 96,
+          "end": 104
+        },
+        {
+          "name": "_effort_resolves_to_none",
+          "start": 107,
+          "end": 118
+        },
+        {
+          "name": "_enforce_min_max_output_tokens",
+          "start": 121,
+          "end": 131
+        },
+        {
+          "name": "get_supported_openai_params",
+          "start": 133,
+          "end": 150
+        },
+        {
+          "name": "map_openai_params",
+          "start": 152,
+          "end": 191
+        },
+        {
+          "name": "transform_responses_api_request",
+          "start": 193,
+          "end": 221
+        },
+        {
+          "name": "_prepared_input_and_tools",
+          "start": 223,
+          "end": 238
+        },
+        {
+          "name": "_tools_with_object_parameters",
+          "start": 240,
+          "end": 251
+        },
+        {
+          "name": "_tool_with_object_parameters",
+          "start": 253,
+          "end": 269
+        },
+        {
+          "name": "remove_cache_control_flag_from_input_and_tools",
+          "start": 271,
+          "end": 301
+        },
+        {
+          "name": "_drop_foreign_tool_call_item_ids",
+          "start": 303,
+          "end": 307
+        },
+        {
+          "name": "_without_foreign_tool_call_item_id",
+          "start": 310,
+          "end": 318
+        },
+        {
+          "name": "_flatten_tool_schema_combinators_for_openai",
+          "start": 320,
+          "end": 344
+        },
+        {
+          "name": "_flattened_tool_or_passthrough",
+          "start": 347,
+          "end": 348
+        },
+        {
+          "name": "_rejects_top_level_schema_combinators",
+          "start": 351,
+          "end": 354
+        },
+        {
+          "name": "_combinator_gate_model",
+          "start": 357,
+          "end": 360
+        },
+        {
+          "name": "_flattened_tool_entry",
+          "start": 363,
+          "end": 382
+        },
+        {
+          "name": "_flattened_nested_tools",
+          "start": 385,
+          "end": 391
+        },
+        {
+          "name": "_validate_input_param",
+          "start": 393,
+          "end": 421
+        },
+        {
+          "name": "_handle_reasoning_item",
+          "start": 423,
+          "end": 459
+        },
+        {
+          "name": "transform_response_api_response",
+          "start": 461,
+          "end": 490
+        },
+        {
+          "name": "validate_environment",
+          "start": 492,
+          "end": 505
+        },
+        {
+          "name": "get_complete_url",
+          "start": 507,
+          "end": 526
+        },
+        {
+          "name": "transform_streaming_response",
+          "start": 528,
+          "end": 559
+        },
+        {
+          "name": "parse_terminal_response_from_stream_chunks",
+          "start": 562,
+          "end": 569
+        },
+        {
+          "name": "get_event_model_class",
+          "start": 572,
+          "end": 628
+        },
+        {
+          "name": "should_fake_stream",
+          "start": 630,
+          "end": 650
+        },
+        {
+          "name": "supports_native_websocket",
+          "start": 652,
+          "end": 654
+        },
+        {
+          "name": "transform_delete_response_api_request",
+          "start": 659,
+          "end": 675
+        },
+        {
+          "name": "transform_delete_response_api_response",
+          "start": 677,
+          "end": 689
+        },
+        {
+          "name": "transform_get_response_api_request",
+          "start": 694,
+          "end": 710
+        },
+        {
+          "name": "transform_get_response_api_response",
+          "start": 712,
+          "end": 730
+        },
+        {
+          "name": "transform_list_input_items_request",
+          "start": 735,
+          "end": 760
+        },
+        {
+          "name": "transform_list_input_items_response",
+          "start": 762,
+          "end": 770
+        },
+        {
+          "name": "transform_cancel_response_api_request",
+          "start": 775,
+          "end": 791
+        },
+        {
+          "name": "transform_cancel_response_api_response",
+          "start": 793,
+          "end": 812
+        },
+        {
+          "name": "transform_compact_response_api_request",
+          "start": 817,
+          "end": 849
+        },
+        {
+          "name": "transform_compact_response_api_response",
+          "start": 851,
+          "end": 882
+        }
+      ]
+    },
+    {
+      "path": "litellm/llms/custom_httpx/http_handler.py",
+      "sha256": "90e00ab97b1a3111b3adae3d60cef6babfb597eaf1680cf0643185e370064262",
+      "old_sha256": "842ba3e75790037cc437186b7674708a76cfa7821205eaa8ae8181a68bbe41bb",
+      "status": "changed",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/llms/custom_httpx/http_handler.py",
+      "captured_at_utc": "2026-09-09T03:52:30.093936+00:00",
+      "functions": [
+        {
+          "name": "_environment_proxy_mounts",
+          "start": 76,
+          "end": 85
+        },
+        {
+          "name": "_build_aiohttp_keepalive_socket_factory",
+          "start": 99,
+          "end": 131
+        },
+        {
+          "name": "get_default_headers",
+          "start": 134,
+          "end": 145
+        },
+        {
+          "name": "_default_cached_client_timeout",
+          "start": 158,
+          "end": 163
+        },
+        {
+          "name": "_handler_may_close_client",
+          "start": 169,
+          "end": 178
+        },
+        {
+          "name": "blocked_cookie_jar",
+          "start": 181,
+          "end": 187
+        },
+        {
+          "name": "_prepare_request_data_and_content",
+          "start": 197,
+          "end": 234
+        },
+        {
+          "name": "_create_ssl_context",
+          "start": 243,
+          "end": 289
+        },
+        {
+          "name": "get_ssl_verify",
+          "start": 292,
+          "end": 328
+        },
+        {
+          "name": "get_ssl_configuration",
+          "start": 331,
+          "end": 394
+        },
+        {
+          "name": "get_shared_realtime_ssl_context",
+          "start": 400,
+          "end": 408
+        },
+        {
+          "name": "mask_sensitive_info",
+          "start": 411,
+          "end": 432
+        },
+        {
+          "name": "_safe_get_response_text",
+          "start": 435,
+          "end": 440
+        },
+        {
+          "name": "_safe_aread_response",
+          "start": 443,
+          "end": 450
+        },
+        {
+          "name": "_safe_read_response",
+          "start": 453,
+          "end": 465
+        },
+        {
+          "name": "_raise_masked_sync_error",
+          "start": 468,
+          "end": 485
+        },
+        {
+          "name": "_raise_masked_async_error",
+          "start": 488,
+          "end": 505
+        },
+        {
+          "name": "get_async_httpx_client",
+          "start": 1556,
+          "end": 1607
+        },
+        {
+          "name": "_get_httpx_client",
+          "start": 1610,
+          "end": 1653
+        },
+        {
+          "name": "factory",
+          "start": 114,
+          "end": 129
+        },
+        {
+          "name": "__init__",
+          "start": 509,
+          "end": 557
+        },
+        {
+          "name": "__init__",
+          "start": 561,
+          "end": 581
+        },
+        {
+          "name": "client",
+          "start": 584,
+          "end": 592
+        },
+        {
+          "name": "client",
+          "start": 595,
+          "end": 597
+        },
+        {
+          "name": "create_client",
+          "start": 599,
+          "end": 636
+        },
+        {
+          "name": "close",
+          "start": 638,
+          "end": 641
+        },
+        {
+          "name": "__aenter__",
+          "start": 643,
+          "end": 644
+        },
+        {
+          "name": "__aexit__",
+          "start": 646,
+          "end": 648
+        },
+        {
+          "name": "get",
+          "start": 650,
+          "end": 671
+        },
+        {
+          "name": "post",
+          "start": 674,
+          "end": 742
+        },
+        {
+          "name": "put",
+          "start": 744,
+          "end": 806
+        },
+        {
+          "name": "patch",
+          "start": 808,
+          "end": 870
+        },
+        {
+          "name": "delete",
+          "start": 872,
+          "end": 921
+        },
+        {
+          "name": "single_connection_post_request",
+          "start": 923,
+          "end": 953
+        },
+        {
+          "name": "_on_finalizer_close_done",
+          "start": 962,
+          "end": 968
+        },
+        {
+          "name": "_aiohttp_session_bound_elsewhere",
+          "start": 970,
+          "end": 983
+        },
+        {
+          "name": "_dispose_wrapped_aiohttp_session",
+          "start": 985,
+          "end": 1008
+        },
+        {
+          "name": "__del__",
+          "start": 1010,
+          "end": 1033
+        },
+        {
+          "name": "_create_async_transport",
+          "start": 1036,
+          "end": 1068
+        },
+        {
+          "name": "_should_use_aiohttp_transport",
+          "start": 1071,
+          "end": 1096
+        },
+        {
+          "name": "_get_ssl_connector_kwargs",
+          "start": 1099,
+          "end": 1124
+        },
+        {
+          "name": "_create_aiohttp_transport",
+          "start": 1127,
+          "end": 1202
+        },
+        {
+          "name": "_create_httpx_transport",
+          "start": 1205,
+          "end": 1215
+        },
+        {
+          "name": "_create_httpx_proxy_mounts",
+          "start": 1218,
+          "end": 1227
+        },
+        {
+          "name": "__init__",
+          "start": 1231,
+          "end": 1245
+        },
+        {
+          "name": "create_client",
+          "start": 1247,
+          "end": 1268
+        },
+        {
+          "name": "client",
+          "start": 1271,
+          "end": 1276
+        },
+        {
+          "name": "client",
+          "start": 1279,
+          "end": 1281
+        },
+        {
+          "name": "close",
+          "start": 1283,
+          "end": 1286
+        },
+        {
+          "name": "get",
+          "start": 1288,
+          "end": 1309
+        },
+        {
+          "name": "extract_query_params",
+          "start": 1312,
+          "end": 1322
+        },
+        {
+          "name": "post",
+          "start": 1324,
+          "end": 1376
+        },
+        {
+          "name": "patch",
+          "start": 1378,
+          "end": 1426
+        },
+        {
+          "name": "put",
+          "start": 1428,
+          "end": 1475
+        },
+        {
+          "name": "delete",
+          "start": 1477,
+          "end": 1525
+        },
+        {
+          "name": "__del__",
+          "start": 1527,
+          "end": 1532
+        },
+        {
+          "name": "_create_sync_transport",
+          "start": 1534,
+          "end": 1544
+        },
+        {
+          "name": "_create_sync_proxy_mounts",
+          "start": 1547,
+          "end": 1553
+        },
+        {
+          "name": "session_factory",
+          "start": 1180,
+          "end": 1185
+        }
+      ]
+    },
+    {
+      "path": "litellm/proxy/common_utils/encrypt_decrypt_utils.py",
+      "sha256": "5a4eb0a8e639bbdf94c045d87668f7eadf55db06c84f3b6ec3651bc60ad2939d",
+      "old_sha256": "5a4eb0a8e639bbdf94c045d87668f7eadf55db06c84f3b6ec3651bc60ad2939d",
+      "status": "unchanged",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/proxy/common_utils/encrypt_decrypt_utils.py",
+      "captured_at_utc": "2026-09-09T03:52:30.099289+00:00",
+      "functions": [
+        {
+          "name": "_get_salt_key",
+          "start": 23,
+          "end": 31
+        },
+        {
+          "name": "_get_encryption_algorithm",
+          "start": 34,
+          "end": 53
+        },
+        {
+          "name": "_derive_key",
+          "start": 56,
+          "end": 69
+        },
+        {
+          "name": "_encrypt_aes_gcm",
+          "start": 72,
+          "end": 79
+        },
+        {
+          "name": "_decrypt_aes_gcm",
+          "start": 82,
+          "end": 91
+        },
+        {
+          "name": "encrypt_value_helper",
+          "start": 94,
+          "end": 116
+        },
+        {
+          "name": "decrypt_value_helper",
+          "start": 119,
+          "end": 159
+        },
+        {
+          "name": "encrypt_value",
+          "start": 162,
+          "end": 180
+        },
+        {
+          "name": "decrypt_value",
+          "start": 183,
+          "end": 205
+        }
+      ]
+    },
+    {
+      "path": "litellm/constants.py",
+      "sha256": "7281ba126c5cde03aabdd1d4eb373bbef2e40b2d26d0440fa984b533b02c811a",
+      "old_sha256": "e6239a2f89fe46a319cf05b434111341b97bbeb426f7d028f518314fda7740ce",
+      "status": "changed",
+      "url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/litellm/constants.py",
+      "captured_at_utc": "2026-09-09T03:58:20.390005+00:00",
+      "functions": []
+    }
+  ]
+}

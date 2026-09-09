@@ -35,7 +35,7 @@
 后续优先取得能改变判断的材料：
 
 1. **原始构建记录。** 用准确 wheel 哈希、源码 commit、maturin/工具链身份、有效 PyO3 features 和构建命令解释候选源码要求 1.15.0、wheel 自报 1.9.4 的差异。已核对直接相关的公开原生打包讨论与固定测试脚本，仍未取得这些 wheel 的发布运行绑定。[三版本来源矩阵与公开命令](investigation/wheel-build-origin/README.md)。Trusted Publishing 说明发布认证机制；镜像声明的 subject 仍是镜像，当前无法代替 PyPI 产物绑定。[发布证明边界](investigation/version-1.101/release-context/README.md)。
-2. **可改变行为的未解释差异。** 优先追新增或变化代码到秘密来源、发送目的地、执行条件和持久化动作，必要时再做无真实秘密的隔离验证。重复发现普通环境变量读取或再增加同类 PR 数量，对当前归因的增量价值有限。
+2. **可改变行为的未解释差异。** [MCP/SSO 与 OpenAI 身份交换的定向追踪](investigation/runtime-sensitive-delta/README.md)已取得直接调用链与固定 SDK 源码，所查路径未定位攻击者端点或恶意外传；端点配置、会话保留和刷新并发的实际暴露仍取决于部署。后续优先检查具体未解释行为或可复现的条件，必要时再做无真实秘密的隔离验证。重复发现普通环境变量读取或再增加同类 PR 数量，对当前归因的增量价值有限。
 3. **可核验的贡献说明。** 核对下游需求、准确测试制品、关系披露与现有公开记录是否一致。[上游 #40308](https://github.com/BerriAI/litellm/issues/40308)已经提出问题；回复、沉默、关闭 issue 或否认关联本身都不替代技术证据。
 
 接受新依赖和公开指控投毒采用不同的证据标准：维护者可以依据需求不清、默认安装范围和测试缺口继续不合并；认定投毒或指认攻击者则需要恶意载荷、未授权发布或可归因行为等更直接的证据。现有调查已经足以支持审慎的依赖决策，最终攻击归因继续保持开放。
@@ -200,7 +200,13 @@ Proxy/SSO 的旧漏洞告警也需按当前代码判断：1.100 默认 UI 会话
 
 [发布来源](investigation/version-1.101/release-context/README.md)确认候选八文件也显示 Trusted Publishing，八次 Integrity 查询均无 provenance。[候选镜像签名及声明](investigation/version-1.101/images/README.md)核验通过，两个平台对应固定源码 eeb7732…；其 subject 为镜像摘要，没有绑定原始 PyPI 文件。公开 GitHub Create Release 流程发生在 PyPI 上传之后，不能替代该来源证明。
 
-[两个新增功能的定向核验](investigation/version-1.101/runtime-boundaries/README.md)记录 OpenAI workload identity 的配置条件，以及 Claude 诊断日志和 slash-command 文件写入的命令触发边界。它们有明确功能用途及条件，尚未据此识别攻击者端点或真实泄漏。更深调用、第三方 SDK 与完整新增行为仍需具体检查。
+[两个新增功能的定向核验](investigation/version-1.101/runtime-boundaries/README.md)记录 OpenAI workload identity 的配置条件，以及 Claude 诊断日志和 slash-command 文件写入的命令触发边界。[敏感运行时差异追踪](investigation/runtime-sensitive-delta/README.md)进一步覆盖 MCP/SSO 直接调用链和固定 OpenAI SDK 候选的文件读取、令牌交换。逐文件来源清单含 38 份候选源码及 34 份旧版对照；其中相邻调用者的留存不等于完整行为审计。
+
+**SSO 凭据保留已有前置配置，候选新增请求驱动续期。** generic OIDC 登录的身份及刷新令牌只有在部署存在 `oauth2_id_jag` MCP server 时才保留，加密保存并按用户索引；这个保留机制在 1.100 已存在。候选在读取近过期断言时，使用已存 refresh token 和当前 generic client 配置向 `GENERIC_TOKEN_ENDPOINT` 续期，再按配置完成 ID-JAG 出站交换。新诊断文件本身不发送 token，新 Redis 协调复用已有配置，未发现独立周期刷新入口。当前端点与旧 issuer/client 未重新绑定、共享 HTTP 客户端允许重定向、进程缓存与刷新写回并发均有条件性风险；尚未建立普通用户可控制配置、跨用户突破或已发生泄漏的证据。[数据流、触发条件与代码引用](investigation/runtime-sensitive-delta/README.md)。
+
+**OpenAI 身份交换已经追到固定 SDK 内部。** 既有解析快照选中的 SDK 2.54.0 在这条路径读取显式配置的 token 文件，向默认 `https://auth.openai.com/oauth/token` 交换凭据，再在内存缓存结果；LiteLLM 直接调用者未覆盖交换 URL。该路径需要三个身份配置、OpenAI HTTPS base 且无静态 key。未在所查路径发现攻击者端点或直接写盘、打印 token 的语句。该候选的行为不代表实际安装，也不覆盖依赖范围内所有版本；功能要求 SDK >=2.32.0 与依赖下限 2.20.0 的兼容性差距仍保留。[SDK 制品身份](investigation/runtime-sensitive-delta/sdk-source-manifest.json)、[调用边界与限制](investigation/runtime-sensitive-delta/README.md)。
+
+**旧认证公告按受影响版本对照。** [GHSA-7488-6r32-c95q / CVE-2026-59822](https://github.com/BerriAI/litellm/security/advisories/GHSA-7488-6r32-c95q)列出的范围为 <1.84.0，修复范围为 >=1.84.0。1.100 与候选的七个相关认证函数 AST 相同，所查失败回退与目标限制没有建立旧漏洞回归；明确配置的透传及公开元数据路径仍可构造空身份，单看该构造无法判定回归。这是静态对照，未执行攻击请求或完整授权组合测试。[逐函数对照与读取限制](investigation/runtime-sensitive-delta/review-evidence.json)。
 
 候选版的制品与触发条件单独记录，1.100 的检查结果不会直接外推。存在满足约束的正式版时，pip 默认不会仅因 `>=1.89,<2` 安装这个 RC；显式候选版要求、`--pre`、其他解析器和已有环境需单独核对。[pip 官方预发布规则](https://pip.pypa.io/en/stable/cli/pip_install/#pre-release-versions)。
 

@@ -1,0 +1,38 @@
+{
+  "scope": "preserved resolver snapshot candidate, not observed installation",
+  "version": "2.54.0",
+  "source": "https://pypi.org/pypi/openai/2.54.0/json",
+  "metadata_captured_at_utc": "2026-09-08T20:34:14.743553+00:00",
+  "artifact": {
+    "filename": "openai-2.54.0-py3-none-any.whl",
+    "url": "https://files.pythonhosted.org/packages/64/a8/bb76c7356de8ad57f59d5ff993d434df0607f07f08bcc9c9a5c275e399c0/openai-2.54.0-py3-none-any.whl",
+    "digests": {
+      "blake2b_256": "64a8bb76c7356de8ad57f59d5ff993d434df0607f07f08bcc9c9a5c275e399c0",
+      "md5": "02fabe6076d79c4ca1aebaf7e2eaa964",
+      "sha256": "89089789197ccdb87f173a03145ed1598d00795220c93e96cf712b1cbf5e5f2b"
+    },
+    "upload_time_iso_8601": "2026-08-11T18:46:56.684151Z",
+    "yanked": false,
+    "requires_python": ">=3.10"
+  },
+  "captured_at_utc": "2026-09-09T03:53:27.200142+00:00",
+  "resolver_index_sha256": "294d04c52cf85ce51f8e5fb589bd7b3cd5ad444068846ca5b067ffc1fd7ebd6a",
+  "files": [
+    {
+      "path": "openai/_base_client.py",
+      "sha256": "5539c83d01c27e1bbf1ad34e59cc872202feb6c8bf81b56fadbeeb2b81a3e869"
+    },
+    {
+      "path": "openai/_client.py",
+      "sha256": "d101a059e5c7632dff8f791ca8480c5cb07623272d421842ab40d348dd940517"
+    },
+    {
+      "path": "openai/auth/__init__.py",
+      "sha256": "9278dd431b8006939559011dbcceca5b3662d23bd3527a518c2db94b9f55a850"
+    },
+    {
+      "path": "openai/auth/_workload.py",
+      "sha256": "9aef466d8d4e394dcfe1aff5d7619a412d4234a16f3bd39c885f47a789891975"
+    }
+  ]
+}

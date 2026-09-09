@@ -1,0 +1,18 @@
+{
+  "scope": "Public static review and artifact identities; publication is coordinated by the investigation lead.",
+  "files": [
+    "README.md",
+    "source-manifest.json",
+    "sdk-source-manifest.json",
+    "review-evidence.json",
+    "public-whitelist.json",
+    "evidence-sha256.json"
+  ],
+  "excluded": [
+    ".local/",
+    "collect_sources.py",
+    "collect_sdk.py",
+    "capture_advisory.py",
+    "seal_evidence.py"
+  ]
+}

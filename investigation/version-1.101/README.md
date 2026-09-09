@@ -39,6 +39,7 @@
 | [发布认证](release-context/README.md) | 八个 PyPI 文件页面均显示 Trusted Publishing；八个 Integrity 查询均返回无 provenance。公开 GitHub Create Release 是单独的后续流程。 |
 | [候选镜像](images/README.md) | 同一固定公钥签名验证成功，两个平台 SLSA 声明与索引摘要绑定，源码 revision 一致；声明没有绑定八个 PyPI 文件。 |
 | [两个新增功能边界](runtime-boundaries/README.md) | OpenAI workload identity 需要身份配置且无静态 key；Claude 诊断与 slash-command 写入通过命令触发。没有执行真实身份交换、日志读取或写入。 |
+| [MCP/SSO 与 SDK 直接调用链](../runtime-sensitive-delta/README.md) | 已追通配置后才触发的 SSO 续期、ID-JAG 交换及固定 SDK 2.54.0 的 token 文件读取与 OpenAI 默认端点交换。所查路径未建立恶意外传或旧认证漏洞回归；端点配置、缓存、并发和实际部署仍有明确边界。 |
 
 [制品比较](artifacts/metadata-comparison.json)确认基础 14 项依赖和三个 console_scripts 入口与 1.100 相同；依赖变更在可选 extras。Python 内容有 43 个新增、597 个修改文件，这些文件的 Git 来源匹配已经核对，全部行为仍未完成审计。
 

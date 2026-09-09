@@ -26,12 +26,12 @@
 
 ## 当前推进事项
 
-2026-09-09 UTC，三个现有调查任务均已确认接收新的具体检查范围。优先级依据[综合判断与证据权重](REPORT.zh-CN.md)：追原始 PyPI 构建绑定、可能改变秘密访问与发送行为的代码路径，以及可核验的贡献关系。已有基线复用，原始观测保留准确时间。
+2026-09-09 UTC，三个现有调查任务均已交付约定范围的证据，结果已经总管复核并整合。当前仍缺原始 PyPI 构建绑定，以及将条件性运行风险落实到具体部署的证据；贡献关系尚无新增可归属说明。优先级依据[综合判断与证据权重](REPORT.zh-CN.md)，已有基线复用，原始观测保留准确时间。
 
-| 负责方向 | 已派发的检查 | 交付与收束条件 |
+| 负责方向 | 已完成的检查 | 交付与未决条件 |
 | --- | --- | --- |
 | 制品与发布链 | 已完成准确版本状态复核、[#31261](https://github.com/BerriAI/litellm/issues/31261)及直接关联[#31267](https://github.com/BerriAI/litellm/pull/31267)核读、固定构建命令与三版本来源矩阵 | [有界交付](investigation/wheel-build-origin/README.md)：公开测试命令及旧平台支持背景已经定位，实际 wheel 构建运行仍未知；剩余请求为绑定准确 SHA 的原始构建记录和有效参数。[英文问题](investigation/wheel-build-origin/upstream-build-question.en.md)仅为未发送草稿，当前不重复枚举 workflow |
-| 依赖与安装暴露 | 优先追候选新增 MCP outbound credentials 刷新与 SSO assertion 捕获的秘密来源、缓存/日志、发送目标和隔离条件；再沿 OpenAI workload identity 的实际调用者及 SDK 交接检查 | 给出文件/函数/行号、激活条件和反例，分别标注正常用途、真实风险及未闭合的数据流；发现具体问题再扩展相邻调用。新材料写入 `investigation/runtime-sensitive-delta/` |
+| 依赖与安装暴露 | 已追通 SSO 捕获、请求驱动续期、ID-JAG 出站与 Redis 协调；沿 Chat/Responses 调用追至固定 OpenAI SDK 2.54.0 的文件读取和交换；对照七个旧 MCP 公告相关认证函数 | [有界交付](investigation/runtime-sensitive-delta/README.md)：所查路径未建立恶意外传或旧漏洞回归。端点/issuer 配置、进程缓存、会话撤销和刷新并发保留条件性风险；实际启用、配置控制权及部署行为未知。具体新行为或可复现配置问题出现后再扩展 |
 | 账号与贡献网络 | 已完成原始49条与当前50条的无关键词查询核验；核对[#40308](https://github.com/BerriAI/litellm/issues/40308)、[YouDub #130](https://github.com/liuzhao1225/YouDub-webui/pull/130)、Chartbrew及两个账号的既有公开关系信息 | [有界交付](investigation/affiliation-clarification/README.md)：新增Gonzo #149仅存元数据，旧22 SDK/27 proxy分类保留；未取得新的委托、赞助或发布权限说明。当前不重复查询或扩大账号范围；有具体新答复时再核验 |
 
 总管负责交叉验证冲突、汇总证据、维护统一报告及对外沟通。构建说明由账号方向及时转给制品方向；其余工作目录独立，完成后主动向总管汇报。新建目录只有完成审查的公开文件清单才进入 Git。
@@ -40,7 +40,7 @@
 
 已完成的[七平台候选制品检查](investigation/version-1.101/artifacts/README.md)、[源码包构建对照](investigation/version-1.101/build/README.md)、[公开发布上下文](investigation/version-1.101/release-context/README.md)、[镜像声明](investigation/version-1.101/images/README.md)和[五文件功能边界](investigation/version-1.101/runtime-boundaries/README.md)作为基线。避免重复下载制品、重复完整 RECORD 检查或将同类 PR 数量累加成独立攻击证据。钓鱼分支维持[独立归档](investigation/notification-analysis/README.md)。
 
-本次派单继续采用静态读取，不安装或执行被调查代码，不使用真实秘密。调查任务不自行修改或合并 #130、不自行发帖或评论，也不覆盖已封存的证据清单。错误与不可访问状态保留原义；未发现异常时也提交清楚的覆盖范围。
+各项交付采用静态读取，不安装或执行被调查代码，不使用真实秘密。调查任务不自行修改或合并 #130、不自行发帖或评论，也不覆盖已封存的证据清单。错误与不可访问状态保留原义；未发现异常时也提交清楚的覆盖范围。
 
 ## 每项发现的记录要求
 

@@ -1,0 +1,144 @@
+{
+  "completed_at_utc": "2026-09-09T03:58:20.450724+00:00",
+  "method": "Read archive bytes, text, AST only; target modules never imported or executed. No live credential/network endpoint checks.",
+  "candidate_commit": "eeb7732fc11fd47762ca84cc3fb7cc74235d7097",
+  "base_commit": "e4f25265704e2b2c6cf6e81be2e4c5cffff896f4",
+  "auth_regression_function_comparison": [
+    {
+      "function": "process_mcp_request",
+      "ast_equal": true,
+      "candidate_lines": [
+        361,
+        565
+      ],
+      "base_lines": [
+        355,
+        559
+      ]
+    },
+    {
+      "function": "_admission_failure_fallback",
+      "ast_equal": true,
+      "candidate_lines": [
+        264,
+        305
+      ],
+      "base_lines": [
+        264,
+        305
+      ]
+    },
+    {
+      "function": "_target_servers_delegate_auth_to_upstream",
+      "ast_equal": true,
+      "candidate_lines": [
+        673,
+        728
+      ],
+      "base_lines": [
+        667,
+        722
+      ]
+    },
+    {
+      "function": "_target_servers_are_true_passthrough",
+      "ast_equal": true,
+      "candidate_lines": [
+        731,
+        753
+      ],
+      "base_lines": [
+        725,
+        747
+      ]
+    },
+    {
+      "function": "_single_dcr_bridge_delegate_target",
+      "ast_equal": true,
+      "candidate_lines": [
+        756,
+        784
+      ],
+      "base_lines": [
+        750,
+        778
+      ]
+    },
+    {
+      "function": "_is_mcp_passthrough_cold_start",
+      "ast_equal": true,
+      "candidate_lines": [
+        125,
+        146
+      ],
+      "base_lines": [
+        125,
+        146
+      ]
+    },
+    {
+      "function": "_parse_mcp_server_names_from_path",
+      "ast_equal": true,
+      "candidate_lines": [
+        91,
+        122
+      ],
+      "base_lines": [
+        91,
+        122
+      ]
+    }
+  ],
+  "advisory": {
+    "url": "https://github.com/BerriAI/litellm/security/advisories/GHSA-7488-6r32-c95q",
+    "web_read": "successful; official page states affected <1.84.0 and patched >=1.84.0",
+    "api_url": "https://api.github.com/repos/BerriAI/litellm/security-advisories/GHSA-7488-6r32-c95q",
+    "api_capture": "failed",
+    "error": "HTTP Error 403: rate limit exceeded",
+    "response_sha256": null,
+    "retried": false,
+    "error_recorded_at_utc": "2026-09-09T03:58:20.450724+00:00"
+  },
+  "reviewed_scope": [
+    "generic SSO capture and retention direct callers",
+    "request-driven SSO refresh/store/locks",
+    "ID-JAG resolver endpoints/cache/principal adapter",
+    "MCP admission fallback version-scoped reference",
+    "workload identity direct Chat/Responses callers and fixed OpenAI SDK 2.54.0 exchange"
+  ],
+  "classification": {
+    "explained": [
+      "capture-gap diagnostics",
+      "configured Redis lock reuse",
+      "opt-in lazy refresh",
+      "configured workload token file exchange"
+    ],
+    "real_engineering_boundaries": [
+      "current endpoint configuration is trusted without stored issuer/client rebinding",
+      "shared HTTP client follows redirects",
+      "process-local SSO cache invalidation",
+      "non-atomic renewal check/write; best-effort Redis lock"
+    ],
+    "unknown": [
+      "actual installation and active configuration",
+      "end-user ability to control trusted endpoint configuration",
+      "IdP acceptance and effective scope",
+      "full revocation/deletion semantics and all dependency logs"
+    ],
+    "confirmed_exploitable_vulnerabilities": [],
+    "attributable_malicious_behaviors": []
+  },
+  "coordinator_review": {
+    "reviewed_at_utc": "2026-09-09T04:09:08.532918+00:00",
+    "candidate_source_hashes_verified": 38,
+    "base_source_hashes_verified": 34,
+    "auth_function_ast_and_line_ranges_verified": 7,
+    "sdk_wheel_and_four_source_member_hashes_verified": true,
+    "corrections": [
+      "SDK exchange body range corrected to openai/auth/_workload.py:241-264; default URL definition at line 16",
+      "Workload data flow lists endpoint exchange before caching the result",
+      "Delivery status and deployment-specific limits clarified"
+    ],
+    "parser_error": "System Python 3.9 could not parse the source match statement at line 820. The comparison stopped at that SyntaxError; it then succeeded using the bundled Python 3.12.14. Target code was never imported or executed."
+  }
+}
