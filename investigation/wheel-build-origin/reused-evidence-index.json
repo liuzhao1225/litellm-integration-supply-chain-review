@@ -1,0 +1,57 @@
+[
+  {
+    "path": "investigation/artifact-records/pypi-artifacts.json",
+    "bytes": 5421,
+    "sha256": "06216b06810bd2cd73edf4b25629b1afff2a7088e63757132bbce7c86005821a"
+  },
+  {
+    "path": "investigation/abi-compatibility/git-vs-sdist-1.99.0-Cargo.json",
+    "bytes": 1010,
+    "sha256": "f3ce887d9a4b938da628f94041a482a4331dee20381bbf9ba30fcd92917bac65"
+  },
+  {
+    "path": "investigation/release-chain/rust-compiler-revisions.json",
+    "bytes": 1824,
+    "sha256": "739b9cf3a73cd71043ec3b1b215d4e5a7b158ab181ee7c2159527c1de8cc7f1d"
+  },
+  {
+    "path": "investigation/version-1.101/artifacts/download-summary.json",
+    "bytes": 4041,
+    "sha256": "28cbd0dbbdf2303d52c61ffe7d161b96f8a3aa94964b277d811d7a26f2e91357"
+  },
+  {
+    "path": "investigation/version-1.101/artifacts/metadata-comparison.json",
+    "bytes": 4630,
+    "sha256": "5fa87c0dc4dd1ca6fba7374b26fefb4f519a756d7d62bc158570b24567fbfba6"
+  },
+  {
+    "path": "investigation/version-1.101/artifacts/wheel-audit-summary.json",
+    "bytes": 327884,
+    "sha256": "09ab948f7d2d470777ef1c725bfd6a8d5ac2d99ef754ebc06702799cc56e4317"
+  },
+  {
+    "path": "investigation/version-1.101/build/wheel-generator-source.json",
+    "bytes": 2379,
+    "sha256": "92b7d5713c7f00e61ef1731d580ea14edcd002cd3f695973993f2b6296f44af3"
+  },
+  {
+    "path": "investigation/version-1.101/build/backend-extra-sources.json",
+    "bytes": 3110,
+    "sha256": "e441783d5c8c40702feb10ec6208a3eaf0cbb54ccc553421c0dbc43c2d73c177"
+  },
+  {
+    "path": "investigation/version-1.101/build/backend-analysis.json",
+    "bytes": 2579,
+    "sha256": "af9b5030535f56e607eedfb2b74cdc34e2992c0da4cf6811c6418964521cc6d6"
+  },
+  {
+    "path": "investigation/version-1.101/release-context/release-summary.json",
+    "bytes": 10863,
+    "sha256": "8c66046442a7b462b7f0488180c264cbbcb2bac01fd42616d9497c1d1224d0c1"
+  },
+  {
+    "path": "investigation/version-1.101/release-context/workflow-summary.json",
+    "bytes": 5889,
+    "sha256": "fdeb3838376825e62f7a4c1120f29a0c049b8063c1dd160d5f68bbb54fe28f59"
+  }
+]

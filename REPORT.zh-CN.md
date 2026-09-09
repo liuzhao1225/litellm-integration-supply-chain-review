@@ -34,7 +34,7 @@
 
 后续优先取得能改变判断的材料：
 
-1. **原始构建记录。** 用准确 wheel 哈希、源码 commit、maturin/工具链身份、有效 PyO3 features 和构建命令解释候选源码要求 1.15.0、wheel 自报 1.9.4 的差异。Trusted Publishing 说明发布认证机制；镜像声明的 subject 仍是镜像，当前无法代替 PyPI 产物绑定。[构建问题](investigation/version-1.101/build/README.md)、[发布证明边界](investigation/version-1.101/release-context/README.md)。
+1. **原始构建记录。** 用准确 wheel 哈希、源码 commit、maturin/工具链身份、有效 PyO3 features 和构建命令解释候选源码要求 1.15.0、wheel 自报 1.9.4 的差异。已核对直接相关的公开原生打包讨论与固定测试脚本，仍未取得这些 wheel 的发布运行绑定。[三版本来源矩阵与公开命令](investigation/wheel-build-origin/README.md)。Trusted Publishing 说明发布认证机制；镜像声明的 subject 仍是镜像，当前无法代替 PyPI 产物绑定。[发布证明边界](investigation/version-1.101/release-context/README.md)。
 2. **可改变行为的未解释差异。** 优先追新增或变化代码到秘密来源、发送目的地、执行条件和持久化动作，必要时再做无真实秘密的隔离验证。重复发现普通环境变量读取或再增加同类 PR 数量，对当前归因的增量价值有限。
 3. **可核验的贡献说明。** 核对下游需求、准确测试制品、关系披露与现有公开记录是否一致。[上游 #40308](https://github.com/BerriAI/litellm/issues/40308)已经提出问题；回复、沉默、关闭 issue 或否认关联本身都不替代技术证据。
 
@@ -172,11 +172,15 @@ Proxy/SSO 的旧漏洞告警也需按当前代码判断：1.100 默认 UI 会话
 
 ## 1.101 候选版：新增审计对象及安装边界
 
-截至 9 月 8 日 21:27 UTC，PyPI `1.101.0` 与 GitHub `v1.101.0` Release 查询返回 404；实际取得的是 PyPI `1.101.0rc1` 和 GitHub `v1.101.0-rc.1`。候选版八个文件上传于 9 月 6 日 03:06 UTC，GitHub 自动化账号于 03:20:59 UTC 创建的发布标为 prerelease。404 仅说明当前接口未取得该正式版记录，不证明删除或从未存在。[版本记录与调查入口](investigation/version-1.101/README.md)。
+9 月 8 日 21:27 UTC 首次查询及 9 月 9 日 02:13:31 UTC 复核中，PyPI `1.101.0` 与 GitHub `v1.101.0` Release 精确接口均返回 404；取得的是 PyPI `1.101.0rc1` 和 GitHub `v1.101.0-rc.1`。复核时，候选版八个文件的名称—SHA-256 映射与先前记录一致。文件上传于 9 月 6 日 03:06 UTC，GitHub 自动化账号于 03:20:59 UTC 创建的发布标为 prerelease。404 仅说明观察时未取得该正式版记录，不证明删除或从未存在。[原始版本记录](investigation/version-1.101/README.md)、[复核时间与逐文件身份](investigation/wheel-build-origin/version-status.json)。
 
 [候选制品审计](investigation/version-1.101/artifacts/README.md)已取得七平台 wheel 并核对实体哈希，24,236 项 RECORD 哈希通过；每个平台 2,323 个 Python 文件匹配固定源码，Windows 结合原文和换行归一化判断。与 1.100 相比有 43 个新增、597 个修改文件，基础 14 项依赖和三个命令入口相同；来源匹配不等于完成所有行为审计。
 
-[候选构建审计](investigation/version-1.101/build/README.md)核实源码包要求 maturin 1.15.0，PyO3 升为 0.29.2，并显式启用 ABI3；七个 wheel 的 WHEEL 生成器字段仍写 maturin 1.9.4。外部旧版 CLI 构建可以解释该差异，实际原因需要原始命令与运行记录。Linux x86 的 112 个 Python 动态符号均在 CPython 3.10 Stable ABI 清单内，新增项为 PyErr_CheckSignals；初始化代码变化单独记录，不据此宣布整体等价。
+[候选构建审计](investigation/version-1.101/build/README.md)核实源码包要求 maturin 1.15.0，PyO3 升为 0.29.2，并显式启用 ABI3；七个 wheel 的 WHEEL 生成器字段仍写 maturin 1.9.4。使用外部旧版 CLI 是待验证的一种可能解释，实际原因需要原始命令与运行记录。Linux x86 的 112 个 Python 动态符号均在 CPython 3.10 Stable ABI 清单内，新增项为 PyErr_CheckSignals；初始化代码变化单独记录，不据此宣布整体等价。
+
+**公开构建线索已经追到具体命令。** [原生发行讨论 #31261](https://github.com/BerriAI/litellm/issues/31261)及直接关联的[打包 PR #31267](https://github.com/BerriAI/litellm/pull/31267)记录了默认 wheel 纳入 Rust 扩展和补齐平台支持的工程背景。固定源码显示，六月配置允许 `maturin>=1.9.4,<2`，Windows 测试使用 `uv build`；候选 Rust 测试同样使用 `uv build`，另为 panic 测试显式传入 features。旧配置、测试命令及平台支持说明有正常用途，不能据此还原九月发布任务。检查范围内仍没有受审 wheel SHA 对应的发布命令、ABI3 注入步骤或实际工具链记录。[固定文件、行号与 Git blob 核验](investigation/wheel-build-origin/public-commands.json)。
+
+构建来源问题现归并为一项具体请求：提供以准确 wheel SHA 为 subject 的原始构建记录，包含实际 checkout/补丁、maturin 与 Rust 来源、完整命令和有效 features；它应能解释 1.99 sdist 的 ABI3 增补、1.100 的 ABI3 参数来源及候选的 Generator 差异。三版本分别覆盖 1、7、7 个实际审计 wheel，未把其他 1.99 平台列为已核验。Generator 与编译器字符串属于制品内自报字段，不能独立认证工具链。已整理[来源矩阵](investigation/wheel-build-origin/source-matrix.json)及[英文构建问询草稿](investigation/wheel-build-origin/upstream-build-question.en.md)，草稿尚未对外发送。
 
 [发布来源](investigation/version-1.101/release-context/README.md)确认候选八文件也显示 Trusted Publishing，八次 Integrity 查询均无 provenance。[候选镜像签名及声明](investigation/version-1.101/images/README.md)核验通过，两个平台对应固定源码 eeb7732…；其 subject 为镜像摘要，没有绑定原始 PyPI 文件。公开 GitHub Create Release 流程发生在 PyPI 上传之后，不能替代该来源证明。
 

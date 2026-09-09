@@ -1,0 +1,92 @@
+{
+  "scope": "Explicit public files relative to investigation/wheel-build-origin; excludes .raw and this manifest itself.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 19,
+      "sha256": "dc7e60ffe0b4d12987b3e75c35a41e1f4778689f019d03181e58a9ea1d811d2b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8705,
+      "sha256": "45a1dc3cd370860d530da2a1fde5af6cfd1f923cdaa650f2d9b155ca416edab2"
+    },
+    {
+      "path": "assemble.py",
+      "bytes": 9831,
+      "sha256": "6ab35acdf975c5ff4fd20bcce23ab4d5feffa08675ae36c042af342a45f97f3d"
+    },
+    {
+      "path": "discussion-index.json",
+      "bytes": 4054,
+      "sha256": "7b16f8471d0083b9bd32c9be339fa264343c9f1e653dee2d7316b2d854331fdb"
+    },
+    {
+      "path": "fetch-index.json",
+      "bytes": 4388,
+      "sha256": "dfddc1305f6b20bc6f0bbcf1b318aca1d75aafceac8ad150b948fab0446371f9"
+    },
+    {
+      "path": "fetch_public.py",
+      "bytes": 1395,
+      "sha256": "0dded43d746ed98c30b339ec42d5cde8bc39ef3bbf1d0e1ff62e64b8d39cbdfb"
+    },
+    {
+      "path": "public-commands.json",
+      "bytes": 9573,
+      "sha256": "73b907656c57309003e5202f84571f645943ed90f3fa65b9fc2ad179907ac631"
+    },
+    {
+      "path": "read-errors.json",
+      "bytes": 756,
+      "sha256": "796dcf1601d639a8f5460883dce0b90181a0308b41942796a3766496c4594f94"
+    },
+    {
+      "path": "reused-evidence-index.json",
+      "bytes": 2037,
+      "sha256": "e84994d1209cda56af09e1a6ae9dfffdb98e5574443116721f7459b99aec6fb6"
+    },
+    {
+      "path": "source-matrix.json",
+      "bytes": 11877,
+      "sha256": "e3216e68113f842bb4614ec4afdaaf07aee8531c0b27ce8781cdbb7df1098b06"
+    },
+    {
+      "path": "sources/candidate-test-rust.txt",
+      "bytes": 4183,
+      "sha256": "4a62daa34b53e371c756ab94d00181b4525dc2f33cb52e1f4998dc83d43c69b4"
+    },
+    {
+      "path": "sources/maturin-1.15.0-generator.txt",
+      "bytes": 24806,
+      "sha256": "aa9db6ca071b34a31736bc97ede165cd5ca87abf9bd62e2c68886edbd22e1e14"
+    },
+    {
+      "path": "sources/maturin-1.9.4-cli.txt",
+      "bytes": 20667,
+      "sha256": "ca44a6db0a7ecf62aa9b54ed3a4eb4f49ff1c48faa119790505c4cc39e99fb5e"
+    },
+    {
+      "path": "sources/pr-31267-fixed-circleci.txt",
+      "bytes": 117493,
+      "sha256": "e01d27f11fcaf821bd2a6c54285a8c5e2a8f7a80b53702cce97c9b29139e18d2"
+    },
+    {
+      "path": "sources/pr-31267-fixed-pyproject.txt",
+      "bytes": 11002,
+      "sha256": "cca405cd744aebef6a531c3f1234b123ea533b02a77b9c810d9bfc18f502d844"
+    },
+    {
+      "path": "upstream-build-question.en.md",
+      "bytes": 2680,
+      "sha256": "7f6a250243c98550a86bc7e0ecb4386e996118dcb95b57f045a229c1b2621ffb"
+    },
+    {
+      "path": "version-status.json",
+      "bytes": 3608,
+      "sha256": "3eea69063db03b5a987b20872d2877f6c194546a70330255b46c693aedbed040"
+    }
+  ],
+  "file_count": 17,
+  "total_bytes": 237074
+}

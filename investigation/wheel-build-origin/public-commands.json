@@ -1,0 +1,80 @@
+{
+  "sources": [
+    {
+      "path": "sources/pr-31267-fixed-circleci.txt",
+      "source_url": "https://github.com/BerriAI/litellm/blob/ad4dff15f060201c0ca0efa97cc786a177de8902/.circleci/config.yml",
+      "input_path": "investigation/wheel-build-origin/.raw/pr-31267-fixed-circleci.body",
+      "bytes": 117493,
+      "sha256": "e01d27f11fcaf821bd2a6c54285a8c5e2a8f7a80b53702cce97c9b29139e18d2",
+      "git_blob_sha1": "d532d3106e5f7f1fcdabb81941aa854cd4523c84",
+      "expected_git_blob_sha1": "d532d3106e5f7f1fcdabb81941aa854cd4523c84",
+      "git_blob_verified": true,
+      "excerpt_start_line": 200,
+      "excerpt_end_line": 259,
+      "excerpt": "            python --version\n          environment:\n            CHOCOLATEY_CONFIRM_ALL: \"true\"\n      - run:\n          name: Install Dependencies\n          environment:\n            UV_HTTP_TIMEOUT: \"300\"\n          command: |\n            $rustupInit = Join-Path $env:TEMP \"rustup-init.exe\"\n            $rustupVersion = \"1.28.2\"\n            $rustupUrl = \"https://static.rust-lang.org/rustup/archive/$rustupVersion/x86_64-pc-windows-msvc/rustup-init.exe\"\n            Invoke-WebRequest -Uri $rustupUrl -OutFile $rustupInit\n            $rustupExpected = \"88d8258dcf6ae4f7a80c7d1088e1f36fa7025a1cfd1343731b4ee6f385121fc0\"\n            $rustupActual = (Get-FileHash -Path $rustupInit -Algorithm SHA256).Hash.ToLower()\n            if ($rustupActual -ne $rustupExpected) {\n              throw \"rustup installer hash mismatch: expected $rustupExpected got $rustupActual\"\n            }\n            & $rustupInit -y --profile minimal --default-toolchain stable\n            if ($LASTEXITCODE -ne 0) {\n              exit $LASTEXITCODE\n            }\n            Remove-Item $rustupInit\n            $cargoBin = Join-Path $HOME \".cargo\\bin\"\n            $env:Path = \"$cargoBin;$env:Path\"\n            rustc --version\n            cargo --version\n            $installer = Join-Path $env:TEMP \"uv-install.ps1\"\n            Invoke-WebRequest -Uri https://astral.sh/uv/0.10.9/install.ps1 -OutFile $installer\n            $expected = \"d43ffff8d28e7d1e7d1831a212465f12b24a43c7f87f386e95e2a5915aee5d7d\"\n            $actual = (Get-FileHash -Path $installer -Algorithm SHA256).Hash.ToLower()\n            if ($actual -ne $expected) {\n              throw \"uv installer hash mismatch: expected $expected got $actual\"\n            }\n            & $installer\n            Remove-Item $installer\n            $uvBin = Join-Path $HOME \".local\\bin\"\n            $env:Path = \"$uvBin;$env:Path\"\n            if (!(Test-Path $PROFILE)) {\n              New-Item -ItemType File -Force -Path $PROFILE | Out-Null\n            }\n            if (-not (Select-String -Path $PROFILE -SimpleMatch $uvBin -Quiet)) {\n              Add-Content -Path $PROFILE -Value \"`$env:Path = `\"$uvBin;`$env:Path`\"\"\n            }\n            if (-not (Select-String -Path $PROFILE -SimpleMatch $cargoBin -Quiet)) {\n              Add-Content -Path $PROFILE -Value \"`$env:Path = `\"$cargoBin;`$env:Path`\"\"\n            }\n            uv sync --frozen --group dev --python 3.11\n      - run:\n          name: Run Windows-specific test\n          command: |\n            uv run --no-sync python -m pytest tests/windows_tests/ -v\n      - run:\n          name: Guard against MAX_PATH-busting packaged wheel paths\n          environment:\n            UV_HTTP_TIMEOUT: \"300\"\n          command: |\n            $env:Path = \"$HOME\\.cargo\\bin;$HOME\\.local\\bin;$env:Path\"\n            cargo --version\n            uv build --wheel --out-dir dist\n            uv run --no-sync python tests/windows_tests/check_windows_wheel_install.py"
+    },
+    {
+      "path": "sources/pr-31267-fixed-pyproject.txt",
+      "source_url": "https://github.com/BerriAI/litellm/blob/ad4dff15f060201c0ca0efa97cc786a177de8902/pyproject.toml",
+      "input_path": "investigation/wheel-build-origin/.raw/pr-31267-fixed-pyproject.body",
+      "bytes": 11002,
+      "sha256": "cca405cd744aebef6a531c3f1234b123ea533b02a77b9c810d9bfc18f502d844",
+      "git_blob_sha1": "30b9a84e09a1b0c85254099d380a6fcea80a7090",
+      "expected_git_blob_sha1": "30b9a84e09a1b0c85254099d380a6fcea80a7090",
+      "git_blob_verified": true,
+      "excerpt_start_line": 235,
+      "excerpt_end_line": 249,
+      "excerpt": "\n[build-system]\nrequires = [\"maturin>=1.9.4,<2\"]\nbuild-backend = \"maturin\"\n\n[tool.maturin]\nmanifest-path = \"litellm-rust/crates/python-bridge/Cargo.toml\"\nmodule-name = \"litellm.rust_bridge._native\"\npython-source = \".\"\nbindings = \"pyo3\"\nexclude = [\n    \"litellm/proxy/enterprise\",\n    \"litellm/proxy/enterprise/**\",\n    \"**/__pycache__\",\n    \"**/__pycache__/**\","
+    },
+    {
+      "path": "sources/candidate-test-rust.txt",
+      "source_url": "https://github.com/BerriAI/litellm/blob/eeb7732fc11fd47762ca84cc3fb7cc74235d7097/.github/workflows/test-rust.yml",
+      "input_path": "investigation/version-1.101/release-context/local/blob-test-rust.yml.txt",
+      "bytes": 4183,
+      "sha256": "4a62daa34b53e371c756ab94d00181b4525dc2f33cb52e1f4998dc83d43c69b4",
+      "git_blob_sha1": "9b8b132df62101786ab1ac6ccd49abaf7f9afd01",
+      "expected_git_blob_sha1": "9b8b132df62101786ab1ac6ccd49abaf7f9afd01",
+      "git_blob_verified": true,
+      "excerpt_start_line": 105,
+      "excerpt_end_line": 139,
+      "excerpt": "      - name: Set up Python\n        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0\n        with:\n          python-version: \"3.12\"\n\n      - name: Set up uv\n        uses: ./.github/actions/setup-uv-with-retries\n        with:\n          version: \"0.10.9\"\n\n      - name: Set up Rust\n        run: rustup toolchain install\n\n      - name: Build release wheel\n        run: uv build --wheel --out-dir dist\n\n      - name: Build panic contract wheel\n        run: >-\n          uv build --wheel --out-dir panic-dist\n          --config-setting \"maturin.build-args=--features panic-test,extension-module\"\n\n      - name: Smoke-test native panic unwinding\n        run: python .github/scripts/smoke_test_native_wheel.py panic-dist/*.whl\n\n      - name: Verify stripped native extension\n        env:\n          RELEASE_WHEEL_COMMIT_SHA: ${{ github.event.pull_request.head.sha || github.sha }}\n        run: python .github/scripts/verify_linux_native_wheel.py dist/*.whl\n\n      - name: Test native route wheel\n        run: python tests/test_litellm/rust_bridge/native_route_wheel_test.py dist/*.whl"
+    },
+    {
+      "path": "sources/maturin-1.9.4-cli.txt",
+      "source_url": "https://github.com/PyO3/maturin/blob/52dc989a9b3f86ce040be9c9037ca34038367559/src/main.rs",
+      "input_path": "investigation/version-1.101/build/backend/1.9.4/src/main.rs.txt",
+      "bytes": 20667,
+      "sha256": "ca44a6db0a7ecf62aa9b54ed3a4eb4f49ff1c48faa119790505c4cc39e99fb5e",
+      "git_blob_sha1": "da594cdf9b87a45341aef6fecec863674af57814",
+      "expected_git_blob_sha1": null,
+      "git_blob_verified": false,
+      "excerpt_start_line": 362,
+      "excerpt_end_line": 385,
+      "excerpt": "    setup_logging(opt.verbose)?;\n\n    match opt.command {\n        Command::Build {\n            build,\n            release,\n            strip,\n            sdist,\n        } => {\n            let build_context = build\n                .into_build_context()\n                .release(release)\n                .strip(strip)\n                .editable(false)\n                .build()?;\n            if sdist {\n                build_context\n                    .build_source_distribution()?\n                    .context(\"Failed to build source distribution, pyproject.toml not found\")?;\n            }\n            let wheels = build_context.build_wheels()?;\n            assert!(!wheels.is_empty());\n        }\n        #[cfg(feature = \"upload\")]"
+    },
+    {
+      "path": "sources/maturin-1.15.0-generator.txt",
+      "source_url": "https://files.pythonhosted.org/packages/b9/c8/22e5e21b2679c9bce6415ca578034ca2cc9316be0642ae21e051a2d5198c/maturin-1.15.0.tar.gz",
+      "input_path": "investigation/version-1.101/build/backend/1.15.0/src/module_writer/mod.rs.txt",
+      "bytes": 24806,
+      "sha256": "aa9db6ca071b34a31736bc97ede165cd5ca87abf9bd62e2c68886edbd22e1e14",
+      "git_blob_sha1": "6837a9139727d0b3b2196edce1bac77f07809d89",
+      "expected_git_blob_sha1": null,
+      "git_blob_verified": false,
+      "excerpt_start_line": 531,
+      "excerpt_end_line": 542,
+      "excerpt": "fn wheel_file(tags: &[WheelTag]) -> Result<String> {\n    let mut wheel_file = format!(\n        \"Wheel-Version: 1.0\nGenerator: {name} ({version})\nRoot-Is-Purelib: false\n\",\n        name = env!(\"CARGO_PKG_NAME\"),\n        version = env!(\"CARGO_PKG_VERSION\"),\n    );\n\n    for tag in tags {\n        for expanded_tag in tag.expand() {"
+    }
+  ],
+  "interpretation": {
+    "observed_project_commands": [
+      "uv sync --frozen --group dev --python 3.11",
+      "uv build --wheel --out-dir dist",
+      "uv build --wheel --out-dir panic-dist --config-setting \"maturin.build-args=--features panic-test,extension-module\""
+    ],
+    "observed_release_command_for_audited_wheel": null,
+    "observed_external_old_maturin_release_command": null,
+    "observed_abi3_injection_command": null,
+    "direct_cli_source": "maturin 1.9.4 Command::Build calls its own build context and build_wheels; this supports an external CLI explanation as a possibility, without demonstrating release use or compatibility with all newer project inputs."
+  }
+}

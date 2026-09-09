@@ -1,0 +1,24 @@
+{
+  "http_observations": [
+    {
+      "label": "github-1.101.0",
+      "url": "https://api.github.com/repos/BerriAI/litellm/releases/tags/v1.101.0",
+      "http_status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "label": "pypi-1.101.0",
+      "url": "https://pypi.org/pypi/litellm/1.101.0/json",
+      "http_status": 404,
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "local_errors": [
+    {
+      "operation": "Lookup of investigation/version-1.101/release-context/workflows/*",
+      "error": "zsh: no matches found",
+      "effect": "No content read from that nonexistent directory. Located existing local/blob-test-rust.yml.txt by filename inventory; no network request retried."
+    }
+  ],
+  "network_retries": 0
+}

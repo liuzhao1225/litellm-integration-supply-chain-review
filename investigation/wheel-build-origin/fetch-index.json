@@ -1,0 +1,112 @@
+[
+  {
+    "label": "github-1.101.0",
+    "url": "https://api.github.com/repos/BerriAI/litellm/releases/tags/v1.101.0",
+    "checked_at_utc": "2026-09-09T02:13:31.167280+00:00",
+    "http_status": 404,
+    "error": "HTTP Error 404: Not Found",
+    "raw_path": ".raw/github-1.101.0.body",
+    "bytes": 133,
+    "sha256": "010563d2cfb8f1e87f700936ce59ee3a33364da46e3db41b0049227918ece74d"
+  },
+  {
+    "label": "github-1.101.0rc1",
+    "url": "https://api.github.com/repos/BerriAI/litellm/releases/tags/v1.101.0-rc.1",
+    "checked_at_utc": "2026-09-09T02:13:31.167492+00:00",
+    "http_status": 200,
+    "raw_path": ".raw/github-1.101.0rc1.body",
+    "bytes": 29024,
+    "sha256": "a20f652ffef3b974f2205301f859cc8b76033c0d5d103214ad640f83a6816b3a"
+  },
+  {
+    "label": "issue-31261-comments",
+    "url": "https://api.github.com/repos/BerriAI/litellm/issues/31261/comments?per_page=100",
+    "checked_at_utc": "2026-09-09T02:13:31.167779+00:00",
+    "http_status": 200,
+    "raw_path": ".raw/issue-31261-comments.body",
+    "bytes": 34413,
+    "sha256": "51153f4c9ea95fa5aff8bba0eabd5e865f38889c30bc9cc09f1ff2ed6caaaa6b"
+  },
+  {
+    "label": "issue-31261-timeline",
+    "url": "https://api.github.com/repos/BerriAI/litellm/issues/31261/timeline?per_page=100",
+    "checked_at_utc": "2026-09-09T02:13:54.562917+00:00",
+    "http_status": 200,
+    "raw_path": ".raw/issue-31261-timeline.body",
+    "bytes": 308148,
+    "sha256": "1cb185c6903cb9d889e565965761ac95ae35822c8c626077c8cada44a5f06ea7"
+  },
+  {
+    "label": "issue-31261",
+    "url": "https://api.github.com/repos/BerriAI/litellm/issues/31261",
+    "checked_at_utc": "2026-09-09T02:13:31.167662+00:00",
+    "http_status": 200,
+    "raw_path": ".raw/issue-31261.body",
+    "bytes": 3880,
+    "sha256": "af1b30768b7570e248895756afe497c403c074b7d2f15c83acda8792c199ce09"
+  },
+  {
+    "label": "pr-31267-comments",
+    "url": "https://api.github.com/repos/BerriAI/litellm/issues/31267/comments?per_page=100",
+    "checked_at_utc": "2026-09-09T02:14:44.660150+00:00",
+    "http_status": 200,
+    "raw_path": ".raw/pr-31267-comments.body",
+    "bytes": 21554,
+    "sha256": "11a7c3ac33290e6019423eeea38dbabeb474c83881f5dc250f690780ecb51536"
+  },
+  {
+    "label": "pr-31267-files",
+    "url": "https://api.github.com/repos/BerriAI/litellm/pulls/31267/files?per_page=100",
+    "checked_at_utc": "2026-09-09T02:14:44.659451+00:00",
+    "http_status": 200,
+    "raw_path": ".raw/pr-31267-files.body",
+    "bytes": 22513,
+    "sha256": "fbd260a32761ba9f87eddbb7b30686e0e0d715ebdeee851b355644a96f5c431b"
+  },
+  {
+    "label": "pr-31267-fixed-circleci",
+    "url": "https://raw.githubusercontent.com/BerriAI/litellm/ad4dff15f060201c0ca0efa97cc786a177de8902/.circleci/config.yml",
+    "checked_at_utc": "2026-09-09T02:19:05.155401+00:00",
+    "http_status": 200,
+    "raw_path": ".raw/pr-31267-fixed-circleci.body",
+    "bytes": 117493,
+    "sha256": "e01d27f11fcaf821bd2a6c54285a8c5e2a8f7a80b53702cce97c9b29139e18d2"
+  },
+  {
+    "label": "pr-31267-fixed-pyproject",
+    "url": "https://raw.githubusercontent.com/BerriAI/litellm/ad4dff15f060201c0ca0efa97cc786a177de8902/pyproject.toml",
+    "checked_at_utc": "2026-09-09T02:19:05.155973+00:00",
+    "http_status": 200,
+    "raw_path": ".raw/pr-31267-fixed-pyproject.body",
+    "bytes": 11002,
+    "sha256": "cca405cd744aebef6a531c3f1234b123ea533b02a77b9c810d9bfc18f502d844"
+  },
+  {
+    "label": "pr-31267",
+    "url": "https://api.github.com/repos/BerriAI/litellm/pulls/31267",
+    "checked_at_utc": "2026-09-09T02:14:44.659940+00:00",
+    "http_status": 200,
+    "raw_path": ".raw/pr-31267.body",
+    "bytes": 20776,
+    "sha256": "4015631458b3ee7571959570e0870f94adc2e06cc0730529ae371a1122db0128"
+  },
+  {
+    "label": "pypi-1.101.0",
+    "url": "https://pypi.org/pypi/litellm/1.101.0/json",
+    "checked_at_utc": "2026-09-09T02:13:31.166645+00:00",
+    "http_status": 404,
+    "error": "HTTP Error 404: Not Found",
+    "raw_path": ".raw/pypi-1.101.0.body",
+    "bytes": 24,
+    "sha256": "b82014934f66beeb9e05a37f65357c4b50db0349d25d68d818ed0319dd4feb40"
+  },
+  {
+    "label": "pypi-1.101.0rc1",
+    "url": "https://pypi.org/pypi/litellm/1.101.0rc1/json",
+    "checked_at_utc": "2026-09-09T02:13:31.167155+00:00",
+    "http_status": 200,
+    "raw_path": ".raw/pypi-1.101.0rc1.body",
+    "bytes": 49033,
+    "sha256": "87a53167373f896852333ed69c5721e9e5c74e0ff1be637da78fdbbb208f8028"
+  }
+]

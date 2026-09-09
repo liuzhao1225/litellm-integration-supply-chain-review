@@ -15,6 +15,8 @@
 
 八个文件的名称、大小、SHA-256、上传时间和官方下载 URL 均保存在 [availability.json](availability.json)。这是索引所声明的身份；下载后的实体哈希核对单独记录。标签已解析到 commit `eeb7732fc11fd47762ca84cc3fb7cc74235d7097`、tree `502d9ab4cdfaade8c91f78ef81096724c6c68000`，采用固定对象比较。[解析记录](artifacts/tag-resolution.json)
 
+2026-09-09 **02:13:31 UTC** 的[再次读取](../wheel-build-origin/version-status.json)中，两个正式版精确接口仍为 404，两个候选接口为 200；候选八文件的名称—SHA-256 映射与原始记录完全一致。原始观察与复核时间分别保留，未再次下载制品。
+
 ## 下游是否会安装这个候选版
 
 [pip 官方规则](https://pip.pypa.io/en/stable/cli/pip_install/#pre-release-versions)默认选择稳定版本，显式候选版要求或 `--pre` 会允许预发布版本。在存在满足约束的正式版时，不能仅由 YouDub #130 的 `>=1.89.0,<2.0.0` 推出默认安装 1.101.0rc1。其他解析器、已有安装、索引、完整 constraints 和命令选项仍需分别确认。
@@ -41,3 +43,5 @@
 [制品比较](artifacts/metadata-comparison.json)确认基础 14 项依赖和三个 console_scripts 入口与 1.100 相同；依赖变更在可选 extras。Python 内容有 43 个新增、597 个修改文件，这些文件的 Git 来源匹配已经核对，全部行为仍未完成审计。
 
 上述结果尚不足以确认候选版投毒。最具体的来源问题是生成器版本与源码声明的差异，以及原始 wheel 的源码、工具链、feature 集和构建运行尚未形成可验证绑定。所有结果进入[完整调查报告](../../REPORT.zh-CN.md)，保留能够削弱怀疑的证据及未决问题。
+
+[三版本构建来源核对](../wheel-build-origin/README.md)已沿原生发行讨论读取直接关联 PR 与固定测试配置，确认公开 `uv build` 命令和显式测试 feature 参数。旧 maturin 版本范围与候选精确声明分别记录；这些测试配置仍没有绑定已发布 wheel 的 SHA。所需记录与一条尚未发送的精确问询见该目录。
